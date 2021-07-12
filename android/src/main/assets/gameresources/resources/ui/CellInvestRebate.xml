@@ -1,0 +1,46 @@
+﻿<CellInvestRebate GUID="{23a75673-d8d7-47d3-9e79-37a751e3ed42}">
+    <WZUIContainer Type="WZUIContainer" GUID="{8fc09bec-1205-44c4-a1e2-1d6969dd22fd}" AbsContentSize="180,300" UseAbsSize="True" LuaObjectName="CellInvestRebate" Name="CellInvestRebate" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{ba7b5b22-586c-43c1-b23e-c3d26b7c22cc}">
+            <WZUIImage Type="WZUIImage" GUID="{e9e7ffb1-1550-49bd-87ae-ffb757cb829c}" File="ui/gameActivity/common_hd_di_03.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c6db31ef-24cd-4f2d-8b77-bcb92c6d5fce}" Name="txtName_CellInvestRebate" Text="" LabelStyleKey="C1_F20_S4_C2" RelativePosition="0.5,0.92" />
+            <WZUIImage Type="WZUIImage" GUID="{4f8aafeb-ff84-49d8-8c1d-e2bd7d7548d8}" File="ui/common/common_icon_fengexian2.png" UseOriginSize="True" Scale="0.48" RelativePosition="0.5,0.85" />
+            <WZUIContainer Type="WZUIContainer" GUID="{0f5ebf34-81be-4b44-8215-d604a1683b77}" Name="conBag_CellInvestRebate" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.596667" RelativeSize="1,0.95" AbsContentSize="180,140" UseAbsSize="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{9e58eaeb-a42a-4ce8-8eb6-c404c682ba4a}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.285,1" AnchorPoint="0.5,1" Name="conReward01_CellInvestRebate" />
+                <WZUIContainer Type="WZUIContainer" GUID="{21769a58-b041-4092-926d-89649d1558a1}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.715,1" AnchorPoint="0.5,1" Name="conReward02_CellInvestRebate" />
+                <WZUIContainer Type="WZUIContainer" GUID="{b878e2b6-b532-4255-8aa2-23e66b633169}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.285,0.5" AnchorPoint="0.5,1" Name="conReward03_CellInvestRebate" />
+                <WZUIContainer Type="WZUIContainer" GUID="{c5df61f7-2a0b-468f-882a-ca2f0befdb4d}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.715,0.5" AnchorPoint="0.5,1" Name="conReward04_CellInvestRebate" />
+            </WZUIContainer>
+            <WZUIMoveContainer Type="WZUIMoveContainer" AbsContentSize="180,140" UseAbsSize="True" RelativePosition="0.5,0.590769" AbsPosition="379,194" EnableMoveHorizontal="False" GUID="{bd6454c4-7134-4816-8bb8-1ae1ef55a55b}" Name="conMove_CellInvestRebate" EnableMoveoutContainer="False" EnableBounceBack="False" Visible="False">
+                <MoveElement Type="WZUIContainer" GUID="{9d9e712f-fd04-4893-bc58-5afd39a5fb9d}" RelativePosition="0.5,0.5" AbsPosition="371.5,139" AbsContentSize="180,280" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativeSize="1,1">
+                    <MoveElement Type="WZUIContainer" GUID="{cf400d9b-08d4-4bf2-81d3-a6ee2d880c46}" RelativePosition="0.5,1" AbsPosition="371.5,139" AbsContentSize="180,280" UseAbsSize="True" AnchorPoint="0.5,1" RelativeSize="1,1">
+                        <WZUIContainer Type="WZUIContainer" GUID="{0fc76e93-a6b5-44f2-af5c-a0a164bc26e7}" AbsContentSize="180,280" UseAbsSize="True" RelativePosition="0.5,0.5" AbsPosition="371.5,275.307">
+                            <WZUIContainer Type="WZUIContainer" GUID="{62eed89a-43a8-44c5-8177-3f84e7ca7b5f}" AbsContentSize="180,280" UseAbsSize="True" RelativePosition="0.497472,0.246002" AbsPosition="369.622,247.875" Visible="True">
+                                <WZUIContainer Type="WZUIContainer" GUID="{8f510180-a15d-4c74-a39e-7a746f22ce8c}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.285,1" AnchorPoint="0.5,1" Name="conReward1_CellInvestRebate" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{0f2bb1e9-bd1c-4b20-9341-015e3f9d73b9}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.715,1" AnchorPoint="0.5,1" Name="conReward2_CellInvestRebate" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{c20aec52-7cdd-4eda-bece-9935faefb27d}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.285,0.74" AnchorPoint="0.5,1" Name="conReward3_CellInvestRebate" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{7f82b3ae-876e-4ceb-a4e1-4295f05dad82}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.715,0.74" AnchorPoint="0.5,1" Name="conReward4_CellInvestRebate" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{28596c5e-ab9b-410c-9e34-c35b387cbac7}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.285,0.48" AnchorPoint="0.5,1" Name="conReward5_CellInvestRebate" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{7fc7e32d-5387-4e72-b241-b0e789eb2d3c}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.715,0.48" AnchorPoint="0.5,1" Name="conReward6_CellInvestRebate" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </MoveElement>
+                </MoveElement>
+            </WZUIMoveContainer>
+            <Button Type="WZUIButton" GUID="{e173cb8a-67a7-4696-8bf5-c35cc4d7afef}" AbsContentSize="136,62" UseAbsSize="True" Name="btnBuy_CellInvestRebate" RelativePosition="0.5,0.165" LuaActionName="Normal" LocalInterval="300" LuaDoneFunctionName="onClickBuy">
+                <NormalElement Type="WZUIContainer" GUID="{e09fcec5-1750-40b7-b413-ae02921f2e4e}">
+                    <WZUIImage Type="WZUIImage" GUID="{4edf4471-2d25-4a4d-a779-f2bb5c6b7c9d}" File="ui/common/common_btn_anniu10_1.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5aa8f86f-b126-46ee-bb96-0659c644c092}" Name="txtBuyNor_CellInvestRebate" LabelStyleKey="NORMAL_GREEN_BTN" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{5a3381ce-acf7-43a6-9155-d07ad7663be5}">
+                    <WZUIImage Type="WZUIImage" GUID="{50d91b5c-0fbc-4904-97fa-328613fc41b4}" File="ui/common/common_btn_anniu10_1_sel.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d991e6c7-6f4e-4073-b8ae-92391967234b}" Name="txtBuySel_CellInvestRebate" LabelStyleKey="NORMAL_GREEN_BTN" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{dd385a95-f128-4398-a87b-03859dc91959}">
+                    <WZUIImage Type="WZUIImage" GUID="{5e287d17-8c05-4e7a-8b8b-1ffa3b13114b}" File="ui/common/common_btn_anniu10_1.png" GrayRender="True" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{002f3750-44e6-4caf-bc40-0d16418e9d73}" Name="txtBuyGray_CellInvestRebate" LabelStyleKey="NORMAL_GRAY_BTN" />
+                </DisableElement>
+            </Button>
+            <WZUIImage Type="WZUIImage" GUID="{bf98c934-3dd9-4a65-b493-7011f8f5e7c3}" File="ui/common/commom_icon_ygm.png" UseOriginSize="True" TouchEnable="False" Name="imgBuyState_CellInvestRebate" Visible="False" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellInvestRebate>

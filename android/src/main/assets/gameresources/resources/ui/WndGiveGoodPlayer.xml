@@ -1,0 +1,22 @@
+﻿<WndGiveGoodPlayer GUID="{de137f35-0106-4a91-ad40-cfdf16007054}">
+    <WZUIWindow Type="WZUIWindow" GUID="{aff414a0-8c36-4105-8532-7435427a54ac}" LuaObjectName="WndGiveGoodPlayer" Name="WndGiveGoodPlayer" AbsContentSize="688,380" UseAbsSize="True" NameCreate="True" LuaTouchBeganFunction="onTouchBegin" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{5d0a30d9-2b76-42c6-b7c4-229749298e63}" ShowAll="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{6e2431c2-ab68-4b71-9154-12fb4f8094d4}" File="ui/common/frame_tc_xiao.png" CapInsets="86,89,1,1" />
+            <WZUIContainer Type="WZUIContainer" GUID="{49df4a90-f9aa-40bd-959a-ce78405640ac}" AbsContentSize="498,60" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1.00526">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f073579e-17e0-481f-8fc5-baaa8905f563}" TextKey="FRIENDCIRCLE_TEXT3" FontSize="26" EnableStroke="True" Color="255,236,193" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.5" />
+                <Button Type="WZUIButton" GUID="{bfd71df4-646a-476b-ae06-53c6537ff3cb}" AbsContentSize="60,60" RelativePosition="1.1314,0.516365" UseAbsSize="True" LuaDoneFunctionName="onCloseClick" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{17b7356f-e2b0-48bd-9d41-d0a60b4ad19e}">
+                        <WZUIImage Type="WZUIImage" GUID="{c6328bc0-d985-40c8-8721-91cafc56781f}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{1b6d595b-03b3-40a5-8afe-383165a47dae}">
+                        <WZUIImage Type="WZUIImage" GUID="{2684c7e4-4d0b-4104-8942-7f132f7af529}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{b677e8bc-b944-466f-95e8-b267201d4614}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{bbae75c9-f2d8-49b9-9c74-b0ca1681db23}" AbsContentSize="680,296" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0.0510825">
+                <WZUITableContainer Type="WZUITableContainer" GUID="{7c5d0304-3382-4180-84c9-4c820f22e55f}" AbsContentSize="486,320" UseAbsSize="False" Name="tbPlayerList_WndGiveGoodPlayer" CellElementHeight="0.36" EnableMoveHorizontal="False" ColumnCount="2" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndGiveGoodPlayer>

@@ -1,0 +1,19 @@
+<root>
+<info group="1" id="1" teamName="天下第一" name="qztest1" password="qztest1"/>
+<info group="1" id="2" teamName="天下第一" name="qztest2" password="qztest2"/>
+<info group="1" id="3" teamName="天下第一" name="qztest3" password="qztest3"/>
+
+<info group="2" id="1" teamName="天下第二" name="qztest4" password="qztest4"/>
+<info group="2" id="2" teamName="天下第二" name="qztest5" password="qztest5"/>
+<info group="2" id="3" teamName="天下第二" name="qztest6" password="qztest6"/>
+
+<!--=======================================-->
+
+<infoSec group="1" id="1" teamName="国服第一" name="qztest7" password="qztest7"/>
+<infoSec group="1" id="2" teamName="国服第一" name="qztest8" password="qztest8"/>
+<infoSec group="1" id="3" teamName="国服第一" name="qztest9" password="qztest9"/>
+
+<infoSec group="1" id="1" teamName="国服第二" name="qztest10" password="qztest10"/>
+<infoSec group="1" id="2" teamName="国服第二" name="qztest11" password="qztest11"/>
+<infoSec group="1" id="3" teamName="国服第二" name="qztest12" password="qztest12"/>
+</root>

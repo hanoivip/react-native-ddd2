@@ -1,0 +1,16 @@
+﻿<CellAuctionRank GUID="{1aaa1b86-8d67-469e-9dca-e25278750e2e}">
+    <WZUIContainer Type="WZUIContainer" GUID="{aabff7e9-9895-4522-9735-32bc0c8d06ca}" Name="CellAuctionRank">
+        <WZUIContainer Type="WZUIContainer" GUID="{2a36a3aa-afee-48ff-bebc-397a06537d77}" AbsContentSize="822,82" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{77dd9f1c-bfa2-4b1c-9e45-4bf8aff73c5d}" File="ui/common/frame_lieb.png" />
+            <WZUIImage Type="WZUIImage" GUID="{61d1aa3b-4f85-41be-815f-aa22efcd06a6}" File="ui/digGem/common_icon_1st_1.png" UseOriginSize="True" RelativePosition="0.088,0.5" Name="imgRankIcon_CellAuctionRank" Visible="False" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{00376064-9666-4f65-927e-cdd8344c1d3a}" Name="txtRankNum_CellAuctionRank" Color="127,70,26" RelativePosition="0.088,0.5" FontSize="28" Text="" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f803c48f-399f-4b11-ae2f-4fe3b7d00114}" Name="txtPlayerName_CellAuctionRank" Color="127,70,26" RelativePosition="0.27,0.5" FontSize="20" Text="" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0b0798e5-275c-414d-9e8a-5e5f20761493}" Name="txtAuctioPpoints_CellAuctionRank" Color="229,105,22" RelativePosition="0.45,0.5" FontSize="20" Text="" />
+            <WZUIContainer Type="WZUIContainer" GUID="{151cf26b-1f74-42a7-89d1-95c0a9531344}" Name="conitem1_CellAuctionRank" UseAbsSize="True" AbsContentSize="64,64" RelativePosition="0.585,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{3439ea49-7f8f-4e88-b125-cd544b901262}" Name="conitem2_CellAuctionRank" UseAbsSize="True" AbsContentSize="64,64" RelativePosition="0.675,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{b66c5884-febe-4554-a4d2-5c4d140c6213}" Name="conitem3_CellAuctionRank" UseAbsSize="True" AbsContentSize="64,64" RelativePosition="0.765,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{e3556de3-5661-4c72-bc85-81ac9da75404}" Name="conitem4_CellAuctionRank" UseAbsSize="True" AbsContentSize="64,64" RelativePosition="0.855,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{af786a32-911f-4d16-8885-8e8098356ce9}" Name="conitem5_CellAuctionRank" UseAbsSize="True" AbsContentSize="64,64" RelativePosition="0.945,0.5" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellAuctionRank>

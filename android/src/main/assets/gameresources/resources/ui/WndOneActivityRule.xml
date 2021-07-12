@@ -1,0 +1,78 @@
+﻿<WndOneActivityRule GUID="{0d83207e-cf49-43a4-a335-67153f1251ac}">
+    <WZUIWindow Type="WZUIWindow" GUID="{a4d4a267-bb12-43b1-8451-3b0add55f46b}" Name="WndOneActivityRule" LuaObjectName="WndOneActivityRule" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{926d5655-b5e6-4e52-8efd-aaf3fc8a6d07}" AbsContentSize="520,338" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{cbb9e15d-cb69-47da-8654-dfb4d87c3cde}" File="ui/common/common_scale9_di19.png" CapInsets="137,75,1,1" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{18c7f9c0-8ed0-410c-bff5-b4ab9eaf7773}" Color="249,236,208" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" Text="" RelativePosition="0.5,0.9" Name="txtTitle_WndOneActivityRule" />
+            <Button Type="WZUIButton" GUID="{68736621-2918-4f83-8d09-5d57cc151a6d}" RelativePosition="0.93,0.9" AbsContentSize="60,60" UseAbsSize="True" LuaDoneFunctionName="onClickClose" Order="1">
+                <NormalElement Type="WZUIContainer" GUID="{c9e41727-b25e-4f22-80a7-04aeb8d5d937}">
+                    <WZUIImage Type="WZUIImage" GUID="{fc30c512-bf6a-4930-be81-1c7f6b3d3656}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" Scale="0.8" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{5ce93e02-e54b-49f2-8208-bb7c3e84b20f}">
+                    <WZUIImage Type="WZUIImage" GUID="{d87919f3-c0a7-4d97-9f4b-f6a0e06becf6}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" Scale="0.8" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{522e4f85-8b79-45eb-a37b-1f351454f139}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{5a5dcd0d-6f73-48f0-b547-2010fbfbe037}" Name="conType1_WndOneActivityRule" Visible="False">
+                <WZUIScrollContainer Type="WZUIScrollContainer" GUID="{698ea5b7-a7ee-4643-98d5-f300969ddaa7}" UseAbsSize="True" AbsContentSize="480,250" RelativePosition="0.5,0.42" EnableMoveHorizontal="False" Name="scrollConDesc_WndOneActivityRule">
+                    <MoveElement Type="WZUIContainer" GUID="{a8148b05-e452-4e22-9e80-864a673924f1}" UseAbsSize="True" AbsContentSize="480,400" RelativePosition="0.5,0.185">
+                        <WZUIContainer Type="WZUIContainer" GUID="{6c58295c-0add-440e-bc4c-6b7eee8b793f}" UseAbsSize="True" AbsContentSize="480,400" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{29f3c8f8-e044-4e6d-814d-e21cc2e839b7}" Name="txtDesc1_WndOneActivityRule" ShowText="" MaxWidth="480" AnchorPoint="0.5,1" RelativePosition="0.5,1" />
+                        </WZUIContainer>
+                    </MoveElement>
+                </WZUIScrollContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{4f6e6ce7-2e8c-4a68-a683-e10768706d01}" Name="conType2_WndOneActivityRule" Visible="False">
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a151bda0-799a-4036-b821-487a2692cce3}" Name="txtDesc2_WndOneActivityRule" ShowText="" MaxWidth="480" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.6" />
+                <Button Type="WZUIButton" GUID="{9f2fabce-3ebe-4c78-8ede-0e76a6c4f7a8}" UseAbsSize="True" AbsContentSize="124,60" RelativePosition="0.5,0.2" Visible="True" Name="btnConfirm_WndOneActivityRule" LuaDoneFunctionName="onClickClose">
+                    <NormalElement Type="WZUIContainer" GUID="{3e9acc80-6f24-4029-82c3-7cf732b4e794}">
+                        <WZUIImage Type="WZUIImage" GUID="{1d2180ac-2182-46f8-ba00-5ff96be6121c}" File="ui/common/common_btn_anniu3_0.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{782a1fd2-7a02-486e-9fd1-ebc6c2db9e9f}" TextKey="BUY_FIVE_AFFIRM" Color="249,236,208" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{4deb9eb5-e6ed-4d96-afa4-212e42ee4e75}">
+                        <WZUIImage Type="WZUIImage" GUID="{fdc3b672-da76-4751-84d6-691833024278}" File="ui/common/common_btn_anniu3_0.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e669f52d-aa16-4d15-8b6a-02a21e8b9cdb}" TextKey="BUY_FIVE_AFFIRM" Color="249,236,208" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{3b944986-9d02-44cd-acb8-aadac1e3f1ed}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{ed6dc7fc-abdf-4cd4-9c28-2051481ad877}" Name="conType3_WndOneActivityRule">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0642f02b-f6ba-4e11-b41e-2310cf0a58c5}" Text="" Color="128,54,13" FontSize="20" RelativePosition="0.5,0.735" TextKey="" Name="txtDesc3_WndOneActivityRule" Dimensions="480" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{97bad99b-cd11-4423-b6e8-13ce8090a870}" AbsContentSize="480,200" UseAbsSize="True" RelativePosition="0.5,0.38" Name="tconCode_WndOneActivityRule" ColumnCount="4" CellElementHeight="0.22" EnableMoveHorizontal="False" />
+                <Button Type="WZUIButton" GUID="{4098e1b1-ed52-4493-9908-d3f5c372c1b0}" UseAbsSize="True" AbsContentSize="124,60" RelativePosition="0.5,0.2" Visible="False" Name="btnConfirm3_WndOneActivityRule" LuaDoneFunctionName="onClickClose">
+                    <NormalElement Type="WZUIContainer" GUID="{341d3f79-86c8-4158-9188-cad59eeab8be}">
+                        <WZUIImage Type="WZUIImage" GUID="{538e5788-aa26-4eae-8560-0f9d2c231880}" File="ui/common/common_btn_anniu3_0.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{818927b3-df23-4009-a37e-15b551a8a5a7}" TextKey="BUY_FIVE_AFFIRM" Color="249,236,208" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{8fbb08a7-d7f3-4295-bfa6-a8ca3f4c3fc0}">
+                        <WZUIImage Type="WZUIImage" GUID="{c0a9f0c0-3488-4d92-b0fc-ad4114fb73c8}" File="ui/common/common_btn_anniu3_0.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{26c16338-92fb-4c10-b2c5-9d98ca450549}" TextKey="BUY_FIVE_AFFIRM" Color="249,236,208" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{311fc229-77ba-4153-b955-64b889f4bc39}" />
+                </Button>
+                <WZUIContainer Type="WZUIContainer" GUID="{44bd3dde-6ef9-4643-a2f3-1d244d739c91}" AbsContentSize="90,30" UseAbsSize="True" RelativePosition="0.149374,0.606737" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{35adc9c6-fecd-4b1a-8cf0-e86138ec1108}" File="ui/common/common_scale9_di8.png" CapInsets="15,15,1,1" RelativePosition="0.5,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{fc413be6-34be-42cf-aed3-d1b1c2079e1b}" Color="249,236,208" FontSize="18" Text="123" RelativePosition="0.5,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{37cf1072-a307-4f54-b420-9d3cb2fcf89d}" Name="conType4_WndOneActivityRule" Visible="True">
+                <WZUITableContainer Type="WZUITableContainer" GUID="{94af9404-7b0a-4dce-86a5-8be5289ae132}" UseAbsSize="True" AbsContentSize="500,250" RelativePosition="0.5,0.42" Name="tconWinnerRecordLog_WndOneActivityRule" EnableMoveHorizontal="False" CellElementHeight="0.4" />
+                <WZUIContainer Type="WZUIContainer" GUID="{6f7d7d91-d554-4077-9df4-e38d2c5d0dab}" Name="conWinnerLogSub_WndOneActivityRule" AbsContentSize="490,90" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{4523dee0-72b4-45ec-95bd-ce2cb5228487}" File="ui/gameActivity/common_scale9_di113.png" CapInsets="32,27,1,1" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{40e7880d-86b5-4ecd-9809-404f84fd132e}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.073,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{4d17fff9-4de9-4aca-af4c-a468540d0381}" File="ui/common/commom_icon_bg.png" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{f029540b-88f2-465d-a3fa-7389ec239cbd}" Name="conWinnerHead_WndOneActivityRule" />
+                        <Button Type="WZUIButton" GUID="{011c4e0a-2696-418c-9cbd-00298bf06958}" LuaDoneFunctionName="onClickWinnerHead" Name="btnWinnerHead_WndOneActivityRule">
+                            <NormalElement Type="WZUIContainer" GUID="{8320b253-d687-46e8-b8c7-711d9812c6ab}" />
+                            <SelectElement Type="WZUIContainer" GUID="{75b12033-8037-4331-aa75-5e0f89332465}" />
+                            <DisableElement Type="WZUIContainer" GUID="{3774c109-5c19-4b27-a1e1-0fc4a8e284d3}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b3951aec-6910-48fb-b3f6-d97d221b6228}" Text="" Color="128,54,13" FontSize="18" RelativePosition="0.155,0.63" TextKey="" AnchorPoint="0,0.5" Name="txtLotteryTime_WndOneActivityRule" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{40e8321e-d70c-4cfa-a9a2-204ca7e0d7ed}" Text="" Color="128,54,13" FontSize="18" RelativePosition="0.155,0.285" TextKey="" AnchorPoint="0,0.5" Name="txtRewardName_WndOneActivityRule" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc1d1118-450d-4ace-99f8-e81d54268e7f}" Text="" Color="128,54,13" FontSize="18" RelativePosition="0.62,0.63" TextKey="" AnchorPoint="0,0.5" Name="txtWinnerName_WndOneActivityRule" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b0dd4869-3288-48cc-8225-ef6396e4c60a}" Text="" Color="128,54,13" FontSize="18" RelativePosition="0.62,0.285" TextKey="" AnchorPoint="0,0.5" Name="txtLuckyCode_WndOneActivityRule" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndOneActivityRule>

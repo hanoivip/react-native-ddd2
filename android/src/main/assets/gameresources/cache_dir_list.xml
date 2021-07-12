@@ -1,0 +1,6 @@
+<WZAsyncLoader>
+    <!-- <dir input="resources/ui" prefix="resources/ui/"/> -->
+   <!--  <dir input="resources/image/ui" prefix="resources/image/" cacheXml="True"/>
+    <dir input="resources/armatures/city" prefix="resources/armatures/"/>
+    <dir input="resources/armatures/battle/skill" prefix="resources/armatures/"/> -->
+</WZAsyncLoader>

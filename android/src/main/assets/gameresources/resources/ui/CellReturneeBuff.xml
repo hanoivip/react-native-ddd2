@@ -1,0 +1,57 @@
+﻿<CellReturneeBuff GUID="{a99e4de2-1ef6-43a2-8d7d-152c529acb6b}">
+    <WZUIContainer Type="WZUIContainer" GUID="{0151996b-ec04-413b-98b2-1dacbed768bf}" AbsContentSize="620,390" UseAbsSize="True" Name="CellReturneeBuff" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{4dd21b9d-e986-4bb8-bf7e-108ae365ffb2}">
+            <WZUIImage Type="WZUIImage" GUID="{c5dd0d17-e9e7-4584-9acc-edd438b2e571}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{b3b88812-1b49-4ad5-88c3-bb233b969000}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.5,0.93" AnchorPoint="1,0.5" Name="txtTimeKey_CellReturneeBuff">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4153a307-c3a5-4964-b7d1-fbe25aabd358}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.01,0.5" Text="" EnableStroke="True" Name="txtTimeValue_CellReturneeBuff" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{c56107c8-1a58-4ba2-8158-c1e900ebfa72}" AbsContentSize="340,270" UseAbsSize="True" RelativePosition="0.5,0.538461" Visible="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{6a1c0d69-2dd2-458f-8c47-733495a0fb86}" File="ui/gameActivity/returnee/daozhu_di2.png" />
+                <WZUIImage Type="WZUIImage" GUID="{00891f38-64d4-424f-995e-7d8b1e3cfd46}" Name="imgBuffIcon_CellReturneeBuff" File="" UseOriginSize="True" RelativePosition="0.252059,0.854" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{53a5c2c2-28e0-473d-8197-1135893d718c}" AnchorPoint="0,0.5" Color="247,219,110" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="0.37,0.9" Text="" EnableStroke="True" Name="txtBuffLevel_CellReturneeBuff" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{43aca988-04d6-4d58-aaa4-aa60035d9cf2}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.545,0.9" AnchorPoint="0,0.5" Name="txtBuffName_CellReturneeBuff" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{27f0a7a8-ebf0-464c-a324-679394a77809}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.37,0.8" AnchorPoint="0,0.5" Name="txtTimeRemainingKey_CellReturneeBuff" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c27c0740-7822-415f-a807-408cd7d4618f}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="0.545,0.8" Text="" EnableStroke="True" Name="txtTimeRemainingValue_CellReturneeBuff" />
+                <WZUIContainer Type="WZUIContainer" GUID="{a7056ddd-5a3c-49d2-9bb7-8a0f4b3e4344}" AbsContentSize="220,4" UseAbsSize="True" RelativePosition="0.5,0.712">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d3c01a4a-deed-4e23-a99d-b6dbcaf2ed82}" File="ui/gameActivity/returnee/daozhu_xian.png" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{85de3584-a936-4eaa-bf6e-216d5372aff1}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.195,0.63" AnchorPoint="0,0.5" Name="txtCEKey_CellReturneeBuff">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{7693290a-4662-46aa-a8d2-39a561bef9c8}" AnchorPoint="0,0.5" Color="247,219,110" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtCEValue_CellReturneeBuff" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a3feb877-3012-4438-9ab5-c7f41e664387}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.195,0.52" AnchorPoint="0,0.5" Name="txtAttrKey1_CellReturneeBuff">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{96dc765b-439e-423a-a4d8-0932cebb5a58}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtAttrValue1_CellReturneeBuff" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f4c8c363-2025-4c46-aa6c-3b354eadf371}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.195,0.42" AnchorPoint="0,0.5" Name="txtAttrKey2_CellReturneeBuff">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4d60f21f-d3d8-4afe-9a8b-bfa5969fb480}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtAttrValue2_CellReturneeBuff" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{85c02673-34b7-4156-ac46-30b800105474}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.195,0.32" AnchorPoint="0,0.5" Name="txtAttrKey3_CellReturneeBuff">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{51ad9038-f45e-43c9-ada1-ed7c3e75cbcb}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtAttrValue3_CellReturneeBuff" />
+                </WZUILabelTTF>
+                <WZUIContainer Type="WZUIContainer" GUID="{f48ce545-7d9f-45ce-9d25-bab4a45b0e67}" AbsContentSize="220,4" UseAbsSize="True" RelativePosition="0.5,0.245">
+                    <WZUI9Image Type="WZUI9Image" GUID="{595ea010-cfe3-47d1-86c3-25f9c54bdc36}" File="ui/gameActivity/returnee/daozhu_xian.png" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{1ac2fdb1-d85f-430c-bed4-ad6d7f92ea9d}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.195,0.166" AnchorPoint="0,0.5" Name="txtIntegralKey1_CellReturneeBuff">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d4788672-e8bc-40f1-aaaa-85aee5c32b18}" AnchorPoint="0,0.5" Color="247,219,110" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtIntegralValue1_CellReturneeBuff" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{bbd05a7a-75ed-417e-8993-e4b63e71c8fa}" Color="255,255,255" FontSize="20" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.195,0.07" AnchorPoint="0,0.5" Name="txtIntegralKey2_CellReturneeBuff">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{18db8cbd-c6f9-4157-9795-a6a6d461077b}" AnchorPoint="0,0.5" Color="247,219,110" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtIntegralValue2_CellReturneeBuff" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{d6d25363-32d5-46ae-9ba2-3fc4107e1124}" UseAbsSize="True" AbsContentSize="142,66" RelativePosition="0.5,0.1" LuaDoneFunctionName="onUpgradeBuff" Name="btnUpgrade_CellReturneeBuff" TouchEnable="False">
+                <NormalElement Type="WZUIContainer" GUID="{44971f48-2225-4fd5-9914-45fd3007d688}">
+                    <WZUIImage Type="WZUIImage" GUID="{7c3fc9da-531a-4974-8a9c-5e2c9acf16af}" File="ui/common/common_btn_anniu10_1.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{cca18727-568d-414c-854f-288df51b2c80}" LabelStyleKey="NORMAL_GREEN_BTN" Text="" TextKey="RETURNEE_TEXT16" Name="txtUpgrade1_CellReturneeBuff" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{b0fdf5a7-0b49-47b8-b962-a0600368e9c7}">
+                    <WZUIImage Type="WZUIImage" GUID="{1ca6f108-a2dd-4fcc-910d-f54252079d27}" File="ui/common/common_btn_anniu10_1_sel.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5b4eb87e-972b-4f48-b1b5-8233ad796630}" LabelStyleKey="NORMAL_GREEN_BTN" Text="" TextKey="RETURNEE_TEXT16" Name="txtUpgrade2_CellReturneeBuff" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{85ef9177-802c-4d74-972b-9d6cbbbd0ed0}">
+                    <WZUIImage Type="WZUIImage" GUID="{d583a660-8f8d-4ad3-b433-745a04d2b159}" File="ui/common/common_btn_anniu10_1.png" UseOriginSize="True" GrayRender="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5e8c2406-e495-4277-9acd-362c5c039529}" LabelStyleKey="NORMAL_GRAY_BTN" Text="" TextKey="RETURNEE_TEXT16" Name="txtUpgrade3_CellReturneeBuff" />
+                </DisableElement>
+            </Button>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{a2d7fba2-4b32-442a-b484-d8a124830883}" Color="255,255,255" MaxLength="" Text="" AnchorPoint="0,0.5" FontSize="18" RelativePosition="0.62,0.1" Scale="0.9" TextKey="RETURNEE_TEXT17" Name="txtTime_CellReturneeBuff" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeBuff>

@@ -1,0 +1,125 @@
+﻿<CellCircleOfFriend GUID="{fcf4411d-870d-4010-b4b7-272030724664}">
+    <WZUIContainer Type="WZUIContainer" GUID="{f0b5c2f8-fe8a-4961-86c6-1ef4fe65952b}" Name="CellCircleOfFriend" NameCreate="True" AbsContentSize="920,110" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{b8993751-4e2d-41e6-afc2-99af9251f8de}" Name="conTop_CellCircleOfFriend" AbsContentSize="920,290" UseAbsSize="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{9b1aa2e7-3a62-4ae2-adee-f1bc401e9dd2}" AbsContentSize="920,110" UseAbsSize="True" Name="conMessage_CellCircleOfFriend" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+                <WZUIContainer Type="WZUIContainer" GUID="{76c05b4f-e639-41aa-b475-f71bc4b65585}" Name="conHead_CellCircleOfFriend" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.055,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{702e42f4-9e4b-486e-b9d9-eb5df2418e1b}" File="ui/common/commom_icon_bg.png" UseOriginSize="True" />
+                    <Button Type="WZUIButton" GUID="{4979be62-7e3b-463e-b3b2-8f6621271704}" Order="1" LuaDoneFunctionName="onClickHead">
+                        <NormalElement Type="WZUIContainer" GUID="{d4276ff2-b958-4074-972b-cd3c5d22894f}" />
+                        <SelectElement Type="WZUIContainer" GUID="{ad92cea3-28f2-496b-a141-017cae1de2a9}" />
+                        <DisableElement Type="WZUIContainer" GUID="{a8669c97-dfa5-4c12-a2ad-fc834413574e}" />
+                    </Button>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{4836deb5-558e-4c78-8d9f-3379e87887ae}" AbsContentSize="124,54" UseAbsSize="True" Name="btnAddFriend_CellCircleOfFriend" TouchEnable="True" Scale="0.6" RelativePosition="0.0521107,-0.025157" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickAddFriend" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{15bcb0bc-8061-4f21-94e6-2e6a8b15174a}">
+                        <WZUIImage Type="WZUIImage" GUID="{223c61fb-4d38-42ed-a41a-41c628c41def}" File="ui/common/common_btn_06.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{0a7e4ccf-8e8e-4652-937b-aeaf156ab032}" TextKey="ADDFRIEND" LabelStyleKey="" FontSize="24" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="0,108,3" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{acc69808-953a-48d9-a8aa-5546ead6367b}">
+                        <WZUIImage Type="WZUIImage" GUID="{fa142149-f5bb-4760-910d-2014e57c8770}" File="ui/common/common_btn_06.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4e6cdcb7-1fbe-4f70-add9-2a70b93d8de4}" TextKey="ADDFRIEND" LabelStyleKey="" FontSize="24" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="0,108,3" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{bed48786-4d79-44db-843f-0e185e801707}">
+                        <WZUIImage Type="WZUIImage" GUID="{dee82411-0611-43da-bb2e-4c15f272ed63}" File="ui/common/common_btn_06.png" UseOriginSize="True" GrayRender="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{aae3bcd1-5017-41af-b3c1-abe8d0c431af}" TextKey="ADDFRIEND" LabelStyleKey="" FontSize="24" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" />
+                    </DisableElement>
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f6bdcdd8-0da3-4732-a6e2-94e7d5ca0220}" Name="txtPlayerName_CellCircleOfFriend" AnchorPoint="0,0.5" RelativePosition="0.105,0.71" Color="229,105,22" FontSize="20" Text="哈老大撒">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a3467e4e-3fae-4273-afc2-fd8973fd13ac}" Name="txtRelative_CellCircleOfFriend" AnchorPoint="0,0.5" RelativePosition="1,0.5" Color="5,180,0" FontSize="20" Text="" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d921c50e-be71-44a1-a75a-f05cbfd8875c}" Name="txtCreateDate_CellCircleOfFriend" AnchorPoint="1,0.5" RelativePosition="0.89,0.71" Color="127,70,26" FontSize="18" Text="02-09" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b82fc1da-c9da-457e-831a-64178b48debd}" Name="txtMessage_CellCircleOfFriend" AnchorPoint="0,1" RelativePosition="0.105,0.55" Color="127,70,26" FontSize="20" Text="第六届啊的空间疯掉了卡积分的啦空间发呆拉空房间的老司机的；绿卡放假的 的拉斯科的杜蕾斯咖啡机的；奥拉夫的的；拉斯科加减法打；飞快的 都拉卡机发的；酸辣粉看得见" Alignment="Left" Dimensions="730,0" />
+                <WZUIContainer Type="WZUIContainer" GUID="{ad0e7ac2-f09a-4962-b448-c5c295a68a96}" Name="conPhoto_CellCircleOfFriend" AbsContentSize="730,130" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0">
+                    <WZUIContainer Type="WZUIContainer" GUID="{01b9a423-0a89-4fc7-bf44-731fee604e7a}" Name="conPhoto1_CellCircleOfFriend" AbsContentSize="125,125" UseAbsSize="True" RelativePosition="0.09,0.5" Visible="False">
+                        <WZUI9Image Type="WZUI9Image" GUID="{1ce6ebfd-9416-483b-8261-1c74d94d8c05}" File="ui/common/common_scale9_di53.png" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{0e426d84-983a-4fb2-bdf9-297a76e0a606}" Name="conPhoto2_CellCircleOfFriend" AbsContentSize="125,125" UseAbsSize="True" RelativePosition="0.32,0.5" Visible="False">
+                        <WZUI9Image Type="WZUI9Image" GUID="{95174e58-a5b9-441c-a8d3-26fe0a6b7f75}" File="ui/common/common_scale9_di53.png" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{7513ac25-7ea8-4a02-aff3-aaf06cb0b00e}" Name="conPhoto3_CellCircleOfFriend" AbsContentSize="125,125" UseAbsSize="True" RelativePosition="0.55,0.5" Visible="False">
+                        <WZUI9Image Type="WZUI9Image" GUID="{71169104-8b44-4a87-8164-a11f52d46952}" File="ui/common/common_scale9_di53.png" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{aaae307e-ca00-478e-b1c5-aaa311102742}" AnchorPoint="0.5,1" RelativePosition="0.5,0" AbsContentSize="730,50" UseAbsSize="True" Name="conOprateBtn_CellCircleOfFriend">
+                        <WZUIContainer Type="WZUIContainer" GUID="{c9a833d5-f067-410f-97c8-5d55e9436797}" Name="conNormal_CellCircleOfFriend" Visible="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{3605944e-bb3b-4dc6-a509-026241b3e6b5}" AbsContentSize="110,40" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" Name="conHeart_CellCircleOfFriend">
+                                <WZUI9Image Type="WZUI9Image" GUID="{f6805ca2-3e47-4ec8-9a54-939a135b7630}" File="ui/common/frame_14.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{2536e893-5b89-40a3-beba-a48931500811}" File="ui/common/common_hy_btn_001.png" UseOriginSize="True" Name="imgHeart_CellCircleOfFriend" RelativePosition="0.22,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2d7a92f3-288f-46ae-9264-1319fafd4d8f}" FontSize="20" Color="127,70,26" Name="txtHeartNum_CellCircleOfFriend" AnchorPoint="0,0.5" RelativePosition="0.4,0.5" Text="45" />
+                                <Button Type="WZUIButton" GUID="{65fcca14-b308-4f28-a15c-96ebce946c29}" LocalInterval="300" LuaDoneFunctionName="onClickHeart">
+                                    <NormalElement Type="WZUIContainer" GUID="{9a1e2fbd-e0b2-46b7-b6d0-c7e7ff0367a7}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{f95568c1-0510-41b8-9d46-25c04b62995f}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{cbad9ae2-2791-4131-81d7-65026e640225}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{fa12caf0-3def-4fb8-89b6-1e514edbe1d7}" AbsContentSize="110,40" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.16,0.5" Name="conComment_CellCircleOfFriend">
+                                <WZUI9Image Type="WZUI9Image" GUID="{ecedf1be-4284-4589-bca1-02eaf235becb}" File="ui/common/frame_14.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{2ee5e9be-04b6-417d-9403-66abc1f23b79}" File="ui/common/common_hy_btn_002.png" UseOriginSize="True" Name="imgComment_CellCircleOfFriend" RelativePosition="0.22,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f070b9fa-efbe-4ed1-af5a-aaf700b6d2fa}" FontSize="20" Color="127,70,26" Name="txtCommentNum_CellCircleOfFriend" AnchorPoint="0,0.5" RelativePosition="0.4,0.5" Text="45" />
+                                <Button Type="WZUIButton" GUID="{4eb305af-3772-42a6-a15f-de76a757b78d}" LocalInterval="300" LuaDoneFunctionName="onClickComment">
+                                    <NormalElement Type="WZUIContainer" GUID="{fe30b5de-e752-4379-af5d-76a31aba18e9}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{18bf54ab-a71e-4ef5-8560-0f0f267bc05d}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{2ae4d1db-dc1c-4f76-b615-95946f8aa63f}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{d51666cb-0a9d-493e-a3f6-95745e9ccf6d}" AbsContentSize="50,45" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.34,0.5" Name="conReport_CellCircleOfFriend" Visible="True">
+                                <Button Type="WZUIButton" GUID="{73c86295-bda7-42bb-8b6f-fb6a091e4b62}" LocalInterval="300" LuaDoneFunctionName="onClickReport">
+                                    <NormalElement Type="WZUIContainer" GUID="{f3041580-71f6-4691-b893-5351fe3e2ee0}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{4268c299-beb0-4b0f-9d5c-fd0aa8cf8e97}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{c9a5ac98-c621-45de-8114-6c54c6b095f7}" />
+                                    <WZUIImage Type="WZUIImage" GUID="{4c56382c-559a-4e09-b2a8-57aadfa85266}" File="ui/common/common_icon_jb.png" UseOriginSize="True" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{17be0d8d-c4de-4e69-991e-ddb0837ce0cd}" AbsContentSize="50,45" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.34,0.5" Name="conDelete_CellCircleOfFriend" Visible="False">
+                                <Button Type="WZUIButton" GUID="{8331c9fc-3a61-4d16-8ae1-be1213667717}" LocalInterval="300" LuaDoneFunctionName="onClickDeleteCircle">
+                                    <NormalElement Type="WZUIContainer" GUID="{315c510d-3192-4212-8002-dbec78c5f854}">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{f03b816a-8c40-4bda-8430-5571cf004e8a}" />
+                                    </NormalElement>
+                                    <SelectElement Type="WZUIContainer" GUID="{31ae672b-9c43-4344-b7ac-4f45277421c2}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{2312926e-e9df-42b9-bc86-9fa7cbe1ccb7}" />
+                                    <WZUI9Image Type="WZUI9Image" GUID="{c6459294-a41a-4eaf-b626-aeafb090e1c1}" File="ui/common/frame_14.png" UseOriginSize="True" />
+                                    <WZUIImage Type="WZUIImage" GUID="{b3a9e7f9-6480-4810-96c6-d9bf833609d3}" File="ui/common/common_hy_btn_04.png" UseOriginSize="True" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUICheckBox Type="WZUICheckBox" GUID="{51a527f8-7c67-45f0-8e4f-5e69afb542b3}" AbsContentSize="180,40" UseAbsSize="True" SelectedIndex="0" Name="checkBoxForbid_CellCircleFriend" RelativePosition="0.56,0.5" Visible="False" LuaCheckedFunctionName="onClickForbid">
+                                <CheckElement Type="WZUIContainer" GUID="{c0e65695-d6aa-4dba-840f-f8f4f4c1c3bb}">
+                                    <WZUIImage Type="WZUIImage" GUID="{f9ea2a00-6f4b-4f15-8ae2-7afa2e5337e5}" File="ui/common/common_gx_di.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{80aecee4-d2cf-49a3-ae5a-38fb7f8377b7}" Color="127,70,26" FontSize="20" TextKey="FRIENDCIRCLE_TEXT14" AnchorPoint="0,0.5" RelativePosition="0.25,0.5" />
+                                </CheckElement>
+                                <CheckElement Type="WZUIContainer" GUID="{70593724-8bd4-499e-8dff-b0861a8dd004}">
+                                    <WZUIImage Type="WZUIImage" GUID="{789c4129-b976-4fdb-bea6-855a0dd2e0a1}" File="ui/common/common_gx_di.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                                    <WZUIImage Type="WZUIImage" GUID="{4930020d-fad4-45a4-89ca-5ed6d294b446}" File="ui/common/common_gx.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0.0111111,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{239bf44a-1500-4105-aa8d-8cec7f0ba283}" Color="127,70,26" FontSize="20" TextKey="FRIENDCIRCLE_TEXT14" AnchorPoint="0,0.5" RelativePosition="0.25,0.5" />
+                                </CheckElement>
+                            </WZUICheckBox>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{a99ad279-d7a8-4381-a5f8-f178dd575f89}" Name="conCommentSel_CellCircleOfFriend" Visible="False">
+                            <Button Type="WZUIButton" GUID="{127ac132-75cf-4096-be05-75a775e5f096}" LocalInterval="300" LuaDoneFunctionName="onClickCommentBack" AbsContentSize="40,40" UseAbsSize="True" Name="btnBack_CellCircleOfFriend" RelativePosition="0.05,0.5" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{0b55a0c7-1d4b-490b-be1e-03d3e0de5cde}" />
+                                <SelectElement Type="WZUIContainer" GUID="{431d3173-b93d-4805-9dd0-6cef91f46a4f}" />
+                                <DisableElement Type="WZUIContainer" GUID="{42aa93de-3584-450a-b7f9-ba83e65c9136}" />
+                                <WZUIImage Type="WZUIImage" GUID="{239a90a8-1128-4f8c-bf97-4b8812a3e35b}" File="ui/common/common_btn_jiant_04.png" UseOriginSize="True" Name="" RelativePosition="0.5,0.5" />
+                            </Button>
+                            <WZUIContainer Type="WZUIContainer" GUID="{c769d3e3-b523-4e42-b561-763c255da159}" AbsContentSize="400,36" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.08,0.5" Name="conEdit_CellCircleOfFriend">
+                                <WZUI9Image Type="WZUI9Image" GUID="{b693fa31-66aa-4dec-afac-b9f8bc132eb3}" File="ui/common/frame_13.png" />
+                                <WZUIEditBox Type="WZUIEditBox" GUID="{8d03bd17-3ea0-4f4a-96cd-54a3717aee4a}" FontSize="20" TextFieldPadding="0" Text="了的空间撒了的；阿斯浪费的空间" PlaceHolder="" BgHidden="False" InputMode="ModeAny" BgPicture="ui/common/transparent_bg.png" Name="editComment_CellCircleOfFriend" MaxLength="30" Color="79,60,48" PlaceHolderAlignment="0" FontColor="255,255,255" PlaceholderFontColor="195,171,148" Alignment="0" ChinesePlaceholderNum="2" RelativeSize="1,1" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                            </WZUIContainer>
+                            <Button Type="WZUIButton" GUID="{1d5ee872-4074-4530-89e3-1539c9fc227b}" LocalInterval="300" LuaDoneFunctionName="onClickFace" AbsContentSize="40,40" UseAbsSize="True" Name="btnFace_CellCircleOfFriend" RelativePosition="0.68,0.5" LuaActionName="Normal" Visible="False">
+                                <NormalElement Type="WZUIContainer" GUID="{85c0ba19-d669-4dfe-b012-4a58f0f9e76e}" />
+                                <SelectElement Type="WZUIContainer" GUID="{333920e0-7402-498b-a3c7-5338fdf74f99}" />
+                                <DisableElement Type="WZUIContainer" GUID="{8c3fb9ed-e44f-4c0b-be20-4b9d3d547af6}" />
+                                <WZUIImage Type="WZUIImage" GUID="{6262ae3d-ff88-45d1-9433-6a96c6567290}" File="ui/common/common_icon_bq.png" UseOriginSize="True" Name="" RelativePosition="0.5,0.5" />
+                            </Button>
+                            <Button Type="WZUIButton" GUID="{313f2007-8ff6-481a-8d5a-16e5abf46944}" LocalInterval="300" LuaDoneFunctionName="onClickSubmitComment" AbsContentSize="65,45" UseAbsSize="True" RelativePosition="0.68,0.5" Name="btnComment_CellCircleOfFriend" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{4e118245-770a-4d82-ac61-b8c2f45933e1}" />
+                                <SelectElement Type="WZUIContainer" GUID="{e863f015-43ac-4019-8638-31e47795194f}" />
+                                <DisableElement Type="WZUIContainer" GUID="{2d41aed3-5d95-4cc7-b60c-8a22e8e7ee88}" />
+                                <WZUIImage Type="WZUIImage" GUID="{22d41d16-1d64-4366-963c-4e0cd58593df}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c8d1e5f9-defa-472c-824c-6f6ac19acbb4}" Text="评论" Color="255,255,255" EnableStroke="True" FontSize="10" StrokeSize="4" StrokeColor="163,74,20" TextKey="FRIENDCIRCLE_TEXT15" Name="txtPub_CellCircleOfFriend" />
+                            </Button>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCircleOfFriend>

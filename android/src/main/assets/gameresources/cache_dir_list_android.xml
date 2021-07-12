@@ -1,0 +1,10 @@
+<WZAsyncLoader>
+    <!-- <dir input="resources/ui" prefix="resources/ui/"/> -->
+    <!-- <dir input="resources/image/ui/common" prefix="resources/image/" /> -->
+    <!-- <dir input="resources/image/shopitems" prefix="resources/image/" /> -->
+    <!--<dir input="resources/armatures/battle/skill" prefix="resources/armatures/" find="_hd"/>-->
+    <!-- <dir input="resources/image/ui/city/main_scene/armature" prefix="resources/image/" /> -->
+    <dir input="resources/armatures/ui/ui_zuoqi_shengji_01.pkm" prefix="resources/armatures/" />
+    <dir input="resources/armatures/ui/ui_huodewupin.pkm" prefix="resources/armatures/" />
+    <dir input="resources_cn/armatures/ui/ui_lvlup_effect_01.pkm" prefix="resources_cn/armatures/" />
+</WZAsyncLoader>

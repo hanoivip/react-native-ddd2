@@ -1,0 +1,78 @@
+﻿<WndCopyEntry GUID="{ef297325-e8e7-4e0b-a342-d5c59af67ce1}">
+    <WZUIWindow Type="WZUIWindow" GUID="{e373bcb8-35bd-41f4-bc5e-fcae5023559f}" Name="WndCopyEntry" LuaObjectName="WndCopyEntry" AbsContentSize="" UseAbsSize="False" LuaTouchBeganFunction="onTouchBegin">
+        <WZUIImage Type="WZUIImage" GUID="{0c58da76-7db6-412e-b886-efa78408f77e}" File="ui/common_bg/common_bg.png" UseOriginSize="True" Scale="1" ShowAll="False" ScaleX="1" ScaleY="1" UseOriginSizeProportion="False" NoBorder="True" />
+        <WZUIParticle Type="WZUIParticle" GUID="{886e0c9f-3d6a-463b-b024-bff65720eaf0}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+        <WZUIContainer Type="WZUIContainer" GUID="{4aff60f2-1a35-439e-848f-cb4f6b890b7c}" AbsContentSize="782,396" UseAbsSize="True" RelativePosition="0.647,0.318" ShowAll="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{bd6f5eac-55d3-44c2-86a2-0a6a7f99dea4}" File="ui/common/frame_dadi.png" UseOriginSize="False" />
+            <WZUIContainer Type="WZUIContainer" GUID="{6b43f155-1d49-452c-bc20-bb5f0e155081}" AbsContentSize="252,42" UseAbsSize="True" RelativePosition="0,0.88" AnchorPoint="0,0.5">
+                <WZUI9Image Type="WZUI9Image" GUID="{bed4dd6c-98ea-4ca5-a4a4-e44ce50515f2}" File="ui/common/title_frame_01.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fd6c5e8a-cfd9-48a3-b133-dc868958f36d}" Color="255,227,116" EnableStroke="True" FontSize="22" RelativePosition="0.078,0.5" StrokeSize="4" StrokeColor="127,70,26" Text="" TextKey="COPYENTRY_NAME" AnchorPoint="0,0.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{b2949980-1fde-4759-b7ff-2e9e6a9f7f84}" AbsContentSize="390,70" UseAbsSize="True" RelativePosition="0.341297,0.779188">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{14d87eb8-3c61-47fc-b13c-a542c03b294e}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="79,60,48" StrokeSize="4" Name="txt_WndCopyEntry" TextKey="COPYENTRY_DIALOG" RelativePosition="-0.13,0.4" AnchorPoint="0,0.5" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{6fad869f-4a0b-400b-ad5c-9c5ca8ba4377}" AbsContentSize="280,330" UseAbsSize="True" RelativePosition="0.171875,0.328125" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{5d27b848-e36d-427b-931a-ea78c8cbced6}" Name="conRole_WndCopyEntry" AbsContentSize="150,150" UseAbsSize="True" RelativePosition="0.678571,0" AnchorPoint="0.5,0" />
+            <WZUIContainer Type="WZUIContainer" GUID="{72edfc1d-89be-415b-8c07-43690f5ff8cc}" AbsContentSize="100,100" UseAbsSize="True" RelativePosition="0.221428,0.845454" Name="conPet_WndCopyEntry" />
+            <WZUIImage Type="WZUIImage" GUID="{034e4ced-4571-46f9-b8bd-1f891c1c3449}" File="ui/common/common_icon_rwdyy.png" UseOriginSize="True" RelativePosition="0.692857,0.060606" Opacity="200" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{be069b34-91b4-4c4c-801d-b149b0c670b5}" AbsContentSize="782,396" UseAbsSize="True" RelativePosition="0.647,0.318" ShowAll="True">
+            <WZUIImage Type="WZUIImage" GUID="{adcddc29-77c9-43b4-b680-05f8b787d700}" File="ui/combat/common_pic_meinv4_common.png" UseOriginSize="True" FlipX="True" RelativePosition="0.86755,1.08236" Scale="0.85" />
+            <WZUIContainer Type="WZUIContainer" GUID="{fc2a16ab-16ef-45df-9460-9b1626e9aa15}" AbsContentSize="182,235" RelativePosition="0.136,0.337" UseAbsSize="True">
+                <WZUIImage Type="WZUIImage" GUID="{8dce2b89-dc21-4ac7-bc98-e6a35fd7c0cf}" File="ui/copy/common_pic_fb01.png" RelativePosition="0.5,0.495708" />
+                <WZUIImage Type="WZUIImage" GUID="{c7523e0e-4907-4763-bc2c-46c012ee8e26}" File="ui/common/common_shade_chushouheidi.png" Name="imgBlack1_WndCopyEntry" />
+                <WZUIImage Type="WZUIImage" GUID="{2807cae9-01e5-4982-a911-54eed32e6dea}" File="ui/common/common_icon_suo.png" Scale="0.9" UseOriginSize="True" Name="imgSuo1_WndCopyEntry" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{401e7b7d-e38b-4e2a-8c5b-c61b3d024e7f}" RelativePosition="0.5,0.1" FontSize="22" Color="255,236,193" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" Text="单人冒险" TextKey="SINGLE_SCRIPT" Name="txtSingle_WndCopyEntry" />
+                <Button Type="WZUIButton" GUID="{3499bd5d-949a-46fe-a2dd-c4fe993e6986}" Tag="1" LuaDoneFunctionName="onFunctionClick" Name="btn1_WndCopyEntry">
+                    <NormalElement Type="WZUIContainer" GUID="{98217204-8329-4f40-bbc5-734df9a70ad4}" />
+                    <SelectElement Type="WZUIContainer" GUID="{89e122f2-bf75-4af8-b715-ef7f8da452bc}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{4cdedc4f-5f77-4c53-9f59-96f5d5d5688d}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{263cd531-3de5-4bf9-9d24-4db3ebd10a28}" />
+                </Button>
+                <WZUIImage Type="WZUIImage" GUID="{8944a505-7f72-44b6-a10f-c653a6c840e7}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.786487,0.148069" Scale="0.8" ScaleX="0.8" ScaleY="0.8" Name="imgRed_WndCopyEntry" isValid="True" Visible="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{56b88696-b962-4b53-b9a5-ee10db0f0281}" AbsContentSize="182,235" RelativePosition="0.38,0.337" UseAbsSize="True">
+                <WZUIImage Type="WZUIImage" GUID="{fb4f75ed-0d65-4611-950a-5a2c742a5cbc}" File="ui/copy/common_pic_fb02.png" RelativePosition="0.5,0.491416" />
+                <WZUIImage Type="WZUIImage" GUID="{1f1d1cdf-c773-4ee6-9ecf-18549d397f14}" File="ui/common/common_shade_chushouheidi.png" Name="imgBlack2_WndCopyEntry" />
+                <WZUIImage Type="WZUIImage" GUID="{13b3d413-81b2-408f-a6cf-08b4716b9a89}" File="ui/common/common_icon_suo.png" Scale="0.9" UseOriginSize="True" Name="imgSuo2_WndCopyEntry" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c02c5136-7c10-48dd-9106-9e1aad0a73c1}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="127,70,26" StrokeSize="4" RelativePosition="0.5,0.1" Text="组队副本" TextKey="MULTI_SCRIPT" Name="txtMult_WndCopyEntry" />
+                <Button Type="WZUIButton" GUID="{a7e0c50e-a1b7-43a1-8527-b33494b52cd5}" LuaDoneFunctionName="onFunctionClick" Tag="2" Name="btn2_WndCopyEntry">
+                    <NormalElement Type="WZUIContainer" GUID="{52681c1b-6a9d-4137-8eac-2e9e1d3cedf1}" />
+                    <SelectElement Type="WZUIContainer" GUID="{66136bff-30bb-4807-babc-c8a98a1b6bde}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{965e5791-0c36-4880-8099-66af13ef545e}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{dd074be7-1eba-4f7f-9a95-eb6dfbfc83a7}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{d63fe7f4-078f-4a9e-b0de-68b6dcf502a7}" AbsContentSize="182,235" UseAbsSize="True" RelativePosition="0.624,0.337">
+                <WZUIImage Type="WZUIImage" GUID="{619e0c38-2384-40b6-9bed-a60e0e8852ee}" File="ui/copy/common_pic_fb03.png" RelativePosition="0.5,0.491416" />
+                <WZUIImage Type="WZUIImage" GUID="{a8013f48-ca85-49d1-96e4-513ccd58a1c0}" File="ui/common/common_shade_chushouheidi.png" Name="imgBlack3_WndCopyEntry" />
+                <WZUIImage Type="WZUIImage" GUID="{759a0829-4a1d-4750-9a96-31bb1be963d5}" File="ui/common/common_icon_suo.png" Scale="0.9" UseOriginSize="True" Name="imgSuo3_WndCopyEntry" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d85b11ea-e77a-46f3-a9a0-646a66fc4b29}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="127,70,26" StrokeSize="4" RelativePosition="0.5,0.1" Text="秘境宝藏" TextKey="SECRETSCENE" Name="txtDaily_WndCopyEntry" />
+                <Button Type="WZUIButton" GUID="{71af5cb8-b0d4-44ec-a460-2933d3866546}" LuaDoneFunctionName="onFunctionClick" Tag="3" Name="btn3_WndCopyEntry" TouchEnable="True">
+                    <NormalElement Type="WZUIContainer" GUID="{acf6a11a-fa19-4e6d-be18-f86b9b1c357f}" />
+                    <SelectElement Type="WZUIContainer" GUID="{0e3fffe4-5028-41b4-9125-c19db41cc814}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{2ca0c074-ae20-4d83-9933-a5b97a62aa46}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{0c2b8991-614f-444d-88a0-c4cd00c804f4}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{db800b03-f41c-4420-b9ce-b99c16860479}" AbsContentSize="182,235" UseAbsSize="True" RelativePosition="0.868,0.3371">
+                <WZUIImage Type="WZUIImage" GUID="{e017e9af-28f2-4274-b98f-cabeedcad268}" File="ui/copy/common_pic_fb04.png" RelativePosition="0.5,0.491416" />
+                <WZUIImage Type="WZUIImage" GUID="{d410ee5b-3b12-4c81-a2b0-5889722c32c7}" File="ui/common/common_shade_chushouheidi.png" Name="imgBlack4_WndCopyEntry" Visible="True" />
+                <WZUIImage Type="WZUIImage" GUID="{76337fab-e862-422d-b4eb-9f761666bf14}" File="ui/common/common_icon_suo.png" Scale="0.9" UseOriginSize="True" Name="imgSuo4_WndCopyEntry" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f527c21a-61a8-444e-a9a7-b3edcd93cc68}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="127,70,26" StrokeSize="4" RelativePosition="0.5,0.1" Text="秘境宝藏" TextKey="CHALLENGEENTRANCE_TEXT3" Name="txtTaboo_WndCopyEntry" />
+                <Button Type="WZUIButton" GUID="{3827d7fa-84a5-481e-bcd4-b9692a460564}" LuaDoneFunctionName="onFunctionClick" Tag="4" Name="btn4_WndCopyEntry" TouchEnable="True">
+                    <NormalElement Type="WZUIContainer" GUID="{34d41e63-5580-444b-bea7-be09f50f9937}" />
+                    <SelectElement Type="WZUIContainer" GUID="{a0a7e04f-d91f-45bb-a217-a7931a073083}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{ea55448a-93bd-4863-913a-075f2e9f1ab6}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{07100126-6762-484e-aa6b-eed4b75df946}" />
+                </Button>
+                <WZUIImage Type="WZUIImage" GUID="{a2dbff14-e300-4435-b02a-73dd8239378d}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.786487,0.148069" Scale="0.8" ScaleX="0.8" ScaleY="0.8" Name="imgRed4_WndCopyEntry" isValid="True" Visible="False" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndCopyEntry>

@@ -1,0 +1,97 @@
+﻿<CellHappyShakeTask GUID="{e9ab7686-b388-479b-8bd8-857221d52271}">
+    <WZUIContainer Type="WZUIContainer" GUID="{c88fa411-969d-4d64-b4d6-f4cc3510f9e3}" AbsContentSize="620,98" UseAbsSize="True" LuaObjectName="" Name="CellHappyShakeTask" NameCreate="True" RelativePosition="0.5,0.5" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{d6a0c82c-8e7d-4111-9adf-143acacb72cc}" AbsContentSize="620,93" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{6590869d-087c-4919-b72d-6f473e73c9cf}">
+                <WZUI9Image Type="WZUI9Image" GUID="{504dd775-5044-4afe-b912-bb02681aeae4}" File="ui/common/common_scale9_di18.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{207996a4-3efc-4650-9554-326007bf63c7}" Name="TaskDescContainer_Obj">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9b30f61c-d9d5-40b1-bb63-4cf0e8d2e8c9}" Text="" FontSize="20" Color="79,60,48" RelativePosition="0.03,0.75" Name="txtTaskTitle_CellHappyShakeTask" EnableStroke="False" StrokeColor="79,60,48" StrokeSize="1" Font="" Alignment="Left" AnchorPoint="0,0.5">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{417a3bd9-3fc8-4447-bc46-65b6cbd0e840}" Text="" FontSize="20" Color="132,66,29" RelativePosition="1,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtTaskDesc_CellHappyShakeTask" Font="" EnableStroke="False" StrokeColor="132,66,29" StrokeSize="1" Dimensions="0,0" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{8da51dcf-e993-4eb8-a0bd-7da6dc3bf888}" AbsContentSize="100,95" UseAbsSize="True" RelativePosition="0.9,0.490701">
+                <WZUIContainer Type="WZUIContainer" GUID="{e873b333-e8ac-40bb-8d79-d98e73d62f0d}" AbsContentSize="120,60" UseAbsSize="True" Visible="False" Name="conBtnTaskState_CellHappyShakeTask" RelativePosition="0.5,0.5" Scale="0.8">
+                    <Button Type="WZUIButton" GUID="{2746dceb-e0c9-472e-a67c-e474326a15f1}" Name="btnCommit_CellHappyShakeTask" Visible="True" LuaDoneFunctionName="onCommitEvent" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{6b46c33d-6f12-4c8f-8996-ddd5e76d20da}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{01069510-ee90-4aaa-8400-5be20c1949ff}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{3087dfd3-a8dc-45dd-96db-d0fa02678b9f}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtCommit_1_CellHappyShakeTask" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" Font="" LabelStyleKey="SMALL_GREEN_BTN" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{ad819882-dd11-4fd8-a7a0-d7669395dedf}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{dfc756a4-c4a6-45b8-9a0d-0fd53ba9a5d8}" File="ui/common/common_btn_anniu10_0_sel.png" Scale="1" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{3dfbde31-a4d3-47e2-be29-e8c8e9d9d60a}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtCommit_2_CellHappyShakeTask" Font="" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="SMALL_GREEN_BTN" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{1bf226d0-73a5-4df8-aaca-f286a2e69595}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{54157585-c5b2-45a8-99ac-71d93a67e659}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{00d7ebd8-8c8d-49c3-b24e-5f4b32f1b40c}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtCommit_3_CellHappyShakeTask" Font="" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="SMALL_GRAY_BTN" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8653db6f-c816-44bb-994a-2b2ea969c26c}" FontSize="22" Text="" Name="txtTaskTarget_CellHappyShakeTask" Color="158,0,0" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="1" RelativePosition="0.5,0.75" />
+                <WZUIContainer Type="WZUIContainer" GUID="{ba4d7f20-470f-43a8-8bb3-3cb7445a7be9}" AbsContentSize="120,60" UseAbsSize="True" Visible="True" Name="conUITaskBtn_CellHappyShakeTask" RelativePosition="0.5,0.35" Scale="0.8">
+                    <Button Type="WZUIButton" GUID="{1942d60c-8328-4393-a1da-ac70fd381642}" Name="btnUISwitch_CellHappyShakeTask" Visible="True" LuaDoneFunctionName="onCommitEvent" Tag="1" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{3a9cd8d3-5eac-455b-87c5-e90780c6c118}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{18b615be-8a51-4d97-8708-b17f0f0890eb}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{32b4605c-7f8f-43c0-9e84-39d1520c2a8a}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_1_CellHappyShakeTask" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" Font="" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{7cb69f68-9291-4168-8087-dd5d8009e757}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{68e10ed4-8da7-4ffd-bc85-3b79e3c10269}" File="ui/common/common_btn_anniu3_0_sel.png" Scale="1" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{91bbf210-db69-4924-ae1d-babb37b7dac4}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_2_CellHappyShakeTask" Font="" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{1871a95a-0cea-4949-bca8-f4f6fe6005a1}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{16adeabb-4fd9-4e74-b35f-e612a0edbcaa}" File="ui/common/common_btn_anniu3_0.png" GrayRender="True" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{64d19ee9-4947-49f7-abf0-2a3829b07970}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_3_CellHappyShakeTask" Font="" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" LabelStyleKey="" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{13c40939-0555-432f-b10f-dd4a4ab84860}" FontSize="26" Text="" Name="txtTaskFinish_CellHappyShakeTask" Color="158,139,121" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="4" RelativePosition="0.5,0.5" Visible="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{039bed81-69b8-47da-853a-188d9eb60dbf}" AbsContentSize="430,40" UseAbsSize="True" RelativePosition="0.03,0.32" AnchorPoint="0.0,0.5">
+                <WZUI9Image Type="WZUI9Image" GUID="{41e302e9-2038-401a-8803-53d1cd383c4b}" File="ui/common/common_scale9_di8.png" />
+                <WZUIContainer Type="WZUIContainer" GUID="{720cd4c0-ecbc-459d-9408-42733cad1b51}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.38,0.5" Name="conRewardItem_2_CellHappyShakeTask" NameCreate="True" Visible="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{0498aab8-a734-42c5-b94f-62baee5d5a0c}" FontSize="22" Text="2000000" Color="255,255,255" RelativePosition="0.49,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_2_CellHappyShakeTask" Font="" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{d883e0bf-f185-4e38-83ee-883363e9b26c}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.32,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{8cf03c0c-499e-4c0a-8e78-2c1ea61ce113}" File="ui/common/common_icon_jinbi.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" NameCreate="True" Name="ItemIcon_2_CellHappyShakeTask" />
+                        <Button Type="WZUIButton" GUID="{002be3e1-c925-4366-998d-b7935b30ab12}" Tag="2" LuaDoneFunctionName="onClickItem">
+                            <NormalElement Type="WZUIContainer" GUID="{49d11099-b121-4285-b581-df87fb29fb70}" />
+                            <SelectElement Type="WZUIContainer" GUID="{c3e19f9a-f560-4a95-a7d4-f0a792a5b761}" />
+                            <DisableElement Type="WZUIContainer" GUID="{de34c3e0-518a-456c-8ed9-37a4ce5f0c4d}" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{75971927-9212-4d73-ad48-2fc6b20f41fc}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.65,0.5" Name="conRewardItem_3_CellHappyShakeTask" NameCreate="True" Visible="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b54c2606-6813-4a0f-a9f7-e402f20ec883}" FontSize="22" Text="2000000" Color="255,255,255" RelativePosition="0.5,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_3_CellHappyShakeTask" Font="" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{ee741341-81d3-4edc-9518-e3eb781e803d}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.32,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{567386d3-36d7-4fd6-8dd5-2edcdf3650ed}" File="ui/common/common_icon_exp.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" Name="ItemIcon_3_CellHappyShakeTask" NameCreate="True" ScaleX="1" ScaleY="1" />
+                        <Button Type="WZUIButton" GUID="{62f6a448-2d96-4277-83df-e7dc1d2d8bcf}" Tag="3" LuaDoneFunctionName="onClickItem">
+                            <NormalElement Type="WZUIContainer" GUID="{689201a4-69b9-47aa-a15b-c733066915a4}" />
+                            <SelectElement Type="WZUIContainer" GUID="{242e69f2-ed64-44a3-aab3-58a25e050666}" />
+                            <DisableElement Type="WZUIContainer" GUID="{ba75bc3c-f89a-4e98-a387-c20bc6c0eb60}" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{3c2dba37-5252-4dc5-8f0c-3a0be584284c}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.109706,0.5" Name="conRewardItem_1_CellHappyShakeTask" NameCreate="True" Visible="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a917c2b5-57ea-4e69-8f2f-561eed78e168}" FontSize="22" Text="20000000" Color="255,255,255" RelativePosition="0.5,0.483333" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_1_CellHappyShakeTask" Font="" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{afee2495-7165-410e-b97a-8874d25981c0}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.3,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{523e455c-46eb-49a1-88d8-05b13bf152e3}" File="ui/common/common_icon_zuanshi.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" Name="ItemIcon_1_CellHappyShakeTask" NameCreate="True" />
+                        <Button Type="WZUIButton" GUID="{a01d3e9d-e11d-4552-bcd5-3fceca4648cb}" Tag="1" LuaDoneFunctionName="onClickItem">
+                            <NormalElement Type="WZUIContainer" GUID="{0c8e6609-0eee-4de0-8d13-c5192b153c5d}" />
+                            <SelectElement Type="WZUIContainer" GUID="{fad5c630-1735-46fb-a0ed-df717ecbbb9b}" />
+                            <DisableElement Type="WZUIContainer" GUID="{e9cf96f7-f458-4a00-bee1-6ac261b03fe6}" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{6efba13f-a1b9-4c34-b19b-b29fe51ef44f}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.92,0.5" Name="conRewardItem_4_CellHappyShakeTask" NameCreate="True" Visible="False" TouchEnable="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c369978f-9c34-46b9-8d03-93bdacb43013}" FontSize="22" Text="2000000" Color="255,255,255" RelativePosition="0.5,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_4_CellHappyShakeTask" Font="" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{f2b92a53-94df-4edb-ac5c-2fc772f8621f}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.32,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{2ba25c77-b221-4940-8535-24a5d27207f6}" File="ui/common/common_icon_exp.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" Name="ItemIcon_4_CellHappyShakeTask" NameCreate="True" ScaleX="1" ScaleY="1" />
+                        <Button Type="WZUIButton" GUID="{95b2f3aa-8126-4cc0-ac0d-b2e802b4d5a5}" Tag="4" LuaDoneFunctionName="onClickItem">
+                            <NormalElement Type="WZUIContainer" GUID="{f24f2344-4caa-49a8-9908-17322bc88132}" />
+                            <SelectElement Type="WZUIContainer" GUID="{c7d48ec4-35ff-4e78-944c-4973ba677841}" />
+                            <DisableElement Type="WZUIContainer" GUID="{50763502-9062-4d9d-80d8-3a3a182230cb}" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellHappyShakeTask>

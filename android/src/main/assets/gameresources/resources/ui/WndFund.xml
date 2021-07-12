@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" ?>
+<WndFund GUID="{5977107D-9CA7-401e-9508-606A4ED17A9D}">
+    <WZUIWindow AbsContentSize="642,478" GUID="{59E8A3C3-A797-422b-9835-DFDCF1C1C68A}" LuaObjectName="WndFund" LuaTouchBeganFunction="onTouchBegin" LuaTouchCancelledFunction="" LuaTouchEndedFunction="" LuaTouchMovedFunction="" Name="WndFund" NameCreate="True" RelativePosition="0.5,0.5" Type="WZUIWindow" UseAbsSize="True" AnchorPoint="0.5,0.5" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{6C23470F-3EA5-48ca-B303-1FC8DA99CA1A}" Name="conShowAll_WndFund" Rotation="0" ShowAll="False" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{99A464E0-DFF7-4ac8-9FAB-C9C4D5295E07}" AbsContentSize="642,478" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{B27359A2-4CB1-431b-AD90-8486CA92C355}" Name="conLeft_WndFund" AbsContentSize="642,478" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" ShowAll="False" Order="1">
+                    <WZUIImage Type="WZUIImage" GUID="{F0E93EAD-BE5E-4630-8D8F-5ACCEADB2C71}" File="ui/newActivity/activity_pic_hd_01.png" UseOriginSize="True" UseOriginSizeProportion="True" RelativePosition="0.5,1" AnchorPoint="0.5,1" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{910357F0-5BDD-4bbb-8497-B8B715590A11}" AbsContentSize="480,70" UseAbsSize="True" RelativePosition="0.487834,-0.100716" AbsPosition="243.917,-298.968" Order="50" Visible="True">
+                        <WZUIButton GUID="{05AD5880-4D03-450f-B71A-524A9882A261}" LuaDoneFunctionName="onBuy" Name="btnBuy1" Type="WZUIButton" LuaActionName="Normal" RelativePosition="0.718427,0.5" AbsPosition="492.18,500.199" Visible="True" AbsContentSize="152,68" UseAbsSize="True" UseAbsCoordinate="True" Scale="0.8" ScaleX="0.8" ScaleY="0.8">
+                            <NormalElement GUID="{BD7E2E99-C7B4-4ab0-B2D1-14A6A30AE0AE}" Type="WZUIContainer" UseAbsSize="False" RelativePosition="0.508204,0.5">
+                                <WZUI9Image CapInsets="20,10,15,35" File="ui/common/common_btn_01.png" GUID="{CC26C6D9-EBD2-4f6d-97BD-7C7AB33E2362}" RelativeSize="1.1,1" Type="WZUI9Image" UseOriginSizeProportion="False" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement GUID="{6E627694-CA63-48a4-AA05-26FC7749351B}" Type="WZUIContainer">
+                                <WZUI9Image CapInsets="20,10,15,35" File="ui/common/common_btn_01.png" GUID="{6BB31500-8226-475c-80DF-CFD5EB00893B}" RelativeSize="1.1,1" Type="WZUI9Image" Scale="1" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement GUID="{07827307-2A56-4097-88D3-158FB21CC1DC}" Type="WZUIContainer">
+                                <WZUI9Image CapInsets="20,10,15,35" File="ui/common/common_btn_01.png" GUID="{EB117159-A2F7-4971-BC62-1B0381AFF94C}" RelativePosition="0.5,0.5" RelativeSize="1.1,1" Type="WZUI9Image" GrayRender="True" UseOriginSize="True" />
+                            </DisableElement>
+                            <WZUILabelTTF Color="255,250,236" FontSize="26" GUID="{F01AC56F-8BB8-4cb8-9204-FA07D572F4B1}" Name="txt2_gotoButton" RelativePosition="0.5,0.5" StrokeColor="163,74,20" StrokeSize="4" Text="" Type="WZUILabelTTF" LabelStyleKey="" EnableStroke="True" TextKey="BUY_FUND" Scale="1" Dimensions="0,0" />
+                        </WZUIButton>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{87A61BD9-BFA8-42f6-A156-39E4DDBEB252}" AbsContentSize="640,345" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0.025" Name="conRight_WndFund" ShowAll="False">
+                    <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{AEA12C03-4AB6-408a-B1FC-C27CB90885A9}" AbsContentSize="640,345" UseAbsSize="True" Name="freeCon_WndFund" EnableMoveHorizontal="False" RelativePosition="0.5,1" AnchorPoint="0.5,1" />
+                </WZUIContainer>
+                <WZUI9Image Type="WZUI9Image" GUID="{ff14ce3e-d372-405d-a458-5ade8c99993f}" File="ui/common/frame_dadi_01.png" Order="-1" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndFund>

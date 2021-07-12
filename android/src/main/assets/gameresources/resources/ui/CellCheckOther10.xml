@@ -1,0 +1,99 @@
+﻿<CellCheckOther10 GUID="{18a4a968-1e33-4d32-a7ff-c9495e3db9ba}">
+    <WZUIContainer Type="WZUIContainer" GUID="{b266d964-e40c-4a46-8229-72f3bdef093d}" AbsContentSize="480,84" UseAbsSize="True" Name="CellCheckOther10" LuaObjectName="" RelativePosition="0.5,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{cd598b28-869b-46d3-9530-cae948b5cd9c}" Name="" AbsContentSize="480,84" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{ce590370-f8bc-42ac-b0a5-e72ec9867cad}" Name="conForTitle_CellCheckOther10" UseAbsSize="True" AbsContentSize="50,70" RelativePosition="0.008,0.5" AnchorPoint="0,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{9e8f0e23-6fcd-4a74-8eab-ab1eaa8c41d6}" RelativePosition="0.545,0.5" AbsContentSize="460,80" UseAbsSize="True">
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.0934,0.5" UseAbsSize="True" GUID="{327852aa-49f2-4fe7-a67b-9f822d77fb09}" Scale="0.91" Tag="1" LuaDoneFunctionName="onClick" Name="btn1">
+                    <WZUI9Image Type="WZUI9Image" GUID="{5f622951-8f23-40f2-b0b4-114795be3e22}" File="ui/common/common_scale9_beibaodi.png" Name="black1" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{af09b387-d69a-45ce-a5d3-014d110f829c}" File="" Name="quality1" Visible="True" UseOriginSize="False" />
+                    <NormalElement Type="WZUIContainer" GUID="{01c9cca1-e114-4c3a-81e5-10525055bda3}" AbsContentSize="53,53" UseAbsSize="False" RelativePosition="0.5,0.5" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{e69644d0-9534-4bd1-b7f9-482575f6830d}" Name="icon1" Scale="0.9" Visible="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{dd401bc6-c06b-4653-a4b5-81fad5d21f37}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{14ba8d01-3ec8-4962-9a44-4e6d9f3a18d1}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{13d90371-acb8-4358-beab-bcc04e134b8f}" Name="icon1Sel" RelativePosition="0.5,0.5" Visible="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{780c6649-1bc3-44f9-83e8-d2cbdb0378c5}" />
+                    <WZUISpine Type="WZUISpine" GUID="{2f88b485-553a-4c57-9098-36c0d5c7fb0b}" FileAtlas="ui/ui_qifu.atlas" FileJson="ui/ui_qifu.json" RelativePosition="0.5,0.5" Name="spine1" Loop="True" AbsPosition="36.9459,104.869" AnimationName="pofang_3" Scale="0.9" Visible="False" Order="1" />
+                    <WZUIImage Type="WZUIImage" GUID="{32ad27d4-fcf1-4e4c-9952-2a04aea25ef4}" Name="iconBg1" Scale="1" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="36,36" File="ui/bag/common_icon_wuqi.png" Visible="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{acda8d3b-a361-45a7-b6de-6a82bd03ab4d}" Text="Lv1生命" StrokeColor="79,60,48" StrokeSize="4" Color="255,255,255" FontSize="20" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.16" Order="2" Name="prayName1" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.255,0.5" UseAbsSize="True" GUID="{d5277719-f294-4823-b853-45fa1bfb1580}" Scale="0.91" Tag="2" LuaDoneFunctionName="onClick" Name="btn2">
+                    <WZUI9Image Type="WZUI9Image" GUID="{51dad43b-c886-4b97-8c0e-2608f0a6bed3}" File="ui/common/common_scale9_beibaodi.png" Name="black2" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{ee5985da-6cfd-4690-b086-7860e00b8bfb}" File="" Name="quality2" />
+                    <NormalElement Type="WZUIContainer" GUID="{843c45aa-f9e2-453a-a31a-5b2481a354ca}">
+                        <WZUIImage Type="WZUIImage" GUID="{4b2feae3-2f5b-463a-b9c6-17f01d6486e0}" Name="icon2" Scale="0.9" RelativePosition="0.5,0.5" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{7fab5734-3d37-433b-a0d2-9a8da15570a3}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{16d3e4ad-11a7-4433-811d-b44afd90f342}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{bb7f77e1-400f-4fc6-805d-ffb5a416e13a}" Name="icon2Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{2e5fe15c-ffc7-4aa1-a393-e8d310463a9b}" />
+                    <WZUISpine Type="WZUISpine" GUID="{cf33eec7-6034-4517-9bd7-edd099ce0954}" FileAtlas="ui/ui_qifu.atlas" FileJson="ui/ui_qifu.json" RelativePosition="0.5,0.5" Name="spine2" Loop="True" AbsPosition="36.9459,104.869" AnimationName="pofang_3" Scale="0.9" Visible="False" Order="1" />
+                    <WZUIImage Type="WZUIImage" GUID="{1c5d33b3-3171-4f25-b80f-044de52c6ed0}" Name="iconBg2" Scale="1" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="36,36" File="ui/bag/common_icon_wuqi.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{67f1a6e4-7bc1-4cc6-aea8-e240e2ab9c94}" Text="Lv1生命" StrokeColor="79,60,48" StrokeSize="4" Color="255,255,255" FontSize="20" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.16" Order="2" Name="prayName2" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.417,0.5" UseAbsSize="True" GUID="{e6e3cd73-d15b-4eca-b62f-90c8f8b4aa59}" Scale="0.91" Tag="3" LuaDoneFunctionName="onClick" Name="btn3">
+                    <WZUI9Image Type="WZUI9Image" GUID="{c80180a1-b318-4918-a182-a4269658d11e}" File="ui/common/common_scale9_beibaodi.png" Name="black3" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{7d0cb71e-f282-4111-8e1a-d9b6f3ad3f0d}" File="" Name="quality3" />
+                    <NormalElement Type="WZUIContainer" GUID="{48ac0664-7a88-453f-9f3a-52e7ef9cf752}">
+                        <WZUIImage Type="WZUIImage" GUID="{45ce1e41-2b17-403e-8c3e-7f6634e6af13}" Name="icon3" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{d8152604-375d-4ece-910b-2d2aa3594eb3}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{47b77884-11f1-4c09-97c1-ad452a534203}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{5af23b01-ec30-4a0d-bbaa-3d43b2efcc79}" Name="icon3Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{fc869189-785e-46ba-ab4e-322d8c6e06a7}" />
+                    <WZUISpine Type="WZUISpine" GUID="{638dd4f4-b797-4d42-aec6-d7005deff79b}" FileAtlas="ui/ui_qifu.atlas" FileJson="ui/ui_qifu.json" RelativePosition="0.5,0.5" Name="spine3" Loop="True" AbsPosition="36.9459,104.869" AnimationName="pofang_3" Scale="0.9" Visible="False" Order="1" />
+                    <WZUIImage Type="WZUIImage" GUID="{29c7d632-72e0-41bf-9f28-ac18016173b6}" Name="iconBg3" Scale="1" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="36,36" File="ui/bag/common_icon_wuqi.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b92073b6-9b2a-48ee-b61d-e9c0b97ac1e7}" Text="Lv1生命" StrokeColor="79,60,48" StrokeSize="4" Color="255,255,255" FontSize="20" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.16" Order="2" Name="prayName3" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.579,0.5" UseAbsSize="True" GUID="{8ca1291f-8d42-4f31-b3c9-bb9cb0d96227}" Scale="0.91" Tag="4" LuaDoneFunctionName="onClick" Name="btn4">
+                    <WZUI9Image Type="WZUI9Image" GUID="{c609caf9-c2d4-4a44-a8ce-549b371693ba}" File="ui/common/common_scale9_beibaodi.png" Name="black4" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{52c49d9e-665e-4519-bdbb-840bc2349147}" File="" Name="quality4" />
+                    <NormalElement Type="WZUIContainer" GUID="{74778449-1443-4839-b55b-7d63135e9215}">
+                        <WZUIImage Type="WZUIImage" GUID="{b60bd1c5-5d3d-45fb-93d4-6e47b28e24d1}" Name="icon4" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{ece3cd45-f1cb-4a7f-8948-a16f1c424bff}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{cd4134db-4077-4b6e-b6c2-395eade5365e}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{4df10ac3-f3d9-42c5-9363-ff307c39d3b0}" Name="icon4Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{9ea7c0d1-b363-488b-808f-75fc04abdf91}" />
+                    <WZUISpine Type="WZUISpine" GUID="{3e71f4d2-9512-45e8-9603-d99da6bb185f}" FileAtlas="ui/ui_qifu.atlas" FileJson="ui/ui_qifu.json" RelativePosition="0.5,0.5" Name="spine4" Loop="True" AbsPosition="36.9459,104.869" AnimationName="pofang_3" Scale="0.9" Visible="False" Order="1" />
+                    <WZUIImage Type="WZUIImage" GUID="{c974db4b-6444-4a07-9a10-4e022ccee828}" Name="iconBg4" Scale="1" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="36,36" File="ui/bag/common_icon_wuqi.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{e5b39ee0-45cb-44ef-97a4-fff26615eaa7}" Text="Lv1生命" StrokeColor="79,60,48" StrokeSize="4" Color="255,255,255" FontSize="20" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.16" Order="2" Name="prayName4" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.741,0.5" UseAbsSize="True" GUID="{42e4b4f8-7ced-46e3-adfa-352c3fb1d175}" Scale="0.91" Tag="5" LuaDoneFunctionName="onClick" Name="btn5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{7a927c2c-dd47-43f5-821c-2c2d14487c4c}" File="ui/common/common_scale9_beibaodi.png" Name="black5" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{e533ba4f-b0da-4cf3-9ce6-42a1b82432fd}" File="" Name="quality5" />
+                    <NormalElement Type="WZUIContainer" GUID="{10c4c9dd-9eba-4cb0-abe8-7f629edc071e}">
+                        <WZUIImage Type="WZUIImage" GUID="{7a455a72-5bf1-4c58-970e-59c571b9ed89}" Name="icon5" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{44c73bc9-af10-4807-ac40-0718c11a19fd}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{ee7e8742-ec8d-46c2-8afc-85a16e65ea5f}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{1a18c413-c7a3-4963-a4d7-74be44a264d6}" Name="icon5Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{7e85b7ee-840a-4871-8790-fd68bab5ee43}" />
+                    <WZUISpine Type="WZUISpine" GUID="{7f3d18e9-d05f-4257-a1cf-f2edb8a27d16}" FileAtlas="ui/ui_qifu.atlas" FileJson="ui/ui_qifu.json" RelativePosition="0.5,0.5" Name="spine5" Loop="True" AbsPosition="36.9459,104.869" AnimationName="pofang_3" Scale="0.9" Visible="False" Order="1" />
+                    <WZUIImage Type="WZUIImage" GUID="{fd77386f-a303-4122-9ff0-2bf598d30a82}" Name="iconBg5" Scale="1" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="36,36" File="ui/bag/common_icon_wuqi.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{1a08b02c-7dc2-457c-a0cc-9e6b8667baea}" Text="Lv1生命" StrokeColor="79,60,48" StrokeSize="4" Color="255,255,255" FontSize="20" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.16" Order="2" Name="prayName5" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.903,0.5" UseAbsSize="True" GUID="{014c72c3-fb27-4736-8eae-2a5cb1474a89}" Scale="0.91" Tag="6" LuaDoneFunctionName="onClick" Name="btn6">
+                    <WZUI9Image Type="WZUI9Image" GUID="{0284090a-369b-4aa2-89ad-76451d37978d}" File="ui/common/common_scale9_beibaodi.png" Name="black6" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{7260f98e-0314-4215-8e59-22f88b526339}" File="" Name="quality6" />
+                    <NormalElement Type="WZUIContainer" GUID="{2af77c1d-42e6-42f0-a04a-fe05522b0899}">
+                        <WZUIImage Type="WZUIImage" GUID="{56949a53-5e83-4030-a62e-9b86e03c41cc}" Name="icon6" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{b47f32c3-43d2-4bcb-9ab4-c218a737fb03}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{23e0f7f4-054f-42cb-a3db-de2304df0fdf}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{934d92d8-27bd-41ac-9d75-5591610d4498}" Name="icon6Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{7dd9d2d5-659a-4e77-a341-63d65117dcc8}" />
+                    <WZUISpine Type="WZUISpine" GUID="{4eac5ff0-870e-4484-aa20-51f6ccb07f6d}" FileAtlas="ui/ui_qifu.atlas" FileJson="ui/ui_qifu.json" RelativePosition="0.5,0.5" Name="spine6" Loop="True" AbsPosition="36.9459,104.869" AnimationName="pofang_3" Scale="0.9" Visible="False" Order="1" />
+                    <WZUIImage Type="WZUIImage" GUID="{92951633-a4d5-42d4-9b37-20a1cb9c72ff}" Name="iconBg6" Scale="1" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="36,36" File="ui/bag/common_icon_wuqi.png" Visible="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{1d422a9a-a597-406f-932f-f7a208996d7b}" Text="Lv1生命" StrokeColor="79,60,48" StrokeSize="4" Color="255,255,255" FontSize="20" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.16" Order="2" Name="prayName6" Visible="False" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCheckOther10>

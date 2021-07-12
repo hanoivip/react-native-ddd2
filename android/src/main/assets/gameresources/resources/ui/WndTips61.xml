@@ -1,0 +1,12 @@
+﻿<WndTips61 GUID="{66eb87ca-e884-4bc5-9054-d6ab463211c3}">
+    <WZUIWindow AbsContentSize="206,210" AbsPosition="0,0" AnchorPoint="0.5,0.5" GUID="{257aef4f-de2c-4d3d-92b2-302543fdb3e6}" LuaObjectName="WndTips61" Name="WndTips61" NameCreate="True" RelativePosition="0.498958,0.5" RelativeSize="1,1" ShowAll="True" TouchContainerEnable="True" TouchEnable="True" TouchSwallow="True" Type="WZUIWindow" UseAbsCoordinate="False" UseAbsSize="True" Visible="True" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{79410eb1-0ee3-486a-b6c7-ab53e367a181}" AbsContentSize="" UseAbsSize="False" Name="" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{a360f4e2-0711-4daa-8e31-fb4e383f5687}" File="ui/common/common_scale9_di24.png" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{80a82109-5225-4c53-9e7e-0ec0d1698f0a}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" RelativePosition="0.5,0.609766" ScaleX="1.2" Scale="0.8" ScaleY="1" AbsPosition="160,117.654" Visible="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d2781fba-b8cc-4c1a-80e7-6f2e9160e702}" Text="" FontSize="20" RelativePosition="0.5,0.801457" Color="233,166,62" Dimensions="182,0" Name="txtTaskDetails_WndTips61" Alignment="Left" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ff38ae9a-1b77-4b7b-9b47-84ec058e56ab}" Color="255,236,193" FontSize="20" Text="" RelativePosition="0.06,0.495238" Name="txtGetReward_WndTips61" AnchorPoint="0,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{4e39e0a6-e6bb-4c31-acc1-88f0d54904af}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.29,0.215" Name="conTaskReward1_WndTips61" />
+            <WZUIContainer Type="WZUIContainer" GUID="{9caa893c-d53d-44a2-a6ff-9e38348e4920}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.71,0.215" Name="conTaskReward2_WndTips61" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndTips61>

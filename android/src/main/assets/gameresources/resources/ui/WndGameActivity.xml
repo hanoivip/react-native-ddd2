@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" ?>
+<WndGameActivity GUID="{99020142-82E2-44e1-9E4C-99CAA5C3E193}">
+    <WZUIWindow Type="WZUIWindow" GUID="{CD36D88F-E601-497d-9338-50970BD602A3}" AbsContentSize="775,535" LuaObjectName="WndGameActivity" Name="WndGameActivity" NameCreate="True" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" ShowAll="False" UseAbsCoordinate="True" AbsPosition="400,280">
+        <WZUIContainer Type="WZUIContainer" GUID="{3209CDA4-FD0B-4a87-AEBF-455E33B088BD}" AbsContentSize="778,538" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False" Name="rootContainer">
+            <WZUIContainer Type="WZUIContainer" GUID="{41B80069-2B6D-464b-B5B3-EC1033B24957}" AbsContentSize="640,476" UseAbsSize="True" RelativePosition="0.651953,0.438" UseAbsCoordinate="True" AbsPosition="550,240">
+                <WZUIContainer AbsContentSize="640,476" GUID="{B314C282-77A1-4851-A4DC-D0D86A055AED}" Name="conActivityContext_WndGameActivity" RelativePosition="0.5,0.5" Type="WZUIContainer" UseAbsSize="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{B4131016-6D94-45ac-BFF0-F941D50A72A3}" AbsContentSize="231,453" UseAbsSize="True" RelativePosition="0.171772,0.438" Order="-1">
+                <WZUIFreeListContainer AbsContentSize="231,470" EnableMoveHorizontal="False" GUID="{020528F8-0BA6-46e2-AEBE-FA0E0C746505}" Name="flActivityItem_WndGameActivity" RelativePosition="0.407407,0.511139" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndGameActivity>

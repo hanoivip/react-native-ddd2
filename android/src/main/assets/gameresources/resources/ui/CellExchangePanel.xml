@@ -1,0 +1,26 @@
+﻿<CellExchangePanel GUID="{f5061c96-8685-435d-a4be-b3a97f44be03}">
+    <WZUIContainer AbsContentSize="640,467" GUID="{b9dc9ed8-9a69-4ee6-8ad7-c02bf81b6d96}" LuaObjectName="CellExchangePanel" Name="CellExchangePanel" NameCreate="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{15b3b511-e60d-4680-97e3-f3a317f95b29}" File="ui/common/frame_dadi_01.png" />
+        <WZUIContainer Type="WZUIContainer" GUID="{a65d888d-511f-4dc3-8d99-dad030750b3d}" AbsContentSize="634,113" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+            <WZUIImage Type="WZUIImage" GUID="{b0ebe966-6d85-4443-b6cd-7852edc96fe7}" File="ui/gameActivity/activity_pic_dhhd.png" UseOriginSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" ScaleX="1" Name="imgBK_CellExchangePanel" />
+            <WZUIContainer Type="WZUIContainer" GUID="{d4912d17-504d-4090-8b25-dd7e552be315}" Name="conRole1_CellExchangePanel" AbsContentSize="100,150" UseAbsSize="True" RelativePosition="0.67,0.61" Scale="0.6" ScaleX="0.6" ScaleY="0.6" />
+            <WZUIContainer Type="WZUIContainer" GUID="{7e8a298c-1682-4434-9307-a82330786edc}" Name="conRole2_CellExchangePanel" AbsContentSize="100,150" UseAbsSize="True" RelativePosition="0.85,0.61" Scale="0.6" ScaleX="0.6" ScaleY="0.6" />
+            <WZUIContainer Type="WZUIContainer" GUID="{753a023e-be8c-445a-b30b-770b76b8a6a5}" Name="conForTitle_CellExchangePanel" />
+            <WZUIContainer AbsContentSize="600,60" GUID="{0226b221-f381-4234-98c9-6a23882d9954}" RelativePosition="0.5,0.524248" Type="WZUIContainer" UseAbsSize="True" Name="conRule_CellExchangePanel">
+                <WZUIScrollContainer EnableHorizontalScroll="False" EnableMoveHorizontal="False" EnableVerticalScroll="True" GUID="{6a0fe3cc-b266-4481-a469-97b71a8334d8}" Name="rollconExplanation_CellExchangePanel" ScrollPictureDown="" ScrollPictureMid="" ScrollPictureTop="" Type="WZUIScrollContainer" EnableBounceBack="True" RelativeSize="1,1" AnchorPoint="0,0" RelativePosition="0,0">
+                    <MoveElement GUID="{cbb0d2f9-9d54-4888-8a15-d00ad8d7701e}" Type="WZUIContainer" Visible="True" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{abeaa342-c99e-4671-b03f-e76c29a1d1c1}" Name="txtDesc1" MaxWidth="600" AnchorPoint="0,1" RelativePosition="0,0.95" ShowText="" />
+                    </MoveElement>
+                </WZUIScrollContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{81d2cd04-09aa-44cc-b602-d31458e621cb}" Name="conConSume_CellExchangePanel" AbsContentSize="640,330" UseAbsSize="True" RelativePosition="0.5,0.0278373" AnchorPoint="0.5,0">
+            <WZUIFreeListContainer EnableMoveHorizontal="False" GUID="{f5c1a649-d2fb-4c16-b8bf-f40f012b4dc4}" Name="flconList_CellExchangePanel" Type="WZUIFreeListContainer" Resistance="0.95" VisibleHeight="70" ListItemInterval="6" MaxPosition="568,340" MinPosition="568,340" />
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="634,30" GUID="{7c5ace6c-5e96-43ef-8e01-cc3a8a0fec14}" RelativePosition="0.5,0.754283" RelativeSize="1,1" Type="WZUIContainer" UseAbsCoordinate="False" UseAbsSize="True" AnchorPoint="0.5,0" Order="0" Name="conTime_CellExchangePanel">
+            <WZUI9Image Type="WZUI9Image" GUID="{7c9be4ef-ce53-41ff-9682-5e8045fb751f}" File="ui/common/frame_08.png" />
+            <WZUILabelTTF AnchorPoint="0,0.5" Color="255,236,193" FontSize="18" GUID="{56cd2a5c-2598-44cf-b6a0-6a70f26c19f8}" Name="txtTimeWord_CellExchangePanel" RelativePosition="0.025,0.5" Text="活动时间" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" AbsPosition="25,31" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d581ffc8-8c89-4dac-9ea2-04d8830fc912}" Alignment="Left" AnchorPoint="0,0.5" FontSize="18" Color="255,89,74" Text="10天" Name="txtTime_CellExchangePanel" RelativePosition="0.26,0.5" NameCreate="True" StrokeColor="132,66,29" StrokeSize="4" EnableStroke="True" Order="0" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellExchangePanel>

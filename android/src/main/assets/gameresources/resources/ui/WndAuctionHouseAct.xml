@@ -1,0 +1,27 @@
+﻿<WndAuctionHouseAct GUID="{0b654e5d-4ff1-4c53-a2c5-24b9e6f18036}">
+    <WZUIWindow Type="WZUIWindow" GUID="{f46ec174-5143-465d-ba47-2d5524fa5690}" Name="WndAuctionHouseAct" LuaObjectName="WndAuctionHouseAct" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{f3f8d730-2db3-4224-917f-ec9d3bcf0a28}" AbsContentSize="970,584" UseAbsSize="True">
+            <WZUIImage Type="WZUIImage" GUID="{eddae05c-2f93-40bf-804c-c8b42c9cc88a}" File="ui/newActivity/auctionHouse/hd_pic_jph.png" UseOriginSize="True" />
+            <WZUIImage Type="WZUIImage" GUID="{eef3c979-5067-4e75-910a-8261e88b26e5}" File="ui/newActivity/auctionHouse/hd_text_06.png" UseOriginSize="True" RelativePosition="0.5,0.943" Name="imgTitle_WndAuctionHouseAct" />
+            <WZUIContainer Type="WZUIContainer" GUID="{26b45507-f9d9-4484-82e5-b2df5bf9902b}" Name="conActivityC_WndAuctionHouseAct" AbsContentSize="940,506" UseAbsSize="True" RelativePosition="0.5,0.459" />
+            <Button Type="WZUIButton" GUID="{8eb571ae-b38a-4c61-b2c3-1031c86995c8}" UseAbsSize="True" AbsContentSize="60,60" RelativePosition="0.69903,0.827393" LuaDoneFunctionName="onRuleClick">
+                <NormalElement Type="WZUIContainer" GUID="{799bd026-042a-42d6-8f18-1ae3162ec43c}">
+                    <WZUIImage Type="WZUIImage" GUID="{bef94591-ef57-4008-bcc8-39b38bfe70b4}" File="ui/common/common_icon_bz.png" UseOriginSize="True" Scale="0.8" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{3ba72d3a-70c9-43d0-b47e-fb51b1bd89c3}">
+                    <WZUIImage Type="WZUIImage" GUID="{f2cc9e16-efdb-47c2-91a6-29c156960301}" File="ui/common/common_icon_bz.png" UseOriginSize="True" Scale="0.8" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{a7ef2fb6-5cae-418d-912f-608da7010e47}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{641c4f42-bf4b-45a5-94cb-e15d89ecc5b8}" UseAbsSize="True" AbsContentSize="60,60" RelativePosition="0.942,0.9" LuaDoneFunctionName="onCloseClick">
+                <NormalElement Type="WZUIContainer" GUID="{25363b4a-a5e0-46e4-9b9a-4eeea83aa0b8}">
+                    <WZUIImage Type="WZUIImage" GUID="{2d33893e-4f05-46ed-93bf-23cc955729b2}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{84bea8ca-7fa1-41f1-b6ee-2a6c8bdbee54}">
+                    <WZUIImage Type="WZUIImage" GUID="{bee6993c-d474-496e-aa9f-47c715302d0a}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{6440ac4c-dec7-44a4-b70b-d35e59962390}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndAuctionHouseAct>

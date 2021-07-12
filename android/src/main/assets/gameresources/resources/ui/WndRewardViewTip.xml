@@ -1,0 +1,20 @@
+﻿<WndRewardViewTip GUID="{aa5571a6-4c2f-4280-a417-42d842e2154c}">
+    <WZUIWindow Type="WZUIWindow" GUID="{5c50edfc-4d7d-4667-874b-705070adda2a}" LuaObjectName="WndRewardViewTip" Name="WndRewardViewTip" NameCreate="True">
+        <Button Type="WZUIButton" GUID="{cfb7e289-58d1-4565-a60d-0c42ae000ea5}" LuaDoneFunctionName="onCloseWin">
+            <NormalElement Type="WZUIContainer" GUID="{cdf1e160-5eea-4fd5-923a-fd3c68251a42}" />
+            <SelectElement Type="WZUIContainer" GUID="{dd8ac3c0-d3cf-4e63-abe7-4194e2dce72f}" />
+            <DisableElement Type="WZUIContainer" GUID="{1317ee17-9307-441b-b9c9-6b2b16cc619e}" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{1f9cdd9b-e6f2-49e6-bbcf-60a1a13291a9}" AbsContentSize="490,518" UseAbsSize="True" ShowAll="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{e7e6b318-eca7-454c-a942-8377f849e569}" File="ui/common/common_scale9_di24.png" Opacity="225" />
+            <WZUIContainer Type="WZUIContainer" GUID="{eba24f44-a0a0-4404-8f20-c52e11e5fdd9}" AbsContentSize="482,48" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.992278">
+                <WZUI9Image Type="WZUI9Image" GUID="{a82b9b37-dad3-430b-be83-fbad081dc421}" File="ui/common/common_biaotidi_01.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3d1d5633-3c87-4cb6-8dc8-3528ecd56696}" LabelStyleKey="C1_F20" TextKey="RANK" RelativePosition="0.09,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{98a9e8bb-47c3-45dd-be97-7be880f76983}" LabelStyleKey="C1_F20" TextKey="ATH_REWARD_CHECK" RelativePosition="0.58,0.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{c268e243-3ab0-445c-801e-0c7c7b48b001}" AbsContentSize="480,460" UseAbsSize="True" RelativePosition="0.5,0.457529" Name="conRewardList_WndRewardViewTip">
+                <WZUITableContainer Type="WZUITableContainer" GUID="{ee9ecddc-6e9a-4ed2-a670-a0536911ce5c}" EnableMoveHorizontal="False" CellElementHeight="0.18" Name="tbRewardList_WndRewardViewTip" RelativeSize="1,0.965" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndRewardViewTip>

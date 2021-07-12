@@ -1,0 +1,86 @@
+﻿<WndMagicGemUpgradeSelect GUID="{c12ada12-6a19-4c60-a6ec-b0bc5b4b5adb}">
+    <WZUIWindow AbsContentSize="390,420" GUID="{2ecdc3d5-25d5-435f-9aa8-5ac2e5b691bf}" LuaObjectName="WndMagicGemUpgradeSelect" Name="WndMagicGemUpgradeSelect" NameCreate="True" Type="WZUIWindow" UseAbsSize="True" ShowAll="True" RelativePosition="0.5,0.5" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{49fc7001-ac18-4bc9-8362-905fdb004d97}" AbsContentSize="390,420" UseAbsSize="True" RelativePosition="0.5,0.505" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{3c439d0b-8052-4498-ba1c-4cdfc2f3539b}" File="ui/common/common_scale9_di5.png" CapInsets="60,110,10,10" Visible="True" />
+            <WZUI9Label Type="WZUI9Label" GUID="{54d6cdbc-a624-48a0-982b-71d5be1a6fe1}" FontSize="24" BoldFont="True" RelativePosition="0.5,0.92" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" Color="255,236,193" Text="" Visible="True" TextKey="" LabelStyleKey="SMALL_WINDOW_TITLE" Name="title_WndMagicGemUpgradeSelect" />
+            <WZUIContainer Type="WZUIContainer" GUID="{5734fefc-47e3-488f-9316-c3878bb06712}" AbsContentSize="350,118" UseAbsSize="True" RelativePosition="0.5,0.67">
+                <WZUI9Image Type="WZUI9Image" GUID="{33bb35a8-85d5-434d-b04d-cba8ca748c14}" File="ui/common/common_scale9_di8.png" Visible="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <Button GUID="{8fa5d3fd-eeb9-4cb7-b522-047cba99b12e}" LuaDoneFunctionName="onClick" Name="" RelativePosition="0.5,0.11" Type="WZUIButton" UseAbsSize="True" AbsContentSize="116,56" Visible="True" TouchEnable="True" LuaActionName="Normal">
+            <NormalElement GUID="{f6183333-518f-4e17-94cc-f4f772a2d116}" Type="WZUIContainer" UseAbsSize="True" AbsContentSize="116,56">
+                <WZUI9Image File="ui/common/common_btn_anniu10.png" GUID="{462803f9-fef2-4f17-8066-00ed164cac9f}" ScaleX="1" ScaleY="1" Type="WZUI9Image" UseOriginSize="False" Scale="1" />
+            </NormalElement>
+            <SelectElement GUID="{84662c3e-71d1-4bd4-be13-7665588bf992}" Type="WZUIContainer" AbsContentSize="116,56" UseAbsSize="True">
+                <WZUI9Image File="ui/common/common_btn_anniu10_sel.png" GUID="{33f5ad29-859e-4cf2-8310-84ba8795557d}" ScaleX="1" ScaleY="1" Type="WZUI9Image" UseOriginSize="False" Scale="1" />
+            </SelectElement>
+            <DisableElement GUID="{7db90f1e-cb6c-4f26-b089-5a1f070bef3c}" Type="WZUIContainer" AbsContentSize="116,56" UseAbsSize="True">
+                <WZUI9Image File="ui/common/common_btn_anniu10.png" GUID="{947b39e9-b3eb-4152-b2fc-83bea9b5b5a1}" ScaleX="1" Type="WZUI9Image" UseOriginSize="False" Scale="1" GrayRender="True" />
+            </DisableElement>
+            <WZUILabelTTF BoldFont="True" Color="255,255,255" EnableStroke="True" FontSize="24" GUID="{885afa5f-f8cd-4a72-b3ea-7cdd4d81f3b1}" Name="txtBtn_WndMagicGemUpgradeSelect" ShadowColor="0,255,0" StrokeColor="132,66,29" StrokeOffset="0,0" StrokeSize="4" Text="" Type="WZUILabelTTF" Visible="True" RelativePosition="0.5,0.47" LabelStyleKey="SMALL_GREEN_BTN" TextKey="" />
+        </Button>
+        <WZUIButton AbsContentSize="115,54" GUID="{6e2cf3a3-2d14-4f1b-ad4a-fad379b67fa3}" LuaDoneFunctionName="onClose" Name="" RelativePosition="0.905744,0.925" Type="WZUIButton" UseAbsSize="True" Visible="True" LuaActionName="Normal">
+            <NormalElement GUID="{c6657044-3754-49ac-b670-acbe25e738f9}" TouchContainerEnable="True" Type="WZUIContainer">
+                <WZUIImage File="ui/common/common_icon_guanbi.png" GUID="{b3201bc2-0cb4-4772-bc09-2915f006e4db}" Type="WZUIImage" UseOriginSize="True" />
+            </NormalElement>
+            <SelectElement GUID="{69bfb34c-e3ec-4dd1-940c-62ba3ace0ec9}" TouchContainerEnable="True" Type="WZUIContainer">
+                <WZUIImage File="ui/common/common_icon_guanbi_sel.png" GUID="{2806345f-d5a4-4ae0-bd76-2ab357bbccdf}" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" Scale="1" />
+            </SelectElement>
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" GUID="{79ca7beb-58e2-43da-90ed-13b7a1da8f11}" Name="conChest" AbsContentSize="350,118" UseAbsSize="True" RelativePosition="0.5,0.67">
+            <WZUIContainer Type="WZUIContainer" GUID="{9876b9c8-6121-4586-a921-a7e19edbb6d3}" AbsContentSize="90,90" UseAbsSize="True" Name="con_WndMagicGemUpgradeSelect" RelativePosition="0.5,0.5" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{e5898863-2531-409f-8f17-01ab0bdfb70d}" Name="conOperation">
+            <WZUIContainer Type="WZUIContainer" GUID="{c541c6b0-0aa2-474e-b2cc-a5810d671171}" AbsContentSize="120,40" UseAbsSize="True" RelativePosition="0.5,0.345">
+                <WZUI9Image Type="WZUI9Image" GUID="{ea3aad8b-b629-4d49-8c04-23e1f44a5c98}" File="ui/common/common_scale9_di8.png" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" Name="mutiReduce_WndMagicGemUpgradeSelect" AbsContentSize="80,45" UseAbsSize="True" RelativePosition="0.17,0.345" ScaleX="-1" GUID="{9ab7031e-d19f-4706-9f8a-94472e4bc9f4}" LuaDoneFunctionName="onMutiReduce">
+                <NormalElement Type="WZUIContainer" GUID="{931a814d-2196-4a97-be15-62ab8715e69d}">
+                    <WZUIImage Type="WZUIImage" GUID="{b9cfebaa-f54d-4d21-98b2-7ba1aa394936}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{63058e10-45ca-4001-b4fa-ac3448d615e8}">
+                    <WZUIImage Type="WZUIImage" GUID="{4bc71435-e961-4863-b4a4-a38b219dd6a5}" File="ui/common/common_btn_anniu15_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{ae9bd84a-764b-48bb-93b6-58a17b84f2ca}">
+                    <WZUIImage Type="WZUIImage" GUID="{e170743b-cb97-4adc-b662-4b9ef1dda6db}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" GrayRender="True" RelativePosition="0.5,0.5" />
+                </DisableElement>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8289eacb-c06e-46c6-bcf8-ac8ad2c95ba8}" LabelStyleKey="SMALL_GRAY_BTN" RelativePosition="0.5,0.5" Text="-10" ScaleX="-1" />
+            </Button>
+            <WZUIButton Type="WZUIButton" Name="mutiAdd_WndMagicGemUpgradeSelect" GUID="{b77de5da-5ad2-4ebe-9b90-9a66b7600959}" AbsContentSize="80,45" UseAbsSize="True" RelativePosition="0.83,0.345" LuaDoneFunctionName="onMutiAdd">
+                <NormalElement Type="WZUIContainer" GUID="{badf3f0d-0904-4bb1-bd6c-bec57d5abf59}">
+                    <WZUIImage Type="WZUIImage" GUID="{2894c71e-944b-4229-adeb-5831dd2bdbb9}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{ae216676-be79-4db6-ac1d-c753a334b5b0}">
+                    <WZUIImage Type="WZUIImage" GUID="{324fe388-4971-4497-8367-f04b52416711}" File="ui/common/common_btn_anniu15_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{58a029ed-ad9c-4ff2-9c93-e50222b73258}">
+                    <WZUIImage Type="WZUIImage" GUID="{72d65840-5ddf-4bb3-a221-89b2c4f361c0}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" GrayRender="True" RelativePosition="0.5,0.5" />
+                </DisableElement>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3ce7cc3d-65ce-44ca-9814-e3d464e216d7}" LabelStyleKey="SMALL_GRAY_BTN" RelativePosition="0.5,0.5" Text="+10" />
+            </WZUIButton>
+            <Button Type="WZUIButton" Name="reduce_WndMagicGemUpgradeSelect" AbsContentSize="64,64" UseAbsSize="True" RelativePosition="0.36,0.345" GUID="{982d5a18-5746-49f5-af66-879a103b4e10}" LuaDoneFunctionName="onReduce">
+                <NormalElement Type="WZUIContainer" GUID="{41dbf3f8-937c-4cd9-b630-c9e16e88ef4d}">
+                    <WZUIImage Type="WZUIImage" GUID="{0722e889-8549-4466-a450-292130d692c4}" File="ui/common/common_btn_js.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{63228e2f-7a91-4fb6-a04b-3ed6dadeba75}">
+                    <WZUIImage Type="WZUIImage" GUID="{9f0c1456-f382-41b2-90ba-52715346b6bf}" File="ui/common/common_btn_js_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{796aedf0-0a3b-4dc2-9b9a-b31c2c0b9c6c}">
+                    <WZUIImage Type="WZUIImage" GUID="{fde3b9cb-5dd2-46e3-92da-cacdc5e0ee16}" File="ui/common/common_btn_js.png" UseOriginSize="True" />
+                </DisableElement>
+            </Button>
+            <WZUIButton Type="WZUIButton" Name="add_WndMagicGemUpgradeSelect" AbsContentSize="64,64" UseAbsSize="True" GUID="{53f171e3-3ce8-4c0b-be60-2b14e2514113}" RelativePosition="0.64,0.345" LuaDoneFunctionName="onAdd">
+                <NormalElement Type="WZUIContainer" GUID="{b60b6edd-4780-4d44-886d-0bd2bbc587e9}">
+                    <WZUIImage Type="WZUIImage" GUID="{a2c56e34-aef3-4557-bdec-010d5b04dc2f}" File="ui/common/common_btn_zj.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{9233a807-180d-4286-a97d-2e45af3e41d5}">
+                    <WZUIImage Type="WZUIImage" GUID="{dcbefd45-31e3-4aab-ac73-d6e89b3b7020}" File="ui/common/common_btn_zj_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{d440113b-f0a7-43f1-9fac-8755d0af3cf1}">
+                    <WZUIImage Type="WZUIImage" GUID="{e4e1433f-68cf-40d1-a387-232a069a3b5e}" File="ui/common/common_btn_zj.png" UseOriginSize="True" />
+                </DisableElement>
+            </WZUIButton>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{6a855088-5aac-4bf9-a3bd-a8747e1d52d8}" FontSize="26" Text="1" Color="255,236,193" RelativePosition="0.5,0.345" Name="useNum_WndMagicGemUpgradeSelect" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndMagicGemUpgradeSelect>

@@ -1,0 +1,53 @@
+﻿<CellReturneeBusinessman GUID="{f59added-93f2-4a90-89f1-368e1c7716d4}">
+    <WZUIContainer Type="WZUIContainer" GUID="{481163b7-0746-44fb-9ca6-4d55ed27db56}" Name="CellReturneeBusinessman" NameCreate="True" UseAbsSize="True" AbsContentSize="620,390" LuaObjectName="">
+        <WZUIContainer Type="WZUIContainer" GUID="{cb33c4b5-2e5d-4a9c-a6f6-6a619e9c3bec}">
+            <WZUIImage Type="WZUIImage" GUID="{e1657c4a-95fa-4711-94e0-06fb7332e67d}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{0cfc50aa-e49b-42c8-a8d5-16e37f44305b}" AbsContentSize="585,45" UseAbsSize="True" RelativePosition="0.988221,0.919114" AnchorPoint="1,0.5" Name="conTop_CellReturneeBusinessman">
+                <WZUIContainer AbsContentSize="120,30" GUID="{d10c018f-49fe-4414-a3d5-0522ede10b82}" Name="conDiamond_CellReturneeBusinessman" RelativePosition="0.29,0.5" RelativeSize="1,1" Type="WZUIContainer" UseAbsSize="True" ShowAll="False" Scale="1" ScaleX="1" ScaleY="1" AnchorPoint="0,0.5" Visible="True">
+                    <WZUI9Image File="ui/common/common_scale9_di63.png" GUID="{02c794df-6ce5-4cab-9780-2b8b862221a1}" RelativePosition="0.5,0.5" Type="WZUI9Image" UseOriginSize="False" Visible="True" CapInsets="0,0,0,0" Opacity="255" />
+                    <WZUILabelTTF ChineseLengthPolicy="0" Color="255,255,255" Dimensions="0" FontSize="22" GUID="{6dadbae0-6485-40a6-b0cf-1d47138358b5}" Name="txtDiamond_CellReturneeBusinessman" RelativePosition="0.186,0.5" Text="0" Type="WZUILabelTTF" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Alignment="Right" AnchorPoint="0,0.5" LabelStyleKey="C1_F20" />
+                    <WZUIButton AbsContentSize="140,40" AnchorPoint="0.5,0.5" GUID="{655b6c29-4ec3-42df-a99b-07050f38bfd6}" LuaDoneFunctionName="onAddDiamond" RelativePosition="0.43,0.5" RelativeSize="0.9,1" Scale="1" Type="WZUIButton" UseAbsSize="True" Order="1" LuaActionName="">
+                        <NormalElement GUID="{5e4ed788-6528-47e6-b522-2dea6417c04c}" Type="WZUIContainer" TouchContainerEnable="True">
+                            <WZUIImage File="ui/common/common_icon_jiahao.png" GUID="{9ba8f3d4-1554-447c-afda-038e0da6bbd5}" RelativePosition="0.24,0.25" Type="WZUIImage" UseOriginSize="True" Scale="0.8" ScaleX="0.8" ScaleY="0.8" Visible="False" />
+                        </NormalElement>
+                        <SelectElement GUID="{144a4b91-aa5c-423b-ad7d-a0053379f4fd}" Type="WZUIContainer" TouchContainerEnable="True">
+                            <WZUIImage File="ui/common/common_icon_jiahao.png" GUID="{b03583c4-7c2d-476d-af31-e2dd928abcfa}" Type="WZUIImage" UseOriginSize="True" Scale="0.8" RelativePosition="0.24,0.25" ScaleX="0.8" ScaleY="0.8" Visible="False" />
+                        </SelectElement>
+                        <DisableElement GUID="{440d3ec4-cd04-42cc-afff-486ede1ecafb}" Type="WZUIContainer" />
+                    </WZUIButton>
+                    <WZUIImage Type="WZUIImage" GUID="{816b5dee-1c69-4718-abe0-00f072320f11}" File="ui/common/common_icon_zuanshi.png" UseOriginSize="True" RelativePosition="0.00298508,0.466667" Scale="0.9" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="120,30" GUID="{882533fc-82f3-4b65-b091-3135a358b864}" Name="conTicket_CellReturneeBusinessman" RelativePosition="0.54,0.5" RelativeSize="1,1" Type="WZUIContainer" UseAbsSize="True" ShowAll="False" Scale="1" ScaleX="1" ScaleY="1" AnchorPoint="0,0.5" Visible="False">
+                    <WZUI9Image File="ui/common/common_scale9_di63.png" GUID="{4267f49f-e1ce-461e-a056-6c508cc957e3}" RelativePosition="0.5,0.5" Type="WZUI9Image" UseOriginSize="False" Visible="True" CapInsets="0,0,0,0" Opacity="255" />
+                    <WZUILabelTTF ChineseLengthPolicy="0" Color="255,255,255" Dimensions="0" FontSize="22" GUID="{5fe3b08d-f7c5-49c8-8188-1d99642741f6}" Name="txtTicket_CellReturneeBusinessman" RelativePosition="0.186,0.5" Text="0" Type="WZUILabelTTF" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Alignment="Right" AnchorPoint="0,0.5" LabelStyleKey="C1_F20" />
+                    <WZUIButton AbsContentSize="140,40" AnchorPoint="0.5,0.5" GUID="{b8c8e062-1c4f-46ab-83b6-0199386034aa}" LuaDoneFunctionName="onClickTicket" RelativePosition="0.43,0.5" RelativeSize="0.9,1" Scale="1" Type="WZUIButton" UseAbsSize="True" Order="1" LuaActionName="" ScaleX="1" ScaleY="1">
+                        <NormalElement GUID="{25274de5-d824-4630-87d0-29701cbcdc86}" Type="WZUIContainer" TouchContainerEnable="True">
+                            <WZUIImage Type="WZUIImage" GUID="{a9d52562-1a89-410a-aefe-2c576edeaf25}" File="ui/common/common_icon_jiahao.png" UseOriginSize="True" RelativePosition="0.148149,0.166667" Scale="0.8" ScaleX="0.8" ScaleY="0.8" Visible="False" />
+                        </NormalElement>
+                        <SelectElement GUID="{3f489051-5d7b-4127-a729-25b264f33874}" Type="WZUIContainer" TouchContainerEnable="True">
+                            <WZUIImage Type="WZUIImage" GUID="{5d3129e0-450e-4bbc-8f0c-e2bd17b8cbf9}" File="ui/common/common_icon_jiahao.png" Scale="0.8" ScaleX="0.8" ScaleY="0.8" RelativePosition="0.148149,0.166667" UseOriginSize="True" Visible="False" />
+                        </SelectElement>
+                        <DisableElement GUID="{3259ae2e-e0a5-4057-8b18-e88cd4073409}" Type="WZUIContainer" />
+                    </WZUIButton>
+                    <WZUIImage Type="WZUIImage" GUID="{71090182-ac11-4feb-a668-fd5871371a61}" File="shopitems/lizuan.png" UseOriginSize="True" RelativePosition="0.00298508,0.466667" Scale="0.6" Name="imgTicketIcon_CellReturneeBusinessman" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="120,30" GUID="{8ad67558-17f1-4179-8e1f-33596eb00d09}" Name="conIntegral_CellReturneeBusinessman" RelativePosition="0.54,0.5" RelativeSize="1,1" Type="WZUIContainer" UseAbsSize="True" ShowAll="False" Scale="1" ScaleX="1" ScaleY="1" AnchorPoint="0,0.5" Visible="True">
+                    <WZUI9Image File="ui/common/common_scale9_di63.png" GUID="{3498f3d2-f2d0-4397-bd43-f76d562c362e}" RelativePosition="0.5,0.5" Type="WZUI9Image" UseOriginSize="False" Visible="True" CapInsets="0,0,0,0" Opacity="255" />
+                    <WZUILabelTTF ChineseLengthPolicy="0" Color="255,255,255" Dimensions="0" FontSize="22" GUID="{28b84a86-05a1-4511-954d-9ce396296794}" Name="txtIntegral_CellReturneeBusinessman" RelativePosition="0.186,0.5" Text="0" Type="WZUILabelTTF" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Alignment="Right" AnchorPoint="0,0.5" LabelStyleKey="C1_F20" />
+                    <WZUIButton AbsContentSize="140,40" AnchorPoint="0.5,0.5" GUID="{da44ed4b-2b27-4921-ae9a-be2755c1651c}" LuaDoneFunctionName="onClickIntegral" RelativePosition="0.43,0.5" RelativeSize="0.9,1" Scale="1" Type="WZUIButton" UseAbsSize="True" Order="1" LuaActionName="" ScaleX="1" ScaleY="1">
+                        <NormalElement GUID="{0a3fb0cb-7a00-4c37-8f4a-2f47425812bb}" Type="WZUIContainer" TouchContainerEnable="True">
+                            <WZUIImage Type="WZUIImage" GUID="{752227df-b9a7-47d9-b1b9-fb1e5e1e3999}" File="ui/common/common_icon_jiahao.png" UseOriginSize="True" RelativePosition="0.148149,0.166667" Scale="0.8" ScaleX="0.8" ScaleY="0.8" Visible="False" />
+                        </NormalElement>
+                        <SelectElement GUID="{224098bf-a60c-4580-9efc-5a56cbee56f2}" Type="WZUIContainer" TouchContainerEnable="True">
+                            <WZUIImage Type="WZUIImage" GUID="{5735d2f3-a4f6-494b-b8f4-f89feb7bc716}" File="ui/common/common_icon_jiahao.png" Scale="0.8" ScaleX="0.8" ScaleY="0.8" RelativePosition="0.148149,0.166667" UseOriginSize="True" Visible="False" />
+                        </SelectElement>
+                        <DisableElement GUID="{9f8dd416-f15d-4199-a0d0-66e4dee0c9cb}" Type="WZUIContainer" />
+                    </WZUIButton>
+                    <WZUIImage Type="WZUIImage" GUID="{65b30a0c-31fc-4b6f-a24d-2a067a5d17da}" File="" UseOriginSize="True" RelativePosition="0.00298508,0.466667" Scale="0.6" Name="imgIntegralIcon_CellReturneeBusinessman" Visible="True" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9e356d59-9b3e-46ba-8f72-a2114b3fea12}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.1,0.455556" AnchorPoint="0.5,0.5" Name="txtTips_CellReturneeBusinessman" TextKey="" />
+            </WZUIContainer>
+            <WZUITableContainer Type="WZUITableContainer" GUID="{a2ad8ade-77a9-4462-a86a-76d16ccc134e}" UseAbsSize="True" AbsContentSize="600,320" RelativePosition="0.5,0.434" Name="tconItem_CellReturneeBusinessman" EnableMoveHorizontal="False" CellElementHeight="0.65" ColumnCount="3" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeBusinessman>

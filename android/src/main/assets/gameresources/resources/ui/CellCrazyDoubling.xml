@@ -1,0 +1,40 @@
+﻿<CellCrazyDoubling GUID="{519e890d-ac39-43dd-8f5c-e13a17923363}">
+    <WZUIContainer Type="WZUIContainer" GUID="{3c9b93b5-e21b-4cba-a9cf-eb58815710c7}" Name="CellCrazyDoubling" AbsContentSize="206,296" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{44f2fddb-a528-4a63-a336-aabf5bdc69dc}">
+            <WZUIImage Type="WZUIImage" GUID="{790cf83f-fdab-4fbf-b02b-5906f073b62f}" File="ui/gameActivity/common_hd_di_02.png" UseOriginSize="True" RelativePosition="0.5,0.5" Visible="True" />
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{93290e8b-ae0a-4e9b-9837-36f0d3f63313}" Name="ftbTaskName_CellCrazyDoubling" RelativePosition="0.5,0.9" MaxWidth="500" ShowText="" />
+            <WZUIImage Type="WZUIImage" GUID="{0e988899-44b7-46d1-9e53-5ae99b1571d1}" File="ui/common/common_icon_fengexian2.png" UseOriginSize="True" Scale="0.48" RelativePosition="0.5,0.85" Visible="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{65ed8c16-57ab-4b07-ab21-a3952663f923}" Color="105,65,46" FontSize="18" Text="" AnchorPoint="0,0.5" RelativePosition="0.155475,0.366742" TextKey="CRAZY_DOUBLING_TEXT4">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d429f611-c0cd-4e67-b01f-036c39dccc05}" Name="txtDoublingLimit_CellCrazyDoubling" AnchorPoint="0,0.5" RelativePosition="1.1,0.5" Text="" FontSize="18" Color="128,54,13" />
+            </WZUILabelTTF>
+            <WZUIImage Type="WZUIImage" GUID="{3df1f0f6-b53c-4f04-b2a0-e90a4c7be8b0}" Name="imgRedDot_CellCrazyDoubling" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.92,0.956757" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{467fe3c8-d018-49ec-8c78-b5ccf6a2f85c}" File="" UseOriginSize="True" TouchEnable="False" Name="imgBuyState_CellCrazyDoubling" Visible="True" RelativePosition="0.5,0.183" />
+            <WZUIContainer Type="WZUIContainer" GUID="{efeafc71-6565-4345-9201-0be7522a4066}" UseAbsSize="True" AbsContentSize="214,305" Name="conSelect_CellCrazyDoubling" Visible="False">
+                <WZUI9Image Type="WZUI9Image" GUID="{0796db3f-d01e-43ca-ba03-61436d4fa672}" File="ui/common/common_scale9_xinshouydk.png" CapInsets="30,30,1,1" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{cb975a3c-eac7-4063-827a-75a7cd605572}" LuaDoneFunctionName="onClickSelect">
+                <NormalElement Type="WZUIContainer" GUID="{06fa8cb2-375e-4e2b-98ef-25e80b84bc4d}" />
+                <SelectElement Type="WZUIContainer" GUID="{6de29692-c537-45dd-b616-62ab251056e0}" />
+                <DisableElement Type="WZUIContainer" GUID="{c30f92b0-c0f5-4879-a8d1-a6427e2d5465}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{e7e34dba-25e5-4969-9a5a-14203b3bf490}" Name="conBag_CellCrazyDoubling" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.63045" RelativeSize="1,0.95" AbsContentSize="180,120" UseAbsSize="True" TouchSwallow="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{4f187f9c-8bab-465b-8135-c9c386efeb26}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.294,0.5" AnchorPoint="0.5,0.5" Name="conReward01_CellCrazyDoubling" />
+                <WZUIContainer Type="WZUIContainer" GUID="{9420098d-8ccc-4b02-b4d9-f0fb9e9295d8}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.706,0.5" AnchorPoint="0.5,0.5" Name="conReward02_CellCrazyDoubling" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{da4ab25c-e6ad-4ca5-9d72-7c336c09d4cf}" AbsContentSize="152,68" UseAbsSize="True" Name="btnGoto_CellCrazyDoubling" RelativePosition="0.5,0.165" LuaActionName="Normal" LocalInterval="300" LuaDoneFunctionName="onClickGoto">
+                <NormalElement Type="WZUIContainer" GUID="{a96ddeb6-ce84-4019-9d0c-830c46999efe}">
+                    <WZUIImage Type="WZUIImage" GUID="{eeeebdd8-3354-4391-8b20-a097247d47b3}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{128c6ae8-7335-46fd-87ff-a9eb954208c0}" Name="txtBuyNor_CellCrazyDoubling" LabelStyleKey="" Color="255,250,236" FontSize="26" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" TextKey="ACTIVE_BTN_GO" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{8f8103d5-956f-45c0-afef-479058cdf0e9}">
+                    <WZUIImage Type="WZUIImage" GUID="{f6150fd0-ae22-4095-9611-384bec91f250}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{91b3cd93-b00d-4183-86c0-93a6ce0c30b9}" Name="txtBuySel_CellCrazyDoubling" LabelStyleKey="" Color="255,250,236" TextKey="ACTIVE_BTN_GO" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" FontSize="26" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{737c12aa-d53b-4930-91d4-4c18f07899de}">
+                    <WZUIImage Type="WZUIImage" GUID="{3e6551ef-f5b7-4c6f-884b-e135d6c5559e}" File="ui/common/common_btn_01.png" GrayRender="True" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{f2ba5117-72b7-4a75-9482-8f813ecf276b}" Name="txtBuyGray_CellCrazyDoubling" LabelStyleKey="NORMAL_GRAY_BTN" TextKey="ACTIVE_BTN_GO" />
+                </DisableElement>
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCrazyDoubling>

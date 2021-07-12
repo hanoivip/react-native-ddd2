@@ -1,0 +1,15 @@
+﻿<CellBackFightPanel GUID="{1e43018c-ab34-4b24-ab8e-7f9737701a2c}">
+    <WZUIContainer AbsContentSize="620,390" GUID="{689f0164-b598-428b-9fb7-b81ceecd62df}" Name="CellBackFightPanel" NameCreate="True" Type="WZUIContainer" UseAbsSize="True" LuaObjectName="CellBackFightPanel">
+        <WZUIContainer AbsContentSize="" GUID="{4628dffd-7e01-4bb7-bef8-f97ecf40ce8c}" RelativePosition="0.5,0.5" Type="WZUIContainer" UseAbsSize="False" AnchorPoint="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{f4792464-65d2-48bd-8f1a-754e88bbc6f3}" AbsContentSize="220,220" UseAbsSize="True" RelativePosition="1,1" Name="conLight_CellBackFightPanel" AbsPosition="402.965,65.9881" TouchEnable="False" Visible="False" Scale="0.6" AnchorPoint="1,1">
+                <WZUIImage Type="WZUIImage" GUID="{3fcc077c-5b97-4097-be41-d2b18a0bb52d}" File="ui/common/common_pic_guangx.png" />
+            </WZUIContainer>
+            <WZUILabelTTF AnchorPoint="0,0.5" Color="255,255,255" FontSize="22" GUID="{e11f2f18-4ad2-4499-ac07-d58fe782bfc5}" Name="txtTime_CellBackFightPanel" RelativePosition="0.027,0.93" Text="" Type="WZUILabelTTF" LabelStyleKey="" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4">
+                <WZUILabelTTF AnchorPoint="0,0.5" Color="99,255,96" FontSize="22" GUID="{cc83710e-fc04-4734-95a0-8c5439c39f64}" Name="txtTimeValue_CellBackFightPanel" RelativePosition="1.1,0.5" Text="" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="40,60,140" />
+            </WZUILabelTTF>
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{8d4e9d08-4af3-4089-ba51-893cee68035f}" AbsContentSize="610,330" UseAbsSize="True" EnableMoveVertical="True" ListOrient="Vertical" Name="flistView_CellBackFightPanel" RelativePosition="0.5,0.45" EnableMoveHorizontal="False" ListItemInterval="-40" AnchorPoint="0.5,0.5" />
+            <WZUIImage Type="WZUIImage" GUID="{1a47a16b-d91a-4efc-8524-b1582a127505}" File="ui/common/common_icon_sltb.png" UseOriginSize="True" RelativePosition="0.930284,0.898221" Scale="1.2" Name="imgGiftBox1_CellBackFightPanel" AbsPosition="429.245,114.312" TouchEnable="False" TouchSwallow="False" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{1482d877-8723-46e2-9d9f-f271ea2ea1ca}" File="ui/common/common_icon_sltb.png" UseOriginSize="True" RelativePosition="0.888779,0.843815" Name="imgGiftBox2_CellBackFightPanel" Scale="0.9" AbsPosition="393,93.88" TouchEnable="False" TouchSwallow="False" Visible="False" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellBackFightPanel>

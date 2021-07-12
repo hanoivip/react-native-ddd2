@@ -1,0 +1,16 @@
+﻿<CellGiveGoodPlayer GUID="{f143c664-18af-41e1-bcb9-70c4d81a1795}">
+    <WZUIContainer Type="WZUIContainer" GUID="{b9956b75-d69a-4578-a23a-4db322f5ff7a}" AbsContentSize="314,92" UseAbsSize="True" Name="CellGiveGoodPlayer" NameCreate="True" Visible="True" LuaObjectName="">
+        <WZUI9Image Type="WZUI9Image" GUID="{6f451eba-14a8-472a-9a4e-a00415d8aec1}" File="ui/common/frame_lieb.png" />
+        <WZUIContainer Type="WZUIContainer" GUID="{a40edcc6-dca9-423f-98d6-24398de57d03}" Name="conHead_CellGiveGoodPlayer" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.15,0.5">
+            <WZUIImage Type="WZUIImage" GUID="{8d6eb32b-9a03-4dbe-9384-b5dc313430e1}" File="ui/common/commom_icon_bg.png" UseOriginSize="True" />
+        </WZUIContainer>
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{75d053bd-13a8-4294-9c88-ad29bc3c7e56}" AnchorPoint="0,0.5" RelativePosition="0.28,0.5" Name="txtPlayerName_WndGiveGoodPlayer" Text="打开拉司法鉴定" LabelStyleKey="C13_F20" />
+        <Button Type="WZUIButton" GUID="{47efd6ef-1d2b-4deb-9649-2923232e97ac}" AbsContentSize="50,50" UseAbsSize="True" LuaActionName="Normal" RelativePosition="0.907771,0.5" LuaDoneFunctionName="onCheckInfo" Name="btnCheck_CellGiveGoodPlayer" Scale="0.75" LocalInterval="300">
+            <NormalElement Type="WZUIContainer" GUID="{11702e7e-953e-4707-85d5-38bb6d3aacef}" />
+            <SelectElement Type="WZUIContainer" GUID="{c5222c00-3f3f-43f8-b90f-9cca3ab83d87}" />
+            <DisableElement Type="WZUIContainer" GUID="{59d464c4-283e-41ed-bc14-189dee1dfd1c}" />
+            <WZUI9Image Type="WZUI9Image" GUID="{8ce3d143-0713-4689-a0fa-facfd703922c}" File="ui/common/frame_14.png" />
+            <WZUIImage Type="WZUIImage" GUID="{bcce0889-80ee-45b7-8063-04666089fdd8}" File="ui/common/common_icon_hykjtb.png" UseOriginSize="True" Scale="0.6" />
+        </Button>
+    </WZUIContainer>
+</CellGiveGoodPlayer>

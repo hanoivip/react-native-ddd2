@@ -1,0 +1,430 @@
+﻿<WndProfession GUID="{67fb4d4a-526e-4423-80cc-298613bca9c2}">
+    <WZUIWindow Type="WZUIWindow" GUID="{a367658a-4cd0-48ba-904c-56f55d6e75b4}" NameCreate="True" Name="WndProfession" LuaObjectName="WndProfession" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{cb22d1b8-0772-4448-ae0e-878b3dd9aee6}">
+            <WZUIContainer Type="WZUIContainer" GUID="{eefcbf82-ab7a-4b47-bdd7-cf0924105c06}" Name="conBeforeChoose_WndProfession">
+                <WZUIContainer Type="WZUIContainer" GUID="{66735137-7dd5-49dd-8d67-07f23e7fd19d}">
+                    <WZUIImage Type="WZUIImage" GUID="{8d2343d1-56b8-4ac7-8c98-3c91ac5734e5}" File="ui/common_bg/common_scale9_di2.png" UseOriginSize="True" Name="" Scale="2" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{06578692-2f9c-44dd-80e4-cc889722f34b}" ShowAll="True" AbsContentSize="960,500" UseAbsSize="True" RelativePosition="0.5,0.515" Name="conContent_WndProfession">
+                    <WZUI9Image Type="WZUI9Image" GUID="{dde380bb-0188-46ad-8610-2abceca3f221}" File="ui/common/common_scale9_heidi6.png" UseOriginSize="True" Scale="0.7" RelativePosition="0.5,0.92" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4789ab18-2b9b-46b1-abb9-d4c6dff16080}" Text="请选择你的职业" LabelStyleKey="C11_F22_S4_C5" RelativePosition="0.5,0.92" TextKey="PROFESSION_TEXT1" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{afe492ab-665b-4a77-82b1-01e256ab080b}" AbsContentSize="960,430" UseAbsSize="True" RelativePosition="0.5,0.45">
+                        <WZUIContainer Type="WZUIContainer" GUID="{75e16da9-af3d-4237-aa0b-1c1cb9a70749}" AbsContentSize="248,407" UseAbsSize="True" RelativePosition="0.19,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{0e5b3555-3789-4fef-ae6a-1816b7bd3688}" File="ui/profession/zhiye_pic_zhanshi.png" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e8982814-f5a4-457f-81c2-ced005f20095}" LabelStyleKey="C1_F22_S4_C13" Text="展示" RelativePosition="0.5,0.9" Name="txtProfessionName1_WndProfession" Dimensions="0,0" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{de112ea6-b14a-4935-9bdf-8a6946ddc313}" Color="195,171,148" FontSize="20" Text="破坏性肉盾，对刺客能造成额外伤害" Name="txtProfessionDesc1_WndProfession" Dimensions="230,0" AnchorPoint="0.5,1" RelativePosition="0.5,0.14" />
+                            <Button Type="WZUIButton" GUID="{2173f0ba-d7e0-484b-9b11-8084b7db6177}" LocalInterval="300" LuaDoneFunctionName="onChooseProfession" Tag="1">
+                                <NormalElement Type="WZUIContainer" GUID="{6a550dee-df2f-4292-8b36-592d4ccdffb8}" />
+                                <SelectElement Type="WZUIContainer" GUID="{532cf3b2-14b5-4f0e-937f-2b9e69339ffb}" />
+                                <DisableElement Type="WZUIContainer" GUID="{28535202-9764-4075-8711-50f299d4ad1c}" />
+                            </Button>
+                            <WZUI9Image Type="WZUI9Image" GUID="{b385b147-0b2d-4717-8dd6-dfdc2f437bca}" File="ui/teach/common_scale9_xinshouydk.png" Scale="1.07" Name="img9Sel1_WndProfession" TouchEnable="False" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{029f4e2c-aa77-4b75-b600-9de0ecf680d3}" AbsContentSize="248,407" UseAbsSize="True">
+                            <WZUIImage Type="WZUIImage" GUID="{07d057d1-3387-4561-911c-3bf6f491e950}" File="ui/profession/zhiye_pic_cike.png" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{b036f706-f427-4a71-99b7-57fea1d8517d}" LabelStyleKey="C1_F22_S4_C13" Text="展示" RelativePosition="0.5,0.9" Name="txtProfessionName2_WndProfession" Dimensions="0,0" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4a88aa08-2119-4f24-843a-aee35de472a1}" Color="195,171,148" FontSize="20" Text="破坏性肉盾，对刺客能造成额外伤害" Name="txtProfessionDesc2_WndProfession" Dimensions="230,0" AnchorPoint="0.5,1" RelativePosition="0.5,0.14" />
+                            <Button Type="WZUIButton" GUID="{5d959641-cc06-4bb6-9894-79c29518b296}" LocalInterval="300" LuaDoneFunctionName="onChooseProfession" Tag="2">
+                                <NormalElement Type="WZUIContainer" GUID="{36aafe05-b0b9-4a03-8bbe-0fab51b08969}" />
+                                <SelectElement Type="WZUIContainer" GUID="{8815f977-6a5a-481b-9792-56efeacbdd6b}" />
+                                <DisableElement Type="WZUIContainer" GUID="{19b1a2cc-7b96-4072-87d8-e6937c68bb97}" />
+                            </Button>
+                            <WZUI9Image Type="WZUI9Image" GUID="{4b60bb6b-5c24-4a29-946e-2994e02d7230}" File="ui/teach/common_scale9_xinshouydk.png" Scale="1.07" Name="img9Sel2_WndProfession" TouchEnable="False" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{c2fa909d-6b73-4c5e-93b5-43a74aa88a56}" AbsContentSize="248,407" UseAbsSize="True" RelativePosition="0.81,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{72d2dc56-f3bd-40ac-87b0-986aa6d072eb}" File="ui/profession/zhiye_pic_fashi.png" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{2f917175-2123-4b97-8352-f493273d20dd}" LabelStyleKey="C1_F22_S4_C13" Text="展示" RelativePosition="0.5,0.9" Name="txtProfessionName3_WndProfession" Dimensions="0,0" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5b0c7b8c-ae55-4993-baf8-1dc4946cd2be}" Color="195,171,148" FontSize="20" Text="破坏性肉盾，对刺客能造成额外伤害" Name="txtProfessionDesc3_WndProfession" Dimensions="230,0" AnchorPoint="0.5,1" RelativePosition="0.5,0.14" />
+                            <Button Type="WZUIButton" GUID="{d1d03fa1-e7e8-42b4-abee-15f54998d64c}" LocalInterval="300" LuaDoneFunctionName="onChooseProfession" Tag="3">
+                                <NormalElement Type="WZUIContainer" GUID="{13647c58-dec8-4b02-8f8c-cbf3fe6ac744}" />
+                                <SelectElement Type="WZUIContainer" GUID="{5ca60961-4174-4c05-bfe6-4a8fbd3c2f46}" />
+                                <DisableElement Type="WZUIContainer" GUID="{fec86620-9f19-4b74-b0b8-570d6efb0c2d}" />
+                            </Button>
+                            <WZUI9Image Type="WZUI9Image" GUID="{9f607afb-1e34-4325-8d72-8a695d4978b5}" File="ui/teach/common_scale9_xinshouydk.png" Scale="1.07" Name="img9Sel3_WndProfession" TouchEnable="False" Visible="False" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{256fdc55-ab09-4ba5-9328-de3a57e03fc8}" Name="conBottom_WndProfession" AbsContentSize="1024,80" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" ShowAll="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{45950e56-f2fc-4925-945e-d0b5c68d28c8}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{5fa3b176-26ef-4d1d-8aaf-f9d5a85ed858}" File="ui/common/common_scale9_space.png" Visible="False" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{e3ceb844-0edb-40e1-afc4-fad5382c0962}" AbsContentSize="450,80" UseAbsSize="True" ShowAll="True">
+                            <Button Type="WZUIButton" GUID="{63cd0b44-b939-432f-83d3-1ee6f4ae4d13}" LuaActionName="Normal" AnchorPoint="0.5,0.5" RelativePosition="0.3,0.5" UseAbsSize="True" AbsContentSize="142,66" ShowAll="False" LuaDoneFunctionName="onClickChoose" Visible="True">
+                                <NormalElement Type="WZUIContainer" GUID="{843935f3-6f50-4438-a35a-8488a08c41dc}">
+                                    <WZUIImage Type="WZUIImage" GUID="{cc212892-1358-4292-98a9-c3277170f45a}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{d799e676-6e65-433b-b853-2b9568029e4d}">
+                                    <WZUIImage Type="WZUIImage" GUID="{33bc4a70-6edb-4b9a-bdbf-4e3c10ce45a8}" File="ui/common/common_btn_anniu3_sel.png" UseOriginSize="True" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{29f2444d-8f2e-4000-9f5f-a093741fd12a}" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{22818896-93bf-402c-bc42-f78d8871470b}" LabelStyleKey="NORMAL_ORANGE_BTN" TextKey="PROFESSION_TEXT4" Name="txtBtnConfirm_WndProfession" />
+                            </Button>
+                            <Button Type="WZUIButton" GUID="{c3d2796a-a021-4d6b-afb2-f628ceb57351}" LuaActionName="Normal" AnchorPoint="0.5,0.5" RelativePosition="0.7,0.5" UseAbsSize="True" AbsContentSize="142,66" ShowAll="False" LuaDoneFunctionName="onClickPreview" Visible="True">
+                                <NormalElement Type="WZUIContainer" GUID="{2006e0e1-cfc8-45a7-a4ad-fd391f51a014}">
+                                    <WZUIImage Type="WZUIImage" GUID="{e80483c4-787b-4dcd-b1da-6ef6499da51f}" File="ui/common/common_btn_anniu10.png" UseOriginSize="True" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{91fd3190-8d82-47b2-b0b1-6888852ca574}">
+                                    <WZUIImage Type="WZUIImage" GUID="{d4c96776-033e-475a-ab82-bbc40d83f73a}" File="ui/common/common_btn_anniu10_sel.png" UseOriginSize="True" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{37078e89-5215-41ac-adf0-129534e0465e}" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc1ef997-7eda-4571-ad8e-0dc18455f0e9}" LabelStyleKey="NORMAL_GREEN_BTN" TextKey="PETSHOW" />
+                            </Button>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{8e1c8d35-7d64-4adb-a70c-dd20be801a67}" Name="conAfterChoose_WndProfession" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{90019c7a-cf74-4817-ab3e-ec6c1b7d4158}">
+                    <WZUIImage Type="WZUIImage" GUID="{02534cc7-df72-448b-a86a-b9cee83f6f9f}" File="ui/common_bg/zhiye_pic_jinniu.png" UseOriginSize="True" Name="imgBg_WndProfession" Scale="1" Visible="True" RelativePosition="0.5,0.5" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a1dc047c-614c-42df-858c-d9ba386ce0eb}" ShowAll="True" AbsContentSize="1136,640" UseAbsSize="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{69fe8993-de94-4f30-9313-9db5413d8160}" Name="conLeft_WndProfession">
+                        <WZUIContainer Type="WZUIContainer" GUID="{98861896-1e4f-445c-beb5-fdcdb8bfe65e}" Name="conProfession1_WndProfession" AbsContentSize="690,540" UseAbsSize="True" RelativePosition="0.36,0.45" Visible="False">
+                            <WZUIContainer Type="WZUIContainer" GUID="{0bf9e288-f3bc-4969-89e2-bc0d2c40e62f}" Name="conBornSkill1_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.135936,0.861759">
+                                <WZUIImage Type="WZUIImage" GUID="{e5bd02a5-1105-4d7b-806f-e578074bebd1}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2" Rotation="5" RelativePosition="1.52018,0.357387" />
+                                <WZUIImage Type="WZUIImage" GUID="{a7e29190-91cf-4100-8cb5-feff768f8259}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="1.8" Rotation="80" RelativePosition="0.848663,-0.46166" />
+                                <WZUIImage Type="WZUIImage" GUID="{866e93f0-5ecf-4655-833b-17869f29269d}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG1_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{6801688b-78d9-46d9-869b-aac5f1ea11be}" File="" Name="imgSkillIcon1_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b966ef5f-707d-47ef-86c1-a7b4d33c50a7}" Name="txtSkillLv1_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{2d6e3a0c-9b76-404b-98b0-c89b2ff8e004}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{ca0789e1-38c2-41e9-80ec-2537aad72833}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{b97882e3-4f75-48e3-8173-b9d6b8f3be91}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{5b8adeec-422f-468f-8e69-1aae05b43200}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{f08c8b27-46c5-4c9f-a9ea-62f828e2d74d}" Name="conBornSkill2_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.343822,0.856769">
+                                <WZUIImage Type="WZUIImage" GUID="{b2fc452a-3716-43d2-a73c-a7f87b868ff4}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="1.8" Rotation="70" RelativePosition="1.03334,-0.47191" />
+                                <WZUIImage Type="WZUIImage" GUID="{ddc0c9ae-ab42-4e1f-8f7e-77d05b849212}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG2_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{51022b35-cdf7-4813-93b9-0c3a255849df}" File="" Name="imgSkillIcon2_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{1285ff32-13c4-475e-a63e-9979d74ed333}" Name="txtSkillLv2_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{56fc59c0-6117-4ded-9584-13c140810254}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{553b6e98-a19f-485a-a0f0-d622288dea26}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{3a251879-bd9f-4942-9baa-8dddf79855a1}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{d5cb0e56-3a63-42d6-832f-923f614fae36}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{987b2eab-0fca-4b4f-ac79-59a9be096f99}" Name="conBornSkill3_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.4296,0.607564">
+                                <WZUIImage Type="WZUIImage" GUID="{4cfd9377-1ff5-4453-ab6a-12280dc72369}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="1.8" Rotation="10" RelativePosition="1.39242,0.421388" />
+                                <WZUIImage Type="WZUIImage" GUID="{d3599c11-6cc0-4d0e-94ca-5e212c27604f}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.8" Rotation="-5" RelativePosition="-0.728075,0.349287" />
+                                <WZUIImage Type="WZUIImage" GUID="{364ed39c-2281-474f-8b72-465ad08cf3a6}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG3_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{29970df3-adb9-425b-bb33-51d4b7a572a8}" File="" Name="imgSkillIcon3_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d69678fb-0946-4b72-b187-68cc132b9305}" Name="txtSkillLv3_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{739b64cb-b7ed-48ac-bebc-53ac58a4b965}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="3">
+                                    <NormalElement Type="WZUIContainer" GUID="{aeb0195d-06ff-4812-ba11-7fca30ad8626}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{08c8f6cd-0fb6-4026-a8cf-6437f3bffc3f}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{1474148e-bd0f-415a-a680-22c2dd9ac15e}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{820eff4a-89a3-42d7-ab8d-842b0b155d7e}" Name="conBornSkill4_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.618946,0.599937">
+                                <WZUIImage Type="WZUIImage" GUID="{6b01139c-ac78-4464-a924-671b1e623a93}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="-50" RelativePosition="1.33662,1.18119" Scale="2.5" ScaleY="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{0972aaaf-c72c-4a40-9378-830f2ad7397d}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG4_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{dc8d2aa1-5212-442e-b421-0e40cc512368}" File="" Name="imgSkillIcon4_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{44c85e5f-d30a-41ea-b153-73095b3a6970}" Name="txtSkillLv4_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{6205638c-e123-4bb2-a4af-4fc9bfcd038a}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="4">
+                                    <NormalElement Type="WZUIContainer" GUID="{71538b70-404e-4812-9f34-44f873d83766}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{d43c4456-1f05-4a9f-bb3b-6a61c5f2cfbc}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{c3a5766c-b9ff-44bb-ac66-1f0fe99310a8}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{b10d867f-1e22-40fc-86ad-3a1f61fdd900}" Name="conBornSkill5_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.795897,0.765891">
+                                <WZUIImage Type="WZUIImage" GUID="{4b6615b8-c289-4b09-a773-0504792b62ba}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="70" RelativePosition="0.964973,-0.615843" />
+                                <WZUIImage Type="WZUIImage" GUID="{f4b44b07-b7e4-4478-b3fd-ca9779ba58b9}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG5_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{ed8dcbb8-a052-4f5a-be16-2c653fcee0d0}" File="" Name="imgSkillIcon5_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{79e9ea64-aefd-4c69-8fa4-b66bd60c86df}" Name="txtSkillLv5_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{21b81cbb-6efa-4417-bad3-763ae7818511}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="5">
+                                    <NormalElement Type="WZUIContainer" GUID="{6fceb72e-4fd1-4176-b150-9980e455cfc0}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{15596c9d-b3f5-4c71-b063-d4cda68072c7}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{2e76fbfd-7aba-49d8-85d0-5cad267033b3}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{36a47744-4a2c-4be1-beaf-29c449c11b57}" Name="conBornSkill6_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.913944,0.508464">
+                                <WZUIImage Type="WZUIImage" GUID="{89857854-ae6c-41c9-a2f5-b472ae5af925}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="-30" RelativePosition="0.0221958,-0.234704" />
+                                <WZUIImage Type="WZUIImage" GUID="{152a7430-4198-43c3-8943-840ced8cb478}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG6_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{a55b5031-e371-4731-a5cd-c72db4ea56fd}" File="" Name="imgSkillIcon6_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fe614e32-d509-4119-87e8-c892fb3b0fb6}" Name="txtSkillLv6_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{252c08d1-d6db-430e-9f86-5e97d67136a6}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="6">
+                                    <NormalElement Type="WZUIContainer" GUID="{ef3f0139-2d84-459e-b517-e09325150bb0}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{28f0815a-fb57-4a25-b659-aa44f4e961c2}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{aa1889d8-b1a2-413b-b4c9-ebb0ed9dbc9f}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{6f177426-b78d-4de4-b17e-ee3e4671dfdb}" Name="conBornSkill9_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.180986,0.614407">
+                                <WZUIImage Type="WZUIImage" GUID="{7d8e0ee3-a772-4e88-9228-112edf52a01b}" File="ui/profession/jineng_tf_di.png" UseOriginSize="False" Name="imgSkillBG9_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{7cd6bc53-13b0-4609-9c3c-ecd1618f7aec}" File="" Name="imgSkillIcon9_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4c00091b-3e1c-42e7-be33-07b558e3a86a}" Name="txtSkillLv9_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{2b5c752b-bfc4-409a-af1f-4958cff8c97f}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="9">
+                                    <NormalElement Type="WZUIContainer" GUID="{3b0f60fe-e25b-42d1-bb8f-24fe1bc8c83a}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{76fe53ef-2cbc-45f9-84ab-0b5c71f100d0}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{d6b7bf63-fd92-467d-a87a-35dd16130601}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{740df5b7-febe-46fa-ac52-4649cbfb9aa5}" Name="conBornSkill7_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.753197,0.311477">
+                                <WZUIImage Type="WZUIImage" GUID="{54e58afe-d37d-4a61-8287-6330b709131f}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="3" Rotation="-30" RelativePosition="-0.643014,-0.294592" />
+                                <WZUIImage Type="WZUIImage" GUID="{a788dc0a-cffb-4629-a067-223b96344c17}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG7_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{5d3291a6-4308-44af-b8f7-75cbbc22967e}" File="" Name="imgSkillIcon7_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{72f036af-9a83-4f96-a7ac-4481bfc262ce}" Name="txtSkillLv7_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{17425657-555b-4d91-b38b-52b069c485ff}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="7">
+                                    <NormalElement Type="WZUIContainer" GUID="{3bf97f54-4a10-45e3-9008-a6d78c594879}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{6eedf2a4-4d1e-4d81-a0d5-21663c07e8f7}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{13217e1c-db3f-4407-989a-a1dd24a37658}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{9fb62288-93d2-44a7-91c6-2fb68f0ebacd}" Name="conBornSkill8_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.520108,0.152197" Order="1">
+                                <WZUIImage Type="WZUIImage" GUID="{779b68d0-de71-43ed-89e6-7bfbe8975c9b}" File="ui/profession/jineng_tf_di.png" UseOriginSize="False" Name="imgSkillBG8_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{979a23f4-f374-4532-b00d-3de7755c5bf8}" File="" Name="imgSkillIcon8_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{1f15bff0-1d03-4419-8567-f4c45fcd4188}" Name="txtSkillLv8_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{c3d2fae8-8249-476a-ae0a-5dadd02bc7b0}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="8">
+                                    <NormalElement Type="WZUIContainer" GUID="{1ce8171e-a8d0-4603-9be5-90cab5364b06}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{6f6dbe35-0ea1-4b36-bfae-9ffb38b90259}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{a36f44fa-5416-48dc-879a-0442f3bb54fe}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUISpine Type="WZUISpine" GUID="{c6875b0c-208a-4885-b939-e35361fabd6f}" FileJson="ui/ui_icon_effect.json" FileAtlas="ui/ui_icon_effect.atlas" AnimationName="taozhuang_cheng" Loop="True" RelativePosition="0.135798,0.948273" Name="spineFirst_WndProfession" Visible="False" Scale="0.94" TouchEnable="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{f11efe8c-ad42-47b5-bbdc-f9a6686e916d}" Name="conProfession2_WndProfession" AbsContentSize="690,540" UseAbsSize="True" RelativePosition="0.36,0.45" Visible="False">
+                            <WZUIContainer Type="WZUIContainer" GUID="{a5baa199-2312-4117-867e-15c660b852cc}" Name="conBornSkill1_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.344763,0.912303">
+                                <WZUIImage Type="WZUIImage" GUID="{29ecab33-0f9a-48c9-a2e7-af38c68cfe07}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.3" Rotation="40" RelativePosition="1.38388,-0.17998" />
+                                <WZUIImage Type="WZUIImage" GUID="{b0aa5dc9-eff7-4992-9157-6e4280f7b5d3}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2" Rotation="-38" RelativePosition="-0.377886,-0.16497" />
+                                <WZUIImage Type="WZUIImage" GUID="{eee185f1-0d66-42aa-acda-093bb63b3ba0}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG1_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{c3dcf18c-47a7-4cb2-adea-f40c66ddaf50}" File="" Name="imgSkillIcon1_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{cd2319e2-a829-4334-a24e-61c63bc6e34d}" Name="txtSkillLv1_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{4b2ef102-a2ab-47a4-a13e-169b24932d5b}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{17499dc7-50ef-43e6-95b2-9d57fac24afd}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{df85a9ad-2c4c-4eed-99a1-7a73b30c9cc5}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{806a9bda-6c94-4888-9aef-4ec379a40507}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{7918d675-3086-4548-a7e8-6eca6d365573}" Name="conBornSkill2_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.484874,0.718355">
+                                <WZUIImage Type="WZUIImage" GUID="{b7de9842-85a9-4351-8480-8b13c40fb883}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="-50" RelativePosition="-0.0114833,-0.49556" />
+                                <WZUIImage Type="WZUIImage" GUID="{7e10039e-5064-4207-b94c-1c98af360274}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG2_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{7731dd7b-f19a-48a1-98a8-338a79b3a4b0}" File="" Name="imgSkillIcon2_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{6042292c-b81b-4188-b1e3-79fb55cfd2be}" Name="txtSkillLv2_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{268c0ba4-b759-449b-9e1f-de57e9d8d9ac}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{895c46ac-16a3-43f9-89a7-8b2e03719132}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{28b85e67-b03f-4b22-8ba5-2052477bbe57}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{9efc74d9-e389-444e-8506-234178b76114}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{c7bef439-73dd-4ea5-a339-14ce109742bb}" Name="conBornSkill3_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.374956,0.461188">
+                                <WZUIImage Type="WZUIImage" GUID="{3284ba84-d7af-407a-bd25-fa07d3709647}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="-43" RelativePosition="-0.49456,0.137083" />
+                                <WZUIImage Type="WZUIImage" GUID="{ccad9400-cad8-43fe-8f79-2c6eed63896f}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.8" Rotation="45" RelativePosition="-0.368813,1.50118" />
+                                <WZUIImage Type="WZUIImage" GUID="{fee6c02c-645f-4930-b291-4e48486bf469}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG3_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{18d94977-daee-4f35-a803-ee764b58a275}" File="" Name="imgSkillIcon3_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{51dc6219-464f-4184-9a36-f60a0f525b9e}" Name="txtSkillLv3_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{90d4561f-cc50-4ae9-b950-13e04de38eff}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="3">
+                                    <NormalElement Type="WZUIContainer" GUID="{190d5def-cc6d-4c59-b776-2f73063835f6}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{752bfb5b-e715-4b90-9492-82e025f8c897}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{09dac209-1098-4ad8-8fe7-ff4fc8004c39}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{24f380b4-f052-4e7f-8b5a-f4ce643cbc60}" Name="conBornSkill4_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.191928,0.296901">
+                                <WZUIImage Type="WZUIImage" GUID="{0fe85384-3d05-42c7-856e-11c9b3785892}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="40" RelativePosition="1.38902,-0.357357" />
+                                <WZUIImage Type="WZUIImage" GUID="{4c123389-e66d-4480-942f-298a2677f23f}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG4_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{706895fc-1084-4517-9ae7-8e4d8593a8c3}" File="" Name="imgSkillIcon4_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d37a6df2-60c4-47d7-9592-6db740fd4115}" Name="txtSkillLv4_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{cf357a7b-51c6-4305-b15c-9f31b7a46b0e}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="4">
+                                    <NormalElement Type="WZUIContainer" GUID="{430eb44a-1bbd-4f18-92b2-2b6c7caa38b4}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{0e62f594-9db7-47ca-a9cd-f6b810e2784a}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{14cdae5b-5647-4cb6-85d6-b57e80a76677}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{86bd7f71-6863-4785-9959-ca7463dcfa31}" Name="conBornSkill5_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.379103,0.122134">
+                                <WZUIImage Type="WZUIImage" GUID="{4b1145f5-11c3-481e-9192-f3eff219818c}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="0" RelativePosition="1.61851,0.390533" />
+                                <WZUIImage Type="WZUIImage" GUID="{7e8e19cc-d33d-4212-8118-b3b230ee56f2}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG5_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{01e82894-42dd-4015-8654-03f2bc02a8e0}" File="" Name="imgSkillIcon5_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d9d3163b-0181-43d0-bc50-090a6c108c92}" Name="txtSkillLv5_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{e31d2c89-a358-4db7-993e-16e70d458f90}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="5">
+                                    <NormalElement Type="WZUIContainer" GUID="{a1e1b248-31df-41c7-a325-3ec8eb41a1a2}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{40d5bf08-6b59-4464-a477-83dd91b194eb}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{8ee10d2f-2f8d-4b50-8715-ac5fc14f7999}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{67ddc038-0b24-4ba7-ac84-e48180dd2fe4}" Name="conBornSkill6_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.606495,0.125293">
+                                <WZUIImage Type="WZUIImage" GUID="{90f88ff6-1de6-4bdf-9571-852c658c9dec}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="3" Rotation="-50" RelativePosition="1.13244,1.58682" />
+                                <WZUIImage Type="WZUIImage" GUID="{37bfe387-4ddc-4051-a3b7-ec4e76cc5159}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG6_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{87bc9139-bc7f-4041-b74f-9097445a9eb9}" File="" Name="imgSkillIcon6_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{63f7f9a7-a32d-4def-aaa5-a16b94d3977e}" Name="txtSkillLv6_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{ec2f785e-df07-40de-997d-2a131012684a}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="6">
+                                    <NormalElement Type="WZUIContainer" GUID="{e93d40df-8f5c-43c2-aca2-93873601dffa}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{5215a8df-4741-4cd9-8127-15049b31bf0e}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{6ccd9d30-2ad6-4c2b-bcc9-447939303cfd}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{2530e658-fad1-4f56-8e5b-c6191c82b6e3}" Name="conBornSkill9_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.218161,0.721636">
+                                <WZUIImage Type="WZUIImage" GUID="{c09acafa-96a6-4c46-80ce-e4bea17229ce}" File="ui/profession/jineng_tf_di.png" UseOriginSize="False" Name="imgSkillBG9_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{7087f85e-bd29-4a12-833d-a369a9f036b8}" File="" Name="imgSkillIcon9_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e2a47af6-0b2b-44c1-9ca8-8595f1713c1c}" Name="txtSkillLv9_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{7697b0b5-7db6-405e-bf63-f9b26d4acf1c}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="9">
+                                    <NormalElement Type="WZUIContainer" GUID="{c271e88b-0260-4640-9f8f-a5bbfaa26446}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{092a1aed-7b16-469a-b96c-bcbaeb814581}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{3b7455d5-872d-4497-865c-7ba16019d859}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{52704fec-c71a-42cf-af55-4019382ebd2b}" Name="conBornSkill7_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.76853,0.35724">
+                                <WZUIImage Type="WZUIImage" GUID="{a34202f2-eae5-4744-b76e-b5b94a11e656}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="50" RelativePosition="1.11372,-0.474575" />
+                                <WZUIImage Type="WZUIImage" GUID="{e534f689-a28f-44f1-9a54-dc338c87acfa}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG7_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{b2e718f2-f758-433e-964b-b57d4b54234c}" File="" Name="imgSkillIcon7_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{52f80afb-00b0-4b32-ae42-a7172971233c}" Name="txtSkillLv7_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{1b190384-ac0e-4089-8862-d2b264c5243a}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="7">
+                                    <NormalElement Type="WZUIContainer" GUID="{a5caded9-087e-4620-b1b4-65a2daa8277c}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{b7134350-d294-42ae-864b-807dcd8b134f}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{43d500dc-79ca-4c3b-b587-8444d3872011}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{08ed70c1-5b28-4e1b-b02f-a7040286a2d4}" Name="conBornSkill8_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.889674,0.104049" Order="1">
+                                <WZUIImage Type="WZUIImage" GUID="{160f626e-165e-4008-ab0a-64309f35d30f}" File="ui/profession/jineng_tf_di.png" UseOriginSize="False" Name="imgSkillBG8_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{8c810afd-0071-4983-912d-74f4bd11f46d}" File="" Name="imgSkillIcon8_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{da6dfa07-4fcc-4a7d-bc11-960de146a275}" Name="txtSkillLv8_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{f0a8e753-1d74-431a-93db-402f4085aa49}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="8">
+                                    <NormalElement Type="WZUIContainer" GUID="{aeca95fc-5510-43fc-97f1-ce1fa14e1e47}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{4a43163e-6e39-4b73-ad48-46ec82be9a7b}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{0f415e96-cd69-4d15-9093-97341c83ae2d}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUISpine Type="WZUISpine" GUID="{400575b0-61dd-41bc-b4fe-d3397e4dce01}" FileJson="ui/ui_icon_effect.json" FileAtlas="ui/ui_icon_effect.atlas" AnimationName="taozhuang_cheng" Loop="True" RelativePosition="0.344101,0.998675" Name="spineFirst_WndProfession" Scale="0.94" Visible="False" TouchEnable="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{bf0ae9d9-4592-4900-98ed-909ace41e5a6}" Name="conProfession3_WndProfession" AbsContentSize="690,540" UseAbsSize="True" RelativePosition="0.36,0.45" Visible="False">
+                            <WZUIContainer Type="WZUIContainer" GUID="{8826d1cb-bf01-48e0-9f96-ed431180062e}" Name="conBornSkill1_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.722039,0.928636">
+                                <WZUIImage Type="WZUIImage" GUID="{33b9835c-22a3-4e29-a038-2a36e7ff6221}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.5" Rotation="50" RelativePosition="1.42707,-0.136044" />
+                                <WZUIImage Type="WZUIImage" GUID="{d4efa1e2-d92b-49a9-bf55-91cb5c1167c1}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.8" Rotation="-45" RelativePosition="-0.502366,-0.126797" />
+                                <WZUIImage Type="WZUIImage" GUID="{b781c9a8-50e5-477a-b1d2-7a51311f6bce}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG1_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{836b8fc6-79bb-4992-ab8a-21cb076dd6a9}" File="" Name="imgSkillIcon1_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a2ea1802-9d57-42a7-b575-d5fc31095d17}" Name="txtSkillLv1_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{cc0bce6f-632b-4e99-a482-24399c85cdc7}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{cb093fbe-a85f-41d2-b4a4-f879e01df8ff}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{b9708dfa-481d-4efb-bd59-d85e7a99f087}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{38024685-d31c-482a-84fd-754278faf4ef}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{f5d90510-003d-4db3-b505-5de33c6cd293}" Name="conBornSkill2_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.556306,0.722">
+                                <WZUIImage Type="WZUIImage" GUID="{ee0a4831-4755-4783-be51-7b7ee9463315}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.3" Rotation="45" RelativePosition="1.27312,-0.357408" />
+                                <WZUIImage Type="WZUIImage" GUID="{40c67fc5-348c-4e6d-943b-08f2ce4573d3}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG2_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{90dd8255-4b22-4368-94ef-d1b12ab76e1b}" File="" Name="imgSkillIcon2_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4c315809-f99c-46c7-b4ff-49da7fe6d8a6}" Name="txtSkillLv2_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{4889e104-d68a-4208-ab1f-5b55c5c31808}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{626b3659-b521-4f9d-b31b-f8ca503d11ac}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{3f0498b1-3911-4ff2-90a6-3950def96af6}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{a606131a-9ab5-4bc6-9d5b-7d6c12977618}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{6a3b0a23-1877-4fd5-9322-fb74b3710369}" Name="conBornSkill3_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.716729,0.501535">
+                                <WZUIImage Type="WZUIImage" GUID="{00bc70ad-d4f5-4fb9-96be-a4e272837ae3}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.4" Rotation="60" RelativePosition="0.981649,-0.477931" />
+                                <WZUIImage Type="WZUIImage" GUID="{8376dd24-08d3-465a-87bf-a3483e59a250}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.2" Rotation="-45" RelativePosition="1.27597,1.34269" />
+                                <WZUIImage Type="WZUIImage" GUID="{31be6f98-a5a9-461e-8b92-c4b3869b8f07}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG3_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{10824cc1-7994-491a-95ae-2a207b292c72}" File="" Name="imgSkillIcon3_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{48124b1b-f534-4067-a32e-892fceac9cc5}" Name="txtSkillLv3_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{a019fed1-2904-4440-8103-f342d661bb83}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="3">
+                                    <NormalElement Type="WZUIContainer" GUID="{8ba5a8dc-bd5d-403e-a375-615a6a6615ce}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{fdc5d3de-a7ab-4225-81dc-21fc4b34a347}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{5d11cdad-fc2e-47f4-bb75-12ca77f5441f}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{9a989794-2d6f-4e42-9527-a68e7393ea62}" Name="conBornSkill4_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.83232,0.248314">
+                                <WZUIImage Type="WZUIImage" GUID="{f0df0c75-e31a-4226-bcec-5e8113c6da00}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="1.3" Rotation="-60" RelativePosition="0.11348,-0.245679" />
+                                <WZUIImage Type="WZUIImage" GUID="{5d87cc79-0c1c-457a-95dd-60fbc1ff9dc7}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG4_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{80e9b084-7f1f-4c94-b41c-208926158f41}" File="" Name="imgSkillIcon4_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{1432bf70-1077-4e63-a5b2-f9b89235bb22}" Name="txtSkillLv4_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{c274e6f9-c4cb-440c-aa31-b395c54ca0be}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="4">
+                                    <NormalElement Type="WZUIContainer" GUID="{dcfc0eb4-453e-4ecb-8b5d-713ca84c99bc}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{ea3c48f9-1735-4ced-b483-f574d24e1f57}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{b81d5d30-26ee-4ca7-9093-bd3509fc11c1}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{5c7dd1e3-dd3e-42e1-9301-e212e7b6369f}" Name="conBornSkill5_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.769802,0.054131">
+                                <WZUIImage Type="WZUIImage" GUID="{786f70bb-2a56-4ee9-aad1-cbe3a281ed08}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.4" Rotation="0" RelativePosition="-0.623561,0.409416" />
+                                <WZUIImage Type="WZUIImage" GUID="{e485c43e-8f75-489b-87ab-21e68b3bb632}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG5_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{d4447344-4715-4454-b1ae-64cb8d802a70}" File="" Name="imgSkillIcon5_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f6c76995-4405-4791-a52b-0208e863815c}" Name="txtSkillLv5_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{71716d20-e437-4354-9f6b-98d735c98b68}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="5">
+                                    <NormalElement Type="WZUIContainer" GUID="{cfd1cf3a-9bbf-4d4a-8f58-74b4c22eb4c6}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{9989efda-a8b1-483c-9cf2-d46d8ecae6e7}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{bd59deef-8684-42d1-bbf1-5265ac606a1c}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{2d50863e-1020-4daa-b0fa-37b91926ad01}" Name="conBornSkill6_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.543064,0.0619946">
+                                <WZUIImage Type="WZUIImage" GUID="{711b72cb-d291-4cc7-a215-fb50a58dd670}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.7" Rotation="0" RelativePosition="-0.680895,0.539547" />
+                                <WZUIImage Type="WZUIImage" GUID="{7a0b2c33-2fe1-40f9-9155-3872543426ae}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG6_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{5294faea-ab55-4421-a5d0-5e7a2f78df04}" File="" Name="imgSkillIcon6_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2cc42dad-02db-4d75-8d05-c9702cfb8778}" Name="txtSkillLv6_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{e9ee2153-141b-4fb4-89d3-b328512ab81a}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="6">
+                                    <NormalElement Type="WZUIContainer" GUID="{0733d994-db5d-4282-aa90-68b06655578d}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{b607b5ec-0b9d-4ab4-b63c-7c323ae679b2}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{74685218-9665-4aab-a4bd-29d76c8cd513}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{f6c264ae-1dbf-4f1f-a1cb-a18884728b11}" Name="conBornSkill9_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.86454,0.722264">
+                                <WZUIImage Type="WZUIImage" GUID="{93a7fbc3-de90-4547-9e51-6e2be019267e}" File="ui/profession/jineng_tf_di.png" UseOriginSize="False" Name="imgSkillBG9_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{18d5832a-dc26-4e84-a2bc-759da031f4b4}" File="" Name="imgSkillIcon9_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{304b4901-3087-42b9-a272-b8920c741e2e}" Name="txtSkillLv9_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{db3842ed-0b09-4f22-9ac9-88d1cd5d918e}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="9">
+                                    <NormalElement Type="WZUIContainer" GUID="{20706cb8-0267-4a79-ae67-35a00e30ea06}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{d82ddaf0-c671-4cc8-b88e-26529ccead71}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{7794fcca-3cce-4f9c-af52-81cb87d952fd}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{c96f33d1-cb12-4f9e-86be-dbae78c300c3}" Name="conBornSkill7_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.303959,0.0977574">
+                                <WZUIImage Type="WZUIImage" GUID="{80d46b55-b9f5-4d69-ac31-3d2ffb4c7fee}" File="ui/profession/jineng_tf_xian.png" UseOriginSize="True" ScaleX="2.6" Rotation="55" RelativePosition="-0.047715,1.53107" />
+                                <WZUIImage Type="WZUIImage" GUID="{6473b893-f39d-464d-a01a-a505de076f4d}" File="ui/profession/jineng_tf_di.png" Name="imgSkillBG7_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{e9166edf-884d-48a1-8aa3-561f11c8b16a}" File="" Name="imgSkillIcon7_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b924395d-cc68-43ae-92ea-6202cbaf2b33}" Name="txtSkillLv7_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{23b15cc6-f61b-4b7a-b79c-4e8275e4ab3d}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="7">
+                                    <NormalElement Type="WZUIContainer" GUID="{3a897442-df9b-40d0-9b03-79d798998a1e}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{4f6c3218-f49f-4a4e-9938-652498692fa2}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{5b73b3e0-7ce5-44d4-95f3-1dba6d6ad171}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{e1bc0358-c05a-4e26-904c-4df8564e7a11}" Name="conBornSkill8_WndProfession" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.184295,0.365236" Order="1">
+                                <WZUIImage Type="WZUIImage" GUID="{fcbb99e5-4b99-485c-91fd-bd404f2c47bd}" File="ui/profession/jineng_tf_di.png" UseOriginSize="False" Name="imgSkillBG8_WndProfession" />
+                                <WZUIImage Type="WZUIImage" GUID="{680a8074-5264-4dc2-a620-6b43aabdd051}" File="" Name="imgSkillIcon8_WndProfession" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9fcb1941-76b8-4afb-b050-6e5f212f0fae}" Name="txtSkillLv8_WndProfession" Text="Lv1" LabelStyleKey="C1_F18_S1_C13" AnchorPoint="1,0.5" RelativePosition="0.94,0.15" />
+                                <Button Type="WZUIButton" GUID="{705b6831-9b34-426e-b1a5-f2c12d519a23}" LocalInterval="300" LuaDoneFunctionName="onClickBornSkill" Tag="8">
+                                    <NormalElement Type="WZUIContainer" GUID="{af8f9315-1d98-465e-86d5-d10df3c90676}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{9215aa86-dc33-4d44-b5ad-ef1959c38ac3}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{35c3c4c9-cdc1-4fae-99a4-b7dc7fa0d123}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUISpine Type="WZUISpine" GUID="{447ca345-d756-4807-870a-e90b9aaaa90f}" FileJson="ui/ui_icon_effect.json" FileAtlas="ui/ui_icon_effect.atlas" AnimationName="taozhuang_cheng" Loop="True" RelativePosition="0.721309,1.01515" Name="spineFirst_WndProfession" Scale="0.94" Visible="False" TouchEnable="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{79797675-456c-4e9c-89c1-76c50fce051c}" AbsContentSize="690,540" UseAbsSize="True" RelativePosition="0.36,0.45" TouchEnable="False" Visible="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{c09c9421-6c7b-4c3c-b503-71b4403226f7}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.135936,0.861759" Name="conSkillSelState_WndProfession" TouchEnable="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{49314393-cc94-4169-9c73-3def75336988}" File="ui/profession/jineng_tf_di_xuanzhong.png" TouchEnable="False" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{4c9f4caf-e2e0-495e-8674-c17142f7ad22}" Name="conRight_WndProfession" AbsContentSize="260,550" UseAbsSize="True" RelativePosition="0.852,0.45">
+                        <WZUI9Image Type="WZUI9Image" GUID="{b6b181db-cdb8-42d8-9d86-f13bba3c7dee}" File="ui/common/common_scale9_di24.png" Opacity="50" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{1611ec6f-4a78-4238-acfe-9d3d5c2d5b52}" Text="职业技能" LabelStyleKey="C12_F20" AnchorPoint="0,0.5" RelativePosition="0.1,0.95" TextKey="PROFESSION_TEXT11" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{fc45cb06-8650-430f-bc67-aee587f2b909}" Name="conSkillItem_WndProfession" AbsContentSize="80,80" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.1,0.84">
+                            <WZUIImage Type="WZUIImage" GUID="{da90fc02-a259-424c-af23-14d192069397}" File="ui/profession/jineng_tf_di.png" />
+                            <WZUIImage Type="WZUIImage" GUID="{c29c1f2e-fcde-45eb-ada1-33d5a771ffae}" File="" Name="imgSkillIconSel_WndProfession" UseOriginSize="True" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{6996644e-ccf5-43b3-9930-3ecffab6c41d}" LabelStyleKey="C1_F20" Name="txtSkillName_WndProfession" Text="" AnchorPoint="0,0.5" RelativePosition="0.45,0.88" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5087f558-a6f1-4e0f-a181-d410214c84c1}" LabelStyleKey="C1_F20" Name="txtSkillDesc_WndProfession" Text="" AnchorPoint="0,1" RelativePosition="0.1,0.74" Dimensions="200,0" Alignment="Left" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{62076174-5d64-43ad-8e77-e3f13a52ef55}" Text="下级效果" LabelStyleKey="C12_F20" AnchorPoint="0,0.5" RelativePosition="0.1,0.55" TextKey="PROFESSION_TEXT12" Name="txtSkillDescNextLabel" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{667abc38-da2f-4e6d-a273-dd77ad4650b6}" LabelStyleKey="C1_F20" Name="txtSkillDescNext_WndProfession" Text="" AnchorPoint="0,1" RelativePosition="0.1,0.51" Dimensions="200,0" Alignment="Left" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{3f5ad543-8e53-4cd2-9383-b57d3addab67}" Name="conCost_WndProfession">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{03db193b-e1db-4e5e-9c97-67c32f49d2c6}" Text="下级效果" LabelStyleKey="C12_F20" AnchorPoint="0,0.5" RelativePosition="0.1,0.32" TextKey="PROFESSION_TEXT14" Name="txtCostTitle_WndProfession" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a962146c-d028-4e0e-a6ba-7d97dc07a9c2}" AnchorPoint="0,0.5" RelativePosition="0.1,0.26" Name="ftxtUpgradeCost_WndProfession" MaxWidth="200" />
+                            <Button Type="WZUIButton" GUID="{1dd3a8be-1fe4-442a-8728-ac8e2c2431c4}" AbsContentSize="116,58" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickUpgrade" RelativePosition="0.5,0.1" Name="btnUpgrade_WndProfession">
+                                <NormalElement Type="WZUIContainer" GUID="{7d9ad99e-8740-47f9-8b20-c0ebeeaff3c1}">
+                                    <WZUIImage Type="WZUIImage" GUID="{afd43740-d6d8-474f-a0ef-b2ffe8b07a60}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{375c78e9-281b-4f6a-a79a-4f876cef31d9}">
+                                    <WZUIImage Type="WZUIImage" GUID="{cba50c74-2c63-4157-8953-069b3c66a00e}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{0f648fc9-3c72-4478-9dce-120a88f05c98}" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{1eda26f6-9324-4d70-a99f-d2edfdd1604e}" TextKey="STAR_SOUL_BUTTON_UPDATE" LabelStyleKey="SMALL_ORANGE_BTN" Name="txtBtnUpgrade_WndProfession" />
+                            </Button>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{f1b1e6e2-bf0f-4d31-b8f2-19c7ca8cfdaa}" Name="conTop_WndProfession" AbsContentSize="960,80" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" />
+            <Button Type="WZUIButton" GUID="{cd153dc7-a86a-478d-a6b1-392733c46810}" AbsContentSize="60,60" ShowAll="True" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickRule" AnchorPoint="0.5,0.5" RelativePosition="0.035,0.06">
+                <NormalElement Type="WZUIContainer" GUID="{d2d82bd3-31c2-4c67-a945-4f0f56873291}" />
+                <SelectElement Type="WZUIContainer" GUID="{268171f4-9e52-4c39-90bd-8e0e1cb549c1}" />
+                <DisableElement Type="WZUIContainer" GUID="{5bac8e12-8dfe-412e-b1b5-2468385a9f17}" />
+                <WZUIImage Type="WZUIImage" GUID="{bc711e44-b814-4cb9-886e-c66837e1eb5c}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndProfession>

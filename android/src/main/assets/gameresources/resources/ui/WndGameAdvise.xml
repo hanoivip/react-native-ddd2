@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" ?>
+<WndGameAdvise GUID="{8E889781-83B8-4b77-BFAA-8736D81E6D5E}">
+    <WZUIWindow Type="WZUIWindow" GUID="{A3594A31-9E02-4f32-90B5-62AB6279FEC9}" Name="WndGameAdvise" NameCreate="True" LuaObjectName="WndGameAdvise" RelativePosition="0.5,0.5" AbsContentSize="470,336" UseAbsSize="True" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{D7BD7ECB-A262-485e-BE6E-D5AFE25A5DA1}" AbsContentSize="500,500" UseAbsSize="True" RelativePosition="0.5,0.5" Name="conAdvise_WndGameAdvise" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{3B407CCF-F595-48ad-8EF6-F6CC695E24B3}" File="ui/common/common_scale9_di19.png" CapInsets="170,70,1,1" />
+            <WZUIContainer Type="WZUIContainer" GUID="{7827BD9B-978F-4b14-A1D9-37FB9C7B5E89}" AbsContentSize="500,55" UseAbsSize="True" RelativePosition="0.503992,0.927448" AbsPosition="251.996,463.724">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3CDFB9D7-9C49-4fbc-AF4B-0F340BE92FC9}" Name="" Color="250,235,194" BoldFont="True" StrokeColor="132,66,29" FontSize="28" Text="" RelativePosition="0.5,0.5" EnableStroke="True" AnchorPoint="0.5,0.5" TextKey="SETTING_ADVISE_MAIL1" StrokeSize="4" />
+                <WZUIContainer Type="WZUIContainer" GUID="{CD3E7F6E-358F-4ff1-A2AD-88A1E52362A1}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.906567,0.543607" AbsPosition="453.284,29.8984">
+                    <Button Type="WZUIButton" GUID="{7AF6941F-3FE3-4541-A8E3-AAC977C7A952}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.5,0.5" Name="btnBack_WndGameAdvise" LuaDoneFunctionName="onBtnClose" Visible="True" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{E0A72AC9-6445-4e5b-B378-7E3829712389}">
+                            <WZUIImage Type="WZUIImage" GUID="{C50E4CC8-4108-47f3-8DFB-A746C4DE91CC}" File="ui/common/common_icon_guanbi.png" Scale="1" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{EAD0136E-8B45-42d2-BF55-B2C4056C8B7A}">
+                            <WZUIImage Type="WZUIImage" GUID="{E1CFB2A2-D188-4267-9E7B-A13B04421A68}" File="ui/common/common_icon_guanbi_sel.png" Scale="1" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{09F1346D-3CDA-4518-98AD-ABB56F0F0078}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{D30B297F-CEF3-4adf-8F51-E5C5815E477C}">
+                    <WZUIImage Type="WZUIImage" GUID="{46E23FC1-6ECC-41f3-ACBB-1B8E6DA324B2}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" RelativePosition="0.68,0.5" />
+                    <WZUIImage Type="WZUIImage" GUID="{C018975C-6490-4369-8477-B50068494124}" File="ui/common/common_pic_jiantou4.png" RelativePosition="0.32,0.5" UseOriginSize="True" FlipX="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{B1378970-E744-454f-A082-9AF4CA5C0117}" AbsContentSize="435,265" UseAbsSize="True" RelativePosition="0.5,0.44" AbsPosition="257,224" Name="contentContainer" RelativeSize="1,1">
+                <WZUIContainer Type="WZUIContainer" GUID="{5EA60C29-CEFF-48e4-9F84-45402F61D1B8}" AbsContentSize="0,0" UseAbsSize="False" RelativePosition="0.5,0.5" Visible="True" RelativeSize="1,1">
+                    <WZUI9Image Type="WZUI9Image" GUID="{A96316A2-317E-4fd7-B3CD-C0DC10BAD3E8}" File="ui/common/common_scale9_di4.png" Visible="True" RelativePosition="0.5,0.5" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{AA85F3DD-D801-4abb-BF18-7F6D3E9553A9}" AbsContentSize="0,0" UseAbsSize="False" RelativePosition="0.5,0.5" RelativeSize="0.94,0.9">
+                        <WZUIEditBox Type="WZUIEditBox" GUID="{DAFDBF8C-D691-42c3-80C2-80CB9CE82591}" BgPicture="ui/common/transparent_bg.png" RelativeSize="1,1" RelativePosition="0.5,0.5" FontSize="22" ChinesePlaceholderNum="2" Dimensions="0,0" AnchorPoint="0.5,0.5" MultiLine="True" Name="editBox_WndGameAdvise" MaxLength="240" KeyBordReturnType="TypeDone" FontColor="255,255,255" Color="" TouchEnable="True" InputFlag="FlagSensitive" InputMode="ModeSingleLine" UseOriginSize="False" UseOriginSizeProportion="False" TouchSwallow="True" PlaceholderFontColor="138,122,106" LuaEditBoxEditingDidEnd="onReturnContent" Visible="True" Text="不超过200字符" PlaceHolder="" VerticalAlignment="0" VerticalPlaceHolderAlignment="0" PlaceHolderAlignment="0" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{6a3f3976-f253-45c6-899e-7e77117675c3}" UseAbsSize="True" AbsContentSize="400,70" RelativePosition="0.494569,0.671993" Name="orderContainer" Visible="False">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0e52eb7-a052-4bbd-ba00-20c4e1e599f0}" Text="GPA order: " FontSize="24" RelativePosition="0.115,0.5" Color="79,60,48" />
+                <SelectElement Type="WZUIContainer" GUID="{3fdd6c71-470e-49c9-a16d-e17472ae5f16}" AbsContentSize="322,36" UseAbsSize="True" RelativePosition="0.686,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{02938967-67b4-4043-b194-e9d3f3f2a579}" File="ui/common/common_scale9_di21.png" />
+                </SelectElement>
+                <WZUIContainer Type="WZUIContainer" GUID="{97270247-b144-4670-8e29-00186a5f84ed}" AbsContentSize="322,36" UseAbsSize="True" RelativePosition="0.685,0.435341" RelativeSize="0.94,0.9">
+                    <WZUIEditBox Type="WZUIEditBox" GUID="{c5f9ea8f-f82b-4582-8397-6f3a5d1c05c9}" BgPicture="ui/common/transparent_bg.png" RelativeSize="1,1" RelativePosition="0.5,0.5" FontSize="22" ChinesePlaceholderNum="2" Dimensions="0,0" AnchorPoint="0.5,0.5" MultiLine="True" Name="order_WndGameAdvise" MaxLength="240" KeyBordReturnType="TypeDone" FontColor="255,255,255" Color="" TouchEnable="True" InputFlag="FlagSensitive" InputMode="ModeDecimal" UseOriginSize="False" UseOriginSizeProportion="False" TouchSwallow="True" PlaceholderFontColor="138,122,106" LuaEditBoxEditingDidEnd="onReturnContent" Visible="True" Text="不超过200字符" PlaceHolder="" VerticalAlignment="0" VerticalPlaceHolderAlignment="0" PlaceHolderAlignment="0" BgHidden="False" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{7fb407d4-9aa5-4ba3-92c5-635061850152}" AbsContentSize="">
+                <WZUIContainer Type="WZUIContainer" GUID="{41ed8bde-052f-4f05-9c48-8f79f6e87ee9}" AbsContentSize="400,50" UseAbsSize="True" RelativePosition="0.5,0.79" AbsPosition="250,395">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{97132221-d0cc-4a8b-8013-b0a6bc0cb278}" FontSize="24" Text="" RelativePosition="0.1725,0.5" AbsPosition="69,25" Color="79,60,48" TextKey="SUGGESTTYPE" />
+                    <Button Type="WZUIButton" GUID="{70676d0a-7c53-4a59-950c-ee83dd7de46a}" AbsContentSize="232,36" UseAbsSize="True" RelativePosition="0.6475,0.5" AbsPosition="259,25" LuaDoneFunctionName="onTypeChoice">
+                        <NormalElement Type="WZUIContainer" GUID="{94f126c7-d049-4d65-96fc-6c6105766cc1}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{18baa73e-db48-457d-803b-a78c334c2124}" File="ui/common/common_scale9_di21.png" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{8d00df43-dbed-4a80-b4c3-0d6c4c429308}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{09b596d2-5901-4d0b-bace-2da49a1e3caf}" File="ui/common/common_scale9_di21.png" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{2442df6f-1287-4b79-a4ea-495006758952}" />
+                        <WZUIImage Type="WZUIImage" GUID="{40953a20-6262-42bd-8d82-d07c8b67d33d}" TouchEnable="False" File="ui/common/common_icon_sxjt.png" UseOriginSize="True" RelativePosition="0.823276,0.5" AbsPosition="191,18" FlipY="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a9dc4531-f7e6-47f3-9696-8741bdc68389}" FontSize="24" Text="" RelativePosition="0.349224,0.5" AbsPosition="81.02,18" Color="255,236,193" TextKey="" Name="typeSet_WndGameAdvise" />
+                    </Button>
+                    <WZUIImage Type="WZUIImage" GUID="{4773b903-4037-49de-bfbc-2fda09fbe03d}" Color="255,255,255" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{236ce317-57d2-4a42-a872-f385632661da}" AbsContentSize="186,220" UseAbsSize="True" RelativePosition="0.637514,0.497379" AbsPosition="318.757,248.689" Visible="False" Name="conType_WndGameAdvise">
+                    <WZUI9Image Type="WZUI9Image" GUID="{02fed5ec-ea08-4876-b060-9777c19081e5}" File="ui/common/common_scale9_di24.png" Opacity="200" />
+                    <WZUIButton Type="WZUIButton" GUID="{42d93bc9-d981-4ba0-a00e-a292e18dceb0}" AbsContentSize="116,50" UseAbsSize="True" RelativePosition="0.5,0.79" AbsPosition="88.435,169" LuaDoneFunctionName="onBtnType" Tag="1">
+                        <NormalElement Type="WZUIContainer" GUID="{34d4cdd2-8775-4806-b56c-e5f0e0064461}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{5d65027c-3601-4d49-b6c8-68007399d428}" File="ui/common/common_btn_anniu4.png" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{6849429e-1ab6-41fd-9f72-7a51d3d535d7}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a14c09ef-de43-4e37-a30f-9e3b6aeb1f5b}" File="ui/common/common_btn_anniu4_sel.png" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{aab108b6-cd42-45d6-8531-3322b252297c}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{151cfb1c-b121-4797-9d6c-77cdb472beaf}" FontSize="24" Text="意见类型" RelativePosition="0.5,0.5" AbsPosition="81.02,18" Color="255,236,193" LabelStyleKey="" TextKey="SUGGESTTYPE_SUGGEST" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Name="txtBtn1_WndGameAdvise" />
+                    </WZUIButton>
+                    <WZUIButton Type="WZUIButton" GUID="{2800c893-e777-4383-b381-91e16823fca4}" AbsContentSize="116,50" UseAbsSize="True" RelativePosition="0.5,0.5" AbsPosition="88.435,169" LuaDoneFunctionName="onBtnType" Tag="2">
+                        <NormalElement Type="WZUIContainer" GUID="{c151456e-71ef-4e22-abf6-b2addd9f8508}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{bcd1dfe2-edaa-476a-a2f8-b370c552cf34}" File="ui/common/common_btn_anniu4.png" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{2a8d5cdb-4bd7-4e7d-918a-bb74392c6f52}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{8d325c4c-507e-41a7-8085-0e82369ba679}" File="ui/common/common_btn_anniu4_sel.png" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{6040d500-d1d7-44a2-8915-0748c7bf8c8a}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b9f82c5e-4e5b-419c-9772-b4004c69bf1c}" FontSize="24" Text="意见类型" RelativePosition="0.5,0.5" AbsPosition="81.02,18" Color="255,236,193" LabelStyleKey="" TextKey="SUGGESTTYPE_QUESTIONASK" Visible="True" StrokeSize="4" StrokeColor="79,60,48" EnableStroke="True" Name="txtBtn2_WndGameAdvise" />
+                    </WZUIButton>
+                    <WZUIButton Type="WZUIButton" GUID="{55ed2172-f791-49d4-9b20-fec1cb89a3ff}" AbsContentSize="116,50" UseAbsSize="True" RelativePosition="0.5,0.21" AbsPosition="88.435,169" LuaDoneFunctionName="onBtnType" Tag="3">
+                        <NormalElement Type="WZUIContainer" GUID="{9bb92824-b164-4a2d-9598-313d20a1dc97}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{3a040bcd-6b9f-4d00-ac31-c223a79c0ee3}" File="ui/common/common_btn_anniu4.png" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{3d3f550e-ece0-4111-858c-4214be4bbc22}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{e9d306b8-fd40-46f8-8f35-83a1960c6e9a}" File="ui/common/common_btn_anniu4_sel.png" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{f22be7bc-d76f-4aec-bb20-51bead479c11}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ff21a525-a936-4d78-8a37-649eb117eb08}" FontSize="24" Text="意见类型" RelativePosition="0.5,0.5" AbsPosition="81.02,18" Color="255,236,193" LabelStyleKey="" TextKey="SUGGESTTYPE_PAYASK" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" Name="txtBtn3_WndGameAdvise" />
+                    </WZUIButton>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{ba460de1-4d40-4050-b47f-a44510cf9780}" AbsContentSize="400,50" UseAbsSize="True" RelativePosition="0.5,0.074547" AbsPosition="250,37.2735">
+                <WZUIContainer Type="WZUIContainer" GUID="{e48f3bd0-da41-4bd6-9de9-93025d982478}" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.5,0.66" AbsPosition="200,33">
+                    <WZUIButton Type="WZUIButton" GUID="{5a8c11e5-a3e6-4ea4-880e-d201e7bbc76c}" LuaDoneFunctionName="onBtnSend" Name="btnExchange_WndGameAdvise" NameCreate="True" RelativePosition="0.5,0.5" LuaActionName="Normal" UseAbsSize="False">
+                        <NormalElement Type="WZUIContainer" GUID="{012dfacd-50b4-4659-9fe1-963f18f805b8}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{80d98616-492e-45b1-a7db-c5fd1a554183}" File="ui/common/common_btn_anniu10.png" UseOriginSize="False" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{4b6d4e6a-ee73-4c7d-8785-5d699b22835e}" ScaleX="1" Scale="1">
+                            <WZUI9Image Type="WZUI9Image" GUID="{5e06920c-781f-4c34-aa02-ed5304efa145}" File="ui/common/common_btn_anniu10_sel.png" UseOriginSize="False" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{e164d4d1-da65-4238-99d1-1b3fa84581b4}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc6f56fd-abb0-4b04-b7b9-2019a6d0c0af}" FontSize="24" Text="" Order="1" Name="txtExchange_WndGameAdvise" NameCreate="True" BoldFont="False" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="3,111,8" RelativePosition="0.5,0.464286" TextKey="SEND" LabelStyleKey="SMALL_GREEN_BTN" />
+                    </WZUIButton>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{191edb0f-4558-40bd-8c1c-da240f33c4c4}" AbsContentSize="410,310" UseAbsSize="True" RelativePosition="0.5,0.5" Name="conHeroAdvise_WndGameAdvise" Visible="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{1e218dcd-2b37-49a5-adc3-df0272fe7538}" File="ui/common/common_scale9_di19.png" CapInsets="170,70,1,1" />
+            <WZUIContainer Type="WZUIContainer" GUID="{24d6cde5-e6fb-4e9d-b1f4-c3b6f4102b0e}" AbsContentSize="410,55" UseAbsSize="True" RelativePosition="0.503992,0.891964" AbsPosition="251.996,463.724">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0de84cc-8731-49a4-8a08-c3cdc372f49d}" Name="" Color="250,235,194" BoldFont="True" StrokeColor="132,66,29" FontSize="28" Text="" RelativePosition="0.5,0.5" EnableStroke="True" AnchorPoint="0.5,0.5" TextKey="SETTING_ADVISE_MAIL1" StrokeSize="4" />
+                <WZUIContainer Type="WZUIContainer" GUID="{008cf706-33a0-44f7-8f5c-b253f6917cd3}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.906567,0.543607" AbsPosition="453.284,29.8984">
+                    <Button Type="WZUIButton" GUID="{c761ec86-107e-48e5-8006-3e42edeee233}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.5,0.5" Name="btnBack_WndGameAdvise" LuaDoneFunctionName="onBtnClose" Visible="True" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{7e45f0bf-590a-45cc-bc55-81992fbc8091}">
+                            <WZUIImage Type="WZUIImage" GUID="{bf5f51e1-ab29-46dd-a891-30943bc5f68e}" File="ui/common/common_icon_guanbi.png" Scale="1" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{b53ba33d-e207-427b-bcdd-f63dfeb7f71f}">
+                            <WZUIImage Type="WZUIImage" GUID="{30480c6a-ce7e-4f87-a067-527c618b19e0}" File="ui/common/common_icon_guanbi_sel.png" Scale="1" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{723bd7b7-fb84-4943-97dd-5dd448cb577d}" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{26945156-3f19-46d3-a224-28118c48d42d}" AbsContentSize="406,160" UseAbsSize="True" RelativePosition="0.5,0.541935">
+                <WZUI9Image Type="WZUI9Image" GUID="{8dc503b3-769d-4b39-a18f-9234037719c1}" File="ui/common/common_scale9_di20.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{82c911b6-f26c-484e-9bfd-23bdb22c644a}" LabelStyleKey="C3_F18" Text="" Dimensions="340,100" Alignment="Left" RelativePosition="0.5,0.60625" TextKey="" Name="txthero1_WndGameAdvise" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{00d166e7-feef-4e91-9803-ad3698bf7d95}" AbsContentSize="400,50" UseAbsSize="True" RelativePosition="0.5,0.119708" AbsPosition="250,37.2735">
+                <WZUIContainer Type="WZUIContainer" GUID="{af194d5c-0da0-4863-a660-098052f2531b}" AbsContentSize="186,56" UseAbsSize="True" RelativePosition="0.5,0.66" AbsPosition="200,33">
+                    <WZUIButton Type="WZUIButton" GUID="{90fbbf68-c33a-4807-8dbf-666dc25cbc58}" LuaDoneFunctionName="onHeroWeb" Name="" NameCreate="True" RelativePosition="0.5,0.5" LuaActionName="Normal" UseAbsSize="False">
+                        <NormalElement Type="WZUIContainer" GUID="{6018412b-187b-4fb8-b858-679558ff19ea}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{da2de0ea-f6fb-41e2-92a1-2c0634482874}" File="ui/common/common_btn_anniu10.png" UseOriginSize="False" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{2a0fb09a-d377-4b81-8d85-70736022706a}" ScaleX="1" Scale="1">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a4bc6393-ea5d-42ef-8158-843de51823be}" File="ui/common/common_btn_anniu10_sel.png" UseOriginSize="False" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{fd72d96b-a80c-4c90-a78a-1d755f38c263}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e6405894-39fb-4467-8325-d101c370c495}" FontSize="24" Text="" Order="1" Name="txthero2_WndGameAdvise" NameCreate="True" BoldFont="False" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="3,111,8" RelativePosition="0.5,0.464286" TextKey="" LabelStyleKey="SMALL_GREEN_BTN" />
+                    </WZUIButton>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndGameAdvise>

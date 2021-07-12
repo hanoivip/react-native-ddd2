@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" ?>
+<WndPetsRebirth GUID="{847D9670-69DB-4184-AB9A-6B90596C3A8E}">
+    <WZUIContainer Type="WZUIContainer" GUID="{FDE4130E-C336-465b-BF60-7A89A3D4D2A5}" AbsContentSize="" UseAbsSize="True" RelativePosition="0.5,0.5" LuaObjectName="WndPetsRebirth" Name="WndPetsRebirth" Visible="True" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{bc7be62c-7304-413b-ad69-a9677787803b}" AbsContentSize="920,506" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{2d4ac399-8547-42cb-9b8a-72d23a2b69f5}" File="ui/common/frame_dadi_01.png" CapInsets="" RelativePosition="0.5,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{1b916c1e-cf93-4d73-838e-4d3fa7a95473}" AbsContentSize="0,0" UseAbsSize="False" RelativePosition="0.5,0.5" AbsPosition="388,252">
+                <WZUIContainer Type="WZUIContainer" GUID="{9abfb200-d9e1-48c8-85dd-d3d43fa03605}" AbsContentSize="496,492" UseAbsSize="True" RelativePosition="0.276669,0.5" Name="conLeft_WndPetsRebirth" AbsPosition="">
+                    <WZUIContainer Type="WZUIContainer" GUID="{f9265c3c-5a80-456f-b439-5bbd16e82dd7}">
+                        <WZUIImage Type="WZUIImage" GUID="{2f43a548-7948-45bd-ac28-308e39849056}" File="ui/common_bg/common_pic_hb_cw.png" UseOriginSize="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{dcf59b68-7c7b-4b92-a67b-46fc10604466}" AbsContentSize="360,120" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                        <WZUIImage Type="WZUIImage" GUID="{d544d114-7ea9-47ec-a15a-359a7c7aad0c}" File="ui/common/common_04.png" UseOriginSize="True" RelativePosition="0.5,0.59" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{4afa4b01-ff5b-4428-aee0-37a6875d1fa7}" AbsContentSize="180,40" UseAbsSize="True" RelativePosition="0.5,0.215" TouchEnable="False" AnchorPoint="0.5,0.5" Name="conAptitude_WndPetsRebirth">
+                            <WZUIImage Type="WZUIImage" GUID="{79ecd6b8-3029-4e18-984e-87b07f5f2853}" Name="imgAptitude6_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="-0.01,0.5" Scale="0.8" />
+                            <WZUIImage Type="WZUIImage" GUID="{c28d9591-d89e-409b-8121-94410d0bd871}" Name="imgAptitude4_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.16,0.5" Scale="0.8" />
+                            <WZUIImage Type="WZUIImage" GUID="{f35ca3f6-5573-4571-91f8-39754b1087a8}" Name="imgAptitude2_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.33,0.5" Scale="0.8" />
+                            <WZUIImage Type="WZUIImage" GUID="{8bcc6b05-4f5e-41af-896a-b4a913f41aaf}" Name="imgAptitude1_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="0.8" />
+                            <WZUIImage Type="WZUIImage" GUID="{ba7bf257-8d37-483a-84c7-1e288a8a84a7}" Name="imgAptitude3_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.67,0.5" Scale="0.8" />
+                            <WZUIImage Type="WZUIImage" GUID="{eec6c7bb-f460-4b28-9527-624f145c4ef1}" Name="imgAptitude5_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.84,0.5" Scale="0.8" />
+                            <WZUIImage Type="WZUIImage" GUID="{f6bae899-90dc-47e6-90d3-cc7fa0f496dd}" Name="imgAptitude7_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="1.01,0.5" Scale="0.8" />
+                        </WZUIContainer>
+                        <WZUILabelTTF AnchorPoint="0.5,0.5" Color="255,255,255" FontSize="24" GUID="{59d57ce1-5f48-4901-b4e8-8bfe46521cd6}" MaxLength="" Name="txtLv_WndPetsRebirth" RelativePosition="0.5,0.4" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Center" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Visible="False" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{cf3f00bd-2a8c-4492-90b3-cfe7fefefbaa}" Name="txtName_WndPetsRebirth" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.58" MaxWidth="300" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{fb7d782b-e30c-46e2-bf5d-b6d4d6642830}" AbsContentSize="290,296" UseAbsSize="True" RelativePosition="0.5,0.56" Name="">
+                        <WZUIContainer Type="WZUIContainer" GUID="{74fc623f-b518-47fe-9d5a-33056daa32ea}" AbsContentSize="120,200" UseAbsSize="True" RelativePosition="0.5,0.5" Name="" Visible="True">
+                            <WZUIContainer AbsContentSize="120,160" GUID="{5c765c65-1543-4be3-a3de-97e792b7e162}" Name="conPetImage_WndPetsRebirth" RelativePosition="0.5,0.5" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" Visible="True" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{e2067699-2a84-4edd-9927-756e0ccf2f65}">
+                            <WZArmature Type="WZArmature" GUID="{814bdcaa-7a81-4d9a-abc8-d49dc0409ab2}" ArmatureFile="ui/ui_chongwu_fuhuo_01.xml" ArmatureName="ui_chongwu_fuhuo_01" Name="armAddStar_WndPetsRebirth" InitPlayId="" Visible="False" LuaObjectName="" UseOriginSize="False" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{bd0e56e8-878e-4b79-8c40-10f91fccab50}" RelativeSize="1,1" RelativePosition="0.5,0.272" AbsContentSize="276,50" UseAbsSize="True" Name="conPetPro_WndPetsRebirth" Visible="True">
+                        <WZUIImage Type="WZUIImage" GUID="{805632e2-e02c-413e-91f1-ed16165e8f3d}" File="ui/common/common_cwzl.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f6adbcd1-d5de-4317-99b8-309e7157552c}" Color="255,255,255" FontSize="22" TextKey="PET_COMBAT" RelativePosition="0.216,0.5" Text="" Name="txtFight_WndPetsRebirth" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{27d060c9-5f3f-434e-b366-ca94a18fdd4a}" Name="ftbFight_WndPetsRebirth" MaxWidth="500" Visible="True" RelativePosition="0.68,0.5" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{f31cf354-8a77-41ab-b47e-d04c21000336}" Name="txtPetQualification_WndPetsRebirth" AnchorPoint="0,0.5" Color="255,236,193" EnableStroke="True" FontSize="20" RelativePosition="0.78,0.27" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    <Button Type="WZUIButton" GUID="{4817cd65-cbf1-4c83-90fa-3d6523bb1cb7}" RelativePosition="0.18,0.272" AbsContentSize="60,60" UseAbsSize="True" LuaDoneFunctionName="onShowAttribute">
+                        <NormalElement Type="WZUIContainer" GUID="{87a809e9-a5e6-4a04-aa1f-7c9be257cfc1}">
+                            <WZUIImage Type="WZUIImage" GUID="{2c0220df-8e71-4666-a12e-0971284313f0}" File="ui/common/common_icon_ss_1.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{07073d6b-00d1-45e3-9641-b4fa28199078}">
+                            <WZUIImage Type="WZUIImage" GUID="{b990817f-33b1-44de-8bfd-855e2e852b32}" File="ui/common/common_icon_ss_1.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{5626584e-1170-4ae2-b4e8-e8e281bbd49a}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{585eddc6-d544-4d42-a83d-4568393ce0b4}" AbsContentSize="410,492" UseAbsSize="True" RelativePosition="0.771,0.5" Name="conPetInfo2_WndPetsEvolution">
+                    <WZUIContainer Type="WZUIContainer" GUID="{cb548bc1-e34d-4123-af85-7d611806590d}" AbsContentSize="384,35" UseAbsSize="True" RelativePosition="0.5,0.953">
+                        <WZUI9Image Type="WZUI9Image" GUID="{2cd17f3a-56ed-4344-a1ed-7bd22e3726eb}" File="ui/common/title_frame_06.png" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{85169f5f-e6f9-4764-8d3c-b2097a92b7de}" Name="txtPetRebirth_WndPetsRebirth" Color="255,236,193" FontSize="22" BoldFont="True" EnableStroke="True" Text="宠物重生" RelativePosition="0.5,0.9514" StrokeColor="128,54,13" StrokeSize="4" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{542b5601-506c-42bb-9ffa-ce3313aa43a5}" Name="txtRebirthExplain_WndPetsRebirth" Color="127,70,26" Dimensions="380,0" FontSize="20" StrokeColor="60,19,12" BoldFont="False" EnableStroke="False" Text="" RelativePosition="0.045,0.888" Alignment="Left" AnchorPoint="0,1" AbsPosition="7.40304,69.8765" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{e8972445-1d99-4466-8538-1fa865cc74e4}" AbsContentSize="410,350" UseAbsSize="True" RelativePosition="0.5,0" Name="conGetMetarial_WndPetsRebirth" AnchorPoint="0.5,0">
+                        <WZUIContainer AbsContentSize="398,94" GUID="{a6834d02-377e-40d4-b13f-65b598982f92}" LuaObjectName="" Name="" NameCreate="True" Type="WZUIContainer" UseAbsSize="True" RelativePosition="0.5,0.863" AbsPosition="">
+                            <Button Type="WZUIButton" LuaDoneFunctionName="" GUID="{9d8ecf2d-6d40-49eb-a9bd-d186cb23da82}" Visible="True">
+                                <NormalElement Type="WZUIContainer" GUID="{9c226362-c638-4196-ae3f-4ba64c5c8735}" RelativePosition="0.5,0.5">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{16b9f808-eab9-4d18-94a3-f7f0b9aef66d}" File="ui/common/frame_lieb.png" Name="imgBg1_CellPetList" ScaleY="1" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{b07a1c33-ef05-47f0-b873-6666e38de2b1}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{f1a754b8-0e93-459a-a2cc-447eb91052cc}" File="ui/common/frame_lieb.png" Name="imgBg2_CellPetList" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{e324b05a-c3bc-4275-a378-2f42519e2272}" />
+                            </Button>
+                            <WZUIContainer Type="WZUIContainer" GUID="{09e4611f-863f-46b3-b7de-40a79dec3dc4}" AbsContentSize="78,78" UseAbsSize="True" RelativePosition="0.122203,0.5">
+                                <WZUI9Image Type="WZUI9Image" GUID="{f4fef7d7-c37d-4cec-8552-a57b97f16c65}" File="ui/common/frame_13.png" />
+                                <WZUIImage File="" GUID="{37735e4c-b51f-4885-a7e2-ca1e60a596ff}" Name="imgIconBg1_WndPetsRebirth" RelativePosition="0.5,0.5" Scale="1" TouchEnable="False" Type="WZUIImage" UseOriginSize="True" Visible="True" AbsPosition="40,40" ScaleX="1" ScaleY="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{db72c774-7975-473e-88d2-9c7049079735}" Name="imgIconBgQuality1_WndPetsRebirth" />
+                            </WZUIContainer>
+                            <WZUILabelTTF AnchorPoint="1,0.5" Color="127,70,26" FontSize="20" GUID="{975727d2-a7b7-4043-8d03-19becacea185}" MaxLength="0" Name="txtNum1_WndPetsRebirth" RelativePosition="0.96,0.19" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Left" Visible="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{13cda3ba-61f8-4b69-8f93-046d49848e86}" AbsContentSize="288,36" UseAbsSize="True" RelativePosition="0.60931,0.667612">
+                                <WZUI9Image Type="WZUI9Image" GUID="{b9df2083-bd03-41ae-a196-be9868144e92}" File="ui/common/frame_17.png" />
+                                <WZUILabelTTF AnchorPoint="0,0.5" Color="255,255,255" FontSize="20" GUID="{82c0a6d3-5a64-4f18-9f01-706bfe631a73}" MaxLength="" Name="txtLv1_WndPetsRebirth" RelativePosition="0.04,0.5" Text="Lv:0" TouchEnable="False" Type="WZUILabelTTF" Alignment="Left">
+                                    <WZUILabelTTF AnchorPoint="0,0.5" Color="255,255,255" FontSize="20" GUID="{8fc8d1e4-fac1-44b3-9f58-b2da0f3bc332}" MaxLength="" Name="txtName1_WndPetsRebirth" RelativePosition="1.1,0.5" Text="Name" TouchEnable="False" Type="WZUILabelTTF" Alignment="Left" />
+                                </WZUILabelTTF>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{866f84eb-8c6f-4cd0-9040-46fc30b90f44}" AbsContentSize="180,40" UseAbsSize="True" RelativePosition="0.309229,0.23629" TouchEnable="False" AnchorPoint="0,0.5" Visible="False">
+                                <WZUIImage Type="WZUIImage" GUID="{711af0fe-85a8-4035-8043-2b996775c7c2}" Name="imgAptitude21_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.0675906,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{51d455a2-1d0f-4419-ae42-d210523164a5}" Name="imgAptitude22_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.224489,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{b016a60e-fd8e-446c-b051-b37fdf947ccc}" Name="imgAptitude23_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.388895,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{0bfd66ea-7c04-400c-8823-0610995a64e5}" Name="imgAptitude24_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.539037,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{72d1920f-be96-4dea-a1e4-1e0c5812fd28}" Name="imgAptitude25_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.686927,0.5" Scale="0.68" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer AbsContentSize="398,94" GUID="{6d796150-8e0f-4488-8d5b-9979bad38c08}" LuaObjectName="" Name="" NameCreate="True" Type="WZUIContainer" UseAbsSize="True" RelativePosition="0.5,0.574" AbsPosition="">
+                            <Button Type="WZUIButton" LuaDoneFunctionName="" GUID="{693b70a9-1e1f-4f8b-a7b6-f5f68d493154}" Visible="True">
+                                <NormalElement Type="WZUIContainer" GUID="{7c21dbce-070a-4e05-8acc-fb5d953a88c1}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{a23432c4-0b10-499a-85c8-c762de3b7616}" File="ui/common/frame_lieb.png" Name="imgBg1_CellPetList" ScaleY="1" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{9b4f0b83-b712-476f-8069-6cf1a5ad4559}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{fad7ac81-1cb0-42c8-a7a5-aa362e2f3d5d}" File="ui/common/frame_lieb.png" Name="imgBg2_CellPetList" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{3caba2ec-4b07-4683-bcbb-b5da7d1f8871}" />
+                            </Button>
+                            <WZUIContainer Type="WZUIContainer" GUID="{dd182755-99af-4f5c-af12-f76a1b4d8cd7}" AbsContentSize="78,78" UseAbsSize="True" RelativePosition="0.122203,0.5">
+                                <WZUI9Image Type="WZUI9Image" GUID="{969ce2cb-ad0d-4fa0-a9a1-e4efcf862849}" File="ui/common/frame_13.png" />
+                                <WZUIImage File="" GUID="{6658449e-fd66-498a-aefb-542bea790078}" Name="imgIconBg2_WndPetsRebirth" RelativePosition="0.5,0.5" Scale="1" TouchEnable="False" Type="WZUIImage" UseOriginSize="True" Visible="True" AbsPosition="40,40" ScaleX="1" ScaleY="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{1a690e51-9dc0-4c39-b532-4a4061ca7eba}" Name="imgIconBgQuality2_WndPetsRebirth" />
+                            </WZUIContainer>
+                            <WZUILabelTTF AnchorPoint="1,0.5" Color="127,70,26" FontSize="20" GUID="{dd0091c5-1ac8-4d6d-a52a-1b9cad6e0087}" MaxLength="0" Name="txtNum2_WndPetsRebirth" RelativePosition="0.96,0.19" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Left" Visible="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{ced4d0ac-aca0-4b02-90ef-c2d94a6107c0}" AbsContentSize="288,36" UseAbsSize="True" RelativePosition="0.60931,0.667612">
+                                <WZUI9Image Type="WZUI9Image" GUID="{c34fd3a3-2e60-4006-a3c2-fe2b8adcdb42}" File="ui/common/frame_17.png" RelativePosition="0.5,0.5" />
+                                <WZUILabelTTF AnchorPoint="0,0.5" Color="255,255,255" FontSize="20" GUID="{ef8412ff-9b6c-4263-8a30-27627ae7f173}" MaxLength="" Name="txtName2_WndPetsRebirth" RelativePosition="0.04,0.5" Text="Name" TouchEnable="False" Type="WZUILabelTTF" Alignment="Left" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{cd9d26a9-655c-41f8-a1a9-60d049b24cba}" AbsContentSize="180,40" UseAbsSize="True" RelativePosition="0.309229,0.23629" TouchEnable="False" AnchorPoint="0,0.5" Visible="False">
+                                <WZUIImage Type="WZUIImage" GUID="{1e5829db-1389-433a-a057-9748bcb6b90e}" Name="imgAptitude31_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.0675906,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{50df0cff-131a-42ce-911f-31af50e1fbad}" Name="imgAptitude32_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.224489,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{c8c8ad9b-2cb5-44f3-9ab5-13304606d5a8}" Name="imgAptitude33_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.388895,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{5255062b-30f3-49c6-87f2-a93c7b36fbd4}" Name="imgAptitude34_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.539037,0.5" Scale="0.68" />
+                                <WZUIImage Type="WZUIImage" GUID="{0f82243b-cbde-4259-aa7d-3a53431d3c86}" Name="imgAptitude35_WndPetsRebirth" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.686927,0.5" Scale="0.68" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{c6f41d1b-da78-4678-b362-8e6ba8ac12f2}" AbsContentSize="366,48" UseAbsSize="True" RelativePosition="0.5,0.306535" AbsPosition="">
+                            <WZUI9Image Type="WZUI9Image" GUID="{4eee78c5-4d47-40b5-abd7-d573a9be960a}" File="ui/common/frame_wb.png" Name="" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5dbd75db-4d60-440d-b834-17157c2b5e29}" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" Color="255,236,193" FontSize="22" Text="" RelativePosition="0.042,0.5" AnchorPoint="0,0.5" TextKey="CONSUME" Name="txtConsume_WndPetsRebirth" />
+                            <WZUIImage Type="WZUIImage" GUID="{a9035f05-1529-4fda-9fb4-3d9ae5026a6b}" File="" UseOriginSize="True" Scale="0.8" RelativePosition="0.288687,0.5" Name="imgSpendType_WndPetsRebirth" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8122d485-7109-4a02-8a78-5667ef002d3b}" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" Color="255,236,193" FontSize="22" Text="" RelativePosition="0.38,0.5" AnchorPoint="0,0.5" TextKey="" Name="txtSpendSum_WndPetsRebirth" />
+                        </WZUIContainer>
+                        <Button Type="WZUIButton" GUID="{f3220637-9381-44c7-bcfa-77d8060196a1}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.28,0.12" Name="btnClose_WndPetsRebirth" LuaDoneFunctionName="onCloseClick" Visible="True" LuaActionName="Normal">
+                            <NormalElement Type="WZUIContainer" GUID="{ca3e985f-fc9e-4677-86c2-7acf42f14de8}" RelativePosition="0.5,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{e1584ea6-c6fb-458d-b2b0-ccfcc545dc9b}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{5370f102-c696-4c02-b40d-5ee4ae136523}">
+                                <WZUIImage Type="WZUIImage" GUID="{1dc2c9ff-e057-483b-a474-b101a5f22748}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{bca43103-3cbe-4dd1-9dd1-42ff7d441ea0}" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{790b6922-0263-48d8-9c96-1e756d109c75}" Color="255,250,236" EnableStroke="True" FontSize="24" StrokeColor="163,74,20" StrokeSize="4" TextKey="BACK" />
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{96bda012-44f4-4a94-85f7-c209ab450d06}" Name="btnPetRes_WndPetsRebirth" LuaDoneFunctionName="onClickRebirth" Tag="6" TouchEnable="True" RelativePosition="0.72,0.12" LuaActionName="Normal" AbsContentSize="152,68" UseAbsSize="True">
+                            <NormalElement Type="WZUIContainer" GUID="{bd4c697a-777c-4031-83bc-e2865b9f4f60}">
+                                <WZUI9Image Type="WZUI9Image" GUID="{dfdf6c2b-0837-4f07-8c91-a3a2a47933c9}" File="ui/common/common_btn_02.png" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{4e5fc771-1b04-4a2f-a080-1d894c11ffe1}" Scale="1.12">
+                                <WZUI9Image Type="WZUI9Image" GUID="{2e28b532-e888-4b39-84ae-f06758774fe6}" File="ui/common/common_btn_02.png" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{9c3c88fc-3e6d-43d3-8d09-d79f1d6ef053}">
+                                <WZUI9Image Type="WZUI9Image" GUID="{93dc4330-bbdf-473a-9372-6b68161de803}" File="ui/common/common_btn_anniu10.png" GrayRender="True" />
+                            </DisableElement>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc1ae698-913a-48d3-87b6-da99d649df93}" FontSize="24" Name="" Color="255,250,236" BoldFont="True" StrokeColor="0,109,4" Text="" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchEnable="False" EnableStroke="True" Dimensions="0??0" TextKey="INVITE_SUBMIT" StrokeSize="4" LabelStyleKey="" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndPetsRebirth>

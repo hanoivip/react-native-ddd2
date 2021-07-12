@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" ?>
+<SceneHall GUID="{5FACBA6A-E6BC-4845-BAFD-A99DE90F6FD3}">
+    <WZUIFrame AbsContentSize="0,0" GUID="{147236B4-5BD5-4363-AE92-0304B203EF51}" LuaObjectName="SceneHall" LuaTouchBeganFunction="onTouchBegan" Name="SceneHall" NameCreate="True" RelativePosition="0.5,0.5" Scale="1" ShowAll="False" Type="WZUIFrame" UseAbsSize="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{3346D5FB-C8F7-4e3a-BF17-3A0DB5F7CAF6}" Name="conMain_SceneHall">
+            <WZUIContainer Type="WZUIContainer" GUID="{3b959ffe-38c3-447c-a227-eef9b0aa22c1}" Visible="True">
+                <WZUIImage Type="WZUIImage" GUID="{340ab214-ca4d-49c8-b190-2742eceaffc6}" File="ui/common_bg/common_bg_03.png" Visible="True" UseOriginSize="False" />
+                <WZUIParticle Type="WZUIParticle" GUID="{2605e203-5f89-40db-896c-d30a6608891f}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{ddf3dde3-bcbe-42ca-8ef4-35567177e6cb}" RelativeSize="1,1" RelativePosition="0.5,0.5" Visible="True" ShowAll="True" TouchSwallow="True" AbsPosition="478.648,292.447">
+                <WZUIContainer AbsContentSize="330,560" GUID="{d466c758-6aa6-444e-9b8d-591f4c6397a4}" NoBorder="False" RelativePosition="0.212,0.43" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" Visible="True" Name="conPlayerInfo_SceneHall" NameCreate="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{ac2a8eef-4b34-4c0a-b13a-2363f6ecc111}" RelativeSize="1,0.2" RelativePosition="0.5,0.861126" Order="1">
+                        <WZUIContainer Type="WZUIContainer" GUID="{878d131d-0c94-40c5-b06a-cfe2c2f3f99d}" RelativeSize="1,1" Name="conTitleName_SceneHall" Visible="False">
+                            <WZUIContainer Type="WZUIContainer" GUID="{0e5411b8-d562-43f7-bcdb-8c2621d19c37}" RelativeSize="0.7,0.6" RelativePosition="0.5,0.267858" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{504055e7-5cca-4c5c-9703-e73571f695c6}" File="ui/common/common_scale9_heidi2.png" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{412d0518-6be6-466c-a179-4cf3794cb8d8}" RelativeSize="1,0.2" Name="conTitle_SceneHall" NameCreate="True" Visible="True" RelativePosition="0.5,0.410714" UseAbsSize="False">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c5dab08d-36ad-47e6-83e6-108fe40e8e25}" Name="txtPlayerTitle_SceneHall" Color="255,121,31" FontSize="22" Text="" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" Visible="True" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{b3fea143-40d5-4fd3-aa13-146097ad11bf}" RelativeSize="1,0.2" RelativePosition="0.5,0.133928">
+                                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{c024be97-34b3-45c5-accd-d6c498f51e17}" Name="txtPlayerLevel_SceneHall" MaxWidth="200" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{d2a6ccaf-a1fa-463c-b78a-85d5c221dd8b}" RelativeSize="1,0.56" RelativePosition="0.5,0.562362" AbsPosition="200,314.923">
+                        <WZUIContainer Type="WZUIContainer" GUID="{226a1b93-0223-4593-ba39-c5b83ba28705}" RelativeSize="1,1" RelativePosition="0.5,0" AbsContentSize="200,40" UseAbsSize="True" AnchorPoint="0.5,0">
+                            <WZUIImage Type="WZUIImage" GUID="{f45a5693-ee01-49a5-ac0c-cc3d2e104ca0}" File="ui/common/common_icon_yy.png" UseOriginSize="True" />
+                        </WZUIContainer>
+                        <WZUIContainer AbsContentSize="150,150" AnchorPoint="0.5,0" GUID="{4521cb9f-5b37-43e1-af22-c9252ce41eed}" Name="conPlayer_SceneHall" RelativePosition="0.5,0.00956632" Type="WZUIContainer" UseAbsSize="True" AbsPosition="200,19.1335" />
+                        <WZUIContainer AbsContentSize="200,300" AnchorPoint="0.5,0" GUID="{7bfb8557-eac6-4845-9285-7e4fc67e4da1}" Name="" RelativePosition="0.4825,0.0804604" Type="WZUIContainer" UseAbsSize="True">
+                            <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickRole" GUID="{589f400b-5e53-4915-a441-42d7ff937aaa}" RelativePosition="0.5,0.42">
+                                <NormalElement Type="WZUIContainer" GUID="{86ebc06e-ad47-43d0-a7c5-8c0e54e04bce}" />
+                                <SelectElement Type="WZUIContainer" GUID="{12db0f32-d963-4329-b02c-7a976bd7e93a}" />
+                                <DisableElement Type="WZUIContainer" GUID="{ab7d4180-2fff-4538-9327-a64a957f3cb9}" />
+                            </WZUIButton>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{ba3edf61-ba10-4010-b400-8b5ac10897bb}" AbsContentSize="100,100" UseAbsSize="True" AnchorPoint="0,1" RelativePosition="0.0725,0.886084" Name="" NameCreate="True" AbsPosition="29,287.8">
+                            <WZUIContainer Type="WZUIContainer" GUID="{d2983586-1697-41fc-9a88-241f012311e4}" AbsContentSize="100,100" UseAbsSize="True" AnchorPoint="0,1" RelativePosition="0.105,1" Name="conPet_SceneHall" NameCreate="True" />
+                            <Button Type="WZUIButton" LuaDoneFunctionName="onPet" GUID="{d6718d63-e981-4d77-a374-6554bf19c1f7}">
+                                <NormalElement Type="WZUIContainer" GUID="{f0ac9a92-8030-4357-b149-62dcdd9a4916}" />
+                                <SelectElement Type="WZUIContainer" GUID="{bc84b6f7-1545-41eb-9479-6f376ca029f4}" />
+                                <DisableElement Type="WZUIContainer" GUID="{cd729ef7-c1e7-4414-83f3-b857cc0fcfb4}" />
+                            </Button>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{3b6c3246-de92-445c-bc71-f0f8c0bcec55}" AbsContentSize="100,100" UseAbsSize="True" RelativePosition="0.149924,0.226241" AbsPosition="107.627,78.0077" Name="conWeapon_SceneHall">
+                            <WZUISpine Type="WZUISpine" GUID="{4f55b053-f641-4c0e-acf3-e763c12ce317}" FileAtlas="ui/ui_jjc_weapon.atlas" FileJson="ui/ui_jjc_weapon.json" Loop="True" AnimationName="8" TouchEnable="False" TouchSwallow="False" UseOriginSizeProportion="False" RelativePosition="0.466666,1.11333" AbsPosition="46.6666,111.333" UseOriginSize="True" ScaleAnimation="1" Name="spineWeapon_SceneHall" Visible="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{9bd649b5-a745-4a8c-b035-5ba520ebb0b2}" Name="imgWeapon_SceneHall" Scale="1" UseOriginSize="True" />
+                            <Button Type="WZUIButton" LuaDoneFunctionName="onWeapon" GUID="{3c479396-d860-4099-b5f3-fc907b23e68f}">
+                                <NormalElement Type="WZUIContainer" GUID="{ec0d1ad6-2b66-4b5c-a7cd-3027b1a0f6f4}" />
+                                <SelectElement Type="WZUIContainer" GUID="{73160a7f-307d-41c7-9886-622e159c6bcf}" />
+                                <DisableElement Type="WZUIContainer" GUID="{5e89586a-2f4d-4485-bba6-f91465014933}" />
+                            </Button>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{debeea6f-41d2-438f-902b-d6668356ce62}" RelativeSize="1,1" RelativePosition="0.506533,0.211255" Name="conPvpLevel_SceneHall" AbsContentSize="290,68" UseAbsSize="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{1a0efa7e-0e49-4135-962f-f9da3197f8d3}" UseAbsSize="False" AbsContentSize="" RelativePosition="0.5,0.5">
+                            <WZUI9Image Type="WZUI9Image" GUID="{8842b9ba-23ec-4d58-910e-ffa4b4f47e00}" File="ui/common/common_pic_01.png" Opacity="127" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d3587157-df3e-4867-a80e-18db7c66a73f}" Text="" LabelStyleKey="" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="0.264,0.657" Name="txtDuan_SceneHall" Color="255,236,193" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" FontSize="22" />
+                        </WZUIContainer>
+                        <WZUIContainer AnchorPoint="0.5,0.5" GUID="{04ffaf31-8b0a-4a22-b051-cf1d499ae607}" RelativePosition="0.485691,0.303544" RelativeSize="1,1" Type="WZUIContainer" UseAbsSize="True" AbsContentSize="130,18">
+                            <WZUIImage File="ui/common/progress_jjc_03.png" GUID="{9d1c159b-9c59-494e-8f49-746ee26db373}" RelativePosition="0.5,0.5" RelativeSize="1,1" ScaleX="0.5" Type="WZUIImage" UseOriginSize="True" Visible="True" Opacity="150" Scale="1" />
+                            <WZUIProgress BgPicture="ui/common/progress_jjc_04.png" GUID="{ea4ae0c1-3c48-452a-b2cc-56ac9227b31a}" GrayRender="False" Name="processLv_SceneHall" Percentage="30" RelativePosition="0.5,0.5" Type="WZUIProgress" UseOriginSize="True" Visible="True" NameCreate="True" RelativeSize="1,1" Opacity="255" Scale="1" ScaleY="1" ScaleX="1" />
+                            <WZUILabelTTF Color="255,255,255" FontSize="18" GUID="{aff28475-2c89-4259-bc3b-27e597ec75d2}" Name="txtExp_SceneHall" Text="" Type="WZUILabelTTF" UseOriginSize="True" UseOriginSizeProportion="False" Visible="True" NameCreate="True" RelativePosition="0.5,0.4" LabelStyleKey="" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" Scale="0.9" />
+                        </WZUIContainer>
+                        <WZUIButton Type="WZUIButton" AbsContentSize="60,60" UseAbsSize="True" GUID="{62392d17-bce2-4741-ba49-165d083430c6}" RelativePosition="0.114586,0.5" LuaDoneFunctionName="onEventSection" Visible="True">
+                            <NormalElement Type="WZUIContainer" GUID="{ebe24b18-4281-4208-a7bb-4674cc991801}" />
+                            <SelectElement Type="WZUIContainer" GUID="{3e0ef847-84f0-4b34-8aa4-6dc33f52333e}" />
+                            <DisableElement Type="WZUIContainer" GUID="{bd0f57cf-d165-4616-88ff-c1ff158c4c51}" />
+                            <WZUIImage Type="WZUIImage" GUID="{96649cd6-1195-4e2d-8daa-931f562846c0}" File="ui/common/common_icon_hz1.png" UseOriginSize="True" Scale="1" Name="imgAthLevel_SceneHall" NameCreate="True" ScaleX="1" ScaleY="1" />
+                            <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{4d2447b2-3da8-4390-8c6f-74214315c480}" CharMapFileName="ui/common_num/common_num_ghdj.png" Text="1" Height="24" UseOriginSize="True" Name="txtAthLv_SceneHall" NameCreate="True" RelativePosition="0.516667,0.5" Width="16" Scale="0.8" Visible="False" />
+                        </WZUIButton>
+                        <WZUIButton Type="WZUIButton" AbsContentSize="85,85" UseAbsSize="True" RelativePosition="0.732873,0.505894" LuaDoneFunctionName="onReward" GUID="{08ad4d57-9043-41e4-89a9-a92ac047f3c3}" AnchorPoint="0,0.5" Visible="True">
+                            <NormalElement Type="WZUIContainer" GUID="{97db486b-a5a4-4fd1-87ce-a56b669ba351}">
+                                <WZUIImage Type="WZUIImage" GUID="{2396ba4c-ea4f-4a34-a5a0-b4552fe195ba}" File="ui/common/icon_common_bx.png" UseOriginSize="True" Scale="1" ScaleX="1" ScaleY="1" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{48c031a0-425f-41a9-833c-861e16c1edff}">
+                                <WZUIImage Type="WZUIImage" GUID="{bfd11783-f6d2-41b4-9ce7-a82c4da306fc}" File="ui/common/icon_common_bx.png" UseOriginSize="True" Scale="1" ScaleX="1" ScaleY="1" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{eeba9678-d41e-46c3-98e6-31eefcf0cc31}">
+                                <WZUIImage Type="WZUIImage" GUID="{7d2adb18-1fee-4c4f-b7f5-24608f6da5e6}" File="ui/common/common_icon_jingyingBox.png" UseOriginSize="True" Scale="0.5" ScaleX="0.5" ScaleY="0.5" />
+                            </DisableElement>
+                            <WZUIImage Type="WZUIImage" GUID="{a8d59c62-0122-4d99-9ae6-03e34384b872}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.791453,0.742908" Name="imgAthRed1_SceneHall" Visible="True" />
+                        </WZUIButton>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{d9434169-7240-4892-aabb-5ab6c89261d1}" AbsContentSize="615,540" UseAbsSize="True" RelativePosition="0.668,0.488" AbsPosition="690.556,274.165" Name="conRoomList_SceneHall" Visible="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{c5c739f7-f815-4a5f-8787-46a67aaf8b13}" AbsContentSize="474,58" UseAbsSize="True" RelativePosition="0.494,1.00755" AbsPosition="247,534" AnchorPoint="0.5,1" Visible="False">
+                        <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{bb3527ba-4d4a-4b44-b6bb-68080fd90c60}">
+                            <CheckBox Type="WZUICheckBox" GUID="{bda7a81e-f201-4df5-bd69-9272e30c6f15}" RelativeSize="0.5,1" AnchorPoint="0,0.5" RelativePosition="0,0.482759" SelectedIndex="1" LuaCheckedFunctionName="onSelMatch" Tag="1" Name="checkMatch1_SceneHall" AbsPosition="0,28">
+                                <CheckElement Type="WZUIContainer" GUID="{89c9aced-66c8-476f-97b9-790aa2919359}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{203fbd26-86ac-47aa-98e5-558e7f86ebf5}" File="ui/common/common_btn_biaoqian2.png" Visible="True" />
+                                    <WZUIImage Type="WZUIImage" GUID="{7e9e5913-39b2-4ef8-911f-1c09d753172f}" File="ui/common/common_icon_jifs.png" UseOriginSize="True" RelativePosition="0.33,0.5" AbsPosition="79.5,30" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{76987e58-2b9e-41d9-92da-7a891f4c0de5}" Color="255,236,193" EnableStroke="True" FontSize="24" StrokeColor="79,60,48" StrokeSize="4" Text="" Name="" NameCreate="True" TextKey="HALL_MATCH_1" RelativePosition="0.64,0.5" />
+                                </CheckElement>
+                                <CheckElement Type="WZUIContainer" GUID="{a4aa3a50-7857-48b5-bc02-e743c11f2809}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{342a5d2f-c8c2-4822-a1f0-75457af15d20}" File="ui/common/common_btn_biaoqian2_sel.png" />
+                                    <WZUIImage Type="WZUIImage" GUID="{cb044ec7-34bd-4b8f-8337-2b4ae374225e}" File="ui/common/common_icon_jifs.png" UseOriginSize="True" RelativePosition="0.33,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{0223619e-77d4-4d43-aa8c-c3546bb70207}" Color="62,34,8" EnableStroke="False" FontSize="24" StrokeColor="132,66,29" StrokeSize="4" Text="" Name="" NameCreate="True" TextKey="HALL_MATCH_1" RelativePosition="0.64,0.5" />
+                                </CheckElement>
+                            </CheckBox>
+                            <CheckBox Type="WZUICheckBox" GUID="{0492f3e3-8348-4502-949f-c7f31fb8497f}" RelativeSize="0.5,1" AnchorPoint="1,0.5" RelativePosition="1,0.5" SelectedIndex="0" Tag="2" LuaCheckedFunctionName="onSelMatch" Name="checkMatch2_SceneHall">
+                                <CheckElement Type="WZUIContainer" GUID="{af4c130e-f5c5-4e5b-975e-3f57734090c4}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{91521484-a8d2-494f-99e3-282e7eb0d2e5}" File="ui/common/common_btn_biaoqian2.png" Visible="True" />
+                                    <WZUIImage Type="WZUIImage" GUID="{2b83c036-d78c-426e-91da-0a28cab520c0}" File="ui/common/common_icon_lianxs.png" UseOriginSize="True" RelativePosition="0.33,0.5" AbsPosition="79.5,30" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d5b14847-0db9-4602-af91-9d93f20608b7}" Color="255,236,193" EnableStroke="True" FontSize="24" StrokeColor="79,60,48" StrokeSize="4" Text="" Name="" NameCreate="True" TextKey="HALL_MATCH_2" RelativePosition="0.64,0.5" />
+                                </CheckElement>
+                                <CheckElement Type="WZUIContainer" GUID="{9e3f3511-3e23-4601-b17e-943c1a189005}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{ba31ea72-c577-4c89-b29b-4bbd326071a0}" File="ui/common/common_btn_biaoqian2_sel.png" />
+                                    <WZUIImage Type="WZUIImage" GUID="{6180872f-ed11-4b7a-9bea-be7771182cc9}" File="ui/common/common_icon_lianxs.png" UseOriginSize="True" RelativePosition="0.33,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{30702955-077d-4681-a8a3-d8254558424b}" Color="62,34,8" EnableStroke="False" FontSize="24" StrokeColor="132,66,29" StrokeSize="4" Text="" Name="" NameCreate="True" TextKey="HALL_MATCH_2" RelativePosition="0.64,0.5" />
+                                </CheckElement>
+                            </CheckBox>
+                        </WZUICheckBoxGroup>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{bd97dfe6-38e7-4311-995e-4a190b62d4a1}" RelativeSize="1,0.905" AnchorPoint="0.5,0" RelativePosition="0.5,0.0" AbsPosition="250,0" AbsContentSize="615,540" UseAbsSize="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{3efaa32c-81e9-4889-b956-7959436ae108}" Visible="True">
+                            <WZUI9Image Type="WZUI9Image" GUID="{260540da-18ee-4410-96cb-5c3b288f9958}" File="ui/common/common_scale9_kuang.png" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{fce0b1c0-78f2-4ac9-8e6f-8e4c5734ec54}" RelativeSize="0.98,0.98">
+                                <WZUI9Image Type="WZUI9Image" GUID="{19386bb2-5212-4059-8dce-bdd80835db34}" File="ui/common/common_scale9_di7.png" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{cc02bfa8-2c7e-40bf-be1f-7825a6b22581}" AbsContentSize="580,432" UseAbsSize="True" RelativePosition="0.5,0.572" AbsPosition="250,280.825" Visible="True">
+                            <WZUI9Image Type="WZUI9Image" GUID="{de3f3c52-2ba2-4b88-9d43-3f5b7acfec4e}" File="ui/common/common_scale9_di4.png" Opacity="255" />
+                            <WZUITableContainer Type="WZUITableContainer" GUID="{dc38e838-1eb5-413f-981e-2bc1f186c93b}" Name="tabRoomList_SceneHall" NameCreate="True" CellElementHeight="0.28" EnableMoveHorizontal="False" RelativeSize="0.96,0.92" RelativePosition="0.5,0.505" AbsPosition="236,194.767" TopElementFunction="onPageTop" BottomElementFunction="onPageBottom" VisibleHeight="30" UseAbsSize="True" AbsContentSize="570,410" ColumnCount="2" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d79e525b-b3bd-47aa-9af9-2cbbbfc0e930}" Name="ttfRoomCnt_SceneHall" Text="" FontSize="20" Color="195,171,148" RelativePosition="0.887749,0.0344749" AbsPosition="419.018,12.9626" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{ae59487a-517b-41e5-a675-9e713a559187}" AbsContentSize="192,446" UseAbsSize="True" RelativePosition="0.505282,0.526563">
+                    <Button Type="WZUIButton" GUID="{6f3a4327-9a65-4dca-8b2d-d4c77868d96c}" Tag="1" LuaActionName="Normal" LuaDoneFunctionName="onCreateRoomOK" Name="btnCreate_SceneHall">
+                        <NormalElement Type="WZUIContainer" GUID="{32a644ce-36b2-44a8-98f0-b3de973c0b70}">
+                            <WZUIImage Type="WZUIImage" GUID="{b3b707d2-64ca-4c56-ae02-0173a129e535}" File="ui/pvp/common_jjdt_01.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4d9cb9d2-d682-4abd-b327-e7c113d193c2}" RelativePosition="0.5,0.13" Text="1V1" FontSize="22" StrokeColor="163,74,20" StrokeSize="4" EnableStroke="True" Color="255,250,236" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d3cf6222-1ac4-4312-b95e-ad59b208a86b}" RelativePosition="0.5,0.07" Text="" FontSize="18" Color="195,171,148" StrokeColor="164,74,21" StrokeSize="4" EnableStroke="False" TextKey="PVP_HALL_1V1" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{f88a9e43-7f00-45ad-985b-d56e4298ab4f}">
+                            <WZUIImage Type="WZUIImage" GUID="{ea380d60-d7a1-40ee-9582-2a1daad9d43c}" File="ui/pvp/common_jjdt_01.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{2c56deb1-2850-497d-9ee1-7927c0a0d975}" RelativePosition="0.5,0.13" Text="1V1" FontSize="22" StrokeColor="163,74,20" StrokeSize="4" EnableStroke="True" Color="255,250,236" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{2f6d8628-bdd7-4bf9-b524-ea5403fee08e}" RelativePosition="0.5,0.07" Text="" FontSize="18" Color="195,171,148" StrokeColor="164,74,21" StrokeSize="4" EnableStroke="False" TextKey="PVP_HALL_1V1" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{85866fb2-e8d9-4de3-80c7-b790197348e5}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{10cd4dc9-345e-4ce6-9006-42cf31eb62fa}" AbsContentSize="192,446" UseAbsSize="True" RelativePosition="0.681338,0.526563">
+                    <Button Type="WZUIButton" GUID="{eee283dc-6920-4ab1-a264-7e7683f440f5}" Tag="2" LuaActionName="Normal" LuaDoneFunctionName="onCreateRoomOK">
+                        <NormalElement Type="WZUIContainer" GUID="{059971a9-10f8-4aca-bef1-da3091ec52cb}">
+                            <WZUIImage Type="WZUIImage" GUID="{5ea15d64-ab06-4dcf-a2f8-3dccf02bacf9}" File="ui/pvp/common_jjdt_02.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c8a1b4ae-7361-46e7-bed8-f0de6d8ec201}" RelativePosition="0.5,0.13" Text="2V2" FontSize="22" StrokeColor="184,0,191" StrokeSize="4" EnableStroke="True" Color="255,250,236" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ef4f347c-135c-4126-a22f-40f6b108a57f}" RelativePosition="0.5,0.07" Text="" FontSize="18" Color="195,171,148" StrokeColor="184,0,190" StrokeSize="4" EnableStroke="False" TextKey="PVP_HALL_2V2" Name="txtTow1_SceneHanll" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{ad6a4978-44fd-42c9-a19b-f434f72ed7ad}">
+                            <WZUIImage Type="WZUIImage" GUID="{da151ff2-67e1-4b3a-907d-c2d1fe675271}" File="ui/pvp/common_jjdt_02.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{19a67ef6-579b-4abf-8b13-a35763f589b6}" RelativePosition="0.5,0.13" Text="2V2" FontSize="22" StrokeColor="184,0,191" StrokeSize="4" EnableStroke="True" Color="255,250,236" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4751bdd8-97e1-43e2-9c9f-52add69e8833}" RelativePosition="0.5,0.07" Text="" FontSize="18" Color="195,171,148" StrokeColor="184,0,190" StrokeSize="4" EnableStroke="False" TextKey="PVP_HALL_2V2" Name="txtTow2_SceneHanll" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{2f33c824-2f22-4936-8a96-7d017a65f36d}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{19bb74d5-92c7-412c-8a4b-e48a3f20a157}" AbsContentSize="192,446" UseAbsSize="True" RelativePosition="0.857394,0.526563" Visible="True">
+                    <Button Type="WZUIButton" GUID="{51e8914c-10f1-44cc-9f48-d830bbe0815e}" Tag="3" LuaActionName="Normal" LuaDoneFunctionName="onCreateRoomOK">
+                        <NormalElement Type="WZUIContainer" GUID="{15a5ca1f-1db6-4351-81c4-b08cb655a7ab}">
+                            <WZUIImage Type="WZUIImage" GUID="{5e1f09a0-c162-4409-ab2e-fc5fc899d4d3}" File="ui/pvp/common_jjdt_03.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f0468500-720f-46ef-bc54-471c2bdd67ed}" RelativePosition="0.5,0.13" Text="3V3" FontSize="22" StrokeColor="0,112,202" StrokeSize="4" EnableStroke="True" Color="255,250,236" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e3881aa8-bb65-4269-b199-a0c6184c2348}" RelativePosition="0.5,0.07" Text="" FontSize="18" Color="195,171,148" StrokeColor="93,222,254" StrokeSize="4" EnableStroke="False" TextKey="PVP_HALL_3V3" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{dc60073f-6cc8-4534-a9d5-af1af393a77c}">
+                            <WZUIImage Type="WZUIImage" GUID="{62860e62-d564-4df7-b525-171a35cae3f0}" File="ui/pvp/common_jjdt_03.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{1e91686c-25a1-45de-a107-08a26a98bf8b}" RelativePosition="0.5,0.13" Text="3V3" FontSize="22" StrokeColor="0,112,202" StrokeSize="4" EnableStroke="True" Color="255,250,236" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bd8ee351-34b6-4461-b790-d7d3c0bad3b0}" RelativePosition="0.5,0.07" Text="" FontSize="18" Color="195,171,148" StrokeColor="93,222,254" StrokeSize="4" EnableStroke="False" TextKey="PVP_HALL_3V3" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{b28451db-b7b0-4cf5-9a85-dbddfa11d49c}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIButton AbsContentSize="152,68" GUID="{75e51de5-4195-48a7-8027-7feea7bcadaf}" LuaDoneFunctionName="onSearchButtonClick" RelativePosition="0.54,0.07" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" LuaActionName="" AbsPosition="89,37.1">
+                    <NormalElement GUID="{7084fb69-cfe1-418c-8653-70ff5de71716}" Type="WZUIContainer">
+                        <WZUIImage Type="WZUIImage" GUID="{b885b0ca-c511-45e0-be6a-84dc0136905c}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9564e5f5-2e79-4e0f-954f-0807048769be}" Name="txtFindRoom1_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="FIND_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" Text="" />
+                    </NormalElement>
+                    <SelectElement GUID="{0f8ba4bd-1efd-405a-b4b3-24112e5df0cb}" Type="WZUIContainer" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{2fb15797-1a0e-4c6e-95a0-9587d07b7e5f}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a2cc2fd2-85db-46e7-9f30-91f4c2670696}" Name="txtFindRoom2_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="FIND_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                    </SelectElement>
+                    <DisableElement GUID="{57d53247-2820-470e-a4a0-cc51a4c6b45c}" Type="WZUIContainer" UseAbsSize="False" />
+                </WZUIButton>
+                <WZUIButton AbsContentSize="152,68" GUID="{525e6276-2776-4280-9170-23aea1b47743}" LuaDoneFunctionName="onQuickJoin" RelativePosition="0.69,0.07" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" Name="" LuaActionName="" AbsPosition="237,37.1" Visible="True">
+                    <NormalElement GUID="{04eb089e-bf37-47cd-9ca2-ab7004c9004d}" Type="WZUIContainer">
+                        <WZUIImage Type="WZUIImage" GUID="{4ec85750-6c61-49bb-af65-b0ba1b75aefd}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c7678037-fdd2-4aab-91e9-18205b924bb9}" Name="txtFindRoom3_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="QUICK_JOIN" EnableStroke="True" StrokeColor="0,109,4" StrokeSize="4" LabelStyleKey="" />
+                    </NormalElement>
+                    <SelectElement GUID="{ee23cd1e-a4eb-44b6-8963-5913a2a704c0}" Type="WZUIContainer" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{1f918e81-42f4-4a38-a93a-c2381dd2fe1c}" File="ui/common/common_btn_02.png" UseOriginSize="True" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{815982d0-42c4-4454-8b36-2d788cd4ec4f}" Name="txtFindRoom4_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="QUICK_JOIN" EnableStroke="True" StrokeColor="0,109,4" StrokeSize="4" LabelStyleKey="" />
+                    </SelectElement>
+                    <DisableElement GUID="{c96d8a5a-689b-4dbb-9182-2e3767681836}" Type="WZUIContainer" UseAbsSize="False" />
+                </WZUIButton>
+                <WZUIButton AbsContentSize="152,68" GUID="{a7c9150d-ef99-4442-b671-54bc2240a94f}" LuaDoneFunctionName="onFastGameButtonClick" RelativePosition="0.84,0.07" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" LuaActionName="" AbsPosition="405,37.1">
+                    <NormalElement GUID="{0c04a64a-a9c6-4c80-9b3d-85d3050c37a7}" Type="WZUIContainer">
+                        <WZUIImage Type="WZUIImage" GUID="{5046a827-4248-4994-9a24-ef4fe1f53c0a}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement GUID="{6c438828-1d88-4515-8eef-456d75f7f547}" Type="WZUIContainer" ScaleX="" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{7ba5cb5c-632e-4388-868a-f7c0ecd0feef}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement GUID="{7962b4c7-8777-4457-b4f6-61ab873a2725}" Type="WZUIContainer" UseAbsSize="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{37b39f2d-1b5c-49a6-9cc6-83117835c9df}" Name="txtQuickBtnDesc_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="" EnableStroke="True" StrokeColor="0,109,4" StrokeSize="4" LabelStyleKey="" />
+                </WZUIButton>
+                <WZUIButton AbsContentSize="152,68" GUID="{6e84f684-6038-435a-82dd-e13fa347970c}" LuaDoneFunctionName="onCreateRoomOK" RelativePosition="0.69,0.07" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" Name="" LuaActionName="" AbsPosition="237,37.1" Visible="False">
+                    <NormalElement GUID="{1fcd9365-319b-4f54-8ec4-15fef3770202}" Type="WZUIContainer">
+                        <WZUIImage Type="WZUIImage" GUID="{bb0e0c52-7a38-4e9d-9db3-0acaa60c1d3b}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a787b106-9b53-46db-b15c-f1c1535a95de}" Name="txtCreateRoom1_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="CREATE_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                    </NormalElement>
+                    <SelectElement GUID="{a4edad81-3f7e-4a3e-825f-6ccf6aa05ff8}" Type="WZUIContainer" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{3e70d623-7514-48de-8bad-0c7ea3588522}" File="ui/common/common_btn_01.png" UseOriginSize="True" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{af80befe-6451-4c6d-a2e0-45996db489ba}" Name="txtCreateRoom2_SceneHall" NameCreate="True" FontSize="26" Color="255,250,236" BoldFont="True" TextKey="CREATE_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                    </SelectElement>
+                    <DisableElement GUID="{38ad97d5-ae4e-4b3a-817a-005eba5171d1}" Type="WZUIContainer" UseAbsSize="False" />
+                </WZUIButton>
+                <WZUIContainer Type="WZUIContainer" GUID="{ef5be09a-fb6e-40b7-becc-0672744a2ce8}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.971833,0.0467508" AnchorPoint="0.5,0.5" Name="conCheckDesc_SceneHall">
+                    <Button Type="WZUIButton" LuaDoneFunctionName="onCheckDesc" GUID="{4c60bc70-ff61-47c3-ac18-22f952e7aa32}">
+                        <NormalElement Type="WZUIContainer" GUID="{6b58213f-55aa-45cc-ad11-b7f5e6055c44}">
+                            <WZUIImage Type="WZUIImage" GUID="{b5288513-2f14-4d4e-95f5-1a135f193cf6}" File="ui/common/common_icon_bz.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{451c99a8-47af-4374-bc8b-41cc0f0b5808}">
+                            <WZUIImage Type="WZUIImage" GUID="{055b7981-fa73-4d5b-b7ef-33f673ce6563}" File="ui/common/common_icon_bz.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{ea08dedf-efc7-46f6-a988-b5d00123528c}" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{6783d085-5196-42fa-ad92-9eb513ba4ae8}" Name="conMark_SceneHall" Visible="False" ShowAll="False" Order="10" RelativePosition="0.5,0.5">
+            <WZUIImage Type="WZUIImage" GUID="{b3534517-bde5-43e4-a1e8-e7508ba410ae}" File="ui/common/common_black_bg.png" Visible="True" Scale="3" Opacity="150" />
+            <WZUIContainer Type="WZUIContainer" GUID="{ec618445-6f07-4808-8530-4d070ffa3ca8}" Name="" Order="600" Visible="True" TouchContainerEnable="True" AbsContentSize="355,405" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{dcd201b9-b6bd-4d37-8b38-080cf66a7ad0}" AbsContentSize="355,405" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d1e64231-5592-41a4-b6df-396e720c115c}" File="ui/common/common_scale9_di19.png" CapInsets="60,110,10,10" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{608fd0fd-f7b6-4177-b1dd-04e3c37b4fad}" TextKey="HALL_DESC1" LabelStyleKey="C1_F24_S4_C3" RelativePosition="0.5,0.956543" AbsPosition="177.5,387.4" Dimensions="0,0" Alignment="Center" AnchorPoint="0.5,1" Text="" Name="" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{6b5217f5-49cc-49e3-ba78-7e4edf849858}" Name="" Visible="True" ShowAll="False" Order="0" RelativePosition="0.5,0.5">
+                    <WZUILabelAtlasFont CharMapFileName="ui/common_num/battle_num_timeshuzi2.png" Color="255,255,255" GUID="{c21ddc25-bca5-4771-8b76-6d0ab4a38303}" Height="116" Name="lafTime_SceneHall" Order="501" RelativePosition="0.5,0.639753" Text="1" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="85.6" GrayRender="False" IsOpacityModifyRGB="False" Scale="1" StartChar="48" AbsPosition="177.5,259.1" ScaleX="1" ScaleY="1" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{3a381fd8-3421-488c-92a8-691bad7306dd}" AbsContentSize="345,95" UseAbsSize="True" RelativePosition="0.5,0.32">
+                        <WZUI9Image Type="WZUI9Image" GUID="{b8917deb-02fa-4960-9278-16873a9f3130}" File="ui/common/common_scale9_di20.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c39e539f-60b4-49b0-88c8-e59fd09e6236}" TextKey="" LabelStyleKey="C2_F22" RelativePosition="0.0393478,0.955789" AbsPosition="13.575,90.8" Dimensions="315,0" Alignment="Left" AnchorPoint="0,1" Text="" Name="ttfMatchDesc_SceneHall" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{24b02f42-1e5d-4de2-9f9f-4f9d89577883}" RelativePosition="0.5,0.105864" LuaDoneFunctionName="onCancelFight" Name="btnCancel" AbsContentSize="110,60" UseAbsSize="True" AbsPosition="177.5,42.8749">
+                    <NormalElement Type="WZUIContainer" GUID="{f45e0669-47ea-43b2-950c-713f2e08d820}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{6b3ecaac-19c7-4def-8d19-9e256fdf3930}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{493f42b8-bd10-4bbe-ba56-355b42f6173c}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{3df3edd6-ee42-4114-b2a3-77da4c1e99a3}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{0f7851cf-c9c4-4e26-b750-66b06131e8fd}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{93acbc74-10b8-4bd7-9220-a88c840c821f}" TextKey="CANCEL" LabelStyleKey="SMALL_ORANGE_BTN" RelativePosition="0.5,0.5" AbsPosition="480,223" />
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0d4974ae-9b83-49e0-9a70-4867a9a9ad5f}" FontSize="20" Color="127,70,26" Text="" RelativePosition="0.5,0.816" AbsPosition="148.5,-16" Name="txtTimeLong_SceneHall" TextKey="MATCHES_TIMEOUT2" Visible="False" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{d41292e0-7b7e-47d4-9d1e-d8a1f073c1d0}" Order="10" ShowAll="True" Name="conTips_SceneHall" />
+    </WZUIFrame>
+</SceneHall>

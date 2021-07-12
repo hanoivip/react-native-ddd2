@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" ?>
+<CellPetList GUID="{4E9FA037-1829-48bf-8A66-247C77B363C8}">
+    <WZUIContainer AbsContentSize="398,94" GUID="{F9850301-C41C-4cfc-AFAA-E400CEB5F058}" LuaObjectName="" Name="CellPetList" NameCreate="True" Type="WZUIContainer" UseAbsSize="True" RelativePosition="0.5,0.5">
+        <Button Type="WZUIButton" LuaDoneFunctionName="onSiClick" GUID="{8373D3D1-2C3B-4691-BA7C-FA335EF4BE40}" AbsContentSize="398,94" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{BFD8CE86-08A1-403d-B26A-399110C82410}" File="ui/common/frame_lieb.png" Name="imgBg1_CellPetList" Visible="True" />
+            <NormalElement Type="WZUIContainer" GUID="{CEF9383B-32DB-457f-9F49-DA58932AA1A6}" />
+            <SelectElement Type="WZUIContainer" GUID="{674F795A-F027-4930-A21C-C90BA78D4220}" />
+            <DisableElement Type="WZUIContainer" GUID="{FC68C17F-B3F3-457a-A611-50E73D605C22}" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{C398148A-0FF9-46bf-8F4F-F7D40B516F56}" AbsContentSize="160,40" UseAbsSize="True" RelativePosition="0.256237,0.26293" TouchEnable="False" AnchorPoint="0,0.5">
+            <WZUIImage Type="WZUIImage" GUID="{EF468637-5A5C-4a71-B055-4863ADD7F25F}" Name="imgAptitude1_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.06,0.5" Scale="0.8" />
+            <WZUIImage Type="WZUIImage" GUID="{D75C989D-80AF-4034-9C46-97485CD6A262}" Name="imgAptitude2_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.24,0.5" Scale="0.8" />
+            <WZUIImage Type="WZUIImage" GUID="{22DFF725-9D7C-4479-8934-EC50C2C125C7}" Name="imgAptitude3_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.42,0.5" Scale="0.8" />
+            <WZUIImage Type="WZUIImage" GUID="{327DEACD-BE22-4261-B5BA-78F5CBAF982F}" Name="imgAptitude4_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.6,0.5" Scale="0.8" />
+            <WZUIImage Type="WZUIImage" GUID="{BA3CF70D-0889-45d1-B392-68A87EBF6AF5}" Name="imgAptitude5_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.78,0.5" Scale="0.8" />
+            <WZUIImage Type="WZUIImage" GUID="{106e610e-077d-4e2f-8a7d-63cf713f88df}" Name="imgAptitude6_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.96,0.5" Scale="0.8" />
+            <WZUIImage Type="WZUIImage" GUID="{8cbd5a5a-7c4f-4ccd-8527-a297f34fa691}" Name="imgAptitude7_CellPetList" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="1.14,0.5" Scale="0.8" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{E9A757E3-D935-4faf-858C-227B3FAA3834}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.120506,0.5" TouchEnable="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{d7062a88-e261-4db1-9206-431eabe48a74}" File="ui/common/frame_13.png" />
+            <WZUIImage File="" GUID="{543a60d0-1014-4ecd-b790-1df388b9aef5}" Name="imgIconBg_CellPetList" RelativePosition="0.5,0.5" Scale="1" TouchEnable="False" Type="WZUIImage" UseOriginSize="True" Visible="True" AbsPosition="40,40" ScaleX="1" ScaleY="1" />
+            <WZUIImage Type="WZUIImage" GUID="{1b8476d7-3fef-4777-8fd7-6891369df2b8}" Name="imgIconBgQuality_CellPetList" Visible="True" />
+        </WZUIContainer>
+        <WZUILabelTTF AnchorPoint="1,0.5" Color="138,122,106" FontSize="20" GUID="{C54C5B81-F292-442e-860F-0F4524AA138F}" MaxLength="" Name="txtNum_CellPetList" RelativePosition="0.788486,0.271187" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Left" Visible="True" />
+        <WZUIContainer Type="WZUIContainer" GUID="{C94DF147-2853-45f3-B833-77E77E50880D}" AbsContentSize="212,36" UseAbsSize="True" RelativePosition="0.24928,0.688889" TouchEnable="False" AnchorPoint="0,0.5">
+            <WZUI9Image Type="WZUI9Image" GUID="{A0815941-B531-4a7c-A2A2-B7126E9BC91F}" File="ui/common/frame_17.png" />
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{B70B0D3E-5639-4c24-8AEF-D39386C4266E}" Name="txtName_CellPetList" AnchorPoint="0,0.5" RelativePosition="-0.01,0.5" MaxWidth="360" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{23E36F72-2B79-46d6-85B9-AF1971E0B61C}" AbsContentSize="46,54" UseAbsSize="True" RelativePosition="0.741282,0.376718" TouchEnable="False">
+            <WZUIImage Type="WZUIImage" GUID="{873534BD-5C6F-40d6-9A16-9B8D0538DE71}" Name="imgWar_CellPetList" Visible="True" File="ui/pet/commom_text_cz.png" UseOriginSize="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{070A8325-8E67-4e02-A1CB-DE7E2F781937}" Scale="1" RelativePosition="0.5,0.5" Name="conSel_CellPetList" Visible="False" ScaleX="1" ScaleY="1" AbsContentSize="402,98" UseAbsSize="True" TouchEnable="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{5C60D629-78AA-46bf-8B47-9B99E535409F}" File="ui/common/frame_xz.png" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{EBBCE293-F11C-49c5-B6E5-BDA60A14413F}" Name="conWar_CellPetList" AbsContentSize="70,40" UseAbsSize="True" RelativePosition="0.886546,0.685065">
+            <Button Type="WZUIButton" LuaDoneFunctionName="onFighting" GUID="{82B31A10-2337-470e-913A-C1C1C68323A5}" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{FA890FB6-B7A9-4f81-A9F3-A8D05B1D7833}">
+                    <WZUIImage Type="WZUIImage" GUID="{64CED300-8D1E-46eb-BF60-20B5E3BF8B9E}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Scale="1" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{170A1172-E8DB-4a77-B778-8EA1C30375E0}">
+                    <WZUIImage Type="WZUIImage" GUID="{9FC26C9D-27C7-4e5b-B07B-79BB3934BDD1}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Scale="1" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{97D79514-C848-4ca2-94B7-A1FCAAED7D15}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2CD26C5B-BF4A-4373-ADE5-F2008BE5FF54}" Color="255,255,255" FontSize="20" TextKey="" Text="" Name="txtWarState_CellPetList" StrokeColor="163,73,20" StrokeSize="4" EnableStroke="True" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellPetList>

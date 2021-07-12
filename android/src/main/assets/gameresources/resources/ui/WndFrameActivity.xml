@@ -1,0 +1,23 @@
+﻿<WndFrameActivity GUID="{1d7299e7-e3b8-431e-aa7b-93e5416e095f}">
+    <WZUIWindow Type="WZUIWindow" GUID="{76720fe9-d5ef-490e-a5c9-195b3fe8262c}" AbsContentSize="1136,640" LuaObjectName="WndFrameActivity" Name="WndFrameActivity" NameCreate="True" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{2db8afd5-44f2-4a1f-96f7-0ca1f12e9c48}" AbsContentSize="960,586" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False" Visible="True">
+            <WZUIImage Type="WZUIImage" GUID="{557c6612-ad51-4f37-9d95-8446d164f79c}" File="ui/gameActivity/hd_pic_di.png" UseOriginSize="True" RelativePosition="0.5,0" ScaleX="1" Scale="1" Order="-1" Visible="True" AnchorPoint="0.5,0" />
+            <WZUIImage Type="WZUIImage" GUID="{c189ed3a-a4df-47a0-a036-8f53cd93f47f}" File="ui/gameActivity/hd_text_03.png" UseOriginSize="True" RelativePosition="0.5,0.93" Visible="True" Scale="1" Name="imgTitle_WndFrameActivity" />
+            <WZUIContainer Type="WZUIContainer" GUID="{32572645-fc7c-4584-9856-40ad4411d0d0}" AbsContentSize="960,490" UseAbsSize="True" RelativePosition="0.5,0" Order="0" Visible="True" Name="conActivityC_WndFrameActivity" AnchorPoint="0.5,0" />
+            <WZUIContainer Type="WZUIContainer" GUID="{d3311df5-2454-47f2-b263-ce543a7345d4}" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.951042,0.883694">
+                <Button Type="WZUIButton" RelativePosition="0.5,0.5" AbsContentSize="70,70" UseAbsSize="True" GUID="{d6e00ff4-6caf-49a5-af79-cdd0749b7b5d}" LuaDoneFunctionName="onCloseClick" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{b561877a-2710-470a-a9d3-13a46cbb9f8b}" />
+                    <SelectElement Type="WZUIContainer" GUID="{2f7bd659-6442-4b7a-bb9e-469d85b95574}" />
+                    <DisableElement Type="WZUIContainer" GUID="{53f4344d-daf9-4500-81e6-09862dd2fdfb}" />
+                    <WZUIImage Type="WZUIImage" GUID="{9c2c5bbd-4b94-44db-883e-ebe7982130b0}" File="ui/gameActivity/twoyear/anniversary_button_002.png" UseOriginSize="True" />
+                </Button>
+            </WZUIContainer>
+            <WZUIButton Type="WZUIButton" AbsContentSize="60,60" UseAbsSize="True" LuaDoneFunctionName="onRuleClick" GUID="{13b21b24-11bc-44af-bb6c-64e8d99f1a85}" RelativePosition="0.84,0.88" AnchorPoint="0.5,0.5" AbsPosition="797.973,21.0118" Name="btnTip_WndFrameActivity" Visible="True" Scale="1" LuaActionName="Normal" LocalInterval="300">
+                <NormalElement Type="WZUIContainer" GUID="{f5163db1-9a98-4493-8114-fdae63c9c134}" />
+                <SelectElement Type="WZUIContainer" GUID="{2f522d09-605c-466d-9f04-99d259c05103}" />
+                <DisableElement Type="WZUIContainer" GUID="{6d52d7ba-1a8f-4462-bba8-ba125a0737f6}" />
+                <WZUIImage Type="WZUIImage" GUID="{c2562ce4-dd62-4072-af65-07e77bc8d441}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+            </WZUIButton>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndFrameActivity>

@@ -1,0 +1,27 @@
+﻿<WndHurtRankTip GUID="{59e22ced-8d00-42e3-8f9a-2e987bef1f11}">
+    <WZUIWindow Type="WZUIWindow" GUID="{f907727d-8d19-4081-9b5f-94c213166add}" LuaObjectName="WndHurtRankTip" Name="WndHurtRankTip" NameCreate="True">
+        <Button Type="WZUIButton" GUID="{618547d6-ab20-4070-9d41-f0989f2efde7}" LuaDoneFunctionName="onCloseWin">
+            <NormalElement Type="WZUIContainer" GUID="{7ddcdc2e-84e5-416d-97d0-3fc75c8be484}" />
+            <SelectElement Type="WZUIContainer" GUID="{f77f6f13-12ec-40b0-ab1a-8739b05f27ef}" />
+            <DisableElement Type="WZUIContainer" GUID="{19294f0e-ae22-459e-8fe6-6c5756c10232}" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{990d95fd-c540-42a1-8e83-f61672c89ffe}" AbsContentSize="490,518" UseAbsSize="True" ShowAll="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{57e3c98c-468f-4024-a99d-b852f168b671}" File="ui/common/common_scale9_di24.png" Opacity="225" />
+            <WZUIContainer Type="WZUIContainer" GUID="{c5c3600d-9bfa-4791-bb8b-f69683331c18}" AbsContentSize="482,48" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.992278">
+                <WZUI9Image Type="WZUI9Image" GUID="{6b715a81-9fba-491c-b26c-159890e504bf}" File="ui/common/common_biaotidi_01.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{10ca9f4d-abe1-4fe9-9169-158b261e1a44}" LabelStyleKey="C1_F20" TextKey="RANK" RelativePosition="0.09,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{91ea4007-14b1-4775-bf95-94dc2c903bb8}" LabelStyleKey="C1_F20" TextKey="PLAYER" RelativePosition="0.45,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{92b6e9f9-ce7e-4933-b466-4343759d2de5}" LabelStyleKey="C1_F20" TextKey="SETTLMENT_DAMAGE" RelativePosition="0.83,0.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{e0794a67-7f23-4ba2-a2a7-854739bdd8c1}" AbsContentSize="480,460" UseAbsSize="True" RelativePosition="0.5,0.457529" Name="conHurtList_WndHurtRankTip">
+                <WZUITableContainer Type="WZUITableContainer" GUID="{f2a62cba-1668-43ff-a391-14babff8935f}" EnableMoveHorizontal="False" CellElementHeight="0.18" Name="tbRankList_WndHurtRankTip" RelativeSize="1,0.965" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{2a631812-aec3-4961-9992-53502c13cd79}" AbsContentSize="90,36" UseAbsSize="True" LuaDoneFunctionName="onCloseWin" AnchorPoint="0.5,1" RelativePosition="0.5,0.003861">
+                <NormalElement Type="WZUIContainer" GUID="{f011204b-377e-4416-a492-f71a7e5ee984}" />
+                <SelectElement Type="WZUIContainer" GUID="{edac4902-0507-4b2e-8821-c9c81544b2c7}" />
+                <DisableElement Type="WZUIContainer" GUID="{bd3e8987-103b-41dd-a7d8-23fb580ba84b}" />
+                <WZUIImage Type="WZUIImage" GUID="{1627e22f-81ba-4994-b3b7-442047d9fff2}" File="ui/common/common_btn_liebiao_02.png" UseOriginSize="True" Rotation="-90" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndHurtRankTip>

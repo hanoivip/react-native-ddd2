@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" ?>
+<WndTowerPreview GUID="{3F586A62-657B-425e-8872-EEF9EEA8A6E7}">
+    <WZUIWindow Type="WZUIWindow" GUID="{41E1B419-0962-4b5e-AB77-39DB47DA423C}" Name="WndTowerPreview" LuaObjectName="WndTowerPreview" Order="0" NameCreate="True" LuaTouchBeganFunction="onTouchBegan" Scale="1" AbsContentSize="776,534" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{BE46603A-A9FA-49fd-A713-2DDCC6720DC3}" UseAbsSize="True" AbsContentSize="760,394" RelativePosition="0.5,0.520585">
+            <WZUITableContainer Type="WZUITableContainer" GUID="{019D9555-0451-4550-B28D-662EFA8C036D}" UseAbsSize="False" AbsContentSize="" RelativePosition="0.498222,0.505094" AnchorPoint="0.5,0.5" Name="tbconList_WndTowerPreview" EnableMoveHorizontal="False" CellElementHeight="0.3" EnableHideUnvisible="True" RelativeSize="0.95,0.92" ColumnCount="1" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{4D03EF97-183A-484b-8D5F-C8C50D4799A2}" AbsContentSize="480,70" UseAbsSize="True" RelativePosition="0.5,0.0183626" AnchorPoint="0.5,0">
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{547C285A-CAA8-44e3-96DC-ABC2BB52630B}" Name="txtAwardDesc_WndTowerPreview" ShowText="" MaxWidth="480" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndTowerPreview>

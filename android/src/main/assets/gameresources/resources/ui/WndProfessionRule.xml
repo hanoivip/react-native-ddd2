@@ -1,0 +1,72 @@
+﻿<WndProfessionRule GUID="{83fe6dda-a599-4e0d-97f4-f99d4f40f045}">
+    <WZUIWindow AbsContentSize="390,320" AbsPosition="0,0" GUID="{ad26f39b-9971-4b0c-abdc-d3b83d99c8ef}" LuaObjectName="WndProfessionRule" LuaTouchBeganFunction="onTouchBegan" Name="WndProfessionRule" NameCreate="True" RelativePosition="0.5,0.5" ShowAll="True" Type="WZUIWindow" UseAbsCoordinate="False" UseAbsSize="True" Visible="True" Order="">
+        <WZUIContainer Type="WZUIContainer" GUID="{e75a2f82-1cab-47f1-8741-afb4306ad8c8}" AbsContentSize="390,320" UseAbsSize="True" RelativePosition="0.5,0.5">
+            <WZUI9Image Type="WZUI9Image" GUID="{104ca7a5-5153-4114-9951-237aee4e9133}" File="ui/common/common_scale9_di19.png" CapInsets="60,110,10,10" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{40f94e1e-d42f-42c0-a664-fba7dc87ae24}" FontSize="24" Color="255,236,193" BoldFont="True" EnableStroke="True" RelativePosition="0.5,0.900625" StrokeSize="4" StrokeColor="132,66,29" Text="" Name="txtTitle_WndProfessionRule" TextKey="" AbsPosition="192.5,288" />
+            <Button Type="WZUIButton" GUID="{4380d42b-c028-4338-8d5d-4da1fceef2cc}" RelativePosition="0.920768,0.896329" LuaDoneFunctionName="onCloseClick" LuaActionName="Normal" AbsContentSize="60,60" UseAbsSize="True">
+                <NormalElement Type="WZUIContainer" GUID="{fe816fca-2d72-4e6c-9c7f-ad005916fcfa}">
+                    <WZUIImage Type="WZUIImage" GUID="{d135ea68-b81e-4e67-8e19-4685a5c1803b}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{2b050d55-42a0-4395-b1ab-b1fea0c776f3}">
+                    <WZUIImage Type="WZUIImage" GUID="{0b232148-7a9a-472b-a30c-98df2426f3af}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{c40dbe13-e51b-48c7-bc7d-48f08cc6e11b}" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{36b49520-187f-4fe5-a230-ba02381ed9e1}" AbsContentSize="390,320" UseAbsSize="False" RelativePosition="0.497917,0.492188" ShowAll="False" AbsPosition="478,315" Visible="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{c4f78b10-aadc-4fa2-b93d-bf4cf9f8d6d6}" AbsContentSize="376,170" UseAbsSize="True" RelativePosition="0.502564,0.560343">
+                <WZUI9Image Type="WZUI9Image" GUID="{ff714b44-aeb1-429b-b892-c877b08f5778}" File="ui/common/common_scale9_di20.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{d224f811-6c50-4f02-993f-4d7bfb1b4fc2}" RelativePosition="0.502564,0.560343" RelativeSize="1,1" Visible="True" Name="conMid_WndProfessionRule" AbsContentSize="350,150" UseAbsSize="True">
+                <WZUIScrollContainer EnableHorizontalScroll="False" EnableMoveHorizontal="False" EnableVerticalScroll="True" GUID="{b8ae2917-0088-4f3f-8d93-a70da568208b}" Name="rollconExplanation_WndProfessionRule" ScrollPictureDown="" ScrollPictureMid="" ScrollPictureTop="" Type="WZUIScrollContainer">
+                    <MoveElement GUID="{1361a8fd-6dfc-4fa7-9c3f-404da0f372d0}" Type="WZUIContainer" Visible="True" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+                        <WZUILabelTTF Alignment="Left" AnchorPoint="0,0" Color="62,34,8" Dimensions="385,0" FontSize="22" GUID="{67888269-ad5f-493a-a910-d44921dfa253}" Name="txtDesc_WndProfessionRule" RelativePosition="0,0" Text="Test" Type="WZUILabelTTF" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{6de8c895-04d4-4338-8803-6c04c3f94069}" Name="txtDesc1_WndProfessionRule" MaxWidth="430" AnchorPoint="0,1" RelativePosition="0.015,0" />
+                    </MoveElement>
+                </WZUIScrollContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{2ca87034-0bfe-4b7f-9f70-69572c5beba8}" AbsContentSize="376,170" UseAbsSize="True" RelativePosition="0.502564,0.560343" Name="conPreview_WndProfessionRule">
+                <WZUIContainer Type="WZUIContainer" GUID="{64f6a1bd-4c90-45b5-8a70-bd5ef4b3f6f7}" AbsContentSize="120,120" UseAbsSize="True" RelativePosition="0.25,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{047ab15a-3a9f-42fd-8939-927c216a2fea}" File="ui/profession/zhiye_cike.png" UseOriginSize="True" Name="imgProfession1_WndProfessionRule" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{a17c47ab-e14d-48fb-b66b-a7c05df77d54}" File="ui/profession/jineng_tf_di_xuanzhong.png" Name="img9Sel1_WndProfessionRule" TouchEnable="False" Visible="False" />
+                    <Button Type="WZUIButton" GUID="{637603a3-fc26-4ee4-8df3-6c84041b52c8}" LocalInterval="300" LuaDoneFunctionName="onClickChoose" Tag="1">
+                        <NormalElement Type="WZUIContainer" GUID="{c0e88a09-8128-4311-82c7-2bc0580f9c40}" />
+                        <SelectElement Type="WZUIContainer" GUID="{4e7759b9-66ff-4fca-877d-73569274716c}" />
+                        <DisableElement Type="WZUIContainer" GUID="{1d5cc4a6-10b9-4bde-b46f-6f1250dac768}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{5d6babb2-6ec2-4b59-a353-0db608ab7bd9}" AbsContentSize="120,120" UseAbsSize="True" RelativePosition="0.75,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{dddd914d-df5a-4844-b139-c8d901eae302}" File="ui/profession/zhiye_cike.png" UseOriginSize="True" Name="imgProfession2_WndProfessionRule" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{6886ee8f-1056-444f-a055-7d3cf12e4758}" File="ui/profession/jineng_tf_di_xuanzhong.png" Name="img9Sel2_WndProfessionRule" TouchEnable="False" Visible="False" />
+                    <Button Type="WZUIButton" GUID="{4121b262-a983-41a5-8792-5462c6ad2665}" LocalInterval="300" LuaDoneFunctionName="onClickChoose" Tag="2">
+                        <NormalElement Type="WZUIContainer" GUID="{c224392a-4cba-4f4f-8526-ca059f5ce5e3}" />
+                        <SelectElement Type="WZUIContainer" GUID="{588db891-d965-4440-bb58-003d9b3f9163}" />
+                        <DisableElement Type="WZUIContainer" GUID="{90d3cf54-35b7-40ae-b27a-e670b7faca1c}" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{dd1045eb-d8a4-4a20-8b90-1ea2fce89498}" RelativeSize="1,0.15" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.161875" TouchSwallow="False" Visible="True" AbsPosition="390,474.412" Name="conBottom_WndProfessionRule" UseAbsSize="True" AbsContentSize="380,76">
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,58" Visible="True" UseAbsSize="True" RelativePosition="0.26,0.5" GUID="{95a71755-886d-4ca2-84c7-8e98bebf98c9}" LuaDoneFunctionName="onClickLeft" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{fe36c842-b2af-4b76-a4e0-0c9d85eeff6f}">
+                        <WZUIImage Type="WZUIImage" GUID="{fbc19ffc-460c-427f-ad53-d3530529da37}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" Scale="1" Visible="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{a7b81239-17df-4c8d-8ed1-455dd4a4672a}" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{8050bf85-c093-49e3-ae10-2633057922d9}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" Scale="1.05" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{d45b1d87-d5c2-433e-bfe7-f8eaa07b44e9}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{01a12dee-4ce6-459e-acd2-40f1bdd84c0e}" Name="txtBtnLeft_WndProfessionRule" LabelStyleKey="SMALL_ORANGE_BTN" Text="" Visible="True" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,58" Visible="True" UseAbsSize="True" RelativePosition="0.74,0.5" GUID="{9ab8c73e-8f25-4308-8e45-640c5f5f818c}" LuaDoneFunctionName="onClickRight" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{855f9e2c-c321-4fa2-ae71-d977b53e4146}">
+                        <WZUIImage Type="WZUIImage" GUID="{05fed0f5-6bf3-4a52-badb-09719463f2f4}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" Scale="1" Visible="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{01c8a57f-2298-4e77-8785-5c63d8b3841b}" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{ce62b62c-c4fe-4515-bf39-882ed3e5f2c3}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" Scale="1.05" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{60332e97-1b8a-4367-898a-7675539988ee}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c8f9010c-093c-420b-8f2f-f3c476e74ca2}" Name="txtBtnRight_WndProfessionRule" LabelStyleKey="SMALL_GREEN_BTN" Text="" Visible="True" />
+                </WZUIButton>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndProfessionRule>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" ?>
+<CellMarryLetter GUID="{DD347F04-AD10-4f84-AF76-129BDF6E1048}">
+    <WZUIContainer AbsContentSize="722,75" GUID="{AED3E98D-1066-4f61-A0C1-15DCA5E39327}" Name="CellMarryLetter" NameCreate="True" RelativePosition="0.497815,0.683547" Type="WZUIContainer" UseAbsSize="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{B81FE08D-D3D7-4c6f-9CFD-B091BB85599F}" File="ui/common/common_scale9_di18.png" Scale="1" ScaleY="1.07" TouchEnable="False" />
+        <WZUIContainer Type="WZUIContainer" GUID="{A1E09D3D-CECF-4037-A5FD-B53FE56F503C}" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.0657936,0.480294" Name="conPlayerHead_CellMarryLetter">
+            <WZUIImage Type="WZUIImage" GUID="{A9C29FE1-A0AA-424f-B369-4A90163BF65D}" File="ui/common/common_icon_tx.png" UseOriginSize="True" TouchEnable="False" Visible="True" />
+            <Button Type="WZUIButton" LuaDoneFunctionName="onClickHead" GUID="{E0C09C24-EC1F-4e9a-8C52-783698CBD5BB}">
+                <NormalElement Type="WZUIContainer" GUID="{FFBFEB54-1C58-42c7-98AB-981564F5E662}" />
+                <SelectElement Type="WZUIContainer" GUID="{F9907852-89D1-4e87-8FBA-E2698FFC3984}" />
+                <DisableElement Type="WZUIContainer" GUID="{68F34889-521B-43c8-830C-49AF11456C63}" />
+            </Button>
+        </WZUIContainer>
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{25EE374B-8356-4907-8C7A-47E06FBF903A}" FontSize="22" Color="132,66,29" Text="" RelativePosition="0.123251,0.5" Name="txtPlayerLevel_CellMarryLetter" AnchorPoint="0,0.5" />
+        <WZUIImage Type="WZUIImage" GUID="{a661baac-beb8-440c-aa08-03e3e9941c99}" Name="imgKuafuIcon_CellMarryLetter" File="ui/common/common_icon_kuafu.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0.205,0.5" Visible="False" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{285f95e8-70a3-4ae2-8a5d-044a858624f7}" FontSize="20" Color="62,34,8" Text="" RelativePosition="0.205,0.5" Name="txtPlayerName_CellMarryLetter" AnchorPoint="0,0.5" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{705f4f64-f813-4f47-a93b-468dbc594315}" FontSize="22" Color="105,65,46" Text="" RelativePosition="0.405,0.5" Name="txtMarrayInfo_CellMarryLetter" AnchorPoint="0,0.5" TextKey="" />
+        <WZUIImage Type="WZUIImage" GUID="{35b05279-42a1-499b-992f-c76aec281c30}" File="ui/common/common_icon_aixink.png" UseOriginSize="True" RelativePosition="0.785229,0.757119" TouchEnable="False" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5ee70ddd-a203-44f8-927a-94b5104742db}" FontSize="22" Color="158,139,121" Text="" RelativePosition="0.814799,0.5" Name="txtSendT_CellMarryLetter" AnchorPoint="0,0.5" />
+        <WZUIButton GUID="{0757b09c-923d-4036-a644-8f8982b4ab59}" LuaDoneFunctionName="onBriefClick" Type="WZUIButton" RelativeSize="0.85,1" RelativePosition="0.563712,0.5">
+            <NormalElement GUID="{769eda90-0611-4579-9e09-7ac07cacd18b}" Type="WZUIContainer" />
+            <SelectElement GUID="{9a76f8ff-29fe-455a-bded-521ef824b256}" Type="WZUIContainer" />
+            <DisableElement GUID="{f0019970-6ca7-4494-88fc-ea30cfbdcc71}" Type="WZUIContainer" />
+        </WZUIButton>
+    </WZUIContainer>
+</CellMarryLetter>

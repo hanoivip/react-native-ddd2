@@ -1,0 +1,69 @@
+﻿<CellFootMark GUID="{d3b1ce99-36c4-4c70-b667-d721ee3e826f}">
+    <WZUIContainer Type="WZUIContainer" GUID="{8301482e-714f-4cae-964e-8e7ad3f3112c}" LuaObjectName="" Name="CellFootMark" AbsContentSize="398,94" UseAbsSize="True" RelativePosition="0.5,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{74b3b3fa-7c03-4ca3-a073-7d2c0132e985}" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{4b3bdaea-160f-4cd4-b43d-ffc032099fee}" Visible="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{9f9aec54-1c0d-48f1-8bb0-b36f2a056f7a}" File="ui/common/frame_lieb.png" Name="" Visible="True" />
+                <WZUIContainer Type="WZUIContainer" GUID="{6a29134d-240a-4fac-93e7-130d0152d1b6}" Scale="1" AbsContentSize="402,98" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{cdd7f29a-45b8-4c71-a136-1b0e6958191f}" File="ui/common/frame_xz.png" Scale="1.05" ScaleX="1" Name="imgSel_CellFootMark" RelativePosition="0.5,0.5" ScaleY="1" CapInsets="20,20,4,4" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{2b263856-2642-4b6f-af3d-57b7103aae6c}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.11907,0.49" Name="conImage_CellFootMark" TouchEnable="False" />
+            <WZUIContainer Type="WZUIContainer" GUID="{356b605f-3589-4ace-b808-a5e49c1036fd}" AbsContentSize="212,36" UseAbsSize="True" RelativePosition="0.512563,0.68">
+                <WZUI9Image Type="WZUI9Image" GUID="{bd299b91-4447-40e8-94a9-0b003be1bee7}" File="ui/common/frame_17.png" UseOriginSize="False" UseOriginSizeProportion="False" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{7ec195ff-4a8b-4d01-95c6-003a4bbbc601}" FontSize="24" Name="txtLv_CellFootMark" Text="" RelativePosition="0.0461538,0.5" Alignment="Left" AnchorPoint="0,0.5">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{369578c2-cb0d-4ba9-a0fe-1cf2a75d57ad}" FontSize="22" Name="txtName_CellFootMark" Text="" RelativePosition="1.05,0.5" Alignment="Left" AnchorPoint="0,0.5" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{a8dafe76-ccdb-4f5f-b93a-616acd373f7e}" AbsContentSize="300,40" UseAbsSize="True" RelativePosition="0.605,0.27" TouchEnable="False" AnchorPoint="0.5,0.5" Name="conMountstars_CellFootMark" Visible="False">
+                <WZUIImage Type="WZUIImage" GUID="{96ac540f-6113-4a34-8a6f-34d3067200ec}" Name="imgStar1_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.0422788,0.5" Scale="0.8" GrayRender="False" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{e0d5d220-8549-4117-9b12-80c8dc3fd616}" Name="imgStar2_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.141934,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{340f381c-c4d8-4d98-a8b0-7077feee4441}" Name="imgStar3_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.244138,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{4b4d124e-7921-40a4-8eb8-b80bd1c3fbe9}" Name="imgStar4_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.342893,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{0900d234-387c-4287-86c4-501f31597913}" Name="imgStar5_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.441649,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{9a38b1a9-20c7-4ffe-9616-1d47ae654777}" Name="imgStar6_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.540405,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{e946f856-ecdc-484c-aa04-3bee112ba999}" Name="imgStar7_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.646957,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{cc81376c-8144-4c70-9911-9e84c69cc9d3}" Name="imgStar8_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.745712,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{8a48fd53-09a0-4703-9033-12b8732f6e45}" Name="imgStar9_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.84012,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{2350e5ca-281f-43dd-8ea2-a257ae9940fa}" Name="imgStar10_CellFootMark" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.938875,0.5" Scale="0.8" AnchorPoint="0.5,0.5" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{85b69cca-2afd-43c1-8ab8-9c2eaf2c52f3}" Name="txtLock_CellFootMark" Text="" FontSize="22" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="0.250729,0.27" />
+            <WZUIContainer Type="WZUIContainer" GUID="{9d96c1bb-da25-4de8-9987-05fb4c3ac316}">
+                <Button Type="WZUIButton" LuaDoneFunctionName="onSelect" GUID="{a7ce012f-208f-4010-bb5e-2eee6c266c94}">
+                    <NormalElement Type="WZUIContainer" GUID="{09ad1f73-c9a3-4757-adb5-f68b0f257847}" />
+                    <SelectElement Type="WZUIContainer" GUID="{61bc147b-9828-492b-94c1-5befbb4c0c5a}" />
+                    <DisableElement Type="WZUIContainer" GUID="{e3132f21-570a-46a8-8c91-ba31a5d3a3f0}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{36e592d4-c686-4f53-a024-1197e30aff0c}" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.886646,0.5">
+                <WZUIContainer Type="WZUIContainer" GUID="{d66c67cb-b3f9-4ff3-8fb5-b5afbfeb5aca}" Name="conState1_CellFootMark" TouchEnable="True" RelativePosition="0.5,0.74">
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onDown" GUID="{4f2ddc64-57cb-4200-8314-2484290cd8f6}" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{5190166c-32d6-467a-92aa-348a797ace5b}">
+                            <WZUIImage Type="WZUIImage" GUID="{ddb4b150-a2d0-4859-9a70-f974bdc94c8a}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Scale="1" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{9416216b-886e-4e7f-b8bc-282dc8f8b876}">
+                            <WZUIImage Type="WZUIImage" GUID="{4214bcb3-9652-4566-9bee-fb44a9c2f3f3}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Scale="1" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{7383feb9-9652-4ceb-bbce-b1db5a36a34a}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8b573184-3ad9-432f-b0ed-fe4f447f428b}" Color="255,255,255" FontSize="20" TextKey="FOOTMARK_TEXT4" Name="txtState1_CellFootMark" StrokeColor="163,73,20" StrokeSize="4" EnableStroke="True" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a770d9ff-78f1-4e1d-8ad0-d69cb254185b}" Name="conState2_CellFootMark" RelativePosition="0.5,0.74">
+                    <Button Type="WZUIButton" LuaDoneFunctionName="onFighting" GUID="{698f6fa1-17da-420a-8f9a-33e2efc9762f}" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{20d906ff-7ec5-4e75-85fc-22c615ed70e7}">
+                            <WZUIImage Type="WZUIImage" GUID="{7960ba32-518e-45b5-9823-2e237b104be2}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Scale="1" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{2e644805-a40e-4dc4-b66e-e8cae933bcec}">
+                            <WZUIImage Type="WZUIImage" GUID="{c152822f-d396-4300-8cf1-6e72898b1b1b}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Scale="1" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{500caead-5c4b-463f-8b7c-e8fa3427b7c4}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e6abe487-3cca-4dea-ae6d-143b5aee7eed}" Color="255,255,255" FontSize="20" TextKey="USE" EnableStroke="True" StrokeColor="163,73,20" StrokeSize="4" Name="txtState2_CellFootMark" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{8ee752f8-dd5c-4ea5-b76a-d9fb762bb9b8}" Name="conState3_CellFootMark" TouchEnable="False">
+                    <WZUIImage Type="WZUIImage" GUID="{0edc0148-06cd-437b-9e9e-c21df20667ca}" File="ui/rune/common_icon_suo6.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIImage Type="WZUIImage" GUID="{7537dd6c-c28b-4fcd-80a6-f7e58cdbf32e}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgRed_CellFootMark" RelativePosition="0.975881,0.902522" AbsPosition="444.8,93.4437" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellFootMark>

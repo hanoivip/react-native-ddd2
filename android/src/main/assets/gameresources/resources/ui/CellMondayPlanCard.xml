@@ -1,0 +1,26 @@
+﻿<CellMondayPlanCard GUID="{ea9341f1-4f6c-4bc3-8512-93d8c4fa07a4}">
+    <WZUIContainer Type="WZUIContainer" GUID="{baa95cdb-cc05-4469-b1b2-a8ccbed0fb61}" Name="CellMondayPlanCard" LuaObjectName="CellMondayPlanCard" NameCreate="True" UseAbsSize="True" AbsContentSize="642,478">
+        <WZUIContainer AbsContentSize="642,478" GUID="{232c4719-407c-4cd8-94f1-5e9db263e32a}" RelativePosition="0.5,1" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0.5,1">
+            <WZUIImage Type="WZUIImage" GUID="{5418349c-99a8-4519-b30e-c8d978f41577}" File="ui/newActivity/activity_pic_flk_jhk.png" UseOriginSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" ScaleX="1" Scale="1" ScaleY="1" UseOriginSizeProportion="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{49e598d8-6169-40a9-b7fb-37aa40a40e06}" AbsContentSize="634,30" UseAbsSize="True" RelativePosition="0.00746606,0.992479" AnchorPoint="0,1" Name="conLeftTime_CellMondayPlanCard" Visible="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{662c264e-9ae7-40f3-8a38-95ce4c45bb0f}" File="ui/common/frame_02_1.png" AnchorPoint="0,1" RelativePosition="0,1" />
+                <WZUILabelTTF Color="255,227,116" FontSize="22" GUID="{d61ed083-ac13-45fd-9b49-260101a6bf17}" Name="txtTimeWord_CellMondayPlanCard" RelativePosition="0.025,0.5" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" EnableStroke="True" StrokeColor="128,54,13" TextKey="WEEK_DAY" Visible="False" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{061b9c81-ad08-4298-b23e-ab280909976c}" Color="255,89,74" EnableStroke="True" FontSize="24" StrokeColor="158,0,0" StrokeSize="4" Name="txtTimeValue_CellMondayPlanCard" RelativePosition="0.32,0.5" AnchorPoint="0,0.5" Visible="False" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{76dd9cc6-77a2-4528-8076-d3671c422724}" Color="255,236,193" EnableStroke="True" FontSize="16" StrokeColor="127,70,26" StrokeSize="4" Text="" RelativePosition="0.0184351,0.960014" TextKey="ACTIVITY_TEXT_DESC_23" AnchorPoint="0,0.5" />
+            <WZUIContainer AbsContentSize="152,68" GUID="{79b9db9c-1a5a-4825-a68e-af0507d503fa}" RelativePosition="0.805625,0.163633" Type="WZUIContainer" UseAbsSize="True">
+                <WZUIButton GUID="{69eedb21-674c-4fa0-8b43-b5f165432a0f}" LuaDoneFunctionName="onClickBtn" Name="btn_CellMondayPlanCard" Type="WZUIButton" RelativePosition="0.5,0.35" LuaActionName="Normal">
+                    <NormalElement GUID="{8c742135-9c69-4422-957c-4c112a05c637}" Type="WZUIContainer" />
+                    <SelectElement GUID="{11a69310-aba5-411d-8b4a-e2b6445eeea8}" Type="WZUIContainer" />
+                    <DisableElement GUID="{3c8ee150-e778-45b2-a49e-e3e8cf78d500}" Type="WZUIContainer" />
+                    <WZUISpine Type="WZUISpine" GUID="{c2b6cd20-0635-45f4-9bd7-258c5d01242b}" FileAtlas="ui/ui_main_likechongzhi.atlas" FileJson="ui/ui_main_likechongzhi.json" Loop="True" AnimationName="animation" RelativePosition="0.5,1.12308" Visible="False" ScaleX="0.87" Name="spineBtn_CellMondayPlanCard" />
+                    <WZUI9Image CapInsets="20,10,15,35" File="ui/common/common_btn_01.png" GUID="{fa5c8aab-5c3d-4731-9614-12cce7e3e359}" RelativeSize="1,1" Type="WZUI9Image" UseOriginSize="False" Name="imgBuy_CellMondayPlanCard" />
+                    <WZUILabelTTF Color="255,236,193" FontSize="24" GUID="{565a9dc9-2469-4c31-bb19-2106dfd9119b}" Name="txtBuy_CellMondayPlanCard" RelativePosition="0.5,0.5" StrokeColor="128,54,13" StrokeSize="4" Text="" Type="WZUILabelTTF" LabelStyleKey="" EnableStroke="True" TextKey="" />
+                    <WZUIImage Type="WZUIImage" GUID="{f0385b18-ccd6-4268-900b-ced94de70317}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.929133,0.848588" Name="imgRedDot_CellMondayPlanCard" Visible="False" />
+                </WZUIButton>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{cb862ab4-449d-47b1-a0a9-b57f4c33a625}" FontSize="22" Color="255,227,116" AnchorPoint="0.5,0" RelativePosition="0.5,0.9" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" Name="txtCost_CellMondayPlanCard" LabelStyleKey="" Visible="False" Text="" />
+            </WZUIContainer>
+            <WZUITableContainer AbsContentSize="300,90" AnchorPoint="0.5,0.5" CellElementHeight="0.33" ColumnCount="1" EnableMoveHorizontal="True" EnableMoveVertical="False" GUID="{0e7e97b5-7af2-43b5-a8f4-4a49914f6d01}" Name="tab_CellMondayPlanCard" RelativePosition="0.357,0.165" RelativeSize="1,1" ShowAll="False" Type="WZUITableContainer" UseAbsSize="True" IsVerticalMode="False" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellMondayPlanCard>

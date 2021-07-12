@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" ?>
+<CellCopyHallList GUID="{3062D2C7-DD67-4b91-B37E-8EC8125CCD5F}">
+    <CellElement Type="WZUIContainer" GUID="{5b9c2651-4ede-4437-8d13-801875e1de84}" UseAbsSize="True" AbsContentSize="722,92" Name="CellCopyHallList" RelativePosition="0.5,0.5" UseAbsCoordinate="False" AnchorPoint="0.5,0.5">
+        <WZUIContainer Type="WZUIContainer" GUID="{002C6EAC-C9DE-4cba-B5C9-670F7526C7A7}" AbsContentSize="374,80" UseAbsSize="False" RelativePosition="0.5,0.5">
+            <WZUI9Image Type="WZUI9Image" GUID="{B45E31B4-3535-498d-A1E1-7BD903F076BC}" File="ui/common/frame_lieb.png" ShowRect="False" CapInsets="0,0,0,0" Visible="True" UseOriginSizeProportion="False" TouchEnable="False" RelativePosition="0.5,0.5" UseOriginSize="False" />
+            <WZUIContainer Type="WZUIContainer" GUID="{B5218824-2305-4d7e-834D-31E3749F5F26}" AbsContentSize="374,80" UseAbsSize="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{EF2D8247-4CA2-4ee9-A639-8A0FF4681FCD}" AbsContentSize="55,62" UseAbsSize="True" RelativePosition="0.109626,0.575">
+                    <WZUIImage Type="WZUIImage" GUID="{0E004AFB-99EB-404c-9723-2ECE701F5D7D}" File="ui/copy/copy_icon_jd1.png" Name="imgDif_CellCopyHallList" NameCreate="True" UseOriginSize="True" Scale="0.6" RelativePosition="0.5,0.467742" />
+                    <WZUIImage Type="WZUIImage" GUID="{FF659B18-7634-4e26-B3D6-6E0CF26E931E}" File="ui/common/common_icon_zddy.png" UseOriginSize="True" RelativePosition="0.5,0.0483871" Name="imgDifText_CellCopyHallList" NameCreate="True" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{04bb7b03-fad1-493c-8e8b-5c996277d00f}" AbsContentSize="3,70" UseAbsSize="True" RelativePosition="0.230194,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{28fc2980-f96c-4675-83f1-f2837e600d7c}" File="ui/common/frame_fengexian_02.png" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e1e71a01-5344-40a3-8116-0732041678f3}" Color="79,60,48" FontSize="20" BoldFont="True" TextKey="" Text="" Name="txtRoomName_CellCopyHallList" NameCreate="True" Dimensions="" MaxLength="16" RelativePosition="0.495,0.64" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d11e06f4-6168-46eb-8462-dec65b833cfb}" Color="79,60,48" FontSize="20" TextKey="MUL_ID" RelativePosition="0.394,0.3" AbsPosition="23.8769,19.32" Text="">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a05e9feb-8757-4095-a341-b2039237e53b}" Color="229,105,22" FontSize="20" BoldFont="True" TextKey="" Text="" Name="txtRoomId_CellCopyHallList" NameCreate="True" RelativePosition="1.04,0.5" Alignment="Left" AnchorPoint="0,0.5" AbsPosition="40.9653,19.32" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{19218b46-3342-4683-bc61-1a2d173863fd}" Color="79,60,48" FontSize="20" TextKey="PEOPLE_NUM" RelativePosition="0.518515,0.29079" AbsPosition="141.877,19.32" Name="txtTip_CellCopyHallList" Text="">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{add73e3b-0d11-429f-b0fb-32ae5573cc60}" Color="229,105,22" FontSize="20" BoldFont="True" TextKey="" Text="" Name="txtPeopleNum_CellCopyHallList" NameCreate="True" RelativePosition="1.04,0.5" Alignment="Left" AnchorPoint="0,0.5" AbsPosition="170.965,19.32" />
+                </WZUILabelTTF>
+                <WZUIContainer Type="WZUIContainer" GUID="{6e57a3ae-e6a6-4bbb-a42f-f933c8db71d5}" RelativeSize="0.2,1" RelativePosition="0.897292,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{767128f5-1627-4d39-b79b-d282bd45ed24}" File="" UseOriginSize="True" RelativePosition="0.4,0.674" Name="imgState_CellCopyHallList" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c8c81ca6-2c74-4d18-a18d-627885535918}" Name="txtState_CellCopyHallList" NameCreate="True" FontSize="20" Text="" Color="158,0,0" RelativePosition="0.44,0.299953" TextKey="" Order="1">
+                        <WZUIImage Type="WZUIImage" GUID="{f4ff1d13-a2e0-4c62-a64f-8d6ac9451c9a}" File="ui/common/common_icon_suo.png" Name="imgLock_CellCopyHallList" NameCreate="True" isValid="True" Visible="False" UseOriginSize="True" Scale="0.3" RelativePosition="1,0.5" AnchorPoint="0,0.5" />
+                    </WZUILabelTTF>
+                    <WZUIImage Type="WZUIImage" GUID="{19274d29-d032-437b-816e-887419626941}" File="ui/copy/common_xiezhu_02.png" UseOriginSize="True" Scale="0.4" Name="imgHelpIcon_CellCopyHallList" RelativePosition="0.8961,0.183493" Visible="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{e015dd5f-f242-49f6-ba25-fc62b13d6244}" LuaDoneFunctionName="onClickCell">
+            <NormalElement Type="WZUIContainer" GUID="{c687e4e1-c4f8-4f0e-a0a1-29738281dea1}" TouchContainerEnable="True" />
+            <SelectElement Type="WZUIContainer" GUID="{bb88f7e5-2b68-4ae0-839a-990cddb8be1a}" TouchContainerEnable="True" />
+            <DisableElement Type="WZUIContainer" GUID="{c08a75e3-3d7d-4b35-a38e-f3db3a4724b2}" />
+        </Button>
+    </CellElement>
+</CellCopyHallList>

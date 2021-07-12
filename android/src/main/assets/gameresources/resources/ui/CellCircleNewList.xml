@@ -1,0 +1,23 @@
+﻿<CellCircleNewList GUID="{5730a57c-105c-45f2-9f1f-3aa1521511b5}">
+    <WZUIContainer Type="WZUIContainer" GUID="{ad46d1ce-3ca4-4b68-a50d-bf3e7d055a42}" Name="CellCircleNewList" NameCreate="True" AbsContentSize="478,96" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{ed078729-06d6-418a-8a47-d1922c8f3b61}">
+            <WZUI9Image Type="WZUI9Image" GUID="{3a78a39d-1994-4fb5-917a-274e115be314}" File="ui/common/frame_16.png" />
+            <Button Type="WZUIButton" GUID="{87d6972a-1195-4a34-af08-335a14a1f01f}" LuaDoneFunctionName="onClickGoto">
+                <NormalElement Type="WZUIContainer" GUID="{11bfab2b-9d7b-42eb-a554-2b6c4e492c29}" />
+                <SelectElement Type="WZUIContainer" GUID="{ab7868d5-f5d9-470e-b8cd-58973d4987ef}" />
+                <DisableElement Type="WZUIContainer" GUID="{10d22d83-c7b1-44b6-a6c9-489ed496046a}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{44936fa0-36ff-484d-93c5-e23977628887}" Name="conHead_CellCircleNewList" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.09,0.5">
+                <WZUIImage Type="WZUIImage" GUID="{79253a0a-a8a7-4e34-9448-8a26c7756301}" File="ui/common/commom_icon_bg.png" UseOriginSize="True" />
+                <Button Type="WZUIButton" GUID="{00b5d100-5435-4650-8eda-a5c5c6c509c0}" Order="1" LuaDoneFunctionName="onClickHead">
+                    <NormalElement Type="WZUIContainer" GUID="{a1c8c73a-bfb4-4ac2-818b-ee19b923da2e}" />
+                    <SelectElement Type="WZUIContainer" GUID="{62cf1b09-8df5-46c7-bd3a-e58dfdb32e03}" />
+                    <DisableElement Type="WZUIContainer" GUID="{b05942ee-de95-47c1-9ecf-f82767103782}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{08f8c54a-4951-4b16-bcca-5f560058573d}" AnchorPoint="0,1" RelativePosition="0.18,0.8" Name="ftxtDesc_CellCircleNewList" ShowText="" MaxWidth="385" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{65e81062-3e75-46f0-822b-a50d061c603e}" MaxLength="0" AnchorPoint="1,0.5" RelativePosition="0.98,0.3" Text="" Color="138,122,106" FontSize="18" Name="txtDescTwo_CellCircleNewList" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f570133f-21a7-4e9d-9635-4d1f5ba3cf4f}" MaxLength="0" AnchorPoint="0,0.5" RelativePosition="0.18,0.3" Text="" Color="138,122,106" FontSize="18" Name="txtDescThree_CellCircleNewList" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCircleNewList>

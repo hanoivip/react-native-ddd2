@@ -1,0 +1,65 @@
+﻿<CellReturneeCounterattack GUID="{4cbb7f45-85d6-45fb-b6ed-08f38f571c89}">
+    <WZUIContainer Type="WZUIContainer" GUID="{fb8b684b-e109-4c59-b321-17e3511ad2bd}" Name="CellReturneeCounterattack" NameCreate="True" UseAbsSize="True" AbsContentSize="620,390" LuaObjectName="">
+        <WZUIContainer Type="WZUIContainer" GUID="{5c5bdea3-1658-4f04-92f1-fe5fba3c8743}">
+            <WZUIImage Type="WZUIImage" GUID="{7093c579-afcd-48f1-b3d3-cbebedb6301e}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{941eb942-b5c9-4066-bca5-d4d8534bd3b6}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.027,0.93" AnchorPoint="0,0.5" Name="txtTime_CellReturneeCounterattack">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f5fb0c99-6be2-4a0a-bfee-b8f46bcda496}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtTimeValue_CellReturneeCounterattack" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{0706ecea-b819-4695-b4ee-4025b11083f2}" UseAbsSize="True" AbsContentSize="600,84" RelativePosition="0.5,0.765501">
+                <WZUI9Image Type="WZUI9Image" GUID="{9aeca66c-1d99-481e-a68a-672460fb75d7}" File="ui/gameActivity/returnee/daozhu_di.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{277612e1-ed19-4079-87c1-5b72a18429a6}" Color="255,255,255" StrokeColor="40,60,140" StrokeSize="4" EnableStroke="True" FontSize="22" Text="" RelativePosition="0.01,0.5" AnchorPoint="0,0.5" TextKey="PROGRESS_TEXT" Name="txtProgress_CellReturneeCounterattack" />
+                <WZUIContainer Type="WZUIContainer" GUID="{128167de-e7fd-47b7-a54c-feab05cabf76}" RelativePosition="0.5,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{8b91fba0-a1c5-4d42-9c11-86f24d73e25f}" File="ui/common/common_progress_huoyuedu.png" UseOriginSize="True" ScaleX="1" Scale="0.78" RelativePosition="0.54,0.5" />
+                    <WZUIProgress Type="WZUIProgress" GUID="{457b2dcf-0780-4bcf-8dc2-c1ff2912cf75}" BgPicture="ui/common/common_progress_huoyuedu2.png" UseOriginSize="True" RelativePosition="0.561869,0.488095" ScaleX="1" Name="prgTimes_CellReturneeCounterattack" Percentage="0" Scale="0.78" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a2f304af-bfdf-450b-9a5d-b3117ecde975}" LabelStyleKey="" Text="0" RelativePosition="0.151576,0.478961" Name="txtCurCount_CellReturneeCounterattack" Color="255,255,255" StrokeColor="128,53,14" StrokeSize="4" FontSize="18" EnableStroke="True" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{99cdd79d-bf98-4993-9626-d22d7b8c053a}" Name="conRewardBox1_CellReturneeCounterattack" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.4,0.58" Scale="0.7" ScaleX="0.7" ScaleY="0.7">
+                        <WZUIImage Type="WZUIImage" GUID="{1d5fd77a-31b6-4254-8dc0-d860163a5c54}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgNormal_CellReturneeCounterattack" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{dbf87f93-3dbd-465e-86fe-8b8beb71cf9b}" File="ui/common/common_icon_lan2.png" UseOriginSize="True" Name="imgReward_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{74830f56-fcb9-4d45-9606-064d4390fe98}" File="ui/common/common_icon_lan3.png" UseOriginSize="True" Name="imgGet_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <Button Type="WZUIButton" GUID="{9214d0e6-2aaf-4652-b7a2-304992aa5270}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="1" Name="btnBox_CellReturneeCounterattack">
+                            <NormalElement Type="WZUIContainer" GUID="{89c5d4e2-3d70-47be-bedf-9d96b10c2d2b}" />
+                            <SelectElement Type="WZUIContainer" GUID="{47b89d3a-4725-464e-9ec9-b38d2f1bf287}" />
+                            <DisableElement Type="WZUIContainer" GUID="{a32dc920-8fdd-4f17-8077-79b297793a99}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{3298a9d1-bdb4-4e86-84b3-4cafa13549a1}" Name="conRewardBox2_CellReturneeCounterattack" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.56,0.58" Scale="0.7" ScaleX="0.7" ScaleY="0.7">
+                        <WZUIImage Type="WZUIImage" GUID="{3f6ed78d-036e-4531-97e4-37409d3e9bf0}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgNormal_CellReturneeCounterattack" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{bcfba405-5cc9-43f1-9105-bdd50bcd62a2}" File="ui/common/common_icon_zi2.png" UseOriginSize="True" Name="imgReward_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{c43bb662-9303-4155-a24e-9c3e5e54b780}" File="ui/common/common_icon_zi3.png" UseOriginSize="True" Name="imgGet_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <Button Type="WZUIButton" GUID="{806d293c-4697-436c-a492-5fe01d68a796}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="2" Name="btnBox_CellReturneeCounterattack">
+                            <NormalElement Type="WZUIContainer" GUID="{ab3b2a39-7095-45f0-b5ec-16963d0ab307}" />
+                            <SelectElement Type="WZUIContainer" GUID="{4b3dad99-d865-43ca-988e-3b7cb3e6b0a6}" />
+                            <DisableElement Type="WZUIContainer" GUID="{45eaeaeb-8b04-44a5-a012-20ade3bb0c97}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{fc490dd9-1655-415c-9c51-c837ec83ee83}" Name="conRewardBox3_CellReturneeCounterattack" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.94,0.58" Scale="0.7" ScaleX="0.7" ScaleY="0.7">
+                        <WZUIImage Type="WZUIImage" GUID="{3658dc34-ffb3-4c51-99e7-2777a6d23e3b}" File="ui/common/common_icon_huang1.png" UseOriginSize="True" Name="imgNormal_CellReturneeCounterattack" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{a7a49b79-5284-4c97-a77e-7bf7938bf318}" File="ui/common/common_icon_huang2.png" UseOriginSize="True" Name="imgReward_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{5489381c-388e-4f81-b8dc-8deee5f4d022}" File="ui/common/common_icon_huang3.png" UseOriginSize="True" Name="imgGet_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <Button Type="WZUIButton" GUID="{68064403-f5fd-40b7-a2bc-d7f24a71db72}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="3" Name="btnBox_CellReturneeCounterattack">
+                            <NormalElement Type="WZUIContainer" GUID="{b1f41cc3-d9c5-4a9a-b7bb-6d6098d45b54}" />
+                            <SelectElement Type="WZUIContainer" GUID="{252bfcad-8ba4-481d-9c8f-a6a3bfb411b5}" />
+                            <DisableElement Type="WZUIContainer" GUID="{c9438be2-0f73-4298-b623-f0d34656c373}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{4e2eec3a-4017-4db8-8bfe-e49370445ee6}" Name="conRewardBox4_CellReturneeCounterattack" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.94,0.58" Scale="0.7" ScaleX="0.7" ScaleY="0.7">
+                        <WZUISpine Type="WZUISpine" GUID="{210176ab-7e0f-4556-b014-9d0dc266f5df}" FileAtlas="city/ui_main_iconeffect.atlas" FileJson="city/ui_main_iconeffect.json" AnimationName="animation" Loop="True" RelativePosition="0.43003,1.10328" Scale="1.3" />
+                        <WZUIImage Type="WZUIImage" GUID="{acd845c5-69a0-4785-abf6-3f562c778a14}" File="ui/common/common_icon_huang1.png" UseOriginSize="True" Name="imgNormal_CellReturneeCounterattack" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{5d52117a-e113-4a55-8e94-7d94c6d65296}" File="ui/common/common_icon_huang2.png" UseOriginSize="True" Name="imgReward_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{0784b5f2-13ed-4542-ab36-6c30025ce955}" File="ui/common/common_icon_huang3.png" UseOriginSize="True" Name="imgGet_CellReturneeCounterattack" Visible="False" TouchEnable="False" />
+                        <Button Type="WZUIButton" GUID="{267494fd-7235-451b-b724-d30c33993ef1}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="4" Name="btnBox_CellReturneeCounterattack">
+                            <NormalElement Type="WZUIContainer" GUID="{4f2ada06-187d-40cb-8fcc-53d02c41827c}" />
+                            <SelectElement Type="WZUIContainer" GUID="{049893d8-c32c-4f45-a4aa-1d0b640cb67b}" />
+                            <DisableElement Type="WZUIContainer" GUID="{d324714c-db4c-4250-aa28-c98d17fc8a34}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d40d0e16-908d-4327-9585-17b66a763aa0}" LabelStyleKey="" Text="" RelativePosition="0.4,0.19" Name="txtCount1_CellReturneeCounterattack" Color="255,255,255" StrokeColor="40,60,140" StrokeSize="4" FontSize="18" EnableStroke="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{576ba1a4-82e0-4270-a286-841333bdc773}" LabelStyleKey="" Text="" RelativePosition="0.56,0.19" Name="txtCount2_CellReturneeCounterattack" StrokeColor="40,60,140" StrokeSize="4" EnableStroke="True" FontSize="18" Color="255,255,255" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{99fc5e96-a615-482b-afe6-794217883beb}" LabelStyleKey="" Text="" RelativePosition="0.94,0.19" Name="txtCount3_CellReturneeCounterattack" StrokeColor="40,60,140" StrokeSize="4" Color="255,255,255" FontSize="18" EnableStroke="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{2aa9180f-9325-4c9f-b15e-8e4407eeeeed}" LabelStyleKey="" Text="" RelativePosition="0.94,0.19" Name="txtCount4_CellReturneeCounterattack" StrokeColor="40,60,140" StrokeSize="4" Color="255,255,255" FontSize="18" EnableStroke="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUITableContainer Type="WZUITableContainer" GUID="{7883eb67-c41a-44fd-8eb7-937255ff40fd}" UseAbsSize="True" AbsContentSize="600,240" RelativePosition="0.5,0.332" Name="tconItem_CellReturneeCounterattack" EnableMoveHorizontal="False" CellElementHeight="0.42" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeCounterattack>

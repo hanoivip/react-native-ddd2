@@ -1,0 +1,31 @@
+﻿<CellRemainsChallenge GUID="{1b6a3430-1a80-4e92-8dda-138efdbd466f}">
+    <WZUIContainer Type="WZUIContainer" GUID="{7010a260-f0ab-4b72-9db7-001000106288}" Name="CellRemainsChallenge" LuaObjectName="CellRemainsChallenge" ShowAll="False" UseAbsSize="True" AbsContentSize="734,129" RelativePosition="0.5,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{3db3deb7-4899-4c88-b2d5-9ed385284f8d}">
+            <WZUIContainer Type="WZUIContainer" GUID="{dd1c1069-01a5-4aa2-b325-e1d8b419bf40}">
+                <WZUI9Image Type="WZUI9Image" GUID="{5341ca6f-b1bc-46fd-bc1e-1803f783df24}" File="ui/common/common_scale9_di18.png" />
+            </WZUIContainer>
+            <WZUIImage Type="WZUIImage" GUID="{164ddcc4-f359-43fa-b946-1c72298df723}" File="ui/common/common_pic_fazheng2.png" UseOriginSize="True" Scale="0.84" RelativePosition="0.11,0.37" />
+            <WZUISpine Type="WZUISpine" GUID="{a7ee293b-392e-45f2-8faa-73bc12d228aa}" RelativePosition="0.11,0.5" Name="spBoss_CellRemainsChallenge" Visible="True" Loop="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{07a6c272-fcf7-45f4-b269-b4554e8a6d30}" RelativePosition="0.222913,0.697867" AnchorPoint="0,0.5" Color="255,227,116" StrokeColor="78,60,46" StrokeSize="4" EnableStroke="True" FontSize="22" Text="" Name="txtBossName_CellRemainsChallenge" />
+            <WZUIContainer Type="WZUIContainer" GUID="{a301e9be-502f-461b-b2f4-0e34f818f05d}" UseAbsSize="True" AbsContentSize="200,18" RelativePosition="0.36054,0.478052">
+                <WZUIImage Type="WZUIImage" GUID="{a956ce32-2712-4a58-967a-39bcd4d7e907}" File="ui/common/common_progress_boss2_bg.png" UseOriginSize="False" />
+                <WZUIProgress Type="WZUIProgress" GUID="{35508371-0796-4551-8bc8-81cc7d656364}" BgPicture="ui/common/common_progress_boss2_fore.png" Percentage="50" Name="proBossHP_CellRemainsChallenge" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{97c824a3-37fa-4963-8ffe-95adc979dfed}" Name="txtBossHP_CellRemainsChallenge" Text="100/100" Color="255,236,193" FontSize="18" RelativePosition="0.5,0.5" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{9a903b92-9f90-479c-b5d7-17717c0daf7a}" LabelStyleKey="C3_F18" Text="" RelativePosition="0.265946,0.246875" TextKey="RELIC_TEXT_19" Name="txtDiscoverer_CellRemainsChallenge" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4d63dfa2-4237-49d8-a6ba-0b2e957bb29b}" LabelStyleKey="C3_F18" Text="" RelativePosition="0.324529,0.246875" AnchorPoint="0,0.5" Name="txtDiscovererName_CellRemainsChallenge" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5b8365db-b6c4-4dcf-bfee-9022d00652ec}" LabelStyleKey="C3_F18" Text="" RelativePosition="0.822845,0.723156" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{6f95d0a8-8767-49c8-bf15-898a1395d646}" FontSize="20" Text="23:59:59" RelativePosition="0.929612,0.731428" Name="txtRemainingTime_CellRemainsChallenge" />
+            <Button Type="WZUIButton" GUID="{dba588eb-ded9-4ddd-ab63-51abe9a62e5d}" UseAbsSize="True" AbsContentSize="136,62" RelativePosition="0.876228,0.369822" LuaActionName="Normal" LuaDoneFunctionName="onClickView">
+                <NormalElement Type="WZUIContainer" GUID="{814caa82-9f2a-49b5-80b3-1b3681f68c8d}">
+                    <WZUIImage Type="WZUIImage" GUID="{3f2215af-eb16-4688-a5b2-6d54190275d9}" File="ui/common/common_btn_anniu10_1.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{75922dc2-a2e7-4846-a4dc-a2219d9654db}">
+                    <WZUIImage Type="WZUIImage" GUID="{97935a22-8d09-4725-8363-a92cdca0a571}" File="ui/common/common_btn_anniu10_1.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{cc03a0ac-1d2f-49c5-8045-c0eafabeeab7}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d216cfba-11a7-449e-8a53-7bf76681d4e6}" Text="查看" TextKey="PETLOOK" FontSize="24" LabelStyleKey="NORMAL_GREEN_BTN" RelativePosition="0.5,0.467742" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellRemainsChallenge>

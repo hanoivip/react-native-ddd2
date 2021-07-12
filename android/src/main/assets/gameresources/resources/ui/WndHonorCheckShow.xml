@@ -1,0 +1,28 @@
+﻿<WndHonorCheckShow GUID="{15386771-0665-4378-9ba9-42b1f08e3528}">
+    <WZUIContainer Type="WZUIContainer" GUID="{d59c37f5-c42c-4bd8-8843-ef94014d1596}" LuaObjectName="WndHonorCheckShow" Name="WndHonorCheckShow" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{0366af92-b346-4c8d-8538-7845e2ce0577}" AbsContentSize="520,350" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{b1a9f4df-9a46-4b46-9f66-1511298ecef5}" File="ui/common/frame_tc_xiao.png" />
+        </WZUIContainer>
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9eac970d-872a-490f-984b-fd9c63598f1d}" Text="信誉积分" FontSize="24" RelativePosition="0.5,0.73" Color="255,236,193" EnableStroke="True" StrokeColor="132,66,29" StrokeSize="4" TextKey="OPTIMIZE_TEXT20" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a30f4c9d-6e21-40de-a632-b256f19aaaf5}" FontSize="24" Color="127,70,26" Text="" RelativePosition="0.5,0.653" Name="curHonorTitle" />
+        <WZUIImage Type="WZUIImage" GUID="{9800ec61-c89b-4543-a257-d1f961d7b030}" UseOriginSize="True" File="ui/common/progress_zj_03.png" RelativePosition="0.50,0.599" />
+        <WZUIProgress Type="WZUIProgress" GUID="{e262fa96-d620-4139-b2a4-aee34fe12d13}" BgPicture="ui/common/progress_zj_04.png" UseOriginSize="True" RelativePosition="0.50,0.599" Percentage="0" Name="honorProgree" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{6cb5efe7-b835-411d-9fcc-a857bed41a2e}" FontSize="18" Name="honorProgreeCount" Text="" RelativePosition="0.5,0.596" Color="255,227,116" EnableStroke="True" StrokeColor="132,66,29" StrokeSize="4" />
+        <WZUIContainer AnchorPoint="0.5,1" GUID="{caf60e82-8e90-411b-8a62-4cbd44845405}" RelativePosition="0.5,0.558" RelativeSize="0.9,0.65" Type="WZUIContainer" Name="conRuleDetail_WndHonnr" UseAbsSize="True" AbsContentSize="430,200">
+            <WZUIScrollContainer EnableHorizontalScroll="False" EnableMoveHorizontal="False" EnableVerticalScroll="True" GUID="{3277fcd0-70b0-4f18-bd91-ec75ceb626cd}" Name="rollconExplanation_WndHonor" ScrollPictureDown="" ScrollPictureMid="" ScrollPictureTop="" Type="WZUIScrollContainer">
+                <MoveElement GUID="{b07a3956-997b-4189-b7ba-410b07f05ff3}" Type="WZUIContainer" Visible="True" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{8cd49699-08a6-4363-b9ad-a40727a61967}" Name="txtDesc1" MaxWidth="430" AnchorPoint="0,1" RelativePosition="0.015,0" />
+                </MoveElement>
+            </WZUIScrollContainer>
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{f5e75cbd-f963-4bc2-b84d-b13f51bd5994}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.701509,0.731439" LuaDoneFunctionName="onBtnClickClose">
+            <NormalElement Type="WZUIContainer" GUID="{06f209d8-9f34-4d41-97d3-7834964e795f}">
+                <WZUIImage Type="WZUIImage" GUID="{65a9dfd6-9c32-47f9-b88f-ecd761927240}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{4470d6f6-682d-4ee1-80a8-bdb2241516d7}" Scale="1.05">
+                <WZUIImage Type="WZUIImage" GUID="{e5d950f0-8ca2-473b-a607-1c4857177c53}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{ba19fa30-e87e-44c8-8710-4be2c7f36c11}" />
+        </Button>
+    </WZUIContainer>
+</WndHonorCheckShow>

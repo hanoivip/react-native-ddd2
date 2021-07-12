@@ -1,0 +1,78 @@
+﻿<WndInvestRebate GUID="{e80c2afc-300b-4aef-8158-0444ed948063}">
+    <WZUIWindow Type="WZUIWindow" GUID="{a2cb2016-f16c-43e9-b7f7-64343c0cf32c}" AbsContentSize="960,490" UseAbsSize="True" LuaObjectName="WndInvestRebate" Name="WndInvestRebate" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{2075a114-1b33-4daa-b904-e68f41dff3f6}" Visible="True">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{89af0cba-1723-45d1-909a-d32099ad0615}" Text="" LabelStyleKey="C1_F22_S4_C13" Name="txtTimeWords_WndInvestRebate" AnchorPoint="0,0.5" RelativePosition="0.13,0.965">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{bdcfd9b4-44b0-4f6a-8163-d2c20378a716}" Text="" LabelStyleKey="" Name="txtTimeValue_WndInvestRebate" AnchorPoint="0,0.5" RelativePosition="1,0.5" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" NoBorder="False" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{4adfa8d8-6038-40e4-9264-8a58594c5045}" Name="conInvest_WndInvestRebate" AbsContentSize="960,450" UseAbsSize="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{4d770869-94bf-4627-bfb1-5234f615af0f}" Name="" AbsContentSize="754,300" UseAbsSize="True" RelativePosition="0.5,0.637778">
+                    <WZUIContainer Type="WZUIContainer" GUID="{dafefbaa-a06d-459c-8747-cd6b510b2ec3}" AbsContentSize="180,300" UseAbsSize="True" RelativePosition="0.117,0.5" Name="conSeat1_WndInvestRebate" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{6af66c5c-f24a-4246-8bcf-75b2273aabe7}" AbsContentSize="180,300" UseAbsSize="True" RelativePosition="0.371,0.5" Name="conSeat2_WndInvestRebate" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{d77ba829-d44a-47cb-9258-666554d21d9d}" AbsContentSize="180,300" UseAbsSize="True" RelativePosition="0.625,0.5" Name="conSeat3_WndInvestRebate" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{41f724df-8469-4c47-a09f-70843fffde5c}" AbsContentSize="180,300" UseAbsSize="True" RelativePosition="0.88,0.5" Name="conSeat4_WndInvestRebate" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{d70c3e9e-b037-4cef-b65c-f3af12d1fa62}" AbsContentSize="754,120" UseAbsSize="True" RelativePosition="0.5,0.131111">
+                    <WZUI9Image Type="WZUI9Image" GUID="{59e12980-e85c-4ae5-b011-07255d8d4d99}" File="ui/gameActivity/common_hd_dikuang.png" />
+                    <WZUIImage Type="WZUIImage" GUID="{d91e8c03-ff9c-40b9-aebc-0ffd367d8c91}" File="ui/gameActivity/common_hd_biaoti.png" UseOriginSize="True" AnchorPoint="0,1" RelativePosition="0,1" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{f740755a-7ad4-41ae-8fa6-2713becc1e64}" Text="活动时间" LabelStyleKey="C1_F22_S4_C13" Name="" AnchorPoint="0,0.5" RelativePosition="0.03,0.85" TextKey="HAVED_BUY_TIMES">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{27018749-c39e-469c-b4c1-13f6a454b597}" Text="" LabelStyleKey="" Name="txtBuyTimes_WndInvestRebate" AnchorPoint="0,0.5" RelativePosition="1,0.5" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" />
+                    </WZUILabelTTF>
+                    <WZUIContainer Type="WZUIContainer" GUID="{678ac57f-e719-4e34-b504-cbbff2436661}" AbsContentSize="754,90" UseAbsSize="True" RelativePosition="0.5,0.375">
+                        <WZUIImage Type="WZUIImage" GUID="{3a3d5598-71e2-4450-b058-74e0a6472c46}" File="ui/gameActivity/common_progress_hd_01.png" UseOriginSize="True" RelativePosition="0.48,0.5" />
+                        <WZUIProgress Type="WZUIProgress" GUID="{0da5ca56-51a8-4cc8-8625-8a167de0923b}" BgPicture="ui/gameActivity/common_progress_hd_02.png" UseOriginSize="True" RelativePosition="0.48,0.5" Name="prgTotalReward_WndInvestRebate" Percentage="0" />
+                        <Button Type="WZUIButton" GUID="{4591518c-e7b1-4a43-8842-48b18171e4a6}" AbsContentSize="80,80" UseAbsSize="True" Name="btnBox1_WndInvestRebate" RelativePosition="0.215,0.556" Scale="1" Tag="1" LuaDoneFunctionName="onClickBox">
+                            <NormalElement Type="WZUIContainer" GUID="{dbb2061b-5f17-43c4-895f-c5f1fcddd47d}" />
+                            <SelectElement Type="WZUIContainer" GUID="{06c9daf4-a4b4-4932-8fa0-8adbf0183b58}" />
+                            <DisableElement Type="WZUIContainer" GUID="{f2306cde-ab89-4190-b4cd-f9ba4f4cbedf}" />
+                            <WZArmature Type="WZArmature" GUID="{32d24cdd-b2bb-4e23-8d4b-266f3c04ecbb}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox1_WndInvestRebate" UseOriginSize="True" RelativePosition="0.5375,-0.0375" Scale="0.7" Visible="False">
+                                <Action Type="WZUIArmatureAnimationById" GUID="{ac7cd2b3-048f-4268-ab37-0a6e237d6b1b}" AnimationId="0" />
+                            </WZArmature>
+                            <WZUIImage Type="WZUIImage" GUID="{0f779509-3245-48f2-a031-9030a8aa0168}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgBtn1_WndInvestRebate" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.7" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{73aa033b-5121-4668-a1ac-7825d2e82014}" Name="txtTimes1_WndInvestRebate" FontSize="20" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor=",127,70,26" RelativePosition="0.5,0.125" />
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{41fb8f30-7f85-4609-b245-d2fbea442400}" AbsContentSize="80,80" UseAbsSize="True" Name="btnBox2_WndInvestRebate" RelativePosition="0.394,0.556" Scale="1" Tag="2" LuaDoneFunctionName="onClickBox">
+                            <NormalElement Type="WZUIContainer" GUID="{3025e862-4997-492c-8946-fefae123f89e}" />
+                            <SelectElement Type="WZUIContainer" GUID="{beb040ad-b6b9-4f69-8d44-edc65fa880ba}" />
+                            <DisableElement Type="WZUIContainer" GUID="{181cd14e-353b-4955-ae12-0e1bace71f7a}" />
+                            <WZArmature Type="WZArmature" GUID="{3006f0ae-1265-43d1-a7e7-708a6812e50d}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox2_WndInvestRebate" UseOriginSize="True" RelativePosition="0.5375,-0.0375" Scale="0.7" Visible="False">
+                                <Action Type="WZUIArmatureAnimationById" GUID="{56bec055-ad7a-4d16-8565-fb302c92c992}" AnimationId="0" />
+                            </WZArmature>
+                            <WZUIImage Type="WZUIImage" GUID="{2c6aef10-feb3-49ba-88c4-60211e0a1e06}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgBtn2_WndInvestRebate" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.7" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{2e90b6cc-5c55-4fec-95a7-9b33a1945b94}" Name="txtTimes2_WndInvestRebate" FontSize="20" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor=",127,70,26" RelativePosition="0.5,0.125" />
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{d17212da-ca98-46e8-a374-db3e61f14560}" AbsContentSize="80,80" UseAbsSize="True" Name="btnBox3_WndInvestRebate" RelativePosition="0.573,0.556" Scale="1" Tag="3" LuaDoneFunctionName="onClickBox">
+                            <NormalElement Type="WZUIContainer" GUID="{196db088-89c2-44d8-9152-4ab15312e1d3}" />
+                            <SelectElement Type="WZUIContainer" GUID="{94f61529-6e13-4d04-90b0-1a331f4e218b}" />
+                            <DisableElement Type="WZUIContainer" GUID="{f2f7eb28-d46a-4b1a-926d-117d65463eeb}" />
+                            <WZArmature Type="WZArmature" GUID="{d9dec19a-df8a-4ccf-a391-ef3b29272f1a}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox3_WndInvestRebate" UseOriginSize="True" RelativePosition="0.5375,-0.0375" Scale="0.7" Visible="False">
+                                <Action Type="WZUIArmatureAnimationById" GUID="{c7a15d57-b0a3-4bc6-b38e-5952e1e16944}" AnimationId="0" />
+                            </WZArmature>
+                            <WZUIImage Type="WZUIImage" GUID="{5ab88fea-506e-4db2-b06a-80dfd34038b3}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgBtn3_WndInvestRebate" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.7" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c5891b8d-ca98-4460-bec0-818824fdb419}" Name="txtTimes3_WndInvestRebate" FontSize="20" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor=",127,70,26" RelativePosition="0.5,0.125" />
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{d1a6b6da-8abb-4973-aa41-b575002d2079}" AbsContentSize="80,80" UseAbsSize="True" Name="btnBox4_WndInvestRebate" RelativePosition="0.752,0.556" Scale="1" Tag="4" LuaDoneFunctionName="onClickBox">
+                            <NormalElement Type="WZUIContainer" GUID="{cf7a35b1-8b27-4fb9-b703-22e4ed45dd6e}" />
+                            <SelectElement Type="WZUIContainer" GUID="{ffbb3b8a-6633-4599-a715-611896272b8d}" />
+                            <DisableElement Type="WZUIContainer" GUID="{1e155fbc-d7b1-4bcd-81c8-79e1a6b3d549}" />
+                            <WZArmature Type="WZArmature" GUID="{97b1e536-dd73-494d-8dfa-44a2d196ecc9}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox4_WndInvestRebate" UseOriginSize="True" RelativePosition="0.5375,-0.0375" Scale="0.7" Visible="False">
+                                <Action Type="WZUIArmatureAnimationById" GUID="{0891bd23-fe36-4051-87da-56f8a1d79760}" AnimationId="0" />
+                            </WZArmature>
+                            <WZUIImage Type="WZUIImage" GUID="{eeb49cac-99f6-4a7d-931b-74a673e0b171}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgBtn4_WndInvestRebate" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.7" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{56e4a581-e995-41c0-80d3-fd3c13fb11ec}" Name="txtTimes4_WndInvestRebate" FontSize="20" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor=",127,70,26" RelativePosition="0.5,0.125" />
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{0c7ea363-a012-418c-8cab-7665f48cec3a}" AbsContentSize="80,80" UseAbsSize="True" Name="btnBox5_WndInvestRebate" RelativePosition="0.928,0.56" Scale="1" Tag="5" LuaDoneFunctionName="onClickBox">
+                            <NormalElement Type="WZUIContainer" GUID="{af2e6d6a-b688-4e34-86f7-d0464d32b2cc}" />
+                            <SelectElement Type="WZUIContainer" GUID="{bedbd2ba-c969-441f-b4da-eb88203f8f8f}" />
+                            <DisableElement Type="WZUIContainer" GUID="{b2105566-781f-4560-88f9-c28367b9d6b1}" />
+                            <WZArmature Type="WZArmature" GUID="{94874224-562f-428f-b33d-67ed2408ed28}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox5_WndInvestRebate" UseOriginSize="True" RelativePosition="0.5375,-0.0375" Scale="0.7" Visible="False">
+                                <Action Type="WZUIArmatureAnimationById" GUID="{4b6d2c5c-ff97-49d9-b61e-a88385f069ef}" AnimationId="0" />
+                            </WZArmature>
+                            <WZUIImage Type="WZUIImage" GUID="{38afa982-3eb5-4fdf-b898-811edd33bd60}" File="ui/common/common_icon_huang1.png" UseOriginSize="True" Name="imgBtn5_WndInvestRebate" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.7" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{71b57697-a512-4f00-bd5f-52ae4a449d1e}" Name="txtTimes5_WndInvestRebate" FontSize="20" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor=",127,70,26" RelativePosition="0.5,0.125" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndInvestRebate>

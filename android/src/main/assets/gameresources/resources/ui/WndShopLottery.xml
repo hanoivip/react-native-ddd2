@@ -1,0 +1,74 @@
+﻿<WndShopLottery GUID="{c4b4f4f0-2ccb-4238-a96b-60976ce74ea8}">
+    <WZUIContainer Type="WZUIContainer" GUID="{3e3e8965-e8c8-4754-88a9-4129311229bd}" Name="WndShopLottery" RelativePosition="0.5,0.5" UseAbsSize="True" AbsContentSize="848,480" LuaObjectName="WndShopLottery">
+        <WZUIImage Type="WZUIImage" GUID="{ddd860b0-cba4-4124-bed4-8bad5db9ed5c}" />
+        <WZUIImage Type="WZUIImage" GUID="{e399a905-2649-4da3-b59d-d1f0284fa4ca}" File="ui/shop/common_scale9_shop_di6.png" UseOriginSize="True" Opacity="255" />
+        <WZUIImage Type="WZUIImage" GUID="{bb6dafe0-bd21-400e-bdb5-1104c21f73ab}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" RelativePosition="0.605,0.6425" ScaleX="0.9" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9ef0df45-cc72-45d1-8a71-36a1e2bf5a6b}" Name="txtLuckyTime_WndShopLottery" RelativePosition="0.600496,0.607377" Text="" LabelStyleKey="" TextKey="" FontSize="18" EnableStroke="False" Color="255,227,116" StrokeSize="4" StrokeColor="79,60,48" />
+        <WZUIContainer Type="WZUIContainer" GUID="{bdb03eb8-36ff-42cf-a8af-a7b23fe9ab8f}" AbsContentSize="162,112" UseAbsSize="True" Name="conSel_WndShopLottery" Visible="True" RelativePosition="0.1,0.87" Order="1" TouchEnable="False" TouchSwallow="False">
+            <WZUISpine Type="WZUISpine" GUID="{8187aaf2-2d37-4e96-90f2-d1c5d4c92744}" FileAtlas="ui/ui_shop_flash.atlas" FileJson="ui/ui_shop_flash.json" AnimationName="flash1" Loop="True" RelativePosition="0.525,0.49" Name="spineFlash" Visible="True" />
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{17e26009-eecc-4427-836c-268165c8636a}" LuaDoneFunctionName="onLottery1" UseAbsSize="True" AbsContentSize="200,66" RelativePosition="0.605,0.515" LuaActionName="Normal">
+            <NormalElement Type="WZUIContainer" GUID="{dbd8be05-b4eb-443e-aaeb-32630e8583fa}">
+                <WZUI9Image Type="WZUI9Image" GUID="{f3396e41-bb9e-4952-bb5c-0909723775a2}" File="ui/shop/common_btn_shop2.png" UseOriginSize="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{99678cda-dd07-4bee-b9c7-e30658e9d3df}">
+                <WZUI9Image Type="WZUI9Image" GUID="{14acadfb-ac45-4ea8-9bf1-c7de7b8670fd}" File="ui/shop/common_btn_shop2.png" UseOriginSize="True" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{9dd74932-2e83-4216-b8bd-a0a590c276e1}" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ccd90518-7cb1-41b4-95f5-07c0d2283514}" Text="购买水晶%s颗(送夺宝%s次)" LabelStyleKey="C1_F20_S4_C2" Scale="0.7" RelativePosition="0.505585,0.263076" Name="txtTip71" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{7869a1b7-915e-444b-9117-6ad3b6eadd11}" Text="0" LabelStyleKey="C1_F24_S4_C2" Scale="1" RelativePosition="0.5,0.669" Name="txtTip73" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5" />
+            <WZUIImage Type="WZUIImage" GUID="{9edbf471-7fd5-4555-96f6-b09899b0ad9d}" File="ui/common/common_icon_zuanshi.png" UseOriginSize="True" Scale="0.7" ScaleX="0.7" RelativePosition="0.382722,0.669" ScaleY="0.7" Name="imgCost71" />
+        </Button>
+        <Button Type="WZUIButton" GUID="{cf7600ba-b66d-4eaa-8960-b1ec71590c1d}" LuaDoneFunctionName="onLottery5" AbsContentSize="200,66" UseAbsSize="True" RelativePosition="0.605,0.365" LuaActionName="Normal">
+            <NormalElement Type="WZUIContainer" GUID="{4137beff-3709-498c-a039-79a3f39729ca}">
+                <WZUI9Image Type="WZUI9Image" GUID="{8e37d072-ae23-4eea-aff1-154425e89f1e}" File="ui/shop/common_btn_shop2.png" UseOriginSize="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{af22920b-e743-4a19-83a0-1e8553466e0b}">
+                <WZUI9Image Type="WZUI9Image" GUID="{dba38d03-150d-4150-8009-752645d126f0}" File="ui/shop/common_btn_shop2.png" UseOriginSize="True" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{51d5d73a-44f7-4f62-ac17-eefe77bad857}" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0f2d17e2-ea92-4dea-b87f-4767cd859b18}" Text="购买水晶%s颗(送夺宝%s次)" LabelStyleKey="C1_F20_S4_C2" Scale="0.7" RelativePosition="0.505585,0.263076" Name="txtTip72" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4fe4d0d7-942f-4bf1-9570-cbb3dc4d9719}" Text="0" LabelStyleKey="C1_F24_S4_C2" Scale="1" RelativePosition="0.5,0.669" Name="txtTip74" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5" />
+            <WZUIImage Type="WZUIImage" GUID="{bd1b07a8-8de4-4546-a0be-200049ed32df}" File="ui/common/common_icon_zuanshi.png" UseOriginSize="True" Scale="0.7" ScaleX="0.7" RelativePosition="0.382722,0.669" ScaleY="0.7" Name="imgCost72" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{2ae24d54-2b6c-4f31-afaa-98af998786d4}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.1,0.865" Name="conLottery1" />
+        <WZUIContainer Type="WZUIContainer" GUID="{f9f5e28a-b080-4669-b04a-55b262bcf96f}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.3,0.865" Name="conLottery2" />
+        <WZUIContainer Type="WZUIContainer" GUID="{9d771b87-91ef-4274-b4a1-f726c6e83e0f}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.5,0.865" Name="conLottery3" />
+        <WZUIContainer Type="WZUIContainer" GUID="{6019b718-474b-43c3-a85f-47e704fb2b45}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.7,0.865" Name="conLottery4" />
+        <WZUIContainer Type="WZUIContainer" GUID="{ba371400-de15-4448-b5ab-ae6b0382bad0}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.9,0.865" Name="conLottery5" />
+        <WZUIContainer Type="WZUIContainer" GUID="{8cd4347b-3699-41ef-b015-610626c48aa8}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.9,0.6233" Name="conLottery6" />
+        <WZUIContainer Type="WZUIContainer" GUID="{d7c580c9-ffbf-4625-9adb-7c97f37f81d7}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.9,0.3766" Name="conLottery7" />
+        <WZUIContainer Type="WZUIContainer" GUID="{5c47721e-c236-4e97-9af6-a1c412634275}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.9,0.13" Name="conLottery8" />
+        <WZUIContainer Type="WZUIContainer" GUID="{de464ac5-5332-499c-81f9-f746e7e26f6f}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.7,0.13" Name="conLottery9" />
+        <WZUIContainer Type="WZUIContainer" GUID="{08303dd1-8d3b-402f-a302-8d0d4f7f2d95}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.5,0.13" Name="conLottery10" />
+        <WZUIContainer Type="WZUIContainer" GUID="{5f62d887-1026-49b0-b8f1-7ad8f61affce}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.3,0.13" Name="conLottery11" />
+        <WZUIContainer Type="WZUIContainer" GUID="{9fe8568d-3ee4-49fa-98ff-0da6a162bef2}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.1,0.13" Name="conLottery12" />
+        <WZUIContainer Type="WZUIContainer" GUID="{6a978333-a602-4a26-87cb-c71423e5cfac}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.1,0.3766" Name="conLottery13" />
+        <WZUIContainer Type="WZUIContainer" GUID="{7484afed-2830-450e-b3d2-b5e7293d8df8}" UseAbsSize="True" AbsContentSize="162,112" RelativePosition="0.1,0.6233" Name="conLottery14" />
+        <WZUIImage Type="WZUIImage" GUID="{4f91c0f8-fb15-4752-afe7-28f8b1c7bab0}" File="ui/shop/common_icon_shop_shuijingdi.png" UseOriginSize="True" RelativePosition="0.327,0.505" />
+        <WZUIProgress Type="WZUIProgress" GUID="{139a15a1-9659-4ce0-b18f-7c17f3fd8ef9}" BgPicture="ui/shop/common_icon_shop_shuijing.png" UseOriginSize="True" Percentage="100" IsBarType="True" FlipX="False" Rotation="-90" RelativePosition="0.327,0.504" Name="progress7" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{33625379-1487-4d63-93c0-db3c9c096d00}" Name="txtLuckyN_WndShopLottery" RelativePosition="0.285,0.35" Text="" LabelStyleKey="" TextKey="LUCKY_NAME" FontSize="18" EnableStroke="True" Color="255,227,116" StrokeSize="4" StrokeColor="79,60,48" Visible="True" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{0965666a-56ed-431a-9929-210867ec0d7a}" Name="txtLucky" RelativePosition="0.33,0.35" Text="" LabelStyleKey="C1_F20_S4_C5" Alignment="Left" AnchorPoint="0,0.5" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{18771373-f346-4c06-90a7-0d5e6772c878}" Text="" LabelStyleKey="" RelativePosition="0.24,0.303443" TextKey="" Name="txtLuckyTip_WndShopLottery" FontSize="16" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" AnchorPoint="0,0.5" />
+        <Button Type="WZUIButton" GUID="{38bd1ca6-adf6-481a-ac12-161e22fda995}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.437983,0.322951" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickExtReward" Name="btnExtReward_WndShopLottery">
+            <NormalElement Type="WZUIContainer" GUID="{e55a4381-56c4-4f27-9056-5ee722739ec2}" />
+            <SelectElement Type="WZUIContainer" GUID="{bc19152c-caba-494e-acd2-38b79f6adfd9}" />
+            <DisableElement Type="WZUIContainer" GUID="{ef42dd20-0a65-4bc1-af51-8e21d74bc5bd}" />
+            <WZUIImage Type="WZUIImage" GUID="{5be017cb-9c54-44bc-bb10-25335b87ed87}" File="ui/common/common_icon_sltb.png" UseOriginSize="True" Scale="0.7" />
+            <WZUIImage Type="WZUIImage" GUID="{c266b23a-d6c6-4fb2-8af7-35cbf2d1f48b}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgExtRedDot_WndShopLottery" Scale="0.7" RelativePosition="0.05,0.825" Visible="False" />
+        </Button>
+        <WZUISpine Type="WZUISpine" GUID="{2c5dc681-3471-4960-a4b8-ed824125cf3f}" FileAtlas="ui/ui_shop_full.atlas" FileJson="ui/ui_shop_full.json" AnimationName="full" Loop="True" RelativePosition="0.326139,0.490692" Name="spineFull" Visible="False" />
+        <WZUIContainer Type="WZUIContainer" GUID="{bc121acd-f757-4b16-9ecc-cf58afaf5303}" TouchEnable="False" TouchSwallow="False" Name="conSche" />
+        <WZUICheckBox Type="WZUICheckBox" GUID="{9b13e6e3-cc08-41bc-af0c-46e9d8156e4f}" AbsContentSize="120,35" UseAbsSize="True" RelativePosition="0.604856,0.681967" SelectedIndex="0" LuaCheckedFunctionName="onCloseAni">
+            <CheckElement Type="WZUIContainer" GUID="{258c8657-442c-40ca-b77b-c334ef8b21b8}">
+                <WZUIImage Type="WZUIImage" GUID="{aef0cbb6-28cf-43fe-85d6-d9906527a00d}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                <CheckElement Type="WZUILabelTTF" GUID="{80db7292-184c-4f75-9566-29d002558d69}" TextKey="PRACTICE_QUICK" LabelStyleKey="C1_F18" AnchorPoint="0,0.5" RelativePosition="0.3,0.5" />
+            </CheckElement>
+            <CheckElement Type="WZUIContainer" GUID="{7d544aac-678b-493f-bbaf-a5e90f7a567a}">
+                <WZUIImage Type="WZUIImage" GUID="{abb5e890-4028-4a01-8d73-251da2ef5d70}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{48c4fb9a-58d8-4916-9cb2-1de1a4f27886}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                <CheckElement Type="WZUILabelTTF" GUID="{5c5dbb93-f41c-47fd-a82c-a7a6514b7e59}" TextKey="PRACTICE_QUICK" LabelStyleKey="C1_F18" AnchorPoint="0,0.5" RelativePosition="0.3,0.5" />
+            </CheckElement>
+        </WZUICheckBox>
+    </WZUIContainer>
+</WndShopLottery>

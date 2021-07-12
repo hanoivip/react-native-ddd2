@@ -1,0 +1,12 @@
+﻿<WndFreeca GUID="{90519b19-5aa2-48a1-992f-1dd1a28d032d}">
+    <WZUIWindow Type="WZUIWindow" GUID="{db643810-6eda-420f-8a69-610de8237bf4}" AbsContentSize="775,535" LuaObjectName="WndFreeca" Name="WndFreeca" NameCreate="True" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" ShowAll="False" UseAbsCoordinate="True" AbsPosition="400,280">
+        <WZUIContainer Type="WZUIContainer" GUID="{8b40267f-46f2-4a4d-a06f-9ec6318baaef}" AbsContentSize="778,538" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False" Name="rootContainer" UseAbsCoordinate="True" AbsPosition="0,0" AnchorPoint="0,0">
+            <WZUIContainer Type="WZUIContainer" GUID="{9b567a08-9522-4238-a077-03775fbf58d7}" AbsContentSize="640,476" UseAbsSize="True" RelativePosition="0.651953,0.451564" AbsPosition="550,240" UseAbsCoordinate="True">
+                <WZUIContainer AbsContentSize="640,476" GUID="{52e65073-bce3-4860-b9ea-07eb5cab7453}" Name="conActivityContext_WndFreeca" RelativePosition="0.5,0.5" Type="WZUIContainer" UseAbsSize="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{7785cbe2-de37-44c3-962f-edf86a40f2dd}" AbsContentSize="231,453" UseAbsSize="True" RelativePosition="0.171772,0.438" Order="-1">
+                <WZUIFreeListContainer AbsContentSize="231,470" EnableMoveHorizontal="False" GUID="{5bca47b7-307c-455c-8178-2b9e9b4ba8e1}" Name="flActivityItem_WndFreeca" RelativePosition="0.402,0.511139" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndFreeca>

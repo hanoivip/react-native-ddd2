@@ -1,0 +1,21 @@
+﻿<CellListPanelItem GUID="{f777bcb8-f95b-4366-b70c-b8bbc3e01eea}">
+    <WZUIContainer AbsContentSize="624,138" GUID="{0043c55c-39a4-4c46-9676-7b805cb68e32}" Name="CellListPanelItem" NameCreate="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{818f30dd-449a-43e4-8e8e-16eaff7d7d75}" Name="conListItem_CellListPanelItem">
+            <WZUIContainer GUID="{e6e82973-a66b-4629-82c8-bac88781370f}" Type="WZUIContainer" AbsContentSize="624,138" UseAbsSize="True" RelativePosition="0.5,0.5">
+                <WZUI9Image File="ui/common/frame_lieb.png" GUID="{0a37d1df-b55b-47da-a82f-06ae9d12352f}" Type="WZUI9Image" />
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="624,98" GUID="{5fb4197a-b198-41c6-b498-79fca3e30e42}" RelativePosition="0.5,0" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0.5,0">
+                <WZUIContainer AbsContentSize="80,80" GUID="{7e830997-c01d-4d1b-b099-400bdeb61324}" Name="ConItem_1" RelativePosition="0.09,0.5" Type="WZUIContainer" UseAbsSize="True" />
+                <WZUIContainer AbsContentSize="80,80" GUID="{92fa93fa-c226-43ce-92c1-844dbc3e41dd}" Name="ConItem_2" RelativePosition="0.24,0.5" Type="WZUIContainer" UseAbsSize="True" />
+                <WZUIContainer AbsContentSize="80,80" GUID="{90510a33-bd14-4bd6-8b4a-25ff0fb1bf1e}" Name="ConItem_3" RelativePosition="0.39,0.5" Type="WZUIContainer" UseAbsSize="True" />
+                <WZUIContainer AbsContentSize="80,80" GUID="{668ca0cd-bd85-4bf6-895b-94a2ca618f11}" Name="ConItem_4" RelativePosition="0.54,0.5" Type="WZUIContainer" UseAbsSize="True" />
+                <WZUIContainer AbsContentSize="80,80" GUID="{8053a203-3533-455c-9626-d2e6bdef59ad}" Name="ConItem_5" RelativePosition="0.69,0.5" Type="WZUIContainer" UseAbsSize="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{460ccb2f-0647-4c20-8a6b-6cd95a7fa518}" AbsContentSize="624,35" UseAbsSize="True" RelativePosition="0.5,0.867203" Name="conTitle_CellListPanelItem">
+                <WZUI9Image Type="WZUI9Image" GUID="{0038eb8c-647c-4c31-ac72-f1a831b8800f}" File="ui/common/title_frame_02.png" />
+                <WZUIImage Type="WZUIImage" GUID="{c7031d97-b793-4376-a352-df35b0e7dd65}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" Visible="False" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{ab673323-f052-4d3a-8720-a7c7894d4ae5}" Name="txtFreeBox_CellListPanelItem" MaxWidth="400" AnchorPoint="0,0.5" RelativePosition="0.03,0.5" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellListPanelItem>

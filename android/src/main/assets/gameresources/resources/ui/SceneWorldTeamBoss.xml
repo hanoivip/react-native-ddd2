@@ -1,0 +1,196 @@
+﻿<SceneWorldTeamBoss GUID="{1a624aa2-7f86-44f9-8250-09a58a84fa3c}">
+    <WZUIFrame AbsContentSize="" AbsPosition="480,320" GUID="{75ef6d84-079b-4a38-9e58-fea6c25724de}" LuaObjectName="SceneWorldTeamBoss" LuaTouchBeganFunction="onCloseTips" Name="SceneWorldTeamBoss" NameCreate="True" Type="WZUIFrame" UseAbsCoordinate="True" UseAbsSize="False">
+        <WZUIContainer AbsContentSize="" GUID="{fb04bae1-0950-4487-ada5-a4e249adf133}" Type="WZUIContainer" UseAbsSize="False" Visible="True" TouchSwallow="False">
+            <WZUIImage Type="WZUIImage" GUID="{c48e6098-d1cc-4c09-83a7-6e9174ff6cda}" File="ui/common_bg/common_pic_xebl_02.png" />
+            <WZUIParticle Type="WZUIParticle" GUID="{34fb1fdc-8d74-4942-b44b-20d9bf54a044}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{35294ce6-5d8c-4649-a094-48c4398bf690}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" Name="conBossInfo_SceneWorldTeamBoss" Visible="True" ShowAll="True" Order="0">
+            <WZUIContainer Type="WZUIContainer" GUID="{91ea3201-d6b6-4398-a2fa-704b3f9dec0d}" RelativeSize="0.59,1" AnchorPoint="0,0.5" RelativePosition="0.005,0.48" Visible="True" AbsContentSize="538,515" UseAbsSize="True" ShowAll="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{a5815c4f-2d33-45f5-8446-74b550a2efec}" Visible="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{c98a9148-6bf1-4694-a0fc-c3fad1ac960a}" File="ui/common/common_scale9_di32.png" Visible="True" RelativePosition="0.5,0.5" AbsPosition="230.1,265" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{f5c5d470-08b5-404b-955a-e3fd99651112}" AbsContentSize="250,54" UseAbsSize="True" RelativePosition="0.056,0.91" AnchorPoint="0,0.5" Visible="True">
+                    <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{31717c69-5345-44e6-82d1-098c04a27361}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" Visible="True" Order="-1">
+                        <CheckBox Type="WZUICheckBox" GUID="{299956b7-e914-40e7-bd66-da4a6a49825e}" AbsContentSize="108,58" UseAbsSize="True" Name="" NameCreate="True" AnchorPoint="0.5,0.5" RelativePosition="0.25,0.5" SelectedIndex="1" Visible="True" LuaCheckedFunctionName="" Tag="1" LuaSelectedFunctionName="onCheckBox" RelativeSize="1,0.5">
+                            <CheckElement Type="WZUIContainer" GUID="{b53b4d24-fcfe-40a9-bf7a-ae7793b47bce}" RelativePosition="0.5,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{1a655e6a-223a-4815-8ba1-697a5ad9c663}" File="ui/common/common_btn_biaoqian2.png" UseOriginSize="True" TouchEnable="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f3e6fd7d-91a3-4b3e-81c6-4cce5bd4e21b}" Color="255,236,193" EnableStroke="True" FontSize="26" StrokeColor="105,65,46" StrokeSize="4" Text="" Name="txtCheck1_SceneWorldTeamBoss" NameCreate="True" TextKey="SETTLMENT_DAMAGE" />
+                            </CheckElement>
+                            <CheckElement Type="WZUIContainer" GUID="{a8cec342-1a19-459e-80ca-ee36a5ee8f25}">
+                                <WZUIImage Type="WZUIImage" GUID="{638e7b5d-473a-484b-80ad-23c54eb83cba}" File="ui/common/common_btn_biaoqian2_sel.png" UseOriginSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9bf02c97-cddf-4244-98d7-121a95d49915}" Color="255,236,193" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" Name="txtCheckSel1_SceneWorldTeamBoss" NameCreate="True" TextKey="SETTLMENT_DAMAGE" />
+                            </CheckElement>
+                        </CheckBox>
+                        <CheckBox Type="WZUICheckBox" GUID="{23b8bc37-b396-47a9-acc3-0754597d5aad}" AbsContentSize="108,58" UseAbsSize="True" Name="" NameCreate="True" RelativePosition="0.7,0.5" Visible="True" Tag="2" LuaCheckedFunctionName="" LuaSelectedFunctionName="onCheckBox" SelectedIndex="0" AnchorPoint="0.5,0.5" RelativeSize="1,0.5">
+                            <CheckElement Type="WZUIContainer" GUID="{fc5f525c-8bbf-4418-911f-44db09870327}" RelativePosition="0.5,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{64220fe9-6ee9-4538-addd-7444950a88a9}" File="ui/common/common_btn_biaoqian2.png" UseOriginSize="True" TouchEnable="True" RelativePosition="1,0.5" AnchorPoint="1,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{030033e1-f73d-4bae-baba-ebf042a137e3}" Color="255,236,193" EnableStroke="True" FontSize="26" StrokeColor="105,65,46" StrokeSize="4" Text="" Name="txtCheck2_SceneWorldTeamBoss" NameCreate="True" TextKey="ROOM1" />
+                            </CheckElement>
+                            <CheckElement Type="WZUIContainer" GUID="{b60fc7ca-38a6-452f-a023-a6da05ab19d7}">
+                                <WZUIImage Type="WZUIImage" GUID="{8f9e05a8-2078-4e93-952a-4e3619443496}" File="ui/common/common_btn_biaoqian2_sel.png" UseOriginSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b29f3d2c-effc-411d-be4d-b23909b0f751}" Color="255,236,193" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" Name="txtCheckSel2_SceneWorldTeamBoss" NameCreate="True" TextKey="ROOM1" />
+                            </CheckElement>
+                        </CheckBox>
+                        <CheckBox Type="WZUICheckBox" GUID="{29a409cc-8ee0-4b88-bf7c-bd3895fd4e0b}" AbsContentSize="108,58" UseAbsSize="True" Name="" NameCreate="True" RelativePosition="1.15,0.5" Visible="True" Tag="3" LuaCheckedFunctionName="" LuaSelectedFunctionName="onCheckBox" SelectedIndex="0" AnchorPoint="0.5,0.5" RelativeSize="1,0.5">
+                            <CheckElement Type="WZUIContainer" GUID="{f0d6a67f-99f8-4756-9cd3-b0f5c980b8d5}" RelativePosition="0.5,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{bd25c5f5-ad70-4429-b274-e314dc3a8298}" File="ui/common/common_btn_biaoqian2.png" UseOriginSize="True" TouchEnable="True" RelativePosition="1,0.5" AnchorPoint="1,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{eea4b118-5b54-4da3-a237-de40d0d69099}" Color="255,236,193" EnableStroke="True" FontSize="26" StrokeColor="105,65,46" StrokeSize="4" Text="" Name="txtCheck3_SceneWorldTeamBoss" NameCreate="True" TextKey="ATH_REWARD_CHECK" />
+                            </CheckElement>
+                            <CheckElement Type="WZUIContainer" GUID="{a9e8ee40-f061-4aa7-a845-05744cdd8804}">
+                                <WZUIImage Type="WZUIImage" GUID="{0d8e57a9-a84c-4997-8c00-79b4a1f3cbe9}" File="ui/common/common_btn_biaoqian2_sel.png" UseOriginSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d61cdba9-6f08-4edb-8e6c-f2d7fa51d41f}" Color="255,236,193" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" Name="txtCheckSel3_SceneWorldTeamBoss" NameCreate="True" TextKey="ATH_REWARD_CHECK" />
+                            </CheckElement>
+                        </CheckBox>
+                    </WZUICheckBoxGroup>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{ff57b548-f96b-47fc-b115-898ef505f5d6}" Visible="True" AbsContentSize="508,430" UseAbsSize="True" RelativePosition="0.5,0.445">
+                    <WZUI9Image Type="WZUI9Image" GUID="{b42f8097-fd89-414c-89cb-66fbd5d4762e}" File="ui/common/common_scale9_di7.png" Visible="True" RelativePosition="0.5,0.5" AbsPosition="230.1,265" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{77b6478b-bba7-43f5-9154-a1bed1daeb93}" AbsContentSize="486,300" UseAbsSize="True" RelativePosition="0.5,0.786" RelativeSize="1,0.82" AnchorPoint="0.5,1" Visible="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{6478859a-d318-467a-8908-480043ba3a24}" File="ui/common/common_scale9_di4.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{5454364a-ac47-4bc8-89f7-a8c73ff71eb7}" LuaObjectName="" Name="" NameCreate="True" AbsContentSize="" UseAbsSize="False" RelativeSize="1,0.13" AnchorPoint="0.5,1" RelativePosition="0.5,1.13">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{59e1c023-6be4-4d61-8a45-08e663fa7d79}" FontSize="24" Color="255,227,116" Text="" Name="txtTitle1_SceneWorldTeamBoss" TextKey="" RelativePosition="0.12,0.5" LabelStyleKey="C13_F22" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a3d45964-962c-4990-ab27-9e54bdeb07a3}" FontSize="24" Color="62,34,8" Text="" Name="txtTitle2_SceneWorldTeamBoss" TextKey="" RelativePosition="0.436993,0.5" LabelStyleKey="C13_F22" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{15849fcb-bbe0-4bee-9515-e373a80dea08}" FontSize="24" Color="62,34,8" Text="" Name="txtTitle3_SceneWorldTeamBoss" TextKey="" RelativePosition="0.753573,0.5" LabelStyleKey="C13_F22" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{a60324c5-9526-4b64-93b3-c9374dbe313c}" RelativeSize="1,0.94" RelativePosition="0.5,0.5" Name="conList_SceneWorldTeamBoss">
+                        <WZUITableContainer Type="WZUITableContainer" GUID="{1a40be20-ddbb-491c-b146-83f431692ae1}" EnableMoveHorizontal="False" Name="tabList_SceneWorldTeamBoss" CellElementHeight="0.29" RelativeSize="1,1" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{b6efb630-80ed-49cc-a9df-6bb4fbad5078}" RelativeSize="1,0.94" RelativePosition="0.5,0.5" Name="conHurtList_SceneWorldTeamBoss">
+                        <WZUITableContainer Type="WZUITableContainer" GUID="{36aa80b7-07e7-4d96-8dec-0d6b00d5a2dc}" EnableMoveHorizontal="False" Name="tabHurtList_SceneWorldTeamBoss" CellElementHeight="0.32" RelativeSize="1,0.92" AnchorPoint="0.5,1" RelativePosition="0.5,1" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{8143dc89-37a1-40ec-9700-66eb8734b1ed}" Name="ftxtMyRank_SceneWorldTeamBoss" MaxWidth="500" AnchorPoint="0,0.5" RelativePosition="0.05,0.0174" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{df18b2d1-847b-4e9f-9ffd-48508337d524}" Name="ftxtMyHurt_SceneWorldTeamBoss" MaxWidth="500" AnchorPoint="1,0.5" RelativePosition="0.95,0.0174" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{7d6f8fcc-d2cb-42ea-ba85-b49320ae4cc6}" RelativeSize="1,0.18" AnchorPoint="0.5,0" RelativePosition="0.5,0.0271845">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5635e240-22a6-4466-8dc5-34fdee1fce3d}" Text="" FontSize="20" RelativePosition="0.5,0.828889" Name="txtOpenTime_SceneWorldTeamBoss" Visible="False" Alignment="Left" AnchorPoint="0.5,0.5" Color="158,0,0" />
+                    <WZUIButton AbsContentSize="116,56" GUID="{2efa87cd-b47c-4a46-8f93-2e1177fad231}" LuaDoneFunctionName="onSearchButtonClick" RelativePosition="0.20813,0.5" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" LuaActionName="" AbsPosition="89,37.1">
+                        <NormalElement GUID="{97c02c74-ce14-4ad2-a16b-9cb28b519f05}" Type="WZUIContainer">
+                            <WZUIImage Type="WZUIImage" GUID="{598c7bdc-b9a0-40fb-8290-25b9e9f6f87f}" File="ui/common/common_btn_anniu3_1.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{818067ba-45fb-42f3-9e8c-9172a4258249}" Name="txtBtnFindRoom1_SceneWorldTeamBoss" NameCreate="True" FontSize="26" Color="255,236,193" BoldFont="True" TextKey="FIND_ROOM" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </NormalElement>
+                        <SelectElement GUID="{d5be6c82-9f68-4ad9-aea1-16d45966dc5d}" Type="WZUIContainer" Scale="1">
+                            <WZUIImage Type="WZUIImage" GUID="{ac8e86de-00ac-4fae-b3ba-929a81b617ca}" File="ui/common/common_btn_anniu3_1_sel.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{3b66eeed-bfda-4811-a60a-cc5ebb8050b4}" Name="txtBtnFindRoom2_SceneWorldTeamBoss" NameCreate="True" FontSize="26" Color="255,236,193" BoldFont="True" TextKey="FIND_ROOM" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </SelectElement>
+                        <DisableElement GUID="{de6d7289-eec1-4102-949a-2a01e88a6990}" Type="WZUIContainer" UseAbsSize="False" />
+                    </WZUIButton>
+                    <WZUIButton AbsContentSize="116,56" GUID="{473e8db8-1ba5-486d-8666-7db66001d590}" LuaDoneFunctionName="onCreateRoomOK" RelativePosition="0.5,0.5" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" Name="btnCreate_SceneWorldTeamBoss" LuaActionName="" AbsPosition="237,37.1">
+                        <NormalElement GUID="{87d946e9-03af-4380-9c3c-78f6d79eec15}" Type="WZUIContainer">
+                            <WZUIImage Type="WZUIImage" GUID="{3a62f386-41c8-42a8-9200-edf79b05450f}" File="ui/common/common_btn_anniu3_1.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{59ed9670-c338-4ae6-af7c-f1dcdcb61609}" Name="txtBtnCreate1_SceneWorldTeamBoss" NameCreate="True" FontSize="26" Color="255,236,193" BoldFont="True" TextKey="CREATE_ROOM" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </NormalElement>
+                        <SelectElement GUID="{a0eaa17b-26f5-468e-b3fd-c6c9e660d3cc}" Type="WZUIContainer" Scale="1">
+                            <WZUIImage Type="WZUIImage" GUID="{1314e6b2-4c7c-46fd-a352-61b825827f47}" File="ui/common/common_btn_anniu3_1_sel.png" UseOriginSize="True" Visible="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{62173243-58bd-429a-a4c7-a143144f77ab}" Name="txtBtnCreate2_SceneWorldTeamBoss" NameCreate="True" FontSize="26" Color="255,236,193" BoldFont="True" TextKey="CREATE_ROOM" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </SelectElement>
+                        <DisableElement GUID="{08ff8137-bdb9-42ad-ae69-e32efb96baea}" Type="WZUIContainer" UseAbsSize="False" />
+                    </WZUIButton>
+                    <WZUIButton AbsContentSize="130,66" GUID="{b5677e30-e662-4d58-9074-cd04cfe267c5}" LuaDoneFunctionName="onFastGameButtonClick" RelativePosition="0.801627,0.5" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" LuaActionName="" AbsPosition="405,37.1">
+                        <NormalElement GUID="{5078f87e-5320-42d0-953d-9a994b3a8a7d}" Type="WZUIContainer">
+                            <WZUIImage Type="WZUIImage" GUID="{d79abbde-b8f0-445a-bbd7-620c216beeaf}" File="ui/common/common_btn_anniu10.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement GUID="{74574383-beee-4dca-84b1-e0a634d34c65}" Type="WZUIContainer" ScaleX="" Scale="1">
+                            <WZUIImage Type="WZUIImage" GUID="{6db41d1c-4f0b-483b-94dc-c8351f8b614d}" File="ui/common/common_btn_anniu10_sel.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement GUID="{4028e036-2d21-41e4-a100-576e6db07241}" Type="WZUIContainer" UseAbsSize="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{862195f2-d67f-43d1-b804-d54b388251c3}" Name="txtQuickBtnDesc_SceneWorldTeamBoss" NameCreate="True" FontSize="26" Color="255,236,193" BoldFont="True" TextKey="QUICK_JOIN" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="NORMAL_GREEN_BTN" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{0444a4aa-ccfe-41c8-b90b-0d46d0ff0c30}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.950407,0.948296" LuaActionName="Normal" LuaDoneFunctionName="onClickRule">
+                    <NormalElement Type="WZUIContainer" GUID="{8f6d287c-d6d9-498a-ad5c-86525e842631}" />
+                    <SelectElement Type="WZUIContainer" GUID="{0468359b-a17e-4fd4-b639-38a542fdbb09}" />
+                    <DisableElement Type="WZUIContainer" GUID="{f37e584d-9ef0-4921-b7eb-4d8ecf15ea70}" />
+                    <WZUIImage Type="WZUIImage" GUID="{03c6fb63-ccbb-4de1-8300-eb0173ac15df}" File="ui/common/common_icon_gth.png" UseOriginSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{5cce5e2f-1adc-4ebf-8072-43aab1c0ac16}" RelativeSize="1,1" AnchorPoint="1,0.5" RelativePosition="0.997,0.48" Visible="True" AbsContentSize="380,515" UseAbsSize="True" ShowAll="False">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{54382adb-e5a4-416d-b3bf-f3f22c6b2cc4}" Color="233,166,62" FontSize="22" Name="txtMonsterName_SceneWorldTeamBoss" Text="邪恶明朗" RelativePosition="0.5,0.95" Alignment="Left" AnchorPoint="0.5,0.5" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5224c0bc-33f0-4fb6-b64f-52f7faadc8f1}" Name="txtLeftTimes_SceneWorldTeamBoss" FontSize="20" Color="255,236,193" StrokeSize="4" StrokeColor="105,65,46" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.9" Text="" EnableStroke="True" Order="1" />
+                <WZUIContainer Type="WZUIContainer" GUID="{16c19045-cfeb-47ea-964b-eaf79e1fe5d6}" RelativeSize="1,0.75" AnchorPoint="0.5,1" RelativePosition="0.5,0.998214" Visible="True" AbsPosition="152.1,518.481">
+                    <WZUIContainer Type="WZUIContainer" GUID="{e0801861-a1de-4851-91db-0db27b0a3177}" Visible="True" AnchorPoint="0.5,0.5">
+                        <WZUIContainer Type="WZUIContainer" GUID="{c03601ae-0373-4ba3-90c7-4691bf0be816}" AnchorPoint="0.5,1" RelativePosition="0.5,0.622977" RelativeSize="0.7,0.6" Name="conMoster_SceneWorldTeamBoss">
+                            <WZUIImage Type="WZUIImage" GUID="{f1f74f3b-24b1-4536-9175-de526dcf6e31}" File="ui/common/common_icon_yy.png" UseOriginSize="True" RelativePosition="0.5,0.05" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="" GUID="{eafe5d14-2426-4404-a72e-a6600ba66e11}" RelativePosition="0.5,0.10163" Type="WZUIContainer" UseAbsSize="False" Visible="True" RelativeSize="1,0.2" AnchorPoint="0.5,1">
+                        <WZUIContainer AbsContentSize="226,20" AnchorPoint="0,0" GUID="{842684d2-ae6b-4af4-9cbe-d5103803190f}" RelativePosition="0.216962,0.578616" RelativeSize="1,0.5" Type="WZUIContainer" UseAbsSize="True">
+                            <WZUI9Image File="ui/common/common_progress_boss1_bg.png" GUID="{ffdf5438-2cd9-45e0-b609-2052c82fc293}" RelativePosition="0.5,0.5" Type="WZUI9Image" UseOriginSize="True" />
+                            <WZUIProgress BgPicture="ui/common/common_progress_boss1_fore.png" GUID="{c80d1273-e250-42fc-8894-2d0f66e30c09}" Name="progBossBlood_SceneWorldTeamBoss" Percentage="70" RelativePosition="0.5,0.5" Type="WZUIProgress" UseOriginSize="False" RelativeSize="1,0.9" Rotation="" FlipY="False" FlipX="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{38aa7aa5-8238-4b0a-9f78-56c105a5674f}" Color="246,225,225" FontSize="20" Text="" Name="txtBossBlood_SceneWorldTeamBoss" NameCreate="True" EnableStroke="True" LabelStyleKey="NORMAL_EXP_PROGRESS" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{168f025a-621d-49fd-88d1-02c48cdc8168}">
+                                <WZUIContainer Type="WZUIContainer" GUID="{ce332ef6-6c7b-4217-a0b2-eb56e798d5ee}" Name="conRewardBox1_SceneWorldTeamBoss" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.3,1.9" Scale="0.55" ScaleX="0.55" ScaleY="0.55">
+                                    <Button Type="WZUIButton" GUID="{399ae705-284a-4d6e-addd-8559eb776511}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="1" Name="">
+                                        <NormalElement Type="WZUIContainer" GUID="{a21798ea-d719-4bb1-a5d8-79d37c07ab50}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{a0b63b7a-1fd5-474f-90fd-74c76155c7fb}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{9c82a512-18ea-4367-bbb4-7a24b2631210}" />
+                                    </Button>
+                                    <WZUIImage Type="WZUIImage" GUID="{5c4abae0-5eff-40ed-9701-3616c627a1e5}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgNormal_SceneWorldTeamBoss" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{aaf39ea2-72f3-4a38-9745-72273c9e7e97}" File="ui/common/common_icon_lan3.png" UseOriginSize="True" Name="imgGet_SceneWorldTeamBoss" Visible="False" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{63ca7fa1-2730-4b5e-a184-d069496f8cd9}" File="ui/common/common_icon_dw.png" UseOriginSize="True" RelativePosition="0.5,-0.4125" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{d476f73d-bd3c-4319-a26e-51293cbe8bd9}" Name="conRewardBox2_SceneWorldTeamBoss" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.6,1.9" Scale="0.55" ScaleX="0.55" ScaleY="0.55">
+                                    <Button Type="WZUIButton" GUID="{915addfc-4e04-4f0c-92a3-16b4baabc951}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="2" Name="">
+                                        <NormalElement Type="WZUIContainer" GUID="{952620b6-27b2-4ef3-bfc7-a263dfff616a}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{d97f4c7f-f225-4bde-a054-c6069ff017c3}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{db2a03a4-aa90-4e97-b8db-373e3d7dde7e}" />
+                                    </Button>
+                                    <WZUIImage Type="WZUIImage" GUID="{1facce27-fafb-4da0-b71e-b2878398d85a}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgNormal_SceneWorldTeamBoss" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{434f7214-24b1-4c39-ba84-2d36b0672f3d}" File="ui/common/common_icon_zi3.png" UseOriginSize="True" Name="imgGet_SceneWorldTeamBoss" Visible="False" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{e8cfeebb-3a6e-4fc3-b322-e817d43262a5}" File="ui/common/common_icon_dw.png" UseOriginSize="True" RelativePosition="0.5,-0.4125" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{4736fd48-55d4-4741-8ba7-e4fa00f94460}" Name="conRewardBox3_SceneWorldTeamBoss" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.9,1.9" Scale="0.55" ScaleX="0.55" ScaleY="0.55">
+                                    <Button Type="WZUIButton" GUID="{647e4d01-34e9-4b1e-9d13-bb2ccf1f2378}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="3" Name="">
+                                        <NormalElement Type="WZUIContainer" GUID="{2b2544bf-cbbd-4e63-b2cb-7d2299b67191}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{e2de77d6-cadb-4565-87c7-fadff72be7a3}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{60ec08f7-e1af-4acc-8b6c-4bb1aa5cfa99}" />
+                                    </Button>
+                                    <WZUIImage Type="WZUIImage" GUID="{a8dedcab-6dd1-48df-b106-4d30fdccdb62}" File="ui/common/common_icon_huang1.png" UseOriginSize="True" Name="imgNormal_SceneWorldTeamBoss" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{230c8ac2-c63d-4c56-8c69-e3bc52ea7561}" File="ui/common/common_icon_huang3.png" UseOriginSize="True" Name="imgGet_SceneWorldTeamBoss" Visible="False" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{6c2f009b-d912-4be8-82b0-cdaef72c0cf0}" File="ui/common/common_icon_dw.png" UseOriginSize="True" RelativePosition="0.5,-0.4125" />
+                                </WZUIContainer>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{56618741-4353-4206-ac4f-288a3fcb8b4f}" Color="255,236,193" FontSize="22" Name="txtLv_SceneWorldTeamBoss" Text="122" RelativePosition="-0.04,0.5" Alignment="Left" AnchorPoint="1,0.5" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" />
+                        </WZUIContainer>
+                        <WZUIImage Type="WZUIImage" GUID="{2259ebc6-fd02-461d-974b-d63d289cb27b}" File="ui/common/common_scale9_heidi6.png" UseOriginSize="True" Scale="0.6" RelativePosition="0.5,0.28" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{9d332010-3975-432d-bfe0-42a07851135d}" Name="txtFightAdd_SceneWorldTeamBoss" MaxWidth="500" RelativePosition="0.5,0.28" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="" GUID="{fc3a1058-9182-422a-8372-4bd3d7c134dd}" RelativePosition="0.5,0" Type="WZUIContainer" UseAbsSize="False" Visible="True" RelativeSize="1,0.18" AnchorPoint="0.5,0" AbsPosition="152.1,18">
+                    <WZUIContainer Type="WZUIContainer" GUID="{e0be5078-f1af-4f4e-ab10-3df6e002c36b}" RelativeSize="0.5,1" AnchorPoint="0,0.5" RelativePosition="0,0.5" AbsContentSize="" UseAbsSize="False">
+                        <WZUIButton AbsContentSize="140,65" AnchorPoint="0.5,0.5" GUID="{4a281488-6087-4386-a422-36a2bfa679ec}" LuaDoneFunctionName="onGoldInspire" RelativePosition="0.467127,0.34" Type="WZUIButton" UseAbsSize="True" Name="btnGold_SceneWorldTeamBoss" RelativeSize="1,1" LuaActionName="Normal" LocalInterval="300">
+                            <NormalElement GUID="{07412394-9379-4116-b106-e09bb29718b5}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{6eb12f46-5365-4d1a-81f6-40732ae2dda4}" File="ui/common/common_btn_anniu3.png" UseOriginSize="False" />
+                            </NormalElement>
+                            <SelectElement GUID="{083d322d-68f5-4c25-ae6e-c763a34196e8}" Type="WZUIContainer" Scale="1">
+                                <WZUIImage Type="WZUIImage" GUID="{ef351c5c-a44f-4580-89e6-ef3cbd687bae}" File="ui/common/common_btn_anniu3_sel.png" UseOriginSize="False" />
+                            </SelectElement>
+                            <DisableElement GUID="{834b2656-a86a-4266-839f-ff75056c5556}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{2a602ae2-2673-4817-8c2c-cfdacc8c724b}" File="ui/common/common_btn_anniu3.png" UseOriginSize="False" GrayRender="True" />
+                            </DisableElement>
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{4fcb2b13-ba69-4709-b139-22c16bed187b}" Name="ftxtGoldCost_SceneWorldTeamBoss" RelativeSize="1,1" RelativePosition="0.5,0.5" MaxWidth="400" AnchorPoint="0.5,0.5" />
+                        </WZUIButton>
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{38cc6311-dab0-4db2-9d02-09b7d88bc4bc}" Name="ftbCDGold_SceneWorldTeamBoss" RelativeSize="1,1" RelativePosition="0.5,0.828889" MaxWidth="400" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc9b7555-86a6-45c9-bab4-40469df6063b}" Text="00:30" Color="255,236,193" FontSize="22" Alignment="Center" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.839572" Name="txtCDGold_SceneWorldTeamBoss" TextKey="MAYBE_SUCCESS_SCENEWORLDBOSS" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{dd135c03-2b0e-4448-bbb9-a3cbe1e5efa7}" RelativeSize="0.5,1" AnchorPoint="1,0.5" RelativePosition="1,0.5" AbsContentSize="" UseAbsSize="False">
+                        <WZUIButton AbsContentSize="140,65" AnchorPoint="0.5,0.5" GUID="{385b24f8-49a8-4fd3-8e06-ad1d3399d07f}" LuaDoneFunctionName="onDiamondInspire" RelativePosition="0.526299,0.34" Type="WZUIButton" UseAbsSize="True" Name="btnDiamond_SceneWorldTeamBoss" RelativeSize="1,1" TouchEnable="True" LuaActionName="Normal" LocalInterval="300">
+                            <NormalElement GUID="{9a1a398e-1fb3-404b-85ea-383111c61f0a}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{af58b04f-bac2-489b-aaf7-c43589b3f150}" File="ui/common/common_btn_anniu3.png" UseOriginSize="False" />
+                            </NormalElement>
+                            <SelectElement GUID="{3cacf88d-42e1-4a63-ae37-52c0fd19e425}" Type="WZUIContainer" Scale="1">
+                                <WZUIImage Type="WZUIImage" GUID="{d05ccc6b-b67f-44a3-930f-e60c9a74054f}" File="ui/common/common_btn_anniu3_sel.png" UseOriginSize="False" />
+                            </SelectElement>
+                            <DisableElement GUID="{e7a0b431-70f3-484a-9001-e7ba4ff849ae}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{e10e508c-baaa-4acd-ba76-ee4bfb85cf93}" File="ui/common/common_btn_anniu3.png" UseOriginSize="False" GrayRender="True" />
+                            </DisableElement>
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{de7595fe-51de-4361-bfc3-2e4a8dc4c83a}" Name="ftxtDiaCost_SceneWorldTeamBoss" RelativeSize="1,1" RelativePosition="0.5,0.5" MaxWidth="400" AnchorPoint="0.5,0.5" />
+                        </WZUIButton>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{03db0e58-48f2-4087-b311-85a8c6a93ac7}" Text="00:30" Color="255,236,193" FontSize="22" Alignment="Center" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.839572" Name="txtCDDiamond_SceneWorldTeamBoss" TextKey="MUST_SUCCESS_SCENEWORLDBOSS" EnableStroke="True" StrokeColor="105,65,46" StrokeSize="4" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{18deabe9-c1fd-4f12-950a-67f3bc4a0b9b}" Name="conTips_SceneWorldTeamBoss" ShowAll="True" Order="1" />
+    </WZUIFrame>
+</SceneWorldTeamBoss>

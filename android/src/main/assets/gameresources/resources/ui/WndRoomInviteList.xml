@@ -1,0 +1,50 @@
+﻿<WndRoomInviteList GUID="{f143683e-da45-4c59-852c-e48df9df34a1}">
+    <WZUIWindow Type="WZUIWindow" GUID="{7e506116-71c2-4c83-892a-d62f4b6b4001}" LuaObjectName="WndRoomInviteList" Name="WndRoomInviteList" NameCreate="True" AbsContentSize="404,640" UseAbsSize="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{e5f8e384-9936-470a-ace0-54fbbffeeefc}" File="ui/common/common_liebiao_di.png" Opacity="255" RelativeSize="1.5,1.5" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+        <WZUIContainer Type="WZUIContainer" GUID="{04338a83-83fc-4c31-8b84-6cc476278168}" AbsContentSize="404,620" UseAbsSize="True" Name="conInviteList_WndRoomInviteList" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" ShowAll="False">
+            <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{5f63ca2c-290e-4309-a507-5ab4cab32fdb}" AbsContentSize="344,54" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.998387" Name="checkGroupInvite_WndRoomInviteList">
+                <CheckBox Type="WZUICheckBox" GUID="{9262e9b1-95f5-41f3-84a1-3ed7ebc90b20}" AbsContentSize="108,54" UseAbsSize="True" RelativePosition="0.17,0.5" SelectedIndex="1" LuaCheckedFunctionName="onFriend">
+                    <CheckElement Type="WZUIContainer" GUID="{b82caf87-8b58-4f2d-94db-e3254fa7b519}">
+                        <WZUIImage Type="WZUIImage" GUID="{5bd7af18-2b5c-4647-8378-ed4ec49cd7b5}" File="ui/common/common_btn_biaoqian2.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{bbb931e4-9b29-4cf1-b955-d4d6d8f88626}" TextKey="FRIEND" LabelStyleKey="C1_F22_S4_C3" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{00320602-204f-435e-81c3-3a7a8ff308d2}">
+                        <WZUIImage Type="WZUIImage" GUID="{de11e9cc-8af8-435a-ae71-b25fce2f7e27}" File="ui/common/common_btn_biaoqian2_sel.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{365a39ea-ee17-4436-a3d3-b8b102f7b56a}" TextKey="FRIEND" LabelStyleKey="C1_F22_S4_C13" />
+                    </CheckElement>
+                </CheckBox>
+                <CheckBox Type="WZUICheckBox" GUID="{0f411dad-6121-46aa-af59-d393fc2fba7b}" AbsContentSize="108,54" UseAbsSize="True" RelativePosition="0.5,0.5" LuaCheckedFunctionName="onGuild">
+                    <CheckElement Type="WZUIContainer" GUID="{418c1d14-c7c3-47e8-ab26-af161dc69433}">
+                        <WZUIImage Type="WZUIImage" GUID="{7c543452-728f-4b77-a9ff-96a91bcb7ba7}" File="ui/common/common_btn_biaoqian2.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{1f23659a-3bf4-4a3e-be37-0c924cdb4317}" TextKey="COMMUNITY" LabelStyleKey="C1_F22_S4_C3" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{5eb1feb8-8b94-4791-aefe-eeb3aedde016}">
+                        <WZUIImage Type="WZUIImage" GUID="{805904af-aec3-46a3-a26a-cebe4798afef}" File="ui/common/common_btn_biaoqian2_sel.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ed7b3838-4bfa-4e9a-a221-c04f3fb6d374}" TextKey="COMMUNITY" LabelStyleKey="C1_F22_S4_C13" />
+                    </CheckElement>
+                </CheckBox>
+                <CheckBox Type="WZUICheckBox" GUID="{9390ea57-25b7-43eb-b049-9a9497ce42bc}" AbsContentSize="108,54" UseAbsSize="True" RelativePosition="0.83,0.5" LuaCheckedFunctionName="onHall">
+                    <CheckElement Type="WZUIContainer" GUID="{00fc006e-d0bc-4e74-be07-022fc498a540}">
+                        <WZUIImage Type="WZUIImage" GUID="{8a55a06f-6138-4efd-8b90-945a06b79fd0}" File="ui/common/common_btn_biaoqian2.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{43e3e113-6023-41ec-b329-129ef3878306}" TextKey="HALL" LabelStyleKey="C1_F22_S4_C3" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{e35ea5b9-3601-4034-a6ed-7012405bbd9f}">
+                        <WZUIImage Type="WZUIImage" GUID="{f7861386-edb2-4ce4-a3da-5e312fb8ad16}" File="ui/common/common_btn_biaoqian2_sel.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{acaa2b19-8c3a-41fc-bb97-a418f7ef3c3b}" TextKey="HALL" LabelStyleKey="C1_F22_S4_C13" />
+                    </CheckElement>
+                </CheckBox>
+            </WZUICheckBoxGroup>
+            <WZUIContainer Type="WZUIContainer" GUID="{238e02dc-ae16-4602-8941-99d21b39eb61}" AbsContentSize="404,566" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,-0.000403227">
+                <WZUI9Image Type="WZUI9Image" GUID="{ae5f2cd9-487d-4e9c-95bb-87caa5c4d2f9}" File="ui/common/common_liebiao_fengexian.png" UseOriginSize="True" AnchorPoint="0,1" RelativePosition="0,1" ScaleX="16" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{91f977b4-b260-4c42-a99f-a2539178937a}" Name="txtInviteAtt_WndRoomInviteList" Text="" LabelStyleKey="C1_F18" AnchorPoint="0,0.5" RelativePosition="0.04,0.964606" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{532369a6-374e-4f9a-b601-a69e8e4b397d}" EnableMoveHorizontal="False" CellElementHeight="0.175" Name="tableInviteList_WndRoomInviteList" RelativeSize="1,0.94" RelativePosition="0.5,0.468198" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{b6304fe4-0834-408d-8609-9889a621264e}" AbsContentSize="36,88" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="0,0.5" LocalInterval="300" LuaDoneFunctionName="onClickHideInvite">
+                <NormalElement Type="WZUIContainer" GUID="{d4ce0c7a-2dfa-41bc-a2e6-21ab06d2242e}" />
+                <SelectElement Type="WZUIContainer" GUID="{666c7642-8e59-4c3c-ad88-9b05c58705ee}" />
+                <DisableElement Type="WZUIContainer" GUID="{3d0dffd1-754f-4642-8493-f48f84b6b0bc}" />
+                <WZUIImage Type="WZUIImage" GUID="{c43ec63d-ccd1-4ce3-9e38-dd3ed8f7012d}" File="ui/common/common_btn_liebiao_02.png" UseOriginSize="True" Name="imgBtn_WndRoomInviteList" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndRoomInviteList>

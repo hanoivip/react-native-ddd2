@@ -1,0 +1,31 @@
+﻿<CellDoubleSevenTaskItem GUID="{865d80b6-503d-4fbb-bc23-4b3ec5122d8c}">
+    <WZUIContainer Type="WZUIContainer" GUID="{4a88d49d-2a4e-4552-9ac2-7c8163c43c1e}" UseAbsSize="True" AbsContentSize="822,122" Name="CellDoubleSevenTaskItem" Visible="True" LuaObjectName="CellDoubleSevenTaskItem">
+        <WZUI9Image Type="WZUI9Image" GUID="{125173d1-3fa4-4a18-ac90-c1267ec209f3}" File="ui/common/frame_lieb.png" />
+        <WZUIContainer Type="WZUIContainer" GUID="{ef4f3500-2aa6-4b2f-9ff8-7a2c45108f8c}" UseAbsSize="True" AbsContentSize="822,30" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+            <WZUI9Image Type="WZUI9Image" GUID="{a409dba2-30a7-41be-9f99-741b8dfb5545}" File="ui/common/title_frame_02.png" />
+        </WZUIContainer>
+        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{de8c5a28-ae71-4185-8ab8-3d1e4843be24}" MaxWidth="600" RelativePosition="0.02,0.874241" Name="desc" AnchorPoint="0,0.5" />
+        <WZUIImage Type="WZUIImage" GUID="{d65a6abc-9194-4455-9234-8b690cc1b8c2}" File="ui/common/commom_text_ylq.png" UseOriginSize="True" RelativePosition="0.912615,0.401984" Name="get_img" />
+        <Button Type="WZUIButton" GUID="{ec6cefb9-5e89-479f-9564-bffc00a99fd4}" Name="btnGoto" LuaDoneFunctionName="onClickGoto" AbsContentSize="124,52" UseAbsSize="True" RelativePosition="0.90,0.40">
+            <NormalElement Type="WZUIContainer" GUID="{9e6c95bc-419d-47ee-8138-bd637c000ad8}">
+                <WZUIImage Type="WZUIImage" GUID="{e0163520-d8b4-401d-b3b7-7ba9681900c9}" File="ui/common/common_btn_05.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{123971ea-4073-40b5-84e6-415e3b8700c4}">
+                <WZUIImage Type="WZUIImage" GUID="{e9e12bf6-406e-47c3-8077-36dc1d54627d}" File="ui/common/common_btn_05.png" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{28161bdd-7400-425a-af31-936d98515f85}" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{de1020cf-52bb-4c2c-b5d1-214ac4c0edde}" Text="前往" FontSize="22" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" Name="gotoLabel" />
+        </Button>
+        <Button Type="WZUIButton" GUID="{d4d6a505-a200-423c-8e4e-01cdcda65e0a}" Name="btnGet" LuaDoneFunctionName="onClickGet" AbsContentSize="124,52" UseAbsSize="True" RelativePosition="0.90,0.40">
+            <NormalElement Type="WZUIContainer" GUID="{2fbcf9b4-2bf7-48ca-ad20-5146fc044ee0}">
+                <WZUIImage Type="WZUIImage" GUID="{ffaaf845-b18d-4cba-90ea-5e8c0b655c76}" File="ui/common/common_btn_06.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{95daef8d-f240-4461-857c-496ca18956c8}">
+                <WZUIImage Type="WZUIImage" GUID="{1df0d6b3-d324-4326-b246-cfa3c8b72ed8}" File="ui/common/common_btn_06.png" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{b96cbb13-f6b0-4680-8660-e8e549f43a8b}" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{083ce564-cf1b-460c-affa-dabb0adc3f06}" Text="领取" FontSize="22" Color="255,250,236" EnableStroke="True" StrokeColor="0,108,3" StrokeSize="4" Name="getLabel" />
+        </Button>
+        <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{57b1fedb-87a8-4c9c-9205-525cc594b780}" AbsContentSize="500,100" UseAbsSize="True" AnchorPoint="0,0" RelativePosition="0.0383069,0.00992697" Name="goodCon" EnableMoveVertical="False" ListOrient="Horizontal" />
+    </WZUIContainer>
+</CellDoubleSevenTaskItem>

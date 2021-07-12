@@ -1,0 +1,27 @@
+﻿<CellDressCastSoul GUID="{9bdc1b79-fabb-4f86-b0e1-fa870ad1b735}">
+    <WZUIContainer Type="WZUIContainer" GUID="{e1200fd3-2111-4619-9405-1f1d61f0c3f3}" Name="CellDressCastSoul" NameCreate="True" AbsContentSize="138,168" UseAbsSize="True" LuaObjectName="">
+        <WZUIContainer Type="WZUIContainer" GUID="{f399dc4b-674f-4f8b-bf63-8c7b1e4dad94}">
+            <WZUI9Image Type="WZUI9Image" GUID="{3a768280-2e96-409e-81ab-58d670862a18}" File="ui/common/common_zh_di_02.png" UseOriginSize="True" Name="img9BK_CellDressCastSoul" />
+            <WZUIContainer Type="WZUIContainer" GUID="{776c4a41-6f8f-4d23-bdd2-854bf461821b}" AbsContentSize="113,113" UseAbsSize="True" RelativePosition="0.5,0.58">
+                <WZUI9Image Type="WZUI9Image" GUID="{2a26e0ad-75fa-4924-b4f1-318696d5d553}" File="ui/common/common_scale9_di58.png" Opacity="200" />
+                <WZUIImage Type="WZUIImage" GUID="{3b145162-7e6f-4359-b547-ae4825d35a20}" File="ui/common/common_icon_zg.png" UseOriginSize="True" Name="imgQuality_CellDressCastSoul" />
+                <WZUIImage Type="WZUIImage" GUID="{057b9987-807b-4196-b838-e0836b8b9c99}" File="shopitems/bbody007.png" UseOriginSize="True" Name="imgSuitIcon_CellDressCastSoul" />
+                <WZUIContainer Type="WZUIContainer" GUID="{d4b718b1-139a-4fe7-96a9-6334b3c7bdee}" AbsContentSize="113,20" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" Name="conCollectPrg_CellDressCastSoul">
+                    <WZUIImage Type="WZUIImage" GUID="{32f1d544-51f6-4c4a-9739-db913898b6b5}" File="ui/common/common_progress_zh_01.png" UseOriginSize="True" />
+                    <WZUIProgress Type="WZUIProgress" GUID="{6de70bf9-eece-436b-b9b5-b38b417ce948}" BgPicture="ui/common/common_progress_zh_02.png" UseOriginSize="True" Name="prgCollect_CellDressCastSoul" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{57d47d88-96a4-4f04-93f7-e0b4fe268db3}" LabelStyleKey="" Text="123/456" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" Name="txtProgress_CellDressCastSoul" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{dbffb0d6-c25a-46a6-a558-ed66f8ddf0d6}" Name="txtName_CellDressCastSoul" RelativePosition="0.5,0.14" LabelStyleKey="" Text="发搭建苦辣" Color="79,60,48" FontSize="22" />
+            <WZUIImage Type="WZUIImage" GUID="{6e21441f-188f-4cfd-af6e-80ac2fb8c230}" File="ui/common/common_icon_xbtz.png" UseOriginSize="True" RelativePosition="0.253623,0.791666" Name="imgCorner_CellDressCastSoul" Visible="False">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{06608157-c1be-4d63-810e-d2b683301f96}" Name="txtName_CellDressCastSoul" RelativePosition="0.367647,0.625294" LabelStyleKey="C18_F16_S4_C2" Text="已收集" Order="1" Rotation="-48" TextKey="CASTSOUL_TEXT3" />
+            </WZUIImage>
+            <WZUI9Image Type="WZUI9Image" GUID="{e98a41f0-5802-41ed-a62d-038e41e6885f}" File="ui/common/common_fuben_xuanzhong.png" Scale="1.052" Name="img9Sel_CellDressCastSoul" Visible="False" />
+            <Button Type="WZUIButton" GUID="{c70879d2-e8d9-45d7-90d3-6d82eca9618e}" LuaDoneFunctionName="onClickSuit">
+                <NormalElement Type="WZUIContainer" GUID="{d0b8eccc-bf32-4c10-9e3d-f45f594c9ab9}" />
+                <SelectElement Type="WZUIContainer" GUID="{68cc62f9-9dd6-4e54-b208-2f7587572cbd}" />
+                <DisableElement Type="WZUIContainer" GUID="{cb032d6e-b938-478a-8075-d8d2b91306d1}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellDressCastSoul>

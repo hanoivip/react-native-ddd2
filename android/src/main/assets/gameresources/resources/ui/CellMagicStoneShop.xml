@@ -1,0 +1,40 @@
+﻿<CellMagicStoneShop GUID="{48efd0de-2139-4a55-ba7b-475e3dbe2bd5}">
+    <WZUIContainer AbsContentSize="166,195" GUID="{d5eedb9e-e831-42c6-b811-210182a6a5fb}" LuaObjectName="" Name="CellMagicStoneShop" NameCreate="True" Type="WZUIContainer" UseAbsSize="True" Visible="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{2583a1f4-3e36-4850-bb4b-423657764baf}" TouchSwallow="True" AbsContentSize="">
+            <WZUI9Image Type="WZUI9Image" GUID="{9a1e6abd-c4a9-45db-ab54-9fc98e25172d}" File="ui/common/common_scale9_di7.png" />
+            <WZUIContainer Type="WZUIContainer" GUID="{017fa018-ac35-4d84-8131-bc2047eefc5d}" AbsContentSize="147,152" UseAbsSize="True" RelativePosition="0.504673,0.56969">
+                <WZUI9Image Type="WZUI9Image" GUID="{e26fe0ba-dea9-46fb-bc74-5c3a88754850}" File="ui/common/common_scale9_di58.png" />
+                <WZUIImage Type="WZUIImage" GUID="{fdfd95b3-dbb8-42f3-8029-98673dd967ae}" File="ui/common/common_icon_lg.png" UseOriginSize="True" Name="imgQuality_CellMagicStoneShop" />
+                <WZUIContainer Type="WZUIContainer" GUID="{1e44126a-100e-401d-8362-bbec09e376c9}" Name="conLimit_CellMagicStoneShop" RelativeSize="1,0.2" AnchorPoint="0.5,0" RelativePosition="0.5,0.00559211" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{23f7da21-1085-4fd5-bcc5-bfc35dc7962e}" File="ui/common/common_scale9_di59.png" Opacity="122" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{8353847b-b574-46e7-9b41-cd82030a41c4}" LabelStyleKey="C18_F20" Text="今日限购" Name="txtLimitNum_CellMagicStoneShop" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="80,80" GUID="{3ed3fac9-d79a-401b-afc8-46e1af489963}" Name="conProp_CellMagicStoneShop" RelativePosition="0.5,0.515789" Type="WZUIContainer" UseAbsSize="True" NameCreate="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{8428da50-f821-4c08-8657-e92f1f634856}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.858718" TouchSwallow="False" RelativeSize="0.8,0.15">
+                <WZUILabelTTF Alignment="Left" AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" Dimensions="0,0" EnableStroke="False" FontSize="20" GUID="{4376339f-4461-4498-a637-966ec6b716e8}" Name="txtPropName_CellMagicStoneShop" RelativePosition="0.53,0.5" StrokeColor="60,19,12" StrokeSize="4" Text="" TouchEnable="False" Type="WZUILabelTTF" Visible="True" NameCreate="True" LabelStyleKey="" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{e688c660-7cd9-4697-8930-2506f6fb2241}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.1" TouchSwallow="False" RelativeSize="0.8,0.12">
+                <WZUIContainer Type="WZUIContainer" GUID="{52b5ad8e-2aae-458f-952d-331a2fd93511}" RelativePosition="0.5,0.5" Name="conNotLimitTxt_CellMagicStoneShop" Visible="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{c70c2bbc-ba7d-4cf8-ac27-3e9b25071d37}" AbsContentSize="30,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.215714,0.5">
+                        <WZUIImage File="" GUID="{d692c59c-ab4b-48ba-b5b2-b9eacf3fecb0}" Name="imgMoney_CellMagicStoneShop" RelativePosition="0.5,0.5" RelativeSize="1,1" Scale="0.5" ScaleX="1" ScaleY="1" TouchEnable="False" Type="WZUIImage" UseOriginSize="False" Visible="True" isValid="True" UseOriginSizeProportion="True" AbsPosition="" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Alignment="Left" AnchorPoint="0,0.5" BoldFont="False" Color="5,180,0" EnableStroke="False" FontSize="18" GUID="{bee17324-a718-4c44-a164-65fec92c28f2}" Name="txtPrice_CellMagicStoneShop" RelativePosition="0.45,0.45614" StrokeColor="91,49,24" StrokeSize="0" Text="" Type="WZUILabelTTF" Visible="True" NameCreate="True" LabelStyleKey="" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{0bb778d0-9bb7-43ef-85a5-4fa078da755c}" Name="conLock_CellMagicStoneShop" Visible="False">
+                    <WZUIImage Type="WZUIImage" GUID="{8f016e29-30e3-4986-87ae-8e1a55659ab5}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.3" RelativePosition="0.0995762,0.46469" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{1f69a609-cd74-4ef0-ae19-ddf72388dd17}" Text="幻石19级解锁" LabelStyleKey="" AnchorPoint="0,0.5" RelativePosition="0.2,0.5" Name="txtLock_CellMagicStoneShop" FontSize="18" Color="128,54,13" Alignment="Left" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIButton GUID="{cfbc4949-3d3a-48b5-84b3-3539df5c3fea}" LuaDoneFunctionName="OnBtnBuy" Name="" RelativeSize="1,1" Type="WZUIButton" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchSwallow="True" LocalInterval="400">
+            <NormalElement GUID="{0b6ad5b7-ce2a-43d1-a2d8-5aaa7b44f4d8}" Type="WZUIContainer" />
+            <SelectElement GUID="{68f600a9-34d1-441c-8aed-e9e817becc77}" Type="WZUIContainer" />
+            <DisableElement GUID="{9a32bcc1-0950-4131-a741-e5f947cef931}" RelativePosition="0.5,0.507143" Type="WZUIContainer" />
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" GUID="{2285669a-ed1f-40df-935d-95a543d60127}" Name="conSell_CellMagicStoneShop" NameCreate="True" Visible="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{7600604a-1b84-49b3-9786-e79ce2a6b711}" File="ui/common/common_shade_chushouheidi.png" />
+            <WZUIImage Type="WZUIImage" GUID="{ef6120ac-58b4-4d40-b81b-d7572f629456}" File="ui/common/common_icon_shouxing.png" UseOriginSize="True" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellMagicStoneShop>

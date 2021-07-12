@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" ?>
+<WndCopyTowerInfoView GUID="{CCF9190F-F2AE-4f44-B35F-62AF24AC574F}">
+    <WZUIWindow Type="WZUIWindow" GUID="{E1315CD2-142B-4a84-812D-A5145A34CE21}" AbsContentSize="310,149" UseAbsSize="True" NameCreate="True" LuaObjectName="WndCopyTowerInfoView" Name="WndCopyTowerInfoView" ShowAll="True" AnchorPoint="1,1" RelativePosition="1,1">
+        <WZUIContainer Type="WZUIContainer" GUID="{92FFF26C-DD2F-4c49-BEFF-52705524FC15}" AbsContentSize="220,120" UseAbsSize="True" RelativePosition="0,0.5" AnchorPoint="0,0.5" Name="con_WndCopyTowerInfoView">
+            <WZUIContainer Type="WZUIContainer" GUID="{d055dac9-c675-4590-932e-87b8fe8051ce}" Name="conBg_WndCopyTowerInfoView" AnchorPoint="0.5,1" RelativePosition="0.5,1" AbsContentSize="220,110" UseAbsSize="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{ef3cdb10-b869-4243-847b-d90e37de6283}" File="ui/common/common_scale9_di13.png" Opacity="180" RelativePosition="0.5,0.5" RelativeSize="1,1" ShowAll="False" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{11927a02-f1cf-45cc-8806-2cbeb96522d2}" Text="6次出手" FontSize="20" RelativePosition="0.03,0.55" AnchorPoint="0,0.5" Name="attRoundTitle_WndCopyTowerInfoView" Color="255,227,116" TextKey="" Alignment="Left">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{7dfce914-3213-453d-a874-dba8525e7f4c}" FontSize="20" Color="255,236,193" Text="9" RelativePosition="1,0.55" Name="attRound_WndCopyTowerInfoView" AnchorPoint="0,0.5" Alignment="Left" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0ada2f4-01af-4781-8273-4cda437d33b5}" Text="20%剩余血量" FontSize="20" RelativePosition="0.03,0.25" AnchorPoint="0,0.5" Name="remainHpTitle_WndCopyTowerInfoView" Color="255,227,116" TextKey="" Alignment="Left">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{123e57e6-0d42-4577-a242-9b296211f949}" FontSize="20" Color="255,236,193" Text="99" RelativePosition="1,0.5" Name="remainHp_WndCopyTowerInfoView" AnchorPoint="0,0.5" Alignment="Left" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bc07d2a0-cf2b-497f-8aef-024bd242d518}" Text="20%剩余血量" FontSize="20" RelativePosition="0.03,-0.05" AnchorPoint="0,0.5" Name="otherTitle_WndCopyTowerInfoView" Color="255,227,116" TextKey="" Alignment="Left" Visible="False">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2fa914bc-e4da-4bd3-bafa-4f826d964800}" FontSize="20" Color="255,236,193" Text="99" RelativePosition="1,0.5" Name="otherValue_WndCopyTowerInfoView" AnchorPoint="0,0.5" Alignment="Left" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{e193656f-0459-4dd8-9d61-d6ae42e510a7}" AbsContentSize="220,1" UseAbsSize="True" RelativePosition="0.5,0.4">
+                <WZUIImage Type="WZUIImage" GUID="{24ce6122-9fe4-4fa3-8df4-d77bcd9dc185}" File="ui/common/common_scale9_fengexian.png" UseAbsCoordinate="False" UseOriginSize="False" UseOriginSizeProportion="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{9eb2323d-1ace-4783-8f44-d4c6fffeee76}" AbsContentSize="220,1" UseAbsSize="True" RelativePosition="0.5,0.7">
+                <WZUIImage Type="WZUIImage" GUID="{102a602e-a999-4f33-9ed1-dc04a84bb8d6}" File="ui/common/common_scale9_fengexian.png" UseAbsCoordinate="False" UseOriginSize="False" UseOriginSizeProportion="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{08c08d38-6d43-426b-982c-e7f074d575fc}" AbsContentSize="220,1" UseAbsSize="True" RelativePosition="0.5,0.1" Name="conLineThree_WndCopyTowerInfoView" Visible="False">
+                <WZUIImage Type="WZUIImage" GUID="{0a8eb942-b074-4c70-891b-04f711228514}" File="ui/common/common_scale9_fengexian.png" UseAbsCoordinate="False" UseOriginSize="False" UseOriginSizeProportion="False" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{cd2ee7ea-39f0-403c-ad29-8bda5c1d45e7}" Text="通关条件:" FontSize="20" RelativePosition="0.03,0.85" AnchorPoint="0,0.5" Name="txtTowerDesc_WndCopyTowerInfoView" Color="255,227,116" TextKey="" Alignment="Left" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndCopyTowerInfoView>

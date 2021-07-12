@@ -1,0 +1,23 @@
+﻿<CellMagicStoneReward GUID="{0e53d63a-1818-4145-bccc-a2c9974dc548}">
+    <WZUIContainer Type="WZUIContainer" GUID="{d68d2136-c61e-4211-9636-62624c52a88d}" AbsContentSize="108,292" UseAbsSize="True" LuaObjectName="" Name="CellMagicStoneReward" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{3844ac53-838b-4601-ac85-61171c6041a7}">
+            <WZUIImage Type="WZUIImage" GUID="{43082f79-ebd0-4099-97e2-7c7e9cda5631}" File="ui/magicStone/common_liebiao_02.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{b09c6537-abcf-49a6-a949-d85800cfeee9}" Name="txtLevel_CellMagicStoneReward" LabelStyleKey="C3_F20" Text="1" RelativePosition="0.5,0.93" />
+            <WZUIImage Type="WZUIImage" GUID="{288be0ca-0683-4b4e-9465-3854556f8919}" File="ui/magicStone/common_icon_fengexian2.png" UseOriginSize="True" ScaleX="0.7" RelativePosition="0.5,0.88" ScaleY="0.7" Scale="0.3" />
+            <WZUIContainer Type="WZUIContainer" GUID="{50f0c7d3-3185-48cb-bc4d-4cee6aa2d919}" Name="conLevelReward_CellMagicStoneReward" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.730613" />
+            <WZUIContainer Type="WZUIContainer" GUID="{a397a7ce-500a-4d20-be13-bff06cca5bac}" Name="conAdvanceReward1_CellMagicStoneReward" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.427877" />
+            <WZUIContainer Type="WZUIContainer" GUID="{19bc919c-0c1a-4063-940f-1c3a41c0e06d}" Name="conAdvanceReward2_CellMagicStoneReward" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.158178" />
+            <WZUIImage Type="WZUIImage" GUID="{d1906042-1841-4d50-9ef4-5700e8dad819}" File="ui/common/common_icon_gou.png" UseOriginSize="True" RelativePosition="0.771,0.664911" Name="imgLevelRewardState_CellMagicStoneReward" TouchEnable="False" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{6cae4021-708f-4b4a-82d2-f98d6917bde9}" File="ui/common/common_icon_gou.png" UseOriginSize="True" RelativePosition="0.771,0.363964" Name="imgAdvanceRewardState1_CellMagicStoneReward" TouchEnable="False" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{e12332ee-ec5a-4c70-9e39-5617ebf276d1}" File="ui/common/common_icon_gou.png" UseOriginSize="True" RelativePosition="0.771,0.105793" Name="imgAdvanceRewardState2_CellMagicStoneReward" TouchEnable="False" Visible="False" />
+            <WZUIContainer Type="WZUIContainer" GUID="{bfbedda8-4434-4197-9809-7ce8bbca639e}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.427877" Scale="0.9" TouchEnable="False" Name="conAdvanceLock1_CellMagicStoneReward" Visible="False">
+                <WZUI9Image Type="WZUI9Image" GUID="{058df0f3-49b0-4551-8281-1a3608ebd525}" File="ui/common/common_shade_chushouheidi1.png" Opacity="150" TouchEnable="False" />
+                <WZUIImage Type="WZUIImage" GUID="{6f917d8f-0ad6-42af-b3ab-8393408b18b6}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" TouchEnable="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{f7ebe2db-9287-48d8-975d-47a6ef47c104}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.161603" Scale="0.9" TouchEnable="False" Name="conAdvanceLock2_CellMagicStoneReward" Visible="False">
+                <WZUI9Image Type="WZUI9Image" GUID="{f19a5c87-d787-4ae4-8718-d880563f083f}" File="ui/common/common_shade_chushouheidi1.png" Opacity="150" TouchEnable="False" />
+                <WZUIImage Type="WZUIImage" GUID="{2c5c59dd-fded-456c-a503-84ba4ffd6441}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" TouchEnable="False" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellMagicStoneReward>

@@ -1,0 +1,28 @@
+﻿<CellReturneeBusinessmanItem GUID="{85e84763-c5e3-46b4-96ac-398d67245ac6}">
+    <WZUIContainer Type="WZUIContainer" GUID="{cc07e400-f763-4052-89f3-94449e6f1cf5}" LuaObjectName="" NameCreate="True" Name="CellReturneeBusinessmanItem" AbsContentSize="180,188" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{a5563961-a175-4088-b4b4-6627b41e8d83}" Name="" LuaObjectName="" AbsContentSize="" UseAbsSize="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{2d64f430-360e-4606-ad17-d4ccfd9b5794}" File="ui/gameActivity/returnee/daozhu_di1.png" />
+            <WZUIContainer Type="WZUIContainer" GUID="{5ccb38e5-9b01-4ef8-bb05-06c0b5215df0}" AbsContentSize="160,140" UseAbsSize="True" RelativePosition="0.5,0.569149">
+                <WZUI9Image Type="WZUI9Image" GUID="{686c97ee-c0f5-4db3-a837-ffc3728700ce}" File="ui/common/common_scale9_di58.png" />
+                <WZUIImage Type="WZUIImage" GUID="{1852f402-55bb-48e6-94b0-29e0b5e5389f}" Name="imgBg_CellReturneeBusinessmanItem" File="" UseOriginSize="True" Visible="True" />
+                <WZUIImage Type="WZUIImage" GUID="{fa540a37-d6ad-4563-8258-21ccda5c42f9}" Name="imgItem_CellReturneeBusinessmanItem" UseOriginSize="True" File="" />
+                <WZUILabelTTF Alignment="Center" AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" Dimensions="0,0" EnableStroke="False" FontSize="20" GUID="{3041bbf9-e1f4-42f3-a705-7fcf6a40dc0e}" Name="txtItemName_CellReturneeBusinessmanItem" RelativePosition="0.5,0.871428" StrokeColor="60,19,12" StrokeSize="4" Text="" TouchEnable="False" Type="WZUILabelTTF" Visible="True" NameCreate="True" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2dc834d6-c450-4ed3-a16d-b2a8ab5eb5c8}" Color="255,255,255" FontSize="18" Text="" RelativePosition="0.7,0.25" AnchorPoint="0,0.5" Name="txtItemNum_CellReturneeBusinessmanItem" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{321dde82-c929-4d4e-a088-a961475a1aa0}" AbsContentSize="180,35" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0.0106383">
+                <WZUIImage Type="WZUIImage" GUID="{f66679aa-3368-4296-92c1-a189313e2a67}" Name="imgCost_CellReturneeBusinessmanItem" RelativePosition="0.13,0.5" UseOriginSize="True" File="" Scale="0.5" ScaleX="0.5" ScaleY="0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{730c261b-ff86-4c75-bf9c-ae175d888dad}" Name="txtCost_CellReturneeBusinessmanItem" Text="" LabelStyleKey="C6_F18" AnchorPoint="0,0.5" RelativePosition="0.23,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b8bb5aa5-cd73-41b4-ac13-55f3a03f5d5b}" Name="txtRemainingNum_CellReturneeBusinessmanItem" Text="" FontSize="18" RelativePosition="0.96,0.5" AnchorPoint="1,0.5" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{b0d109ba-81e9-454f-a8d9-e89de0aa0a1b}" LuaDoneFunctionName="onClickBuy">
+                <NormalElement Type="WZUIContainer" GUID="{8069088e-c926-4c56-a777-f3b892a2375c}" />
+                <SelectElement Type="WZUIContainer" GUID="{87fa8172-0f12-43bc-8ae6-ccef1192ca16}" />
+                <DisableElement Type="WZUIContainer" GUID="{cc17dbae-02c7-4ea9-b188-84066d508560}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{52efaf1c-c880-4d33-ad02-aab600c0dbfc}" Name="conSell_CellReturneeBusinessmanItem" NameCreate="True" Visible="False">
+                <WZUI9Image Type="WZUI9Image" GUID="{2b8edcfe-55a2-42eb-81b6-d11062485ab3}" File="ui/common/common_shade_chushouheidi.png" />
+                <WZUIImage Type="WZUIImage" GUID="{235ab834-113a-48d3-9245-7b8917b171b4}" File="ui/common/common_icon_shouxing.png" UseOriginSize="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeBusinessmanItem>

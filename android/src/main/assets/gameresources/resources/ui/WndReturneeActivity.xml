@@ -1,0 +1,36 @@
+﻿<WndReturneeActivity GUID="{357bcef0-b5ca-4efa-a283-c2973d61154f}">
+    <WZUIWindow Type="WZUIWindow" GUID="{a541b4c5-d62b-4058-a809-7b89302a963c}" AbsContentSize="1136,640" LuaObjectName="WndReturneeActivity" Name="WndReturneeActivity" NameCreate="True" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" ShowAll="True" Visible="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{86a943d3-d6a3-4005-abba-866bdcffbfde}" AbsContentSize="798,472" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False">
+            <WZUIImage Type="WZUIImage" GUID="{f67fea95-1844-42c0-8934-8849ac2a0316}" File="ui/gameActivity/holiday_dikuang.png" UseOriginSize="True" RelativePosition="0.5,0.463983" ScaleX="1" Scale="1" Order="-1" Name="imgBg_WndReturneeActivity" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{a479f7c1-3d5f-4fb7-b25a-758b06c48862}" File="ui/gameActivity/holiday_top_1.png" UseOriginSize="True" RelativePosition="0.5,0.955" Visible="True" Name="imgTitleBg_WndReturneeActivity" />
+            <WZUIImage Type="WZUIImage" GUID="{82d1fbe5-194c-4255-a158-524befd713e7}" File="ui/gameActivity/returnee/daozhu_top_hyhg.png" UseOriginSize="True" RelativePosition="0.5,0.92" Scale="1" ScaleX="0.8" ScaleY="0.8" Name="imgTitle_WndReturneeActivity" />
+            <WZUIContainer Type="WZUIContainer" GUID="{aa771870-d55e-4715-bec3-08dcdd41f73d}" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.942408,0.872722">
+                <Button Type="WZUIButton" RelativePosition="0.5,0.5" AbsContentSize="70,70" UseAbsSize="True" GUID="{6dd59fa1-1c5d-4045-8093-c2ba96ce69a4}" LuaDoneFunctionName="onCloseClick" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{484864ce-286e-40e6-bac2-669ca07abd01}">
+                        <WZUIImage Type="WZUIImage" GUID="{e1e19b37-9e8b-41e0-a01e-7ade829e3bb6}" File="ui/gameActivity/holiday_guanbi.png" UseOriginSize="True" Name="imgBtnClose1_WndReturneeActivity" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{9ceb3171-84f4-4ee8-8c22-e2bd2b3a6739}">
+                        <WZUIImage Type="WZUIImage" GUID="{624eb6b2-5f0f-43cd-995e-cde103c3c5cc}" File="ui/gameActivity/holiday_guanbi.png" UseOriginSize="True" Name="imgBtnClose2_WndReturneeActivity" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{32c51527-369e-4431-8afd-efa1b97d250d}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIFreeListContainer AbsContentSize="150,390" EnableMoveHorizontal="False" GUID="{5958897d-e6d3-46de-a5f2-bc177cd95c3e}" Name="flListItem_WndReturneeActivity" RelativePosition="0.108731,0.388" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{8be297ad-c9a7-4113-b80d-8958a36f9501}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" RelativePosition="0.593017,0.388" Visible="True" Name="imgContextBg_WndReturneeActivity" AbsPosition="" />
+            <WZUIContainer Type="WZUIContainer" GUID="{df0c272b-af81-47a5-8d63-e999436c1689}" AbsContentSize="620,390" UseAbsSize="True" RelativePosition="0.593017,0.388" Order="0" Visible="True" Name="conContext1_WndReturneeActivity" />
+            <WZUIContainer Type="WZUIContainer" GUID="{57ed86b0-385c-4803-85c3-b3239a96cd7c}" Name="conContext2_WndReturneeActivity" AbsContentSize="770,390" UseAbsSize="True" RelativePosition="0.497,0.388" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{b85c0bb1-7594-46fb-9e2c-3771538168f6}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" RelativePosition="0.593017,0.388" Visible="False" Name="imgContextBg_WndReturneeActivity" />
+            <WZUIContainer Type="WZUIContainer" GUID="{6e8afe54-2186-4e57-9afd-db4ba3623607}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.00960508,-0.023853" Order="0" Name="conExplain_WndReturneeActivity" Visible="True">
+                <Button Type="WZUIButton" GUID="{ffb1ebb0-b797-46fe-99d3-140ba78cfe28}" LuaDoneFunctionName="onClickDetail" LuaActionName="Normal" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{88b153a2-e1e9-4062-bb70-94477a90d542}">
+                        <WZUIImage Type="WZUIImage" GUID="{f51f7a95-40d4-4ac3-a0a0-a7555bc4de33}" File="ui/gameActivity/holiday_gth.png" UseOriginSize="True" Scale="0.9" ScaleX="0.9" ScaleY="0.9" Name="imgExplain1_WndReturneeActivity" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{81b8f5c1-3a66-467a-94e2-4292592b0485}">
+                        <WZUIImage Type="WZUIImage" GUID="{596e3b8e-3d91-4cb7-8c68-bf3bb86e0c61}" File="ui/gameActivity/holiday_gth.png" UseOriginSize="True" Scale="0.9" ScaleX="0.9" ScaleY="0.9" Name="imgExplain2_WndReturneeActivity" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{05abf1f8-674e-449f-aa6f-e73f1d618d3e}" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndReturneeActivity>

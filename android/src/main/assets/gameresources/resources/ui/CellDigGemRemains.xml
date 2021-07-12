@@ -1,0 +1,70 @@
+﻿<CellDigGemRemains GUID="{aef34169-45f3-4438-9ed2-51dcef21e794}">
+    <CellElement Type="WZUIContainer" GUID="{b8dfba0c-fbbd-40cb-b701-46fec8acf467}" UseAbsSize="True" AbsContentSize="340,150" Tag="0" Name="CellDigGemRemains" NameCreate="True" ShowAll="False" RelativePosition="0.5,0.5" LuaObjectName="CellDigGemRemains">
+        <WZUIContainer Type="WZUIContainer" GUID="{8f0e657c-8032-4d50-8c7e-b4d75a1a4a24}" Visible="True" Name="conFrame_CellDigGemRemains" NameCreate="True" AbsContentSize="" UseAbsSize="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{d8c33b7b-3210-49e7-9414-3fadf83f7d57}" UseAbsSize="True" AbsContentSize="340,150">
+                <WZUIImage Type="WZUIImage" GUID="{91a996b2-af90-4459-ac45-58dbee69b03c}" File="map/map119_bg.png" Visible="True" Scale="0.82" Name="imgIcon_CellDigGemRemains" NameCreate="True" UseOriginSize="True" />
+            </WZUIContainer>
+            <WZUI9Image Type="WZUI9Image" GUID="{b4c0502d-7d75-4ca8-8f87-6ab283f6b209}" File="ui/common/common_scale9_kuang.png" Visible="True" UseOriginSizeProportion="False" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{3c28fef7-9b77-42e3-a70a-0ca605d82e66}" Name="conLevel_CellDigGemRemains" NameCreate="True" Visible="True" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{b2b7c73d-5c26-49c8-bb00-2df4695a03bd}" RelativeSize="0.96,0.2" RelativePosition="0.5,0.965" AnchorPoint="0.5,1" Visible="True" AbsContentSize="" UseAbsSize="False">
+                <WZUIImage Type="WZUIImage" GUID="{28a660ca-e771-42de-9653-1a38c656d745}" File="ui/common/common_scale9_heidi7.png" Scale="1" FlipX="True" FlipY="False" RelativePosition="0.5,0.5" AbsPosition="205.64,18.4" Opacity="150" UseOriginSize="False" />
+                <WZUI9Image Type="WZUI9Image" GUID="{997fc561-a330-4d0e-b07d-223dc401ef91}" File="ui/common/common_scale9_di11.png" CapInsets="" UseOriginSize="False" RelativeSize="0.56,0.94" RelativePosition="0,0.5" AnchorPoint="0,0.5" Visible="True" AbsPosition="95.44,18.4" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{dddfda26-5ea1-4111-ba10-a665658b741c}" Color="255,255,255" Alignment="Left" AnchorPoint="0,0.5" Text="死亡洞穴（地狱）" FontSize="20" RelativePosition="0.0144077,0.466667" Name="txtName_CellDigGemRemains" BoldFont="True" />
+                <WZUIContainer Type="WZUIContainer" GUID="{e37832d7-3fba-490f-bb56-82d54a3ec13f}" RelativeSize="0.47,1" AnchorPoint="1,0.5" RelativePosition="1,0.5" AbsPosition="" Name="conLeftCnt_CellDigGemRemains">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{e4e89c6e-13e6-4d34-b6e1-3a0e844e48bf}" Color="255,236,193" Text="" FontSize="18" RelativePosition="0.5,0.47" Name="txtChallengeState_CellDigGemRemains" NameCreate="True" AnchorPoint="0.5,0.5" Visible="True" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{70ff64d3-a8a3-4c54-a1e3-337fbe23f661}" ShowText='&lt;T C=&quot;255,227,116&quot; S=&quot;18&quot; P=&quot;0&quot;&gt;剩余时间：&lt;/T&gt;&lt;T C=&quot;255,236,193&quot; S=&quot;18&quot; P=&quot;0&quot;&gt;23:59&lt;/T&gt;' MaxWidth="200" RelativePosition="0.5,0.47" Name="ftbLeftCnt_CellDigGemRemains" Visible="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{239d4227-61cd-4d8f-be1f-e015455905e5}" UseAbsSize="True" AbsContentSize="92,46" RelativePosition="0.829412,0.206667" LuaActionName="Normal" LuaDoneFunctionName="onChallenge">
+            <NormalElement Type="WZUIContainer" GUID="{760a5d00-926b-489d-97d4-5820f7bb9625}">
+                <WZUIImage Type="WZUIImage" GUID="{63238ebb-e9b8-4ab6-92af-bd07665017ff}" File="ui/common/common_btn_anniu10_0.png" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{d1344653-0eef-4998-82b7-fb723ab490f1}">
+                <WZUIImage Type="WZUIImage" GUID="{0f73f015-c47b-4df4-ae2c-9341b0a646ba}" File="ui/common/common_btn_anniu10_0.png" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{34194cc4-05b9-4e51-9bb7-810a2b06e52e}" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{307dc2e8-e7c9-4625-b8d7-7b8f07cbb7b2}" TextKey="PETLOOK" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeColor="0,72,3" StrokeSize="4" Text="" Name="txtChallenge_CellDigGemRemains" RelativePosition="0.5,0.47" UseOriginSize="True" LabelStyleKey="" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{1a2e07ea-b488-427e-90b4-1b2d7cbc9de6}" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{0e80d2eb-bea7-4ea5-8aa7-c116bc8459db}" AbsContentSize="99,140" UseAbsSize="True" RelativePosition="0.1665,0.515" Visible="False" Name="conShare_CellDigGemRemains">
+                <WZUIContainer Type="WZUIContainer" GUID="{87a85f96-5511-474c-a875-8ed283057a88}" Name="">
+                    <WZUI9Image Type="WZUI9Image" GUID="{aca5db73-381b-4fca-af81-fac8a223a1c2}" File="ui/common/common_scale9_di45.png" UseOriginSize="False" />
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{64c8b9d7-286b-4038-80b5-56226c00b1f2}" UseAbsSize="True" AbsContentSize="80,40" RelativePosition="0.5,0.805714" LuaActionName="Normal" LuaDoneFunctionName="onShareWorld">
+                    <NormalElement Type="WZUIContainer" GUID="{f6c4cef5-4862-453e-ad41-03c10560a8c2}">
+                        <WZUIImage Type="WZUIImage" GUID="{26a6e54b-0e88-402b-9170-c9ee17030f78}" File="ui/shop/common_btn_shop.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{33540dbf-aa01-4b4e-9abf-590f780479f6}">
+                        <WZUIImage Type="WZUIImage" GUID="{d24eb85f-cdec-4536-9d35-69d668ae97f9}" File="ui/shop/common_btn_shop.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{e2856503-8838-4f84-a0e2-c65094db1b1c}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{0a55a007-bba9-4017-9d8a-a11391285aa1}" TextKey="FIGHT_COPY" FontSize="18" Color="255,236,193" StrokeColor="79,60,48" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.47" Name="txtCopy_CellDigGemRemains" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{b2ff20fc-8f29-4e45-8304-f9b7de6a3bc8}" UseAbsSize="True" AbsContentSize="80,40" RelativePosition="0.5,0.497143" LuaActionName="Normal" LuaDoneFunctionName="onShareGuild">
+                    <NormalElement Type="WZUIContainer" GUID="{629578fc-a9c3-410b-a8b9-b39191d26902}">
+                        <WZUIImage Type="WZUIImage" GUID="{1e864860-789a-4a88-b331-1a1bd5e99bac}" File="ui/shop/common_btn_shop.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{9cd0b69d-7777-44f4-a533-21848397ef6d}">
+                        <WZUIImage Type="WZUIImage" GUID="{5fc103f9-3693-4d09-8d6f-6eaae58efe29}" File="ui/shop/common_btn_shop.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{1d407925-43fd-42e9-a1de-503633d28c9c}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a545176b-6006-49b0-b118-4748a1295ce1}" TextKey="COMMUNITY" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.47" Name="txtCommunity_CellDigGemRemains" />
+                </Button>
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{e37e2495-5dc9-472c-9b5c-ce5988bbe532}" UseAbsSize="True" AbsContentSize="90,44" RelativePosition="0.1665,0.22" LuaActionName="" Name="btnShare_CellDigGemRemains" LuaDoneFunctionName="onShareClick">
+                <NormalElement Type="WZUIContainer" GUID="{9d55ceea-8ab9-44e9-83c1-c96856145339}">
+                    <WZUIImage Type="WZUIImage" GUID="{08f2eef4-1f70-4501-bcba-1e60ee37abae}" File="ui/common/common_btn_anniu7.png" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{e769f6a0-1935-4789-a89d-a5572c5170d7}">
+                    <WZUIImage Type="WZUIImage" GUID="{430425df-fc9d-4aa6-9739-fd3c416578e6}" File="ui/common/common_btn_anniu7_sel.png" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{bba597b5-4b1a-4010-be2a-e9d1b0beb7a1}">
+                    <WZUIImage Type="WZUIImage" GUID="{e68765fa-ba9c-42d4-9612-61dc2fa55f08}" File="ui/common/common_btn_anniu7.png" GrayRender="True" />
+                </DisableElement>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{6b2f8bfa-d135-4df3-b4db-132d8b6269b8}" TextKey="" FontSize="20" Color="255,255,255" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" RelativePosition="0.5,0.47" LabelStyleKey="SMALL_ORANGE_BTN" Scale="0.7" Text="" Name="txtBtnShare_CellDigGemRemains" />
+            </Button>
+        </WZUIContainer>
+    </CellElement>
+</CellDigGemRemains>

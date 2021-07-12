@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<CellDailyCopy GUID="{08811D60-91D9-4e26-A5AB-3ADA235FD986}">
+    <WZUIContainer Type="WZUIContainer" GUID="{9EC1486B-1B08-4531-B5C4-5CFFAB69B4D3}" AbsContentSize="323,150" UseAbsSize="True" Name="CellDailyCopy" NameCreate="True" RelativeSize="1,1" Scale="1">
+        <WZUIContainer Type="WZUIContainer" GUID="{E3A18A14-DE0A-4c16-A92F-0C56381B939E}" AbsContentSize="319,147" UseAbsSize="True" Visible="True" RelativeSize="1,1" RelativePosition="0.5,0.5">
+            <WZUIImage Type="WZUIImage" GUID="{6B48496A-54A6-4136-9E2E-98EEECFDE8AC}" File="" Name="imgMap_CellDailyCopy" NameCreate="True" Visible="True" UseOriginSize="True" RelativeSize="1,1" Scale="1" ScaleY="1" ScaleX="1" />
+        </WZUIContainer>
+        <WZUI9Image Type="WZUI9Image" GUID="{7737C96E-3FD5-4bfa-A205-7170A53967BC}" File="ui/profession/jineng_tf_di_xuanzhong.png" Scale="1" ScaleX="1" ScaleY="1" Name="imgSel_CellDailyCopy" NameCreate="True" Visible="True" RelativePosition="0.5,0.5" AbsPosition="135.5,72.5" />
+        <Button Type="WZUIButton" LuaDoneFunctionName="OnBtnSelect" GUID="{7B49572B-3392-4156-BA4F-2A2929F95998}">
+            <NormalElement Type="WZUIContainer" GUID="{E0993933-7CA6-4592-8F08-8CFBC698E4C7}" />
+            <SelectElement Type="WZUIContainer" GUID="{DB04CD88-F619-4831-BBD6-451B681326D0}" />
+            <DisableElement Type="WZUIContainer" GUID="{FD1B3CBC-C544-4580-9E7A-05FDD108E6F4}" />
+        </Button>
+    </WZUIContainer>
+</CellDailyCopy>

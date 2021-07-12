@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" ?>
+<CellCheckOther9 GUID="{C29FC553-C8DF-49d5-BB59-5C054DD42D20}">
+    <WZUIContainer Type="WZUIContainer" GUID="{414B6B99-8126-4d75-8B86-5E56D5CB3E0D}" AbsContentSize="480,80" UseAbsSize="True" Name="CellCheckOther9" LuaObjectName="" RelativePosition="0.5,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{7299890B-3C09-446d-AFB1-932167EB499C}" Name="" AbsContentSize="480,80" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{6e10fb6f-83a2-4d27-b096-30c9eee19ec1}" Name="conForTitle_CellCheckOther9" UseAbsSize="True" AbsContentSize="50,70" RelativePosition="0.008,0.5" AnchorPoint="0,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{215fc2fc-c7cd-459e-ad3c-b0edef821eff}" RelativePosition="0.545,0.5" AbsContentSize="460,80" UseAbsSize="True">
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.0934,0.5" UseAbsSize="True" GUID="{f97fcead-30ca-4740-af9d-e1f6427623ef}" Scale="0.91" Tag="1" LuaDoneFunctionName="onClick" Name="btn1" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{8cc3c642-bc77-48a3-b12a-d73741e35a58}" File="ui/common/common_scale9_beibaodi.png" Name="black1" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{2c0e4fe4-7745-4fd7-a494-09886087f36e}" File="" Name="quality1" Visible="True" UseOriginSize="False" />
+                    <NormalElement Type="WZUIContainer" GUID="{b45eb32e-de82-401e-8c0b-686b0e4cf7cd}" AbsContentSize="53,53" UseAbsSize="False" RelativePosition="0.5,0.5" Scale="1">
+                        <WZUIImage Type="WZUIImage" GUID="{494be6e6-1aac-4556-98e0-9e9d68a5b193}" Name="icon1" Scale="0.9" Visible="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{ab91b619-e237-403d-8392-d46b481e4bd7}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{dd679fb5-7ac9-4bb9-9dba-60d2b7408811}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{551062f0-fc8e-4a1c-a4ba-93c0c6336a21}" Name="icon1Sel" RelativePosition="0.5,0.5" Visible="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{dde9261c-cbc5-46ed-b90d-5ac14eb0404b}" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.255,0.5" UseAbsSize="True" GUID="{48c2221b-71ed-4feb-86de-c69478f52581}" Scale="0.91" Tag="2" LuaDoneFunctionName="onClick" Name="btn2" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{97beffdc-deb8-42f5-a2a1-2c4cfeddc908}" File="ui/common/common_scale9_beibaodi.png" Name="black2" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{80dde9dd-7146-42b5-b9b8-0b27b4954a9c}" File="" Name="quality2" />
+                    <NormalElement Type="WZUIContainer" GUID="{7b68588e-6cf8-40d6-b796-2508c1f01331}">
+                        <WZUIImage Type="WZUIImage" GUID="{4bd16ee4-91fa-4aad-ba76-78914a4af52a}" Name="icon2" Scale="0.9" RelativePosition="0.5,0.5" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{8d1f23c7-3869-4abe-bab5-27dd3db4b757}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{30eff3c0-8400-4df4-a439-9ed4206b8459}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{6c23aad3-66f5-48fe-9ed6-acdcfc58fc6a}" Name="icon2Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{bfa37fcf-9564-4b9b-ab9e-1d76d7d235f7}" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.417,0.5" UseAbsSize="True" GUID="{f142c746-428d-4a3a-a374-8fd157648fd7}" Scale="0.91" Tag="3" LuaDoneFunctionName="onClick" Name="btn3" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{a42dbd79-4da9-4798-9579-1619c6ee0a4f}" File="ui/common/common_scale9_beibaodi.png" Name="black3" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{9ccb1bae-a39a-4d72-9dc9-89246a9ae6b0}" File="" Name="quality3" />
+                    <NormalElement Type="WZUIContainer" GUID="{0a2eb30f-be03-404b-8d3b-167c3804ea10}">
+                        <WZUIImage Type="WZUIImage" GUID="{b6aeaffe-a51f-4616-9508-a622445b31c0}" Name="icon3" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{7c86fe38-311c-4355-8bd7-491d3b16456d}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{29039afd-7e51-446a-a739-739c484afa77}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{6df35b84-2335-492b-8fc9-c17eed23dadd}" Name="icon3Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{818fbaa0-6af0-47a6-9a43-0585c71cbe23}" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.579,0.5" UseAbsSize="True" GUID="{598fb226-311f-4d69-af7d-870d9afeabde}" Scale="0.91" Tag="4" LuaDoneFunctionName="onClick" Name="btn4" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{2a25332f-1675-470a-9744-8b99e9da9ac4}" File="ui/common/common_scale9_beibaodi.png" Name="black4" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{2c9ca3ad-8595-42a9-bf8c-b1ed1749ee45}" File="" Name="quality4" />
+                    <NormalElement Type="WZUIContainer" GUID="{260ab252-c6b9-4e4d-a0c1-de13bb3e1cb4}">
+                        <WZUIImage Type="WZUIImage" GUID="{d2cd243b-36f2-4bfa-8535-68d870008974}" Name="icon4" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{c0276597-198a-42e1-8cf8-bdd1b453e364}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{6521759b-a89a-470c-94ef-706229feaa9c}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{4761cfd2-abea-4559-bdc7-5ff9d0ed8d07}" Name="icon4Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{f0f5a961-5fa8-416b-9778-7dfced241d64}" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.741,0.5" UseAbsSize="True" GUID="{ab989103-1dd7-4dd4-942c-35c2d14c28b4}" Scale="0.91" Tag="5" LuaDoneFunctionName="onClick" Name="btn5" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{de837a62-8b32-405e-896a-5855a6a0fcf2}" File="ui/common/common_scale9_beibaodi.png" Name="black5" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{3eaf23bb-d502-4f17-9188-97b72c70e21c}" File="" Name="quality5" />
+                    <NormalElement Type="WZUIContainer" GUID="{1a6b0d78-c791-4b12-9a68-b78ea7fd982b}">
+                        <WZUIImage Type="WZUIImage" GUID="{70f16b0c-d1b7-447e-91aa-2536f36ea92c}" Name="icon5" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{b4ab44ef-9cb2-40c4-bb0e-bd98d03ced5c}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{b5fa356e-9f6c-40ff-a9e1-917f3301d491}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{6ea7b99f-c052-48aa-8e20-d2e635ee4104}" Name="icon5Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{e1e53ac0-9a34-4c5d-beec-d372b92fff77}" />
+                </Button>
+                <Button Type="WZUIButton" AbsContentSize="76,76" RelativePosition="0.903,0.5" UseAbsSize="True" GUID="{d9430e25-cbbf-4807-8e7c-928c8197647c}" Scale="0.91" Tag="6" LuaDoneFunctionName="onClick" Name="btn6" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{1f54050c-c1f1-4f60-86fa-bd9a14fa7fe1}" File="ui/common/common_scale9_beibaodi.png" Name="black6" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{85a99f3b-aa82-48bb-af13-4d56c9bde991}" File="" Name="quality6" />
+                    <NormalElement Type="WZUIContainer" GUID="{48401490-1285-4d95-9491-bee59de4724d}">
+                        <WZUIImage Type="WZUIImage" GUID="{ecde73ad-dc34-493f-838e-031c8b313b8b}" Name="icon6" Scale="0.9" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{2d4ab469-c903-4300-92ac-c170928c11dd}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{09a10a22-54f0-41c3-9f25-923a89c2d620}" File="ui/common/common_scale9_beibaodi_sel.png" UseOriginSize="True" Scale="0.92" RelativePosition="0.5,0.48" />
+                        <WZUIImage Type="WZUIImage" GUID="{6df7330f-9f46-4bf9-9093-adcce3515755}" Name="icon6Sel" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{d925a8ad-1de6-44e4-89da-95f4061a1fc9}" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCheckOther9>

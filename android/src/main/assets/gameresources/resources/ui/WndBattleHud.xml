@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" ?>
+<WndBattleHud GUID="{E0CB1832-2AC6-4601-9775-B72C783F87A7}">
+    <WZUIWindow GUID="{D45E1D80-47EC-439e-A84C-FBFAD35331A0}" LuaObjectName="WndBattleHud" Name="WndBattleHud" NameCreate="True" ShowAll="False" Type="WZUIWindow" RelativePosition="0.5,0.5" LuaTouchBeganFunction="onTouchBegan" Visible="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{5f0ea2e8-4383-47ce-b249-f7cf74b650a4}" AbsContentSize="1136,156" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1" Visible="True" Order="0" Name="conBlack1_WndBattleHud">
+            <WZUI9Image Type="WZUI9Image" GUID="{ff6d2b33-d072-4943-be24-3f2f4e169139}" File="ui/common/common_scale9_yaan.png" Opacity="128" FlipY="False" CapInsets="0,0,0,0" Visible="True" ScaleY="-1" TouchEnable="False" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{1053e447-bfab-486e-b275-7cb5e9b519d4}" AbsContentSize="1136,156" UseAbsSize="True" RelativePosition="0.5,0" AnchorPoint="0.5,0" Visible="True" Order="0" Name="conBlack2_WndBattleHud">
+            <WZUI9Image Type="WZUI9Image" GUID="{88df6987-1943-465f-9c29-b0eb85eff195}" File="ui/common/common_scale9_yaan.png" Opacity="128" FlipY="False" CapInsets="0,0,0,0" Visible="True" TouchEnable="False" />
+        </WZUIContainer>
+        <WZUIButton AbsContentSize="40,40" AnchorPoint="1,1" LuaDoneFunctionName="onSetting" Name="btnSetting_WndBattleHud" Order="0" RelativePosition="0.990091,0.995" RelativeSize="1,1" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{b8a9a1a0-ea27-4b08-b0b5-608367ec7cff}" Scale="1" ScaleX="1" ScaleY="1" Visible="True">
+            <NormalElement Type="WZUIContainer" GUID="{7f2bff9c-11a2-4b44-83c5-bf7434eb5174}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_shezhi.png" Type="WZUIImage" UseOriginSize="True" GUID="{9e8998e3-d53e-4244-aad1-d2fffc8837a7}" Visible="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{45dfb9b7-d992-4bd2-83de-1920ff0f6113}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_shezhi.png" Type="WZUIImage" UseOriginSize="True" Scale="1.1" GUID="{d4881bbc-874b-4de6-a95b-8a22c44a7d2e}" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" UseAbsSize="True" GUID="{a879e86c-079b-453f-9c12-7f2580e707ac}">
+                <WZUIImage File="ui/combat/battle_icon_shezhi.png" Type="WZUIImage" UseOriginSize="True" Color="100,100,100" GUID="{8d74ec08-b356-4a54-a935-04a305e0ea6a}" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" />
+            </DisableElement>
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" GUID="{cdb65bfc-b06b-4c82-9b62-18e175984ff2}" AnchorPoint="0.5,0" Name="conMyHudBg0_WndBattleHud" RelativePosition="0.5,0" Visible="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{53dca3f5-d771-4671-aaf5-b3a484e61ea8}" Name="conHud1_WndBattleHud" AbsContentSize="297,57" UseAbsSize="True" RelativePosition="0,0" AnchorPoint="1,0" Visible="True" UseAbsCoordinate="True" AbsPosition="290,0">
+                <WZUI9Image Type="WZUI9Image" GUID="{d86d509a-60ca-4620-825f-c6b861881f5e}" File="ui/combat/optimize/battle_scale9_bg1.png" UseOriginSize="False" RelativePosition="0,0" AnchorPoint="0,0" />
+            </WZUIContainer>
+            <WZUIImage Type="WZUIImage" GUID="{96d37599-1dcb-4bd5-9f78-a04460fe84af}" File="ui/combat/optimize/battle_scale9_bg2.png" RelativePosition="0.498958,0" UseOriginSize="True" Scale="1.89" UseAbsCoordinate="True" AbsPosition="345,0" ScaleX="2.1" ScaleY="1.05" AnchorPoint="0,0" Visible="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{0b536234-6fe6-4bd3-8079-f8db986c1558}" AbsContentSize="407,115" UseAbsSize="True" RelativePosition="0,0" AnchorPoint="0,0" UseAbsCoordinate="True" AbsPosition="606.596,-0.575012">
+                <WZUI9Image Type="WZUI9Image" GUID="{20e09c6e-563d-4a84-ae3c-4ff5b7689d4b}" File="ui/combat/optimize/battle_scale9_bg3.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" FlipX="False" Visible="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{2ba785fb-05a0-4e95-8481-d665c43ee043}" AnchorPoint="0.5,0" Name="conMyHudBg_WndBattleHud" RelativePosition="0.5,0" Visible="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{ad48babb-f5e9-4bb8-b598-d74a047f3a1e}" Name="conHud1_WndBattleHud" AbsContentSize="340,57" UseAbsSize="True" RelativePosition="0.34,0" AnchorPoint="1,0" Visible="True" UseAbsCoordinate="True" AbsPosition="341,0">
+                <WZUI9Image Type="WZUI9Image" GUID="{de75e157-2247-4b8c-9144-d22865e57221}" File="ui/combat/optimize/battle_scale9_bg1.png" UseOriginSize="False" RelativePosition="0,0" AnchorPoint="0,0" CapInsets="0,0,0,0" Visible="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{df2a9283-5e83-4323-b67c-e7a68bedb2df}" AbsContentSize="450,111" UseAbsSize="True" UseAbsCoordinate="True" RelativePosition="0,0" AnchorPoint="0,0" AbsPosition="319,0">
+                <WZUIImage Type="WZUIImage" GUID="{86369d82-d3e6-4c94-8c93-0db89683e7fc}" File="ui/combat/optimize/battle_scale9_bg2.png" RelativePosition="0,0" UseOriginSize="False" Scale="1" UseAbsCoordinate="False" AbsPosition="327,0" ScaleX="1" ScaleY="1" AnchorPoint="0,0" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{469a071b-dd91-4399-9f30-7699dd41b59f}" AbsContentSize="340,57" UseAbsSize="True" RelativePosition="0,0" AnchorPoint="0,0" UseAbsCoordinate="True" AbsPosition="746,0">
+                <WZUI9Image Type="WZUI9Image" GUID="{1e166154-d0b0-43a8-8626-b2c5a0a8c6cd}" File="ui/combat/optimize/battle_scale9_bg1.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="-1" FlipX="False" Visible="True" CapInsets="0,0,0,0" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Name="conMyHud_WndBattleHud" Type="WZUIContainer" Visible="True" GUID="{ed4f08ec-2132-46a5-8029-2595d6262c04}" AbsContentSize="0,0" AnchorPoint="0.5,0" UseAbsSize="False" ShowAll="False" RelativePosition="0.497917,0">
+            <WZUIContainer AbsContentSize="1136,129" AnchorPoint="0.5,0" RelativePosition="0.5,0" ShowAll="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" GUID="{9e5a0bba-b02e-46b7-9605-23bdff62ce42}" Name="conMySkill_WndBattleHud" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{491dd72f-99a9-403e-aaf1-f1db3aa78465}" AnchorPoint="0.5,0.5" Name="conBgSkill_WndBattleHud" RelativePosition="0.5,0.5" Visible="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{546a40e5-fde6-405d-8982-51496e11c60d}" Name="conHud1_WndBattleHud" AbsContentSize="407,115" UseAbsSize="True" RelativePosition="0.392606,0" AnchorPoint="1,0" Visible="True" UseAbsCoordinate="False" AbsPosition="-94,6">
+                        <WZUI9Image Type="WZUI9Image" GUID="{80ead66c-635f-44ea-b5a8-6b42d488dc30}" File="ui/combat/optimize/battle_scale9_bg1.png" UseOriginSize="False" RelativePosition="0,0" AnchorPoint="0,0" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{c2e1de06-5f04-4300-a0d7-fd5f12a758fd}" File="ui/combat/optimize/battle_scale9_bg2.png" RelativePosition="0.5,0.443124" UseOriginSize="True" Scale="1.89" UseAbsCoordinate="False" AbsPosition="210.953,59" ScaleX="1.885" ScaleY="1.05" AnchorPoint="0.5,0.5" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{c6dbd388-ad71-4f72-a148-a5e9c1c1a511}" AbsContentSize="407,115" UseAbsSize="True" RelativePosition="0,0" AnchorPoint="0,0" UseAbsCoordinate="True" AbsPosition="690.596,-0.575012">
+                        <WZUI9Image Type="WZUI9Image" GUID="{bdbe40eb-5978-46d1-bede-0f5dc94b4098}" File="ui/combat/optimize/battle_scale9_bg3.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" FlipX="False" Visible="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" RelativePosition="0.44,0.782795" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" GUID="{19dbe42a-66d2-47a8-a3f1-b75e7fce3f82}" Visible="True">
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.155,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{f4aadcd5-ae65-4d81-8ebf-0511b21aa4a0}" Name="imgPowerSkill_WndBattleHud" Visible="True" Scale="1">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{d6def416-713a-4598-9a6c-d61dcbf774fe}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.343,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{c307db7e-1f33-4047-b901-f6a2b8b92bd5}" Visible="True">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{518228be-744e-40db-a700-2527111f88c3}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.532,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{dee71cdf-e6a0-4f2b-8606-820c07d3541c}" Visible="True">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{5eb7343d-d417-45b7-80ac-4d05b144e417}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.718,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{1c7f53de-7381-4333-ba22-c96ae4db6425}" Visible="True">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{0771d79d-b848-43df-ac3d-02a8628bd869}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.908,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{cf50c6da-500c-43db-a79b-075d34f090e3}" Visible="True">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{af43b291-70f9-4708-a762-5259c3c958af}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="1.098,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{4f1e6e19-a9c4-44b2-bfc7-4c5712e327ba}" Visible="True" Name="imgProfessionSkillRect_WndBattleHud">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{049a0c43-4606-43c5-b5e4-4f86e8f2610d}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" RelativePosition="0.44,0.288339" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" GUID="{b1ac37e5-36d9-4b02-8b44-cf030e86200f}" Visible="True">
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.155,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{8468dedf-fa8c-4fe4-a296-6acd28c24286}" Name="imgAngrySkill_WndBattleHud">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{adc06cb2-57f5-480b-b3f4-842f72974537}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.343,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{9692d9d4-b333-468e-935a-e79f6da71eb9}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{a426df79-7bae-4a5c-a1fc-f7c8df171096}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.532,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{b8585108-8037-43b3-9f53-c954656863e0}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{39fc634e-e388-4620-bd97-1bba1de9885e}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.718,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{3404fe77-393d-4280-9b0e-b84091d2ae73}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{39ad3298-3b95-43b9-80e4-c998dcf50763}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.908,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{7c2290e5-b442-47b0-b610-102dc4757c96}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{6b157925-f343-4093-97ee-90e86c766c0a}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="1.098,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{b0b2e397-1229-48e8-9270-23b64259df27}" Name="imgProfessionPropRect_WndBattleHud">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{4eb6241a-0140-4939-967c-65fc2541877c}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conSkill_WndBattleHud" RelativePosition="0.44,0.782795" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{c37981db-b788-4edc-8a9e-29bf8f54771e}" Visible="True">
+                    <WZUIImage LuaTouchBeganFunction="onSkillBegin" Scale="1" Name="imgSkill1_WndBattleHud" RelativePosition="0.155,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{cfee45b8-5fdd-47e5-94a5-dc276ab5e422}" ScaleX="1" ScaleY="1" File="" LuaTouchEndedFunction="onSkill" LuaTouchMoveoutFunction="onSkillOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{8e7f08c8-9931-4e03-942c-bb7bc7d4e67c}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onSkillBegin" Scale="1" Name="imgSkill2_WndBattleHud" RelativePosition="0.343,0.5" Tag="2" Type="WZUIImage" UseOriginSize="True" GUID="{ab2250a5-044a-4316-ac61-66f7bece3448}" ScaleX="1" ScaleY="1" File="" LuaTouchEndedFunction="onSkill" LuaTouchMoveoutFunction="onSkillOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{d357b608-b5f1-4c5e-9cf7-b95425e93011}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onSkillBegin" Scale="1" Name="imgSkill3_WndBattleHud" RelativePosition="0.532,0.5" Tag="3" Type="WZUIImage" UseOriginSize="True" GUID="{6778e21b-4286-4af3-a8d8-6d852a31c18c}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onSkill" LuaTouchMoveoutFunction="onSkillOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{c9ef6283-d05a-4415-accb-783cca4e7f9a}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onSkillBegin" Scale="1" Name="imgSkill4_WndBattleHud" RelativePosition="0.718,0.5" Tag="4" Type="WZUIImage" UseOriginSize="True" GUID="{5116654e-75cf-46ff-b4a3-b2afff29dd5a}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onSkill" LuaTouchMoveoutFunction="onSkillOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{5beb937b-7ea8-4467-aa0c-ee6a52641c94}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onSkillBegin" Scale="1" Name="imgSkill5_WndBattleHud" RelativePosition="0.908,0.5" Tag="5" Type="WZUIImage" UseOriginSize="True" GUID="{fa7901e5-70bc-4bb3-91c5-2ad343549f4a}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onSkill" LuaTouchMoveoutFunction="onSkillOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{4f554fed-cd44-4184-a571-289f528655f7}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onSkillBegin" Scale="1" Name="imgSkill6_WndBattleHud" RelativePosition="1.098,0.5" Tag="6" Type="WZUIImage" UseOriginSize="True" GUID="{3b637dfe-8faf-40bc-b6da-f8d9450e13e9}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onSkill" LuaTouchMoveoutFunction="onSkillOut" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conItem_WndBattleHud" RelativePosition="0.44,0.288339" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{987530bb-7d98-4912-be09-9a2ad1eafe81}">
+                    <WZUIImage LuaTouchBeganFunction="onItemBegin" Scale="1" Name="imgItem1_WndBattleHud" RelativePosition="0.155,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{c082700d-e56a-43ee-b1bc-3625c992c4e8}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onItem" LuaTouchMoveoutFunction="onItemOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{7316989c-2389-4686-afe8-708c20da00e4}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onItemBegin" Scale="1" Name="imgItem2_WndBattleHud" RelativePosition="0.343,0.5" Tag="2" Type="WZUIImage" UseOriginSize="True" GUID="{3bcba90d-ac08-43c9-a741-aeb6d7ad74a4}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onItem" LuaTouchMoveoutFunction="onItemOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{91b42e7a-d640-4a25-8f4d-e079164b8c51}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onItemBegin" Scale="1" Name="imgItem3_WndBattleHud" RelativePosition="0.532,0.5" Tag="3" Type="WZUIImage" UseOriginSize="True" GUID="{3d6119dc-a698-4fa1-ac9a-f676bdb792e4}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onItem" LuaTouchMoveoutFunction="onItemOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{a4c14d53-e210-4cdf-a98d-d0c00cf8e4fa}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onItemBegin" Scale="1" Name="imgItem4_WndBattleHud" RelativePosition="0.718,0.5" Tag="4" Type="WZUIImage" UseOriginSize="True" GUID="{66afecbd-87a6-4849-987a-d8de57f5066a}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onItem" LuaTouchMoveoutFunction="onItemOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{a65872e3-545b-45b4-b43e-bde73a2a686b}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onItemBegin" Scale="1" Name="imgItem5_WndBattleHud" RelativePosition="0.908,0.5" Tag="5" Type="WZUIImage" UseOriginSize="True" GUID="{5038886e-f5c0-4bef-9bd6-3097a839c8e5}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onItem" LuaTouchMoveoutFunction="onItemOut">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{fa3ab517-e918-4a9d-ad29-fe257a7cf2f9}" Order="1" Scale="1" Visible="False" Tag="99" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onItemBegin" Scale="1" Name="imgItem6_WndBattleHud" RelativePosition="1.098,0.5" Tag="6" Type="WZUIImage" UseOriginSize="True" GUID="{0056f39b-4d40-4707-84f1-95aa51189ee2}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onItem" LuaTouchMoveoutFunction="onItemOut" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{3077ad8e-87fa-4896-91b2-94462c7f9f5b}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="56,33" Name="conAnimItem1_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{4b9e60ba-f993-4942-838d-d37034c73020}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animItem1_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{4d0e1de6-ad30-4183-8e68-4aaafc198416}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="124,33" Name="conAnimItem2_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{a8da4b57-722e-4bab-bdd6-66df50d6d5b4}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animItem2_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{bf45654b-739e-450a-b47d-a5fed1846c62}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="192,33" Name="conAnimItem3_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{56e3bf47-ab7e-4912-9021-45f6a248559c}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animItem3_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{73174038-f9ac-4f29-bed3-f36f93ea7486}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="258,33" Name="conAnimItem4_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{068fb1db-0acc-43b1-aca7-8be0f82ca7f5}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animItem4_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{4bf6d97d-92e3-408d-891a-8247757c580d}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="327,33" Name="conAnimItem5_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{eb932f37-bce0-4844-a74a-d8b85035d961}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animItem5_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{87eedc21-7a3c-4a0b-b0f0-59e42b051665}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="396.113,33" Name="conAnimItem6_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{64098a2a-509a-4621-b1da-53ca8fbc4e8a}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animItem6_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conSkillClip_WndBattleHud" RelativePosition="0.44,0.782795" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{1fe918af-58fd-412f-94d6-706d9ced9a44}" Visible="True">
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progSkillClip1_WndBattleHud" RelativePosition="0.155,0.515" Tag="1" Type="WZUIProgress" UseOriginSize="True" GUID="{88847c85-5b97-4f7b-8e5e-9da5a6d6446b}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolSkillBegin" RelativeSize="1,1.0" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolSkill" LuaTouchMoveoutFunction="onCoolSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progSkillClip2_WndBattleHud" RelativePosition="0.343,0.515" Tag="2" Type="WZUIProgress" UseOriginSize="True" GUID="{f660c54c-aff5-41e9-aa1f-94d21e6f327a}" MidPoint="0.5,0.5" IsBarType="False" Visible="True" FlipX="True" LuaTouchBeganFunction="onCoolSkillBegin" Color="255,255,255" Percentage="0" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolSkill" LuaTouchMoveoutFunction="onCoolSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progSkillClip3_WndBattleHud" RelativePosition="0.531,0.515" Tag="3" Type="WZUIProgress" UseOriginSize="True" GUID="{0a31aacb-236e-496e-b9f7-097f9ce9e510}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolSkillBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolSkill" LuaTouchMoveoutFunction="onCoolSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progSkillClip4_WndBattleHud" RelativePosition="0.718,0.515" Tag="4" Type="WZUIProgress" UseOriginSize="True" GUID="{96ebabbd-e39e-44e1-bfb2-35929fe53857}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolSkillBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolSkill" LuaTouchMoveoutFunction="onCoolSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progSkillClip5_WndBattleHud" RelativePosition="0.908,0.515" Tag="5" Type="WZUIProgress" UseOriginSize="True" GUID="{e6b730c6-764f-4a94-acaf-0339747c7a7f}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolSkillBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolSkill" LuaTouchMoveoutFunction="onCoolSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progSkillClip6_WndBattleHud" RelativePosition="1.098,0.515" Tag="6" Type="WZUIProgress" UseOriginSize="True" GUID="{54894986-f5c1-4be0-bd66-4b1976febc5c}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolSkillBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolSkill" LuaTouchMoveoutFunction="onCoolSkillOut" />
+                    <WZUILabelTTF Type="WZUILabelTTF" Name="txtProgSkillClip1_WndBattleHud" Color="255,255,255" FontSize="22" RelativePosition="0.1,0.5" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" GUID="{2c1de1ef-1805-4aa3-bfce-9742991ee409}" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" Name="txtProgSkillClip2_WndBattleHud" Color="255,255,255" FontSize="22" RelativePosition="0.3,0.5" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" GUID="{89be3fee-cb00-4690-94c1-7612a789c90b}" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" Name="txtProgSkillClip3_WndBattleHud" Color="255,255,255" FontSize="22" RelativePosition="0.5,0.5" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" GUID="{af6e50f4-411f-47bf-a488-e555cda2ca00}" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" Name="txtProgSkillClip4_WndBattleHud" Color="255,255,255" FontSize="22" RelativePosition="0.7,0.5" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" GUID="{d9034a9d-940a-43c1-bc04-15965e52e379}" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" Name="txtProgSkillClip5_WndBattleHud" Color="255,255,255" FontSize="22" RelativePosition="0.9,0.5" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" GUID="{04696c96-a1b5-4192-9689-e9e3743aaeb2}" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" Name="txtProgSkillClip6_WndBattleHud" Color="255,255,255" FontSize="22" RelativePosition="1.098,0.5" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" GUID="{17595d13-542a-47ab-a655-42c40cb12451}" Visible="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{82f401df-5b5b-4e76-8637-93a580be17cf}" AbsContentSize="360,66" UseAbsSize="True" RelativePosition="0.418,0.96109" Visible="True" Name="conSkillCost_WndBattleHud">
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillCost1_WndBattleHud" RelativePosition="0.155,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{06f88199-38b0-4291-8662-5a3bb91a23f0}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtCost1_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{4a8c7a69-cbf7-410f-b0c2-7582977ded52}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillCost2_WndBattleHud" RelativePosition="0.343,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{9efec8a3-1d18-40c2-ba63-79197a6ae92d}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="83.4694,131.234" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtCost2_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{8b1e0a96-e5e1-43cc-9c96-485f138d2483}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillCost3_WndBattleHud" RelativePosition="0.532,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{bb9808be-8a3a-439c-bad6-8a111842f619}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtCost3_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{795dc4f6-14ac-474f-a002-ea3b36c6f5ff}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillCost4_WndBattleHud" RelativePosition="0.718,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{7af87a82-35eb-41df-850d-eaa84d6b2fe0}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtCost4_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{9229bea5-bc0f-49f5-947b-56d2a079e39b}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillCost5_WndBattleHud" RelativePosition="0.908,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{c8b772d5-c1ac-494a-9d89-f74a6cb0775f}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtCost5_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{6a1e0015-9d85-46ca-88dc-3f878a18de25}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillCost6_WndBattleHud" RelativePosition="1.098,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{70651c6e-05b5-4111-b3f0-2a4bb37ceaf0}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtCost6_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{41206b90-44aa-4ed1-bfbc-5205bf55574d}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conItemClip_WndBattleHud" RelativePosition="0.44,0.288" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{97f30d71-e036-4c75-ad32-cad983cd272c}" Visible="True">
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progItemClip1_WndBattleHud" RelativePosition="0.155,0.515" Tag="1" Type="WZUIProgress" UseOriginSize="True" GUID="{a80bfb73-57c1-4d0c-ab08-72a20f43b168}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolItemBegin" RelativeSize="1,1.0" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolItem" LuaTouchMoveoutFunction="onCoolItemOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progItemClip2_WndBattleHud" RelativePosition="0.343,0.515" Tag="2" Type="WZUIProgress" UseOriginSize="True" GUID="{d2db2569-2bcb-4827-be83-07225d4555e6}" MidPoint="0.5,0.5" IsBarType="False" Visible="True" FlipX="True" LuaTouchBeganFunction="onCoolItemBegin" Color="255,255,255" Percentage="0" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolItem" LuaTouchMoveoutFunction="onCoolItemOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progItemClip3_WndBattleHud" RelativePosition="0.531,0.515" Tag="3" Type="WZUIProgress" UseOriginSize="True" GUID="{80ae69ae-fb49-431e-8850-5d9adcd63ea4}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolItemBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolItem" LuaTouchMoveoutFunction="onCoolItemOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progItemClip4_WndBattleHud" RelativePosition="0.718,0.515" Tag="4" Type="WZUIProgress" UseOriginSize="True" GUID="{0c41ed16-fd80-4759-878f-7577b638d1ec}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolItemBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolItem" LuaTouchMoveoutFunction="onCoolItemOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progItemClip5_WndBattleHud" RelativePosition="0.908,0.515" Tag="5" Type="WZUIProgress" UseOriginSize="True" GUID="{ed6ec5bd-d644-4989-a09f-e7f8b7436285}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolItemBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolItem" LuaTouchMoveoutFunction="onCoolItemOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progItemClip6_WndBattleHud" RelativePosition="1.098,0.515" Tag="6" Type="WZUIProgress" UseOriginSize="True" GUID="{cecfa3df-7b4c-4878-91e7-8becc21589e6}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolItemBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolItem" LuaTouchMoveoutFunction="onCoolItemOut" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{f7a45d24-a13c-415a-9ad8-0ae9bda13f47}" AbsContentSize="360,66" UseAbsSize="True" RelativePosition="0.418,0.465116" Visible="True" Name="conItemCost_WndBattleHud">
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemCost1_WndBattleHud" RelativePosition="0.155,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{b0ad00c9-e7a7-4db1-bfc2-d5aa4cfeeea3}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtItemCost1_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{26e28e73-721f-4a6f-966d-711c560babc5}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemCost2_WndBattleHud" RelativePosition="0.343,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{c8877351-02f9-4056-8ee2-97ce5df78620}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="83.4694,131.234" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtItemCost2_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{541a245e-c21d-4e9a-acf0-e46965082d09}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemCost3_WndBattleHud" RelativePosition="0.532,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{94120da8-7154-46a0-9dbb-37dcbd6c24ec}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtItemCost3_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{a1881494-de4f-4fe3-91c6-0cbc426ee2be}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemCost4_WndBattleHud" RelativePosition="0.718,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{3545906b-974b-44fd-8927-9f4f6f071b71}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtItemCost4_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{e7af5036-d357-48ec-8d55-061674eeaabb}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemCost5_WndBattleHud" RelativePosition="0.908,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{f24b54e3-62d5-465c-85cc-c9328ec71bbb}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtItemCost5_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{8e8d9a22-e686-42c8-9dad-9ca4d20e6820}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemCost6_WndBattleHud" RelativePosition="1.098,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{3c47635d-c09b-46cd-8350-835496fdd32d}" ScaleX="1" ScaleY="1" File="ui/common/battle_icon_tlz.png" AbsPosition="11.8345,131.235" TouchEnable="False" TouchSwallow="False">
+                        <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_qianghua.png" Height="24" Name="txtItemCost6_WndBattleHud" Order="2" Text="9" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="14" GUID="{55e9e421-3695-40d3-861d-755421d8b5f3}" RelativePosition="0.5,0.45" FlipX="False" FlipY="False" Scale="0.643" />
+                    </WZUIImage>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{e6e513fd-4dbc-4333-af74-d23e485e1d96}" AnchorPoint="0.5,0" RelativePosition="0.725,0.05" AbsContentSize="58,52" UseAbsSize="True" Name="conFly_WndBattleHud" ShowAll="True">
+                <WZUIImage Type="WZUIImage" GUID="{f795a02c-513e-4176-9713-d537dec44ef7}" File="battleitems/battle_icon_feij2.png" UseOriginSize="True" RelativePosition="0.5,0.442308" Visible="True" />
+                <WZUIButton AbsContentSize="35,33" AnchorPoint="0.5,0.5" LuaDoneFunctionName="onReadyFly" Name="btnFly_WndBattleHud" Order="0" RelativePosition="0.5,0.5" ShowAll="False" Type="WZUIButton" UseAbsSize="True" Visible="True" GUID="{100b0bad-f2dc-463e-bbb8-a8dd29c9f5cf}">
+                    <NormalElement Type="WZUIContainer" GUID="{84c008b7-4839-4733-a8e5-0f437e490115}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jn07.png" Type="WZUIImage" UseOriginSize="True" GUID="{8cba9426-9e88-4cae-b28e-d6fc9680c9d0}" Name="imgFly_WndBattleHud" Scale="0.82" ScaleX="0.82" ScaleY="0.82" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{49d2b253-2d11-40f8-964d-349dc1cb6244}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jn07.png" Type="WZUIImage" Scale="0.82" UseOriginSize="True" GUID="{72dc1936-e812-47ce-b20d-50e007412222}" ScaleX="0.82" ScaleY="0.82" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{32ec8a28-185a-4681-bc23-45e0cee2581e}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jn07.png" Type="WZUIImage" GUID="{37e72472-49f6-4456-a4e8-46bf71893b3f}" Color="100,100,100" UseOriginSize="True" Scale="0.82" ScaleX="0.82" ScaleY="0.82" />
+                    </DisableElement>
+                </WZUIButton>
+                <WZUIProgress BgPicture="ui/combat/battle_shade_feixing.png" Name="progFlyClip_WndBattleHud" RelativePosition="0.513793,0.480769" Tag="1" Type="WZUIProgress" UseOriginSize="True" GUID="{d6d551ca-3a01-449d-8c6e-2a218a785601}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolSkill" AbsPosition="29.8,26" BarChangeRate="1,0" Scale="0.69" ScaleX="0.69" ScaleY="0.69" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{cb1b1835-56bb-42a8-9d13-05bea721c392}" Name="txtProgFlyClip_WndBattleHud" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" Text="" RelativePosition="0.565234,0.229744" Visible="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{7b8724cc-48e4-4e00-8207-7c6c3171dc60}" AbsContentSize="110,34" UseAbsSize="True" RelativePosition="0.82,0.036875">
+                <WZUI9Image Type="WZUI9Image" File="ui/combat/optimize/common_progress_tili_bg.png" GUID="{91a6b0c6-4cf3-495c-b209-88a7336d9d41}" RelativePosition="0.53,0.47" UseOriginSize="False" />
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="166,25" AnchorPoint="0.8,0.5" Name="conMyHp_WndBattleHud" RelativePosition="0.857747,0.0437928" ShowAll="True" TouchEnable="False" Type="WZUIContainer" UseAbsSize="True" GUID="{231c1d6e-c9a0-4d68-9841-72335ed69a28}" Visible="True">
+                <WZUIProgress BgPicture="ui/combat/optimize/common_progress_sm_fore.png" Name="progMyHP_WndBattleHud" Percentage="100" Scale="1" Type="WZUIProgress" UseOriginSize="True" Visible="True" RelativePosition="0.532048,0.63" GUID="{f02102e3-efe6-4711-b4cf-a347fc6f3426}" UseOriginSizeProportion="False" ScaleY="1.4" ScaleX="1.2" />
+                <WZUIImage Type="WZUIImage" GUID="{23d5e0ea-9afd-43e6-842e-b7fe2e296bbe}" File="ui/combat/optimize/common_icon_shengming.png" UseOriginSize="True" RelativePosition="0.20548,0.678858" Visible="True" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{55e5b2ce-2036-48f2-b887-608564010772}" MaxWidth="200" Name="txtMyHP_WndBattleHud" RelativePosition="0.5,0.67" ShowText='&lt;A IMG=&quot;ui/combat/battle_num_jindutiaoshuzi.png&quot; W=&quot;14&quot; H=&quot;16&quot; CHAR=&quot;0&quot;&gt;100&lt;/A&gt;&lt;I&gt;ui/combat/battle_num_xiegang.png&lt;/I&gt;&lt;A IMG=&quot;ui/combat/battle_num_jindutiaoshuzi.png&quot; W=&quot;14&quot; H=&quot;16&quot; CHAR=&quot;0&quot;&gt;100&lt;/A&gt;' Scale="0.7" />
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="166,25" AnchorPoint="0.8,0.5" Name="conMyPF_WndBattleHud" RelativePosition="0.851937,0.025" ShowAll="True" TouchEnable="False" Type="WZUIContainer" UseAbsSize="True" Visible="True" GUID="{7d5f5475-ec33-4739-9c25-df33f89af260}">
+                <WZUIProgress BgPicture="ui/combat/optimize/common_progress_tili_fore.png" Name="progMyPF_WndBattleHud" Percentage="100" Type="WZUIProgress" UseOriginSize="True" Visible="True" GUID="{55eece2b-d240-4068-853d-acb829935e18}" Scale="1" RelativePosition="0.562168,0.47" ScaleY="1.4" ScaleX="1.25" />
+                <WZUIImage Type="WZUIImage" GUID="{6c72050c-7ecc-4d1f-886b-1e0011b93544}" File="ui/combat/optimize/common_icon_tili.png" UseOriginSize="True" RelativePosition="0.232385,0.444348" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{0e494243-4c6e-480c-93f8-1f44cd40d34a}" MaxWidth="200" Name="txtMyPF_WndBattleHud" RelativePosition="0.536145,0.51" ShowText='&lt;A IMG=&quot;ui/combat/battle_num_jindutiaoshuzi.png&quot; W=&quot;14&quot; H=&quot;16&quot; CHAR=&quot;0&quot;&gt;100&lt;/A&gt;&lt;I&gt;ui/combat/battle_num_xiegang.png&lt;/I&gt;&lt;A IMG=&quot;ui/combat/battle_num_jindutiaoshuzi.png&quot; W=&quot;14&quot; H=&quot;16&quot; CHAR=&quot;0&quot;&gt;100&lt;/A&gt;' Scale="0.7" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIButton AbsContentSize="46,28" AnchorPoint="0.5,0" LuaDoneFunctionName="onMyHudSwitch" Name="btnMyHudSwitch_WndBattleHud" Order="0" RelativePosition="0.969842,0.171966" ShowAll="True" TouchEnable="False" Type="WZUIButton" UseAbsSize="True" GUID="{d5786e31-1fc5-4e6a-ad34-0871385e68c3}" Visible="True">
+            <NormalElement Type="WZUIContainer" GUID="{6d32224c-6207-4dfe-a0b9-8a3d1d585b61}">
+                <WZUIImage File="ui/combat/optimize/common_icon_xiala.png" Name="imgMyHudSwitch_WndBattleHud" Type="WZUIImage" UseOriginSize="True" GUID="{0c4b72f0-ab41-489c-aea4-ce3400dd219f}" Visible="True" FlipY="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{bf5ca44f-a38d-4079-a34a-647abda9c43a}">
+                <WZUIImage File="ui/combat/optimize/common_icon_xiala.png" Name="imgMyHudSwitchSel_WndBattleHud" Type="WZUIImage" UseOriginSize="True" Scale="1.1" GUID="{63964517-3738-45fa-b8b6-4f843129eea5}" Visible="True" FlipY="True" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{dd90d97f-14b2-49e9-a7c6-2e30fc413414}">
+                <WZUIImage File="ui/combat/common_icon_xiala.png" FlipY="True" Name="imgMyHudSwitchNot_WndBattleHud" Type="WZUIImage" Color="100,100,100" GUID="{1cf93f97-fc32-4b8f-a102-36137ad2690b}" Visible="True" GrayRender="True" />
+            </DisableElement>
+        </WZUIButton>
+        <WZUIButton AbsContentSize="40,40" AnchorPoint="0.5,0" LuaDoneFunctionName="onClickSpeaker" Name="btnSpeaker_WndBattleHud" Order="0" RelativePosition="0.0293789,0.193762" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{35ee9282-2017-4626-9f74-1eaca9fd06a2}" Scale="1" Visible="True">
+            <NormalElement Type="WZUIContainer" GUID="{72714a8a-fcaf-474c-bd42-c7b872eaa399}">
+                <WZUIImage File="ui/combat/optimize/yuyin01.png" Type="WZUIImage" UseOriginSize="True" GUID="{20bc1c39-9d8b-4edb-8777-813dabe6f563}" Visible="True" Scale="1" Name="imgSpeaker1_WndBattleHud" GrayRender="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{d8a53ff3-a68b-408e-8c99-25923a25ff63}">
+                <WZUIImage File="ui/combat/optimize/yuyin01.png" Type="WZUIImage" UseOriginSize="True" Scale="1" GUID="{1f5a593c-8e1b-4585-9928-9582e19c8c9d}" Name="imgSpeaker2_WndBattleHud" ScaleY="1" ScaleX="1" GrayRender="True" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{2d67f875-9ed3-43f8-bc64-fdc1fb50a7b0}" />
+        </WZUIButton>
+        <WZUIButton AbsContentSize="40,40" AnchorPoint="0.5,0" LuaDoneFunctionName="onClickMic" Name="btnMic_WndBattleHud" Order="0" RelativePosition="0.0293789,0.118761" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{a4055912-3194-460d-81f5-8a4738289921}" Scale="1">
+            <NormalElement Type="WZUIContainer" GUID="{61c9827f-a620-40f2-b06f-081ed92abf2a}">
+                <WZUIImage File="ui/combat/optimize/yuyin02.png" Type="WZUIImage" UseOriginSize="True" GUID="{5b64dbd1-25e8-4e93-a91d-c74650ad3471}" Visible="True" Scale="1" Name="imgMic1_WndBattleHud" GrayRender="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{aa8724f6-f301-4ce1-ae64-4645bbadeef3}">
+                <WZUIImage File="ui/combat/optimize/yuyin02.png" Type="WZUIImage" UseOriginSize="True" Scale="1" GUID="{febec38d-26c5-4876-85bb-e9164a1293c6}" Name="imgMic2_WndBattleHud" ScaleX="1" ScaleY="1" GrayRender="True" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{16bd82e0-fc3f-4b72-af95-6b6880247f50}" />
+        </WZUIButton>
+        <WZUIButton AbsContentSize="66,66" AnchorPoint="0.5,0" LuaDoneFunctionName="onChat" Name="btnChat_WndBattleHud" Order="0" RelativePosition="0.05,0.00625" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{4350e4e2-478b-4052-ab45-32207f9bd77f}" Scale="1" Visible="True" LuaActionName="Normal">
+            <NormalElement Type="WZUIContainer" GUID="{67903bdf-96fa-46b4-8438-1721b6319b9c}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_liaotian.png" Type="WZUIImage" UseOriginSize="True" GUID="{62b47e3a-6f8c-4ce5-aa97-b3adc82fcc95}" Visible="True" Scale="0.85" ScaleX="0.85" ScaleY="0.85" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{8a2d9207-d721-40f4-84a5-8dff04331902}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_liaotian.png" Type="WZUIImage" UseOriginSize="True" Scale="0.85" GUID="{23aa74d2-1223-4793-b0f5-07de3d40d929}" ScaleX="0.85" ScaleY="0.85" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{e3108731-cd54-4d1a-b46e-50737d9632c0}" />
+        </WZUIButton>
+        <WZUIButton AbsContentSize="66,66" AnchorPoint="0.5,0" LuaDoneFunctionName="onScale" Name="btnScale_WndBattleHud" Order="0" RelativePosition="0.18,0.00625" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{a6684565-8267-4156-86be-9bd4605aa510}" Scale="1" Visible="True" LuaActionName="Normal">
+            <NormalElement Type="WZUIContainer" GUID="{b8f75c4d-0a44-48d7-b1f8-61737d497d8c}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_fangda.png" Type="WZUIImage" UseOriginSize="True" GUID="{d6a7fd36-cc17-4ba8-8830-b0b48139e326}" Visible="True" Scale="0.85" ScaleX="0.85" ScaleY="0.85" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{1a599fe4-7388-453c-8617-8a3a22d3a620}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_fangda.png" Type="WZUIImage" UseOriginSize="True" Scale="0.85" GUID="{82920d38-21d7-4fc4-bb44-d6fc3a293121}" ScaleX="0.85" ScaleY="0.85" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{ef356a0d-0c17-4e90-b791-213b09a07792}" />
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" Name="conBattleCtb_WndBattleHud" GUID="{2b7132ed-afaa-474e-94b0-87eefcd8d18f}" Visible="True">
+            <WZUIContainer Type="WZUIContainer" Name="conUIBattleCtb_WndBattleHud" AnchorPoint="0,1" RelativePosition="0,1" RelativeSize="0,1" ShowAll="True" GUID="{bbaf7011-7ff0-4bf2-abdc-7fe384130ce7}" TouchContainerEnable="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{e2907d26-9e3c-4a79-a6a1-25c93c07cc91}" Name="conNameCtb_WndBattleHud" AnchorPoint="0,1" RelativePosition="0,1" AbsContentSize="203,23" UseAbsSize="True" Visible="False">
+                    <WZUIImage Type="WZUIImage" GUID="{401430dd-cf53-437b-8c48-93fb6f304eda}" File="ui/common/common_scale9_heidi4.png" Name="imgNameCtb_WndBattleHud" UseOriginSize="False" RelativePosition="0.5,0.8" AnchorPoint="0.5,1" />
+                    <WZUILabelTTF BoldFont="True" Color="93,222,254" EnableStroke="False" FontSize="18" GUID="{081a4a83-6b72-4214-9849-9d0f3fa43344}" Name="txtNameCtb_WndBattleHud" RelativePosition="0.3,0.72" ShadowColor="0,0,0" ShadowOffset="0,0" StrokeColor="0,0,0" StrokeOffset="0,0" StrokeSize="4" Type="WZUILabelTTF" Text="" Alignment="Left" AnchorPoint="0,1" MaxLength="6" />
+                </WZUIContainer>
+                <WZUITableContainer Type="WZUITableContainer" Name="tabBattleCtb_WndBattleHud" AnchorPoint="0,1" RelativePosition="0.045,1" Visible="False" EnableMoveHorizontal="False" EnableMoveVertical="False" GUID="{55c2e3b0-8d96-4a6e-9b93-33e61586cb85}" ScissorHeight="1.1" ScissorWidth="1.1" TouchEnable="False" TouchContainerEnable="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{3b361dd6-ed63-4faa-8653-f0e3f264fa3c}" Name="conUIBattleCtbBg_WndBattleHud">
+                <WZUIImage File="ui/common/transparent_bg.png" LuaTouchEndedFunction="showBigCtb" Type="WZUIImage" GUID="{2bb6c6bb-c057-49bc-ba89-22098b8236df}" Visible="True" Order="0" Name="imgBattleCtbBg_WndBattleHud" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" Name="conUIBattleCtb2_WndBattleHud" AnchorPoint="0,1" RelativePosition="0,1" RelativeSize="0,1" ShowAll="True" GUID="{5762b3b3-131d-49ba-bfec-d637974a1bfd}" TouchContainerEnable="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{80865036-fba2-46b2-a257-9ccd11e91548}" Name="conNameCtb2_WndBattleHud" AnchorPoint="0,1" RelativePosition="0,1" AbsContentSize="203,23" UseAbsSize="True" Visible="False">
+                    <WZUIImage Type="WZUIImage" GUID="{a1915ee8-9b4d-482d-b48d-b8ace764d42e}" File="ui/common/common_scale9_heidi4.png" Name="imgNameCtb2_WndBattleHud" UseOriginSize="False" RelativePosition="0.5,0.8" AnchorPoint="0.5,1" />
+                    <WZUILabelTTF BoldFont="True" Color="255,89,74" EnableStroke="False" FontSize="18" GUID="{b9152981-0f8a-4795-9794-1e2c78175a5a}" Name="txtNameCtb2_WndBattleHud" RelativePosition="0.3,0.72" ShadowColor="0,0,0" ShadowOffset="0,0" StrokeColor="0,0,0" StrokeOffset="0,0" StrokeSize="4" Type="WZUILabelTTF" Text="" Alignment="Left" AnchorPoint="0,1" ChineseLengthPolicy="0" MaxLength="6" />
+                </WZUIContainer>
+                <WZUITableContainer Type="WZUITableContainer" Name="tabBattleCtb2_WndBattleHud" AnchorPoint="0,1" RelativePosition="0.045,1" Visible="False" EnableMoveHorizontal="False" EnableMoveVertical="False" GUID="{2858d624-6cd9-437d-84c0-34754b767ca9}" ScissorHeight="1.1" ScissorWidth="1.1" TouchEnable="False" TouchContainerEnable="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{68cdfdc1-dd3b-4d29-944d-dbf5e9fa8e42}" Name="conUIBattleCtbBg2_WndBattleHud">
+                <WZUIImage File="ui/common/transparent_bg.png" LuaTouchEndedFunction="showBigCtb2" Type="WZUIImage" GUID="{fecc7e62-4f7b-4847-a130-41a977114da7}" Visible="True" Order="0" Name="imgBattleCtbBg2_WndBattleHud" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" Name="conBigBattleCtb_WndBattleHud" Visible="False" GUID="{e749ff95-55fe-406e-bdeb-53e9a5334a9a}">
+            <WZUIImage File="ui/common/transparent_bg.png" LuaTouchEndedFunction="onCtbBg" Type="WZUIImage" GUID="{4e26824b-59a0-4e19-9b3b-5a37b540868d}" Visible="True" />
+            <WZUIContainer Type="WZUIContainer" Name="conUIBigBattleCtb_WndBattleHud" AnchorPoint="0,1" RelativePosition="0,1" RelativeSize="0,1" ShowAll="True" GUID="{7a76848e-1f8c-42e4-959e-438d168aaabc}">
+                <WZUITableContainer Type="WZUITableContainer" Name="tabBigBattleCtb_WndBattleHud" AnchorPoint="0,1" RelativePosition="0.045,1" EnableMoveHorizontal="False" EnableMoveVertical="False" GUID="{38bc812e-5ad3-4032-afea-69fe77270c8a}" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Name="conFace_WndBattleHud" Type="WZUIContainer" Visible="True" GUID="{bd6db471-5e1f-472f-bbaf-fcafc763a9d9}">
+            <WZUIImage File="ui/common/transparent_bg.png" LuaTouchEndedFunction="onFaceBg" Name="imgFaceBg_WndBattleHud" TouchSwallow="False" Type="WZUIImage" Visible="False" GUID="{4a9d028d-908a-4e40-a0e5-7739e0812384}" />
+            <WZUIContainer AbsContentSize="500,380" AnchorPoint="0,0" RelativePosition="0.0910067,0.15" ShowAll="True" TouchSwallow="False" Type="WZUIContainer" UseAbsSize="True" GUID="{54bc6861-1925-4f90-8338-5c046a5fcdef}" Order="1">
+                <WZUIContainer AnchorPoint="0.5,0.5" Name="conFaceBox_WndBattleHud" RelativePosition="0.5,0.5" Scale="0" TouchSwallow="False" Type="WZUIContainer" Visible="False" GUID="{7a7ad815-0ac1-4912-885d-4974f2bc9faa}" AbsContentSize="0,0" UseAbsSize="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{45b0723d-6ce2-49cb-aa01-561d0aaac43e}" File="ui/common/common_scale9_di15.png" CapInsets="30,20,74,48" />
+                    <WZUIImage Type="WZUIImage" GUID="{71193f74-8319-498f-b64d-3a58acd93333}" File="ui/common/common_scale9_di16.png" UseOriginSize="True" RelativePosition="0.18,-0.021" />
+                    <WZUILabelTTF BoldFont="True" Color="195,171,148" EnableStroke="False" FontSize="18" GUID="{25146212-6cd9-4f84-8c4d-2c6c1c18b120}" Name="txtFace_WndBattleHud" RelativePosition="0.497225,0.97" ShadowColor="0,0,0" ShadowOffset="0,0" StrokeColor="0,0,0" StrokeOffset="0,0" StrokeSize="4" Type="WZUILabelTTF" Text="隐身状态发送表情会暴露位置哦" Alignment="Center" AbsPosition="248.613,352.02" AnchorPoint="0.5,1" Order="1" Dimensions="0,0" ShowAll="False" Visible="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIButton AbsContentSize="66,66" AnchorPoint="0.5,0" LuaDoneFunctionName="onFace" Name="btnFace_WndBattleHud" Order="0" RelativePosition="0.115,0.00625" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{d5dadc4b-f514-4b29-ad99-2080b80777b8}" Scale="1" Visible="True" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{fefa5265-fda8-4785-8d01-04c5e2ea2cec}">
+                    <WZUIImage File="ui/combat/optimize/battle_icon_biaoqing.png" Type="WZUIImage" UseOriginSize="True" GUID="{2b12e6fd-7af3-44a6-ac17-ae368b08425e}" Scale="0.85" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{15dab683-98a8-4bf8-99ee-8ccd12e9f5e8}">
+                    <WZUIImage File="ui/combat/optimize/battle_icon_biaoqing.png" Type="WZUIImage" UseOriginSize="True" Scale="0.85" GUID="{81cc8350-ef25-4ab2-a286-7dc3786451f5}" ScaleX="0.85" ScaleY="0.85" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{14cbe7cd-8e52-418d-b721-b14b556f0eea}" />
+            </WZUIButton>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{c331e26e-fde9-4f8b-ba1c-f423615e9c5d}" Name="conInfo_WndBattleHud" AnchorPoint="0.5,0.5" Visible="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{98fcfac2-253f-4763-954f-dfd93aa244cf}" Name="conTowerInfo_WndBattleHud" Visible="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{7c030b62-7a74-4b1c-a814-14657e017b06}" AbsContentSize="300,36" UseAbsSize="True" RelativePosition="0.506559,0.794941">
+                    <WZUI9Image Type="WZUI9Image" GUID="{9abf82ae-63de-48e5-a2a4-0b07e5cd2a86}" File="ui/common/common_shade_chushouheidi.png" CapInsets="10,10,58,58" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{48f6f8f1-058e-41a5-b4c4-ad3cf924c992}" ShowText='&lt;T S=&quot;40&quot; C=&quot;99,255,99&quot;&gt;??:????&lt;/T&gt;&lt;T S=&quot;40&quot; C=&quot;255,89,74&quot;&gt;95&lt;/T&gt;&lt;T S=&quot;40&quot; C=&quot;99,255,99?&gt;(100%)&lt;/T&gt;' Name="txtTowerInfo_WndBattleHud" AbsContentSize="400,50" MaxWidth="400" UseAbsSize="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{415b962b-0663-46b3-8bdf-d6f120f42c7b}" Name="conDailyInfo_WndBattleHud" Visible="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{692ecbc5-701b-4be8-b102-f3627f71e690}" AbsContentSize="150,36" UseAbsSize="True" RelativePosition="0.0111159,0.988396" AnchorPoint="0,1" Name="conDailyInfo1_WndBattleHud">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d4c8d22d-1651-443e-9922-7567a2bdac1b}" File="ui/common/common_shade_chushouheidi.png" CapInsets="10,10,58,58" />
+                    <WZUIImage Type="WZUIImage" GUID="{24ca7eeb-c352-4a83-968f-2f734db166c7}" UseOriginSize="True" File="ui/dailyCopy/common_icon_kunan.png" Scale="0.3" RelativePosition="0.224266,0.541299" Visible="True" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{2e444885-2be1-41c8-92ca-67b0a65009df}" ShowText='&lt;T S=&quot;40&quot; C=&quot;99,255,99&quot;&gt;??:????&lt;/T&gt;&lt;T S=&quot;40&quot; C=&quot;255,89,74&quot;&gt;95&lt;/T&gt;&lt;T S=&quot;40&quot; C=&quot;99,255,99?&gt;(100%)&lt;/T&gt;' Name="txtDailyInfo1_WndBattleHud" AbsContentSize="200,50" MaxWidth="150" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.02,0.5" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{fa830cac-b666-421a-9910-77056636948e}" AbsContentSize="150,36" UseAbsSize="True" RelativePosition="0.0111159,0.93" AnchorPoint="0,1">
+                    <WZUI9Image Type="WZUI9Image" GUID="{6e9cf591-834f-449a-af30-75def9769ac7}" File="ui/common/common_shade_chushouheidi.png" CapInsets="10,10,58,58" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{38a93a59-163f-47aa-a2fa-bf87badf8715}" ShowText='&lt;T S=&quot;40&quot; C=&quot;99,255,99&quot;&gt;??:????&lt;/T&gt;&lt;T S=&quot;40&quot; C=&quot;255,89,74&quot;&gt;95&lt;/T&gt;&lt;T S=&quot;40&quot; C=&quot;99,255,99?&gt;(100%)&lt;/T&gt;' Name="txtDailyInfo2_WndBattleHud" AbsContentSize="200,50" MaxWidth="150" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.02,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="110,110" AnchorPoint="0.5,0" Name="conBigSkill_WndBattleHud" RelativePosition="0.928375,0.0019549" ShowAll="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" Visible="True" GUID="{8ca5acac-8471-412f-b2e8-bcf2296d7967}">
+            <WZUIContainer AbsContentSize="70,70" AnchorPoint="0.5,0" Name="conAwakeSkill_WndBattleHud" RelativePosition="-0.194,0.66" ShowAll="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" Visible="True" GUID="{1ea5a1af-72ec-4904-9398-36151365d53d}" Scale="1" Rotation="0">
+                <WZUIImage Type="WZUIImage" GUID="{07310a00-09cd-4168-9527-cbb84c22b982}" File="ui/extraction/common_icon_jxsl.png" UseOriginSize="True" RelativePosition="0.871137,-0.00488687" TouchEnable="False" Rotation="15" />
+                <Button LuaDoneFunctionName="onAwakeSkillClick" Name="btnAwakeSkill_WndBattleHud" TouchEnable="True" Type="WZUIButton" GUID="{1cc7f18e-7512-4e9d-94a9-f65378b4d835}" Visible="True" Order="0" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.5,0.5">
+                    <NormalElement Type="WZUIContainer" GUID="{b70a2113-0dc4-4fd3-a787-cdbc61671476}" />
+                    <SelectElement Type="WZUIContainer" GUID="{76c6c2f1-cc58-4327-8abd-6b2d1cf208c7}" />
+                    <DisableElement Type="WZUIContainer" GUID="{0645566d-110a-44df-9dda-59abf653b0a1}" />
+                    <WZUIImage File="ui/combat/optimize/battle_progress_nuqi1_bg.png" Type="WZUIImage" UseOriginSize="True" GUID="{47b9e204-1d15-4793-b68c-6685d328234b}" Scale="0.55" Rotation="0" ScaleX="0.55" ScaleY="0.55" TouchEnable="False" FlipX="False" FlipY="False" Name="imgAwakeSkill_WndBattleHud" />
+                    <WZUIImage Type="WZUIImage" GUID="{3e8b3eed-a24c-4d8b-bbaa-103cfb658878}" UseOriginSize="True" File="ui/extraction/common_jx_jn.png" Scale="0.8" GrayRender="False" Rotation="0" FlipX="True" FlipY="False" />
+                    <WZUISpine Type="WZUISpine" GUID="{49f7d605-ac90-4ef7-97cb-de7a38640e1f}" FileAtlas="ui/ui_skill_juexing.atlas" FileJson="ui/ui_skill_juexing.json" AnimationName="ui_skill_juexing" Loop="True" Scale="0.3" RelativePosition="0.514286,0.914286" TouchEnable="False" Name="spineAwakeSkill_WndBattleHud" FlipX="False" Visible="False" />
+                </Button>
+                <WZUIProgress BgPicture="ui/extraction/common_jx_jn2.png" IsBarType="False" MidPoint="0.5,0.5" Name="progAwakeSkill_WndBattleHud" Percentage="60" Rotation="0" TouchEnable="True" Type="WZUIProgress" UseOriginSize="True" GUID="{92dd18c5-4ff4-47ec-ace0-cb9b793114b7}" Visible="False" FlipY="False" FlipX="True" ShowAll="False" Order="0" RelativePosition="0.5,0.5" Scale="0.8" ScaleX="0.8" ScaleY="0.8" GrayRender="False" LuaTouchBeganFunction="onCoolSkill" Tag="9000" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d8db1889-ac5c-4f03-9e72-a9c912365ea1}" FontSize="16" Color="255,227,116" EnableStroke="True" Name="txtAwakeSkillLevel_WndBattleHud" TouchEnable="False" AnchorPoint="1,0" RelativePosition="0.857147,0.1" StrokeSize="4" StrokeColor="0,0,0" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d00bf57e-9863-46c9-96ee-5fed6fb8ea80}" Name="txtProgAwakeClip_WndBattleHud" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="62,34,8" StrokeSize="4" Text="" RelativePosition="0.565234,0.229744" Visible="False" TouchEnable="False" />
+            </WZUIContainer>
+            <Button LuaDoneFunctionName="onBigSkill" Name="btnBigSkill_WndBattleHud" TouchEnable="True" Type="WZUIButton" GUID="{94309999-ed51-4265-a5e9-27be7d10f9d6}" Visible="True" Order="0" AbsContentSize="95,90" UseAbsSize="True" RelativePosition="0.5,0.518">
+                <NormalElement Type="WZUIContainer" GUID="{739be79d-fb6d-4b38-8812-69330e40ae15}">
+                    <WZUIImage File="ui/combat/optimize/battle_progress_nuqi1_bg.png" Type="WZUIImage" UseOriginSize="True" GUID="{eb3712ab-971a-4fc8-9818-10a64416fb33}" Scale="0.7" Rotation="0" ScaleX="0.7" ScaleY="0.7" TouchEnable="False" FlipX="False" FlipY="False" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{72d0070b-b48a-4167-b798-d4a67bd9bf06}">
+                    <WZUIImage File="ui/combat/optimize/battle_progress_nuqi1_bg.png" Type="WZUIImage" UseOriginSize="True" GUID="{f3ce312b-834a-4c68-b3e5-2a2e87f3e4e5}" Scale="0.7" Rotation="0" ScaleX="0.7" ScaleY="0.7" TouchEnable="False" FlipY="False" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{0ee10d6e-92a8-44ce-a93c-eb9c1531d631}">
+                    <WZUIImage File="ui/combat/optimize/battle_progress_nuqi1_bg.png" Type="WZUIImage" UseOriginSize="True" GUID="{d49f0a57-1586-4943-ac59-1ae417e4a511}" Scale="0.7" Rotation="0" ScaleX="0.7" ScaleY="0.7" TouchEnable="False" FlipY="False" />
+                </DisableElement>
+            </Button>
+            <Button Type="WZUIButton" GUID="{16db0cbc-32cc-4f91-8f14-66c343cd3a16}" AbsContentSize="120,40" UseAbsSize="True" RelativePosition="0.5,1.46364" Name="btnBigSkillSwitch_WndBattleHud" LocalInterval="300" LuaDoneFunctionName="onSwitchBigSkill">
+                <NormalElement Type="WZUIContainer" GUID="{9db7c68a-60c5-4cd8-bf66-b84e5da48d0f}" />
+                <SelectElement Type="WZUIContainer" GUID="{59cd1a98-a8a7-43a3-9677-8ec8129c4a23}" />
+                <DisableElement Type="WZUIContainer" GUID="{c2ba8c73-aabf-4935-8e4b-6c9221a6fe5e}" />
+                <WZUI9Image Type="WZUI9Image" GUID="{c4d10d16-d9ef-4582-a5ce-ff6151a6ee18}" File="ui/common/frame_xlk.png" />
+                <WZUIImage Type="WZUIImage" GUID="{bc4c23d2-6419-4eb5-ab1b-4a59b353cf59}" File="ui/common/frame_fengexian_02.png" UseOriginSize="True" RelativePosition="0.691667,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{b0471f3d-9b41-4051-8973-558275ff95c8}" File="ui/common/common_icon_sxan.png" UseOriginSize="True" RelativePosition="0.825001,0.5" Scale="0.75" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{736547a1-a4dc-4ce9-94af-1da9dc9a2cae}" RelativePosition="0.36,0.5" Name="txtBigSkillSwitch_WndBattleHud" Text="武器大招" Color="255,255,255" FontSize="18" TouchSwallow="True" />
+            </Button>
+            <WZUIProgress BgPicture="ui/combat/optimize/battle_progress_nuqi_fore.png" IsBarType="False" MidPoint="0.5,0.5" Name="progBigSkill_WndBattleHud" Percentage="50" Rotation="90" TouchEnable="False" Type="WZUIProgress" UseOriginSize="True" GUID="{991ba872-32ae-4452-815a-928e61724b1e}" Visible="True" FlipY="False" FlipX="False" ShowAll="False" Order="0" RelativePosition="0.5,0.518182" Scale="0.7" ScaleX="0.7" ScaleY="0.7" />
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{47b2ef79-a0b3-4478-bfa5-55f9445f663e}" TouchEnable="False" MaxWidth="100" Name="txtMySp_WndBattleHud" Order="0" Visible="False" Scale="1" />
+            <WZUIImage Type="WZUIImage" GUID="{61251002-ab0a-4553-89a4-6107ca4fa9fe}" UseOriginSize="True" TouchEnable="False" File="ui/combat/optimize/battle_progress_nuqi2_bg.png" RelativePosition="0.5,0.518182" Order="0" Visible="True" isValid="True" Scale="0.7" ScaleX="0.7" ScaleY="0.7" />
+            <WZUILabelAtlasFont AnchorPoint="0.5,1" CharMapFileName="ui/common_num/battle_num_timeshuzi.png" Height="50" Name="txtMySpValue_WndBattleHud" Order="0" RelativePosition="0.46,0.564" ShowAll="False" Text="9" TouchEnable="False" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="38" GUID="{213116ce-119d-4d94-ba26-24f12c353ead}" Scale="0.32" />
+            <WZUIImage Type="WZUIImage" GUID="{8d2125d5-4ea0-4d43-b490-7d2303183b10}" File="ui/combat/battle_num_timeshuzibf.png" UseOriginSize="True" RelativePosition="0.59,0.491" ScaleX="1" Scale="0.35" Name="imgMySp_WndBattleHud" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{2b4c8faf-6c9b-4451-815a-c39347a439c1}" Name="conTeach_WndBattleHud" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" ShowAll="True" />
+        <WZUIContainer GUID="{71409706-4242-45ee-827e-901291c0e057}" Name="conBigSkill3_SceneBattle" Order="0" Type="WZUIContainer" Visible="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" AbsContentSize="1136,640" UseAbsSize="True" ShowAll="True" TouchEnable="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{999ef732-ee67-499f-9a36-2903a9db12e1}" AbsContentSize="1136,640" UseAbsSize="False" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Visible="False" Name="conBigSkill2Back_WndBattleHud" TouchEnable="False">
+                <WZUIImage Type="WZUIImage" GUID="{35a24f1a-7946-4969-933d-f7f8c7a7a2bd}" File="ui/common/common_black_bg.png" Name="imgBigSkill2Back_WndBattleHud" Opacity="0" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{4a6ebd51-9460-403d-bb79-18542dd52fb6}" Name="conBigSkill2Anim_SceneBattle" TouchEnable="False" />
+        </WZUIContainer>
+        <WZUIButton AbsContentSize="40,40" AnchorPoint="1,1" LuaDoneFunctionName="onPassTurnClick" Name="btnPassTurn_WndBattleHud" Order="0" RelativePosition="0.992732,0.87" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{447114ad-214a-4d86-b8bf-f4c90087cc2b}" Visible="True" Scale="1" ScaleX="1" ScaleY="1">
+            <NormalElement Type="WZUIContainer" GUID="{a880893c-3c72-47f9-b6b9-0d0900cbad01}" RelativePosition="0.5,0.5">
+                <WZUIImage File="ui/combat/optimize/battle_icon_pass.png" Type="WZUIImage" UseOriginSize="True" GUID="{c48ad398-2393-4cbb-a1aa-85b1e411392e}" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{31772633-430c-4816-84a7-fa456e6e6c32}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_pass.png" Type="WZUIImage" UseOriginSize="True" GUID="{c8aa5be2-bae6-4b1c-9fc1-3965065b9038}" Scale="1.07" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{cdbc1d8c-4e49-43f0-82b8-9238990121f2}">
+                <WZUIImage File="ui/combat/optimize/battle_icon_pass.png" Type="WZUIImage" UseOriginSize="True" GUID="{fbe20389-9c4c-4fba-a14d-c993058f5b7c}" GrayRender="True" />
+            </DisableElement>
+        </WZUIButton>
+        <WZUIButton AbsContentSize="40,40" AnchorPoint="1,1" LuaDoneFunctionName="onAutoFightClick" Name="btnAutoFight_WndBattleHud" Order="0" RelativePosition="0.994,0.79" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{19b8f0a5-3269-46cc-9e48-6d59a67838c6}" Visible="False" Scale="1" ScaleX="1" ScaleY="1" LuaActionName="Normal" LocalInterval="300">
+            <NormalElement Type="WZUIContainer" GUID="{32f56ceb-290b-428f-a09e-88a938d72e53}" RelativePosition="0.5,0.5" />
+            <SelectElement Type="WZUIContainer" GUID="{fa18e730-c5d2-4a0c-a552-50f9e335dbf3}" />
+            <DisableElement Type="WZUIContainer" GUID="{738e8fa9-b186-476b-8d55-590444d2581e}" />
+            <WZUIImage File="ui/combat/optimize/battle_icon_startAuto.png" Type="WZUIImage" UseOriginSize="True" GUID="{d6153f06-5fa8-4a21-8ad6-365663755458}" Name="imgAutoF_WndBattleHud" Visible="True" />
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" GUID="{a058bc7a-cf0b-4130-be5b-41924df0b0f8}" AbsContentSize="1136,640" UseAbsSize="True" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Visible="False" Name="conStart_SceneBattle" ShowAll="True" TouchEnable="False">
+            <WZUIImage Type="WZUIImage" GUID="{085ca882-cf05-43a3-8c2d-9eb8fdaafe9a}" File="ui/common/common_black_bg.png" Opacity="128" Name="imgStart1_SceneBattle" Scale="5" TouchEnable="False" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{84a9fe70-8ad1-475d-ac65-5d2ac57e5359}" File="ui/combat/common_icon_zhandoukaishi.png" UseOriginSize="True" Name="imgStart2_SceneBattle" TouchEnable="False" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{ec6a8c64-bd55-49ef-a97f-08ec0ba9e629}" Name="conPassTurn_WndBattleHud" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1.00053" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{a6c91fbc-5f19-4a2d-8f80-2cad3deda995}" AbsContentSize="94,84" UseAbsSize="True" RelativePosition="0.499301,0.9992" AnchorPoint="0.5,1" Visible="False" Name="conImg9PassTurn_WndBattleHud">
+                <WZUI9Image Type="WZUI9Image" GUID="{ac9502ef-ee8d-4c50-a5b5-41354ce3b828}" File="ui/common/common_scale9_di13.png" />
+                <WZArmature Type="WZArmature" GUID="{e8e2dbff-817f-4b58-85b8-bfba7a59de3a}" />
+            </WZUIContainer>
+            <WZUILabelAtlasFont AnchorPoint="0.5,1" CharMapFileName="ui/common_num/battle_num_timeshuzi.png" Height="50" Name="txtTurnTime_WndBattleHud" Order="6" RelativePosition="0.50,0.98231" ShowAll="False" Text="20" TouchEnable="False" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="38" GUID="{7b6a9385-4c0e-45ce-97b3-5fa15d32b9c4}" Scale="0.8" ScaleX="0.6" ScaleY="0.6" />
+            <WZUIImage Type="WZUIImage" GUID="{740394cd-d964-4d98-a8ae-e076c59b248e}" File="ui/combat/optimize/common_slale9_jishidi.png" UseOriginSize="True" Order="-1" RelativePosition="0.50,0.942188" Visible="True" />
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="41,44" AnchorPoint="0,1" Name="conWind_WndBattleHud" RelativePosition="0.515292,0.918437" ShowAll="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" Visible="True" GUID="{4f943735-2f08-4474-82b7-7e6dbde8af7f}" ScaleX="0.8" ScaleY="0.8">
+            <WZArmature Type="WZArmature" ArmatureName="fxb" UseOriginSize="True" Name="armWind_WndBattleHud" RelativePosition="0.27562,0.476049" GUID="{a008a7f0-e745-4e02-928d-75672c6f92d6}" Scale="1" ScaleX="0.45" ScaleY="0.65" FlipX="False" Visible="True" ArmatureFile="battle/ui/fxb.xml" AnchorPoint="0.5,0.5">
+                <Action Type="WZUIArmatureAnimationById" AnimationId="0" GUID="{29b86790-9d35-434e-8f5b-8d8c82ed9f52}" IsLoop="False" />
+            </WZArmature>
+            <WZUISpine Type="WZUISpine" GUID="{74fce62a-a11b-4623-83fb-4cc3e3b6654b}" FileAtlas="battle/ui/ui_fengli.atlas" FileJson="battle/ui/ui_fengli.json" AnimationName="animation" Loop="False" RelativePosition="0.2,0.95" AbsPosition="20.5,54" FlipX="False" Order="4" Name="armWind2_WndBattleHud" Visible="False" ScaleY="0.6" ScaleX="0.6" />
+            <WZUIContainer Type="WZUIContainer" GUID="{932b6bf0-caaa-419d-b9a6-78e7ddb50db5}" Name="conImgWind_WndBattleHud" Scale="1" RelativePosition="0.691464,0.454545" ScaleX="1" ScaleY="1" Visible="True">
+                <WZUIImage Type="WZUIImage" GUID="{45afea0a-c1ae-43ba-827c-e12b890d6901}" File="ui/combat/common_num_zhandouzi.png" UseOriginSize="True" RelativePosition="-0.639625,0.530052" Name="imgWind_WndBattleHud" Scale="1.3" />
+                <WZUILabelAtlasFont CharMapFileName="ui/common_num/common_num_zhandoushuzi4.png" Height="20" Name="txtWind_WndBattleHud" Order="2" Text="0" Type="WZUILabelAtlasFont" UseOriginSize="True" Width="16" GUID="{3a78a3f2-d856-41d2-ac7a-af3a74e78136}" RelativePosition="-0.636585,0.503489" FlipX="False" FlipY="False" ScaleX="-1" />
+            </WZUIContainer>
+            <WZUILabelTTF BoldFont="True" Color="255,236,193" EnableStroke="True" FontSize="20" GUID="{af2bd293-043a-428f-bbd6-bc4ead30de26}" Name="txtTeach_WndBattleHud" RelativePosition="-0.426829,-0.3" ShadowColor="0,0,0" ShadowOffset="0,0" StrokeColor="128,54,13" StrokeOffset="0,0" StrokeSize="4" Type="WZUILabelTTF" Text="追踪弹" Alignment="Center" AbsPosition="47,-48" AnchorPoint="0.5,0.5" Order="1" Visible="False" />
+            <Button Type="WZUIButton" GUID="{00536945-4daf-4584-82d4-cc53b52e1b1d}" RelativeSize="2.8,1" RelativePosition="-0.35,0.5" LuaDoneFunctionName="onClickWind">
+                <NormalElement Type="WZUIContainer" GUID="{0045768b-c2d3-4506-8476-00efa2e8c670}" />
+                <SelectElement Type="WZUIContainer" GUID="{f62d2621-5ef4-4e60-bb17-7107f659cb4a}" />
+                <DisableElement Type="WZUIContainer" GUID="{3ff2e912-cf72-42b4-8d7d-9c36529c79fa}" />
+            </Button>
+            <WZUIImage Type="WZUIImage" GUID="{40b50737-7621-4a74-9b1d-fbff9748da1f}" Name="imgWindSkill_WndBattleHud" File="battleitems/battle_icon_wind.png" UseOriginSize="True" RelativePosition="-0.426833,-0.568182" Scale="0.8" LuaTouchEndedFunction="onClickWind" Visible="False" />
+        </WZUIContainer>
+        <WZUIContainer Name="conMyHudTech_WndBattleHud" Type="WZUIContainer" Visible="True" GUID="{aefe8d79-6eae-4943-923c-906523a24117}" AbsContentSize="0,0" AnchorPoint="0.5,0" UseAbsSize="False" ShowAll="True" RelativePosition="0.497917,0">
+            <WZUIContainer AbsContentSize="1136,129" AnchorPoint="0.5,0" RelativePosition="0.5,0" ShowAll="False" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" GUID="{b4bdcccf-0fb6-4c54-acff-c2a7c934c037}" Name="conMySkillTeach_WndBattleHud" Visible="True">
+                <WZUIContainer AbsContentSize="360,66" Name="conItemTeach_WndBattleHud" RelativePosition="0.44,0.249579" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{a3b2becf-972c-4648-96b0-b3c09ec82c74}">
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgItemTeach1_WndBattleHud" RelativePosition="0.1,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{d4ade8a0-40f5-4a40-9529-9b8aafc65c1c}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgItemTeach2_WndBattleHud" RelativePosition="0.3,0.5" Tag="2" Type="WZUIImage" UseOriginSize="True" GUID="{7b29b1e5-e1a5-4c4c-a0fc-637b18c1c095}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgItemTeach3_WndBattleHud" RelativePosition="0.5,0.5" Tag="3" Type="WZUIImage" UseOriginSize="True" GUID="{2c94c31c-b9c5-4c86-b693-c54a9cb4a406}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgItemTeach4_WndBattleHud" RelativePosition="0.7,0.5" Tag="4" Type="WZUIImage" UseOriginSize="True" GUID="{6c437a57-ae52-4e55-95a4-9eed2f90a534}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgItemTeach5_WndBattleHud" RelativePosition="0.9,0.5" Tag="5" Type="WZUIImage" UseOriginSize="True" GUID="{467f5c38-c4ce-4564-aa72-8619576883e3}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conSkillTeach_WndBattleHud" RelativePosition="0.44,0.776711" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{30eb65cd-41ba-41f1-b924-ae9530ea4129}">
+                    <WZUIImage LuaTouchBeganFunction="" Scale="1" Name="imgSkillTeach1_WndBattleHud" RelativePosition="0.1,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{172e628f-d69c-400a-ae24-8a8cc20fd2e6}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgSkillTeach2_WndBattleHud" RelativePosition="0.3,0.5" Tag="2" Type="WZUIImage" UseOriginSize="True" GUID="{4f339a05-e4a9-47ce-b64b-7064cb541056}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgSkillTeach3_WndBattleHud" RelativePosition="0.5,0.5" Tag="3" Type="WZUIImage" UseOriginSize="True" GUID="{df59e7e4-8763-4edc-89b3-1e7108f2d58e}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgSkillTeach4_WndBattleHud" RelativePosition="0.7,0.5" Tag="4" Type="WZUIImage" UseOriginSize="True" GUID="{e73cdb8e-7585-4832-a095-a3848cef38ed}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                    <WZUIImage LuaTouchBeganFunction="onItem" Scale="1" Name="imgSkillTeach5_WndBattleHud" RelativePosition="0.9,0.5" Tag="5" Type="WZUIImage" UseOriginSize="True" GUID="{da34582b-7680-49eb-9589-06456f80a1bf}" ScaleX="1" ScaleY="1" TouchEnable="False" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Name="conMyHudTip_WndBattleHud" Type="WZUIContainer" Visible="True" GUID="{cf506aae-f677-48fe-b2fb-613039fc2a00}" AbsContentSize="0,0" AnchorPoint="0.5,0.5" UseAbsSize="False" ShowAll="True" RelativePosition="0.497917,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{abed7601-854f-4cdc-9629-fbefe81beb65}" Name="conNewTip_WndBattleHud" ShowAll="False" Visible="False" Order="10000" TouchEnable="False">
+                <WZUIImage Type="WZUIImage" GUID="{d295d16c-a4a1-45a6-90f1-c8b9b6b0d6f7}" Name="imgTipBg_WndBattleHud" UseOriginSize="True" File="ui/combat/common_scale9_haiweidaonidehuihe_bg.png" />
+                <WZUIImage Type="WZUIImage" GUID="{8986e3a5-adbc-4839-b0cb-a584bda67c97}" Name="imgNotMyTurn_WndBattleHud" UseOriginSize="True" File="ui/combat/common_icon_haiweidaonidehuihe.png" RelativePosition="0.5,0.505" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer GUID="{d1aa64e7-615e-41d9-bbfe-44e32809f805}" Name="conKill_WndBattleHud" Order="0" Type="WZUIContainer" Visible="False" AnchorPoint="0.5,1" RelativePosition="0.5,1" AbsContentSize="1136,640" UseAbsSize="True" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{c4c2010e-5001-4c15-b307-5b922e408591}" Name="conKillAnim_WndBattleHud" ShowAll="True" AbsContentSize="0,0" UseAbsSize="False" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" AbsPosition="480,320" />
+            <WZUIContainer Type="WZUIContainer" GUID="{cd373962-0957-4549-847e-f1b1650d12c2}" AnchorPoint="0.5,1" RelativePosition="0.5,1.01">
+                <WZUIContainer Type="WZUIContainer" GUID="{491e81fc-3505-42b2-8b01-d0f5eafb9abd}" UseAbsSize="True" AbsContentSize="190,40" AnchorPoint="0.5,1" RelativePosition="0.5,0.793323" AbsPosition="475.53,507.727">
+                    <WZUIImage Type="WZUIImage" GUID="{d89724aa-aff5-4807-8d67-d15912343f1c}" AnchorPoint="0.5,1" RelativePosition="0.5,1" File="ui/common/common_scale9_heidi4.png" Name="imgNumKillBg_WndBattleHud" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{03849772-0d63-457f-a745-a1dfc0993ce3}" RelativePosition="0.415,0.8" AbsContentSize="44,44" UseAbsSize="True" AnchorPoint="0.5,1" TouchEnable="False" AbsPosition="392.361,512" Order="1">
+                    <WZUIImage Type="WZUIImage" GUID="{0109d0c8-9046-4d65-adb8-afd41d8f9a0f}" Name="imgFigureBg_WndBattleHud" UseOriginSize="True" Scale="0.55" File="ui/combat/battle_icon_datouxianghong.png" />
+                    <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{d0208443-1dd6-4dbb-96eb-915468233ccf}" TouchEnable="False" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Scale="1,1" RelativeSize="1,1" AbsPosition="307.55,215.782">
+                        <Stencil Type="WZUIImage" GUID="{0ab38eae-f201-4cb5-9f78-d089531e363d}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="False" UseOriginSizeProportion="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{584a1887-be50-42b7-a43f-3b7f58278c41}" Name="imgFigure_WndBattleHud" UseOriginSize="True" File="" Scale="1" RelativePosition="0.5,0.5" />
+                    </WZUIClippingContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a70f7ec1-341c-40e9-9a7e-2e70a6fb7dfb}" RelativePosition="0.585,0.8" AbsContentSize="44,44" UseAbsSize="True" AnchorPoint="0.5,1" TouchEnable="False" AbsPosition="561.693,512" Order="1">
+                    <WZUIImage Type="WZUIImage" GUID="{c3c7f8d4-bcb7-4453-88c5-dd673482b9a0}" Name="imgFigureBg2_WndBattleHud" UseOriginSize="True" Scale="0.55" File="ui/combat/battle_icon_datouxianglan.png" />
+                    <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{95f5b515-524b-4689-9d3b-2d916ab34f5c}" TouchEnable="False" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Scale="1,1" RelativeSize="1,1" AbsPosition="307.55,215.782">
+                        <Stencil Type="WZUIImage" GUID="{a29ce227-afb0-40a9-87fb-ffedb6d1e438}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="False" UseOriginSizeProportion="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{6ca96c5a-81d2-4fea-83a9-14ee96cf229e}" Name="imgFigure2_WndBattleHud" UseOriginSize="True" File="" Scale="1" RelativePosition="0.5,0.5" />
+                    </WZUIClippingContainer>
+                </WZUIContainer>
+                <WZUIImage Type="WZUIImage" GUID="{bc97de34-d77e-4325-a748-02c1c6e03723}" AnchorPoint="0.5,1" RelativePosition="0.5,0.781922" File="ui/common/common_icon_wusha.png" Visible="True" UseOriginSize="True" AbsPosition="472.703,500.43" Name="imgNumKill_WndBattleHud" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer GUID="{79b6d261-6aab-4270-859d-72e26c105035}" Name="conKill2_WndBattleHud" Order="0" Type="WZUIContainer" Visible="False" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" AbsContentSize="1136,640" UseAbsSize="True" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{119d8972-3a91-4fed-a791-591af891f718}" Name="conKillAnim2_WndBattleHud" ShowAll="True" AbsContentSize="1136,640" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" />
+        </WZUIContainer>
+        <WZUIContainer GUID="{39645a41-9d60-4c12-9055-36ca0e05cf1c}" Name="conWifi_WndBattleHud" Order="10" Type="WZUIContainer" Visible="True" AnchorPoint="1,1" RelativePosition="0.990947,0.935" AbsContentSize="40,40" UseAbsSize="True" ShowAll="True" />
+        <WZUIContainer Type="WZUIContainer" GUID="{7a4bd74a-e2c7-4204-b075-6ba48d9017ab}" Name="conReplay_WndBattleHud" AbsContentSize="120,280" UseAbsSize="True" RelativePosition="1,0.570076" AnchorPoint="1,0.5" Visible="True" ShowAll="True">
+            <Button Type="WZUIButton" GUID="{f0854d43-13ba-4aad-bd46-fa80caf72dfe}" LuaActionName="Normal" RelativePosition="0.580808,0.749999" AbsContentSize="70,70" UseAbsSize="True" LuaDoneFunctionName="onClickReplayExit" Name="btnReplayExit_WndBattleHud" Visible="False">
+                <NormalElement Type="WZUIContainer" GUID="{9e394c3a-df35-4493-b7b1-833fa45d199a}">
+                    <WZUIImage Type="WZUIImage" GUID="{1d230c0b-4d73-4f52-bf4b-2a1ca220db7d}" File="battle/hud/battle_icon_gbsp.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{e6791ac0-9481-413a-b7e7-23cdcfe95402}">
+                    <WZUIImage Type="WZUIImage" GUID="{458a789c-71a1-4b62-9e68-24219936d167}" File="battle/hud/battle_icon_gbsp.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{f880cccc-a58d-4960-95ac-4a7fb0326b44}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{a9aaa235-107d-48e4-972e-1a4a67a2f759}" LuaDoneFunctionName="onClickReplayStop" Name="btnReplayStop_WndBattleHud" AbsContentSize="70,70" UseAbsCoordinate="False" UseAbsSize="True" RelativePosition="0.580808,0.439935" Visible="False" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{6e01b08f-6d7b-43f2-862c-a54584bd7824}" AbsContentSize="0,0" UseAbsCoordinate="False">
+                    <WZUIImage Type="WZUIImage" GUID="{7c13c06e-d542-47d0-bb49-b2b60f408cf5}" File="battle/hud/battle_icon_ztship.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{3065e2ed-7a2e-41e5-9d96-f6ac5097d6dd}">
+                    <WZUIImage Type="WZUIImage" GUID="{b6140570-39b8-4685-9a0e-940e5d481a83}" File="battle/hud/battle_icon_ztship.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{c2239ed7-78d4-4b52-8709-e3c19ecbc9e8}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{5c7e00db-d5c6-42b7-be1a-9e961eee7b8d}" LuaDoneFunctionName="onClickReplaySpeed1" Name="btnReplaySpeed1_WndBattleHud" AbsContentSize="70,70" UseAbsCoordinate="False" UseAbsSize="True" RelativePosition="0.580807,0.12987" Visible="False" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{46a89033-d0be-4857-ba57-cd7d4e2419d2}" AbsContentSize="0,0" UseAbsCoordinate="False">
+                    <WZUIImage Type="WZUIImage" GUID="{5801917a-ca37-470d-9c7a-d7d4908ecf58}" File="battle/hud/battle_icon_kuaij1.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{bba1a32e-318a-46ab-9328-f8649ad35db9}">
+                    <WZUIImage Type="WZUIImage" GUID="{9c00ecdc-4177-4a59-bdf6-29fe00f31b85}" File="battle/hud/battle_icon_kuaij1.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{207cf521-894f-4d12-ab16-85ab0d9d461d}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{7a5427c3-841d-4a56-9d84-9fbba79a9c58}" LuaDoneFunctionName="onClickReplaySpeed2" Name="btnReplaySpeed2_WndBattleHud" AbsContentSize="70,70" UseAbsCoordinate="False" UseAbsSize="True" RelativePosition="0.580807,0.12987" Visible="False" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{c2d64628-4cee-4a9b-9c88-49ffe59d9eac}" AbsContentSize="0,0" UseAbsCoordinate="False">
+                    <WZUIImage Type="WZUIImage" GUID="{dfac28e7-f567-4ddd-9f98-5e8aabd9b050}" File="battle/hud/battle_icon_kuaij2.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{e5a7d0ee-2cf6-46dc-a886-ff1ba3f879ad}">
+                    <WZUIImage Type="WZUIImage" GUID="{66a36282-0b53-4bc1-8d98-799e47e3cc49}" File="battle/hud/battle_icon_kuaij2.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{1c8162f7-af12-45d6-8196-1cdff6a6f59f}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{e13e677a-968e-4e56-adab-fe8877d774c9}" LuaDoneFunctionName="onClickReplaySpeed4" Name="btnReplaySpeed4_WndBattleHud" AbsContentSize="70,70" UseAbsCoordinate="False" UseAbsSize="True" RelativePosition="0.580808,0.12987" Visible="False" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{83b757dd-823a-4afc-ac25-9ef10d5be170}" AbsContentSize="0,0" UseAbsCoordinate="False">
+                    <WZUIImage Type="WZUIImage" GUID="{dff00c57-8d44-4fba-af8e-363364590b03}" File="battle/hud/battle_icon_kuaij4.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{f3fb9ee5-7dc2-41db-8271-9f33d3bd7fb8}">
+                    <WZUIImage Type="WZUIImage" GUID="{edf33158-4663-4e82-93a4-b5dc6cadda18}" File="battle/hud/battle_icon_kuaij4.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{1540fa2c-b016-4a17-a288-c68b2fe0aeeb}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{c4a333f8-468a-419f-91d7-929df676ff59}" LuaDoneFunctionName="onClickReplayPlay" Name="btnReplayPlay_WndBattleHud" AbsContentSize="70,70" UseAbsCoordinate="False" UseAbsSize="True" RelativePosition="0.580808,0.439935" Visible="False" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{8008589f-9c30-41f1-b43c-28be035356c3}" AbsContentSize="0,0" UseAbsCoordinate="False">
+                    <WZUIImage Type="WZUIImage" GUID="{7fe907de-e180-484e-94ce-b017505f05c3}" File="battle/hud/battle_icon_bfsp.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{c564884e-1807-4f9f-95a0-6a8c5663bec4}">
+                    <WZUIImage Type="WZUIImage" GUID="{3c7eb30c-d5c8-4a94-bc29-3ae8f187e601}" File="battle/hud/battle_icon_bfsp.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{aff46340-f115-4648-a8cd-a0e428ecb448}" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Name="conMyGhostHud_WndBattleHud" Type="WZUIContainer" Visible="False" GUID="{922697e8-9d79-4f01-9bb2-d66562d3b0dc}" AbsContentSize="0,0" AnchorPoint="0.5,0" UseAbsSize="False" ShowAll="False" RelativePosition="0.497917,0">
+            <WZUIContainer AbsContentSize="1136,129" AnchorPoint="0.5,0" RelativePosition="0.5,0" ShowAll="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" GUID="{435c9178-c3c5-4212-b97c-bdf3df3f9aac}" Name="conMyGhostSkill_WndBattleHud" Visible="True">
+                <WZUIContainer AbsContentSize="360,66" RelativePosition="0.496,0.288339" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" GUID="{ce62728e-229d-4df1-973c-891ddae4cc0a}" Visible="True">
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.343,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{e129df9d-b260-4bde-ba45-6940f7049c1d}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{ff36fabf-f0ca-41fc-b353-807ddc6d90f7}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.532,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{dc4abe45-f699-4448-9b74-9882e63741c7}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{0024b7d8-59a4-481a-a6a6-18666845bb9c}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                    <WZUIImage File="ui/combat/optimize/battle_icon_jndi01.png" RelativePosition="0.718,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{6175a9b6-24a4-4daf-951a-29847e85f3e5}">
+                        <WZUIImage File="ui/combat/optimize/battle_icon_jndi02.png" RelativePosition="0.5,0.5" Type="WZUIImage" UseOriginSize="True" GUID="{f021e286-be95-4e48-969f-066cf4724e68}" Order="1" Scale="0.85" Visible="False" />
+                    </WZUIImage>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conGhostSkill_WndBattleHud" RelativePosition="0.496,0.288339" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{f629e5bb-c90a-41f6-a8df-f42966a735f7}">
+                    <WZUIImage LuaTouchBeganFunction="onGhostSkillBegin" Scale="1" Name="imgGhostSkill1_WndBattleHud" RelativePosition="0.343,0.5" Tag="1" Type="WZUIImage" UseOriginSize="True" GUID="{5f883fbd-b089-47e7-8dba-f5b5f84dac1a}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onGhostSkill" LuaTouchMoveoutFunction="onGhostSkillOut" Visible="True">
+                        <WZUIImage File="" RelativePosition="0.7,0.2" Type="WZUIImage" UseOriginSize="True" GUID="{ad68f0c1-9287-4031-95e4-7d28904db38e}" Order="1" Scale="1" Visible="True" Tag="99" Name="imgGLv1_WndBattleHud" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onGhostSkillBegin" Scale="1" Name="imgGhostSkill2_WndBattleHud" RelativePosition="0.532,0.5" Tag="2" Type="WZUIImage" UseOriginSize="True" GUID="{e70d44eb-0eb4-4074-8732-4ff1af905a53}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onGhostSkill" LuaTouchMoveoutFunction="onGhostSkillOut">
+                        <WZUIImage File="" RelativePosition="0.7,0.2" Type="WZUIImage" UseOriginSize="True" GUID="{54f2082c-7419-4fcb-8229-22cc054b9c97}" Order="1" Scale="1" Visible="True" Tag="99" Name="imgGLv2_WndBattleHud" isValid="True" />
+                    </WZUIImage>
+                    <WZUIImage LuaTouchBeganFunction="onGhostSkillBegin" Scale="1" Name="imgGhostSkill3_WndBattleHud" RelativePosition="0.718,0.5" Tag="3" Type="WZUIImage" UseOriginSize="True" GUID="{dc4cb470-54e2-410c-acec-9bf037349134}" ScaleX="1" ScaleY="1" LuaTouchEndedFunction="onGhostSkill" LuaTouchMoveoutFunction="onGhostSkillOut">
+                        <WZUIImage File="" RelativePosition="0.7,0.2" Type="WZUIImage" UseOriginSize="True" GUID="{78df672d-e8d6-4abb-a3da-6d5c93dfe7ee}" Order="1" Scale="1" Visible="True" Tag="99" Name="imgGLv3_WndBattleHud" />
+                    </WZUIImage>
+                    <WZUIContainer Type="WZUIContainer" GUID="{8e29a304-8dfa-490d-ae93-bf3a1aa27885}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="124,33" Name="conAnimGhostSkill1_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{f249a476-283d-4abf-9268-2a4ba2a1300e}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animGhostSkill1_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{bd5bcdb0-b0ab-4c5a-be5c-223c109dd215}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="192,33" Name="conAnimGhostSkill2_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{6afdca7c-b546-43f3-ac41-e7961b8b47bf}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animGhostSkill2_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{82bb0351-5965-442c-94b0-0a54d236403c}" TouchSwallow="True" UseAbsSize="True" AbsContentSize="66,66" RelativePosition="-1.#IND,-1.#IND" TouchContainerEnable="True" UseAbsCoordinate="True" AbsPosition="258,33" Name="conAnimGhostSkill3_WndBattleHud" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{23729bfc-4423-45b8-80ae-a3b64522ae43}" FileAtlas="battle/ui/props_effect.atlas" FileJson="battle/ui/props_effect.json" AnimationName="props_effect" Loop="False" RelativePosition="0.652697,0.530961" Name="animGhostSkill3_WndBattleHud" Visible="True" TouchSwallow="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="360,66" Name="conGhostSkillClip_WndBattleHud" RelativePosition="0.4957,0.288" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" GUID="{4e942437-9dbc-4751-b099-330471323c0d}" Visible="True">
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progGhostSkillClip1_WndBattleHud" RelativePosition="0.343,0.515" Tag="1" Type="WZUIProgress" UseOriginSize="True" GUID="{39c82ccb-88be-4c2e-a194-bb2aa27c497b}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolGhostSkillBegin" Color="255,255,255" Percentage="0" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolGhostSkill" LuaTouchMoveoutFunction="onCoolGhostSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progGhostSkillClip2_WndBattleHud" RelativePosition="0.531,0.515" Tag="2" Type="WZUIProgress" UseOriginSize="True" GUID="{e4115a7c-87bc-429e-8f27-603f78c87a8d}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolGhostSkillBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolGhostSkill" LuaTouchMoveoutFunction="onCoolGhostSkillOut" />
+                    <WZUIProgress BgPicture="ui/combat/common_shade_jinengkuang.png" Name="progGhostSkillClip3_WndBattleHud" RelativePosition="0.718,0.515" Tag="3" Type="WZUIProgress" UseOriginSize="True" GUID="{97dbd99c-3ce6-4ed1-8626-406a69c4d139}" MidPoint="0.5,0.5" IsBarType="False" Visible="False" FlipX="True" LuaTouchBeganFunction="onCoolGhostSkillBegin" Scale="0.9" ScaleY="0.93" LuaTouchEndedFunction="onCoolGhostSkill" LuaTouchMoveoutFunction="onCoolGhostSkillOut" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="110,110" AnchorPoint="0.5,0" Name="conSwitchTarget_WndBattleHud" RelativePosition="0.928375,0.0019549" ShowAll="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True" Visible="True" GUID="{2cd49d42-8d97-4cfe-81e9-f8470feecaad}">
+                <Button LuaDoneFunctionName="onSwitchTarget" Name="btnSwitchTarget_WndBattleHud" TouchEnable="True" Type="WZUIButton" GUID="{8827050d-75f6-418f-bc1b-2f0e86c3c35f}" Visible="True" Order="0" AbsContentSize="95,90" UseAbsSize="True" RelativePosition="0.5,0.518182" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{9f29b8b7-7119-4815-aff6-773f948a3eb9}">
+                        <WZUIImage File="ui/combat/battle_icon_zhihuan.png" Type="WZUIImage" UseOriginSize="True" GUID="{b53c9c8a-1530-4bd5-b4e5-a0c0aceef608}" Scale="0.7" Rotation="0" ScaleX="0.7" ScaleY="0.7" TouchEnable="False" FlipX="False" FlipY="False" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{d92c4b71-652d-4de7-8e6a-2bb9a2c05620}">
+                        <WZUIImage File="ui/combat/battle_icon_zhihuan.png" Type="WZUIImage" UseOriginSize="True" GUID="{aa700001-9b60-4b36-9b81-4cdd1fc02677}" Scale="0.7" Rotation="0" ScaleX="0.7" ScaleY="0.7" TouchEnable="False" FlipY="False" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{fc5a20d0-d9d4-4cfa-b0d9-814a28a0ef67}">
+                        <WZUIImage File="ui/combat/battle_icon_zhihuan.png" Type="WZUIImage" UseOriginSize="True" GUID="{64701706-28be-4548-8c26-27c8f8949f9e}" Scale="0.7" Rotation="0" ScaleX="0.7" ScaleY="0.7" TouchEnable="False" FlipY="False" />
+                    </DisableElement>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{f505ec5e-3935-467f-8241-428259384405}" Name="txtTargetPlayerName_WndBattleHud" Text="打卡角度看啊" FontSize="18" Color="" EnableStroke="True" RelativePosition="0.5,0.1" StrokeColor="105,65,46" StrokeSize="4" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{311bca8a-3114-4d42-8573-e2670d58a107}" AbsContentSize="70,70" UseAbsSize="True" Name="conForBuff_WndBattleHud" ShowAll="True" RelativePosition="0.677025,0.98" AnchorPoint="1,1" Visible="False" ScaleX="1">
+            <Button Type="WZUIButton" GUID="{dd3cc964-61f4-49b6-8911-f5ea69f4d644}" AbsContentSize="70,70" LuaActionName="Normal" LuaDoneFunctionName="onCLickBuff">
+                <NormalElement Type="WZUIContainer" GUID="{4647f3ec-77c4-43d7-b45d-a47fbe3b1aee}" />
+                <SelectElement Type="WZUIContainer" GUID="{532a28b0-b230-41b5-b5c4-e326b1c2605e}" />
+                <DisableElement Type="WZUIContainer" GUID="{43938680-3aa1-4d17-ab2e-bd174f043d58}" />
+                <WZUIImage Type="WZUIImage" GUID="{5c346452-75ff-40cb-8c2b-0376cc66f514}" File="ui/common/commom_icon_bg.png" />
+                <WZUIImage Type="WZUIImage" GUID="{cc7634e6-146f-42b1-b8e9-329bebef4311}" File="ui/common/common_pic_diwen2.png" Scale="0.7" />
+                <WZUIImage Type="WZUIImage" GUID="{2b859225-0624-47eb-a65b-bdc45b3d9111}" Name="imgBuffIcon_WndBattleHud" File="ui/community/common_icon_jineng5.png" Scale="0.7" Visible="True" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{57e8f5ac-291c-4669-92be-f679d0ec8492}" Name="conAudience_WndBattleHud" Visible="False" TouchContainerEnable="False" />
+        <WZUIContainer Type="WZUIContainer" GUID="{02266615-23ac-4349-8682-33a2f512a4a2}" Name="conWindSpine_WndBattleHud" TouchSwallow="False" TouchEnable="False" Order="-1">
+            <WZUISpine Type="WZUISpine" GUID="{b0dc95c8-06e1-4fd5-bbf7-9d6dbeadd049}" Name="animWind_WndBattleHud" FileAtlas="battle/skill/skill_wind.atlas" FileJson="battle/skill/skill_wind.json" AnimationName="large" Loop="True" Visible="False" UseOriginSize="True" TouchEnable="False" TouchSwallow="False" RelativePosition="0.5,1.37344" FlipY="False" FlipX="False" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{e3e449f8-fe8a-4d62-b04f-827b85f5ffff}" AbsContentSize="132.6,44.1" UseAbsSize="True" ShowAll="True" RelativePosition="0.3,0.96">
+            <WZUIImage Type="WZUIImage" GUID="{8662f92d-7f50-47fc-bd12-8681cbc58dd0}" UseOriginSize="False" RelativePosition="0.5,0.5" File="" Scale="1" TouchSwallow="False" TouchEnable="False" Name="imgVN_WndBattleHud" Visible="False" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndBattleHud>

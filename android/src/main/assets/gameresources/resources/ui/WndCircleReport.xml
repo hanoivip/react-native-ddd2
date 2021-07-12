@@ -1,0 +1,95 @@
+﻿<WndCircleReport GUID="{a3079491-a97b-460b-afc7-705e60ae9e30}">
+    <WZUIWindow Type="WZUIWindow" GUID="{25d5c483-c3b5-4947-b700-e572624e3139}" LuaObjectName="WndCircleReport" Name="WndCircleReport" AbsContentSize="688,380" UseAbsSize="True" NameCreate="True" LuaTouchBeganFunction="onTouchBegin" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{835f0357-07a6-485d-b39d-c282e97c8cb2}" ShowAll="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{a0feb3c0-8cb9-455a-b3ad-6444e4f37b57}" File="ui/common/frame_tc_xiao.png" CapInsets="86,89,1,1" />
+            <WZUIContainer Type="WZUIContainer" GUID="{72f1b24a-3eff-4cab-8b31-db8a79cdbf12}" AbsContentSize="498,60" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1.00526">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fd600760-4a84-406a-a9c1-11bc6258a0d3}" TextKey="CHAT_REPORT_TEXT6" FontSize="26" EnableStroke="True" Color="255,236,193" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.5" />
+                <Button Type="WZUIButton" GUID="{513c040f-afcc-4235-a370-39e8905100eb}" AbsContentSize="60,60" RelativePosition="1.1314,0.516365" UseAbsSize="True" LuaDoneFunctionName="onCloseClick" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{7e891e07-2683-485c-8f98-578899a9e7e3}">
+                        <WZUIImage Type="WZUIImage" GUID="{85ecf82b-d9a9-45dc-b9ca-f4b72821b06f}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{ce6e49d4-485c-41e9-ad70-7aabadedb0f7}">
+                        <WZUIImage Type="WZUIImage" GUID="{e2e7f1c1-0a47-4008-8924-59fd5eeda01b}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{68952480-f439-41ef-bb72-9ac4a1f5aad4}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{ecd2157d-396e-4aad-8503-9e9bc09f21c9}" AbsContentSize="680,200" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0.282661">
+                <WZUICheckBox Type="WZUICheckBox" GUID="{ccfc424d-6904-4b38-90ab-a3aba40e8895}" AbsContentSize="164,54" UseAbsSize="True" SelectedIndex="1" Tag="1" Name="checkBox1_WndCircleReport" RelativePosition="0.3,0.85" Visible="False" LuaCheckedFunctionName="onCheckBox">
+                    <CheckElement Type="WZUIContainer" GUID="{d027eece-086f-4994-917e-319f138de85e}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2b7e16e1-35a4-467f-b0df-9ac0c0e7da1d}" Name="txtCheck1_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{7f5158c6-8387-49e2-b1cb-08358dfc4668}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{b8c096d8-5f22-4c49-ad4b-894630b409f7}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3eae7643-c605-468b-951c-bc7bcf6a9e11}" Name="txtCheckSel1_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{62b3a9ad-a668-4243-8c75-668b1ae6681e}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{28c4c4ce-1b9a-4a39-b0cb-8fd8b291b1f6}" File="ui/common/common_gx.png" UseOriginSize="True" RelativePosition="0.862195,0.5" />
+                    </CheckElement>
+                </WZUICheckBox>
+                <WZUICheckBox Type="WZUICheckBox" GUID="{5f46d81d-6180-488f-9128-529002f4d4f0}" AbsContentSize="164,54" UseAbsSize="True" SelectedIndex="0" Tag="2" Name="checkBox2_WndCircleReport" RelativePosition="0.7,0.85" Visible="False" LuaCheckedFunctionName="onCheckBox">
+                    <CheckElement Type="WZUIContainer" GUID="{06a62113-96d6-40c4-8c81-04a59fce89a0}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{d624f649-d404-4822-a9af-455659263ac5}" Name="txtCheck2_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{dcfd20fc-8313-41bb-8321-5538b8efeed4}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{e7eda33c-1194-4102-af4c-d29bcdc9bfc4}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{76d420d2-7484-496f-bd6c-ff17c2f5877d}" Name="txtCheckSel2_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{b8f59bd6-d1d8-40a7-8b61-82f564f477c0}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{5c735a0b-7204-4ea7-8d49-40cc5dda642a}" File="ui/common/common_gx.png" UseOriginSize="True" RelativePosition="0.862195,0.5" />
+                    </CheckElement>
+                </WZUICheckBox>
+                <WZUICheckBox Type="WZUICheckBox" GUID="{ad1c6550-3e89-46f7-85e7-359d08731df2}" AbsContentSize="164,54" UseAbsSize="True" SelectedIndex="0" Tag="3" Name="checkBox3_WndCircleReport" RelativePosition="0.3,0.55" Visible="False" LuaCheckedFunctionName="onCheckBox">
+                    <CheckElement Type="WZUIContainer" GUID="{0d6b97ee-0ccf-4eba-af99-99c7ce0a1daf}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a509414e-eea0-4046-958d-9fadb81ae4f9}" Name="txtCheck3_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{5747be89-3f1e-4756-9298-6ca29f85938a}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{878aebd3-9c9c-45a3-b55d-96f6f9762529}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8e056a54-a318-4b10-946e-ed3187f26bc6}" Name="txtCheckSel3_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{db50cc25-87b8-4efd-9277-c18ea7ecd80b}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{b3d867ae-2e9d-43d3-bd45-b59244caa281}" File="ui/common/common_gx.png" UseOriginSize="True" RelativePosition="0.862195,0.5" />
+                    </CheckElement>
+                </WZUICheckBox>
+                <WZUICheckBox Type="WZUICheckBox" GUID="{890eb003-21dc-4f89-a719-eb5623e0c0ee}" AbsContentSize="164,54" UseAbsSize="True" SelectedIndex="0" Tag="4" Name="checkBox4_WndCircleReport" RelativePosition="0.7,0.55" Visible="False" LuaCheckedFunctionName="onCheckBox">
+                    <CheckElement Type="WZUIContainer" GUID="{8647d65e-a869-4dae-b025-733285431abd}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{0ba39f75-743f-4fa7-903e-396e5a50cf6d}" Name="txtCheck4_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{56da58fd-9562-438e-b791-471c54afcbea}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{2e48f203-9abf-4481-b260-332a1b2ff582}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f7e318b0-b7e3-4522-877b-f3ea9a2c3fd4}" Name="txtCheckSel4_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{f689f3b3-f631-4da2-b237-75e5568877b6}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{e6853e7d-0460-4e3d-b51a-1d7480186d3e}" File="ui/common/common_gx.png" UseOriginSize="True" RelativePosition="0.862195,0.5" />
+                    </CheckElement>
+                </WZUICheckBox>
+                <WZUICheckBox Type="WZUICheckBox" GUID="{932bd93d-edb9-4faa-8999-9cedede19ca0}" AbsContentSize="164,54" UseAbsSize="True" SelectedIndex="0" Tag="5" Name="checkBox5_WndCircleReport" RelativePosition="0.3,0.25" Visible="False" LuaCheckedFunctionName="onCheckBox">
+                    <CheckElement Type="WZUIContainer" GUID="{abf1a826-da86-4e8e-a867-e4e2fd2eb69c}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e6e71ccc-03a4-4689-aa75-b166eb0cea22}" Name="txtCheck5_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{26ae819d-0a43-45ce-a75a-e63f183ba64b}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{57c06872-b0dd-4aca-970e-3e92e2de2aca}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{bab7feab-c535-4e02-a955-e05a58b4db29}" Name="txtCheckSel5_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{c1fa676f-e0e9-4d71-96af-8b38f300168f}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{7918a8b8-a079-434a-95d8-c80085cd8107}" File="ui/common/common_gx.png" UseOriginSize="True" RelativePosition="0.862195,0.5" />
+                    </CheckElement>
+                </WZUICheckBox>
+                <WZUICheckBox Type="WZUICheckBox" GUID="{71e6a7b4-de5e-4c3d-9209-5755bcd75e27}" AbsContentSize="164,54" UseAbsSize="True" SelectedIndex="0" Tag="6" Name="checkBox6_WndCircleReport" RelativePosition="0.7,0.25" Visible="False" LuaCheckedFunctionName="onCheckBox">
+                    <CheckElement Type="WZUIContainer" GUID="{2c7bdfa9-4bff-4465-8876-f0e079779fc9}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f2fc4873-77b6-4dc0-aa42-f3b9c20e63df}" Name="txtCheck6_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{394ccdfc-db91-4f3a-b9e2-e920473205ca}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{12ac0669-5cec-40c1-925c-634612caae32}">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{6817e07d-5f6a-462c-93d5-5336a41b9065}" Name="txtCheckSel6_WndCircleReport" Color="127,70,26" FontSize="20" Text="经典款了萨" AnchorPoint="0,0.5" RelativePosition="0,0.5" TouchEnable="True" TouchSwallow="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{c0289daf-a258-4cd0-b513-e7815f593870}" File="ui/common/common_gx_di.png" UseOriginSize="True" RelativePosition="0.85,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{102fdfaa-81bc-41d1-be4b-819f5e198f8a}" File="ui/common/common_gx.png" UseOriginSize="True" RelativePosition="0.862195,0.5" />
+                    </CheckElement>
+                </WZUICheckBox>
+                <WZUIImage Type="WZUIImage" GUID="{8ece9120-b09e-4496-afef-898bf8e5168a}" File="ui/common/frame_fengexian_01.png" UseOriginSize="True" ScaleX="20.5" RelativePosition="0.5,0" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{95849ec6-9b14-40f1-a28f-7c904a303a6f}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.5,0.14" LuaActionName="Normal" LocalInterval="300" LuaDoneFunctionName="onClickSubmit">
+                <NormalElement Type="WZUIContainer" GUID="{35dea5ed-75ea-4c0c-bc74-2cf90997b564}" />
+                <SelectElement Type="WZUIContainer" GUID="{c27f503a-ac08-416d-ba27-d12c47b04e56}" />
+                <DisableElement Type="WZUIContainer" GUID="{62572c1a-febc-4293-935c-a5a1060be01f}" />
+                <WZUIImage Type="WZUIImage" GUID="{1743042e-9800-4741-835b-60dbaa63538f}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc244a42-dad4-40ca-ac06-ec09e424a0e2}" LabelStyleKey="NORMAL_ORANGE_BTN" TextKey="INVITE_SUBMIT" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndCircleReport>

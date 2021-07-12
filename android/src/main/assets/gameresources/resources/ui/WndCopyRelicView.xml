@@ -1,0 +1,17 @@
+﻿<WndCopyRelicView GUID="{f478e2f4-da7f-406c-8cc9-6d7da68e279d}">
+    <WZUIWindow Type="WZUIWindow" GUID="{4ece52bd-9ab6-44f5-858a-0a2e59b67dd3}" AbsContentSize="240,100" UseAbsSize="True" RelativePosition="1,1" AnchorPoint="1,1" LuaObjectName="WndCopyRelicView" Name="WndCopyRelicView" ShowAll="True" NameCreate="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{e9b4de92-c49e-407b-b0cc-ed25bf239da1}" Name="imgView_WndCopyRelicView" File="ui/common/common_scale9_di8.png" UseOriginSize="False" Opacity="180" />
+        <WZUIContainer Type="WZUIContainer" GUID="{97dc2f09-7798-48e2-8bc1-c0575d859195}">
+            <WZUIContainer Type="WZUIContainer" GUID="{7e969f1c-c671-4f52-a3bb-9dfeef3d7565}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,1" AbsContentSize="240,50" UseAbsSize="True">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8166abb9-f841-4188-b41c-ef0401a4e5b4}" Text="" Name="txt1_WndCopyRelicView" FontSize="20" Color="255,227,116" AnchorPoint="0,0.5" RelativePosition="0.05,0.5">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{54703a82-016f-451a-9241-d87377631884}" Name="txt2_WndCopyRelicView" FontSize="20" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="1.1,0.5" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{c796df4d-a89e-4703-8435-a40a767cdfbd}" AbsContentSize="240,50" AnchorPoint="0.5,0" RelativePosition="0.5,0" UseAbsSize="True">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{012b444c-c63b-42a1-b0c4-0ec0769e73df}" Name="txt3_WndCopyRelicView" FontSize="20" Color="255,227,116" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" Text="">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{21afcacf-0566-411c-a5c4-600173b3341a}" Name="txt4_WndCopyRelicView" FontSize="20" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="1.1,0.5" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndCopyRelicView>

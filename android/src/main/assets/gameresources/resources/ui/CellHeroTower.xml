@@ -1,0 +1,24 @@
+﻿<CellHeroTower GUID="{7fc216db-9922-4b1f-bca6-b40a481cb4bd}">
+    <WZUIContainer Type="WZUIContainer" GUID="{05afab67-1180-4082-b044-630b32939e89}" Name="CellHeroTower" NameCreate="True" AbsContentSize="220,324" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{79f4bf22-723e-4876-ad85-1bb663008f80}" Name="conContent_CellHeroTower">
+            <WZUIImage Type="WZUIImage" GUID="{a44e6e4a-875b-4ed0-89ba-6705e5474a49}" File="ui/copy/yxt_frame_003.png" UseOriginSize="True" Visible="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{2cf145db-8876-4326-bfb8-18548e3f9dad}" Name="conRole_CellHeroTower" AnchorPoint="0.5,0" RelativePosition="0.5,0.29" RelativeSize="1,0.8" Order="0" />
+            <WZUIImage Type="WZUIImage" GUID="{bb63b319-a6a4-4785-838d-394a80424657}" File="ui/copy/yxt_frame_004.png" UseOriginSize="True" RelativePosition="0.5,0.256173" Visible="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{48bc9253-538b-4b21-9170-327fa8b40ef1}" Name="txtName_CellHeroTower" LabelStyleKey="C1_F22_S4_C5" Text="" RelativePosition="0.5,0.314815" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{03ed449b-57eb-41a3-82cb-76f45b004f36}" Name="txtFloorName_CellHeroTower" LabelStyleKey="" Text="" RelativePosition="0.5,0.175927" FontSize="22" Color="89,41,9" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{015c7985-53c2-49a2-839b-ddb21ef0f9d6}" Name="txtFighting_CellHeroTower" LabelStyleKey="C1_F24_S4_C5" Text="战斗力：1654652" RelativePosition="0.5,-0.015" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{c728351d-a097-484b-bcdc-0337b07c181d}" File="ui/copy/commom_icon_ytg.png" UseOriginSize="True" Name="imgState_CellHeroTower" Visible="False" />
+            <WZUIImage Type="WZUIImage" GUID="{4eb2ce62-3e99-4aba-b250-b695c19d700c}" File="ui/common/common_144.png" UseOriginSize="True" RelativePosition="0.5,-0.11" Visible="False" Name="imgArrow_CellHeroTower">
+                <Action Type="WZUIActionSequence" GUID="{73903765-f65f-4c9e-a4f8-0fb2cda305d4}" IsLoop="True" Duration="0.6">
+                    <ChildAction Type="WZUIActionMoveTo" GUID="{564cad7e-49f5-41b8-8144-2428c4a4e1af}" MoveX="0.5" MoveY="-0.13" Duration="0.3" IsLoop="False" />
+                    <ChildAction Type="WZUIActionMoveTo" GUID="{4c29b92d-5039-4314-a94a-8c7c6519dd4b}" MoveX="0.5" MoveY="-0.11" Duration="0.3" IsLoop="False" />
+                </Action>
+            </WZUIImage>
+            <Button Type="WZUIButton" GUID="{69d29508-2032-4d17-8065-feb6ec1ff14f}" LuaDoneFunctionName="onClickHero">
+                <NormalElement Type="WZUIContainer" GUID="{0298c296-3995-4b61-80c3-d199c62ba985}" />
+                <SelectElement Type="WZUIContainer" GUID="{8140ab5d-80e5-4846-ad38-3d2850b0b53d}" />
+                <DisableElement Type="WZUIContainer" GUID="{2b24dae4-e2a3-4927-8119-c55ce6277f40}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellHeroTower>

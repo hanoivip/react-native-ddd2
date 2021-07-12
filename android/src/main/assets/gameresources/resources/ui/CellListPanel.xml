@@ -1,0 +1,34 @@
+﻿<CellListPanel GUID="{40ed7308-3a41-4549-863f-cc9f945bd93d}">
+    <WZUIContainer AbsContentSize="640,476" GUID="{c41f683d-45c2-48b8-8064-4bd0cacf2fbe}" Name="CellListPanel" NameCreate="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{aee05a6c-c392-4cfa-ba0a-a4f706b4b393}" File="ui/common/frame_dadi_01.png" />
+        <WZUIContainer AbsContentSize="640,114" GUID="{1eccd6af-f641-4ab8-9f0f-b4c814f94a89}" RelativePosition="0.5,1" Type="WZUIContainer" UseAbsSize="True" AbsPosition="246,395.25" Name="conTime_CellListPanel" AnchorPoint="0.5,1">
+            <WZUIImage Type="WZUIImage" GUID="{370508cf-8cda-491c-bb72-98a581ce2e69}" Name="imgContent_CellListPanel" File="ui/gameActivity/activity_pic_djcb.png" />
+            <WZUIContainer AbsContentSize="640,30" GUID="{593d0966-99d4-468e-b0b4-dbd951af32ee}" RelativePosition="0.5,0.262268" Type="WZUIContainer" UseAbsSize="True" AbsPosition="246,395.25" Name="conCurJifen_CellListPanel" AnchorPoint="0.5,1">
+                <WZUI9Image Type="WZUI9Image" GUID="{885c99ad-bdfa-4fd3-9c62-11c4d7e2fe60}" File="ui/common/frame_08.png" />
+                <WZUILabelTTF AnchorPoint="0,0.5" Color="255,236,193" FontSize="18" GUID="{7e5a0799-6b46-408f-8c8f-d69c51b26aa4}" Name="txt_activity_day_key" RelativePosition="0.05,0.5" Text="活动剩余" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" />
+                <WZUILabelTTF AnchorPoint="0,0.5" Color="255,89,74" FontSize="18" GUID="{55383fa0-bd92-4227-aded-fd09213b9943}" Name="txt_activity_day_value" RelativePosition="0.28,0.5" Text="9天" Type="WZUILabelTTF" StrokeColor="132,66,29" StrokeSize="4" EnableStroke="True" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{74665484-ba82-43c1-82b9-cc627466f032}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.97,0.862367" LuaDoneFunctionName="onClickInfo" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{2b9a3a96-3cf5-4f5f-a06e-85732a4d751c}" RelativePosition="0.5,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{7e58fcfa-ce05-4f4b-8fcb-0e37d94d93da}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{f6ab9ac3-90ed-4f43-9520-12427eb918fd}" RelativePosition="0.5,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{04c7e311-f225-4d0e-968b-97b603122862}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{b7646e58-02b6-411f-8589-ae81cb7d6934}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{b968b30f-1c92-4a47-b441-876f4dd26a56}" AbsContentSize="130,40" UseAbsSize="True" RelativePosition="0.911563,0.120175" LuaDoneFunctionName="onClickList" LuaActionName="Normal" Name="btnList_CellListPanel" Visible="True">
+                <NormalElement Type="WZUIContainer" GUID="{5e9a2e17-8765-4ec5-a6b9-326b00e04340}" RelativePosition="0.4875,0.65">
+                    <WZUIImage Type="WZUIImage" GUID="{cb8248c3-2b05-4c2c-bd77-933bb4d41313}" File="ui/common/common_icon_pwspmxq.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{f25da65a-d40b-4934-a8fe-4f8d57e6dce9}" RelativePosition="0.4875,0.65">
+                    <WZUIImage Type="WZUIImage" GUID="{a521cecd-825a-4efa-874f-02113c7e1f7b}" File="ui/common/common_icon_pwspmxq.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{7f79f05a-a378-49e1-a2b5-750484bc8d2a}" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="640,346" GUID="{bdf1f08b-09fe-4baa-9471-c6bd9a56a4b4}" RelativePosition="0.5,0.381549" Type="WZUIContainer" UseAbsSize="True">
+            <WZUIFreeListContainer AbsContentSize="640,346" EnableHideUnvisible="True" EnableMoveHorizontal="False" GUID="{dc9b58f8-e90e-4aba-886d-f111c2451c4e}" ListItemInterval="6" Name="flconRewardList" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellListPanel>

@@ -1,0 +1,168 @@
+﻿<WndMagicStone GUID="{a483fb43-cdbb-423d-90c9-659006c5d562}">
+    <WZUIWindow GUID="{bac410f1-f896-4b08-abe0-ad7380e4a8e3}" LuaObjectName="WndMagicStone" LuaTouchBeganFunction="onTouchBegan" Name="WndMagicStone" NameCreate="True" Type="WZUIWindow" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{b83c1bbc-51d3-49ce-8ae0-98b49ed616b7}" Name="conTop_WndMagicStone" AbsContentSize="960,640" UseAbsSize="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{1c269799-1d9a-481f-9a05-9d32becc949b}" UseAbsSize="True" AbsContentSize="140,460" RelativePosition="0.892925,0.475" Name="conCheckRight_WndMagicStone" Visible="True" TouchContainerEnable="True">
+                <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{dc119834-c51c-4ecc-bd44-bce5c5d2bd8e}" RelativePosition="0.5,0.5" Name="type_selected_WndMagicStone">
+                    <CheckBox Type="WZUICheckBox" GUID="{4059357a-32e6-49e3-a54d-1456aec4a82c}" AbsContentSize="135,60" UseAbsSize="True" RelativePosition="0.5,0.863" LuaSelectedFunctionName="" Name="checkBoxReward_WndMagicStone" Tag="0" Visible="True" LuaCheckedFunctionName="onClickTab">
+                        <CheckElement Type="WZUIContainer" GUID="{d9a46e1d-0402-40b3-8f95-e03c4d35d086}" AbsContentSize="">
+                            <WZUI9Image Type="WZUI9Image" GUID="{983ba2e0-93fb-4646-976d-79750d5b5f14}" File="ui/common/common_btn_biaoqian.png" RelativePosition="0.46,0.5" />
+                            <WZUILabelTTF AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" EnableShadow="False" EnableStroke="True" FontSize="26" GUID="{e3655924-41a8-4bed-a20c-1a85bec4140b}" Name="txtBoxReward_WndMagicStone" RelativePosition="0.6,0.5" StrokeColor="164,73,33" StrokeSize="4" Text="" Type="WZUILabelTTF" UseOriginSize="True" TextKey="COMMUNITYWARGIFT_TEXT4" LabelStyleKey="C1_F24_S4_C3" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{e166ae0d-8f8b-496e-b61e-dcf1e3112147}" />
+                    </CheckBox>
+                    <CheckBox Type="WZUICheckBox" GUID="{53878413-cdbc-4668-a393-497541348432}" AbsContentSize="135,60" UseAbsSize="True" RelativePosition="0.5,0.721" LuaSelectedFunctionName="" Name="checkBoxTask_WndMagicStone" Tag="1" LuaCheckedFunctionName="onClickTab">
+                        <CheckElement Type="WZUIContainer" GUID="{734db87b-1450-4b2f-98ba-c02fe20668a2}" AbsContentSize="">
+                            <WZUI9Image Type="WZUI9Image" GUID="{2d2b6611-6bcd-4c9b-9eb8-73ec8a4fd847}" File="ui/common/common_btn_biaoqian.png" RelativePosition="0.46,0.5" />
+                            <WZUILabelTTF AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" EnableShadow="False" EnableStroke="True" FontSize="26" GUID="{acf92ddb-8f1d-4ca9-ac32-660af822b0e5}" Name="txtBoxTask_WndMagicStone" RelativePosition="0.6,0.5" StrokeColor="164,73,33" StrokeSize="4" Text="" Type="WZUILabelTTF" UseOriginSize="True" TextKey="TASK_UINAME" LabelStyleKey="C1_F24_S4_C3" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{1c041988-8f8f-4836-bd0b-de02f465f531}" />
+                    </CheckBox>
+                    <CheckBox Type="WZUICheckBox" GUID="{c61dc356-80a1-4d7d-b91a-7328d8a541c3}" AbsContentSize="135,60" UseAbsSize="True" RelativePosition="0.5,0.579" LuaSelectedFunctionName="" Name="checkBoxExchange_WndMagicStone" Tag="2" LuaCheckedFunctionName="onClickTab">
+                        <CheckElement Type="WZUIContainer" GUID="{6338b45a-ff46-46be-87fe-252b02eb3fea}" AbsContentSize="">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a4a2a5b7-8103-4e5b-9dc9-a3a8809c3536}" File="ui/common/common_btn_biaoqian.png" RelativePosition="0.46,0.5" />
+                            <WZUILabelTTF AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" EnableShadow="False" EnableStroke="True" FontSize="26" GUID="{138b81ad-5175-4fd9-a3ef-228145995959}" Name="txtBoxExchange_WndMagicStone" RelativePosition="0.6,0.5" StrokeColor="164,73,33" StrokeSize="4" Text="" Type="WZUILabelTTF" UseOriginSize="True" TextKey="duihuan" LabelStyleKey="C1_F24_S4_C3" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{c80eece5-f389-4741-b0e5-b83437992f86}" />
+                    </CheckBox>
+                </WZUICheckBoxGroup>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{4322ed05-fcff-4743-9d88-9a0cde096594}" Visible="True" AbsContentSize="776,540" UseAbsSize="True" RelativePosition="0.462,0.5">
+                <WZUIContainer Type="WZUIContainer" GUID="{0fa76037-1439-4faa-9711-c518ce20207f}" AnchorPoint="1,0.5" AbsContentSize="387.5,535" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{c627af52-ee74-497a-a01c-817a13ed88ca}" File="ui/common/common_scale9_di3.png" CapInsets="92,80,1,1" ShowRect="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{bf76bb06-f80b-44bf-8e15-614bf18b60aa}" AnchorPoint="0,0.5" AbsContentSize="387.5,535" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{74975049-a062-475d-926e-f03bf54661c8}" File="ui/common/common_scale9_di3.png" CapInsets="92,80,1,1" ShowRect="False" FlipX="False" ScaleX="-1" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{3b25d855-507d-4115-8e15-4e1bfd35d56c}" AbsContentSize="90,65" UseAbsSize="True" RelativePosition="0.942417,0.938836">
+                    <WZUIImage Type="WZUIImage" GUID="{75f15a16-d5f7-4a47-8a6c-7804f62f8638}" File="ui/common/common_icon_gb.png" UseOriginSize="True" RelativePosition="0.5,0.53077" AbsPosition="45,34.5" />
+                    <Button Type="WZUIButton" RelativePosition="0.55,0.5" AbsContentSize="90,65" UseAbsSize="True" GUID="{d96b38bb-b021-43d0-9e90-793d99bdec91}" LuaDoneFunctionName="onClose" Name="btnClose_WndMagicStone" LuaActionName="Normal" LocalInterval="300">
+                        <NormalElement Type="WZUIContainer" GUID="{e1ae255d-9ec2-44f1-a604-f4aa09ebeb9c}">
+                            <WZUIImage Type="WZUIImage" GUID="{caaa4784-baf3-49cc-a7c5-969377f46720}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{6faca7e1-1b6b-49ce-9197-d4237815a7f2}">
+                            <WZUIImage Type="WZUIImage" GUID="{eeee39b5-5931-4a5a-89e6-df3323cbed4d}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{da9ad64c-6e6c-4e5b-8074-70a91a683c01}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{4e6e4b4c-11b7-4905-8e09-2292abf9fc44}" AbsContentSize="70,50" UseAbsSize="True" RelativePosition="0.5,0.943132" AbsPosition="387.5,504.576">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b299b3cb-f41b-47a8-8fa1-25b218e57578}" FontSize="28" Text="" Color="255,255,255" Name="txtWndTitleName_WndMagicStone" EnableStroke="True" StrokeColor="105,65,46" StrokeSize="4" TextKey="MAGIC_STONE_TEXT1" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AnchorPoint="0.5,0.5" GUID="{3f836d70-3fbf-486a-9442-dbed8dc6fc01}" RelativePosition="0.911764,0.475" RelativeSize="1,1" TouchContainerEnable="True" TouchEnable="False" Type="WZUIContainer" Visible="True" AbsContentSize="140,460" UseAbsSize="True" Order="2" Name="conCheckRightSel_WndMagicStone">
+                <WZUIContainer AbsContentSize="135,60" AnchorPoint="0.5,0.5" GUID="{f109e4d0-a25f-42c1-a3de-f3ec2bda739b}" RelativePosition="0.5,0.863" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" Name="conCheckBox0_WndMagicStone" Visible="False">
+                    <WZUI9Image CapInsets="40,34,15,2" File="ui/common/common_btn_biaoqian_sel.png" GUID="{ff00e0c0-2bb6-42c4-be4a-5ac6dc3f1422}" RelativePosition="0.5,0.5" RelativeSize="1,1" Type="WZUI9Image" UseOriginSize="True" Visible="True" Name="" />
+                    <WZUILabelTTF AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" EnableShadow="False" EnableStroke="True" FontSize="26" GUID="{edeeb6bd-4cfb-46dc-872b-6c1a367a71d2}" Name="txtBoxRewardSel_WndMagicStone" RelativePosition="0.52,0.46" StrokeColor="154,112,14" StrokeSize="4" Text="" Type="WZUILabelTTF" UseOriginSize="True" LabelStyleKey="C1_F24_S4_C2" TextKey="COMMUNITYWARGIFT_TEXT4" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="135,60" AnchorPoint="0.5,0.5" GUID="{1c33e32a-8302-4a94-a11f-29ad719d50dd}" RelativePosition="0.5,0.721" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" Name="conCheckBox1_WndMagicStone" Visible="False">
+                    <WZUI9Image CapInsets="40,34,15,2" File="ui/common/common_btn_biaoqian_sel.png" GUID="{fe7c6a8d-a9d7-4581-82bd-9f8091d4f3eb}" RelativePosition="0.5,0.5" RelativeSize="1,1" Type="WZUI9Image" UseOriginSize="True" Visible="True" Name="" />
+                    <WZUILabelTTF AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" EnableShadow="False" EnableStroke="True" FontSize="26" GUID="{91fce862-7cad-4707-9525-28e39ad15d77}" Name="txtBoxTaskSel_WndMagicStone" RelativePosition="0.5,0.5" StrokeColor="154,112,14" StrokeSize="4" Text="" Type="WZUILabelTTF" UseOriginSize="True" TextKey="TASK_UINAME" LabelStyleKey="C1_F24_S4_C2" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="135,60" AnchorPoint="0.5,0.5" GUID="{97260dbf-0967-40ec-b403-217c6e28c1ae}" RelativePosition="0.5,0.579" Type="WZUIContainer" UseAbsSize="True" Name="conCheckBox2_WndMagicStone" Visible="False" TouchContainerEnable="True">
+                    <WZUI9Image CapInsets="40,34,15,2" File="ui/common/common_btn_biaoqian_sel.png" GUID="{efb8dc6b-2088-4eb1-b1c9-64bcb51f2a30}" RelativePosition="0.5,0.5" RelativeSize="1,1" Type="WZUI9Image" UseOriginSize="True" Visible="True" Name="" />
+                    <WZUILabelTTF AnchorPoint="0.5,0.5" BoldFont="True" Color="255,255,255" EnableStroke="True" FontSize="26" GUID="{9f3cc86c-cfe0-42e3-bc2f-c165ef156a03}" Name="txtBoxExchangeSel_WndMagicStone" RelativePosition="0.5,0.5" StrokeColor="154,112,14" StrokeSize="4" Text="" Type="WZUILabelTTF" TextKey="duihuan" LabelStyleKey="C1_F24_S4_C2" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="44,48" GUID="{7e6fcb66-0c80-499d-be2d-df0aa5edf6e9}" Name="conRewardRed_WndMagicStone" RelativePosition="0.76,0.910769" Scale="1" Type="WZUIContainer" UseAbsSize="True" Visible="False">
+                    <WZUIImage Type="WZUIImage" GUID="{5ca4a036-33f0-469e-a257-fce196df6ff8}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="44,48" GUID="{83a630a6-8323-4b98-a19a-623a81170297}" Name="conTaskRed_WndMagicStone" RelativePosition="0.76,0.768462" Scale="1" Type="WZUIContainer" UseAbsSize="True" Visible="False">
+                    <WZUIImage Type="WZUIImage" GUID="{30993dcb-92c9-47f3-b55d-4802d7a65533}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                </WZUIContainer>
+                <WZUIContainer AbsContentSize="44,48" GUID="{42baeb63-eaa6-4913-be60-76694c9d1f99}" Name="conExchangeRed_WndMagicStone" RelativePosition="0.76,0.628077" Scale="1" Type="WZUIContainer" UseAbsSize="True" Visible="False">
+                    <WZUIImage Type="WZUIImage" GUID="{59033eeb-b09c-402d-bd11-e8e4137ebf17}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="747,464" GUID="{8357d2a1-4eb1-4fc9-9419-71db03d9dd19}" RelativePosition="0.462,0.456968" Type="WZUIContainer" UseAbsSize="True" Visible="True" Name="conContent0_WndMagicStone">
+                <WZUIContainer Type="WZUIContainer" GUID="{9dc91ea3-570a-4857-8c02-783e72b57bd9}" AbsContentSize="747,388" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                    <WZUI9Image Type="WZUI9Image" GUID="{38a10043-654b-4830-a545-d7c9f330719b}" File="ui/common/common_scale9_di4.png" Opacity="255" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{480b9f72-631f-4a95-86fa-159ef4cf7111}" AbsContentSize="747,440" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" Name="conReward_WndMagicStone">
+                    <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{44efe41c-113d-4f0f-9aba-14179b0f2bf4}" Name="flRewardList_WndMagicStone" EnableMoveVertical="False" ListOrient="Horizontal" AbsContentSize="570,310" UseAbsSize="True" RelativePosition="0.445,0.47" ListItemInterval="10" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{e0985524-ce27-4ef4-a629-e5aedd5868b5}" AbsContentSize="60,310" UseAbsSize="True" RelativePosition="0,0.47" AnchorPoint="0,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{ad981a72-b5f1-4784-af90-8893c56ede74}" File="ui/magicStone/common_liebiao_01.png" UseOriginSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{337a25c8-4eff-46f4-b7d4-32100a4ea7c1}" TextKey="COMMUNITYWARGIFT_TEXT4" LabelStyleKey="C1_F20_S4_C2" Dimensions="0,0" RelativePosition="0.52,0.769906" Name="commonReward_WndMagicStore" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{1e5cf355-b397-42de-b1c4-e7e3519fd111}" TextKey="MAGIC_STONE_TEXT10" LabelStyleKey="C1_F20_S4_C2" Dimensions="0,0" RelativePosition="0.52,0.313916" Visible="True" Name="advancedReward_WndMagicStore" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{673c2472-f900-435c-b069-6343c2f3e7f8}" AbsContentSize="116,310" UseAbsSize="True" RelativePosition="0.99,0.47" AnchorPoint="1,0.5" Name="conPerTen_WndMagicStone" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{1bf16cc6-7a42-4db4-b331-aad8d75e8474}" AnchorPoint="0.5,1" RelativePosition="0.5,1" AbsContentSize="747,80" UseAbsSize="True" Name="conForActivity_WndTask" Visible="True">
+                    <WZUIImage Type="WZUIImage" GUID="{65c8f353-4d26-4390-a7a3-ea28fb0f22ec}" File="ui/magicStone/zhanling_pic.png" UseOriginSize="True" />
+                    <WZUIImage Type="WZUIImage" GUID="{0ccf7569-0918-498a-9da4-0f5934e44cb5}" File="shopitems/common_icon_zhanling.png" UseOriginSize="True" ScaleX="1" Visible="True" RelativePosition="0.06,0.5" Scale="0.9" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{303e335f-5756-4c06-a120-942ba309f032}" RelativeSize="0.43,0.4" RelativePosition="0.235663,0.38" AbsContentSize="230,30" UseAbsSize="True">
+                        <WZUIImage Type="WZUIImage" GUID="{5e24d0a8-f53a-440b-b3a9-583871cede2e}" File="ui/common/common_progress_exp2_bg2.png" UseOriginSize="True" ScaleX="0.85" Visible="True" RelativePosition="0.5,0.5" />
+                        <WZUIProgress Type="WZUIProgress" GUID="{1d7fb8c7-3a42-4618-874e-2ecad0fa480c}" BgPicture="ui/common/common_progress_exp2_fore.png" UseOriginSize="True" RelativePosition="0.501326,0.503" ScaleX="0.85" Name="prgExp_WndMagicStone" Percentage="100" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{871b71e9-4c3b-4416-9f6d-2eeb8f76b2b1}" LabelStyleKey="" Text="456465/6565" Name="txtCurActivityNum_WndMagicStone" RelativePosition="0.5,0.460275" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                        <WZUIImage Type="WZUIImage" GUID="{4a0c9add-a210-4790-b0fe-bd36a617b228}" File="" UseOriginSize="True" ScaleX="1" Visible="True" RelativePosition="0.0549196,0.499998" />
+                        <WZUIImage Type="WZUIImage" GUID="{5f701a53-dfb5-490f-9b95-7adb4dc515d6}" File="" UseOriginSize="True" ScaleX="1" Visible="True" RelativePosition="0.945699,0.468222" FlipY="False" FlipX="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{10a785f5-c41d-4eb0-b5e2-61af4cc04d3d}" Text="今日活跃" LabelStyleKey="C18_F20" AnchorPoint="0.5,0.5" RelativePosition="0.5,1.35" Alignment="Left" TextKey="" Name="txtStoneLevel_WndMagicStone" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{83c19515-bf9b-4d7e-a3a2-25afeab802d1}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.46,0.5" LuaActionName="Normal" LocalInterval="400" LuaDoneFunctionName="onClickBuyLevel" Name="btnBuyLevel_WndMagicStone">
+                        <NormalElement Type="WZUIContainer" GUID="{5228abff-4b2a-4d60-a12c-abf7ff5c83b0}">
+                            <WZUIImage Type="WZUIImage" GUID="{bec098fc-2397-407d-98a4-29d678d56223}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{ebc0e439-3c33-431e-8aa2-9cc2bb71f397}">
+                            <WZUIImage Type="WZUIImage" GUID="{c16deb76-2a62-4e30-8b50-b084399c01e9}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{f9c4e850-b3ae-40d8-a489-ff5256e38e46}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4be1364a-f646-4ce3-96b5-b109fb394242}" TextKey="MAGIC_STONE_TEXT6" LabelStyleKey="SMALL_GREEN_BTN" Name="txtBuyLevel_WndmagicStore" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{f36a5287-78a2-4056-a5ee-56c0f72a1b3f}" Tag="2" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.868162,0.5" LuaDoneFunctionName="onClickBox" LuaActionName="Normal" LocalInterval="400" Name="btnBox_WndMagicStone">
+                        <NormalElement Type="WZUIContainer" GUID="{14cea5dc-5175-481a-9f92-97bb3ed84b66}" />
+                        <SelectElement Type="WZUIContainer" GUID="{17ac1330-d2da-4e93-92ca-0f17e73034fc}" />
+                        <DisableElement Type="WZUIContainer" GUID="{20ba5dc6-1f2f-4bb3-934e-17bb3b873250}" />
+                        <WZUISpine Type="WZUISpine" GUID="{56a06841-02a9-44d8-9f28-bf39831be188}" FileAtlas="city/ui_main_iconeffect.atlas" FileJson="city/ui_main_iconeffect.json" AnimationName="animation" Name="spDown2_WndMagicStone" RelativePosition="0.486667,1.15333" Loop="True" Scale="1.2" Order="1" TouchEnable="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{fe078772-bac5-4514-b8bc-049d91ba8684}" File="ui/common/common_icon_jingyingBox.png" UseOriginSize="True" Scale="0.5" Name="imgBox2_WndMagicStone" AnchorPoint="0.5,0" RelativePosition="0.5,0" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{444e5a90-fc50-4e9f-9a00-2872c5ade4cc}" AbsContentSize="747,70" UseAbsSize="True" RelativePosition="0.5,0.0772586">
+                    <Button Type="WZUIButton" GUID="{b53bebb0-dd58-4785-bb82-ce6d54d9bb0f}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.7,0.5" LocalInterval="400" LuaActionName="Normal" LuaDoneFunctionName="onRecvReward">
+                        <NormalElement Type="WZUIContainer" GUID="{638a6372-5c6f-48b6-b0d8-627076730871}">
+                            <WZUIImage Type="WZUIImage" GUID="{4f23cdc1-f87b-49d7-9a8b-bf16136d7196}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{143a124a-9157-49bb-bb7d-8a13b225e161}">
+                            <WZUIImage Type="WZUIImage" GUID="{3b5a30b3-4486-42d3-a763-9d33665a45ab}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{49b31c3f-9d81-48db-b7c0-b7d636567bc8}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{33ad6fff-7daa-49bc-a5b4-6393734546fe}" TextKey="ACTIVE_BTN_GET" LabelStyleKey="SMALL_GREEN_BTN" />
+                        <WZUIImage Type="WZUIImage" GUID="{af17c73e-ea46-4968-9416-9c83afeffec6}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Scale="0.8" TouchEnable="False" Name="imgBtnRedDot_WndMagicStone" RelativePosition="0.905057,0.855933" Visible="False" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{f3d1ae25-c914-4820-aa63-2157aa3eb071}" AbsContentSize="130,58" UseAbsSize="True" RelativePosition="0.89,0.5" LocalInterval="400" LuaActionName="Normal" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{e45090bf-53cc-424a-99a3-419883d33aee}">
+                            <WZUIImage Type="WZUIImage" GUID="{f77fbf02-5c88-4a10-bca1-35e0afd0e605}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="False" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{0a95dfc8-82ab-4dd3-a068-dd123cee7744}">
+                            <WZUIImage Type="WZUIImage" GUID="{840840e7-fe22-4a33-8d91-73f31e5f07bc}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="False" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{05ceffe4-ad0e-45c6-9b9b-27e0f1e6f501}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e2273919-6a8e-4de1-85f2-54db6e55c1d9}" TextKey="MAGIC_STONE_TEXT9" LabelStyleKey="SMALL_ORANGE_BTN" Name="txtAdvancedWar_WndmagicStore" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="747,418" GUID="{632d0a39-2c3b-4e88-8669-81364ea3e974}" RelativePosition="0.462,0.493253" Type="WZUIContainer" UseAbsSize="True" Visible="False" Name="conContent1_WndMagicStone">
+                <WZUI9Image Type="WZUI9Image" GUID="{8c1716f4-c4f3-4950-9de7-71a21767618b}" File="ui/common/common_scale9_di4.png" Opacity="255" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{5033051a-ca26-478e-b69c-37f466087530}" Name="tbTaskList_WndMagicStone" AbsContentSize="820,450" UseAbsSize="False" EnableMoveHorizontal="False" VerticalInterval="" CellElementHeight="0.3" HorizontalAbsInterval="0" VerticalAbsInterval="0" RelativePosition="0.5,0.504" RelativeSize="1,0.95" />
+                <WZUIContainer Type="WZUIContainer" GUID="{c93ba80b-0d91-4250-9760-c91f74f4a617}" AbsContentSize="747,45" UseAbsSize="True" RelativePosition="0.506171,-0.0594914">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{9ddeac44-3211-47af-89f4-80477a1537e3}" Color="105,65,46" FontSize="20" Text="455646/456466" RelativePosition="0.97,0.5" AnchorPoint="1,0.5" Name="txtExpValue_WndMagicStone">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{22019c41-4b57-4b7e-b89f-889b9d5920f3}" Color="79,60,48" EnableStroke="False" FontSize="20" Name="txtStoneExp_WndMagicStone" Text="本周已获得幻石经验：" AnchorPoint="1,0.5" RelativePosition="0,0.5" />
+                    </WZUILabelTTF>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="747,426" GUID="{6f25b893-0263-4cc7-be27-60c393042fd1}" RelativePosition="0.462,0.486556" Type="WZUIContainer" UseAbsSize="True" Visible="False" Name="conContent2_WndMagicStone">
+                <WZUIContainer Type="WZUIContainer" GUID="{c65be7ea-25f7-4b8f-a8e1-19f4c17c212b}" AbsContentSize="600,70" UseAbsSize="True" RelativePosition="1,0.922604" Name="conGold_WndMagicStone" Order="1" AnchorPoint="1,0.5" />
+                <WZUIContainer Type="WZUIContainer" GUID="{ff464902-e2cf-427a-91fe-e54702b827cc}" AbsContentSize="747,360" UseAbsSize="True" RelativePosition="0.5,0" AnchorPoint="0.5,0">
+                    <WZUI9Image Type="WZUI9Image" GUID="{309610d5-5c53-4d7c-80c6-03ed99c48826}" File="ui/common/common_scale9_di4.png" Opacity="255" />
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{d6cd57cf-b174-40be-95c6-090a6114903b}" Name="tbExchangeList_WndMagicStone" AbsContentSize="820,405" UseAbsSize="False" EnableMoveHorizontal="False" VerticalInterval="" CellElementHeight="0.6" HorizontalAbsInterval="0" VerticalAbsInterval="0" RelativePosition="0.5,0.504" ColumnCount="4" RelativeSize="1,0.95" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0671b65d-0ba2-407d-9669-3f726ccdbcb6}" Color="79,60,48" EnableStroke="False" FontSize="20" Name="txtFreshWord_WndMagicStone" Text="" AnchorPoint="0,0.5" RelativePosition="0.0821092,0.122881">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{bedb549a-c892-4b55-bf73-47334de3e1a4}" Color="105,65,46" FontSize="20" Text="" RelativePosition="1,0.5" AnchorPoint="0,0.5" Name="txtFreshTime_WndMagicStone" />
+            </WZUILabelTTF>
+            <Button Type="WZUIButton" GUID="{5e91eb92-a384-4d5d-85eb-dbd7af92f370}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.850949,0.114387" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickRule">
+                <NormalElement Type="WZUIContainer" GUID="{4cb5772a-bcc9-4991-88dc-474853957d02}" />
+                <SelectElement Type="WZUIContainer" GUID="{f4cac145-6b0a-4696-80a5-9446acb502d6}" />
+                <DisableElement Type="WZUIContainer" GUID="{0e69c82e-39a3-443d-bb8e-97ef43a43d13}" />
+                <WZUIImage Type="WZUIImage" GUID="{0a04cd4b-dbe6-4ead-bba9-577d69fea4de}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndMagicStone>

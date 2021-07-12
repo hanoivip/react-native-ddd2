@@ -1,0 +1,82 @@
+﻿<CellReturneeIntroduce GUID="{c0f295ca-aecb-4ca9-a26d-68522f35377e}">
+    <WZUIContainer Type="WZUIContainer" GUID="{6ec87981-be3b-4af5-9b4f-c2d819c84c50}" Name="CellReturneeIntroduce" NameCreate="True" AbsContentSize="620,390" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{9ce58bfd-2319-41b8-9238-881395e7b7a3}">
+            <WZUIImage Type="WZUIImage" GUID="{c5c6d38c-115b-4cf3-9f0d-72e91e7cab4e}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{6bf416d3-1618-4dad-a62b-962585c6f5af}" AbsContentSize="161,161" UseAbsSize="True" RelativePosition="0.34,0.71">
+                <Button Type="WZUIButton" GUID="{03fb6460-9caf-4db0-9c29-538ab2914ff7}" Tag="1" LuaActionName="Normal" LuaDoneFunctionName="onJumpUI">
+                    <NormalElement Type="WZUIContainer" GUID="{aa3ff38c-31ed-41b4-93d4-8a845cb0ec2c}">
+                        <WZUIImage Type="WZUIImage" GUID="{0d22e9af-db40-43b9-98a6-aed41f9b299c}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f4c43d57-c5ec-4b11-8690-e56de06c939a}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle1_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2b863d66-219f-4fc4-9179-3b24f37dacb9}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc1_CellReturneeIntroduce" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{d803dd49-6855-4ecd-943f-43851ba8c720}">
+                        <WZUIImage Type="WZUIImage" GUID="{5b9ec758-83aa-439d-bdb9-ac5816b848bf}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a486f6ee-0844-4a27-9443-3f9f723f0d92}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle1Sel_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{63fe61eb-1835-4716-9595-c8ce01f88b82}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc1Sel_CellReturneeIntroduce" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{9f37ae6d-20ab-40ac-af44-310c4d3a35e9}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{3edb569d-98cf-4981-a27c-727866d79405}" AbsContentSize="161,161" UseAbsSize="True" RelativePosition="0.66,0.71">
+                <Button Type="WZUIButton" GUID="{21f230e9-ecaf-4836-8fdb-a5c85cd61d98}" Tag="2" LuaActionName="Normal" LuaDoneFunctionName="onJumpUI">
+                    <NormalElement Type="WZUIContainer" GUID="{9034b649-4a49-48f6-901f-5bec6370446d}">
+                        <WZUIImage Type="WZUIImage" GUID="{ef335b26-e1cb-4b8e-bf25-3fd523e320f8}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{d59999a4-1107-433b-98ef-fdfa23d754ff}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle2_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{16a5a11c-8ba6-4149-900a-aaa3c85c6650}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc2_CellReturneeIntroduce" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{c6b73860-8257-424e-800c-3f01ca389777}">
+                        <WZUIImage Type="WZUIImage" GUID="{277c50e1-98d3-45bd-a3b2-ff49bb3eed9d}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ef93cd2a-5158-47b5-8f59-a472f2fcf6a0}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle2Sel_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{12e70d16-b555-43d2-8e7d-7474cc27b251}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc2Sel_CellReturneeIntroduce" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{8ab970f1-d8ac-4c1c-a0c0-b99442695c96}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{43f5c22b-7126-43f8-9d57-f5f58d2482c0}" AbsContentSize="161,161" UseAbsSize="True" RelativePosition="0.18,0.29">
+                <Button Type="WZUIButton" GUID="{ebb165cd-a608-4f27-9112-708b807a7236}" Tag="3" LuaActionName="Normal" LuaDoneFunctionName="onJumpUI">
+                    <NormalElement Type="WZUIContainer" GUID="{d8beed52-827c-4e8d-a624-4d5a89759958}">
+                        <WZUIImage Type="WZUIImage" GUID="{72966d74-9012-4928-8e16-643d811d67ec}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{cd8e371d-191f-4bc1-8144-d1408174606e}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle3_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{cd8403a7-4cd9-477f-8e11-9f74a7854ece}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc3_CellReturneeIntroduce" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{c4347c2b-bb02-4672-b941-4f48d424a293}">
+                        <WZUIImage Type="WZUIImage" GUID="{782ee2f9-0546-400f-9ef4-58d6227b84a0}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e54e304b-81e2-4e63-beae-d4db608b4152}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle3Sel_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ba51ed76-57ec-4ad9-8b81-2798bfa2161d}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc3Sel_CellReturneeIntroduce" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{5ad0343d-451b-493e-adb5-355ae1974628}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{5de92e0c-bbb5-494d-9a30-0dd28af86387}" AbsContentSize="161,161" UseAbsSize="True" RelativePosition="0.5,0.29">
+                <Button Type="WZUIButton" GUID="{e77d53e0-055f-4e74-8d39-c1418e43befc}" Tag="4" LuaActionName="Normal" LuaDoneFunctionName="onJumpUI">
+                    <NormalElement Type="WZUIContainer" GUID="{0f1fc24f-575a-4e60-a45a-57a895d30a33}">
+                        <WZUIImage Type="WZUIImage" GUID="{2b4c3003-6a07-4b32-9508-11835007404e}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{d6cce57a-5e5b-43a4-a1c1-2d34aed6c229}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle4_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{07fc577f-259b-45f2-b5b4-7300c7be2a50}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc4_CellReturneeIntroduce" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{97804484-0d42-47ea-a769-5bc6620646ef}">
+                        <WZUIImage Type="WZUIImage" GUID="{7899faa0-8075-4fd2-b52b-46a99cadaa59}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b2357fcf-782a-40ce-9084-636f2b5b882d}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle4Sel_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2d7f9f41-cecb-4f58-8da7-eecb60a77fa0}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc4Sel_CellReturneeIntroduce" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{f314b1be-fa1a-40c2-a362-b93637f6a126}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{125fda52-36dd-45ef-be98-c3b542a7d770}" AbsContentSize="161,161" UseAbsSize="True" RelativePosition="0.82,0.29">
+                <Button Type="WZUIButton" GUID="{7975e25a-506c-41f8-9020-cb3c3f0792c6}" Tag="5" LuaActionName="Normal" LuaDoneFunctionName="onJumpUI">
+                    <NormalElement Type="WZUIContainer" GUID="{34122ad7-00ce-4ac9-8433-9f8d9fbf1f15}">
+                        <WZUIImage Type="WZUIImage" GUID="{42d5a186-da35-4a3f-a124-9a75b6f079ad}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{25873385-3226-445f-adec-57ff77885bd1}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle5_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{11b4b1de-4c4c-47f2-adc6-96c2f5236e71}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc5_CellReturneeIntroduce" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{27b7bc12-313c-408b-9a88-d04e671123b6}">
+                        <WZUIImage Type="WZUIImage" GUID="{6d6628e9-65c4-4dfc-9c69-746aecee8a59}" File="ui/gameActivity/returnee/daozhu_yuan.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b253f254-1f6c-44db-9251-247582eceb59}" Text="" Color="255,255,255" FontSize="24" RelativePosition="0.5,0.525" Name="txtTitle5Sel_CellReturneeIntroduce" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5d6295c7-b7dc-4719-a89a-50f5475883ab}" Color="196,172,148" Text="" FontSize="18" RelativePosition="0.5,0.357" Scale="0.9" Dimensions="140" Name="txtDesc5Sel_CellReturneeIntroduce" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{064c6a1b-a0dd-4512-9eec-530dcc3313d2}" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeIntroduce>

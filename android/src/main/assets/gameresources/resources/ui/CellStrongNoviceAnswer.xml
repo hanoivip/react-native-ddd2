@@ -1,0 +1,27 @@
+﻿<CellStrongNoviceAnswer GUID="{289a70fc-4708-4db3-8c58-df5947759dc8}">
+    <WZUIContainer Type="WZUIContainer" GUID="{319bb64b-2fdf-4d20-9b8a-fb53be922d0d}" LuaObjectName="CellStrongNoviceAnswer" Name="CellStrongNoviceAnswer" UseAbsSize="True" AbsContentSize="738,401" TouchEnable="False" UseAbsCoordinate="True" AbsPosition="581.23,270.937">
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{56031945-c2cd-4fa8-a3fd-a886d4523d2c}" Text="新手答题界面" FontSize="24" />
+        <WZUI9Image Type="WZUI9Image" GUID="{25b72546-1b6e-4801-a6f8-eac077bdc891}" File="ui/common/common_scale9_xiuliandi.png" />
+        <Button Type="WZUIButton" GUID="{be0c1e24-dfae-43a2-9a84-8a1a5b2e784e}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.490822,0.0825428" LuaDoneFunctionName="tabButtonClick" Tag="1" Name="tabButton1">
+            <NormalElement Type="WZUIContainer" GUID="{c0956d9c-d8da-4747-9ef1-ae8c4875239b}">
+                <WZUIImage Type="WZUIImage" GUID="{fb2f2d61-5e64-496e-9fd9-82613d453652}" File="ui/common/common_btn_anniu_qt.png" Name="normal_1" />
+                <WZUIImage Type="WZUIImage" GUID="{e38848f7-7fd7-4737-9ce5-c1c4be13c79b}" File="ui/common/common_btn_anniu_qt_sel.png" Name="select_1" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c6fe8c79-6d66-41be-b55e-7ac001ac4c6f}" Text="低级" FontSize="24" Name="nameLabel1" />
+            </NormalElement>
+        </Button>
+        <Button Type="WZUIButton" GUID="{8677954d-9830-43b4-bece-026ea05026ec}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.653405,0.0801297" LuaDoneFunctionName="tabButtonClick" Tag="2" Name="tabButton2">
+            <NormalElement Type="WZUIContainer" GUID="{cba5dd9c-8a84-4e16-9f58-bd0ce6848f51}">
+                <WZUIImage Type="WZUIImage" GUID="{dd673bba-2d7a-4c81-b135-45b06e035df9}" File="ui/common/common_btn_anniu_qt.png" Name="normal_2" />
+                <WZUIImage Type="WZUIImage" GUID="{778d9b6c-f11d-4e1b-8982-9ad4f7b0fd57}" File="ui/common/common_btn_anniu_qt_sel.png" Name="select_2" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9d615bc1-5995-4e72-8c10-671c487863cf}" Text="中级" FontSize="24" Name="nameLabel2" />
+            </NormalElement>
+        </Button>
+        <Button Type="WZUIButton" GUID="{88c9869d-00ed-4ad1-aba6-e2a926d111f4}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.808122,0.0777168" LuaDoneFunctionName="tabButtonClick" Tag="3" Name="tabButton3">
+            <NormalElement Type="WZUIContainer" GUID="{ceb6c961-e8f8-4f57-9f37-996c82fca55b}">
+                <WZUIImage Type="WZUIImage" GUID="{cfbd0a86-0298-4ead-a540-f711715c1b14}" File="ui/common/common_btn_anniu_qt.png" Name="normal_3" />
+                <WZUIImage Type="WZUIImage" GUID="{377206e9-ab0b-4643-af69-2ce1d4c9df30}" File="ui/common/common_btn_anniu_qt_sel.png" Name="select_3" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{48acb84a-7b26-442c-9c7d-121faf1f25c0}" Text="高级" FontSize="24" Name="nameLabel3" />
+            </NormalElement>
+        </Button>
+    </WZUIContainer>
+</CellStrongNoviceAnswer>

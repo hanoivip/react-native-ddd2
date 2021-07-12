@@ -1,0 +1,47 @@
+﻿<CellRoomInviteList GUID="{d0fbcff5-c40e-44df-9ad3-f3e06b4a2578}">
+    <WZUIContainer AbsContentSize="376,90" GUID="{581c536c-63a6-4e4d-8489-8d08d6c06c04}" LuaObjectName="" Name="CellRoomInviteList" NameCreate="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{7cba3d31-20f1-4dc8-8512-62eb189c224d}" AbsContentSize="226,83" UseAbsSize="False" Visible="True">
+            <WZUIContainer GUID="{fc8d34ab-10ed-499c-be8a-489c6ce3a0fb}" RelativePosition="1,0.5" Type="WZUIContainer" AbsContentSize="226,83" UseAbsSize="False" AnchorPoint="1,0.5" Visible="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{0ceffa5b-0604-450a-b1c7-ade5594eb610}" File="ui/common/common_scale9_di18.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{7bdf8443-af55-42e6-a5b7-93716f1aab23}" AbsContentSize="82,82" UseAbsSize="True" RelativePosition="0.12,0.5" Scale="0.95">
+                <WZUIImage Type="WZUIImage" GUID="{73862104-abc6-4e87-aade-67d0d40b20f9}" File="ui/common/common_icon_tx.png" UseOriginSize="True" Visible="True" Scale="1" />
+                <WZUIContainer AnchorPoint="0.5,0.5" GUID="{0d3393ce-9344-4abe-bd35-3928183b3e5a}" RelativePosition="0.5,0.5" RelativeSize="1,1" TouchEnable="True" Type="WZUIContainer" Name="conHead_CellRoomInviteList">
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="event_ClickHead" GUID="{732502a2-7721-44a5-9ab3-6d8c3bc8d573}">
+                        <NormalElement Type="WZUIContainer" GUID="{c0b88091-709e-41d7-9f69-83ed5809dc69}" />
+                        <SelectElement Type="WZUIContainer" GUID="{80c3385c-60b4-4294-8ed3-41db61d516c7}" />
+                        <DisableElement Type="WZUIContainer" GUID="{c142b1db-41e8-4dee-b0da-c81e2a70e099}" />
+                    </WZUIButton>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="160,86" GUID="{1c116ffa-adcf-4d0f-ad6f-a8ed290de714}" Type="WZUIContainer" TouchEnable="True" RelativePosition="0.42,0.5" UseAbsSize="True">
+                <WZUIContainer AnchorPoint="0.5,0.5" GUID="{7257a6ee-f60d-472c-8f7c-07c7d94e932b}" RelativePosition="0.5,0.5" RelativeSize="1,1" TouchEnable="False" Type="WZUIContainer" Name="conInfo_CellRoomInviteList">
+                    <WZUIContainer GUID="{8785f25b-a8cf-4189-a2cb-606a2634dade}" RelativePosition="0.5,0.5" Type="WZUIContainer" AnchorPoint="0.5,0.5" RelativeSize="1,1" TouchEnable="False">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{13b64831-4fa1-4630-9657-e01cb2e6c1e6}" FontSize="20" Color="255,227,116" Text="dsk" AnchorPoint="0,0.5" Name="txtLevel1_CellRoomInviteList" RelativePosition="0.04,0.7" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" LabelStyleKey="">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8bb76546-9a8f-4132-8492-1115de4e841c}" FontSize="20" Text="的克拉斯加阿" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="1,0.5" Name="txtName_CellRoomInviteList" Color="255,255,255" BoldFont="False" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" LabelStyleKey="" />
+                        </WZUILabelTTF>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a886ae2c-a334-4d92-9141-c2e70b86ab7b}" Name="txtState_CellRoomInviteList" LabelStyleKey="" RelativePosition="0.04,0.25" TextKey="" Visible="True" AnchorPoint="0,0.5" FontSize="16" Color="114,220,85" />
+                    </WZUIContainer>
+                    <WZUIContainer GUID="{77c36835-f699-493f-bbea-33efdee117a5}" RelativePosition="1,0.395349" Type="WZUIContainer" AnchorPoint="1,0.5" RelativeSize="1,1" TouchEnable="False" Scale="1" AbsContentSize="160,25" UseAbsSize="True" ScaleX="1" ScaleY="1" Name="conFight_CellRoomInviteList" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{75f14d6e-655f-4342-b024-f29ebe494754}" File="ui/common/common_icon_zhanlih.png" UseOriginSize="True" Scale="0.9" RelativePosition="0.04,0.626154" AnchorPoint="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8f0f5864-c8c4-4901-9274-bc3fecc259a2}" Name="txtFight_CellRoomInviteList" AnchorPoint="0,0.5" RelativePosition="0.19,0.38" LabelStyleKey="" FontSize="20" Color="255,89,74" Text="1234546" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="4" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{49943491-8e77-45ad-ab98-372375e798fd}" Name="conIcon_CellRoomInviteList" AbsContentSize="160,30" UseAbsSize="True" RelativePosition="0.04,0.36" AnchorPoint="0,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{dfc1c804-c593-460f-89f9-0b1af989eb75}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.872029,0.5" Name="conImgInVitation_CellRoomInviteList" Visible="False">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9ce80911-8efb-45aa-a85c-60d12745c84c}" Text="已邀请" FontSize="20" Color="138,122,106" TextKey="HAVED_INVITED" />
+            </WZUIContainer>
+            <Button GUID="{c4946e65-2484-48a1-af3f-b5d0815ce111}" LuaDoneFunctionName="onBackClick" Type="WZUIButton" AbsContentSize="116,58" UseAbsSize="True" Name="btnInvite_CellRoomInviteList" RelativePosition="0.86,0.5" AnchorPoint="0.5,0.5" LuaActionName="Normal" Visible="False" Scale="0.7" LocalInterval="300">
+                <NormalElement GUID="{77abbeed-55ce-40d5-ba98-6d39cffaf051}" Type="WZUIContainer">
+                    <WZUIImage Type="WZUIImage" GUID="{0b64fce0-b5af-4234-966b-e50b24c72f94}" UseOriginSize="True" File="ui/common/common_btn_anniu3_0.png" />
+                </NormalElement>
+                <SelectElement GUID="{d56fca56-a00a-4c60-a74e-abbaf4911db3}" Type="WZUIContainer">
+                    <WZUIImage Type="WZUIImage" GUID="{c04b4606-89cf-4f0c-99de-ae4e558e27ac}" File="ui/common/common_btn_anniu3_0_sel.png" />
+                </SelectElement>
+                <DisableElement GUID="{a5339a67-3763-4634-b56e-c1fdbbb0d8a1}" Type="WZUIContainer" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e21a37c0-dc49-4f92-a8d5-c11e4382c306}" TextKey="INVITE" LabelStyleKey="SMALL_ORANGE_BTN" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellRoomInviteList>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources quit_dialog_title="warning" quit_dialog_msg="Do you want to quit the game?" quit_dialog_cancle="Cancel" quit_dialog_confirm="Yes"/>

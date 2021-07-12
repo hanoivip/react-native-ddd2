@@ -1,0 +1,286 @@
+﻿<WndPetSkillTransfer GUID="{d6b014a1-d781-4679-916a-f2a4f5f6131d}">
+    <WZUIWindow Type="WZUIWindow" GUID="{279ee19e-8fd9-40bd-a76f-4e919972c83d}" LuaObjectName="WndPetSkillTransfer" Name="WndPetSkillTransfer" LuaTouchBeganFunction="onTouchBegin" AbsContentSize="950,536" UseAbsSize="True" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{2150d14b-29e5-4b61-9855-c72cf39c01aa}" AbsContentSize="920,506" UseAbsSize="True" RelativePosition="0.5,0.5" LuaObjectName="" Name="" Visible="True" ShowAll="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{e1ed7cd7-e62e-45cd-9435-7915796a3c40}" File="ui/common/frame_dadi_01.png" RelativePosition="0.5,0.5" CapInsets="" Visible="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{a83c4add-15d9-4286-9f75-b1125f4dab89}" AbsContentSize="496,492" UseAbsSize="True" RelativePosition="0.276669,0.5" Name="conLeft_WndPetSkillTransfer">
+                <WZUIContainer Type="WZUIContainer" GUID="{92a8e1c7-d761-4174-bb06-ec0a92a4c51d}">
+                    <WZUIImage Type="WZUIImage" GUID="{965e8bbf-9910-46f3-a0fa-0a2858949940}" File="ui/common_bg/common_pic_hb_cw.png" UseOriginSize="True" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{85961af7-d107-4e50-bf72-8a4a839ae5e4}" AbsContentSize="360,120" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                    <WZUIImage Type="WZUIImage" GUID="{f97f5f6b-0af3-4b69-959b-e9c2fd04822d}" File="ui/common/common_04.png" UseOriginSize="True" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{90bbb650-7a57-493b-8e55-d22366eb6787}" AbsContentSize="180,40" UseAbsSize="True" RelativePosition="0.5,0.215" TouchEnable="False" AnchorPoint="0.5,0.5" Name="conAptitude_WndPetSkillTransfer">
+                        <WZUIImage Type="WZUIImage" GUID="{31f9787b-2e5a-479f-b365-c5f2d7b3bb78}" Name="imgAptitude6_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="-0.01,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{6c3419b2-b638-4404-8910-efa8cd068a78}" Name="imgAptitude4_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.16,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{ad6df681-28f7-492d-97a0-68b78fdac163}" Name="imgAptitude2_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.33,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{72cb5878-8fd6-4657-b460-9d5818de3ef0}" Name="imgAptitude1_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{38c7c6d5-699f-425d-8910-4162ac24a8ae}" Name="imgAptitude3_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.67,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{8eeceef6-e7e3-4cfe-80ed-af088029fd3a}" Name="imgAptitude5_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.84,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{ab89f7ad-39c2-4200-b1c3-41af7737a86a}" Name="imgAptitude7_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="1.01,0.5" Scale="0.8" />
+                    </WZUIContainer>
+                    <WZUILabelTTF AnchorPoint="0.5,0.5" Color="255,255,255" FontSize="24" GUID="{8385c6de-b5a6-4d57-819e-6c904b06a3ea}" MaxLength="" Name="txtLv_WndPetSkillTransfer" RelativePosition="0.5,0.4" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Center" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" Visible="False" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{641cd06f-39dd-4837-8b38-019f0cbf82af}" Name="txtName_WndPetSkillTransfer" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.58" MaxWidth="300" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{802444cd-663f-4701-abc5-4f29f0be7925}" AbsContentSize="290,296" UseAbsSize="True" RelativePosition="0.5,0.56" Name="">
+                    <WZUIContainer Type="WZUIContainer" GUID="{e9bc391a-d604-47d2-aeda-4e50fe33f8df}" AbsContentSize="120,200" UseAbsSize="True" RelativePosition="0.506896,0.5" Name="" Visible="True">
+                        <WZUIContainer AbsContentSize="120,160" GUID="{610fb823-46fe-4dfb-abac-252649cd4c07}" Name="conPet1_WndPetSkillTransfer" RelativePosition="0.5,0.5" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" Visible="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{340e53c1-0067-4faa-9b58-fb7b766e8dd0}" RelativePosition="0.5,0.272" AbsContentSize="276,50" UseAbsSize="True">
+                    <WZUIImage Type="WZUIImage" GUID="{a645abf7-567d-49fd-886c-9473a8230cd4}" File="ui/common/common_cwzl.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{29097cc0-6682-44b9-8677-899433aa47b6}" Name="txtFight_WndPetSkillTransfer" RelativePosition="0.216,0.5" Color="255,255,255" FontSize="22" TextKey="PET_COMBAT" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{98044cf2-e8c3-4a71-80fd-aba2184e0689}" Name="ftbFight_WndPetSkillTransfer" RelativePosition="0.68,0.5" MaxWidth="500" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fa725ce0-69df-471d-bfd5-a3c55a306966}" Name="txtPetQualification_WndPetSkillTransfer" RelativePosition="0.78,0.27" AnchorPoint="0,0.5" FontSize="20" EnableStroke="True" Color="255,236,193" StrokeColor="128,54,13" StrokeSize="4" />
+                <Button Type="WZUIButton" GUID="{ba7c806c-d671-485f-aedf-34e3e27da180}" AbsContentSize="60,60" RelativePosition="0.18,0.272" LuaDoneFunctionName="onShowAttribute" UseAbsSize="True">
+                    <NormalElement Type="WZUIContainer" GUID="{a80628ae-af9b-41a3-b578-3df0cd77a1ef}">
+                        <WZUIImage Type="WZUIImage" GUID="{b64233ce-407e-43e1-9f59-75ff74250545}" File="ui/common/common_icon_ss_1.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{65287ef4-1a6b-4edb-9856-f38ed6346333}">
+                        <WZUIImage Type="WZUIImage" GUID="{5480c4d8-8b88-4b38-bfdf-419bb2924a93}" File="ui/common/common_icon_ss_1.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{d2374b72-b86a-4c68-8fb3-aa15a6a807c4}" />
+                </Button>
+                <WZUIContainer Type="WZUIContainer" GUID="{2bcaf9a9-e038-488b-8cee-1b5e46f93212}" Name="conSkill_WndPetSkillTransfer" AbsContentSize="496,110" UseAbsSize="True" RelativePosition="0.5,0" AnchorPoint="0.5,0">
+                    <WZUIContainer Type="WZUIContainer" GUID="{38a5dd2a-5315-4459-b123-96caf0f566ae}" AbsContentSize="72,72" UseAbsSize="True" Name="conCurSkill1_WndPetSkillTransfer" RelativePosition="0.16,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{ca6a52c9-2c93-429e-9366-32a98ae84842}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{7a80f8e0-0b94-407f-8bc4-1a10ea3c2003}" File="" Name="imgCurSkillIcon1_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{cc15c8e7-dee2-4dae-b504-29f6c915aa57}" File="" UseOriginSize="True" Scale="0.9" Name="imgCurLevel1_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                        <WZUIImage Type="WZUIImage" GUID="{e40c252d-6a3e-4904-92f1-da50232af2a7}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgCurLock1_WndPetSkillTransfer" Visible="False" />
+                        <Button Type="WZUIButton" GUID="{70339e23-1126-440b-9b75-a37990557534}" LuaDoneFunctionName="onClickCurSkill" Tag="1">
+                            <NormalElement Type="WZUIContainer" GUID="{9a9f861e-827a-4383-97b9-3b3c643a6952}" />
+                            <SelectElement Type="WZUIContainer" GUID="{3cdc76f7-6865-4560-a2ed-0209099497e5}" />
+                            <DisableElement Type="WZUIContainer" GUID="{c44bdaf4-6d49-49d3-8a75-8b18208d237a}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{9eaa303d-c626-4000-a58f-868b8595a1a4}" AbsContentSize="72,72" UseAbsSize="True" Name="conCurSkill2_WndPetSkillTransfer" RelativePosition="0.33,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{cc7aa3f7-a63c-4614-9225-d61cbca7435e}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{45df0f27-2c2e-4b4a-86ac-09ab437073b8}" File="" Name="imgCurSkillIcon2_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{683c8bde-940b-4613-9ae9-ee331aa82125}" File="" UseOriginSize="True" Scale="0.9" Name="imgCurLevel2_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                        <WZUIImage Type="WZUIImage" GUID="{6c1fb26b-4b3f-4af6-ab01-6f2d877e46f1}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgCurLock2_WndPetSkillTransfer" Visible="False" />
+                        <Button Type="WZUIButton" GUID="{8929ffe4-a88a-4f9a-95af-c08bf36872e1}" LuaDoneFunctionName="onClickCurSkill" Tag="2">
+                            <NormalElement Type="WZUIContainer" GUID="{6d4a3bee-fa00-4713-a8e1-4a0242be3441}" />
+                            <SelectElement Type="WZUIContainer" GUID="{c8f1c0f3-8056-4fa9-9bde-ae1bcbd3f7c9}" />
+                            <DisableElement Type="WZUIContainer" GUID="{0b6cc996-4db9-4232-93f4-03343ef160c2}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{38ff9667-59e5-4b78-87e0-6b13cd4db801}" AbsContentSize="72,72" UseAbsSize="True" Name="conCurSkill3_WndPetSkillTransfer" RelativePosition="0.5,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{ffd80d50-d27e-4f80-82fc-24e018d5a4e8}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{ea6e7673-fb70-4861-9039-9d2f53ff4e54}" File="" Name="imgCurSkillIcon3_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{3a554d54-8b62-4aaa-929f-d7990d66bb84}" File="" UseOriginSize="True" Scale="0.9" Name="imgCurLevel3_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                        <WZUIImage Type="WZUIImage" GUID="{d7475e61-adac-4b08-8e81-ef1a22d0c46f}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgCurLock3_WndPetSkillTransfer" Visible="False" />
+                        <Button Type="WZUIButton" GUID="{23e81ea3-1f37-464b-a2df-fa4bc7b7a6f9}" LuaDoneFunctionName="onClickCurSkill" Tag="3">
+                            <NormalElement Type="WZUIContainer" GUID="{47cdb137-609d-4e1c-93e1-3163f333cf25}" />
+                            <SelectElement Type="WZUIContainer" GUID="{ea5d1b19-6393-4d39-9d42-9a1c1a52a069}" />
+                            <DisableElement Type="WZUIContainer" GUID="{652d1371-ca85-4bd5-aade-9eb285079725}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{e8d3788f-d34a-422e-9e19-94c678dcc0c8}" AbsContentSize="72,72" UseAbsSize="True" Name="conCurSkill4_WndPetSkillTransfer" RelativePosition="0.67,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{dfce333f-fe4b-46bb-a737-3bada3145252}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{c9835cc4-bcab-4eab-a2d7-98938b60af2e}" File="" Name="imgCurSkillIcon4_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{5b209bbb-b5c1-4c3c-b4c2-5481420b4cff}" File="" UseOriginSize="True" Scale="0.9" Name="imgCurLevel4_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                        <WZUIImage Type="WZUIImage" GUID="{9390245e-8cf5-4186-aacf-46fd790023fc}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgCurLock4_WndPetSkillTransfer" Visible="False" />
+                        <Button Type="WZUIButton" GUID="{d00b0016-4523-4bfa-976c-9862203deb6d}" LuaDoneFunctionName="onClickCurSkill" Tag="4">
+                            <NormalElement Type="WZUIContainer" GUID="{7e5149f4-8cb2-4cc5-aa3f-4ae47da7e37b}" />
+                            <SelectElement Type="WZUIContainer" GUID="{3c032a19-9230-4cc7-b32f-84e0f1c1c539}" />
+                            <DisableElement Type="WZUIContainer" GUID="{40858112-3b5f-4838-9edd-f656115f675b}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{97235b5e-0887-48aa-9023-5b600db52753}" AbsContentSize="72,72" UseAbsSize="True" Name="conCurSkill5_WndPetSkillTransfer" RelativePosition="0.84,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{a7e62af7-d7ce-4ec1-a896-9e48a5c514c7}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{abf6dfdf-08f9-4c2a-b504-913777944a41}" File="" Name="imgCurSkillIcon5_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                        <WZUIImage Type="WZUIImage" GUID="{26f4753b-7ff2-4dbe-8e46-dcbf769a24d5}" File="" UseOriginSize="True" Scale="0.9" Name="imgCurLevel5_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                        <WZUIImage Type="WZUIImage" GUID="{3ce6f191-b262-4b0f-80c2-10ed0153c7fe}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgCurLock5_WndPetSkillTransfer" Visible="False" />
+                        <Button Type="WZUIButton" GUID="{ef3aad6e-3b82-46f4-850e-d4f394b86490}" LuaDoneFunctionName="onClickCurSkill" Tag="5">
+                            <NormalElement Type="WZUIContainer" GUID="{0db869ed-536c-4d7c-be4e-620ddc15db00}" />
+                            <SelectElement Type="WZUIContainer" GUID="{2bd8b93e-ff39-4808-a56f-a48f880811df}" />
+                            <DisableElement Type="WZUIContainer" GUID="{27f9c9b6-c7df-4cd7-9abb-86faf1e7f899}" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{5e7c5911-c2dd-48d2-9386-e2ac29b729e7}" Name="conRight_WndPetSkillTransfer" AbsContentSize="410,492" UseAbsSize="True" RelativePosition="0.771,0.5">
+                <WZUIContainer Type="WZUIContainer" GUID="{379f503e-7ddd-4965-ae2c-ecb5f3a33244}" Name="conPetOne_WndPetSkillTransfer" Visible="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{69e0294a-a6c3-49b5-b9c2-a0a01513dbd7}" AbsContentSize="369,35" UseAbsSize="True" RelativePosition="0.5,0.95">
+                        <WZUI9Image Type="WZUI9Image" GUID="{b333ff4a-3fb6-4619-8109-1dce1612f7cc}" File="ui/common/title_frame_06.png" />
+                        <WZUIImage Type="WZUIImage" GUID="{f6b2d481-8c57-4b85-a94a-998762af327f}" File="ui/common/title_frame_05.png" UseOriginSize="True" RelativePosition="0.3,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{2f9e47b8-2163-4821-a109-2d6c38d89d9b}" File="ui/common/title_frame_05.png" UseOriginSize="True" RelativePosition="0.7,0.5" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b26bf03d-161e-456e-8bac-a1d89c964835}" TextKey="ASCENDING30" LabelStyleKey="" RelativePosition="0.5,0.95" Color="255,236,193" FontSize="22" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" Text="" />
+                    <Button Type="WZUIButton" GUID="{492f0b40-f692-4465-8527-9f70aa540472}" AbsContentSize="82,82" UseAbsSize="True" LuaDoneFunctionName="onChoosePet" RelativePosition="0.5,0.793">
+                        <NormalElement Type="WZUIContainer" GUID="{a7dacf5d-c6b5-481f-a8f8-9ea8c70ea791}">
+                            <WZUIImage Type="WZUIImage" GUID="{ce82c6b5-b3cb-40e1-a5cd-8f604a0ba3ff}" File="ui/common/common_scale9_beibaodi2.png" UseOriginSize="True" Opacity="178" />
+                            <WZUIImage Type="WZUIImage" GUID="{bfcae64a-5098-4a91-abfa-71d6da01fe1a}" File="ui/common/common_btn_add.png" UseOriginSize="True" Scale="1" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{f44be1e4-ad83-4b41-941e-f655743abf30}">
+                            <WZUIImage Type="WZUIImage" GUID="{62997177-e563-4195-8f42-7dd637d7b2bd}" File="ui/common/common_scale9_beibaodi2.png" UseOriginSize="True" Opacity="178" />
+                            <WZUIImage Type="WZUIImage" GUID="{0c235e6b-d72e-4f0e-a364-b048668d4f62}" File="ui/common/common_btn_add.png" UseOriginSize="True" Scale="1" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{9a0ef0b5-d9a1-4b99-8aba-9fb99038e96c}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{8dade0bc-29f0-4f8c-96ca-1ee2f6e00a44}" AbsContentSize="370,3" UseAbsSize="True" RelativePosition="0.5,0.654472">
+                        <WZUI9Image Type="WZUI9Image" GUID="{d2cf0e38-33e4-4b12-8605-3b992f1f512f}" File="ui/common/frame_fengexian_01.png" />
+                    </WZUIContainer>
+                    <WZUIContainer AnchorPoint="0.5,0.5" GUID="{9e8594e7-a417-4212-b052-f94e924a205b}" RelativePosition="0.5,0.4" RelativeSize="1,1" Type="WZUIContainer" Name="conRuleDetail_WndPetSkillTransfer" UseAbsSize="True" AbsContentSize="380,220">
+                        <WZUIScrollContainer EnableHorizontalScroll="False" EnableMoveHorizontal="False" EnableVerticalScroll="True" GUID="{e6824ffc-5d57-45de-9467-30346d736142}" Name="rollconExplanation_WndPetSkillTransfer" ScrollPictureDown="" ScrollPictureMid="" ScrollPictureTop="" Type="WZUIScrollContainer">
+                            <MoveElement GUID="{36795ea7-f0ee-4c06-a1e3-eea615bb51ce}" Type="WZUIContainer" Visible="True" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+                                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{b3d89f5f-cef7-4ac5-ad5e-ecf57af27624}" Name="ftxtDesc_WndPetSkillTransfer" MaxWidth="380" AnchorPoint="0,1" RelativePosition="0.015,0" ShowText='&#x09;    &lt;T C=&quot;255,236,193&quot; S=&quot;22&quot; P=&quot;1&quot; SC=&quot;128,54,13&quot; SE=&quot;1&quot; SS=&quot;4&quot;&gt;宠物转移规则:&lt;/T&gt;&lt;BR&gt;&lt;/BR&gt;&#x0A;&#x09;    &lt;T C=&quot;229,105,22&quot; S=&quot;20&quot; P=&quot;0&quot;&gt;1.&lt;/T&gt;&lt;T C=&quot;127,70,26&quot; S=&quot;20&quot; P=&quot;1&quot;&gt;宠物转移后会将宠物技能调换&lt;/T&gt;&lt;BR&gt;&lt;/BR&gt;&#x0A;&#x09;    &lt;T C=&quot;229,105,22&quot; S=&quot;20&quot; P=&quot;0&quot;&gt;2.&lt;/T&gt;&lt;T C=&quot;127,70,26&quot; S=&quot;20&quot; P=&quot;1&quot;&gt;若主宠技能数量比待转移的宠物技能数量多则将只转移前X个技能，其余技能将被损毁，主宠余下的技能将会重新随机&lt;/T&gt;&lt;BR&gt;&lt;/BR&gt;&#x0A;&#x09;    &lt;T C=&quot;229,105,22&quot; S=&quot;20&quot; P=&quot;0&quot;&gt;3.&lt;/T&gt;&lt;T C=&quot;127,70,26&quot; S=&quot;20&quot; P=&quot;1&quot;&gt;若主宠技能数量比待转移的宠物技能数量少则不可进行转移&lt;/T&gt;&lt;BR&gt;&lt;/BR&gt;' />
+                            </MoveElement>
+                        </WZUIScrollContainer>
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{8d45fec0-49b1-4ce1-8583-6948ad6d213e}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.5,0.0833333" Name="" LuaDoneFunctionName="onCloseClick" Visible="True" LuaActionName="Normal" LocalInterval="300">
+                        <NormalElement Type="WZUIContainer" GUID="{0b01de4d-fbac-40c4-8cb6-8702b0bfcfd6}">
+                            <WZUIImage Type="WZUIImage" GUID="{05919993-363c-4d3c-99ce-8c3e6663652c}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{dee5576e-8620-4d8a-b188-7a59fa1ef408}">
+                            <WZUIImage Type="WZUIImage" GUID="{d05080b6-0c27-4201-a9a1-8cc4c187bb76}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{4f059411-2dca-4be1-9d18-6a2081e88ff1}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4d07fcbf-c71b-48d6-9582-ccf236699330}" Color="255,250,236" EnableStroke="True" StrokeSize="4" StrokeColor="163,74,20" Text="返回" FontSize="24" TextKey="BACK" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{8d56d778-dfe2-43b9-91cf-0984f65df66e}" Name="conPetTwo_WndPetSkillTransfer" Visible="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{75f82a1b-8a69-4482-b707-d007598038ae}" AbsContentSize="369,35" UseAbsSize="True" RelativePosition="0.5,0.95">
+                        <WZUI9Image Type="WZUI9Image" GUID="{e8d26ec0-4320-43a6-9531-7b9cdaf79101}" File="ui/common/title_frame_06.png" />
+                        <WZUIImage Type="WZUIImage" GUID="{b7e7bcb2-d498-4c0d-a674-c0db3d81827d}" File="ui/common/title_frame_05.png" UseOriginSize="True" RelativePosition="0.3,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{6fd0a22c-5ceb-470e-aac6-dda84d1831c4}" File="ui/common/title_frame_05.png" UseOriginSize="True" RelativePosition="0.7,0.5" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{970c8c4c-4062-4c9b-abe4-96643178edf3}" TextKey="ASCENDING30" LabelStyleKey="" RelativePosition="0.5,0.95" Color="255,236,193" FontSize="22" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" Text="" />
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{c55022db-0b93-4509-8f80-d96fbf4cf0fa}" EnableMoveHorizontal="False" Name="tbPetList_WndPetSkillTransfer" AbsContentSize="410,360" UseAbsSize="True" RelativePosition="0.5,0.535" CellElementHeight="0.28" />
+                    <Button Type="WZUIButton" GUID="{b9bd0209-ffc1-46fd-b326-2c8df38e9413}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.5,0.0833333" Name="" LuaDoneFunctionName="onCloseClick" Visible="True" LuaActionName="Normal" LocalInterval="300">
+                        <NormalElement Type="WZUIContainer" GUID="{299eef84-9f24-4b56-8863-bf25c80c904e}">
+                            <WZUIImage Type="WZUIImage" GUID="{a1efdd34-ff27-406b-9c00-10f2a9ec9078}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{d9a1bd0f-6a94-4e07-a7eb-71d8b70f3813}">
+                            <WZUIImage Type="WZUIImage" GUID="{99b23f71-5fe8-4258-83dd-b3416a353405}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{a23376db-e4dc-43e5-8b11-90cbd39b9656}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3f7252db-1e68-4364-85e4-b6f8ae5f68ad}" Color="255,250,236" EnableStroke="True" StrokeSize="4" StrokeColor="163,74,20" Text="" FontSize="24" TextKey="BACK" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{e96aa271-7d83-4e7b-8934-cfd41ae72d74}" Name="conPetThree_WndPetSkillTransfer" Visible="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{0cfc55e2-89c0-4992-816c-dfb33950eaee}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" Name="">
+                        <WZUIContainer Type="WZUIContainer" GUID="{0cd28077-f656-4eb2-b663-07dd31c52da9}" AbsContentSize="360,120" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                            <WZUIContainer Type="WZUIContainer" GUID="{153b651d-8fd3-422d-94a7-6c775356e293}" AbsContentSize="180,40" UseAbsSize="True" RelativePosition="0.5,0.215" TouchEnable="False" AnchorPoint="0.5,0.5" Name="conAptitudeR_WndPetSkillTransfer">
+                                <WZUIImage Type="WZUIImage" GUID="{361b6a08-9a66-4f03-b86c-dfc77de49440}" Name="imgAptitudeR6_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="-0.01,0.5" Scale="0.8" />
+                                <WZUIImage Type="WZUIImage" GUID="{a1f10a02-63c7-4835-9ed4-06ae85047c97}" Name="imgAptitudeR4_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.16,0.5" Scale="0.8" />
+                                <WZUIImage Type="WZUIImage" GUID="{d201d56b-f01b-4c6c-92e4-1ec0099fa09d}" Name="imgAptitudeR2_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.33,0.5" Scale="0.8" />
+                                <WZUIImage Type="WZUIImage" GUID="{e324a0ac-95d6-475e-b9b6-960e155cb82a}" Name="imgAptitudeR1_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="0.8" />
+                                <WZUIImage Type="WZUIImage" GUID="{dd8b307a-ed55-47a4-ba7f-125e318fc300}" Name="imgAptitudeR3_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.67,0.5" Scale="0.8" />
+                                <WZUIImage Type="WZUIImage" GUID="{cd74d2c0-f9e4-4ede-af61-dcd3c5174c30}" Name="imgAptitudeR5_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.84,0.5" Scale="0.8" />
+                                <WZUIImage Type="WZUIImage" GUID="{fb55f79d-ce55-4c86-8bb7-b958f4e83cf6}" Name="imgAptitudeR7_WndPetSkillTransfer" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="1.01,0.5" Scale="0.8" />
+                            </WZUIContainer>
+                            <WZUILabelTTF AnchorPoint="0.5,0.5" Color="255,255,255" FontSize="24" GUID="{15984f97-3d1a-4a66-b309-21691e2f7e37}" MaxLength="" Name="txtLvR_WndPetSkillTransfer" RelativePosition="0.5,0.4" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Center" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" Visible="False" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{e3fb5d99-c3a7-4698-a0b4-43bfabba15df}" Name="txtNameR_WndPetSkillTransfer" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.59" MaxWidth="300" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{2ca78a51-9e4e-46b8-932d-401c1ce06483}" AbsContentSize="290,296" UseAbsSize="True" RelativePosition="0.5,0.56" Name="">
+                            <WZUIImage Type="WZUIImage" GUID="{f42680bb-48b3-40fa-b1a4-c42e96fd1187}" File="ui/common/common_dw_01.png" UseOriginSize="True" RelativePosition="0.5,0.473" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{79b6728c-c339-4034-9017-1fd740a1745c}" AbsContentSize="120,200" UseAbsSize="True" RelativePosition="0.506896,0.5" Name="" Visible="True">
+                                <WZUIContainer AbsContentSize="120,160" GUID="{cb8fc3d2-e6bd-4939-8f82-484701f49298}" Name="conPetR1_WndPetSkillTransfer" RelativePosition="0.5,0.5" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" Visible="True" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{8359f601-29e3-4fd4-abce-8a39f642e668}" Name="conSkillR_WndPetSkillTransfer" AbsContentSize="400,100" UseAbsSize="True" RelativePosition="0.5,0.35561">
+                            <WZUIContainer Type="WZUIContainer" GUID="{1579b1e9-4a67-4688-b074-2cebc3b22aee}" AbsContentSize="72,72" UseAbsSize="True" Name="conCurSkillR1_WndPetSkillTransfer" RelativePosition="0.125,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{f988ba31-ee8d-48c4-ad78-d65eb160b261}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{09d6342a-115e-402d-8bad-be0e9ec12915}" File="" Name="imgRSkillIcon1_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{93df8cf7-391d-428c-8472-600fa94f3677}" File="" UseOriginSize="True" Scale="0.9" Name="imgRLevel1_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                                <WZUIImage Type="WZUIImage" GUID="{6b447494-d31e-4314-94c9-e90192c936df}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgRLock1_WndPetSkillTransfer" Visible="False" />
+                                <Button Type="WZUIButton" GUID="{f3e11e87-51a9-449f-bf5f-da8ef0a0a01c}" LuaDoneFunctionName="onClickRightSkill" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{d911db81-a5cc-4942-af40-c3fc3b8f42b9}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{548cb04d-386a-4ebd-9036-51a420e244af}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{087a9829-d164-4a10-ac94-0b7ca6d542bd}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{65d49a8e-0b66-4be4-a058-30b3f66166b9}" AbsContentSize="72,72" UseAbsSize="True" Name="conRSkill2_WndPetSkillTransfer" RelativePosition="0.315,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{d1e5cb5d-c1c8-4eb2-84e7-c80a7b8671bb}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{5479983d-1126-40cb-b3bf-c664ac0808af}" File="" Name="imgRSkillIcon2_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{4de55d2f-e9e6-42a1-b77c-226d8b59a686}" File="" UseOriginSize="True" Scale="0.9" Name="imgRLevel2_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                                <WZUIImage Type="WZUIImage" GUID="{988acba7-b0aa-4495-a514-b87171ee6277}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgRLock2_WndPetSkillTransfer" Visible="False" />
+                                <Button Type="WZUIButton" GUID="{b396154f-4415-444d-bf11-e5b5c5315539}" LuaDoneFunctionName="onClickRightSkill" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{341c45f9-5415-4d5e-aa53-fc198310901f}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{c7e84470-3aa2-4d4b-b653-a5293f51810a}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{a7dc12d1-599b-4123-837f-dab5a48d8c89}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{acae1b64-4e18-44d0-bcdc-dbb1fda8b1d5}" AbsContentSize="72,72" UseAbsSize="True" Name="conRSkill3_WndPetSkillTransfer" RelativePosition="0.5,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{f76583a0-4cb8-4344-86fe-55a63a5b0b58}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{3927c33e-15ea-4b52-aa05-3601f9410576}" File="" Name="imgRSkillIcon3_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{f6cde911-c47c-4e55-b376-0f8b9bb5f98d}" File="" UseOriginSize="True" Scale="0.9" Name="imgRLevel3_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                                <WZUIImage Type="WZUIImage" GUID="{28c2f9c4-c97b-452e-b974-8643d81d20b1}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgRLock3_WndPetSkillTransfer" Visible="False" />
+                                <Button Type="WZUIButton" GUID="{be70f1df-5b24-4ab4-93fd-cf0b17ef48c6}" LuaDoneFunctionName="onClickRightSkill" Tag="3">
+                                    <NormalElement Type="WZUIContainer" GUID="{9be89fd2-0b7a-408f-97e9-8fe855762c09}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{49343f66-2649-4ea6-949f-595886e4ee35}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{fdeac48d-16b2-4471-b789-9b20fa676b4d}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{a6512f55-9663-47e1-a3bc-ab4344820db6}" AbsContentSize="72,72" UseAbsSize="True" Name="conRSkill4_WndPetSkillTransfer" RelativePosition="0.685,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{6f19f307-88a1-4d0e-93be-2e2d0d0b2721}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{0acf85f4-1e59-40a3-ba34-cc2e024b2fef}" File="" Name="imgRSkillIcon4_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{a304d211-ca92-4402-95ff-f5786c68121e}" File="" UseOriginSize="True" Scale="0.9" Name="imgRLevel4_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                                <WZUIImage Type="WZUIImage" GUID="{b61a652b-feec-4e3a-93ae-04e5b202c24d}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgRLock4_WndPetSkillTransfer" Visible="False" />
+                                <Button Type="WZUIButton" GUID="{03da1c2f-b545-4765-9bc1-ad9fa6eab88e}" LuaDoneFunctionName="onClickRightSkill" Tag="4">
+                                    <NormalElement Type="WZUIContainer" GUID="{c8c83266-ba36-4604-b71b-c2429508b04a}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{81fbd384-ebc7-4dff-83be-a3254dc14b61}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{83e12c86-f715-4d19-ab97-f1d77dd7cd96}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{1d091144-5bc4-4a5d-852c-556c36b7023a}" AbsContentSize="72,72" UseAbsSize="True" Name="conRSkill5_WndPetSkillTransfer" RelativePosition="0.875,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{2dc311ba-0497-4735-aad8-2331a3fa4c52}" File="ui/common/common_jn_dk.png" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{bfe1ed8c-c10f-4800-a2d7-e12b692ad5ee}" File="" Name="imgRSkillIcon5_WndPetSkillTransfer" UseOriginSize="True" Scale="1" />
+                                <WZUIImage Type="WZUIImage" GUID="{24b2e096-75af-4547-909d-3634bbae3c87}" File="" UseOriginSize="True" Scale="0.9" Name="imgRLevel5_WndPetSkillTransfer" Visible="True" AnchorPoint="1,0.5" RelativePosition="0.9,0.25" />
+                                <WZUIImage Type="WZUIImage" GUID="{c14a465a-6617-419b-8dc4-3f1b0cbbe28b}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.5" Name="imgRLock5_WndPetSkillTransfer" Visible="False" />
+                                <Button Type="WZUIButton" GUID="{1f87c7e4-2928-4d68-838a-2b014ef8014c}" LuaDoneFunctionName="onClickRightSkill" Tag="5">
+                                    <NormalElement Type="WZUIContainer" GUID="{727471c2-1442-40f4-8c41-7f4ebcb39c6f}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{3a89911c-3988-4315-82a9-3c20e539c8d5}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{f6e1ab68-eb64-47b6-a401-93bfe8bca117}" />
+                                </Button>
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{b1e53e79-2203-4b1e-910f-05455ade1893}" AbsContentSize="62,36" UseAbsSize="True" RelativePosition="0.877181,0.894168" LuaActionName="Normal" LuaDoneFunctionName="onChoosePet">
+                        <NormalElement Type="WZUIContainer" GUID="{ec25b193-53d2-4184-b713-7400ef46fdb8}">
+                            <WZUIImage Type="WZUIImage" GUID="{8c3b92df-cc81-4247-a819-9d2ca2e5f4d8}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{3fb10217-ad78-49b4-89c7-dfac3335b884}">
+                            <WZUIImage Type="WZUIImage" GUID="{5ca4056b-7d08-4f78-a0bd-284397d6ceb6}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{cba5848a-4443-4160-8210-7c5a190d442a}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b842bb6e-bf73-4300-aa1e-4de5e7f92096}" LabelStyleKey="" TextKey="BAG9" Color="255,255,255" EnableStroke="True" StrokeColor="163,73,20" StrokeSize="4" Text="" FontSize="20" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{e6986bc8-6801-46cd-a932-ac173ab65f6f}" Name="conShow_WndPetsSkill" AbsContentSize="400,130" UseAbsSize="True" RelativePosition="0.5,0" Visible="True" AnchorPoint="0.5,0">
+                        <WZUIContainer Type="WZUIContainer" GUID="{5a00fca4-a880-46a9-8fec-e8c441ccccdb}" AbsContentSize="366,48" UseAbsSize="True" RelativePosition="0.5,0.830769">
+                            <WZUI9Image Type="WZUI9Image" GUID="{12e1e4a0-4211-42f3-9ace-9c77aaadf0da}" File="ui/common/frame_wb.png" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{806128b4-59ec-4107-9a32-41b99e73d6fe}" Name="ftxtCost_WndPetSkillTransfer" MaxWidth="380" UseAbsSize="True" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{157a03e2-bc43-4247-9699-df8a82ab267c}" AbsContentSize="410,68" UseAbsSize="True" RelativePosition="0.5,0.33" Scale="1">
+                            <Button Type="WZUIButton" GUID="{dbc25d7b-da13-4c05-ab6a-b68eff5c66f1}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.28,0.5" Name="" LuaDoneFunctionName="onCloseClick" Visible="True" LuaActionName="Normal" LocalInterval="300">
+                                <NormalElement Type="WZUIContainer" GUID="{5d6e2003-ab28-4800-b20f-6e728a50989b}">
+                                    <WZUIImage Type="WZUIImage" GUID="{5ecd3761-e63c-4c8e-8f33-abc2911a628c}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{f5d90cc0-251b-4535-954e-c2536612ced3}">
+                                    <WZUIImage Type="WZUIImage" GUID="{0aaa4da6-1e57-4835-a848-427fd008f5bf}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{a61179e2-11cc-460c-8056-4de7527fef52}" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8fdeab85-d6bb-456c-a5ec-983e843116ed}" Color="255,250,236" EnableStroke="True" StrokeSize="4" StrokeColor="163,74,20" Text="" FontSize="24" TextKey="BACK" />
+                            </Button>
+                            <Button Type="WZUIButton" GUID="{ad8f7be6-c007-4380-b67c-f8e70735d3cf}" Name="btnTransfer_WndPetsSkill" LuaDoneFunctionName="onSkillTransfer" Tag="6" LuaActionName="Normal" Scale="1" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.72,0.5" LocalInterval="300">
+                                <NormalElement Type="WZUIContainer" GUID="{544494a8-3e4d-456d-8c92-9b71bd37bc7a}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{d2fb64fd-c5b1-41ea-80e9-ac1303e257d7}" File="ui/common/common_btn_02.png" Name="" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a06bef83-a875-4d42-9ea1-75a70dff918f}" FontSize="24" Name="txtSkill1_WndPetsSkill" Color="255,250,236" BoldFont="True" StrokeColor="0,109,4" Text="" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchEnable="False" EnableStroke="True" Dimensions="0??0" TextKey="PETSKILL_TEXT1" StrokeSize="4" LabelStyleKey="" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{0b88d2b7-f99a-4fe8-8c4c-c6da5f9cddde}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{d386b26b-7fbc-4d91-9c10-bb393119fb78}" File="ui/common/common_btn_02.png" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3fa9b1c1-864b-40ec-b65a-c28449fdb3dd}" FontSize="24" Name="txtSkill2_WndPetsSkill" Color="255,250,236" BoldFont="True" StrokeColor="0,109,4" Text="" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchEnable="False" EnableStroke="True" Dimensions="0??0" TextKey="PETSKILL_TEXT1" StrokeSize="4" LabelStyleKey="" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{fec249b1-b7f0-41b8-a6eb-078fb5ea7e03}">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{8a0c6ea4-8023-4da2-a78c-147a502df943}" File="ui/common/common_btn_02.png" GrayRender="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{f4320b93-afa3-4216-add5-9e0feafa64c3}" FontSize="24" Name="txtSkill3_WndPetsSkill" Color="255,250,236" BoldFont="True" StrokeColor="0,109,4" Text="" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchEnable="False" EnableStroke="True" Dimensions="0??0" TextKey="PETSKILL_TEXT1" StrokeSize="4" LabelStyleKey="SMALL_GRAY_BTN" />
+                                </DisableElement>
+                            </Button>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{f9dfa45c-67d7-4efc-a665-7d481137f8b3}" File="ui/common/common_icon_jiantou5.png" UseOriginSize="True" RelativePosition="0,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndPetSkillTransfer>

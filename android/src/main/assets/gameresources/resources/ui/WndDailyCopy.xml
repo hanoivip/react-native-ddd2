@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" ?>
+<WndDailyCopy GUID="{CC3B7E07-CADB-4b78-B53E-473C3B64A96B}">
+    <WZUIWindow Type="WZUIWindow" GUID="{20BBF116-7A58-4ff7-83D1-C24974638F6A}" LuaObjectName="WndDailyCopy" Name="WndDailyCopy" NameCreate="True" TouchSwallow="True" LuaTouchBeganFunction="onBeginTouch">
+        <WZUIContainer Type="WZUIContainer" GUID="{D60A9C4F-18DB-4649-8AD9-B50AEEA1FB2D}" Name="conBg_WndDailyCopy" UseAbsSize="True" AbsContentSize="1136,720">
+            <WZUIImage Type="WZUIImage" GUID="{115B0DBE-E11F-4ee6-81BB-23168722EC94}" File="ui/common_bg/common_bg.png" Visible="True" UseOriginSize="True" />
+            <WZUIParticle Type="WZUIParticle" GUID="{52c1157b-6b27-4e04-b34b-53c6b3fbe38d}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{ff3f31e5-52f7-450d-8704-fa2cf8ef8f0c}" AbsContentSize="1136,640" UseAbsSize="True" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{06195ca9-67bb-48e2-87ed-86cf10bd4e75}" AbsContentSize="350,520" UseAbsSize="True" RelativePosition="0.16,0.47" AnchorPoint="0.5,0.5" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{a4e3c0d2-52da-4e64-820d-fb995775e514}" AbsContentSize="6,520" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{95c56321-a5dc-4590-af38-f6e86dc760b9}" File="ui/common/frame_fengexian.png" />
+                </WZUIContainer>
+                <WZUITableContainer Type="WZUITableContainer" GUID="{7123f358-41e0-4103-9b99-3814824b5039}" Name="tabCopy_WndDailyCopy" VerticalInterval="0" EnableMoveVertical="True" IsVerticalMode="True" AnchorPoint="0.5,0.5" EnableMoveHorizontal="False" CellElementHeight="0.295" RelativeSize="1,1" ColumnCount="1" RelativePosition="0.503125,0.5" EnableVerticalScroll="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{530cd184-83fa-4f78-ab0d-058164b8cf17}" AbsContentSize="776,580" Visible="True" UseAbsSize="True" RelativePosition="0.656,0.455" ShowAll="False" Name="conLeft_WndDailyCopy">
+                <WZUIContainer Type="WZUIContainer" GUID="{d693a2a0-ae7a-4e1d-8169-67891fc98223}" RelativeSize="0,0" RelativePosition="0.5,0.5" AbsContentSize="776,580" UseAbsSize="True">
+                    <Button Type="WZUIButton" GUID="{83bd5a8d-e1e3-41fb-9aeb-f1434b359e5c}" UseAbsSize="True" AbsContentSize="62,36" RelativePosition="0.918,0.916" Scale="0.5" LuaDoneFunctionName="onReset" ScaleX="1" ScaleY="1" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{c5b37014-d970-4c2e-9b5f-0932e1ab7669}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{8e6e9942-0509-4e86-b259-3553d07d1e22}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" Visible="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{3c2b02ba-945a-44df-90bb-82fa50d1a909}" TextKey="RESET" LabelStyleKey="" Scale="1" ScaleX="1" ScaleY="1" Name="txtResert1_WndDailyCopy" Text="" Color="255,255,255" FontSize="20" StrokeColor="166,75,20" StrokeSize="4" EnableStroke="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{69b1c69a-0c79-4b12-8147-f9d2a1fe28d3}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{9408e4a2-aad0-4422-989e-98045badddaa}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e31afb32-eab5-43ab-a907-987ad18c9084}" TextKey="RESET" LabelStyleKey="" Scale="1" ScaleX="1" ScaleY="1" Name="txtResert2_WndDailyCopy" Color="255,255,255" StrokeColor="166,75,20" StrokeSize="4" EnableStroke="True" FontSize="20" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{ec9d1881-e646-438f-ae61-f4a841447156}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{99737cc5-e843-4bb3-aba3-dd3024ddc7fb}" AbsContentSize="200,40" UseAbsSize="True" RelativePosition="0.746082,0.916" Name="conFightNum_WndDailyCopy">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e97f42c0-99a9-4593-8922-0fecb253bae7}" Text="" FontSize="20" AnchorPoint="1,0.5" RelativePosition="0.79,0.5" Color="255,236,193" Name="txtFightNum_WndDailyCopy" TextKey="CHALLENGE_SURPLUS_COUNT" StrokeColor="130,66,30" StrokeSize="4" EnableStroke="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9b5d8d69-729c-454d-a4f4-3f1795886deb}" AnchorPoint="0,0.5" FontSize="20" Color="230,105,25" Text="" RelativePosition="0.85,0.5" BoldFont="False" EnableShadow="False" EnableStroke="True" Name="txtFightNum2_WndDailyCopy" StrokeColor="130,66,30" StrokeSize="4" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{8c69cdc4-ea41-4f5a-8463-4264902b1652}" AbsContentSize="140,40" UseAbsSize="True" RelativePosition="0.167468,0.916" Name="conPowerSub_WndDailyCopy" Visible="False">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{951a1350-9e49-4c8a-a0ba-0dc37c9d0875}" Text="" FontSize="18" AnchorPoint="1,0.5" RelativePosition="0.848586,0.5" Color="255,227,116" Name="txtPowerSub_WndDailyCopy" TextKey="COPY_VIGOUR_COST" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a809f1c0-1c12-4792-a09c-2852690fc6ed}" AnchorPoint="1,0.5" FontSize="18" Color="255,236,193" Text="" RelativePosition="1.11282,0.5" BoldFont="False" EnableShadow="False" EnableStroke="False" Name="txtPowerSub2_WndDailyCopy" AbsPosition="178.051,20" Alignment="Right" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{c2f633c7-07ae-4044-839f-d24f8f1803b7}" AbsContentSize="30,30" UseAbsSize="True" RelativePosition="1.21567,0.5" AbsPosition="194.507,20">
+                            <WZUIImage Type="WZUIImage" GUID="{c560c4ce-d58f-4370-8ab2-5d1a118c0699}" File="ui/common/common_icon_huoli.png" RelativePosition="0.366667,0.5" AbsPosition="11,15" Scale="0.8" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{f775d65f-b3b8-4f75-8f4b-205f783838db}" AbsContentSize="740,280" UseAbsSize="True" RelativePosition="0.5,0.56" Name="tableCopyType_WndDailyCopy" ColumnCount="1" EnableHorizontalScroll="True" EnableMoveVertical="False" EnableVerticalScroll="False" IsVerticalMode="False" CellElementHeight="0.25" VisibleHeight="80" AnchorPoint="0.5,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{21dc2734-984d-44b3-b312-b6f953b46562}" FontSize="22" Color="255,236,193" Text="" Name="txtCopyDesc_WndDailyCopy" Visible="True" RelativePosition="0.5,0.214" StrokeColor="130,66,30" StrokeSize="4" EnableStroke="True" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{ac0f9fcf-cb6e-4146-8c7a-f15c82576de0}" Name="conCleanout_WndDailyCopy" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.7,0.097">
+                    <Button Type="WZUIButton" GUID="{acf295c4-39cd-4a28-ad0c-86f404f09a71}" LuaActionName="Normal" LuaDoneFunctionName="onClickCleanout" AbsContentSize="152,68" RelativePosition="0.5,0.5" UseAbsSize="True">
+                        <NormalElement Type="WZUIContainer" GUID="{e8f905e0-7e16-4db2-bb9b-896e7189bd17}">
+                            <WZUIImage Type="WZUIImage" GUID="{1ec89b16-6909-437b-aee9-c5ac7a50cbd7}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{bd89b9d7-7455-46d7-b8b6-bd6c10928fe2}">
+                            <WZUIImage Type="WZUIImage" GUID="{84f74aff-597b-412f-b710-0ca83c853e87}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{b6b7d0ab-dedc-4648-9075-31204466a098}" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{da267965-9c77-4931-bc73-e3ecf9e6ab08}" Name="ftxtCleanoutCost_WndDailyCopy" MaxWidth="144" ShowText="" RelativePosition="0.5,0.5" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{279deea9-8409-4345-b5cd-81e0c15a7acd}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.3,0.097" Name="conChallenge_WndDailyCopyInfo">
+                    <Button Type="WZUIButton" GUID="{92848bf8-c017-47b7-b6e9-aab02ca35dad}" LuaActionName="Normal" LuaDoneFunctionName="onBtnFighting" AbsContentSize="152,68" RelativePosition="0.5,0.5" UseAbsSize="True">
+                        <NormalElement Type="WZUIContainer" GUID="{14be6b55-0bd2-47ac-9180-8d57ae562921}">
+                            <WZUIImage Type="WZUIImage" GUID="{f57cd202-4e0e-4284-b845-26a30523879c}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{620a08b0-b2e8-4057-83d4-e53906ec9795}">
+                            <WZUIImage Type="WZUIImage" GUID="{5bdd0d37-2338-4a86-a1c3-b77eacb97d97}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{a9b05ff7-d055-4144-b46b-83f259a4e87f}" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{dffd62db-4d85-42c9-96ba-1e5fa3a2b890}" Name="ftxtChallenge_WndDailyCopy" MaxWidth="144" ShowText="" RelativePosition="0.5,0.5" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+    <WZUIContainer Type="WZUIContainer" GUID="{85c2ef09-ff62-47f7-840d-390d1ed4e1d3}" AbsContentSize="140,200" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="False" Name="CellDiffCopy_WndDailyCopy">
+        <WZUIContainer Type="WZUIContainer" GUID="{0d016919-8427-436f-823b-bb3c6d5f8b9a}" UseAbsSize="False" RelativePosition="0.5,0.86">
+            <WZUIImage Type="WZUIImage" GUID="{de845740-3296-4193-bc26-f277bc861f53}" Name="imgCopyzidi1_WndDailyCopy" File="ui/common/common_icon_zidi_sel.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,-0.286441" AnchorPoint="1,0.5" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{cecffea4-e44c-400d-a705-aaf62d347729}" Name="imgCopyzidi2_WndDailyCopy" File="ui/common/common_icon_zidi_sel.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,-0.286441" AnchorPoint="1,0.5" FlipX="False" ScaleX="-1" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{11c53319-012d-46a6-a76e-39797aafec7c}" RelativePosition="0.417377,0.367719" UseAbsSize="False" Name="conCopyLevel1_WndDailyCopy" Visible="True" Scale="1">
+            <WZUISpine Type="WZUISpine" GUID="{96b8ad9b-040b-4450-8cde-338f99903471}" FileJson="ui/ui_richangfuben.json" FileAtlas="ui/ui_richangfuben.atlas" AnchorPoint="0.5,0" AnimationName="easy" Loop="True" RelativePosition="0.561209,0.710219" Name="armCopyLevel1_WndDailyCopy" Visible="False" AbsPosition="78.5693,99.4306" />
+        </WZUIContainer>
+        <WZUIImage Type="WZUIImage" GUID="{2bf8eae1-36ac-4906-a126-feea5c2c441c}" File="ui/dailyCopy/common_icon_jiandan.png" Name="imgCopyLevelBg1_WndDailyCopy" Visible="True" UseOriginSize="True" RelativePosition="0.485714,0.645" />
+        <WZUIContainer Type="WZUIContainer" GUID="{c5dbe304-090a-493d-8eae-f926f05ee83b}" AbsContentSize="58,33" UseAbsSize="True" RelativePosition="0.500965,0.238641" Visible="True">
+            <WZUIImage Type="WZUIImage" GUID="{bf5712e0-c25e-4691-ad42-41dd12d0925f}" File="ui/dailyCopy/common_icon_jiandan3.png" Visible="True" RelativePosition="0.467383,0.500001" isValid="True" Name="imgCopyDiffName_WndDailyCopy" />
+        </WZUIContainer>
+        <Button Type="WZUIButton" UseAbsSize="False" Visible="True" GUID="{29a7dff5-de51-41a8-b2f8-9b60967d8345}" LuaDoneFunctionName="onCheckDif_WndDailyCopy" Tag="1" RelativePosition="0.5,0.61">
+            <NormalElement Type="WZUIContainer" GUID="{6261fad3-e0ab-4bc4-badd-8047334990ea}" />
+            <SelectElement Type="WZUIContainer" GUID="{44f1c257-8267-4cea-bab4-135ab4fd1dbc}" />
+            <DisableElement Type="WZUIContainer" GUID="{87be4115-33fc-4ee1-9d46-2094099cbc5b}" />
+        </Button>
+    </WZUIContainer>
+</WndDailyCopy>

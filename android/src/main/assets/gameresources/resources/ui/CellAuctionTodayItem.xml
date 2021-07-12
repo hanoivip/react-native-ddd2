@@ -1,0 +1,15 @@
+﻿<CellAuctionTodayItem GUID="{406fa0f2-7e34-45f3-9c67-ef4afb2c9259}">
+    <WZUIContainer Type="WZUIContainer" GUID="{c22a0a4b-8247-442b-856c-fbae47f62503}" Name="CellAuctionTodayItem" AbsContentSize="152,192" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{6c45fdf8-c75a-4180-8605-09c53fe20d50}">
+            <WZUIImage Type="WZUIImage" GUID="{73eb87b9-5a25-4a41-9bf4-db18ad566be3}" File="ui/common/common_pic_di_01.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d953ded5-150b-4e78-964b-cda2ce5c2af1}" Color="255,250,236" FontSize="22" Text="" RelativePosition="0.5,0.86" StrokeColor="163,74,20" StrokeSize="4" EnableStroke="True" Name="txtAuctionName_CellAuctionTodayItem" />
+            <WZUIContainer Type="WZUIContainer" GUID="{b5b4b7b1-571f-4314-bce9-00fdb5c858bd}" AbsContentSize="80,80" UseAbsSize="True" Name="conAuctionItem_CellAuctionTodayItem" RelativePosition="0.5,0.39" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{6fc2ea9a-3d3f-419a-8ac8-9327334ffa5c}" Color="255,250,236" FontSize="18" Text="" RelativePosition="0.5,0.173" StrokeColor="132,66,29" StrokeSize="4" EnableStroke="True" Name="txtAuctionNum_CellAuctionTodayItem" />
+            <Button Type="WZUIButton" GUID="{51b8570a-73f3-4ed8-8995-9aba9471c797}" LuaDoneFunctionName="onClickItem">
+                <NormalElement Type="WZUIContainer" GUID="{d2011279-19a3-4b38-9e44-2a83259f9dce}" />
+                <SelectElement Type="WZUIContainer" GUID="{d8eee62d-b569-4cc0-a1dd-1a9ba7c40892}" />
+                <DisableElement Type="WZUIContainer" GUID="{b9158b0e-3e9f-44e8-a603-7b741b043dae}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellAuctionTodayItem>

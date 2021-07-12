@@ -1,0 +1,17 @@
+<WZAsyncLoader>
+    <dir input="resources/image/ui/common" pack="common/pack_common_{n}"/>
+    <dir input="resources/image/ui/chat" pack="chat/pack_chat_{n}" no_trim="1"/>
+    <dir input="resources/image/ui/family/other" pack="family/pack_family_{n}" pack_multi="cn,en,es,hk,ko,pt,th,tr,vn,ug" pack_multi_dir="image/ui/family"/>
+    <dir input="resources/image/ui/city/newMainScene" pack="city/pack_city_{n}" pack_multi="cn,en,es,hk,ko,pt,th,tr,vn,ug" pack_multi_dir="image/ui/city/newMainScene/beta"/>
+    <dir input="resources_cn/image/ui/common" pack="common/pack_cn_common_{n}" pack_multi="cn" pack_multi_dir="image/ui/common" />
+    <dir input="resources_hk/image/ui/common" pack="common/pack_hk_common_{n}" pack_multi="hk" pack_multi_dir="image/ui/common" />
+    <dir input="resources_en/image/ui/common" pack="common/pack_en_common_{n}" pack_multi="en" pack_multi_dir="image/ui/common" />
+    <dir input="resources_th/image/ui/common" pack="common/pack_th_common_{n}" pack_multi="th" pack_multi_dir="image/ui/common" />
+    <dir input="resources_vn/image/ui/common" pack="common/pack_vn_common_{n}" pack_multi="vn" pack_multi_dir="image/ui/common" />
+    <dir input="resources_pt/image/ui/common" pack="common/pack_pt_common_{n}" pack_multi="pt" pack_multi_dir="image/ui/common" />
+    <dir input="resources_tr/image/ui/common" pack="common/pack_tr_common_{n}" pack_multi="tr" pack_multi_dir="image/ui/common" />
+    <dir input="resources_es/image/ui/common" pack="common/pack_es_common_{n}" pack_multi="es" pack_multi_dir="image/ui/common" />
+    <dir input="resources_ko/image/ui/common" pack="common/pack_ko_common_{n}" pack_multi="ko" pack_multi_dir="image/ui/common" />
+    <dir input="resources_ug/image/ui/common" pack="common/pack_ug_common_{n}" pack_multi="ug" pack_multi_dir="image/ui/common" />
+    <dir input="resources/image/ui/city/beta" pack="city_new_ui/pack_city_new_ui_{n}" pack_multi="cn,hk,en,th,vn,pt,tr,es,ko,ug" pack_multi_dir="image/ui/city/beta"/>
+</WZAsyncLoader>

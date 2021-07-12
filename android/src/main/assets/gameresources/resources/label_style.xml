@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styles>
+	<!--<style id="test_style" fontName="" fontSize="48" color="255,0,255" enableStroke="True" strokeSize="4" strokeColor="255,0,255"/>-->
+	<!--橙色普通--> 
+	<style id="NORMAL_ORANGE_BTN" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<!--橙色小-->
+	<style id="SMALL_ORANGE_BTN" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<!--绿色普通-->
+	<style id="NORMAL_GREEN_BTN" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<!--绿色小-->
+	<style id="SMALL_GREEN_BTN" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<!--灰色普通-->
+	<style id="NORMAL_GRAY_BTN" fontName="" fontSize="26" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<!--灰色小-->
+	<style id="SMALL_GRAY_BTN" fontName="" fontSize="24" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<!--Tips按钮-->
+	<style id="SMALL_TIP_BTN" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<!--标签-->
+	<style id="LABEL_NORMAL" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<!--标签sel-->
+	<style id="LABEL_SEL" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<!--复选框-->
+	<style id="CHECKBOX_SEL" fontName="" fontSize="24" color="79,60,48" enableStroke="False" strokeSize="4" strokeColor="255,0,255"/>
+	<!--复选框sel-->
+	<style id="CHECKBOX_NORMAL" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<!--经验条文字-->
+	<style id="NORMAL_EXP_PROGRESS" fontName="" fontSize="20" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<!--主窗口标题文字-->
+	<style id="NORMAL_WINDOW_TITLE" fontName="" fontSize="26" color="255,227,116" enableStroke="False" strokeSize="4" strokeColor="105,65,46"/>
+	<!--子窗口标题文字-->
+	<style id="SMALL_WINDOW_TITLE" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<!--公会战战斗加载公会名字——我方-->
+	<style id="MYTEAM_CONFERENCE_NAME" fontName="" fontSize="24" color="93,222,254" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--公会战战斗加载公会名字——敌方-->
+	<style id="ENEMY_CONFERENCE_NAME" fontName="" fontSize="24" color="255，89，74" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字1-->
+	<style id="FONT_LABEL_1" fontName="" fontSize="22" color="255,236,193" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字2-->
+	<style id="FONT_LABEL_2" fontName="" fontSize="22" color="128,54,13" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字3-->
+	<style id="FONT_LABEL_3" fontName="" fontSize="22" color="255,255,255" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字4-->
+	<style id="FONT_LABEL_4" fontName="" fontSize="22" color="255,227,116" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字5-->
+	<style id="FONT_LABEL_5" fontName="" fontSize="22" color="158,139,121" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字6-->
+	<style id="FONT_LABEL_6" fontName="" fontSize="22" color="158,0,0" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	<!--程序字7-->
+	<style id="FONT_LABEL_7" fontName="" fontSize="22" color="255,89,74" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	
+	<style id="FONT_LABEL_8" fontName="" fontSize="20" color="255,236,193" enableStroke="False" strokeSize="4" strokeColor="128,54,13"/>
+	
+	
+	<!--颜色整理 例如："C1_F20_S4_C2" C1表示字体颜色，对应颜色表的第一个颜色,,F20表示字体大小为20,S4表示描边4像素,C2描边颜色，对应颜色表的第2个颜色-->
+	<style id="C1_F18" fontName="" fontSize="18" color="255,236,193" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C1_F20" fontName="" fontSize="20" color="255,236,193" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C1_F22" fontName="" fontSize="22" color="255,236,193" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C1_F24" fontName="" fontSize="24" color="255,236,193" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C1_F26" fontName="" fontSize="26" color="255,236,193" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C1_F12_S4_C13" fontName="" fontSize="12" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C1_F18_S4_C5" fontName="" fontSize="18" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C1_F20_S4_C13" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C1_F18_S4_C13" fontName="" fontSize="18" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C1_F18_S1_C13" fontName="" fontSize="18" color="255,236,193" enableStroke="True" strokeSize="1" strokeColor="127,70,26"/>
+	<style id="C1_F18_S4_C2" fontName="" fontSize="16" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F16_S4_C2" fontName="" fontSize="16" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F20_S4_C2" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F22_S4_C2" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F24_S4_C2" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F26_S4_C2" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F18_S4_C3" fontName="" fontSize="18" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C1_F20_S4_C3" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C1_F22_S4_C13" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C1_F22_S4_C3" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C1_F24_S4_C3" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C1_F26_S4_C3" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C1_F18_S4_C14" fontName="" fontSize="18" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C1_F20_S4_C4" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<style id="C1_F22_S4_C4" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<style id="C1_F24_S4_C4" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<style id="C1_F26_S4_C4" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<style id="C1_F20_S4_C5" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C1_F22_S4_C5" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C1_F24_S4_C5" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C1_F26_S4_C5" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C1_F20_S4_C16" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="255,89,74"/>
+	<style id="C1_F22_S4_C16" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="255,89,74"/>
+	<style id="C1_F24_S4_C16" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="255,89,74"/>
+	<style id="C1_F26_S4_C16" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="255,89,74"/>
+	<style id="C1_F20_S4_C14" fontName="" fontSize="20" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C1_F22_S4_C14" fontName="" fontSize="22" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C1_F24_S4_C14" fontName="" fontSize="24" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C1_F26_S4_C14" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C1_F26_S4_C2" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C1_F26_S4_C13" fontName="" fontSize="26" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C1_F28_S4_C13" fontName="" fontSize="28" color="255,236,193" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	
+	
+	<style id="C2_F20" fontName="" fontSize="20" color="128,54,13" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C2_F22" fontName="" fontSize="22" color="128,54,13" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C2_F24" fontName="" fontSize="24" color="128,54,13" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C2_F26" fontName="" fontSize="26" color="128,54,13" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C3_F16" fontName="" fontSize="16" color="105,65,46" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C3_F18" fontName="" fontSize="18" color="105,65,46" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C3_F20" fontName="" fontSize="20" color="105,65,46" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C3_F22" fontName="" fontSize="22" color="105,65,46" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C3_F24" fontName="" fontSize="24" color="105,65,46" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C3_F26" fontName="" fontSize="26" color="105,65,46" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C4_F20" fontName="" fontSize="20" color="0,72,3" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C4_F22" fontName="" fontSize="22" color="0,72,3" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C4_F24" fontName="" fontSize="24" color="0,72,3" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C4_F26" fontName="" fontSize="26" color="0,72,3" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C5_F20" fontName="" fontSize="20" color="79,60,48" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C5_F22" fontName="" fontSize="22" color="79,60,48" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C5_F24" fontName="" fontSize="24" color="79,60,48" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C5_F26" fontName="" fontSize="26" color="79,60,48" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C6_F18" fontName="" fontSize="18" color="5,180,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C6_F20" fontName="" fontSize="20" color="5,180,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C6_F22" fontName="" fontSize="22" color="5,180,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C6_F24" fontName="" fontSize="24" color="5,180,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C6_F26" fontName="" fontSize="26" color="5,180,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C7_F16" fontName="" fontSize="16" color="195,171,148" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C7_F18" fontName="" fontSize="18" color="195,171,148" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C7_F20" fontName="" fontSize="20" color="195,171,148" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C7_F22" fontName="" fontSize="22" color="195,171,148" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C7_F24" fontName="" fontSize="24" color="195,171,148" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C7_F26" fontName="" fontSize="26" color="195,171,148" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C8_F20" fontName="" fontSize="20" color="138,122,106" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C8_F22" fontName="" fontSize="22" color="138,122,106" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C8_F24" fontName="" fontSize="24" color="138,122,106" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C8_F26" fontName="" fontSize="26" color="138,122,106" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C9_F20" fontName="" fontSize="20" color="93,222,254" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C9_F22" fontName="" fontSize="22" color="93,222,254" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C9_F24" fontName="" fontSize="24" color="93,222,254" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C9_F26" fontName="" fontSize="26" color="93,222,254" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C9_F20_S4_C5" fontName="" fontSize="20" color="93,222,254" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C9_F22_S4_C5" fontName="" fontSize="22" color="93,222,254" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C9_F24_S4_C5" fontName="" fontSize="24" color="93,222,254" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C9_F26_S4_C5" fontName="" fontSize="26" color="93,222,254" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	
+	<style id="C10_F20" fontName="" fontSize="20" color="229,105,22" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C10_F22" fontName="" fontSize="22" color="229,105,22" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C10_F24" fontName="" fontSize="24" color="229,105,22" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C10_F26" fontName="" fontSize="26" color="229,105,22" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C10_F20_S4_C5" fontName="" fontSize="20" color="229,105,22" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C10_F22_S4_C5" fontName="" fontSize="22" color="229,105,22" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C10_F24_S4_C5" fontName="" fontSize="24" color="229,105,22" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C10_F26_S4_C5" fontName="" fontSize="26" color="229,105,22" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+
+	<style id="C11_F16" fontName="" fontSize="16" color="255,227,116" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C11_F18" fontName="" fontSize="18" color="255,227,116" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C11_F20" fontName="" fontSize="20" color="255,227,116" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C11_F22" fontName="" fontSize="22" color="255,227,116" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C11_F24" fontName="" fontSize="24" color="255,227,116" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C11_F26" fontName="" fontSize="26" color="255,227,116" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C11_F18_S4_C13" fontName="" fontSize="18" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C11_F18_S4_C3" fontName="" fontSize="18" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C11_F20_S4_C13" fontName="" fontSize="20" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C11_F20_S4_C2" fontName="" fontSize="20" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C11_F20_S4_C5" fontName="" fontSize="20" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C11_F22_S4_C5" fontName="" fontSize="22" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C11_F22_S4_C13" fontName="" fontSize="22" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	<style id="C11_F24_S4_C5" fontName="" fontSize="24" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C11_F24_S4_C3" fontName="" fontSize="24" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C11_F26_S4_C5" fontName="" fontSize="26" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C11_F30_S4_C13" fontName="" fontSize="30" color="255,227,116" enableStroke="True" strokeSize="4" strokeColor="127,70,26"/>
+	
+	<style id="C12_F18" fontName="" fontSize="18" color="233,166,62" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C12_F20" fontName="" fontSize="20" color="233,166,62" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C12_F22" fontName="" fontSize="22" color="233,166,62" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C12_F24" fontName="" fontSize="24" color="233,166,62" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C12_F26" fontName="" fontSize="26" color="233,166,62" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C12_F20_S4_C5" fontName="" fontSize="20" color="233,166,62" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C12_F22_S4_C5" fontName="" fontSize="22" color="233,166,62" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C12_F24_S4_C5" fontName="" fontSize="24" color="233,166,62" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C12_F26_S4_C5" fontName="" fontSize="26" color="233,166,62" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	
+	<style id="C13_F14" fontName="" fontSize="14" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C13_F16" fontName="" fontSize="16" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C13_F18" fontName="" fontSize="18" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C13_F18_S4_C5" fontName="" fontSize="18" color="127,70,26" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C13_F20" fontName="" fontSize="20" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C13_F22" fontName="" fontSize="22" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C13_F24" fontName="" fontSize="24" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C13_F26" fontName="" fontSize="26" color="127,70,26" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	
+	<style id="C14_F16" fontName="" fontSize="16" color="158,0,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C14_F18" fontName="" fontSize="18" color="158,0,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C14_F20" fontName="" fontSize="20" color="158,0,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C14_F22" fontName="" fontSize="22" color="158,0,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C14_F24" fontName="" fontSize="24" color="158,0,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C14_F26" fontName="" fontSize="26" color="158,0,0" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C14_F20_S4_C5" fontName="" fontSize="20" color="158,0,0" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C14_F22_S4_C5" fontName="" fontSize="22" color="158,0,0" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C14_F24_S4_C5" fontName="" fontSize="24" color="158,0,0" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C14_F26_S4_C5" fontName="" fontSize="26" color="158,0,0" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+
+	<style id="C15_F16" fontName="" fontSize="16" color="99,255,95" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C15_F20" fontName="" fontSize="20" color="99,255,95" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C15_F18" fontName="" fontSize="18" color="99,255,95" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C15_F22" fontName="" fontSize="22" color="99,255,95" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C15_F24" fontName="" fontSize="24" color="99,255,95" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C15_F26" fontName="" fontSize="26" color="99,255,95" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C15_F18_S4_C4" fontName="" fontSize="18" color="99,255,95" enableStroke="True" strokeSize="4" strokeColor="0,72,3"/>
+	<style id="C15_F20_S4_C5" fontName="" fontSize="20" color="99,255,95" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C15_F22_S4_C5" fontName="" fontSize="22" color="99,255,95" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C15_F24_S4_C5" fontName="" fontSize="24" color="99,255,95" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C15_F26_S4_C5" fontName="" fontSize="26" color="99,255,95" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	
+	<style id="C16_F20" fontName="" fontSize="20" color="255,89,74" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C16_F22" fontName="" fontSize="22" color="255,89,74" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C16_F24" fontName="" fontSize="24" color="255,89,74" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C16_F26" fontName="" fontSize="26" color="255,89,74" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C16_F20_S4_C5" fontName="" fontSize="20" color="255,89,74" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C16_F22_S4_C5" fontName="" fontSize="22" color="255,89,74" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C16_F24_S4_C5" fontName="" fontSize="24" color="255,89,74" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C16_F26_S4_C5" fontName="" fontSize="26" color="255,89,74" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	
+	<style id="C17_F20" fontName="" fontSize="20" color="198,130,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C17_F22" fontName="" fontSize="22" color="198,130,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C17_F24" fontName="" fontSize="24" color="198,130,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C17_F26" fontName="" fontSize="26" color="198,130,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C17_F20_S4_C5" fontName="" fontSize="20" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C17_F22_S4_C5" fontName="" fontSize="22" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C17_F24_S4_C5" fontName="" fontSize="24" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C17_F26_S4_C5" fontName="" fontSize="26" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C17_F20_S4_C14" fontName="" fontSize="20" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C17_F22_S4_C14" fontName="" fontSize="22" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C17_F24_S4_C14" fontName="" fontSize="24" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C17_F26_S4_C14" fontName="" fontSize="26" color="198,130,255" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	
+	<style id="C18_F16_S4_C2" fontName="" fontSize="16" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C18_F18_S4_C14" fontName="" fontSize="18" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C18_F18_S4_C3" fontName="" fontSize="18" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C18_F16" fontName="" fontSize="16" color="255,255,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C18_F18" fontName="" fontSize="18" color="255,255,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C18_F20" fontName="" fontSize="20" color="255,255,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C18_F22" fontName="" fontSize="22" color="255,255,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C18_F24" fontName="" fontSize="24" color="255,255,255" enableStroke="False" strokeSize="0" strokeColor="0,0,0"/>
+	<style id="C18_F18_S4_C5" fontName="" fontSize="18" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C18_F20_S4_C5" fontName="" fontSize="20" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C18_F22_S4_C5" fontName="" fontSize="22" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C18_F24_S4_C5" fontName="" fontSize="24" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C18_F26_S4_C5" fontName="" fontSize="26" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="79,60,48"/>
+	<style id="C18_F18_S1_C5" fontName="" fontSize="18" color="255,255,255" enableStroke="True" strokeSize="1" strokeColor="79,60,48"/>
+	<style id="C18_F20_S1_C5" fontName="" fontSize="20" color="255,255,255" enableStroke="True" strokeSize="1" strokeColor="79,60,48"/>
+	<style id="C18_F22_S1_C5" fontName="" fontSize="22" color="255,255,255" enableStroke="True" strokeSize="1" strokeColor="79,60,48"/>
+	<style id="C18_F24_S1_C5" fontName="" fontSize="24" color="255,255,255" enableStroke="True" strokeSize="1" strokeColor="79,60,48"/>
+	<style id="C18_F26_S1_C5" fontName="" fontSize="26" color="255,255,255" enableStroke="True" strokeSize="1" strokeColor="79,60,48"/>
+	<style id="C18_F20_S4_C3" fontName="" fontSize="20" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C18_F22_S4_C3" fontName="" fontSize="22" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C18_F24_S4_C3" fontName="" fontSize="24" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C18_F26_S4_C3" fontName="" fontSize="26" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="105,65,46"/>
+	<style id="C18_F20_S4_C2" fontName="" fontSize="20" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C18_F22_S4_C2" fontName="" fontSize="22" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C18_F24_S4_C2" fontName="" fontSize="24" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+	<style id="C18_F24_S4_C14" fontName="" fontSize="24" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="158,0,0"/>
+	<style id="C18_F26_S4_C2" fontName="" fontSize="26" color="255,255,255" enableStroke="True" strokeSize="4" strokeColor="128,54,13"/>
+</styles>

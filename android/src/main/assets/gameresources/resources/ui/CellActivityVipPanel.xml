@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<CellActivityVipPanel GUID="{C49E6B93-C59F-4924-B17A-3BA99D63C30F}">
+    <WZUIContainer Type="WZUIContainer" GUID="{1352BD73-271E-4349-A592-A451F15554CF}" AbsContentSize="642,478" UseAbsSize="True" LuaObjectName="CellActivityVipPanel" Name="CellActivityVipPanel">
+        <WZUIContainer AbsContentSize="642,113" AnchorPoint="0.5,1" GUID="{9F780A44-2FBA-4996-ADB8-0792021E6D57}" RelativePosition="0.5,1" RelativeSize="1,1" ShowAll="False" Type="WZUIContainer" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{b295fd0e-c33d-4b9a-888f-67b945450c99}" File="ui/gameActivity/activity_pic_hd_04_1.png" UseOriginSize="True" RelativePosition="0.5,0.50" />
+            <WZUIContainer AnchorPoint="0.5,0.5" GUID="{e42aeed7-0611-4b27-abc4-7c35b336be08}" RelativePosition="0.4,0.35" RelativeSize="1,1" ShowAll="False" Type="WZUIContainer" AbsContentSize="368,64" UseAbsSize="True">
+                <WZUIContainer AnchorPoint="0.5,0.5" GUID="{af049fe0-88e1-4626-9d3b-0136cd1c286f}" RelativePosition="0.65,0.5" RelativeSize="1,0.4" Type="WZUIContainer" UseAbsSize="True">
+                    <WZUIImage File="ui/common/common_progress_exp2_bg.png" GUID="{2d3a46c3-5afe-4566-8b32-063cd0a14c3e}" RelativePosition="0.5,0.5" RelativeSize="1,1" ScaleX="0.7" Type="WZUIImage" UseOriginSize="True" Visible="True" Scale="1" ScaleY="1" Opacity="153" />
+                    <WZUIProgress BgPicture="ui/common/common_progress_exp2_fore.png" GUID="{4c675f7c-6dbd-4104-89d6-95b34ffba64e}" GrayRender="False" Name="progVipExpProgress_CellActivityVipPanel" Percentage="0" RelativePosition="0.5,0.5" Type="WZUIProgress" UseOriginSize="True" Visible="True" Scale="1" ScaleX="1" ScaleY="1" />
+                    <WZUILabelTTF Color="255,255,255" FontSize="20" GUID="{4c193eb6-ef2d-4d8a-a37e-a958c57ef095}" Name="txtCurVipExpValue_CellActivityPanel" Text="" Type="WZUILabelTTF" UseOriginSize="True" UseOriginSizeProportion="False" Visible="True" EnableStroke="True" StrokeColor="105,65,46" StrokeSize="4" Scale="1" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0444bd5-69cb-4de3-a36e-0b0ba2ec3fe1}" FontSize="22" Color="255,227,116" EnableStroke="True" StrokeColor="105,65,46" StrokeSize="4" AnchorPoint="0,0.5" RelativePosition="0.039,0.5" Name="txtCurVip_CellActivityVipPanel" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{1d107291-b202-43e0-82da-4b18afde9db2}" AbsContentSize="500,60" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.532,1">
+                <WZUIImage Type="WZUIImage" GUID="{b09f3aa3-27fb-47c1-bc2f-9cc71530aa0e}" File="ui/common/commom_icon_v.png" UseOriginSize="True" RelativePosition="0.08,0.5" Name="imgCurrVip_CellActivityVipPanel" AnchorPoint="1,0.5" Scale="0.53" />
+                <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{07d41a28-a26b-479d-9d83-45679edcc180}" Name="txtCurVipLevel_CellActivityVipPanel" UseOriginSizeProportion="False" UseOriginSize="True" Height="40" Width="22" RelativePosition="0.09,0.5" AnchorPoint="0,0.5" CharMapFileName="ui/common_num/common_num_vip.png" Text="55" Scale="0.55">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a4a92e81-e1d8-416e-b3c1-65e6b7dc71ce}" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" FontSize="24" Text="" RelativePosition="0.55,0.5" Name="txtCurrVip1_CellActivityVipPanel" TextKey="VIP_TIP06" AnchorPoint="0,0.5" Scale="1.81">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e2a8f7d6-c56d-49b5-bd1c-0837c8e6a70e}" Color="93,222,254" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" FontSize="24" Text="100000" RelativePosition="1,0.5" Name="txtCurrVip2_CellActivityVipPanel" AnchorPoint="0,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{01ff2a29-2320-495f-93ed-a3d38d7716e1}" File="ui/common/common_icon_zuanshi.png" UseOriginSize="True" Scale="0.8" RelativePosition="1.02,0.5" AnchorPoint="0,0.5">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a842aaa1-13dc-4200-97f7-ed47ecb7a415}" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" FontSize="24" Text="" RelativePosition="1.08,0.5" AnchorPoint="0,0.5" Name="txtCurrVip3_CellActivityVipPanel" TextKey="WILL_BECOME" Scale="1.25" UseOriginSize="True">
+                                    <WZUIImage Type="WZUIImage" GUID="{d57b25e3-26e5-43ca-9655-b15350e9e0b5}" File="ui/common/commom_icon_v.png" UseOriginSizeProportion="False" UseOriginSize="True" RelativePosition="1.03,0.5" Name="imgNextVip_CellActivityPanel" AnchorPoint="0,0.5" Scale="0.53">
+                                        <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{c7dc5c40-82e9-4e7e-9ca6-c3fca85029e1}" Name="txtNextVipLevel_CellActivityVipPanel" UseOriginSizeProportion="False" UseOriginSize="True" AnchorPoint="0,0.5" CharMapFileName="ui/common_num/common_num_vip.png" Height="40" Width="22" RelativePosition="1.1,0.5" Scale="1.05" Text="15" />
+                                    </WZUIImage>
+                                </WZUILabelTTF>
+                            </WZUIImage>
+                        </WZUILabelTTF>
+                    </WZUILabelTTF>
+                </WZUILabelAtlasFont>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{73704e5e-4deb-4bb2-8ca0-733fcfd6f6e6}" AbsContentSize="139,150" UseAbsSize="True" RelativePosition="0.9,0.366">
+                <WZUIImage Type="WZUIImage" GUID="{e679dec8-1591-4efe-9164-ae3d7e77bfb3}" Name="imgInstructor_CellActivityVipPanel" File="ui/combat/common_pic_meinv2.png" UseOriginSize="True" FlipX="True" Scale="0.55" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{8545783E-C100-42c9-9E46-970058A97177}" AbsContentSize="642,350" UseAbsSize="True" RelativePosition="0.5,0.385">
+            <WZUIFreeListContainer AbsContentSize="642,350" EnableHideUnvisible="True" EnableMoveHorizontal="False" GUID="{C357DC77-EE93-4d8c-9AB3-184B2B220EE3}" ListItemInterval="6" Name="flconCellActivityVipPanel" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" RelativeSize="1,1" />
+        </WZUIContainer>
+        <WZUI9Image Type="WZUI9Image" GUID="{52cddb6f-c6ba-4d5b-8a73-b458a5333598}" File="ui/common/frame_dadi_01.png" Order="-1" />
+    </WZUIContainer>
+</CellActivityVipPanel>

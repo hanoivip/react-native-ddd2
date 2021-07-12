@@ -1,0 +1,94 @@
+﻿<WndMagicBuyLevel GUID="{f716b4d2-aa72-4d19-9877-0d2375f0478b}">
+    <WZUIWindow AbsContentSize="400,350" GUID="{bf9201d4-d3e8-4bab-9eb7-1ea7e7029289}" LuaObjectName="WndMagicBuyLevel" Name="WndMagicBuyLevel" NameCreate="True" Type="WZUIWindow" UseAbsSize="True" ShowAll="True" RelativePosition="0.5,0.5" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{43f0d6b6-d0dd-4551-9aa2-49b4d41f5674}" RelativePosition="0.5,0.504728">
+            <WZUIContainer Type="WZUIContainer" GUID="{d6c07408-52f4-43f8-bb01-be65fa3d3c94}">
+                <WZUI9Image Type="WZUI9Image" GUID="{93e1234f-417f-4569-a701-db1d1de7ccc0}" File="ui/common/common_scale9_di19.png" CapInsets="86,65,1,40" Visible="True" ShowRect="False" Tag="999992" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2c9803bb-f028-4b0f-bce4-fc52b1bfa09a}" TextKey="MAGIC_STONE_TEXT6" LabelStyleKey="SMALL_WINDOW_TITLE" RelativePosition="0.5,0.91" />
+                <Button Type="WZUIButton" GUID="{282d3873-5250-47b2-915c-f7460eeed8c3}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.918033,0.91" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClose">
+                    <NormalElement Type="WZUIContainer" GUID="{f19e2ff0-ffb4-4415-9a67-e9ca3f3729ab}" />
+                    <SelectElement Type="WZUIContainer" GUID="{1d3157b6-b47a-4608-9207-9f9277e6ef12}" />
+                    <DisableElement Type="WZUIContainer" GUID="{ac9ea00c-9878-4771-8ba5-75fe4fd0283a}" />
+                    <WZUIImage Type="WZUIImage" GUID="{d6150f5f-4735-41f9-8260-4e625a4f15f5}" File="ui/common/common_icon_guanbi.png" UseOriginSize="True" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{f9798a06-c187-4b54-8f1f-ac40b7371bce}" Name="" AbsContentSize="375,154" UseAbsSize="True" RelativePosition="0.5,0.583488">
+                <WZUI9Image Type="WZUI9Image" GUID="{df602b28-3b13-4d43-abda-54d443b53eba}" File="ui/common/common_scale9_di12.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{69014750-77da-4998-bbab-f93ba3cc7e07}" AbsContentSize="147,46" UseAbsSize="True" RelativePosition="0.5,0.52">
+                <WZUI9Image Type="WZUI9Image" GUID="{d1c2eed4-58c8-4f7a-8f50-d1a5018e0a36}" File="ui/common/common_scale9_di8.png" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" Name="mutiReduce_WndMagicBuyLevel" AbsContentSize="80,45" UseAbsSize="True" RelativePosition="0.15,0.52" ScaleX="-1" GUID="{36d0d2b5-c107-4e0e-a649-beb8d3f0dcb2}" LuaDoneFunctionName="onMutiReduce" TouchEnable="True">
+                <NormalElement Type="WZUIContainer" GUID="{c572a3ef-3787-4484-98cf-6e1a8a7c9be8}">
+                    <WZUIImage Type="WZUIImage" GUID="{3d9955d3-a29f-4b15-8413-186f7d64a370}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{68dfe4b0-4664-4019-bf6a-2917fb2fe5b0}" LabelStyleKey="C1_F20_S4_C13" RelativePosition="0.5,0.5" Text="-10" ScaleX="-1" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{0f7ac399-6e95-4dcb-bf43-d96220b8da7f}">
+                    <WZUIImage Type="WZUIImage" GUID="{2a34d8db-f627-4187-88b9-c3fb9b2f22e2}" File="ui/common/common_btn_anniu15_sel.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{53d6acfc-cc7b-480f-bfc5-369f7c01c538}" LabelStyleKey="C1_F20_S4_C13" RelativePosition="0.5,0.5" Text="-10" ScaleX="-1" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{2dae57fc-cc24-42eb-9642-60aac6b8f703}">
+                    <WZUIImage Type="WZUIImage" GUID="{0c6c35ed-2238-4726-868b-2f713321b82f}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" GrayRender="True" RelativePosition="0.5,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3a6ea9e2-4161-41df-a459-2808766b7e35}" LabelStyleKey="C18_F20_S4_C5" RelativePosition="0.5,0.5" Text="-10" ScaleX="-1" TouchEnable="True" />
+                </DisableElement>
+            </Button>
+            <WZUIButton Type="WZUIButton" Name="mutiAdd_WndMagicBuyLevel" GUID="{9e013e93-b0e9-4f22-b50e-fb7d906f5724}" AbsContentSize="80,45" UseAbsSize="True" RelativePosition="0.85,0.52" LuaDoneFunctionName="onMutiAdd" TouchEnable="True">
+                <NormalElement Type="WZUIContainer" GUID="{2a627cd6-c33c-42a1-9962-263bb80a4a91}">
+                    <WZUIImage Type="WZUIImage" GUID="{3df239a6-a451-461e-a83f-f5554bed9860}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{35807a30-d79e-42ef-820e-1cd19ed0bd46}" LabelStyleKey="C1_F20_S4_C13" RelativePosition="0.5,0.5" Text="+10" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{401f6bfe-b3d5-4f49-9390-c72fcff29f43}">
+                    <WZUIImage Type="WZUIImage" GUID="{63ae61f9-0ad0-4e54-8ad1-7c549fcda6a1}" File="ui/common/common_btn_anniu15_sel.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{781c1466-c0ca-49f4-b131-0fc789e9a0b2}" LabelStyleKey="C1_F20_S4_C13" RelativePosition="0.5,0.5" Text="+10" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{99f5c928-9898-4ed7-8d8b-2559b4d498fb}">
+                    <WZUIImage Type="WZUIImage" GUID="{e9451800-ea10-4fbc-9fae-cafcfa66005d}" File="ui/common/common_btn_anniu15.png" UseOriginSize="True" GrayRender="True" RelativePosition="0.5,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{0b85b0ba-ba54-45c9-b272-f6d302fa06f1}" LabelStyleKey="C18_F20_S4_C5" RelativePosition="0.5,0.5" Text="+10" />
+                </DisableElement>
+            </WZUIButton>
+            <Button Type="WZUIButton" Name="reduce_WndMagicBuyLevel" AbsContentSize="64,64" UseAbsSize="True" RelativePosition="0.32,0.52" GUID="{3b2bea8f-9ff6-42cb-891d-00d5e6ffc7dc}" LuaDoneFunctionName="onReduce">
+                <NormalElement Type="WZUIContainer" GUID="{6510f7d6-e22c-402e-94ac-3220d10a5470}">
+                    <WZUIImage Type="WZUIImage" GUID="{79759ed7-669d-4b1c-aeeb-d2f403223028}" File="ui/common/common_btn_js.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{69c86237-5855-41b9-be4c-b615cc29d283}">
+                    <WZUIImage Type="WZUIImage" GUID="{372c9464-90c6-4dc9-8ba3-037ea8cf14b8}" File="ui/common/common_btn_js_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{8abdd274-041d-4a17-a540-43eb95bdc2b3}">
+                    <WZUIImage Type="WZUIImage" GUID="{85d50c90-4088-4a0f-8a83-c787cc7f6924}" File="ui/common/common_btn_js.png" UseOriginSize="True" />
+                </DisableElement>
+            </Button>
+            <WZUIButton Type="WZUIButton" Name="add_WndMagicBuyLevel" AbsContentSize="64,64" UseAbsSize="True" GUID="{fe3986ef-8c9e-4f20-b617-8a53c3a85227}" RelativePosition="0.68,0.52" LuaDoneFunctionName="onAdd">
+                <NormalElement Type="WZUIContainer" GUID="{408ee491-5405-4471-9998-a936c2988499}">
+                    <WZUIImage Type="WZUIImage" GUID="{61ee5baa-6c18-4423-8a41-753b98795ee3}" File="ui/common/common_btn_zj.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{84e3f864-df9b-4757-97c6-ecc85e69aab3}">
+                    <WZUIImage Type="WZUIImage" GUID="{1a0e154f-e66d-4092-a68d-191d9558b6b3}" File="ui/common/common_btn_zj_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{56c77122-9484-4158-8ddc-e911ee890f0c}">
+                    <WZUIImage Type="WZUIImage" GUID="{e87509c6-c657-47dd-903c-24709c535988}" File="ui/common/common_btn_zj.png" UseOriginSize="True" />
+                </DisableElement>
+            </WZUIButton>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{138c6386-3f38-4424-b979-f7360787f769}" FontSize="22" Text="10" Color="255,227,116" RelativePosition="0.5,0.65" TextKey="" LabelStyleKey="C2_F20" Name="txtTips_WndMagicBuyLevel" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0458b0e8-9939-437d-9c5a-2cc501894f0c}" FontSize="26" Text="1" Color="255,236,193" RelativePosition="0.489744,0.52" Name="useNum_WndMagicBuyLevel" />
+            <WZUIContainer Type="WZUIContainer" GUID="{d3dad71e-c3e4-4fd2-a13f-c2e30dd148d9}" AbsContentSize="400,42" UseAbsSize="True" RelativePosition="0.505128,0.29">
+                <WZUI9Image Type="WZUI9Image" GUID="{5c4141e5-5b67-487f-ad8a-3e9b2a130880}" File="ui/common/common_scale9_heidi4.png" RelativePosition="0.5,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{62701e43-37fc-44d2-8127-002ec4d6675a}" LabelStyleKey="C1_F20_S4_C3" AnchorPoint="0,0.5" Text="456651" RelativePosition="0.48,0.5" Name="txtCostNum_WndMagicBuyLevel" />
+                <WZUIImage Type="WZUIImage" GUID="{8e516df2-8296-4f32-8946-797a072598ac}" Name="imgCostItem_WndMagicBuyLevel" File="shopitems/common_icon_gonghui_pic.png" UseOriginSize="True" RelativePosition="0.41,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e632b02d-a2e1-47fe-acb9-525b28168fae}" LabelStyleKey="C6_F20" TextKey="COST" RelativePosition="0.28,0.5" Name="txtCost_WndMagicBuyLevel" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{1852ab8e-27a5-46f6-ad39-cb8c8169a54f}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.5,0.123571" TouchEnable="True" LuaActionName="Normal" LocalInterval="300" LuaDoneFunctionName="onClickBuy">
+                <NormalElement Type="WZUIContainer" GUID="{f9560948-ea33-41b5-9d6a-6213aa836a0b}">
+                    <WZUIImage Type="WZUIImage" GUID="{5065618c-c9a8-45c7-80b9-cd564c9f9960}" File="ui/common/common_btn_anniu10_0.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{62a3fb16-066a-490f-84a8-81d4781f89c5}" TextKey="BUY" LabelStyleKey="SMALL_GREEN_BTN" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{3ac694b9-1418-407c-80eb-2a82709c019a}">
+                    <WZUIImage Type="WZUIImage" GUID="{9d665120-e535-47ca-9cc6-4c666a900077}" File="ui/common/common_btn_anniu10_0_sel.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5c6069e8-e540-468a-90c5-38ad7cea83ae}" TextKey="BUY" LabelStyleKey="SMALL_GREEN_BTN" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{ff4179a1-de2a-40f5-a508-acec3ee7d901}">
+                    <WZUIImage Type="WZUIImage" GUID="{4e0afb9c-eff6-4ffd-809e-6d881ab5b922}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{249c057e-82a5-4bc5-8bce-973e2e4d66e3}" TextKey="BUY" LabelStyleKey="SMALL_GRAY_BTN" />
+                </DisableElement>
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndMagicBuyLevel>

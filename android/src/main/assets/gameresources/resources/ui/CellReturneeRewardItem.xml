@@ -1,0 +1,73 @@
+﻿<CellReturneeRewardItem GUID="{3b733f9d-2c6a-43ed-bd4c-bbfe799951b1}">
+    <WZUIContainer Type="WZUIContainer" GUID="{24579788-297b-4a92-9909-714832d7f19b}" Name="CellReturneeRewardItem" NameCreate="True" UseAbsSize="True" AbsContentSize="600,96">
+        <WZUIContainer Type="WZUIContainer" GUID="{f8a31aa2-16e5-4961-a8b8-ed42d5ca31ed}">
+            <WZUI9Image Type="WZUI9Image" GUID="{944254a8-e682-4c4e-8ac5-4eeca5cdcee1}" File="ui/gameActivity/returnee/daozhu_di1.png" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e3fe31a5-249c-4dea-bb0c-9fc940b4eeda}" AnchorPoint="0,0.5" Text="" FontSize="20" RelativePosition="0.0201011,0.732008" Color="80,60,50" TextKey="" Name="txtTitle_CellReturneeRewardItem">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{cf519301-c769-4a0f-b3d2-819e5870cfa3}" AnchorPoint="0,0.5" Text="" FontSize="20" RelativePosition="1.05,0.5" Color="129,54,15" TextKey="" Name="txtDesc_CellReturneeRewardItem" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{f11001d3-78b2-4243-a381-5d089f2159f6}" AbsContentSize="430,40" UseAbsSize="True" RelativePosition="0.0204042,0.370505" AnchorPoint="0.0,0.5">
+                <WZUI9Image Type="WZUI9Image" GUID="{ed266915-0934-4b85-8e15-706db8345799}" File="ui/common/common_scale9_di8.png" />
+                <WZUIContainer Type="WZUIContainer" GUID="{01237ad8-42fe-499e-98e9-a54189d619da}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.109706,0.5" Name="conRewardItem_1_CellReturneeRewardItem" NameCreate="True" Visible="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3c49ec51-bb59-4500-8325-cc98370a8c89}" FontSize="22" Text="20000000" Color="255,255,255" RelativePosition="0.5,0.483333" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_1_CellCellReturneeRewardItem" Font="" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{472a14d5-9a49-4698-998d-e9fc97eb0b2c}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.3,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{7dba4f5c-8743-4891-8e33-c9e4ba0499b7}" File="ui/common/common_icon_zuanshi.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" Name="ItemIcon_1_CellReturneeRewardItem" NameCreate="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{14787c33-fb26-4da3-80a0-aa103f883128}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.38,0.5" Name="conRewardItem_2_CellReturneeRewardItem" NameCreate="True" Visible="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c327fe87-cd40-46c9-944e-fcb56424b0e6}" FontSize="22" Text="2000000" Color="255,255,255" RelativePosition="0.49,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_2_CellCellReturneeRewardItem" Font="" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{6f3aaa99-9914-474e-8eb2-8a0723b18c9c}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.32,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{b20e67d5-9f71-47c6-9969-ad36b492be2f}" File="ui/common/common_icon_jinbi.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" NameCreate="True" Name="ItemIcon_2_CellReturneeRewardItem" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{8cd9ca21-5da6-4e21-bea1-595f7484dfdb}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.65,0.5" Name="conRewardItem_3_CellReturneeRewardItem" NameCreate="True" Visible="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a976b115-d66f-463e-a62f-eb76a71dd1d7}" FontSize="22" Text="2000000" Color="255,255,255" RelativePosition="0.5,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_3_CellCellReturneeRewardItem" Font="" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{73442b6f-50a7-437d-bd96-a1f8dbc446af}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.32,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{4eb2b128-6aaa-40e2-b84d-818eb00f1123}" File="ui/common/common_icon_exp.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" Name="ItemIcon_3_CellReturneeRewardItem" NameCreate="True" ScaleX="1" ScaleY="1" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{dc113f4c-2a6c-479b-b558-a75210b8cc00}" AbsContentSize="100,60" UseAbsSize="True" RelativePosition="0.92,0.5" Name="conRewardItem_4_CellReturneeRewardItem" NameCreate="True" Visible="False" TouchEnable="False">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{283b9ed4-ebd3-4f8b-a4bc-bba30f3e9a35}" FontSize="22" Text="2000000" Color="255,255,255" RelativePosition="0.5,0.5" Alignment="Left" AnchorPoint="0,0.5" Name="txtItemNum_4_CellCellReturneeRewardItem" Font="" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{b78e5246-c049-4675-b92a-0a59967b48fc}" AbsContentSize="40,40" UseAbsSize="True" RelativePosition="0.32,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{329d2a17-b039-4199-a7dc-b4be0ef5b296}" File="ui/common/common_icon_exp.png" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" Scale="1" Name="ItemIcon_4_CellReturneeRewardItem" NameCreate="True" ScaleX="1" ScaleY="1" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{f1866eb8-1671-462e-a087-1806390df30d}" AbsContentSize="160,95" UseAbsSize="True" RelativePosition="0.882587,0.490701">
+                <WZUIContainer Type="WZUIContainer" GUID="{f751b1b6-01cc-4826-ad52-39e0b33e9d86}" AbsContentSize="120,60" UseAbsSize="True" Visible="False" Name="conBtnTaskState_CellReturneeRewardItem" RelativePosition="0.5,0.5" Scale="0.8">
+                    <Button Type="WZUIButton" GUID="{3adb8e77-bc42-4e7e-8862-1b46d357c611}" Name="btnCommit_CellReturneeRewardItem" Visible="True" LuaDoneFunctionName="onCommitEvent" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal" Tag="2">
+                        <NormalElement Type="WZUIContainer" GUID="{be664f15-6d5e-44e5-9064-f9473cbf41f9}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{e98b296e-d11e-4c8b-817b-e75ece199b93}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{7cb30675-7eff-45bc-9889-e6d72ff6be70}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtCommit_1_CellReturneeRewardItem" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" Font="" LabelStyleKey="SMALL_GREEN_BTN" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{955ecc11-20bd-4665-b612-2eb92a168e1a}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{4cf69b5f-134b-4ce6-a54c-3137d0867ffb}" File="ui/common/common_btn_anniu10_0_sel.png" Scale="1" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{da258fa6-9a87-44fb-bc24-8978deaacf3f}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtCommit_2_CellReturneeRewardItem" Font="" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="SMALL_GREEN_BTN" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{14c856fb-70f5-4ae9-8901-ffc453e49e9e}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{c224e825-2124-4703-9efa-eb6c6068a220}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f7922cea-0543-4480-b4af-116574dbf3ec}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtCommit_3_CellReturneeRewardItem" Font="" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="SMALL_GRAY_BTN" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{abdf4111-3887-46f0-885d-bf61d6bf746b}" FontSize="22" Text="" Name="txtTaskTarget_CellReturneeRewardItem" Color="158,0,0" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="1" RelativePosition="0.5,0.75" />
+                <WZUIContainer Type="WZUIContainer" GUID="{b4c4a0b9-9154-443e-8e4a-c6b63b4bf473}" AbsContentSize="120,60" UseAbsSize="True" Visible="True" Name="conUITaskBtn_CellReturneeRewardItem" RelativePosition="0.5,0.35" Scale="0.8">
+                    <Button Type="WZUIButton" GUID="{ec171a6e-eb33-4ca9-9363-8435b336c07c}" Name="btnUISwitch_CellReturneeRewardItem" Visible="True" LuaDoneFunctionName="onCommitEvent" Tag="1" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{e7f5f5b4-8fb9-49b4-a2f8-d11b30da0a32}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{00d14c22-7558-47a8-96ae-d0ad83ce3b05}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{46ef910a-551d-4c26-a6ea-4c9d164e4c6a}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_1_CellReturneeRewardItem" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" Font="" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{788cfa11-d2d4-4fe8-9d71-97742dec7759}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{8de4fee8-40f5-40ad-99ec-c02f480244b0}" File="ui/common/common_btn_anniu3_0_sel.png" Scale="1" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{29e673b5-7bf0-4d8b-912c-5650e8f8b254}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_2_CellReturneeRewardItem" Font="" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{5adf019a-69ef-49ba-a6c2-6018e28e668b}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a18737d2-658e-459b-ab69-a728abf9d8f6}" File="ui/common/common_btn_anniu3_0.png" GrayRender="True" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{b308dc55-d096-4741-9d31-48237a919ffa}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_3_CellReturneeRewardItem" Font="" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" LabelStyleKey="" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a07af681-2d07-432a-bdf9-837b44fe925d}" FontSize="26" Text="" Name="txtTaskFinish_CellReturneeRewardItem" Color="158,139,121" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="4" RelativePosition="0.5,0.5" Visible="False" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeRewardItem>

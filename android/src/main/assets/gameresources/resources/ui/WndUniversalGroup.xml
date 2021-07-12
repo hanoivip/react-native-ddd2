@@ -1,0 +1,175 @@
+﻿<WndUniversalGroup GUID="{e20cbbf0-0ffc-4e28-b860-51487f08d57a}">
+    <WZUIWindow Type="WZUIWindow" GUID="{a4e838c3-56d3-4bc2-af4f-66bc36cf3506}" LuaObjectName="WndUniversalGroup" Name="WndUniversalGroup" NameCreate="True" AbsContentSize="640,460" UseAbsSize="True" RelativePosition="0.5,0.488">
+        <WZUIContainer AbsContentSize="640,460" GUID="{f66a155f-b7e9-4f88-9e12-68a24a91c37f}" LuaObjectName="" Name="" NameCreate="False" Type="WZUIContainer" UseAbsSize="True">
+            <WZUIContainer AbsContentSize="640,300" GUID="{3b65500f-4e0e-48d0-af77-2616dae42e2e}" RelativePosition="0.502021,0.682163" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0.5,1" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{98638db2-408c-4ab6-bfdd-217e27c8b6a2}" AbsContentSize="500,42" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.376479,1.13507" Name="conTime_WndUniversalGroup" Visible="True">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5df90135-4622-4731-8478-aa2459bdd8de}" TextKey="" FontSize="18" Color="127,70,26" EnableStroke="False" StrokeSize="4" StrokeColor="128,54,13" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" Text="活动时间" Name="txtTimeWords_WndUniversalGroup">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{32df95ca-dede-4ca4-a789-d0a5fe63c95a}" FontSize="18" EnableStroke="False" Color="255,131,117" StrokeColor="158,0,0" StrokeSize="4" Text="" AnchorPoint="0,0.5" RelativePosition="1,0.5" Name="txtTimeValue_WndUniversalGroup" />
+                    </WZUILabelTTF>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{38e15db9-e4ed-46ed-83ad-a7d5aff65e37}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="1.0706,-0.229562" LuaDoneFunctionName="onClickInfo" LuaActionName="Normal" Name="btnRuleInfo_WndUniversalGroup" Visible="True" Tag="1">
+                    <NormalElement Type="WZUIContainer" GUID="{46c0f145-6af3-4c3b-9cd9-003c4bd638dd}" RelativePosition="0.5,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{d5ca3f33-f828-41e1-a30c-584ad1cacaa9}" File="ui/common/common_icon_bz.png" UseOriginSize="True" UseOriginSizeProportion="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{73e01d9e-6559-469c-be92-56c7fd24dbab}" RelativePosition="0.5,0.5">
+                        <WZUIImage Type="WZUIImage" GUID="{45b49fcb-a79f-42f4-baf4-51baf25a4447}" File="ui/common/common_icon_bz.png" UseOriginSize="True" UseOriginSizeProportion="True" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{3f6a8b11-e3d6-4737-b72e-5206bd26649b}" />
+                </Button>
+                <WZUIContainer Type="WZUIContainer" GUID="{ac744469-97f6-4ba2-bdba-7cdcb91dced8}" AbsContentSize="630,298" UseAbsSize="True" RelativePosition="0.498179,0.506257">
+                    <WZUIContainer Type="WZUIContainer" GUID="{e14ea71b-3d4f-4330-890c-a27622dd6316}" AbsContentSize="192,312" UseAbsSize="True" Name="conRechargeItem1_WndUniversalGroup" RelativePosition="0.18,0.5" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{a752dbe7-1d18-4b42-87f1-674b72b28583}" File="ui/common/common_pic_di.png" Visible="True" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{720be684-9703-404d-8765-c946286c9347}" AbsContentSize="75,75" UseAbsSize="True" Name="conItem_WndUniversalGroup" RelativePosition="0.50,0.676613" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{7d0beae1-6f1f-4680-b1dc-c6d85b62d0d6}" Name="txtItemName_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.5,0.463326" FontSize="20" EnableStroke="True" StrokeColor="132,66,29" StrokeSize="4" Color="93,222,254" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c108759b-de26-472b-ae76-6bc5ba411834}" Name="txtOriginPrice_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.50,0.341269" Visible="True" Color="127,70,26" FontSize="18">
+                            <WZUIImage Type="WZUIImage" GUID="{2c005287-a306-48d0-9afe-5ca5db8c46b8}" File="ui/gameActivity/common_icon_xiexian3.png" Order="1" UseOriginSize="True" />
+                        </WZUILabelTTF>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8581a78a-ff38-49d8-9775-6a860e9823d0}" Name="txtCurPrice_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.50,0.244095" FontSize="22" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" />
+                        <WZUIImage Type="WZUIImage" GUID="{65161ba0-7577-4635-8fed-f536752c3d00}" File="ui/common/common_bq_02.png" UseOriginSize="True" RelativePosition="0.85,0.885" Name="imgDiscount_WndUniversalGroup" Visible="True" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{1e0b06d5-181c-4493-8e90-0fb0dd383cea}" Name="txtDiscount_WndUniversalGroup" LabelStyleKey="" Text="3.8" RelativePosition="0.48,0.9" FontSize="20" Color="255,255,255" EnableStroke="False" StrokeSize="4" StrokeColor="128,54,13" Order="1" Rotation="0" TouchEnable="False" AnchorPoint="0.5,1" />
+                        </WZUIImage>
+                        <Button Type="WZUIButton" GUID="{f1c43136-217e-474f-96de-0b6f2a9f5669}" AbsContentSize="180,48" UseAbsSize="True" RelativePosition="0.500245,0.0981925" Name="btnBuy_WndUniversalGroup" LuaDoneFunctionName="onClickBuy" LuaActionName="Normal" LocalInterval="300" Tag="1">
+                            <NormalElement Type="WZUIContainer" GUID="{aea2922a-647c-4a41-85dd-fd6f29d92fe5}">
+                                <WZUIImage Type="WZUIImage" GUID="{314b5919-6e1b-462b-b730-cd0c5c657ce7}" File="ui/common/common_pic_btn.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{cbd454fe-4bd8-43c4-872e-6895c06e52d1}" Name="txtBtnBuyNor_WndUniversalGroup" TextKey="BUY" LabelStyleKey="" FontSize="24" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{2228bb8d-3679-41b2-be6d-de00ba64bdeb}">
+                                <WZUIImage Type="WZUIImage" GUID="{ec5b4e81-63b4-4a61-8490-7386f5031f44}" File="ui/common/common_pic_btn.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0c953601-5c4d-47d5-9730-f41c3388fa52}" Name="txtBtnBuySel_WndUniversalGroup" TextKey="BUY" LabelStyleKey="" FontSize="24" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{92242003-27e8-4483-a4fc-3e35379c73b8}">
+                                <WZUIImage Type="WZUIImage" GUID="{b94f7c0a-035a-4ac9-85f8-8775931f3ee3}" File="ui/common/common_pic_btn.png" UseOriginSize="True" GrayRender="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9a7b3994-4ae2-401e-a1c5-d7c6643656de}" Name="txtBtnBuyGray_WndUniversalGroup" LabelStyleKey="" TextKey="BUY" FontSize="24" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" />
+                            </DisableElement>
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{04587520-cf48-48e4-b4f4-f33d8b5ab39c}" AbsContentSize="192,312" UseAbsSize="True" Name="conRechargeItem2_WndUniversalGroup" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{e60234ca-eacb-4c5f-9a45-dac427f8c79a}" File="ui/common/common_pic_di.png" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{01bcf847-0be2-4e4e-8ab9-69847b110347}" AbsContentSize="75,75" UseAbsSize="True" Name="conItem_WndUniversalGroup" RelativePosition="0.50,0.676613" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{d7187784-fcb7-42cf-9311-c46614d3426a}" Name="txtItemName_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.5,0.463326" FontSize="20" EnableStroke="True" StrokeColor="132,66,29" StrokeSize="4" Color="233,166,62" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3476b191-ff01-4988-b28f-150f50b0d150}" Name="txtOriginPrice_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.50,0.341269" Visible="True" FontSize="18" Color="127,70,26">
+                            <WZUIImage Type="WZUIImage" GUID="{894774d7-99a0-41a4-bb8d-4efa9e332d48}" File="ui/gameActivity/common_icon_xiexian3.png" Order="1" UseOriginSize="True" />
+                        </WZUILabelTTF>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{6f5cc8fc-e839-41db-9c60-44ed1ff5e689}" Name="txtCurPrice_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.50,0.244095" FontSize="22" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" />
+                        <WZUIImage Type="WZUIImage" GUID="{76729761-a898-40be-a33a-ea8b6859f1c7}" File="ui/common/common_bq_02.png" UseOriginSize="True" RelativePosition="0.85,0.885" Name="imgDiscount_WndUniversalGroup" Visible="True" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{104c3b0f-4bd8-4954-98bd-d82e35a2c311}" Name="txtDiscount_WndUniversalGroup" LabelStyleKey="" Text="3.8" RelativePosition="0.48,0.9" FontSize="20" Color="255,255,255" EnableStroke="False" StrokeSize="4" StrokeColor="128,54,13" Order="1" Rotation="0" AnchorPoint="0.5,1" />
+                        </WZUIImage>
+                        <Button Type="WZUIButton" GUID="{1f26a322-b4cf-4fde-ac3f-04f28e657048}" AbsContentSize="180,48" UseAbsSize="True" RelativePosition="0.500245,0.0981925" Name="btnBuy_WndUniversalGroup" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickBuy" Tag="2">
+                            <NormalElement Type="WZUIContainer" GUID="{1f283c72-698e-4d33-9813-101173a8d242}">
+                                <WZUIImage Type="WZUIImage" GUID="{ba43ac41-cb9e-4690-9093-e7494adf0490}" File="ui/common/common_pic_btn.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{935c6b25-6ba1-4db9-a9bb-89d4738bd6c3}" Name="txtBtnBuyNor_WndUniversalGroup" TextKey="BUY" LabelStyleKey="" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" EnableShadow="False" FontSize="24" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{494e9af2-6f30-4dcf-99e6-88a10e53ab1e}">
+                                <WZUIImage Type="WZUIImage" GUID="{6ae748ca-9cf1-4e97-b197-ce8521353021}" File="ui/common/common_pic_btn.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4b13df8a-dbc2-45ac-8f8f-de7dc205b55b}" Name="txtBtnBuySel_WndUniversalGroup" TextKey="BUY" LabelStyleKey="" Color="255,250,236" EnableStroke="True" StrokeSize="4" ShadowColor="0,0,0" StrokeColor="163,74,20" FontSize="24" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{414686c4-0888-4ebb-8308-5e97b95b5c6b}">
+                                <WZUIImage Type="WZUIImage" GUID="{a7c80843-3dea-4de1-b9fa-d45874392eaf}" File="ui/common/common_pic_btn.png" UseOriginSize="True" GrayRender="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b23c2edd-5ef9-41b9-9a06-4acb88c1591b}" Name="txtBtnBuyGray_WndUniversalGroup" LabelStyleKey="" TextKey="BUY" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" FontSize="24" />
+                            </DisableElement>
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{6c7ce55f-c420-4da0-ac21-ee3aea0af7de}" AbsContentSize="192,312" UseAbsSize="True" Name="conRechargeItem3_WndUniversalGroup" RelativePosition="0.82,0.5" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{1a68f24b-c2ee-479c-9666-08318b2649c6}" File="ui/common/common_pic_di.png" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{1b0a9f8d-c7d6-4b6c-a95d-791134d72d3d}" AbsContentSize="75,75" UseAbsSize="True" Name="conItem_WndUniversalGroup" RelativePosition="0.50,0.676613" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{40065ebe-0688-4d22-bc19-232595c69ff5}" Name="txtItemName_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.5,0.463326" FontSize="20" EnableStroke="True" StrokeColor="132,66,29" StrokeSize="4" Color="99,255,95" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{12c2f84a-1b4f-4175-9184-59a99d9eadd4}" Name="txtOriginPrice_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.50,0.341269" Visible="True" FontSize="18" Color="127,70,26">
+                            <WZUIImage Type="WZUIImage" GUID="{9dd2457c-db66-4b01-bdf8-dc86adf23b0e}" File="ui/gameActivity/common_icon_xiexian3.png" Order="1" UseOriginSize="True" />
+                        </WZUILabelTTF>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3da228a9-afbe-4648-b0aa-f3ff1a772f99}" Name="txtCurPrice_WndUniversalGroup" LabelStyleKey="" Text="" RelativePosition="0.50,0.244095" FontSize="22" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" />
+                        <WZUIImage Type="WZUIImage" GUID="{01be4bd4-9328-464c-90aa-1bfe3605998c}" File="ui/common/common_bq_02.png" UseOriginSize="True" RelativePosition="0.85,0.885" Name="imgDiscount_WndUniversalGroup" Visible="True" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{77ad4d87-61c3-4ea0-a155-f56d1d744a5a}" Name="txtDiscount_WndUniversalGroup" LabelStyleKey="" Text="3.8" RelativePosition="0.48,0.9" FontSize="20" Color="255,255,255" EnableStroke="False" StrokeSize="4" StrokeColor="128,54,13" Order="1" Rotation="0" AnchorPoint="0.5,1" />
+                        </WZUIImage>
+                        <Button Type="WZUIButton" GUID="{8bf4a680-98a4-44e4-937b-dbf2f996eee7}" AbsContentSize="180,48" UseAbsSize="True" RelativePosition="0.500245,0.0981925" Name="btnBuy_WndUniversalGroup" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickBuy" Tag="3">
+                            <NormalElement Type="WZUIContainer" GUID="{061ee1d9-e67c-4ca1-a202-b79cb7e8740e}">
+                                <WZUIImage Type="WZUIImage" GUID="{2209a583-e3ab-4597-ab05-834f98c8036f}" File="ui/common/common_pic_btn.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5372a4c3-02ba-4bc9-8fce-161de6556022}" Name="txtBtnBuyNor_WndUniversalGroup" TextKey="BUY" LabelStyleKey="" FontSize="24" Color="255,250,236" EnableStroke="True" ShadowColor="0,0,0" StrokeSize="4" StrokeColor="163,74,20" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{09c2824a-ed30-4c9d-ba5e-7bbc2092de40}">
+                                <WZUIImage Type="WZUIImage" GUID="{ed72d90a-ee79-4fd9-8256-f9aab704ecf7}" File="ui/common/common_pic_btn.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{faf9ea4e-7699-4d20-892d-921171c39aa0}" Name="txtBtnBuySel_WndUniversalGroup" TextKey="BUY" LabelStyleKey="" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" Color="255,250,236" FontSize="24" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{a55e598c-5c13-4101-8a31-f224c14e82ca}">
+                                <WZUIImage Type="WZUIImage" GUID="{adba47f0-a5b1-4cc7-86fe-0523852be3d1}" File="ui/common/common_pic_btn.png" UseOriginSize="True" GrayRender="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9bc5a8c4-f166-4063-9317-98b61d5d647f}" Name="txtBtnBuyGray_WndUniversalGroup" LabelStyleKey="" TextKey="BUY" Color="255,250,236" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" FontSize="24" />
+                            </DisableElement>
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{56b2eda5-0bb1-4328-acd9-942c092227f7}" AbsContentSize="640,120" UseAbsSize="True" RelativePosition="0.5,0.899728">
+                <WZUI9Image Type="WZUI9Image" GUID="{e4de9eca-d4ca-4f0a-bd91-7fe019e6045e}" File="ui/newActivity/activity_pic_hd_05.png" Visible="True" UseOriginSize="True" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{d5c7917d-42c5-4879-af1d-e47fb678c4c9}" Text="今日购买数" LabelStyleKey="" Name="todayBuyNumber" AnchorPoint="0,0.5" RelativePosition="0.0505004,0.601407" TextKey="" FontSize="18" Color="127,70,26">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3ed0724b-785f-4892-9145-7f667ad925d6}" Text="10" LabelStyleKey="" Name="txtBuyTimes_WndUniversalGroup" AnchorPoint="0.5,0.5" RelativePosition="0.361697,-1.07614" TextKey="" FontSize="24" Color="240,103,122" EnableStroke="True" StrokeSize="1" StrokeColor="240,103,122">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{eb171d4e-872d-45d0-bfd5-5d10846d2fd6}" Text="人" LabelStyleKey="" Name="todayBuyNumber1" AnchorPoint="0,0.5" RelativePosition="1.2639,0.418929" TextKey="" FontSize="18" Color="127,70,26" />
+                    </WZUILabelTTF>
+                </WZUILabelTTF>
+                <WZUIContainer Type="WZUIContainer" GUID="{602c17d3-5d15-4e67-bbb9-98feb3175531}" AbsContentSize="470,90" UseAbsSize="True" RelativePosition="0.625342,0.428911">
+                    <WZUIImage Type="WZUIImage" GUID="{c1a16fa2-c2af-46ba-bebb-8d3e1ac1e643}" File="ui/newActivity/progress_hd_03.png" UseOriginSize="True" RelativePosition="0.457977,0.528751" Scale="1" UseOriginSizeProportion="True" ScaleX="1" ScaleY="1" />
+                    <WZUIProgress Type="WZUIProgress" GUID="{d5750b64-7a17-468b-bda8-af5c124165ac}" BgPicture="ui/newActivity/progress_hd_04.png" UseOriginSize="True" RelativePosition="0.457977,0.53" Name="prgTotalReward_WndUniversalGroup" Percentage="100" Scale="1" ScaleX="1" ScaleY="1" />
+                    <Button Type="WZUIButton" GUID="{006d728c-9dc9-4e53-b5bc-aa587c67ce3b}" AbsContentSize="65,65" UseAbsSize="True" Name="btnBox1_WndUniversalGroup" RelativePosition="0.1,0.5" Scale="1" Tag="1" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{58093570-0b12-405c-8097-d249591bc3a7}" Visible="True" />
+                        <SelectElement Type="WZUIContainer" GUID="{1c836f88-d9d3-485a-8738-b50ac9e1d2ce}" />
+                        <DisableElement Type="WZUIContainer" GUID="{8b4d99bf-e692-4d5e-a700-6c24ac506e39}" />
+                        <WZArmature Type="WZArmature" GUID="{f5e670fc-06e4-46e2-a6c1-f754d6dac25c}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox1_WndUniversalGroup" UseOriginSize="True" RelativePosition="0.525,-0.0125" Scale="0.6" Visible="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{9098cbb1-cdb2-4a91-bf06-19ecb6c6debe}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{85b5c001-200e-4fe2-83f4-a8567c8574fc}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgBtn1_WndUniversalGroup" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.6" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{7216741d-d152-4146-a38f-2251878092b1}" Name="txtTimes1_WndUniversalGroup" FontSize="18" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.125" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{42179b3c-ce7f-4c72-a20c-d8a7ba5afbac}" AbsContentSize="65,65" UseAbsSize="True" Name="btnBox2_WndUniversalGroup" RelativePosition="0.27,0.5" Scale="1" Tag="2" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{e50afa4e-08ad-4fa4-81f5-91082e4a9860}" />
+                        <SelectElement Type="WZUIContainer" GUID="{2ccde6da-906a-4e87-b94d-3d6fd32dc273}" />
+                        <DisableElement Type="WZUIContainer" GUID="{2b3a41c0-76e4-4d6f-9a26-54767f3883a2}" />
+                        <WZArmature Type="WZArmature" GUID="{abb6d289-ae90-4835-a2b3-f74965d481f1}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox2_WndUniversalGroup" UseOriginSize="True" RelativePosition="0.525,-0.0125" Scale="0.6" Visible="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{d6c6fc08-b7c6-4126-9334-52e9db87b008}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{1dbcf09c-c47d-4f0b-b4bc-b16c56eb3115}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgBtn2_WndUniversalGroup" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.6" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5d03f46d-0943-4694-987a-54e35e897aa6}" Name="txtTimes2_WndUniversalGroup" FontSize="18" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.125" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{45a35f97-9d06-4495-b761-850d2dd90fb9}" AbsContentSize="65,65" UseAbsSize="True" Name="btnBox3_WndUniversalGroup" RelativePosition="0.44,0.5" Scale="1" Tag="3" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{2ab1efca-0ad8-460f-890a-403a75dd4350}" />
+                        <SelectElement Type="WZUIContainer" GUID="{1a7e44b4-5376-4b4b-bef7-847c08531b04}" />
+                        <DisableElement Type="WZUIContainer" GUID="{12999a55-6de6-489c-856a-76e5a6f4ea34}" />
+                        <WZArmature Type="WZArmature" GUID="{0b599d39-67f8-4d7f-a6b3-d4cc1c556965}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox3_WndUniversalGroup" UseOriginSize="True" RelativePosition="0.525,-0.0125" Scale="0.6" Visible="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{f3fc1fc2-85df-4a24-ab8e-69f30031c027}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{cab2f9e4-9808-4c18-894f-50210ad45103}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgBtn3_WndUniversalGroup" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.6" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9ec845d6-6b7d-449a-b320-60301d4d83f5}" Name="txtTimes3_WndUniversalGroup" FontSize="18" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.125" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{5cad72c4-16fc-49c7-ab58-6343b6c33a76}" AbsContentSize="65,65" UseAbsSize="True" Name="btnBox4_WndUniversalGroup" RelativePosition="0.61,0.5" Scale="1" Tag="4" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{b12faf0b-48de-4ee2-8c48-a52d06012abd}" />
+                        <SelectElement Type="WZUIContainer" GUID="{0ea01845-e7aa-420f-9691-2db3722534f1}" />
+                        <DisableElement Type="WZUIContainer" GUID="{4d6d7fb3-0241-45d1-81b8-7b36b4b54120}" />
+                        <WZArmature Type="WZArmature" GUID="{5944bc82-90ff-410f-bc24-13683bf89cf0}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox4_WndUniversalGroup" UseOriginSize="True" RelativePosition="0.5125,-0.0125" Scale="0.6" Visible="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{7fa973be-180c-471f-afd1-622723fd3023}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{96b26c21-30cb-4c34-aba2-689622ea4069}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgBtn4_WndUniversalGroup" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.6" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{757228e8-5007-4b9a-8b93-daf6d34e7480}" Name="txtTimes4_WndUniversalGroup" FontSize="18" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.125" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{6b4ceac7-a481-4d0d-9fd9-baaa26f7a6d6}" AbsContentSize="65,65" UseAbsSize="True" Name="btnBox5_WndUniversalGroup" RelativePosition="0.78,0.5" Scale="1" Tag="5" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{0e1a86c5-6b11-41ff-850a-c1951e9abd29}" />
+                        <SelectElement Type="WZUIContainer" GUID="{dcd84a2e-c9c3-4ad5-9a58-91119dfe4780}" />
+                        <DisableElement Type="WZUIContainer" GUID="{36ec3898-0c04-4886-93b3-50d30a70974e}" />
+                        <WZArmature Type="WZArmature" GUID="{21271e1c-7516-4a73-82fb-c61c70085af7}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox5_WndUniversalGroup" UseOriginSize="True" RelativePosition="0.525,-0.0125" Scale="0.6" Visible="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{afd7bd38-6fb4-4075-b41f-3a15745b3ab1}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{e68b2467-c0c3-45b7-82ff-a0834920e994}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgBtn5_WndUniversalGroup" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.6" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{aee1dcce-e507-48da-acfd-f35e9a76d74b}" Name="txtTimes5_WndUniversalGroup" FontSize="18" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.125" />
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{72f51495-ab2e-44fd-9732-3c437c4605b6}" AbsContentSize="65,65" UseAbsSize="True" Name="btnBox6_WndUniversalGroup" RelativePosition="0.95,0.5" Scale="1" Tag="6" LuaDoneFunctionName="onClickBox">
+                        <NormalElement Type="WZUIContainer" GUID="{38358e40-d98b-4de3-a054-51c8eaed9406}" />
+                        <SelectElement Type="WZUIContainer" GUID="{472fa92b-ffca-4878-a33f-719f4bb27eb3}" />
+                        <DisableElement Type="WZUIContainer" GUID="{bbfd9593-935c-4ba9-88b0-485cd08fa6b5}" />
+                        <WZArmature Type="WZArmature" GUID="{30c345aa-5e70-4864-8476-160cd19ab63e}" ArmatureFile="ui/ui_danrenfuben_box_01.xml" ArmatureName="ui_danrenfuben_box_01" Name="armBox6_WndUniversalGroup" UseOriginSize="True" RelativePosition="0.525,-0.0125" Scale="0.6" Visible="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{ed0b106b-45d6-4868-9123-9864661460f8}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{d822ea94-3c78-4136-af3c-37b9d4263db2}" File="ui/common/common_icon_huang1.png" UseOriginSize="True" Name="imgBtn6_WndUniversalGroup" AnchorPoint="0.5,0" RelativePosition="0.525,0.22" Scale="0.6" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a2d932d6-c7ac-4b67-994b-97dd4e3a0f99}" Name="txtTimes6_WndUniversalGroup" FontSize="18" Color="255,255,255" EnableStroke="True" Text="2次" StrokeSize="4" StrokeColor="128,54,13" RelativePosition="0.5,0.125" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUI9Image Type="WZUI9Image" GUID="{4ca47acb-5ab6-4aed-8e84-55f1135cd9ea}" File="ui/common/frame_dadi_01.png" Order="-1" />
+    </WZUIWindow>
+</WndUniversalGroup>

@@ -1,0 +1,94 @@
+﻿<WndTips62 GUID="{66eb87ca-e884-4bc5-9054-d6ab463211c3}">
+    <WZUIWindow AbsContentSize="242,280" AbsPosition="0,0" AnchorPoint="0.5,0.5" GUID="{257aef4f-de2c-4d3d-92b2-302543fdb3e6}" LuaObjectName="WndTips62" Name="WndTips62" NameCreate="True" RelativePosition="0.5,0.76" RelativeSize="1,1" ShowAll="False" TouchContainerEnable="True" TouchEnable="True" TouchSwallow="True" Type="WZUIWindow" UseAbsCoordinate="False" UseAbsSize="True" Visible="True" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{19547441-5b51-4547-8e4b-6eaa11a8ce3c}" AbsContentSize="242,280" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1" ShowAll="False" AbsPosition="" Name="conBG_WndTips62" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{01964a26-2c03-479a-9053-9b213ea68117}" File="ui/common/frame_tips_di.png" Visible="True" Opacity="255" />
+            <WZUI9Image Type="WZUI9Image" GUID="{34eb1ae8-d033-43b8-9212-6fdb4898687d}" File="ui/common/frame_tips_di.png" Visible="True" Opacity="255" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{bd6aa583-d3b4-418d-b5b1-4237b6d7391a}" Name="conPet_WndTips62" Visible="False" AbsContentSize="242,280" UseAbsSize="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{e2aa1c85-79a0-4fb2-a6f7-3d9939863dc7}" UseAbsSize="True" AbsContentSize="242,100" RelativePosition="0.5,0.785344">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{748bcc2d-ebb6-460f-a1e4-f100f378ca52}" TextKey="PETATTACK" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.86" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtPetAP_WndTips62" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b433ddd0-b86e-4943-b81f-fcd585f4f49e}" TextKey="PETDEFENSE" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.62" Alignment="Left" AnchorPoint="0,0.5" Name="txtPetDP_WndTips62" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="False" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{73a252aa-abb1-4300-b153-5af070f8b76f}" TextKey="PETHEALTH" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.38" Alignment="Left" AnchorPoint="0,0.5" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="False" Name="txtPetHP_WndTips62" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e4e944ce-85ce-4e4f-9fc8-025fb9c696c7}" TextKey="PETINTELLIGENCE" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.14" Alignment="Left" AnchorPoint="0,0.5" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="False" Name="txtPetSP_WndTips62" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b70b1e2f-9140-43e2-a9a8-8b7b44abb4da}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="0.325,0.86" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtPetAPD_WndTips62" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{11ee61a5-8005-48f6-a6fd-f7ddd9efa3ff}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="0.325,0.62" Alignment="Left" AnchorPoint="0,0.5" Name="txtPetDPD_WndTips62" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="False" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{adfdd502-75a9-4b51-9522-aa2994954d7c}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="0.325,0.38" Alignment="Left" AnchorPoint="0,0.5" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="False" Name="txtPetHPD_WndTips62" Text="" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{937acb5d-f26c-4ce0-a2ce-6fa7959c1209}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="0.325,0.14" Alignment="Left" AnchorPoint="0,0.5" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="False" Name="txtPetSPD_WndTips62" Text="" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{36ba84d4-de12-4094-918c-10f067bf42ef}" AbsContentSize="206,3" UseAbsSize="True" RelativePosition="0.5,0.587566">
+                <WZUIImage Type="WZUIImage" GUID="{0ccfd805-a143-485a-b926-41d7e14d3bac}" File="ui/common/frame_fengexian_01.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{3bed1a48-cdf2-4942-a418-20e1bfbe88c1}" Color="127,70,26" RelativePosition="0.075,0.531402" FontSize="20" Text="" AnchorPoint="0,1" Dimensions="210" Alignment="Left" Name="txtQualification1_WndTips62" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{a87ae3cf-ff83-48cd-b5e7-1d375cd69f23}" Color="127,70,26" RelativePosition="0.075,0.364207" FontSize="20" Text="" AnchorPoint="0,1" Dimensions="210" Alignment="Left" Name="txtQualification2_WndTips62" />
+            <WZUIContainer Type="WZUIContainer" GUID="{2b5f05c3-259f-4d9f-bedd-2aa361aed350}" AbsContentSize="206,3" UseAbsSize="True" RelativePosition="0.5,0.179762">
+                <WZUIImage Type="WZUIImage" GUID="{58bc5619-b6d8-4adb-8b58-3e340199b275}" File="ui/common/frame_fengexian_01.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e6ad9793-8d61-4f2f-857d-fb3cde9c9973}" TextKey="PET_TEXT16" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.0919524" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtPetTotal_WndTips62" Text="">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{66ddee8a-2a3c-45d6-af4d-f65918a2d0d6}" FontSize="20" Text="" RelativePosition="1.05,0.5" Name="txtPetNum_WndTips62" Color="229,105,22" AbsPosition="413.274,7.80654" AnchorPoint="0,0.5" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{5d9e6ba6-d86b-41db-aa7c-d462972fa2ab}" AnchorPoint="0.5,1" RelativePosition="0.5,0" UseAbsSize="True" AbsContentSize="242,110" Name="conDesc1_WndTips62" Visible="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{1a91f063-230a-44d5-86ee-0b9e0177b9a2}" AbsContentSize="206,3" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                    <WZUIImage Type="WZUIImage" GUID="{513113b3-b42b-42ec-99c2-e69442673c6a}" File="ui/common/frame_fengexian_01.png" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{71660803-89a2-42db-83ae-7ce627e19ce5}" Color="127,70,26" RelativePosition="0.075,0.876364" FontSize="20" Text="主宠%d级才能激活羁绊属性噢                  羁绊激活的属性会直接增加到主宠上" AnchorPoint="0,1" Dimensions="210" Alignment="Left" Name="txtDesc1_WndTips62" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{53bd7543-4779-44cf-844c-8130da26edab}" Name="conMount_WndTips62" AbsContentSize="300,400" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" Visible="False">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{38491eea-ddf8-45a3-a804-f8fd465fa591}" Color="127,70,26" RelativePosition="0.06,0.96" FontSize="22" Text="" AnchorPoint="0,1" Dimensions="" Alignment="Left" Name="txtMountName_WndTips62" />
+            <WZUIContainer Type="WZUIContainer" GUID="{7a34205b-d47b-40f9-bab1-84e767861e61}" AbsContentSize="300,110" UseAbsSize="True" RelativePosition="0.5,0.77">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{86f20b52-947b-4412-8c84-2189e0731f6c}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.8" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountName1_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4f50dbbb-0474-4e01-8687-a016d6c5e816}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountNum1_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{612c6d4a-f992-4bc2-8de6-f4d41836051b}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.535,0.8" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountName2_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{380ead60-845d-49f9-ac9d-8b5b1c5bf6de}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountNum2_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5226fe74-072d-4a0a-aaac-6284696c86cb}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountName3_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{47209f9a-749b-4b56-b00d-c25cb7917508}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountNum3_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5a394203-7a13-4e75-b853-c5548802f0d3}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.535,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountName4_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{63f19c59-93e0-4be0-b17d-11cd8f4f7275}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountNum4_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{65682a01-9d9e-4c77-a70a-5f794768c05c}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.2" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountName5_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{828d827d-ce8f-46d2-897c-8f921f3104f7}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountNum5_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{0f54a64c-c098-4697-9f00-b3e43f861a76}" AbsContentSize="240,3" UseAbsSize="True" RelativePosition="0.5,0.625">
+                <WZUIImage Type="WZUIImage" GUID="{7981588b-535e-47b9-84ac-136b3132e009}" File="ui/common/frame_fengexian_01.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bc443fc0-2577-4e0c-90f6-f98f032835dc}" Color="127,70,26" RelativePosition="0.06,0.585" FontSize="22" Text="" AnchorPoint="0,1" Dimensions="" Alignment="Left" Name="txtMountAttr_WndTips62" />
+            <WZUIContainer Type="WZUIContainer" GUID="{ed1a3aef-f512-4581-9165-dd1fd1bd032c}" AbsContentSize="300,110" UseAbsSize="True" RelativePosition="0.5,0.395" Visible="True">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{460090ca-049f-4f84-9389-4797695a7eaf}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.8" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountTotal1_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{57c3c599-25d2-4a70-a5d2-583a6607439b}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountTotalNum1_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a5b75a58-2506-4f39-8e63-be95b67d5716}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.535,0.8" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountTotal2_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{0c6cf8b4-7a14-42b1-a477-9b4c3b9e3cb2}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountTotalNum2_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{69fadbea-70e4-4d03-9ca6-edf21cc2f34a}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountTotal3_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{f2488665-6a58-43fe-982e-e9e41879452d}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountTotalNum3_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{83c86cf5-f60a-4986-9adc-f79f9a4a643a}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.535,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountTotal4_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{994e68ad-9339-439d-96a3-8aab4178ac47}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountTotalNum4_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b0a18659-1459-4543-be9e-1c4302cb829d}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,0.2" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountTotal5_WndTips62" Text="生命">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{08cdb5b1-a580-4433-9ad4-b747edbf315d}" TextKey="" Color="229,105,22" FontSize="20" RelativePosition="1.2,0.5" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="4" Name="txtMountTotalNum5_WndTips62" Text="+000000" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{8ae04f9e-1c65-4e8b-9e7a-0bd4402bbf2a}" AbsContentSize="240,3" UseAbsSize="True" RelativePosition="0.5,0.2515">
+                <WZUIImage Type="WZUIImage" GUID="{18a2e33b-07b6-449a-92fe-e40e4d35ce42}" File="ui/common/frame_fengexian_01.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d2f462a3-644f-4c99-898f-6ec4f846c874}" Color="127,70,26" RelativePosition="0.06,0.2225" FontSize="22" Text="" AnchorPoint="0,1" Dimensions="" Alignment="Left" Name="txtMountFightName_WndTips62">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a2d7a178-86ba-41d3-b674-8bf19aed641c}" Color="229,105,22" RelativePosition="1.2,0.5" FontSize="22" Text="" AnchorPoint="0,0.5" Dimensions="" Alignment="Left" Name="txtMountFightNum_WndTips62" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{dd57e4f1-be9c-4edf-96ea-6e473a6367f4}" AbsContentSize="240,3" UseAbsSize="True" RelativePosition="0.5,0.139">
+                <WZUIImage Type="WZUIImage" GUID="{5caf3349-7a0b-4884-b0cb-99298cfed4b2}" File="ui/common/frame_fengexian_01.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{fa2a4224-78fa-4542-ae76-0d7ade49656a}" Color="127,70,26" RelativePosition="0.06,0.11" FontSize="20" Text="" AnchorPoint="0,1" Dimensions="266" Alignment="Left" Name="txtMountDesc_WndTips62" />
+            <WZUIContainer Type="WZUIContainer" GUID="{83c86c46-9e6b-4103-a5c8-9ada8174c454}" AbsContentSize="240,3" UseAbsSize="True" RelativePosition="0.5,-0.0634999">
+                <WZUIImage Type="WZUIImage" GUID="{dd24d83d-12ef-4e65-9f6b-714a1ec29280}" File="ui/common/frame_fengexian_01.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5f369ef3-d5d8-4fbb-821c-567ed2a2a938}" TextKey="" Color="105,65,46" FontSize="20" RelativePosition="0.075,-0.1255" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="" Name="txtMountTotalNum_WndTips62" Text="">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2583355c-33cf-499a-814e-f2fb9cbc99bd}" FontSize="20" Text="" RelativePosition="1.05,0.5" Name="txtMountNum_WndTips62" Color="229,105,22" AbsPosition="413.274,7.80654" AnchorPoint="0,0.5" />
+            </WZUILabelTTF>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndTips62>

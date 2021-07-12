@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" ?>
+<WndPetsUpgrade GUID="{2FC34B69-9F96-44fc-957E-3D240A6D4BB5}">
+    <WZUIContainer Type="WZUIContainer" GUID="{7348A84B-B5DA-4ab9-8A67-D814C42512B7}" AbsContentSize="950,536" UseAbsSize="True" RelativePosition="0.5,0.5" LuaObjectName="WndPetsUpgrade" Name="WndPetsUpgrade" Visible="True" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{852fb5b7-7656-44cf-a073-de4b05f8f162}" AbsContentSize="920,506" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{e7b568e1-0822-4cfc-bcae-79fede7aaf97}" File="ui/common/frame_dadi_01.png" RelativePosition="0.5,0.5" CapInsets="" Visible="True" />
+            <WZUIContainer Type="WZUIContainer" GUID="{895b87cd-7248-4e2d-b14f-cbeb5865147c}" AbsContentSize="496,492" UseAbsSize="True" RelativePosition="0.276669,0.5" Name="conLeft_WndPetsUpgrade">
+                <WZUIContainer Type="WZUIContainer" GUID="{89de1d95-be47-4b94-9569-70da1a2fb76e}">
+                    <WZUIImage Type="WZUIImage" GUID="{be63a34c-00a4-4e06-87c4-d5943f8b0eeb}" File="ui/common_bg/common_pic_hb_cw.png" UseOriginSize="True" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{b74ce5d5-defa-45f2-9cf3-a7b051ade8f7}" AbsContentSize="360,120" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                    <WZUIImage Type="WZUIImage" GUID="{0c247945-bddd-45d8-9abb-79bf9d134a1a}" RelativePosition="0.5,0.59" File="ui/common/common_04.png" UseOriginSize="True" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{0a2e6063-2bb5-4f8a-b3ab-ccd381bb52c6}" AbsContentSize="180,40" UseAbsSize="True" RelativePosition="0.5,0.215" TouchEnable="False" AnchorPoint="0.5,0.5" Name="conAptitude_WndPetsUpgrade">
+                        <WZUIImage Type="WZUIImage" GUID="{ad7bff97-c1e2-43d4-a9c3-45bb5c152e83}" Name="imgAptitude6_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="-0.01,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{583025c6-beb9-43c6-99ac-6cc1d7df75b7}" Name="imgAptitude4_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.16,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{1c20fa7f-3ad0-4f14-8c28-d9451d7f1023}" Name="imgAptitude2_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.33,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{172ff49d-c6ee-4f3d-9f39-34b6bd8ae4a3}" Name="imgAptitude1_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{0a16628c-a18f-4af7-a2a8-98c06d1fedfe}" Name="imgAptitude3_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.67,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{a4e46867-b547-47fc-b3fa-a49b682c380f}" Name="imgAptitude5_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.84,0.5" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{9119b429-5bee-4b34-a5e0-337e70714837}" Name="imgAptitude7_WndPetsUpgrade" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="1.01,0.5" Scale="0.8" />
+                    </WZUIContainer>
+                    <WZUILabelTTF AnchorPoint="0.5,0.5" Color="255,255,255" FontSize="24" GUID="{4d99ee29-3b77-40d3-8527-bcc5eb7fc674}" MaxLength="" Name="txtLv_WndPetsUpgrade" RelativePosition="0.5,0.4" Text="" TouchEnable="False" Type="WZUILabelTTF" Alignment="Center" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Visible="False" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{aa823676-bf6b-4226-a3c7-ac881576e850}" Name="txtName_WndPetsUpgrade" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.58" MaxWidth="300" ShowText="" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{cb91d87f-148a-416c-aeae-d32e9d7c2d4b}" AbsContentSize="290,296" UseAbsSize="True" RelativePosition="0.5,0.56" Name="">
+                    <WZUIContainer Type="WZUIContainer" GUID="{7343723b-6740-44e9-84d7-6283ddb06363}" AbsContentSize="120,200" UseAbsSize="True" RelativePosition="0.506896,0.5" Name="" Visible="True">
+                        <WZUIContainer AbsContentSize="120,160" GUID="{0214b7b0-6133-4984-9a1e-6d7e579fb21b}" Name="conPet1_WndPetsUpgrade" RelativePosition="0.5,0.5" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" Visible="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{40ae9088-efad-458f-9ace-aeaf3976c36c}">
+                        <WZArmature Type="WZArmature" GUID="{2f617ee3-8cf8-4280-8ce0-b8b2fc742cfb}" ArmatureFile="ui/ui_zuoqi_shengji_01.xml" ArmatureName="ui_zuoqi_shengji_01" Name="armAddStar_WndPetsUpgrade" InitPlayId="" Visible="False" UseOriginSize="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{4ec015f8-aea9-44c2-b1e3-f6ecb98364f8}" AbsContentSize="276,50" UseAbsSize="True" RelativePosition="0.5,0.272">
+                    <WZUIImage Type="WZUIImage" GUID="{9e833125-304a-4b54-b6f2-43f5c0d202ae}" File="ui/common/common_cwzl.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{7c461b2f-466a-45ee-874c-0e146b734865}" Name="txtFight_WndPetsUpgrade" RelativePosition="0.216,0.5" FontSize="22" Color="255,255,255" TextKey="PET_COMBAT" />
+                    <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{6c4960b5-5ec6-4c3e-898a-42e42a152ba0}" Name="txtPetWarD_WndPetsUpgrade" CharMapFileName="ui/common_num/common_partner_num_zdl.png" Height="26" Width="21" Text="" RelativePosition="0.68,0.5" Alignment="Left" AnchorPoint="0.5,0.5" UseOriginSize="True" Visible="True" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e4a9612f-5aa1-4408-af05-628a073e6d45}" Name="txtPetQualification_WndPetsUpgrade" Color="255,236,193" FontSize="20" AnchorPoint="0,0.5" RelativePosition="0.78,0.27" StrokeColor="128,54,13" StrokeSize="4" Text="" EnableStroke="True" />
+                <Button Type="WZUIButton" GUID="{f327810d-43ac-4999-9afd-e459f4d9719e}" AbsContentSize="60,60" RelativePosition="0.18,0.272" UseAbsSize="True" LuaDoneFunctionName="onShowAttribute">
+                    <NormalElement Type="WZUIContainer" GUID="{37db6c1e-3a9a-447c-86b4-85c394c94214}">
+                        <WZUIImage Type="WZUIImage" GUID="{868a0584-8dcf-47f7-b822-3a68b14151ae}" File="ui/common/common_icon_ss_1.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{83a101e6-f2f4-4fee-a2ab-5bf1f1338241}">
+                        <WZUIImage Type="WZUIImage" GUID="{6bd21f6b-c80c-4477-819a-1213c1fbf2d2}" File="ui/common/common_icon_ss_1.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{59f93bef-b7f8-4662-83b2-5536e98e2423}" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{418cfc0a-a8f6-4ed5-8b0d-4e2754d70b85}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.5,0.083" Name="btnClose_WndPetsUpgrade" LuaDoneFunctionName="onCloseClick" Visible="True" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{5ee9842b-ac57-4677-89a3-eb3ff384b3f6}">
+                        <WZUIImage Type="WZUIImage" GUID="{7f9776f9-1ef0-49a1-b4cc-f24e2048ca33}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{bc9acba4-a5fc-42d7-930b-ff83ceec0e41}">
+                        <WZUIImage Type="WZUIImage" GUID="{47be203e-0d67-4349-bc39-1b661654717d}" File="ui/common/common_btn_01.png" Scale="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{63345497-d475-40ae-ac81-9ed18c3eb4cd}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{e25668ac-2e2e-4649-be2d-7a1a24b85fd1}" TextKey="BACK" FontSize="24" Color="255,250,236" EnableStroke="True" StrokeSize="4" StrokeColor="163,74,20" Text="" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{a65f3574-ddb1-48da-828d-59846fd4c538}" Name="conRight_WndPetsUpgrade" AbsContentSize="410,492" UseAbsSize="True" RelativePosition="0.771,0.5" AbsPosition="552.831,252.6">
+                <WZUIContainer Type="WZUIContainer" GUID="{5305731e-19a2-4b7a-8b60-d39d5412703e}" AbsContentSize="383,160" UseAbsSize="True" RelativePosition="0.5,0.43">
+                    <WZUIContainer Type="WZUIContainer" GUID="{be4bdc00-d2dd-4556-8bf9-861807d673bd}" AbsContentSize="350,30" UseAbsSize="True" RelativePosition="0.5,0.855">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4bcce641-effe-4985-9f25-5e646526e9a2}" FontSize="20" Name="txtPetEPD1_WndPetsUpgrade" Color="255,236,193" BoldFont="False" StrokeColor="128,54,13" Text="" RelativePosition="0.00309535,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="" StrokeSize="4" EnableStroke="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{35af9325-5768-438d-a038-41051eb962e7}" File="ui/common/common_btn_jiant_05.png" UseOriginSize="True" Scale="1" RelativePosition="0.874286,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f7d0fb1a-3cfe-494a-8dff-3e0e2016a612}" FontSize="20" Name="txtPetEPD2_WndPetsUpgrade" Color="99,255,95" BoldFont="False" StrokeColor="127,70,26" Text="" RelativePosition="0.917143,0.5" AnchorPoint="0,0.5" Alignment="Left" StrokeSize="4" EnableStroke="True" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{6491f821-f494-4aa4-a737-9a09688d5904}" AbsContentSize="228,18" UseAbsSize="True" RelativePosition="0.5,0.5">
+                            <WZUIContainer Type="WZUIContainer" GUID="{00dbd5b8-5926-4858-80d0-7c4abba8c7d5}" AbsContentSize="0,0" UseAbsSize="False" RelativePosition="0.5,0.5" TouchEnable="False" Name="conExpPer_WndPetsUpgrade">
+                                <WZUI9Image Type="WZUI9Image" GUID="{77c8c46e-0441-4ad7-b0b2-442fa5ca159a}" File="ui/common/progress_jjc_01.png" CapInsets="40,10,1,1" UseOriginSize="True" ScaleX="0.8" Scale="1" ScaleY="1" Opacity="150" />
+                                <WZUIProgress Type="WZUIProgress" GUID="{2701cbc9-b935-4211-8099-c128aa94d1d2}" Name="ipgPetExp_WndPetsUpgrade" BgPicture="ui/common/progress_jjc_02.png" UseOriginSize="True" RelativePosition="0.5,0.5" ScaleX="0.8" ScaleY="1.2" Percentage="50" Scale="1" RelativeSize="1,1" />
+                            </WZUIContainer>
+                            <WZUILabelTTF AnchorPoint="0.5,0.5" Color="255,255,255" FontSize="20" GUID="{e3a4de11-ecc6-4b8d-b470-4b86cb1eaf5d}" MaxLength="" Name="txtLvExp_WndPetsUpgrade" RelativePosition="0.5,0.44" Text="0/0" TouchEnable="False" Type="WZUILabelTTF" Alignment="Center" Visible="True" LabelStyleKey="NORMAL_EXP_PROGRESS" StrokeColor="105,65,46" StrokeSize="4" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{7491e11f-9341-4a45-995e-4f13d704b604}" AbsContentSize="350,30" UseAbsSize="True" RelativePosition="0.5,0.615">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8e99a384-f52f-4b22-845f-abe023e12ba6}" FontSize="22" Name="" Color="127,70,26" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.02,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="PETHEALTH" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2b825904-f916-486b-84f3-345c1e50d72d}" FontSize="22" Name="txtPetHPD1_WndPetsUpgrade" Color="229,105,22" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.22,0.5" AnchorPoint="0,0.5" Alignment="Left" />
+                        <WZUIImage Type="WZUIImage" GUID="{7b529762-dcc0-452c-b11e-9e93fe32ad18}" File="ui/common/common_icon_jiehunjiantou.png" UseOriginSize="True" Scale="0.76" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4273677b-423b-4d56-955f-05655563bddf}" FontSize="22" Name="" Color="127,70,26" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.6,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="PETHEALTH" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{29bb7c05-e4f1-419b-a0b9-725cd6cd0ed0}" FontSize="22" Name="txtPetHPD2_WndPetsUpgrade" Color="6,180,0" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.8,0.5" AnchorPoint="0,0.5" Alignment="Left" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{bb5ce24f-b7f6-4c16-9315-355b4c23dcc0}" AbsContentSize="350,30" UseAbsSize="True" RelativePosition="0.5,0.385">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3cb80dd0-0442-4e30-827f-3294c7558d75}" FontSize="22" Name="" Color="127,70,26" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.02,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="PETATTACK" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8f36f4b7-86fd-457f-8ecb-abd62eae5c80}" FontSize="22" Name="txtPetAPD1_WndPetsUpgrade" Color="229,105,22" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.22,0.5" AnchorPoint="0,0.5" Alignment="Left" />
+                        <WZUIImage Type="WZUIImage" GUID="{2890dde4-93b5-4c6b-bd57-5802911a96b8}" File="ui/common/common_icon_jiehunjiantou.png" UseOriginSize="True" Scale="0.76" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{fe0a6115-1dfb-482d-b415-03980ae5c417}" FontSize="22" Name="" Color="127,70,26" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.6,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="PETATTACK" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b0ef320d-58f4-4f31-b953-30b358ca565e}" FontSize="22" Name="txtPetAPD2_WndPetsUpgrade" Color="6,180,0" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.8,0.5" AnchorPoint="0,0.5" Alignment="Left" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{7cb6ef0c-627b-4d2b-862e-aad93d333208}" AbsContentSize="350,30" UseAbsSize="True" RelativePosition="0.5,0.145">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{390e6d99-8d3d-44fa-8cb8-015550bf727b}" FontSize="22" Name="" Color="127,70,26" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.02,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="PETDEFENSE" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f74d20f8-7fa9-49eb-85f9-a4ab3db450e8}" FontSize="22" Name="txtPetDPD1_WndPetsUpgrade" Color="229,105,22" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.22,0.5" AnchorPoint="0,0.5" Alignment="Left" />
+                        <WZUIImage Type="WZUIImage" GUID="{c30fea7b-9cef-4a33-a55d-086e378aac39}" File="ui/common/common_icon_jiehunjiantou.png" UseOriginSize="True" Scale="0.76" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{93a9dc7f-4391-4995-aae6-42f96e57e4f5}" FontSize="22" Name="" Color="127,70,26" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.6,0.5" AnchorPoint="0,0.5" Alignment="Left" TextKey="PETDEFENSE" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8c1cf1dd-57b3-4d73-9278-d7ad22293e72}" FontSize="22" Name="txtPetDPD2_WndPetsUpgrade" Color="6,180,0" BoldFont="False" StrokeColor="" Text="" RelativePosition="0.8,0.5" AnchorPoint="0,0.5" Alignment="Left" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{ee4e291d-972a-41c1-93d3-cd9bc700979e}" UseAbsSize="True" AbsContentSize="370,3" RelativePosition="0.5,0.595">
+                    <WZUI9Image Type="WZUI9Image" GUID="{449bd2a8-1d42-429f-a2a0-a4bdf4ae8b56}" File="ui/common/frame_fengexian_01.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{c6fd25d4-1c30-498f-9816-1ebc8435b78b}" Name="conUnChoice_WndPetsUpgrade" AbsContentSize="" Visible="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{35b5a1d8-d135-4fd9-b9d0-faac768d709b}" AbsContentSize="410,130" UseAbsSize="True" RelativePosition="0.5,0" AnchorPoint="0.5,0">
+                        <WZUIContainer Type="WZUIContainer" GUID="{cb766770-e499-43e1-be17-84f92281e98c}" Name="conShow_WndPetsUpgrade" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" Visible="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{048ca086-dc35-4b56-8f28-006d1711d39b}" AbsContentSize="366,48" UseAbsSize="True" RelativePosition="0.5,0.82">
+                                <WZUI9Image Type="WZUI9Image" GUID="{14ad234c-9578-4a13-af3d-5124423f9c4b}" File="ui/common/frame_wb.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{38ee6a18-c2a8-4c72-b1b9-da573686e2ad}" Name="txtLvE1_WndPetsUpgrade" Text="" FontSize="22" RelativePosition="0.05,0.5" AnchorPoint="0,0.5" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" EnableShadow="False" Color="255,236,193" TextKey="PETUSE" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{f9ffcf2b-9c9d-436e-80e1-367f967a9b37}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.29,0.5">
+                                    <WZUIImage Type="WZUIImage" GUID="{18a4464d-8725-4055-9373-5342a00028dd}" File="ui/common/common_icon_jinbi.png" RelativePosition="0.5,0.5" UseOriginSize="True" Scale="0.8" />
+                                </WZUIContainer>
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c927c73b-035c-4661-80e3-e1644c766837}" Name="txtLvE2_WndPetsUpgrade" Text="0" FontSize="22" RelativePosition="0.35,0.5" AnchorPoint="0,0.5" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" EnableShadow="False" Color="255,236,193" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{9376da3f-9b13-4806-96bb-1c0b5ffabbbb}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.64,0.5" Visible="True">
+                                    <WZUIImage Type="WZUIImage" GUID="{75d01644-5d6f-4b7a-9b2b-eb3718682c73}" File="ui/common/common_icon_exp.png" RelativePosition="0.5,0.5" UseOriginSize="True" Scale="1" />
+                                </WZUIContainer>
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{222ed166-9010-4eee-a998-d19a4df52797}" Name="txtLvE3_WndPetsUpgrade" Text="0" FontSize="22" RelativePosition="0.717213,0.5" AnchorPoint="0,0.5" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="127,70,26" EnableShadow="False" Color="99,255,93" LabelStyleKey="" Visible="True" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{6e21986d-f394-43ac-86b9-60b70f5e15e2}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.72,0.31" Scale="1">
+                                <Button Type="WZUIButton" GUID="{451711cd-c294-42b1-8aa4-ee806c38665c}" Name="btnDoUp_WndPetsUpgrade" LuaDoneFunctionName="onPetUpClick" Tag="6" LuaActionName="Normal">
+                                    <NormalElement Type="WZUIContainer" GUID="{7c96859c-b8de-48e2-a5bf-aa3995f91dee}">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{b183fa5d-2120-4459-b210-375ace52b86a}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                                    </NormalElement>
+                                    <SelectElement Type="WZUIContainer" GUID="{5a334766-8d23-4889-ad70-9bd0d702dba9}">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{2d34ea09-6e1e-4d88-89b5-785bae6cbfb5}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                                    </SelectElement>
+                                    <DisableElement Type="WZUIContainer" GUID="{5b6545c3-6e00-4382-aca6-4b73aac9fb74}">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{f28a3cba-4268-4515-95ac-e081796fe317}" File="ui/common/common_btn_02.png" GrayRender="True" UseOriginSize="True" />
+                                    </DisableElement>
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{67fcee3e-1612-4a32-8052-37a0e1734c56}" FontSize="24" Name="txtPetUp_WndPetsUpgrade" Color="255,250,236" BoldFont="True" StrokeColor="0,109,4" Text="" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchEnable="False" EnableStroke="True" Dimensions="0??0" TextKey="PETTOUP" StrokeSize="4" LabelStyleKey="" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{48eeb9dc-c66c-412d-bbf8-41d3570c512f}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.28,0.31" Name="conOneKey_WndPetsUpgrade" Visible="True">
+                                <Button Type="WZUIButton" GUID="{2e11b33b-217e-4e67-bc97-28520af4b3d4}" Name="btnObtainPet_WndPetsUpgrade" LuaDoneFunctionName="onPetChoiceClick" Tag="5" RelativePosition="0.5,0.5" LuaActionName="Normal">
+                                    <NormalElement Type="WZUIContainer" GUID="{10492e48-114e-4144-ab9e-a4a5b5eae335}">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{77772549-8c6c-4faa-a095-d09148beac98}" File="ui/common/common_btn_01.png" RelativePosition="0.5,0.5" UseOriginSize="True" />
+                                    </NormalElement>
+                                    <SelectElement Type="WZUIContainer" GUID="{9351c339-ee91-41ab-93c7-349d9c20a274}" Scale="1" ScaleX="1" ScaleY="1">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{358f8d8c-4ca3-4939-adf2-cf0b0a7c1378}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                    </SelectElement>
+                                    <DisableElement Type="WZUIContainer" GUID="{50b66aa2-eebe-44d9-b67a-68722b20dd53}" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{9cc14cdb-cded-48fd-9878-e906bcfb55b0}" FontSize="24" Name="txtOneKey_WndPetsUpgrade" Color="255,236,193" BoldFont="True" StrokeColor="163,74,20" Text="" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" TouchEnable="False" EnableStroke="True" Dimensions="0??0" TextKey="PETONECHOICE" StrokeSize="4" />
+                                </Button>
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{08af5afa-1be6-4aec-8565-725c7ce1c5b2}" Name="conNoShow_WndPetsUpgrade" AbsContentSize="720,40" UseAbsSize="False" RelativePosition="0.5,0.5" Visible="False">
+                            <WZUIContainer Type="WZUIContainer" GUID="{801a80ed-6d98-40b9-8d8f-7fe2e5013a16}" RelativePosition="0.5,0.5" ScaleX="1.1" Scale="1" RelativeSize="1,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{e2689d25-3dbc-427d-a7bb-28064a56bd7e}" File="ui/common/common_scale9_heidi2.png" ScaleX="1" Visible="True" Scale="1" Opacity="255" ScaleY="1" RelativePosition="0.5,0.5" />
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{6465b43c-50fb-418f-a2aa-7bb567ab21c5}" Name="txtNoUpgradeDesc_WndPetsUpgrade" RelativePosition="0.5,0.5" RelativeSize="1,1" FontSize="24" Color="255,255,255" Dimensions="" Text="" Visible="True" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{59aa3e91-4239-457d-bad1-7e1f6cee290d}" Name="conChoice_WndPetsUpgrade" Visible="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{a962be29-59c2-4bfe-9a37-7aadf1932bea}" AbsContentSize="386,190" UseAbsSize="True" RelativePosition="0.5,0.8" RelativeSize="1,1">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{42e3367c-1920-4c82-8924-c6d8212f46eb}" Name="txtChooseNum_WndPetsUpgrade" Color="127,70,26" BoldFont="False" StrokeColor="132,66,29" FontSize="18" Text="" RelativePosition="0.92,0.03" EnableStroke="False" AnchorPoint="0.5,0.5" TextKey="" StrokeSize="4" LabelStyleKey="" Visible="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e2cdc1af-db0c-45ef-b755-863a8001a5c9}" Name="txt_WndPetsUpgrade" Color="79,60,48" BoldFont="False" StrokeColor="132,66,29" FontSize="18" Text="" RelativePosition="0,0.5" EnableStroke="False" AnchorPoint="1,0.5" TextKey="PETEATFORUP" StrokeSize="4" LabelStyleKey="" />
+                        </WZUILabelTTF>
+                        <WZUITableContainer Type="WZUITableContainer" GUID="{110df395-ff74-42fc-811b-6219b5c2426c}" Name="conPetList_WndPetsUpgrade" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" CellElementHeight="0.48" EnableMoveHorizontal="False" ColumnCount="4" LoadCountPerFrame="4" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{8028ef62-9ec2-4cd5-9837-b690cea462aa}" Name="conNoPet_WndPetsUpgrade" RelativePosition="0.5,0.8" AbsContentSize="100,100" UseAbsSize="True" Visible="False">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{e3978494-0075-4bda-a060-0fc986526b2f}" TextKey="EXTRACTING_PETS" FontSize="20" RelativePosition="0.5,-0.05" AbsPosition="50,-13" BoldFont="True" Color="138,122,106" Text="" />
+                        <Button Type="WZUIButton" AbsContentSize="82,82" UseAbsSize="True" LuaDoneFunctionName="onGetPet" GUID="{c2846b61-2a18-471b-86ea-104a879b1cb4}" LocalInterval="300">
+                            <NormalElement Type="WZUIContainer" GUID="{5d22ad10-4e56-4dc4-a172-31ea561b54c2}" />
+                            <SelectElement Type="WZUIContainer" GUID="{5434cb51-0236-47ca-8a6d-b6b479312043}" />
+                            <DisableElement Type="WZUIContainer" GUID="{25124946-dbac-4a2a-a812-958ddabd5710}" />
+                            <WZUIImage Type="WZUIImage" GUID="{a5bc60e7-0e0c-4c2c-ba84-0789887284fc}" File="ui/common/common_scale9_beibaodi2.png" UseOriginSize="True" Opacity="178" />
+                            <WZUIImage Type="WZUIImage" GUID="{761b95d2-85aa-4121-a29c-b25060f22bcd}" File="ui/common/common_btn_add.png" UseOriginSize="True" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndPetsUpgrade>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" ?>
+<CellCheckOther4 GUID="{C29FC553-C8DF-49d5-BB59-5C054DD42D20}">
+    <WZUIContainer Type="WZUIContainer" GUID="{CDD6FEF2-1780-4421-B959-20CA85B3D80D}" AbsContentSize="480,80" UseAbsSize="True" Name="CellCheckOther4" LuaObjectName="CellCheckOther4" RelativePosition="0.5,0.5">
+        <WZUIContainer Type="WZUIContainer" GUID="{2885A1AC-15A8-4086-B419-42E0ABC823B8}" Name="" AbsContentSize="480,80" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{1696f80b-8404-4490-a0d6-4d7751c46206}" Name="conForTitle_CellCheckOther4" UseAbsSize="True" AbsContentSize="50,70" RelativePosition="0.008,0.5" AnchorPoint="0,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{0a9a6049-4b18-4be6-ae60-9d89c276041f}" AbsContentSize="460,80" UseAbsSize="True" RelativePosition="0.545,0.5" Name="" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{fd09c774-cbab-498d-82ec-fea8d9c2f7a5}" Name="con1" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.0934,0.5" AbsPosition="32.3077,33.0414" Order="9" Scale="0.91">
+                    <WZUIImage Type="WZUIImage" GUID="{ddf7680e-bc4d-4851-9542-e575f7652a76}" File="ui/bag/common_icon_toubu.png" UseOriginSize="True" Order="5" Name="blank1" Visible="False" TouchEnable="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{72775ef0-f0bd-4341-926d-be4d133db62f}" Name="con2" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.255,0.5" AbsPosition="32.3077,33.0414" Order="8" Scale="0.91">
+                    <WZUIImage Type="WZUIImage" GUID="{f4d77746-666e-49af-aa67-dbd5fe4b8b5c}" File="ui/bag/common_icon_toubu.png" UseOriginSize="True" Order="5" Name="blank2" Visible="False" TouchEnable="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{b402a8a2-ba22-4e77-90d7-45b47023dd6f}" Name="con3" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.417,0.5" AbsPosition="32.3077,33.0414" Order="7" Scale="0.91">
+                    <WZUIImage Type="WZUIImage" GUID="{b7733448-65fe-4797-9642-4655eda4d647}" File="ui/bag/common_icon_toubu.png" UseOriginSize="True" Order="5" Name="blank3" Visible="False" TouchEnable="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{ad039368-3e9d-4a12-975a-0042c1a1f017}" Name="con4" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.579,0.5" AbsPosition="32.3077,33.0414" Order="6" Scale="0.91">
+                    <WZUIImage Type="WZUIImage" GUID="{7ee26cdf-bae9-4856-be16-fb1c75b2f183}" File="ui/bag/common_icon_toubu.png" UseOriginSize="True" Order="5" Name="blank4" Visible="False" TouchEnable="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a05d8a03-132d-4bc4-8f9a-5ca56a26f047}" Name="con5" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.741,0.5" AbsPosition="32.3077,33.0414" Order="5" Scale="0.91">
+                    <WZUIImage Type="WZUIImage" GUID="{07f3d4e1-c80e-4668-bb33-f1d6a5462033}" File="ui/bag/common_icon_toubu.png" UseOriginSize="True" Order="5" Name="blank5" Visible="False" TouchEnable="False" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{3081a038-5b8c-4b00-98d0-be8ed5cc9843}" Name="con6" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.903,0.5" AbsPosition="32.3077,33.0414" Order="5" Scale="0.91">
+                    <WZUIImage Type="WZUIImage" GUID="{edf6aefe-7029-4bc9-824e-2e6eda533c57}" File="ui/bag/common_icon_toubu.png" UseOriginSize="True" Order="5" Name="blank6" Visible="False" TouchEnable="False" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCheckOther4>

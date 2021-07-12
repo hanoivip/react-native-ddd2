@@ -1,0 +1,23 @@
+﻿<WndDoublingReward GUID="{dd984064-ae83-4f5e-b8fe-d52422b49fb2}">
+    <WZUIContainer Type="WZUIContainer" GUID="{2a6d9797-c9fc-4619-888a-914c6b80f949}" AbsContentSize="520,338" UseAbsSize="True" LuaObjectName="WndDoublingReward" Name="WndDoublingReward" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{399eb16e-02ca-46dc-bc48-41a40007487a}" AbsContentSize="520,338" UseAbsSize="True" Name="conShowReward_WndDoublingReward" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{415a6de1-ba75-45a4-b1d6-5ddcf5145704}" File="ui/common/common_scale9_di19.png" CapInsets="137,75,1,1" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f9b307a0-3da7-436f-83bc-08f4138387b1}" Color="249,236,208" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" Text="" RelativePosition="0.5,0.9" Name="txtTitle_WndDoublingReward" />
+            <WZUIContainer Type="WZUIContainer" GUID="{dcb900cf-af84-48c9-85df-8152bdc6b209}" Name="" Visible="True">
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{ba11f372-8892-4b37-8973-bcf371bcd299}" Name="txtDesc_WndDoublingReward" ShowText="" MaxWidth="480" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.725" Visible="True" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{c9d0b3cb-b6b3-4805-b85c-4460f9779963}" AbsContentSize="270,100" UseAbsSize="True" RelativePosition="0.5,0.5" Name="tconReward_WndDoublingReward" ColumnCount="1" CellElementHeight="0.33" EnableMoveHorizontal="False" EnableMoveVertical="False" IsVerticalMode="False" />
+                <Button Type="WZUIButton" GUID="{30c1e35a-948b-4b04-8504-5b9bd67c33f2}" UseAbsSize="True" AbsContentSize="124,60" RelativePosition="0.5,0.2" Visible="True" Name="btnConfirm_WndDoublingReward" LuaDoneFunctionName="onClickClose">
+                    <NormalElement Type="WZUIContainer" GUID="{5af4231b-645d-489a-bc93-dc660bafeaf8}">
+                        <WZUIImage Type="WZUIImage" GUID="{02f70330-5050-4b82-b597-0c913c0f5f16}" File="ui/common/common_btn_anniu3_0.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5a055806-d9d8-4704-b878-fa3f49f84e00}" TextKey="BUY_FIVE_AFFIRM" Color="249,236,208" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{35e7aa08-be1d-4523-83ba-33a44406d5ec}">
+                        <WZUIImage Type="WZUIImage" GUID="{7dc7b18e-921f-4ebc-8e13-8365dfdf7f37}" File="ui/common/common_btn_anniu3_0.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{980e3a39-e97d-47c0-a6ef-de756d09aa11}" TextKey="BUY_FIVE_AFFIRM" Color="249,236,208" EnableStroke="True" FontSize="26" StrokeColor="128,54,13" StrokeSize="4" Text="" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{dd848bc7-8ff6-40c8-8366-9de14c50cf1b}" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndDoublingReward>

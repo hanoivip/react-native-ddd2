@@ -1,0 +1,19 @@
+﻿<CellPetSell GUID="{9495e0ca-46f7-46c8-a347-eaaf299278f2}">
+    <WZUIContainer Type="WZUIContainer" GUID="{23e6ec58-7362-4943-a533-a07b0ac623fd}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Name="CellPetSell" LuaObjectName="CellPetSell">
+        <WZUI9Image Type="WZUI9Image" GUID="{abb70ac5-d607-4c33-a8cb-de3ea1f3eaae}" File="ui/common/frame_13.png" />
+        <WZUIImage File="" GUID="{8765bcd7-d4fd-47a1-a98c-c97a05dc671b}" Name="imgIconBg_CellPetChoiceList" RelativePosition="0.5,0.5" Scale="1" TouchEnable="False" Type="WZUIImage" UseOriginSize="True" Visible="True" AbsPosition="40,40" />
+        <WZUIImage Type="WZUIImage" GUID="{ef406a70-ff5e-44de-965e-1afc0b4d8852}" Name="imgIconBgQuality_CellPetChoiceList" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ce854513-93ad-486f-9f06-86894321bb5a}" Text="" LabelStyleKey="C11_F18_S4_C3" RelativePosition="0.5,0.14" Alignment="Left" AnchorPoint="0,0.5" Name="lv" />
+        <WZUIImage Type="WZUIImage" GUID="{9a06014f-b261-4432-a46b-946469fce8e6}" File="ui/common/common_icon_xingxing2.png" UseOriginSize="True" RelativePosition="0.0807198,0.885381" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{04e70845-6cff-459e-baaa-3cf7a65bd589}" Color="255,255,255" Text="0" StrokeSize="4" FontSize="16" RelativePosition="0.0843224,0.884181" BoldFont="True" EnableStroke="True" StrokeColor="128,54,13" Name="star" />
+        <WZUIContainer Type="WZUIContainer" GUID="{78c95321-b7c5-4af5-92c3-c9dfd3715840}" Name="conSelect" Visible="False">
+            <WZUIImage Type="WZUIImage" GUID="{22f9870f-5035-4258-9140-5d3853106be4}" File="ui/common/common_shade_chushouheidi.png" Opacity="130" />
+            <WZUIImage Type="WZUIImage" GUID="{99eda907-f24d-467f-82fe-b4baaa9313d3}" File="ui/common/common_icon_gou.png" UseOriginSize="True" RelativePosition="0.884181,0.231215" />
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{def74182-e7f9-4c84-a2d3-feb734a8046d}" LuaPushFunctionName="onClickBegan" LuaDoneFunctionName="onClickEnd" LuaTouchMoveoutFunctionName="onMoveOut">
+            <NormalElement Type="WZUIContainer" GUID="{22738bd5-d0ce-4c05-89e8-ae94c3af1c96}" />
+            <SelectElement Type="WZUIContainer" GUID="{79204aba-320e-4e59-9e2c-1c2e8d024dce}" />
+            <DisableElement Type="WZUIContainer" GUID="{33f254aa-6691-4a95-8cbb-2436f93b11f8}" />
+        </Button>
+    </WZUIContainer>
+</CellPetSell>

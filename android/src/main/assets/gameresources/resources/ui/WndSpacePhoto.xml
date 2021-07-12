@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" ?>
+<WndSpacePhoto GUID="{E4D6FC9B-FDD9-43d9-B7AF-2F91B08EA73A}">
+    <WZUIContainer Type="WZUIContainer" GUID="{870033b2-c7d5-4c5d-b5a8-3396991f6061}" LuaObjectName="WndSpacePhoto" Name="WndSpacePhoto" AbsContentSize="480,170" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{b885437a-b413-47a5-9859-01500cbb300d}" AbsContentSize="480,160" UseAbsSize="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{71b7b6a8-40c4-4706-a01a-f93e63668a50}" AbsContentSize="50,70" Name="conForTitle_WndSpacePhoto" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.008,0.7375" />
+            <WZUIContainer Type="WZUIContainer" GUID="{2e21cb10-d021-447b-93fb-c6e66314e97f}" AbsContentSize="460,170" UseAbsSize="True" RelativePosition="0.545,0.5">
+                <WZUIContainer Type="WZUIContainer" GUID="{403bc9e6-fdfd-44c0-9123-0e46c70c3455}" Name="conPhoto1_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.1,0.73">
+                    <WZUI9Image Type="WZUI9Image" GUID="{f45d4fcf-2157-44ff-b1f0-c45c625c7d07}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{59467c4e-4ab3-49e3-b1f2-8409f3f9726b}" Name="conPhoto2_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.26,0.73">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d80a25da-3ab1-48ad-949c-5ee6a337a6fa}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a1be3372-ac36-4314-9ffe-b5d0807c96a6}" Name="conPhoto3_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.42,0.73">
+                    <WZUI9Image Type="WZUI9Image" GUID="{3032bd59-5975-4498-ab69-c11c8852a615}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{6f81848c-75a0-4a04-8e04-86829de2a771}" Name="conPhoto4_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.58,0.73">
+                    <WZUI9Image Type="WZUI9Image" GUID="{a870299e-4903-4537-b595-a271e2681f87}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{cbe81394-3f0e-4a62-9498-8cb58aeca698}" Name="conPhoto5_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.74,0.73">
+                    <WZUI9Image Type="WZUI9Image" GUID="{77f7c8ea-f4a5-403d-8fe6-ba1ed56c3537}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{cbe28a3d-b0ed-4b5b-9f8c-69706e09ca48}" Name="conPhoto6_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.9,0.73">
+                    <WZUI9Image Type="WZUI9Image" GUID="{0b6b337c-0f30-4505-9767-9be064c5604d}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{9edb938a-5bc2-4b8e-b043-e7e75aa65973}" Name="conPhoto7_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.1,0.27">
+                    <WZUI9Image Type="WZUI9Image" GUID="{0d7d6428-7722-4d6c-8517-b70d63664514}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{63e117b9-ee6d-472e-a5f2-ffb2e60f273a}" Name="conPhoto8_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.26,0.27">
+                    <WZUI9Image Type="WZUI9Image" GUID="{23edd927-decf-42d9-bfbe-73fae766aec2}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{71442396-8e6d-41f4-a3c3-891175655359}" Name="conPhoto9_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.42,0.27">
+                    <WZUI9Image Type="WZUI9Image" GUID="{ba2a79b7-2d36-4dff-8dfd-5ace11ffdf11}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a8cffe09-db4f-46f5-8c7f-ae0754b12d89}" Name="conPhoto10_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.58,0.27">
+                    <WZUI9Image Type="WZUI9Image" GUID="{77cc4c6f-995b-43cb-9fc4-0e0d6d189be8}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{586ff980-dade-42e0-8f1b-364c50e495a4}" Name="conPhoto11_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.74,0.27">
+                    <WZUI9Image Type="WZUI9Image" GUID="{7f44b749-de64-46f9-a871-7cc5d761c413}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{306a104c-ee60-4340-9f1a-1da9fce4db7a}" Name="conPhoto12_WndSpacePhoto" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.9,0.27">
+                    <WZUI9Image Type="WZUI9Image" GUID="{c0007ed1-2a68-4553-971a-c7a461162919}" File="ui/common/common_scale9_beibaodi.png" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndSpacePhoto>

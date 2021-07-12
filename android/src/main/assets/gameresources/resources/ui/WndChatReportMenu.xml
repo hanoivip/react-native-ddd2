@@ -1,0 +1,20 @@
+﻿<WndChatReportMenu GUID="{0fe22708-10e0-4c64-bc06-92ec1df9266e}">
+    <WZUIWindow Type="WZUIWindow" GUID="{2cc1d2b9-ff79-4e3d-a20f-71df1b6a4518}" LuaObjectName="WndChatReportMenu" Name="WndChatReportMenu" NameCreate="True" AbsContentSize="100,100" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{baecc16a-3c07-4807-be01-a8ccb7a1874d}" AbsContentSize="100,100" UseAbsSize="True" Name="conBtnReport_WndChatReportMenu" Visible="True">
+            <Button Type="WZUIButton" GUID="{825f5680-80a9-4d4b-90bc-adfa094d1cf3}" AbsContentSize="116,58" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickCopy" RelativePosition="0.5,0.75" Scale="0.8">
+                <NormalElement Type="WZUIContainer" GUID="{fcae2aaa-3adf-4a09-b5ec-518540228c58}" />
+                <SelectElement Type="WZUIContainer" GUID="{d3c0aaa3-907a-4ace-98ff-633142f0bd52}" />
+                <DisableElement Type="WZUIContainer" GUID="{dbba35ae-e4c2-421c-9764-ba9a8b6af015}" />
+                <WZUIImage Type="WZUIImage" GUID="{0c6acf49-6f56-431a-ad63-639516dec6c2}" File="ui/common/common_btn_anniu18_sel.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{31495c44-602e-4ba6-8db4-8e6a4d9b0bff}" LabelStyleKey="C1_F22_S4_C2" TextKey="COPY" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{ffbc4526-495e-4041-a029-a5265df5a9e2}" AbsContentSize="116,58" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickReport" RelativePosition="0.5,0.25" Scale="0.8">
+                <NormalElement Type="WZUIContainer" GUID="{47bc7ad8-5353-47c4-bfa5-efc746af455b}" />
+                <SelectElement Type="WZUIContainer" GUID="{7ad7cfa5-5498-41dc-9e00-9de1966ccb91}" />
+                <DisableElement Type="WZUIContainer" GUID="{9cdeb693-cc6f-44e5-9446-8ce11065993a}" />
+                <WZUIImage Type="WZUIImage" GUID="{acc74db3-7ba9-4b85-b2e7-b63356762c38}" File="ui/common/common_btn_anniu18_sel.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0f3eaa1-e6a7-409b-82a6-15698120d0de}" LabelStyleKey="C1_F22_S4_C2" TextKey="CHAT_REPORT_TEXT6" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndChatReportMenu>

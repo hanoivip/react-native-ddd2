@@ -1,0 +1,30 @@
+﻿<WndRemainsChallenge GUID="{af6f7e60-5133-4403-bc37-5ad65f81de4e}">
+    <WZUIContainer Type="WZUIContainer" GUID="{02ad78d6-5b1a-4211-a2dd-b7d17bf6be77}" Name="WndRemainsChallenge" AbsContentSize="766,532" UseAbsSize="True" LuaObjectName="WndRemainsChallenge" ShowAll="True" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{0b78deb8-84a5-4e00-bb9e-a0dd1e7ad58c}">
+            <WZUIContainer Type="WZUIContainer" GUID="{222829aa-68e6-40d5-9857-a8e4a87f7e0d}">
+                <WZUI9Image Type="WZUI9Image" GUID="{2f2a8d09-82bf-4929-9d84-7bf941dbc349}" File="ui/common/common_scale9_di19.png" CapInsets="130,70,14,10" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{3293ec25-1f14-4826-bdce-406a9dcc4d07}" LabelStyleKey="SMALL_WINDOW_TITLE" Text="" RelativePosition="0.5,0.936" TextKey="RELIC_TEXT_10" />
+            <WZUIContainer Type="WZUIContainer" GUID="{61982034-562f-4a9f-89b4-2b90a5ae5365}" UseAbsSize="True" AbsContentSize="40,40" RelativePosition="0.975,0.975" AnchorPoint="1,1" AbsPosition="0.5,0.5">
+                <Button Type="WZUIButton" GUID="{67aec695-dcb4-472f-a239-c4e989488c16}" LuaActionName="Normal" LuaDoneFunctionName="onCloseWindowBtn" RelativePosition="0.5,0.5">
+                    <NormalElement Type="WZUIContainer" GUID="{2ddf26e2-ffbb-4276-926d-eba579eb83a3}">
+                        <WZUIImage Type="WZUIImage" GUID="{f10e64f5-c482-4006-b4c8-1efad2618013}" File="ui/common/common_icon_guanbi.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{e6785fd8-242e-4a67-9577-58cff6f0cf38}">
+                        <WZUIImage Type="WZUIImage" GUID="{3d3e6aeb-264e-4ee9-9ff3-6a1e3fa41a59}" File="ui/common/common_icon_guanbi.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{fbe087e7-3bfe-4f30-9074-0f4c96136450}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{e3798543-32e0-49d3-8070-9851d82d1187}" UseAbsSize="True" AbsContentSize="754,414" RelativePosition="0.5,0.5">
+                <WZUI9Image Type="WZUI9Image" GUID="{1464d9e2-1f5e-4a4a-a21c-fbaf62b90c85}" File="ui/common/common_scale9_di20.png" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{65bf91eb-6c96-483b-8750-bcaf41f9f6d7}" Color="255,255,255" StrokeColor="128,54,13" StrokeSize="4" FontSize="22" TextKey="KING_REST_TIMES" Text="剩余时间" RelativePosition="0.0908586,0.933026" EnableStroke="True" Name="txtAttempt_WndRemainsChallenge">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{6adf29f7-850b-493a-9e10-eba7bc7f33d7}" AnchorPoint="0,0.5" RelativePosition="1.1,0.5" Text="2/2" StrokeColor="128,54,13" StrokeSize="4" Color="99,255,95" EnableStroke="True" FontSize="22" Dimensions="0,0" Name="txtLeftTime_WndRemainsChallenge" />
+            </WZUILabelTTF>
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{519550fe-cce7-4ed1-b9e5-51583f720124}" UseAbsSize="True" AbsContentSize="740.,400" RelativePosition="0.5,0.495" Name="flconChallenge_WndRemainsChallenge" Visible="True" EnableMoveHorizontal="False" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{948c8bb6-c78e-49b0-86dc-c2c4e9aa55dc}" Color="79,60,48" FontSize="20" TextKey="" Text="容量" RelativePosition="0.462419,0.0545715" Visible="False" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5d9badb0-dcf1-4951-b63e-5754908dc330}" AnchorPoint="0,0.5" Text="2/2" LabelStyleKey="C5_F20" RelativePosition="0.509911,0.0554429" Name="txtCapacity_WndRemainsChallenge" Visible="False" />
+        </WZUIContainer>
+    </WZUIContainer>
+</WndRemainsChallenge>

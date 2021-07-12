@@ -1,0 +1,13 @@
+﻿<CellDiscountLimitPanel GUID="{ecc16c36-dfcd-4fd0-aab5-a87d0debd3ed}">
+    <WZUIContainer Type="WZUIContainer" GUID="{df3f09bf-3420-4205-8b41-9da4139a4c3c}" LuaObjectName="CellDiscountLimitPanel" Name="CellDiscountLimitPanel" AbsContentSize="642,478" UseAbsSize="True" NameCreate="True">
+        <WZUIContainer AbsContentSize="642,48" GUID="{826639d6-b398-4b24-abf0-6f8718a21664}" RelativePosition="0,1" Type="WZUIContainer" UseAbsSize="True" AbsPosition="246,395.25" Name="" AnchorPoint="0,1" Order="1">
+            <WZUI9Image Type="WZUI9Image" GUID="{92b2734c-761c-495e-854c-b6971d2c524a}" File="ui/newActivity/activity_pic_hd_07.png" Opacity="255" UseOriginSizeProportion="False" UseOriginSize="False" />
+            <WZUILabelTTF AnchorPoint="0,0.5" Color="255,236,193" FontSize="20" GUID="{edd2c3f8-b037-40c4-b9bb-40efb6fafaea}" Name="txtTimeWord_CellDiscountLimitPanel" RelativePosition="0.0221894,0.5" Text="活动剩余" Type="WZUILabelTTF" EnableStroke="False" StrokeSize="4" StrokeColor="128,54,13" />
+            <WZUILabelTTF AnchorPoint="0,0.5" Color="255,255,255" FontSize="20" GUID="{de29e67e-fc32-4f4c-abb4-15a1da5a4718}" Name="txtTime_CellDiscountLimitPanel" RelativePosition="0.167349,0.5" Text="9天" Type="WZUILabelTTF" StrokeColor="158,0,0" StrokeSize="4" EnableStroke="False" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{ddd5e9a7-b2bc-48fc-926a-6990b2fe65cb}" AbsContentSize="620,412" UseAbsSize="True" RelativePosition="0.497,0.0190272" Name="conItem_CellDiscountLimitPanel" AnchorPoint="0.5,0" TouchEnable="True">
+            <WZUITableContainer Type="WZUITableContainer" GUID="{4b1d304b-01b1-4af8-bd8a-39c9eb0b7c36}" CellElementHeight="" ColumnCount="2" EnableMoveHorizontal="False" Name="tableList_CellDiscountLimitPanel" RelativeSize="1,1" VerticalAbsInterval="8" VerticalInterval="0" Resistance="1" HorizontalInterval="0.02" />
+        </WZUIContainer>
+        <WZUI9Image Type="WZUI9Image" GUID="{f9a3659a-911a-4755-ac76-58e988988604}" File="ui/common/frame_dadi_01.png" Order="-1" />
+    </WZUIContainer>
+</CellDiscountLimitPanel>

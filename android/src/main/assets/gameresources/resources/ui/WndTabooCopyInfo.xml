@@ -1,0 +1,72 @@
+﻿<WndTabooCopyInfo GUID="{f7633159-2401-4fcb-97cb-0c343fbbc98f}">
+    <WZUIWindow AbsContentSize="410,430" GUID="{91284278-a69c-4659-990c-05725afbafea}" LuaObjectName="WndTabooCopyInfo" Name="WndTabooCopyInfo" NameCreate="True" Type="WZUIWindow" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{c8ee78d5-a513-449f-81ad-fd698622cf8e}" AbsContentSize="410,430" UseAbsSize="True" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{ec805849-c9c3-4319-aa81-119fa169ef2b}" AbsContentSize="410,430" UseAbsSize="True" Visible="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{fbad4a29-46c2-4e0f-bc61-c5e26d86b029}" File="ui/common/common_scale9_di23.png" CapInsets="" RelativePosition="0.5,0.505" Visible="True" />
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="106,106" GUID="{82b1ac79-fb36-42d0-9c19-58ef3f4eed78}" Name="conIcon_WndTabooCopyInfo" RelativePosition="0.20634,0.814679" RelativeSize="1,0.1434" Type="WZUIContainer" UseAbsSize="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{23819a14-ca99-4d7b-9701-5a84176192cf}" File="ui/common/common_scale9_beibaodi2.png" />
+                <WZUIImage Type="WZUIImage" GUID="{f8d84c1b-9eb3-4736-90ec-8ef02f204fbc}" File="ui/common/common_scale9_wuse.png" RelativeSize="0.95,0.95" />
+                <WZUILabelTTF BoldFont="True" Color="255,255,255" EnableStroke="False" FontSize="24" GUID="{dbb27b98-0cff-45ae-a412-c12d5365c334}" RelativePosition="1.2,0.65" ShadowColor="0,0,0" ShadowOffset="0,0" StrokeColor="132,66,29" StrokeOffset="0,0" StrokeSize="4" Text="解锁宝箱" Type="WZUILabelTTF" Visible="True" AbsPosition="235,22" Name="txtName_WndTabooCopyInfo" TextKey="" AnchorPoint="0,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{69a88769-7d09-423b-9f42-6c4a1aa92a4d}" Name="imgMonsterIcon_WndTabooCopyInfo" UseOriginSize="True" />
+                <WZUILabelTTF BoldFont="True" Color="255,227,116" EnableStroke="False" FontSize="24" GUID="{f0877a21-be42-4af7-8b5a-3d2e3430c8d0}" RelativePosition="1.2,0.35" ShadowColor="0,0,0" ShadowOffset="0,0" StrokeColor="132,66,29" StrokeOffset="0,0" StrokeSize="4" Text="Lv34" Type="WZUILabelTTF" Visible="True" AbsPosition="235,22" Name="txtLevel_WndTabooCopyInfo" TextKey="" AnchorPoint="0,0.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{18f1bf86-19f1-4f8f-8bf1-7874a3b543c0}" AbsContentSize="350,150" UseAbsSize="True" RelativePosition="0.481616,0.48">
+                <WZUIContainer Type="WZUIContainer" GUID="{14bf7185-b09d-438d-8ce3-d16429d0dc09}" Name="con1_WndTabooCopyInfo" AbsContentSize="350,40" UseAbsSize="True" RelativePosition="0.5,0.8">
+                    <WZUIImage Type="WZUIImage" GUID="{2f6e5c88-f501-4b69-90df-794a3a06742c}" File="ui/common/common_icon_xingxing5.png" UseOriginSize="True" RelativePosition="0.0590874,0.5" Name="" Scale="0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{cdf210a4-295a-4fa9-bba3-f25480e5b2fd}" AnchorPoint="0,0.5" LabelStyleKey="C11_F22" Text="拉开点距离肯定" Name="txtCondition1_WndTabooCopyInfo" RelativePosition="0.11,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a14347fe-a6d2-43f7-9b18-454428ae9627}" AnchorPoint="1,0.5" LabelStyleKey="C1_F20" Text="" Name="txtValue1_WndTabooCopyInfo" RelativePosition="0.85,0.5" />
+                    <WZUIImage Type="WZUIImage" GUID="{f395e44a-a593-4aed-b117-f608967c0b11}" File="ui/common/common_icon_dacheng.png" UseOriginSize="True" RelativePosition="0.935503,0.5" Name="imgState1_WndTabooCopyInfo" Scale="0.8" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{0b58ed7d-6a97-4aec-b76a-3cae0b74e4c9}" Name="con2_WndTabooCopyInfo" AbsContentSize="350,40" UseAbsSize="True" RelativePosition="0.5,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{fb1821ce-7b15-4022-82a4-3e5dc0800d86}" File="ui/common/common_icon_xingxing5.png" UseOriginSize="True" RelativePosition="0.0590874,0.5" Name="" Scale="0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{66850f1f-b8a6-4308-ba2e-52690c3fca74}" AnchorPoint="0,0.5" LabelStyleKey="C11_F22" Text="拉开点距离肯定" Name="txtCondition2_WndTabooCopyInfo" RelativePosition="0.11,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{89f2442c-b9a1-4a5c-930e-7a04b1231e50}" AnchorPoint="1,0.5" LabelStyleKey="C1_F20" Text="" Name="txtValue2_WndTabooCopyInfo" RelativePosition="0.85,0.5" />
+                    <WZUIImage Type="WZUIImage" GUID="{a64f51fc-b8d9-47e9-846e-db8deccb6268}" File="ui/common/common_icon_dacheng.png" UseOriginSize="True" RelativePosition="0.935503,0.5" Name="imgState2_WndTabooCopyInfo" Scale="0.8" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a79307bb-8155-4f99-ad7f-be39a1ab259f}" Name="con3_WndTabooCopyInfo" AbsContentSize="350,40" UseAbsSize="True" RelativePosition="0.5,0.2">
+                    <WZUIImage Type="WZUIImage" GUID="{20368935-50ae-4482-bde5-27863ac60ea9}" File="ui/common/common_icon_xingxing5.png" UseOriginSize="True" RelativePosition="0.0590874,0.5" Name="" Scale="0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{1a4e5c2f-cb1e-4e74-b0d0-008b83fba632}" AnchorPoint="0,0.5" LabelStyleKey="C11_F22" Text="拉开点距离肯定" Name="txtCondition3_WndTabooCopyInfo" RelativePosition="0.11,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5229da83-f49a-407b-b6cd-0f7b65f2c299}" AnchorPoint="1,0.5" LabelStyleKey="C1_F20" Text="" Name="txtValue3_WndTabooCopyInfo" RelativePosition="0.85,0.5" />
+                    <WZUIImage Type="WZUIImage" GUID="{9174dec1-40bc-4da4-848d-f02933ba20bd}" File="ui/common/common_icon_dacheng.png" UseOriginSize="True" RelativePosition="0.935503,0.5" Name="imgState3_WndTabooCopyInfo" Scale="0.8" />
+                </WZUIContainer>
+                <WZUI9Image Type="WZUI9Image" GUID="{f226d19f-b08b-4505-af7f-94e2009d1b06}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" RelativePosition="0.5,1" ScaleX="1.8" />
+                <WZUI9Image Type="WZUI9Image" GUID="{1188523d-a4a3-4d40-b973-167c5afb6fea}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" RelativePosition="0.5,0" ScaleX="1.8" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{52f3f147-e3f4-4201-87d4-9efed37561f5}" AbsContentSize="410,70" UseAbsSize="True" RelativePosition="0.5,0.112383">
+                <Button Type="WZUIButton" GUID="{ce48f96e-9374-445d-9187-ee62beec1eb8}" AbsContentSize="116,58" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickGiveUp" RelativePosition="0.2,0.5" Tag="1">
+                    <NormalElement Type="WZUIContainer" GUID="{d7041c47-b838-4e78-bab3-b8222d236f2c}">
+                        <WZUIImage Type="WZUIImage" GUID="{8a09722d-e600-4258-8b6a-027cbec7b986}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{a50e6d76-c73a-4ee5-97bc-cb0a2971876c}">
+                        <WZUIImage Type="WZUIImage" GUID="{7a9ba1b2-7c40-407e-bc20-84184f07850e}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{f065abdb-1b06-4e04-b838-3a0e936b00d4}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c96f01d6-47e1-4f40-9a34-9895b5bb1b3f}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="TABOO_TEXT1" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{fe5bb58b-6dac-4933-8b77-16be9049cd85}" AbsContentSize="116,58" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickGiveUp" Tag="2">
+                    <NormalElement Type="WZUIContainer" GUID="{abf870bc-52b3-4829-911f-3d1f62a98150}">
+                        <WZUIImage Type="WZUIImage" GUID="{67debd5c-f337-455e-bc89-75a6c92988a0}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{a7ad7f35-97ac-4d52-85c6-b5e7f444d474}">
+                        <WZUIImage Type="WZUIImage" GUID="{22a3044b-6e54-4113-a34a-ca2506f9452f}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{14625e3b-e55c-4f45-bbcd-6b680a69540e}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{011f7015-b817-4c58-a5b4-c838beeec1cf}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="CHALLENGEENTRANCE_TITLE" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{60d733a6-ac32-4fe2-a501-b864de3a11d9}" AbsContentSize="116,58" UseAbsSize="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickGiveUp" RelativePosition="0.8,0.5" Tag="3">
+                    <NormalElement Type="WZUIContainer" GUID="{393f4ee6-b148-4d9b-8476-2075c1f9fdbe}">
+                        <WZUIImage Type="WZUIImage" GUID="{913933e7-f407-4b16-9703-f2851181261d}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{2922d772-e28b-4ea7-ab64-064e1db8326d}">
+                        <WZUIImage Type="WZUIImage" GUID="{e982994a-0353-4dce-9122-039b48f234d5}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{7ab22f1e-5724-4e7c-95e1-59c37506a6e1}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5bfcbabc-6191-49c2-a2a5-05847a7e4e8f}" LabelStyleKey="SMALL_GREEN_BTN" TextKey="WIPE_OUT" />
+                </Button>
+                <WZUIImage Type="WZUIImage" GUID="{204cd6ab-59d7-4e07-aba4-e78c2d45cd7e}" Name="imgCostIcon_WndTabooCopyInfo" File="shopitems/baoshi_gj_02.png" UseOriginSize="True" Scale="0.5" RelativePosition="0.8,1.2" AnchorPoint="1,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{7606548c-b61f-4d1b-a24e-13b7a372b148}" LabelStyleKey="C1_F22_S4_C3" Name="txtCostValue_WndTabooCopyInfo" Text="X12" RelativePosition="0.8,1.2" AnchorPoint="0,0.5" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndTabooCopyInfo>

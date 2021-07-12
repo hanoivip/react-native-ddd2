@@ -1,0 +1,31 @@
+﻿<CellReturneeInvitation GUID="{7a0fa6aa-8a53-4451-9fc9-32c37809ced8}">
+    <WZUIContainer Type="WZUIContainer" GUID="{2eb45c53-b32a-440e-aa2b-6c8916dcdc07}" Name="CellReturneeInvitation" AbsContentSize="620,390" UseAbsSize="True" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{0dbcda43-620f-4fbc-995c-e545928b02ba}">
+            <WZUIImage Type="WZUIImage" GUID="{6aa18110-a285-43bb-8d3e-42ec38d335f8}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{715070ff-9326-4745-9fe9-1aff35e01fcf}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.5,0.83" AnchorPoint="0.5,0.5" Name="txtTips_CellReturneeInvitation" TextKey="RETURNEE_TEXT2" />
+            <WZUIContainer Type="WZUIContainer" GUID="{397918c0-685a-459c-bd12-176cbc742fd6}" UseAbsSize="True" AbsContentSize="220,38" RelativePosition="0.5,0.7">
+                <WZUI9Image Type="WZUI9Image" GUID="{ce095f65-bfd6-4b82-ab3a-73cfdcbe8e48}" File="ui/common/common_scale9_di58.png" />
+                <WZUIEditBox Type="WZUIEditBox" GUID="{d3f89503-59cb-473b-8b28-a7b6ad474993}" Text="" FontSize="22" PlaceHolder="" BgPicture="ui/common/transparent_bg.png" FontColor="255,255,255" PlaceholderFontColor="158,139,121" Name="editCode_CellReturneeInvitation" LuaEditBoxReturn="" MaxLength="20" Dimensions="180,25" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{0c478122-3ad8-4e80-b876-fb09e1483f81}" UseAbsSize="True" AbsContentSize="450,110" RelativePosition="0.5,0.46">
+                <WZUI9Image Type="WZUI9Image" GUID="{51ae0740-06e0-48df-b24b-beee70491e32}" File="ui/gameActivity/returnee/daozhu_di.png" />
+            </WZUIContainer>
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{532c617c-dfee-44b9-8cf1-12063c86a7f7}" Name="flconItem_CellReturneeInvitation" EnableMoveVertical="False" ListOrient="Horizontal" AbsContentSize="400,100" UseAbsSize="True" RelativePosition="0.5,0.46" ListItemInterval="20" />
+            <WZUIImage Type="WZUIImage" GUID="{bb3c1468-2e2e-457e-bccd-9a253c33b573}" UseOriginSize="True" File="ui/common/commom_icon_ylq.png" RelativePosition="0.5,0.333333" Name="imgGet_CellReturneeInvitation" Visible="False" />
+            <Button Type="WZUIButton" GUID="{f0b42ff8-aafb-40a2-8d15-40206cdd17e5}" Name="btnConfirm_CellReturneeInvitation" Visible="True" LuaDoneFunctionName="onConfirm" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal" RelativePosition="0.5,0.165">
+                <NormalElement Type="WZUIContainer" GUID="{20337e1e-2842-4926-8827-7703a9791b27}">
+                    <WZUI9Image Type="WZUI9Image" GUID="{e4149283-1a2d-408f-9a3e-fc0454d4f6d4}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{637474f0-37c6-4944-82ea-6a8732b39ffc}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtConfirm1_CellReturneeInvitation" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" Font="" LabelStyleKey="SMALL_GREEN_BTN" TextKey="CONFIRM" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{65b96f28-31b3-433b-8c56-61f0ad645e7d}">
+                    <WZUI9Image Type="WZUI9Image" GUID="{1b4a7a75-3733-4256-bf0c-78d066d0ba6c}" File="ui/common/common_btn_anniu10_0_sel.png" Scale="1" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a584e4a2-6d09-4e70-9791-ecf45031d1a2}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtConfirm2_CellReturneeInvitation" Font="" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="SMALL_GREEN_BTN" TextKey="CONFIRM" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{8088aa9d-a3ec-48ba-b82e-390c76c50524}">
+                    <WZUI9Image Type="WZUI9Image" GUID="{799b5076-df0f-4b09-a022-8544d0e9318d}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d2c735c6-2889-405e-9703-ad8da206d296}" Color="255,236,193" FontSize="24" NameCreate="True" Text="" Name="txtConfirm3_CellReturneeInvitation" Font="" EnableStroke="True" StrokeColor="3,111,8" StrokeSize="4" LabelStyleKey="SMALL_GRAY_BTN" TextKey="CONFIRM" />
+                </DisableElement>
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeInvitation>

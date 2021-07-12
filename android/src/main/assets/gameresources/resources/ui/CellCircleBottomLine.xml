@@ -1,0 +1,5 @@
+﻿<CellCircleBottomLine GUID="{523dc14e-faf3-4699-afbe-5f8aec9e2409}">
+    <WZUIContainer Type="WZUIContainer" GUID="{9ed55b86-a227-4b09-a2d7-b606d67e2c42}" Name="CellCircleBottomLine" NameCreate="True" AbsContentSize="920,20" UseAbsSize="True">
+        <WZUIImage Type="WZUIImage" GUID="{68e98f50-426e-4447-951b-210a06bd024f}" File="ui/common/frame_fengexian_01.png" UseOriginSize="True" RelativePosition="0.5,0.5" ScaleX="30" AnchorPoint="0.5,0.5" />
+    </WZUIContainer>
+</CellCircleBottomLine>

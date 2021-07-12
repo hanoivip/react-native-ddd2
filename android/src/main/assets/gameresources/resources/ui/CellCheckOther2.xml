@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<CellCheckOther2 GUID="{C29FC553-C8DF-49d5-BB59-5C054DD42D20}">
+    <WZUIContainer Type="WZUIContainer" GUID="{414B6B99-8126-4d75-8B86-5E56D5CB3E0D}" AbsContentSize="480,80" UseAbsSize="True" Name="CellCheckOther2" LuaObjectName="CellCheckOther2" RelativePosition="0.5,0.5">
+        <WZUIContainer Type="WZUIContainer" GUID="{762ea4ff-3bf5-4632-b9b6-0c68a4a3e875}" Name="conForTitle_CellCheckOther2" UseAbsSize="True" AbsContentSize="50,70" RelativePosition="0.008,0.5" AnchorPoint="0,0.5" />
+        <WZUIContainer AbsContentSize="440,70" AnchorPoint="0.5,0.5" GUID="{59241fe1-87b9-4a4a-a287-ca143caff34d}" RelativePosition="0.545,0.5" Type="WZUIContainer" UseAbsSize="True" Name="conSave" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{04cb7033-db08-49b0-af84-b2a973633bd0}" File="ui/common/common_scale9_di21.png" />
+            <WZUIEditBox AnchorPoint="0.5,1" BgPicture="ui/common/transparent_bg.png" ChinesePlaceholderNum="0" Color="255,236,193" Dimensions="80,0" FontColor="255,236,193" FontSize="20" GUID="{91558cb0-e9f7-4c01-89e3-79eee0e8735d}" KeyBordReturnType="TypeDone" LuaEditBoxEditingDidEnd="onReturn" LuaEditBoxReturn="" LuaEditBoxTextChanged="onChangeSignature" MaxLength="60" MultiLine="True" Name="editSign_CellCheckOther2" PlaceholderFontColor="255,236,193" RelativePosition="0.437274,0.85" RelativeSize="0.82,0.7" Text="123" TouchEnable="False" Type="WZUIEditBox" AbsPosition="239.7,55.0541" PlaceHolder="" PlaceHolderAlignment="0" VerticalAlignment="0" VerticalPlaceHolderAlignment="0" />
+            <WZUIButton AbsContentSize="53,32" AnchorPoint="1,0.5" GUID="{90275f84-8960-43a0-beea-bad50723f3d8}" LuaDoneFunctionName="onSaveClick" Name="btnSave_CellCheckOther2" RelativePosition="0.968609,0.328571" Scale="1" TouchEnable="True" Type="WZUIButton" UseAbsSize="True" Visible="True" ScaleX="1" ScaleY="1" AbsPosition="454.7,17.85">
+                <NormalElement GUID="{1412c83d-4f57-4765-94aa-c1631bb9d4bf}" Type="WZUIContainer">
+                    <WZUI9Image CapInsets="0,0,0,0" File="ui/bag/common_icon_xf.png" GUID="{24c302e8-317a-443d-9c83-1dd6f9a30818}" Type="WZUI9Image" UseOriginSize="True" RelativePosition="0.5,0.5" Name="imgSave1_CellCheckOther2" />
+                </NormalElement>
+                <SelectElement GUID="{587aa9bc-67c7-455c-ad7e-c6a330025e1b}" Type="WZUIContainer">
+                    <WZUI9Image CapInsets="0,0,0,0" File="ui/bag/common_icon_xf.png" GUID="{7c4a1abd-5b33-4270-9fc1-4d46fca6cc64}" Type="WZUI9Image" Name="imgSave2_CellCheckOther2" />
+                </SelectElement>
+                <DisableElement GUID="{4d1e82d5-e841-4161-8e74-ea3e984469db}" Type="WZUIContainer">
+                    <WZUI9Image CapInsets="0,0,0,0" File="ui/bag/common_icon_xf.png" GUID="{ee8e51b5-55dd-40d9-bcc1-541377e260e7}" Type="WZUI9Image" Name="imgSave3_CellCheckOther2" />
+                </DisableElement>
+            </WZUIButton>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCheckOther2>

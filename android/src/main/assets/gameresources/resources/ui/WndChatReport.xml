@@ -1,0 +1,91 @@
+﻿<WndChatReport GUID="{381ae944-5b9a-4366-9ed0-944eb5ddf05a}">
+    <WZUIWindow Type="WZUIWindow" GUID="{c8ae3336-4d8f-47f0-b919-982e54e4b06e}" LuaObjectName="WndChatReport" Name="WndChatReport" NameCreate="True" AbsContentSize="380,510" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{2ee3cc7d-b7e7-4424-bff0-1a5f1f0a95f4}">
+            <WZUI9Image Type="WZUI9Image" GUID="{3b6f8ad2-4db3-4e2c-8495-c2f56cf3270e}" File="ui/common/common_scale9_di34.png" />
+            <WZUIContainer Type="WZUIContainer" GUID="{96fd8fd6-0fd9-4c3e-8517-247725d66452}" AbsContentSize="360,85" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.99">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{91f20dd6-22fd-4de4-935f-8956436400e3}" LabelStyleKey="C2_F22" TextKey="CHAT_REPORT_TEXT2" AnchorPoint="0,0.5" RelativePosition="0.05,0.65" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2f9503c1-376e-4c15-89e0-db61d9fe6a8c}" Color="138,122,106" FontSize="18" AnchorPoint="0,1" RelativePosition="0.05,0.45" TextKey="" Text="啊减肥的拉萨减肥" Dimensions="340,0" Alignment="Left" Name="txtReportedPlayer_WndChatReport" />
+                <WZUIImage Type="WZUIImage" GUID="{683e4fa3-ea9e-4cbf-994a-dae345fab77d}" File="ui/common/common_scale9_fengexian7.png" UseOriginSize="True" ScaleX="1.8" RelativePosition="0.5,0" ScaleY="0.9" Opacity="185" />
+            </WZUIContainer>
+            <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{e07eb4e4-2fce-4041-8b1c-b46473bb75f5}" AbsContentSize="366,234" UseAbsSize="True" Name="checkgroupList_WndChatReport" RelativePosition="0.5,0.6">
+                <CheckBox Type="WZUICheckBox" GUID="{71b658e8-d688-40fc-b8a2-90ddb0371894}" Tag="0" AbsContentSize="200,40" UseAbsSize="True" RelativePosition="0.33,0.87" SelectedIndex="0" LuaCheckedFunctionName="onClickBox">
+                    <CheckElement Type="WZUIContainer" GUID="{1ec852eb-8d90-457a-888e-723d3f9410c3}">
+                        <WZUIImage Type="WZUIImage" GUID="{715a9c89-272c-4934-a8e1-d4f864567984}" File="ui/common/common_icon_diandian3.png" UseOriginSize="True" Opacity="78" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{d6cd38f5-11a3-42e2-8d75-1eeb3a82b30a}" LabelStyleKey="C5_F20" Name="txtCheck1_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchEnable="True" TouchSwallow="True" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{1012bdc0-8651-41cc-a9f9-80ee4f82e792}">
+                        <WZUIImage Type="WZUIImage" GUID="{53cdf136-5a31-4f41-a8f7-9aeb091fa171}" File="ui/common/common_icon_diandian2_1.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ae016240-7875-45ad-af2a-3ad418abb866}" LabelStyleKey="C10_F20" Name="txtCheckSel1_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchEnable="True" TouchSwallow="True" />
+                    </CheckElement>
+                </CheckBox>
+                <CheckBox Type="WZUICheckBox" GUID="{bd8b5ce3-0347-4f34-a60b-10dc806fa7b8}" Tag="1" AbsContentSize="200,40" UseAbsSize="True" RelativePosition="0.33,0.685" LuaCheckedFunctionName="onClickBox">
+                    <CheckElement Type="WZUIContainer" GUID="{5de2eb65-d200-4b20-a498-f8b403233e7f}">
+                        <WZUIImage Type="WZUIImage" GUID="{cbbf746f-e341-480a-b112-ff9e7fed6350}" File="ui/common/common_icon_diandian3.png" UseOriginSize="True" Opacity="78" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{6ad829f6-df78-4de1-9f18-9b41b834db4d}" LabelStyleKey="C5_F20" Name="txtCheck2_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{f6f2af77-8c25-45ce-bb33-af14f161020e}">
+                        <WZUIImage Type="WZUIImage" GUID="{7dfde20d-6f4c-48a0-97a9-bc9b4fe4ddbe}" File="ui/common/common_icon_diandian2_1.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{33d30150-38e2-487d-86b6-30a944b4189a}" LabelStyleKey="C10_F20" Name="txtCheckSel2_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                </CheckBox>
+                <CheckBox Type="WZUICheckBox" GUID="{363b6bfd-de3e-4f58-8675-0c762b2d0adc}" Tag="2" AbsContentSize="200,40" UseAbsSize="True" RelativePosition="0.33,0.5" LuaCheckedFunctionName="onClickBox">
+                    <CheckElement Type="WZUIContainer" GUID="{5bc45347-48a1-452f-b621-e05865ac29e9}">
+                        <WZUIImage Type="WZUIImage" GUID="{b980cda3-adef-4268-9bf3-6c9ed069abe1}" File="ui/common/common_icon_diandian3.png" UseOriginSize="True" Opacity="78" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c536cbed-1a10-456c-8c26-45dc33223975}" LabelStyleKey="C5_F20" Name="txtCheck3_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{ee8f61a2-411f-4b10-b73b-95c78589941f}">
+                        <WZUIImage Type="WZUIImage" GUID="{e996c5c9-aafd-4e10-b28a-d519c45e79f4}" File="ui/common/common_icon_diandian2_1.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b39e646e-cab8-4b61-ae49-e1e28f601c05}" LabelStyleKey="C10_F20" Name="txtCheckSel3_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                </CheckBox>
+                <CheckBox Type="WZUICheckBox" GUID="{919574ef-4a98-432b-a4c7-9c72c03cdd29}" Tag="3" AbsContentSize="200,40" UseAbsSize="True" RelativePosition="0.33,0.315" LuaCheckedFunctionName="onClickBox">
+                    <CheckElement Type="WZUIContainer" GUID="{3fe3c06e-d51c-4177-831c-1ee6b623924a}">
+                        <WZUIImage Type="WZUIImage" GUID="{288811de-4dd9-4d57-a9cc-93a3e77f14b0}" File="ui/common/common_icon_diandian3.png" UseOriginSize="True" Opacity="78" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{202d3aaa-402e-470a-8b9d-86d61e0df7e2}" LabelStyleKey="C5_F20" Name="txtCheck4_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{30886303-8c99-4905-bd08-9eeb019fa4c0}">
+                        <WZUIImage Type="WZUIImage" GUID="{8206d0af-4ad0-4910-8b2e-85039ef75667}" File="ui/common/common_icon_diandian2_1.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f1f7cc1e-72bf-4213-b911-ffec5f05899a}" LabelStyleKey="C10_F20" Name="txtCheckSel4_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                </CheckBox>
+                <CheckBox Type="WZUICheckBox" GUID="{eb1d7d01-4181-4d8a-91a1-d21924709c6f}" Tag="4" AbsContentSize="200,40" UseAbsSize="True" RelativePosition="0.33,0.13" LuaCheckedFunctionName="onClickBox">
+                    <CheckElement Type="WZUIContainer" GUID="{c2c819d7-0422-4c2b-b9d7-5b2c17d473f4}">
+                        <WZUIImage Type="WZUIImage" GUID="{753de3eb-9862-4fc9-a97c-0b311d0eb468}" File="ui/common/common_icon_diandian3.png" UseOriginSize="True" Opacity="78" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{96ab1bca-925a-4ecd-9d6e-66ebf792c05b}" LabelStyleKey="C5_F20" Name="txtCheck5_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                    <CheckElement Type="WZUIContainer" GUID="{eda517d7-4fc9-441d-8a4e-3aab75834214}">
+                        <WZUIImage Type="WZUIImage" GUID="{f0296ebc-4a13-4164-9cd6-4a70fa0dcc08}" File="ui/common/common_icon_diandian2_1.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2b17a990-d670-45bf-8ccd-b652493ff602}" LabelStyleKey="C10_F20" Name="txtCheckSel5_WndChatReport" AnchorPoint="0,0.5" RelativePosition="0.12,0.5" Text="嘿嘿嘿嘿嘿嘿嘿" TouchSwallow="True" />
+                    </CheckElement>
+                </CheckBox>
+            </WZUICheckBoxGroup>
+            <WZUIContainer Type="WZUIContainer" GUID="{043a5158-9ec8-4ecd-b21e-d53b0d6469cf}" AbsContentSize="366,108" UseAbsSize="True" RelativePosition="0.5,0.262745">
+                <WZUIImage Type="WZUIImage" GUID="{1949c4e0-de5e-4e63-9d78-9c6a3778cf98}" File="ui/common/common_scale9_fengexian7.png" UseOriginSize="True" ScaleX="1.8" RelativePosition="0.5,1" ScaleY="0.9" Opacity="185" AnchorPoint="0.5,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{70fc2fc8-465f-42d2-bf02-85353c916545}" File="ui/common/common_scale9_fengexian7.png" UseOriginSize="True" ScaleX="1.8" RelativePosition="0.5,0" ScaleY="0.9" Opacity="185" />
+                <WZUIEditBox AnchorPoint="0.5,1" BgPicture="ui/common/transparent_bg.png" ChinesePlaceholderNum="0" Color="62,34,8" Dimensions="80,0" FontColor="62,34,8" FontSize="20" GUID="{d26a73c6-0801-448e-aaa4-9fb02a0733fa}" KeyBordReturnType="TypeDone" LuaEditBoxEditingDidEnd="onReturn" LuaEditBoxReturn="" LuaEditBoxTextChanged="onChangeSignature" MaxLength="60" MultiLine="True" Name="editSign_WndChatReport" PlaceholderFontColor="138,122,106" RelativePosition="0.51,0.95" RelativeSize="0.95,0.9" Text="123" TouchEnable="False" Type="WZUIEditBox" AbsPosition="239.7,55.0541" PlaceHolder="" PlaceHolderAlignment="0" VerticalAlignment="0" VerticalPlaceHolderAlignment="0" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{74dcf7ca-e473-428c-a587-a81b7c1b12c8}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.28,0.08" Scale="0.9" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onCLickCancel">
+                <NormalElement Type="WZUIContainer" GUID="{1bbbe356-70e3-43ec-b2bd-6cf480b6d08c}">
+                    <WZUIImage Type="WZUIImage" GUID="{4aba2ec3-9393-4206-84ac-0e38d7ba4b7b}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{bb2662ac-cd3e-458f-be43-8c6b1c3040e0}" TextKey="CANCEL" LabelStyleKey="SMALL_GREEN_BTN" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{1d6523b8-a9a0-46f0-a6b2-6dad92ce3fb9}">
+                    <WZUIImage Type="WZUIImage" GUID="{98c60046-e779-4765-ad78-4fbd7512cb24}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{01b8669f-391b-49ef-b764-c530f38419aa}" TextKey="CANCEL" LabelStyleKey="SMALL_GREEN_BTN" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{8d963439-9b94-46ac-a605-382287abb8c3}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{98fbb0ce-389d-49da-b363-eb2b5ceedd1f}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.72,0.08" Scale="0.9" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickSure">
+                <NormalElement Type="WZUIContainer" GUID="{a673e3c3-6be9-4251-a40b-03421726e1d0}">
+                    <WZUIImage Type="WZUIImage" GUID="{e69f66d8-1b5a-43da-a724-f48eebda7db3}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{2c3af94e-31f9-4346-8718-fbf894d5b630}" TextKey="CONFIRM" LabelStyleKey="SMALL_ORANGE_BTN" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{450018c3-d008-4a2d-9dcc-167311c99f83}">
+                    <WZUIImage Type="WZUIImage" GUID="{e83e0c3a-fa2c-412a-8f45-576db69ca201}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{6bf616c0-1bdb-49d0-9e95-3522d84a43b6}" TextKey="CONFIRM" LabelStyleKey="SMALL_ORANGE_BTN" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{d6ce37f5-b7e6-4908-a9da-0bcc06970645}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndChatReport>

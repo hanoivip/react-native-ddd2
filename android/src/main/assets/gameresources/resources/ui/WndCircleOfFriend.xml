@@ -1,0 +1,24 @@
+﻿<WndCircleOfFriend GUID="{e566bce6-3109-4226-a5f5-d67005244b4e}">
+    <WZUIWindow Type="WZUIWindow" GUID="{9fc2f97c-5387-486d-8b09-ac0c5b1a5c78}" AbsContentSize="920,510" Name="WndCircleOfFriend" LuaObjectName="WndCircleOfFriend" UseAbsSize="True" ShowAll="True" LuaTouchBeganFunction="onTouchBegin" RelativePosition="0.48,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{e10e0182-6948-4c96-81ff-467746d40841}" AbsContentSize="" UseAbsSize="False" Visible="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{0c85b34f-e967-44ff-93df-2a1643ceae16}">
+                <WZUI9Image Type="WZUI9Image" GUID="{f87a5658-80a4-406f-a094-4151d2f3e191}" File="ui/common/frame_tc_xiao.png" CapInsets="" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{0617b416-963c-4232-891a-554e6f911d6f}" AbsContentSize="920,55" UseAbsSize="True" RelativePosition="0.499763,0.947735">
+                <Button Type="WZUIButton" GUID="{826940af-f180-4f2f-9319-d6964fb7e6ba}" LuaDoneFunctionName="onCloseClick" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.964413,0.500001" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{165e65f6-a508-4502-9dbc-4de3564d85c5}" UseAbsSize="False">
+                        <WZUIImage Type="WZUIImage" GUID="{e9d02d55-f3ad-44a9-9eef-c9a3bb448b71}" File="ui/common/common_icon_guanbi.png" UseOriginSizeProportion="False" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{a12d638e-64af-4c28-9685-033946d84e5a}">
+                        <WZUIImage Type="WZUIImage" GUID="{b76d1fcc-2bfb-42f3-b6f5-ad996eeaae79}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{0373c2fd-2670-4552-a3b8-f0447e4728a4}" />
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f4aaf79d-0e02-4446-b4a6-bc9feeaf885a}" StrokeSize="4" StrokeColor="132,66,29" Color="255,236,192" EnableStroke="True" FontSize="26" TextKey="" RelativePosition="0.5,0.463636" Name="txtTitle_WndCircleOfFriend" Text="" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{392e3e2c-b52f-4f18-b2b4-fbe9566e0ced}" AbsContentSize="920,454" UseAbsSize="True" RelativePosition="0.498877,0.453602" Name="conCircle_WndCircleOfFriend">
+                <WZUIFreeListContainer AbsContentSize="920,434" EnableMoveHorizontal="False" GUID="{4c8e4de6-09df-4f35-a709-5145aad78e48}" Name="flCircleFriend_WndCircleOfFriend" RelativePosition="0.5,0.504415" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndCircleOfFriend>

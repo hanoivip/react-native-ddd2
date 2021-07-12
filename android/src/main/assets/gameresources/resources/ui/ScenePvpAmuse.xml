@@ -1,0 +1,10 @@
+﻿<ScenePvpAmuse GUID="{1361e64e-53fa-4003-b32b-8d59162a9d3b}">
+    <WZUIFrame Type="WZUIFrame" GUID="{867add1b-d680-4365-a3d9-3b45f77d24bf}" Name="ScenePvpAmuse" LuaObjectName="ScenePvpAmuse" LuaTouchBeganFunction="onTouchBegin">
+        <WZUI9Image Type="WZUI9Image" GUID="{e9e118af-dfcf-457e-beba-68c585152793}" File="ui/common_bg/common_bg.png" Visible="True" Name="" UseOriginSize="True" Scale="1" />
+        <WZUIParticle Type="WZUIParticle" GUID="{0fb1b25b-e769-4e47-8845-802f2f6aa262}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+        <WZUIContainer Type="WZUIContainer" GUID="{c4733810-c2ec-47b9-b575-fa84aa82361a}" RelativeSize="1,0.8" AbsContentSize="940,400" UseAbsSize="True" RelativePosition="0.50088,0.517187" ShowAll="True">
+            <WZUITableContainer Type="WZUITableContainer" GUID="{e2a3f2ef-b6c3-4446-b5d0-ebfb50603b4c}" IsVerticalMode="False" Name="tableList_ScenePvpAmuse" EnableMoveVertical="False" CellElementHeight="0.182" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bc74998c-d89b-4a7d-961a-dbbce07bb9aa}" AnchorPoint="0,0.5" Text="" LabelStyleKey="C1_F20_S4_C2" RelativePosition="0,-0.06" Name="txtCoinDrop_ScenePvpAmuse" />
+        </WZUIContainer>
+    </WZUIFrame>
+</ScenePvpAmuse>

@@ -1,0 +1,342 @@
+﻿<WndDressCastSoul GUID="{b7f5e8b1-71bf-43a4-8ebb-e827758d84e3}">
+    <WZUIWindow Type="WZUIWindow" GUID="{81b0b128-caba-4ba4-870e-8191fcb7d18d}" LuaObjectName="WndDressCastSoul" Name="WndDressCastSoul" NameCreate="True" AbsContentSize="1136,640" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" LuaTouchMovedFunction="onTouchMove" LuaTouchEndedFunction="onTouchEnd">
+        <WZUIContainer Type="WZUIContainer" GUID="{c0126ceb-2ac6-4295-b63e-f8e7404cf50e}">
+            <WZUIImage Type="WZUIImage" GUID="{fdfbb479-69bf-4d1b-ba05-41482a9325f5}" File="ui/common_bg/common_scale9_di2.png" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{a593760a-223b-4178-9d84-8519fe789ab9}" Name="" AbsContentSize="960,550" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.45" UseAbsSize="True" Order="0" Visible="True" ShowAll="True" NoBorder="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{3ce549a8-ce6e-4269-8afa-7db8484f37bd}" AbsContentSize="1236,500" UseAbsSize="True" RelativePosition="0.5,0.43" ShowAll="False" Visible="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{abefb2fb-cf27-48cb-a475-56b54001e922}" File="ui/common/common_scale9_di72_1.png" Name="imgMidBg_WndDressCastSoul" ScaleX="1.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{27690703-b5f9-4f3e-b31f-a7b8783b96c7}" Name="conTopMenu_WndDressCastSoul" RelativeSize="1,0.1" RelativePosition="0.5,0.949" Visible="True">
+                <WZUICheckBoxGroup AbsContentSize="940,55" AnchorPoint="0.5,0.5" GUID="{9927ae05-661e-4723-a1cd-3449e4ec36d1}" Name="checkGroup_WndDressCastSoul" Order="2" RelativePosition="0.5,0.5" Type="WZUICheckBoxGroup" UseAbsSize="True">
+                    <CheckBox AbsContentSize="150,50" AnchorPoint="0.5,0.5" GUID="{8f973d3a-833e-4a83-a21e-2a1b923543e2}" LuaCheckedFunctionName="onTabDress" Name="checkbox1_WndDressCastSoul" RelativePosition="0.15,0.5" SelectedIndex="1" Type="WZUICheckBox" UseAbsSize="True" AbsPosition="51.7495,14.3">
+                        <CheckElement GUID="{984fb73b-528a-4d01-ac88-b806a78be983}" RelativePosition="0.5,0.5" Type="WZUIContainer" AbsContentSize="150,50">
+                            <WZUI9Image File="ui/hero/common_btn_anniu17.png" GUID="{bfa0e81c-7a54-40fb-a66b-5586a06e68a9}" Type="WZUI9Image" UseOriginSize="False" Scale="1" ScaleX="1" ScaleY="1" Color="255,255,255" />
+                            <WZUILabelTTF BoldFont="True" Color="255,236,193" EnableStroke="True" FontSize="22" GUID="{d108ec01-8786-446b-be92-a2b01462808e}" Name="" RelativePosition="0.5,0.5" StrokeColor="79,60,48" StrokeSize="4" Type="WZUILabelTTF" Text="" TextKey="DRESS" LabelStyleKey="C1_F24_S4_C2" />
+                        </CheckElement>
+                        <CheckElement GUID="{6af0753b-e352-437c-b459-81c8e880e58b}" RelativePosition="0.5,0.5" Type="WZUIContainer" AbsPosition="43,22.034" AbsContentSize="150,40">
+                            <WZUI9Image File="ui/hero/common_btn_anniu17_sel.png" GUID="{a7366489-b32f-4414-879c-bef426caa6e8}" Type="WZUI9Image" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="False" RelativePosition="0.5,0.5" AbsPosition="43,20" />
+                            <WZUILabelTTF BoldFont="True" Color="79,60,48" EnableStroke="False" FontSize="24" GUID="{8dc0d6f2-ef9a-4868-84a9-020d74353a60}" Name="" RelativePosition="0.5,0.5" StrokeColor="60,19,12" StrokeSize="1" Type="WZUILabelTTF" Text="" TextKey="DRESS" LabelStyleKey="C1_F24_S4_C2" />
+                        </CheckElement>
+                    </CheckBox>
+                    <CheckBox AbsContentSize="150,50" GUID="{c18e8f10-307b-487e-b07f-8ce0192ecc15}" LuaCheckedFunctionName="onTabWing" Name="checkbox2_WndDressCastSoul" RelativePosition="0.35,0.5" SelectedIndex="0" Type="WZUICheckBox" UseAbsSize="True" AbsPosition="320.906,15.3">
+                        <CheckElement GUID="{60b9608a-a751-4094-9c96-e1c6151c5a62}" Type="WZUIContainer" RelativePosition="0.5,0.5">
+                            <WZUI9Image File="ui/hero/common_btn_anniu17.png" GUID="{13aa7bff-2545-4767-a8ba-b4cc08a417ff}" Type="WZUI9Image" UseOriginSize="False" Scale="1" ScaleX="1" ScaleY="1" Color="255,255,255" />
+                            <WZUILabelTTF BoldFont="True" Color="255,236,193" EnableStroke="True" FontSize="22" GUID="{2ea4b994-8b1f-41de-b950-690fc3938ff6}" Name="txtCheck1_WndDressCastSoul" RelativePosition="0.5,0.5" StrokeColor="79,60,48" StrokeSize="4" Type="WZUILabelTTF" Text="" TextKey="WING" LabelStyleKey="C1_F24_S4_C2" />
+                        </CheckElement>
+                        <CheckElement GUID="{d2c0eca1-0b3b-401e-9a75-2c9f57a5b8c4}" Type="WZUIContainer" RelativePosition="0.5,0.5" AbsPosition="43,21.008">
+                            <WZUI9Image File="ui/hero/common_btn_anniu17_sel.png" GUID="{c7f62830-d1b9-439d-9d87-4bdb8078aa4d}" Type="WZUI9Image" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="False" RelativePosition="0.5,0.5" AbsPosition="43,21" />
+                            <WZUILabelTTF BoldFont="True" Color="79,60,48" EnableStroke="False" FontSize="24" GUID="{0214cd1b-fcdf-4c33-996c-466bcd499448}" Name="txtCheckSel1_WndDressCastSoul" RelativePosition="0.5,0.5" StrokeColor="60,19,12" StrokeSize="1" Type="WZUILabelTTF" Text="" TextKey="WING" LabelStyleKey="C1_F24_S4_C2" />
+                        </CheckElement>
+                    </CheckBox>
+                </WZUICheckBoxGroup>
+                <Button Type="WZUIButton" GUID="{ff602b43-0412-4229-8851-e1fb7c9e71eb}" LuaActionName="Normal" AnchorPoint="0.5,0.5" RelativePosition="0.815,0.3" UseAbsSize="True" AbsContentSize="120,55" ShowAll="False" LuaDoneFunctionName="onClickRule" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{4ec8e6c6-feb4-40fd-b8e3-8b8e409c68fb}">
+                        <WZUIImage Type="WZUIImage" GUID="{aea99412-77e1-4dad-bff8-bbdee442b0e2}" File="ui/common/common_icon_wfjs.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{992d27d2-8b27-45a9-9dc2-cea52f25430f}">
+                        <WZUIImage Type="WZUIImage" GUID="{9c0cb675-e52b-49f0-a21a-55ba932b1571}" File="ui/common/common_icon_wfjs.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{c3acba6f-ce73-48bb-b7e9-30f114b43d45}" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{b0da4010-999d-4ad8-be11-71a1f1f66d48}" LuaActionName="Normal" AnchorPoint="0.5,0.5" RelativePosition="0.935,0.55" UseAbsSize="True" AbsContentSize="70,65" ShowAll="False" LuaDoneFunctionName="onTabProperty">
+                    <NormalElement Type="WZUIContainer" GUID="{30bc097d-2e89-4692-a73f-6316c9fe4a17}" />
+                    <SelectElement Type="WZUIContainer" GUID="{049eee71-e5e1-4241-8079-5327f6fe7bde}" />
+                    <DisableElement Type="WZUIContainer" GUID="{f5ebb1eb-3e67-4995-8d66-92f0f71adfaa}" />
+                    <WZUIImage Type="WZUIImage" GUID="{8d796695-f472-4750-9d6b-097e25390510}" File="ui/common/common_icon_shuxingtb.png" UseOriginSize="True" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{67e87981-b88b-45a1-ac0b-d2e2febec1e2}" Name="conMain_WndDressCastSoul" RelativeSize="1,0.9" RelativePosition="0.5,0.435" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{5e58c906-b27f-413d-b4d4-c51e9b5be5ad}" AbsContentSize="600,500" UseAbsSize="True" RelativePosition="0.315,0.5" Name="conLeftList_WndDressCastSoul">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{18f99ab1-65fd-42b4-be1b-8ac4e19d56b6}" FontSize="22" Name="txtCollectWord_WndDressCastSoul" AnchorPoint="0,0.5" RelativePosition="0.06,0.94" Text="已收集：" Alignment="Left" LabelStyleKey="C1_F20_S4_C3" TextKey="">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f6ec2e3b-093e-4324-8420-c8056d04d64d}" FontSize="20" Name="txtCollectNum_WndDressCastSoul" AnchorPoint="0,0.5" RelativePosition="1,0.5" Text="" TextKey="" Color="255,227,116" LabelStyleKey="C18_F20_S4_C3" />
+                    </WZUILabelTTF>
+                    <WZUIContainer AbsContentSize="330,340" AbsPosition="198.979,297.314" AnchorPoint="0.5,0.5" GUID="{3e4f5c48-5b98-4283-be9b-70ab76ba8f68}" Name="conRole_WndDressCastSoul" Order="0" RelativePosition="0.507391,0.63" RelativeSize="1,1" Type="WZUIContainer" UseAbsSize="True" ShowAll="False">
+                        <WZUIImage Type="WZUIImage" GUID="{e1b5f530-bb72-4a13-b0c6-eb1b52bc5e45}" File="ui/common/common_pic_diwen5.png" UseOriginSize="True" RelativePosition="0.5,0.48" Opacity="100" TouchEnable="False" Name="imgCircle_WndDressCastSoul" />
+                        <WZUIContainer AbsContentSize="330,210" AnchorPoint="0.5,0" GUID="{e071a5d7-98a1-4c0e-a178-1d4e03b12ba6}" Name="conPlayerAni_WndDressCastSoul" Order="2" RelativePosition="0.5,0.05" RelativeSize="1,1" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{51663a71-4224-4f33-82c3-80f498416d78}" AbsContentSize="600,180" UseAbsSize="True" RelativePosition="0.5,0.2" Name="conSuit_WndDressCastSoul">
+                        <WZUIContainer Type="WZUIContainer" GUID="{b564ab2e-a877-485f-b12d-3843bb83dcbc}" RelativeSize="0.87,1">
+                            <WZUITableContainer Type="WZUITableContainer" GUID="{5978690c-4d27-4b04-ad90-ba6c0536aa3e}" Name="tableSuitList_WndDressCastSoul" NameCreate="True" ColumnCount="1" CellElementHeight="0.25" EnableVerticalScroll="False" EnableMoveHorizontal="True" RelativePosition="0.498,0.5" RelativeSize="1,1" AbsPosition="285,205" EnableHorizontalScroll="True" EnableMoveoutContainer="True" EnableMoveVertical="False" EnableHideUnvisible="False" IsVerticalMode="False" HorizontalAbsInterval="0" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{f7144fe1-ee32-4126-80d1-73b5b075e78b}" AbsContentSize="138,168" UseAbsSize="True" TouchEnable="False" RelativePosition="0.37,0.5" Name="conSel_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{a7b9f850-fd71-4e19-b9b1-7cd84de0d006}" File="ui/common/common_fuben_xuanzhong.png" TouchEnable="False" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <Button Type="WZUIButton" GUID="{216d3427-5fa0-4e2b-a7d8-5551901f61e5}" AbsContentSize="30,130" UseAbsSize="True" RelativePosition="0.03,0.5" LuaActionName="Normal" LuaDoneFunctionName="onClickLast">
+                            <NormalElement Type="WZUIContainer" GUID="{de2777a8-cec3-424c-bbd2-a744977979b1}" />
+                            <SelectElement Type="WZUIContainer" GUID="{784f8802-0ed5-4e68-8321-dfa0327ad985}" />
+                            <DisableElement Type="WZUIContainer" GUID="{939bbfe2-02a6-434d-95a2-20bf3f09c9bb}" />
+                            <WZUIImage Type="WZUIImage" GUID="{b91395da-d416-455f-8a9c-6a961a53be7e}" File="ui/common/common_icon_jt2.png" UseOriginSize="True" FlipY="False" FlipX="True" />
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{425d925b-f2ba-47e0-943a-af9e4a1f9734}" AbsContentSize="30,130" UseAbsSize="True" RelativePosition="0.97,0.5" LuaActionName="Normal" LuaDoneFunctionName="onClickNext">
+                            <NormalElement Type="WZUIContainer" GUID="{bf007954-a2f5-411f-92b8-cc44e317f50d}" />
+                            <SelectElement Type="WZUIContainer" GUID="{eb8ce576-3da8-48fd-9134-1a449f973629}" />
+                            <DisableElement Type="WZUIContainer" GUID="{27d1fbf6-d897-481e-bcfd-8a35f02ee6bd}" />
+                            <WZUIImage Type="WZUIImage" GUID="{3a825a9b-bee8-4805-83b2-12c64f992fb9}" File="ui/common/common_icon_jt2.png" UseOriginSize="True" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{7e7af809-0c22-45a5-9fe9-dfe2302fb83b}" AbsContentSize="95,260" UseAbsSize="True" Name="conCurSuit_WndDressCastSoul" RelativePosition="0.869925,0.638947" Visible="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{85764f69-a948-4c76-bb3d-a304eea42fff}" Name="conCur0_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.85">
+                            <WZUIImage Type="WZUIImage" GUID="{2e8fca86-06b1-43a4-abb5-e568f270fffc}" File="ui/common/common_icon_ts.png" UseOriginSize="True" Order="1" RelativePosition="0.3125,0.6375" TouchEnable="False" Name="imgCorner_WndDressCastSoul" Visible="False">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4c827302-556c-4aab-877b-e5bbad9f283d}" TextKey="CASTSOUL_TEXT3" LabelStyleKey="C1_F16_S4_C2" Order="1" Rotation="-48" RelativePosition="0.366667,0.651515" TouchEnable="False" TouchSwallow="True" Name="txtHavedWord_WndDressCastSoul" Visible="False" />
+                                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a96729ec-d5e1-40fb-a4ba-d74fd7eeb53e}" Name="ftxtPrice_WndDressCastSoul" MaxWidth="300" ShowText="" Order="1" TouchEnable="False" Rotation="-50" RelativePosition="0.34,0.63" Visible="False" />
+                            </WZUIImage>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{9dd05435-1a0d-4de3-bad8-9be83ef2ea4b}" Text="为手机" LabelStyleKey="" Name="txtUnCollect_WndDressCastSoul" FontSize="16" Color="195,171,148" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" TextKey="CASTSOUL_TEXT6" RelativePosition="0.5,0.1125" Visible="False" TouchEnable="False" TouchSwallow="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{397242f7-e420-4242-b93f-ac946807e3ca}" Name="conGood_WndDressCastSoul" Visible="True" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{7784cff2-4523-4d94-9f17-ff4a8bcb9d9c}" Name="conCur1_WndDressCastSoul" Visible="False" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{9d096342-9d37-4dd2-9b80-15fa0349753d}" File="ui/common/common_icon_ts.png" UseOriginSize="True" Order="1" RelativePosition="0.3125,0.6375" TouchEnable="False" Name="imgCorner_WndDressCastSoul" Visible="False">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fb9dc3a2-89f9-4136-b224-e6949a259d62}" TextKey="CASTSOUL_TEXT3" LabelStyleKey="C1_F16_S4_C2" Order="1" Rotation="-48" RelativePosition="0.366667,0.651515" Name="txtHavedWord_WndDressCastSoul" Visible="False" />
+                                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{32aa8fa7-362e-4a5c-b001-981e732ac3ef}" Name="ftxtPrice_WndDressCastSoul" MaxWidth="300" ShowText='&lt;I Z=&quot;0.35&quot; P=&quot;1&quot;&gt;shopitems/diamond.png&lt;/I&gt;&lt;T C=&quot;255,255,255&quot; S=&quot;16&quot; P=&quot;1&quot; SC=&quot;105,65,46&quot; SS=&quot;4&quot; SE=&quot;1&quot;&gt;200&lt;/T&gt;' Order="1" TouchEnable="False" Rotation="-50" RelativePosition="0.34,0.63" Visible="False" />
+                            </WZUIImage>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{95bd074a-f722-4444-8569-b7a3b390b90b}" Text="为手机" LabelStyleKey="" Name="txtUnCollect_WndDressCastSoul" FontSize="16" Color="195,171,148" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" TextKey="CASTSOUL_TEXT6" RelativePosition="0.5,0.1125" Visible="False" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{bc5ef3e5-c7e7-45e6-8338-c1c7ac482b73}" Name="conGood_WndDressCastSoul" Visible="True" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{21aad076-95c4-4c47-949d-fc48295849dc}" Name="conCur2_WndDressCastSoul" Visible="False" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.15">
+                            <WZUIImage Type="WZUIImage" GUID="{fe1041b8-2178-4f55-bff3-6697b6862980}" File="ui/common/common_icon_ts.png" UseOriginSize="True" Order="1" RelativePosition="0.3125,0.6375" TouchEnable="False" Name="imgCorner_WndDressCastSoul" Visible="False">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{391f9ef6-dbbd-4f34-8251-136656acaf58}" TextKey="CASTSOUL_TEXT3" LabelStyleKey="C1_F16_S4_C2" Order="1" Rotation="-48" RelativePosition="0.366667,0.651515" Name="txtHavedWord_WndDressCastSoul" Visible="False" />
+                                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{6ad66f36-64b6-460c-892a-0f9b637778dd}" Name="ftxtPrice_WndDressCastSoul" MaxWidth="300" ShowText='&lt;I Z=&quot;0.35&quot; P=&quot;1&quot;&gt;shopitems/diamond.png&lt;/I&gt;&lt;T C=&quot;255,255,255&quot; S=&quot;16&quot; P=&quot;1&quot; SC=&quot;105,65,46&quot; SS=&quot;4&quot; SE=&quot;1&quot;&gt;200&lt;/T&gt;' Order="1" TouchEnable="False" Rotation="-50" RelativePosition="0.34,0.63" Visible="False" />
+                            </WZUIImage>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0b12d1a6-d3ac-4a00-9a30-cb2e75872eda}" Text="为手机" LabelStyleKey="" Name="txtUnCollect_WndDressCastSoul" FontSize="16" Color="195,171,148" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" TextKey="CASTSOUL_TEXT6" RelativePosition="0.5,0.1125" Visible="False" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{05998f04-f343-44b0-a949-ad9587cd7eeb}" Name="conGood_WndDressCastSoul" Visible="True" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{9b8236d6-1059-4128-bbad-e7ab6a9e1815}" AbsContentSize="330,420" UseAbsSize="True" RelativePosition="0.8,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{f76b9e62-a0e6-4b8a-b841-c9d2d3d9a37e}" File="ui/common/common_scale9_di9.png" Opacity="120" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{fa50bf32-6b78-4b93-a2d2-6092691454bc}" Name="conTitle_WndDressCastSoul" AbsContentSize="300,45" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                        <WZUI9Image Type="WZUI9Image" GUID="{f4060669-e721-4175-a5bf-d2166c09c2ca}" File="ui/common/common_scale9_di11_1.png" UseOriginSize="True" Scale="0.9" AnchorPoint="0.5,1" RelativePosition="0.5,1" Opacity="200" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{1fba1ccd-3611-48dd-a464-ea6ad16282de}" LabelStyleKey="C1_F22_S4_C5" Text="时装元魂" TextKey="CASTSOUL_TEXT2" Name="txtSoulType_WndDressCastSoul" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{7509689e-63df-4fd7-9ad1-ae7b79f0ad9a}" AbsContentSize="330,330" UseAbsSize="True" RelativePosition="0.5,0.45" Name="conForGrid_WndDressCastSoul">
+                        <WZUIContainer Type="WZUIContainer" GUID="{b2b71516-3e6c-42c8-9fb8-d0efc6570049}" Name="conGrid1_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.2,0.83">
+                            <WZUIContainer Type="WZUIContainer" GUID="{b97552fa-8018-400c-9e09-fe9af6f1854c}" Name="conLock_WndDressCastSoul" Visible="False" Order="1" UseAbsSize="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{87a43176-a53f-4fea-9955-006c41fd5250}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{05a4ae91-e9d3-48a7-93a1-a2e16c395288}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{682f42f1-6324-4d9e-8537-a4ef0c861f89}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{a1de086c-788e-414f-8ac2-6ebebb309259}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3bc99ce1-19ad-4a05-abb6-f0c805f94728}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Dimensions="0,0" UseOriginSize="True" MaxLength="0" />
+                                <Button Type="WZUIButton" GUID="{dde0de41-81f9-42f1-93b5-4c2786895089}" LuaDoneFunctionName="onUnLock" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{2fb44c70-9fe7-4fd3-ac72-c0759807ef45}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{3890a60e-a4d1-418a-b179-1137c244865d}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{abe38ae8-5dac-4302-b3a3-4b8a1f4f94b9}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{ce626934-b379-42ad-95e1-f933438f3871}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{93e9a37b-4a57-484d-8839-a728c1937b3d}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{ed0b963d-ac29-4fd2-9209-4a972532172c}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{6e36bc27-980c-4b75-a1c3-b2cee3fff4b9}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{fd7c02d9-469e-4b85-a4c5-041a4238c007}" LuaDoneFunctionName="onAdd" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{49beede2-891d-48d6-94da-494b8dfa8a98}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{cb11b0d5-fd0f-4c17-befc-2585bde03bba}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{35c19b79-ab7f-4f88-b3b4-4d6ccc134e11}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{96d2580e-f44c-4bdc-af84-aa3afbcf150d}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{83e061c9-5673-4741-93df-4f4ddef4874f}" Name="conGrid2_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.2,0.5">
+                            <WZUIContainer Type="WZUIContainer" GUID="{c58cd623-b703-49bd-9c20-b4d090bc7c49}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{43defdf0-08a4-404e-9b24-434cf010ae6a}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{301b278d-5752-4fba-adf5-c4ddb3aa394c}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{8d661c83-7859-424a-b056-18687be1884b}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{82773748-77e1-43a8-b818-a161834fbaa5}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{baae4034-5aac-40ed-abfa-efc324326feb}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{c5ed2fc1-467c-4686-975d-7caa26d07def}" LuaDoneFunctionName="onUnLock" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{84e34ad6-e5b3-49f5-85c9-5b0409b2cb4c}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{5a11ae68-0e06-4c2b-9b97-423e3bc41c9c}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{c6279b69-a629-4507-b533-03e37af6bd3f}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{1a27300c-2be1-4ba9-b29d-d123bf1542af}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{dbccc795-9eda-4025-b9b6-62750dbd2db1}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{45d03f72-5c72-4bb7-bd05-376fb8c25a23}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{975b9830-aa3a-4c84-ba58-a1b291d71af1}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{3b5750a7-8c99-401b-9784-e45ed9d84f5d}" LuaDoneFunctionName="onAdd" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{65e5ab79-9d60-4f91-8064-259955861af8}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{ff944acc-a2fa-44b3-811e-9d1fd91d7ddf}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{7aa056b3-d055-4a66-a0af-72f36c6257ee}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8b51492e-291b-4c4a-826a-6e679a5b0a25}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{5be851db-faa1-4005-9973-e01a5e6b2940}" Name="conGrid3_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.2,0.17">
+                            <WZUIContainer Type="WZUIContainer" GUID="{6e95c6cb-97ed-4feb-8f5b-5a65013e40ca}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{ed290e72-d031-48ee-881d-3feb0f7094c4}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{7d114a91-564f-4360-b533-c0216fb9878d}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{56b1071e-afd8-4303-8249-9e766aa3c345}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{af959ac3-a39a-4070-9671-1f16726884b9}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{98f5d7e3-bc26-453f-af36-f69b1cb04ec2}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{0c026d91-3efa-4558-9d93-61b00b23d60d}" LuaDoneFunctionName="onUnLock" Tag="3">
+                                    <NormalElement Type="WZUIContainer" GUID="{5ffe51f2-00db-4606-a4da-f3f1dba1b5a1}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{602656cb-a5d7-4473-85ca-4741b854a2b3}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{166bfe42-ee1a-4e17-ac03-7b50dff2f225}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{311f9fb4-04b9-4fb7-b0c8-a81887032dcd}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{8c039f73-d0ca-4a8d-8d93-ea1a3d48d5ed}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{ea05ca3d-b0ba-4d62-a120-20bf539ccd22}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{ccf192e3-9398-4a5f-b9b8-5d1fdeadbb2a}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{b05ef778-59e6-4fae-ab53-91dfdfcbcf4a}" LuaDoneFunctionName="onAdd" Tag="3">
+                                    <NormalElement Type="WZUIContainer" GUID="{2e17d919-5893-4025-a46b-ba8c1702c471}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{ca51d385-9b50-4ec6-b204-5961ac5917ea}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{25f2982b-21b4-49fe-ab8d-a79f3100acc1}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{b202d4c5-4e88-48a5-a1ee-6a8cf846b80b}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{82fb857f-0f17-472f-9000-e85fa28232ff}" Name="conGrid4_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.83">
+                            <WZUIContainer Type="WZUIContainer" GUID="{13e4a0ab-8b05-43c8-b759-34346b01b26a}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{f8ab9797-0bbb-4864-87f4-9acb760f158e}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{50c766d6-e572-43f2-b0bf-660492fa6cc4}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{3cedf0b4-7a3b-4a5c-8108-e61d8cf53033}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{c4a99818-7ba0-4a77-bbf8-7c3addbbeea4}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a76f367f-cb18-46ad-93a1-af299a95cd5d}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{7dac70f5-aa34-446c-a709-5fdd4c123b7f}" LuaDoneFunctionName="onUnLock" Tag="4">
+                                    <NormalElement Type="WZUIContainer" GUID="{8888bb2c-295f-4fdb-907c-8374ace0466b}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{27cd30d4-bed6-4d06-a845-baf0aeb61d33}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{b4d51241-3b7b-4a34-9b41-58b1e1415a72}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{8d3cd060-543f-4922-a5e9-07abceb5835c}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{ee16bfbd-ca94-4973-8b4d-6d595df652cd}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{1c4b8a3e-a150-42ac-83ee-9fa17568677c}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{07724000-0cd7-48bb-81bf-8d5140fee969}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{c9f10714-bf01-494b-88fe-fc35a47a35ba}" LuaDoneFunctionName="onAdd" Tag="4">
+                                    <NormalElement Type="WZUIContainer" GUID="{f5e70dc9-5e04-4822-b9d4-7fedde4a2a66}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{ac8c25d6-d1ad-46e4-b849-af45ec1de5e5}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{9c91c725-b695-4bf0-bcc3-54e59cd8f28a}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d9bb5d9e-a358-4d45-9cbe-bfa1b8288172}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{0e3fadcf-0bdf-4d31-9b5d-7bfccd7591fe}" Name="conGrid5_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{33396f4f-96c3-48ad-974d-1e37893ffd8f}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{1226c84b-165a-4cde-91b0-3e4a5cf0c563}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{144242c4-2520-4bb6-a42d-858bbc200b27}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{f2a49435-809a-462d-986a-006276b65b0a}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{51520a50-b48a-4a55-86bf-94d17a080bc4}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0c2ca116-9285-4a98-9f2b-02f5015197d3}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{b2d35d84-f044-49a9-9696-31c5390bdf34}" LuaDoneFunctionName="onUnLock" Tag="5">
+                                    <NormalElement Type="WZUIContainer" GUID="{ab2708b7-55fb-49c0-b5ed-2bcf4a9ce524}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{492e9c2c-fc3f-4b2a-aef0-f19efd4b3506}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{526da4eb-d634-47a2-848c-02284d7a68b3}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{406a3e0b-03d7-426b-bd0c-918170f95e19}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{c69470c9-2c25-40ca-916e-344ea6b538d4}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{02d49568-ce28-4e2c-bc70-f99c1883ab84}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{252d6ce1-4372-4b4b-88c7-a0cbab0ea82c}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{0ec43e9d-7a6c-4d52-b9a3-22de51cae5cf}" LuaDoneFunctionName="onAdd" Tag="5">
+                                    <NormalElement Type="WZUIContainer" GUID="{33a1a302-b2a2-4ced-ae5d-e66459191de9}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{604bc434-8d97-4dfb-acc5-bff991aae32b}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{045121ad-2b99-4db1-96c1-0492b9a6ffd0}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f9235402-02f9-42ce-aa0c-86c856a4ee2c}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{10272821-1326-4382-a13d-49256d658671}" Name="conGrid6_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.5,0.17">
+                            <WZUIContainer Type="WZUIContainer" GUID="{19110de2-f776-4adb-a5f8-4a94f89c0512}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{5a14cc7f-8a64-4d57-970f-e125f3a3b08e}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{a97dd439-7716-4736-812e-8b71d55f3140}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{f3a7e2d2-fddb-4aea-9653-a74443d049d7}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{b220592e-c277-4fff-b514-d8de27baeead}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{68ef3763-d152-40ff-b7e1-d9ca62b93c5f}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{22b4d291-a90b-4ca3-8e9b-917f93552ebd}" LuaDoneFunctionName="onUnLock" Tag="6">
+                                    <NormalElement Type="WZUIContainer" GUID="{57ad7c7f-3847-4dd6-b9b3-67d0f55a9122}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{09a4f58d-627f-4f4b-aa05-a9b521ff2d9d}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{052c7b0d-4984-4dee-bd65-c5e1d2c69cb3}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{43341233-23d3-4f7c-b7a0-cd86225a9f73}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{1cb01519-a4e8-473d-bc69-06c470eaf559}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{09e9ae5f-cdea-47b4-97ed-c69e76411324}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9ff82bf5-1d9d-4259-b8e7-6710fb39ea22}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{c832f79e-a1f7-4327-acc8-40355bd329c0}" LuaDoneFunctionName="onAdd" Tag="6">
+                                    <NormalElement Type="WZUIContainer" GUID="{8db15b34-53f1-4d29-8a65-9b013f1526b5}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{5043d3b1-9619-429b-b1e9-6e75a8018319}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{72f12dac-ff4e-497c-a720-93ae97f07e21}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{7c53dcd4-6ef0-4a85-a2a1-8dad5b109390}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{42fd4b91-1c85-415b-8e2f-58e4cd51fbbd}" Name="conGrid7_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.8,0.83">
+                            <WZUIContainer Type="WZUIContainer" GUID="{b124074d-b708-452b-83e0-2e5e9942f429}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{846b585b-bd80-45f1-bcef-9f0b99abfa89}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{0d1ee2b6-8e9d-4060-9d89-e328793402c9}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{ca8a6213-2694-4333-b768-d2020529f0c9}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{4325d1da-0969-4e2e-845e-5c73ef16b070}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f464e6dd-d7ea-4a18-91a9-39bd4b006304}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{241843d3-dbd4-4e75-add5-64c5abbe4032}" LuaDoneFunctionName="onUnLock" Tag="7">
+                                    <NormalElement Type="WZUIContainer" GUID="{8a5bc545-3b5c-4a47-a5ef-b75b1952040e}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{328aa744-1397-4550-911b-9fa0f5e87209}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{e9273d29-697f-468a-b25d-1b37829e380a}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{c8309681-5888-4c3a-bbc2-f86dfc10c9c3}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{e0a1b9b7-c11c-457b-abd9-ba9fe78600d5}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{59aedbfd-7ee2-4cf3-9713-8311a01b0612}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{7988444d-3da2-4ec4-ada1-212ead573484}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{4fc97595-a188-4c63-99f5-256e55a51cd8}" LuaDoneFunctionName="onAdd" Tag="7">
+                                    <NormalElement Type="WZUIContainer" GUID="{039a6b19-920d-427c-b83c-83c776ac6156}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{3973158a-937b-4417-8eda-00d1931f5f15}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{29c45c3c-f610-4be5-94c3-4d3ffb821ae9}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{40d7123d-95a4-4ce3-b662-5edf823edef1}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{8ad0f677-1b6f-4c19-a9c0-b2f30299b073}" Name="conGrid8_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.8,0.5">
+                            <WZUIContainer Type="WZUIContainer" GUID="{44d287c9-73f4-40f5-8a46-2d46897a3bcf}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{0cdc39b3-78a6-4d56-9025-83ff2d29d22e}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{a0c7e7f9-acfc-4783-b6a5-c9b521a04ea8}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{8507e83b-ca79-4070-ba99-af34f9009d0c}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{0b654f1e-f525-432b-8028-dcb60d5622fd}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{aa1c1b46-238b-45d1-9ee9-372292261d5d}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{ffc19d7d-001c-4854-a4cf-c9f94eab3858}" LuaDoneFunctionName="onUnLock" Tag="8">
+                                    <NormalElement Type="WZUIContainer" GUID="{9660c67c-887b-4564-8365-9976afa447b2}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{e5c2da87-e696-4286-82f7-024baf4b7010}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{918ff415-b661-41f3-9203-50e96343c128}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{fbcef558-9ccc-44be-b53e-70fb6c5d83e9}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{6936fcc0-f22a-4cfb-90e0-cfbae745a652}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{7b866662-94dc-4eaa-b8eb-b7e0a6468541}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{eb0fd5bd-2a44-4833-8e51-3874d20a816f}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{6116e7e7-308a-4a47-a57f-15248db7ffb8}" LuaDoneFunctionName="onAdd" Tag="8">
+                                    <NormalElement Type="WZUIContainer" GUID="{8adf308a-f5bd-4aae-964f-692bf200a07e}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{95bd9c56-c852-4bb9-b56d-311953716b85}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{efa66548-c9d2-4fa4-9db6-a8063dc9150b}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8a51901a-ee34-44ab-9c3f-c83a18cfbf16}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{5805ec80-eb25-4fac-9f73-65c7fb89cc3c}" Name="conGrid9_WndDressCastSoul" Visible="True" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.8,0.17">
+                            <WZUIContainer Type="WZUIContainer" GUID="{27079a51-e6bd-42e5-8c45-c128d5feadf1}" Name="conLock_WndDressCastSoul" Visible="False" Order="1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{a7893ebe-351d-4d60-bdf3-a8fa5aafea28}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{8e192a81-bdb6-4373-8a08-5c67f8a13007}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{82c99ba6-b322-4a9a-8dc5-763dfff4079a}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.6" />
+                                <WZUIImage Type="WZUIImage" GUID="{cd527e85-26d0-425e-8a70-1fa03b381e84}" File="ui/common/commom_scale9_bossdi.png" UseOriginSize="True" Scale="1" ScaleX="2.5" ScaleY="0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{ed722dee-4db9-4ec1-af0c-6178e8852827}" Text="" LabelStyleKey="" Name="txtLock_WndDressCastSoul" FontSize="16" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" />
+                                <Button Type="WZUIButton" GUID="{e5074a4a-7640-4c86-ad46-f0aa50cb8ea3}" LuaDoneFunctionName="onUnLock" Tag="9">
+                                    <NormalElement Type="WZUIContainer" GUID="{06750060-e14b-49b8-899d-6c093cb716e8}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{6d6fcbca-46d1-4add-a85b-ece29fe8dd98}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{4cfe83d2-d176-4b4a-a507-853199614b46}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{fecfadaa-f073-438e-810c-74882ba041be}" Name="conAdd_WndDressCastSoul" Visible="False">
+                                <WZUI9Image Type="WZUI9Image" GUID="{cea046c0-e498-4754-b5bb-53d94d6dc770}" File="ui/common/common_scale9_beibaodi2.png" />
+                                <WZUIImage Type="WZUIImage" GUID="{eb510116-f20f-430b-9bc4-e0234a19cf36}" File="ui/common/common_scale9_wuse.png" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4ed3033b-9a9f-43c8-bc21-9c62de518114}" Name="txtStoneAtt_WndDressCastSoul" Text="" Color="195,171,148" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="79,60,48" />
+                                <Button Type="WZUIButton" GUID="{38daa803-b807-447a-8b25-14f5f907fb40}" LuaDoneFunctionName="onAdd" Tag="9">
+                                    <NormalElement Type="WZUIContainer" GUID="{1bf6973c-4119-4697-bc9f-ef6d65f299f5}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{0335f45b-65e6-47e5-9708-aa54cc015246}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{292e0e50-cdf0-45d1-a20f-d07bdc22195d}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4b032b50-3293-485f-98c0-fd1c86a3d30d}" Order="1" Text="Lv2" LabelStyleKey="C18_F20_S4_C3" RelativePosition="0.5,0.125" Name="txtSoulLevel_WndDressCastSoul" Visible="False" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndDressCastSoul>

@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" ?>
+<SceneRoom GUID="{791A2497-D9F3-49d6-9FC8-4FD53C5F766E}">
+    <WZUIFrame GUID="{2B9A1139-94C3-4e9f-9FB5-71F891D7C556}" LuaObjectName="SceneRoom" LuaTouchBeganFunction="onTouchBegan" Name="SceneRoom" NameCreate="True" RelativePosition="0.5,0.5" Scale="1" ShowAll="False" Type="WZUIFrame" AbsContentSize="1136,640" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{DA1C5F8B-B799-4414-815B-B38FFFA22F1D}" Name="conBg_SceneRoom" TouchEnable="False" Order="-1" Visible="True">
+            <WZUIImage Type="WZUIImage" GUID="{ff4d4085-2448-46d0-b577-08b82051e1d8}" File="ui/common_bg/common_pic_fuben_jjc.png" isValid="True" Visible="True" Scale="1" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{8736d0ea-3d32-4ab8-96e9-f850b45cb05e}" Name="conTop_SceneRoom" AbsContentSize="1136,76" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1" ShowAll="False" Order="0">
+            <WZUI9Image Type="WZUI9Image" GUID="{3d6a2310-ca85-44e5-aa51-5b0a53ed5490}" File="ui/common/common_fuben_dingbu.png" UseOriginSize="False" ScaleX="1.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{61b91a37-47c5-4284-b950-eb5d71b34cdd}" AbsContentSize="128,76" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" ShowAll="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{f7bab0e9-c741-4918-9746-39719b3b380e}" File="ui/common/common_scale9_di1_new.png" UseOriginSize="True" ScaleX="1" Scale="1" />
+                <WZUIContainer Type="WZUIContainer" GUID="{03023ddd-66cd-41d5-a9ee-f7bc615817a2}" AbsContentSize="830,76" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="1,0.5" ShowAll="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{3db4073e-976b-45ee-82ff-db9a9c2815bb}" AbsContentSize="135,60" UseAbsSize="True" RelativePosition="0.0936991,0.495361" Name="conMap_SceneRoom" Visible="True" Tag="-1" Order="1" AnchorPoint="0.5,0.5" Scale="1" ShowAll="False">
+                        <WZUIImage Type="WZUIImage" GUID="{c69b306a-4d68-4e07-a526-6aa1fbd6ebd6}" Name="imgMapBg_SceneRoom" File="map/map68_bg.png" UseOriginSize="True" RelativePosition="0.5,0.507707" Visible="True" Scale="0.35" ScaleY="0.35" ScaleX="0.35" />
+                        <WZUIImage Type="WZUIImage" GUID="{2dc02359-4cc2-4b36-836f-af4fcdfeb2e8}" File="ui/common/map_icon_genggaishezhi.png" UseOriginSize="True" RelativePosition="0.5,0.240833" Name="imgChangeRoomInfo_SceneRoom" Visible="True" Scale="0.7" ScaleX="0.7" ScaleY="0.7" />
+                        <WZUIImage Type="WZUIImage" GUID="{e6eb95c5-79e2-402b-9c85-76e74277de60}" UseOriginSize="True" Name="imgMapTitle_SceneRoom" TouchEnable="False" File="" RelativePosition="1.00589,0.857143" AnchorPoint="1,0.5" Scale="0.9" ScaleX="0.9" ScaleY="0.9" />
+                        <WZUIButton Type="WZUIButton" AbsContentSize="0,0" UseAbsSize="False" LuaDoneFunctionName="onMapBtnClick" GUID="{dd725437-2aaa-47f1-a35d-603cdd4a999f}" Scale="1" ScaleY="1" Name="btnMap_SceneRoom" Visible="True">
+                            <NormalElement Type="WZUIContainer" GUID="{6cb62ffb-0562-448c-bc29-bb5a499407c4}" />
+                            <SelectElement Type="WZUIContainer" GUID="{2cd4a3f6-7dd7-4300-aaa4-6b8c90d176ab}" />
+                            <DisableElement Type="WZUIContainer" GUID="{c4bcdf75-e34e-443b-9aba-d9d70f510e51}" />
+                        </WZUIButton>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="220,25" GUID="{6659a60e-c135-428b-9521-1ece6e5d41fd}" RelativePosition="0.18,0.802653" Scale="1" ScaleX="1" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0,0.5" Name="conRoom_SceneRoom" Visible="True">
+                        <WZUILabelTTF BoldFont="False" Color="255,227,116" EnableStroke="False" Font="" FontSize="20" GUID="{1db995ca-2cc8-4d10-9c0a-d0bc474982b0}" Name="txtRoomNameD_SceneRoom" RelativePosition="0.032554,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="ID：" Type="WZUILabelTTF" AnchorPoint="0,0.5" TextKey="ROOM2" />
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="False" Font="" FontSize="20" GUID="{65232666-f2ac-47df-89d1-8c9821edc460}" Name="txtRoomName_SceneRoom" RelativePosition="0.259987,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="220,25" GUID="{bd56c1a8-38ed-4903-8383-68eb3de5f087}" RelativePosition="0.18,0.17" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0,0.5" Name="conID_SceneRoom">
+                        <WZUILabelTTF BoldFont="False" Color="255,227,116" EnableStroke="False" FontSize="20" GUID="{9b6e6192-33f6-4f34-aa27-3e7006ba436a}" RelativePosition="0.032554,0.5" StrokeColor="91,49,24" Text="ID:" Type="WZUILabelTTF" Name="txtRoomIDD_SceneRoom" AnchorPoint="0,0.5" TextKey="ROOM_SETTING2" />
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="False" Font="" FontSize="20" GUID="{49baff4b-10b7-44de-aeb4-63442ea3173e}" Name="txtRoomId_SceneRoom" RelativePosition="0.259987,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="220,25" GUID="{bca4a96d-7892-43d4-99c7-743a23c729f3}" RelativePosition="0.18,0.5" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0,0.5" Name="txtConPassword">
+                        <WZUILabelTTF BoldFont="False" Color="255,227,116" EnableStroke="False" FontSize="20" GUID="{b88bb151-a4d8-4745-861a-97acf9bfac05}" RelativePosition="0.032554,0.5" StrokeColor="91,49,24" Text="密码" Type="WZUILabelTTF" Name="txtRoomPassD_SceneRoom" AnchorPoint="0,0.5" TextKey="ROOM_PASSWORD" />
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="False" Font="" FontSize="20" GUID="{8abc2dd5-1469-4840-9c48-0ab104f223e8}" Name="txtRoomPass_SceneRoom" RelativePosition="0.259987,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{3c052fd0-0290-4475-bdbb-4de58e01169b}" AbsContentSize="830,76" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="0.995,0.5" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{634ea68c-aa31-4718-837c-a2092aa9d299}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.765,0.496621" Name="conFassion_SceneRoom">
+                    <Button Type="WZUIButton" LuaDoneFunctionName="onClickFashion" GUID="{a3f18997-9589-4bbd-88aa-431b61294030}" LuaActionName="Normal">
+                        <NormalElement Type="WZUIContainer" GUID="{717babd7-3e8c-451b-a26e-ade10fc16cae}" />
+                        <SelectElement Type="WZUIContainer" GUID="{4924fdf3-5412-46a5-9dde-d71813390f26}" Scale="1.12" />
+                        <DisableElement Type="WZUIContainer" GUID="{62ca6dce-99ea-4877-ac57-6e4595f02560}" />
+                        <WZUIImage Type="WZUIImage" GUID="{276fc33d-f484-43c7-adba-2deecc111ef1}" File="ui/Hall/battle_icon_waiguan.png" UseOriginSize="True" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{aadafa69-1e10-4774-9bdb-7b61ec7ff69e}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.845,0.496621" Visible="False" Name="conInviteBtn_SceneRoom">
+                    <Button Type="WZUIButton" LuaDoneFunctionName="onClickInvPlayer" GUID="{55395db9-cb14-4eb9-8d88-3112cc086cfe}" LuaActionName="">
+                        <NormalElement Type="WZUIContainer" GUID="{f431587e-c32f-444d-a6b2-8da3bd126a95}">
+                            <WZUIImage Type="WZUIImage" GUID="{c41cb7dd-caa4-42f9-85d3-c0f65699aeda}" File="ui/Hall/battle_icon_yaoqing.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{6c55d9b0-881a-4990-8f12-51586494bc46}" Scale="1.12">
+                            <WZUIImage Type="WZUIImage" GUID="{99bd5b34-e324-40c0-a320-d39b900eda29}" File="ui/Hall/battle_icon_yaoqing.png" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{1271c04f-15f2-4583-9200-4268b24b9ed4}">
+                            <WZUIImage Type="WZUIImage" GUID="{7f23da7b-fb2c-424d-a5b2-2caa3e16f362}" File="ui/Hall/battle_icon_yaoqing.png" UseOriginSize="True" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{e69d3aca-ec6b-4717-989d-3686eef77828}" RelativePosition="0.685,0.496621" RelativeSize="1,1" LuaDoneFunctionName="onArenaAddInfoClick" LuaActionName="Normal" Name="btnArenaAddInfo_SceneRoom" AbsContentSize="65,65" UseAbsSize="True" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{948daf90-49c7-49b1-a34e-9fd5afc90ca2}">
+                        <WZUIImage Type="WZUIImage" GUID="{bd1dddc0-0776-4cf4-a356-3aba82620350}" File="ui/common/common_icon_jfjcxinxi.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{4a4c10d9-2858-43b1-96c5-10599f91f2bb}">
+                        <WZUIImage Type="WZUIImage" GUID="{ab94d942-d0dc-46dd-a35a-9075e0eae80d}" File="ui/common/common_icon_jfjcxinxi.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{645db9dd-f259-4dad-a44d-5a9b108b9cd7}" />
+                    <WZUIImage Type="WZUIImage" GUID="{98b61582-d0a9-42a5-9148-4740f1de0331}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgARedDot_SceneRoom" Scale="0.7" RelativePosition="0.684181,0.857755" Visible="False" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{15e714da-3576-4618-81e7-cc32d96b7584}" Name="conSmallMark_SceneRoom" AbsContentSize="278,50" UseAbsSize="True" RelativePosition="0.486024,0.313013" Visible="False" ShowAll="True">
+                <WZUIImage Type="WZUIImage" GUID="{4f00cdb6-cf31-4b84-9814-6b08cb5e4dd9}" File="ui/hall/common_scale9_pipeidi.png" UseOriginSize="True" RelativePosition="0.5,0.5" AnchorPoint="0,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{ab028d02-eb0c-40be-ae72-55311c4295fd}" File="ui/hall/common_scale9_pipeidi.png" UseOriginSize="True" FlipX="True" AnchorPoint="1,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{913ce057-c618-4d43-a53b-75f9529e8700}" TextKey="HALL_DESC1" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="158,0,0" RelativePosition="0.2,0.6" AnchorPoint="0,0.5" Name="txtMatch_SceneRoom" />
+                <WZUIImage Type="WZUIImage" GUID="{4b43af0c-e9c1-4df8-9e4c-4a22c68b9e97}" File="ui/hall/commom_icon_pipeijt.png" UseOriginSize="True" RelativePosition="0.732,0.6" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{65c3d6c0-938d-4a6a-917d-bbb25cf70382}" TextKey="" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="158,0,0" RelativePosition="0.58,0.6" AnchorPoint="0,0.5" Text="56" Name="txtSmallMatchTime_SceneRoom" />
+                <Button Type="WZUIButton" GUID="{20a20827-ff2b-40a4-9262-7a33f7c583b0}" LuaDoneFunctionName="onCLickSmallMatch">
+                    <NormalElement Type="WZUIContainer" GUID="{f46d41ae-50b1-498f-87de-0f535860c6e9}" />
+                    <SelectElement Type="WZUIContainer" GUID="{40a57326-72b7-4802-a56e-ed8c7cbf3995}" />
+                    <DisableElement Type="WZUIContainer" GUID="{a53c5e6c-9603-49b5-b5f0-42fb77a70227}" />
+                </Button>
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c6a0f8b9-a529-467d-aee0-c552c9e9a2d6}" FontSize="18" Color="255,236,193" Name="txtBalance_SceneRoom" TextKey="PVP_HALL_44" RelativePosition="0.481512,-0.250615" UseOriginSizeProportion="False" Visible="False" ShowAll="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{9205968e-bc3d-4e6b-a78f-6ac82a494afc}" RelativePosition="0.5,0" AbsPosition="480,76" AbsContentSize="1136,578" UseAbsSize="True" AnchorPoint="0.5,0" Visible="True" ShowAll="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{d840d517-5215-44b3-8b09-91cdb5299b7f}" Name="conCenter_SceneRoom" RelativePosition="0.5,0.507" UseAbsSize="True" AbsContentSize="1136,386" Visible="False" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{c3d4220e-2a6a-419c-a8d9-0b48be7af008}" AbsContentSize="306,380" UseAbsSize="True" RelativePosition="0.173218,0.993" Name="conSeat1_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{c942996a-5dbe-4437-a07f-33c76b4bb979}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{34af81ab-948f-42c3-a0ba-1590f0af0319}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.16" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{3a665214-516a-4ecd-9405-62cc85e47541}" Name="conForNameAndTitle_SceneRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.6" TouchEnable="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{dfd68bf5-a71c-413f-bacb-45f336a307a4}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_SceneRoom" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{98dd38b4-6b73-48c9-90e5-7c29f22c736f}" Name="txtPlayerTitle_SceneRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5ba34fc8-fb13-4646-8631-7f5c53feb31f}" Name="txtPlayerLv_SceneRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ed296c94-552b-4034-895e-259719ee4814}" Name="txtPlayerName_SceneRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{eba903c4-9675-4fca-8a04-86bda5bb2e71}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.207,0.59" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{465107d1-1489-4ec9-8626-5cecc8cff215}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{ad0f55a8-6e37-41c9-843c-8a60393f87ed}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{1a655f3f-a385-452d-a43b-ae7c447ee7d5}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.904216,0.217765" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{5caef1f8-9e47-4f8f-a582-ebaeea062b03}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.01" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{11256853-0301-40bf-b711-bf5274075778}" Name="btnPlayerFigure_SceneRoom" Tag="1" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.5,0.32" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{3d4f12c5-8b5c-4e96-a324-71491ee5fa30}" />
+                        <SelectElement Type="WZUIContainer" GUID="{d14c1ab4-1aa8-40ae-9e6c-f5c604902913}" />
+                        <DisableElement Type="WZUIContainer" GUID="{f935ad0b-47c0-451b-9ba2-7706ce267e4f}" />
+                    </WZUIButton>
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.207,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="1" GUID="{7f839d2f-c5c5-468f-bcce-9261a0b10b41}">
+                        <NormalElement Type="WZUIContainer" GUID="{bcd36788-c063-40c3-a759-75eff5835d03}" />
+                        <SelectElement Type="WZUIContainer" GUID="{57713dbc-5ebc-4364-871d-07d93354d941}" />
+                        <DisableElement Type="WZUIContainer" GUID="{9a74334e-7bc2-4e01-8bbf-8a632bcdd363}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{51b57a19-6af5-43fb-aa5b-0dc9fbf8db17}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.122908,0.08" AbsPosition="41,35.4999" Tag="1">
+                        <WZUISpine Type="WZUISpine" GUID="{eba658f4-1372-43ab-bc41-277a3458b5c0}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="1.2" />
+                        <WZUIImage Type="WZUIImage" GUID="{7e043ae3-1d03-4db6-b22a-920ff21cb97f}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{b90bb127-877a-49f4-b128-4b45a5807775}">
+                            <NormalElement Type="WZUIContainer" GUID="{a02a6dce-6eae-4c2c-bb05-e194906fc619}" />
+                            <SelectElement Type="WZUIContainer" GUID="{163d62a4-4a7b-4955-831a-0426d033e2aa}" />
+                            <DisableElement Type="WZUIContainer" GUID="{30c6361d-689f-42f4-a216-51ab3faa77d1}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{98d3341e-b486-4788-8eaa-a08e8190547c}" Name="conForDressSuit_SceneRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.777,0.942" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{e318eb8b-9b0e-4921-8bdc-1c75133eddc2}" AbsContentSize="306,380" UseAbsSize="True" RelativePosition="0.501343,0.993" Name="conSeat2_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="2">
+                    <WZUIContainer Type="WZUIContainer" GUID="{f3735614-8c35-4671-b517-e7e4657bb939}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{00591860-c80f-4891-bdee-450a0a6373e3}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.16" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{fd6bf4df-6c00-42cd-9e4e-6a9c4580ddff}" Name="conForNameAndTitle_SceneRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.6" TouchEnable="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{bc5fbb8e-288e-422b-bcbd-311ffac48662}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_SceneRoom" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{823b7012-f0b3-462b-b61b-41899545c350}" Name="txtPlayerTitle_SceneRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{20cbbe3b-4fc8-413b-a751-8359d2595437}" Name="txtPlayerLv_SceneRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{df340edd-a657-474b-9630-90247658fa80}" Name="txtPlayerName_SceneRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{57409342-1cfd-4a6a-85d4-1d94886f6b69}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.59" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{27378b59-12ef-418a-8a91-a0164ef5cacb}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{a33c5e9b-e62d-442f-b020-ff834044566b}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{4e61a4b5-8190-4ef1-b35d-b7689d7723b7}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.904216,0.217765" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{88f0dc17-fa23-4a99-ab4d-a659b4b2e8af}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.01" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{5e25c317-da6d-4abc-af8b-c4ab248f63d3}" Name="btnPlayerFigure_SceneRoom" Tag="2" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.5,0.32" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{f9772e40-1417-4d06-ba83-d1326481441e}" />
+                        <SelectElement Type="WZUIContainer" GUID="{ef0fc635-283f-4a68-a17a-2b10f4ad78f9}" />
+                        <DisableElement Type="WZUIContainer" GUID="{f2df7618-f835-4e41-9920-e17da8de5efe}" />
+                    </WZUIButton>
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="2" GUID="{fb7b7fab-bafd-41bc-afd1-3c5777af0aa9}">
+                        <NormalElement Type="WZUIContainer" GUID="{070700d0-fd68-4ca4-b98d-8953592678ac}" />
+                        <SelectElement Type="WZUIContainer" GUID="{3e4bdf0b-aa86-4d9d-9fbf-950b3c0e47fc}" />
+                        <DisableElement Type="WZUIContainer" GUID="{0b126f00-e3f5-4885-abc2-a463aec1f6b7}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{6b6afbd9-b3ae-4c15-ae83-6ef363a31e44}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.122908,0.08" AbsPosition="41,35.4999" Tag="2">
+                        <WZUISpine Type="WZUISpine" GUID="{e477f3e7-27b5-4855-8cf8-c181e569e81d}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="1.2" />
+                        <WZUIImage Type="WZUIImage" GUID="{61c9106d-b9e2-42e5-b431-effc92d10c52}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{28e4432e-b208-4a65-a7f9-003af681bf69}">
+                            <NormalElement Type="WZUIContainer" GUID="{4fec478c-a516-4543-8065-b044563e789a}" />
+                            <SelectElement Type="WZUIContainer" GUID="{7d0b15fb-0ec9-4760-a863-0b5a01499ea3}" />
+                            <DisableElement Type="WZUIContainer" GUID="{9b46c11c-8291-4672-aa21-83363974ec73}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{df2d7d34-e727-4af9-bd2b-5c92e251d681}" Name="conForDressSuit_SceneRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.777,0.942" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{063f4c9e-9d98-4706-af56-989e27efe4de}" AbsContentSize="306,380" UseAbsSize="True" RelativePosition="0.828426,0.993" Name="conSeat3_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="3">
+                    <WZUIContainer Type="WZUIContainer" GUID="{1e67b260-7263-423c-9563-67315a08419d}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{2b740ba2-c358-4d2f-8e29-85ccebc5fb22}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.16" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{032a1ff5-24e0-4297-91a5-cd2d105bb00e}" Name="conForNameAndTitle_SceneRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.6" TouchEnable="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{b8cd9b73-478b-4b3e-b0c8-bace52e11440}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_SceneRoom" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8f4d9baa-8879-4f41-95bc-8c771ab26453}" Name="txtPlayerTitle_SceneRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{dfbdb764-b74f-4b64-8f32-efd6c4786076}" Name="txtPlayerLv_SceneRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{06ec0f36-c3f0-4a85-a66b-5bc6cfcb9a6d}" Name="txtPlayerName_SceneRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{e6ea28b7-49c0-4651-954f-4a7e38d91cac}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.59" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{f42c1abf-c1a0-4399-8ff5-caefafa9981f}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{959dd7c5-7349-4969-a289-9d3b846592e1}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{06a02702-7452-40fa-a68f-2f9cd425011f}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.904216,0.217765" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{103bca4f-88f5-4f5f-9a6a-3efd7c0327c6}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.01" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{e42223b9-0b3a-421c-ab88-15a64d0a66d0}" Name="btnPlayerFigure_SceneRoom" Tag="3" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.5,0.32" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{12463589-f766-4fa7-a83b-112dd963a535}" />
+                        <SelectElement Type="WZUIContainer" GUID="{301a48b5-cd1f-4202-a86f-9dbd59656b83}" />
+                        <DisableElement Type="WZUIContainer" GUID="{3717362d-63ed-4586-afd3-80ed67020d2c}" />
+                    </WZUIButton>
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="3" GUID="{1da24563-5fd1-4613-a817-03aa4a4fb255}">
+                        <NormalElement Type="WZUIContainer" GUID="{2192a498-62eb-432a-b9e7-10e33a004e03}" />
+                        <SelectElement Type="WZUIContainer" GUID="{942ca2cd-d249-44f0-a39e-862158ec56c0}" />
+                        <DisableElement Type="WZUIContainer" GUID="{bf77ee2a-3424-4922-9b02-2eacad48d996}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{51d2355d-12dc-404e-98f3-7d6dfc23c3b4}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.122908,0.08" AbsPosition="41,35.4999" Tag="3">
+                        <WZUISpine Type="WZUISpine" GUID="{206c846b-4305-4ba8-95c0-b13028da7101}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="1.2" />
+                        <WZUIImage Type="WZUIImage" GUID="{47ddcc10-43ee-4ac5-a41d-4f902aa84237}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{a712a240-cf0d-4d84-be0d-633ec58d16ea}">
+                            <NormalElement Type="WZUIContainer" GUID="{4228ae44-6440-4a5e-a925-474ffe0b8a60}" />
+                            <SelectElement Type="WZUIContainer" GUID="{8223d8fe-f8c1-49eb-b425-6c2227089066}" />
+                            <DisableElement Type="WZUIContainer" GUID="{86ecd1f0-b93e-4264-bd2f-ad235235f91f}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{3095a0a6-36dc-4070-98d4-1db2d07d6506}" Name="conForDressSuit_SceneRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.777,0.942" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{eac2084e-cd87-4b68-aef2-9b8923b304c0}" Name="conCenter2_SceneRoom" RelativePosition="0.5,0.507" UseAbsSize="True" AbsContentSize="960,386" Visible="False" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{230bf554-2da4-4523-9de7-ae8253c175d0}" AbsContentSize="302,165" UseAbsSize="True" RelativePosition="0.173218,0.983927" Name="conSeat1_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{16711cb1-812d-45ad-a9a4-af9d81575c10}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{bc039703-dc25-4ca9-b411-a619fd7aaf02}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.694793" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{9353bc48-4912-4092-b4c1-208b13cac895}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{72dd69c0-db22-4386-b609-6b09e33ea636}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.013165" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{522fead5-c08a-476a-82f8-3b06aa4c17e9}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.193415" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{970e0b3e-d8a5-4b8f-8776-8c70e8fe1071}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.0166715" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.694793" LuaDoneFunctionName="onClickPet" Visible="False" Tag="1" GUID="{742c4623-a84c-4966-8229-b247e9905b0d}">
+                        <NormalElement Type="WZUIContainer" GUID="{674c43ff-167f-4435-8a41-803d2b04a294}" />
+                        <SelectElement Type="WZUIContainer" GUID="{aca0f22d-e396-4c6c-83e2-36aa73ec0256}" />
+                        <DisableElement Type="WZUIContainer" GUID="{5d79961d-1b10-4342-8fdb-f7e5a0874153}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{f1e4ff9a-29bf-408b-88e7-87a69af1b4b5}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.801715,0.567846" AbsPosition="41,35.4999" Tag="1" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{3bc3fe57-96c4-4444-beed-9a87b88128c0}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.500001,1.53334" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{91d3d7be-3822-4698-986a-9069d56435b1}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" RelativePosition="0.483333,0.683333" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{cbb381eb-1ad1-4822-8c22-9b147887cee8}" RelativePosition="0.5,0.616667">
+                            <NormalElement Type="WZUIContainer" GUID="{fcf270dd-524c-4a4b-875e-5f7edd674d7a}" />
+                            <SelectElement Type="WZUIContainer" GUID="{306fe05d-9faf-4c6c-865b-2b8b04f8339f}" />
+                            <DisableElement Type="WZUIContainer" GUID="{29d426b5-994c-4182-bdcc-f36e895bd1e8}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="100,100" GUID="{c70970e9-8b64-4bd1-a3fd-abd4eec8777e}" LuaObjectName="" Name="head_SceneRoom" NameCreate="False" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" RelativePosition="0.5,0.645454" Visible="True">
+                        <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{59efdd25-970a-4cec-ad63-04974dd34a84}" Name="" Scale="1">
+                            <Stencil Type="WZUIImage" GUID="{ef69e596-cb5c-413e-a0b5-d1324b08729e}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" Visible="True" ScaleX="1" ScaleY="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{7020aacc-0b9b-4b89-8fe9-81ce95fcc550}" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.5" AbsPosition="50,44" />
+                        </WZUIClippingContainer>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{e4dd567a-3c3c-4a49-957d-91d959989a71}" Name="btnPlayerFigure_SceneRoom" Tag="1" AbsContentSize="90,90" UseAbsSize="True" RelativePosition="0.5,0.645454" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{88dae6ed-3db6-40e9-9a3f-fe3127eb54cf}" />
+                        <SelectElement Type="WZUIContainer" GUID="{b2ff3db0-a477-40a9-91c7-baf71bb0a5d5}" />
+                        <DisableElement Type="WZUIContainer" GUID="{8804a97f-6847-47d6-82f7-91afcc05a954}" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{cc64fec0-ea3a-4a69-84ac-ab0414793aba}" AbsContentSize="302,165" UseAbsSize="True" RelativePosition="0.501343,0.983927" Name="conSeat2_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{b50e8c76-73ac-4a67-9269-3ce83e84e449}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{229d75a7-051e-4371-808c-5f670e177a19}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.694793" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{157914ef-60a7-49ed-ae11-6a849053cce3}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{a93ba700-8366-4454-a57f-d208bd547b51}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.013165" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{316c10ed-6bd9-495d-a7b6-4d80738ed401}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.193415" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{437baad0-a97d-4a58-b774-a4e763ace5ba}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.0166715" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.694793" LuaDoneFunctionName="onClickPet" Visible="False" Tag="2" GUID="{cd96624e-5ddc-4259-9707-cfa74843bb7a}">
+                        <NormalElement Type="WZUIContainer" GUID="{e58a92bf-5191-40bb-abf5-e8ff04e1c206}" />
+                        <SelectElement Type="WZUIContainer" GUID="{61a6537a-abb0-431c-bbd8-53b644287644}" />
+                        <DisableElement Type="WZUIContainer" GUID="{b8a395ae-5b43-4eed-a5cb-49e1ae29dc98}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{5faa0002-bbe5-467b-b87c-fa9448d07492}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.801715,0.567846" AbsPosition="41,35.4999" Tag="2" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{12113395-1843-4e2e-a42c-35b2f35f39f9}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.500001,1.53334" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{2ba8546c-f621-4621-94e3-374d15b09627}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" RelativePosition="0.483333,0.683333" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{2f890519-2e2c-4d22-83ba-464d07aa467a}" RelativePosition="0.5,0.616667">
+                            <NormalElement Type="WZUIContainer" GUID="{66f5919b-e074-403e-9e6e-9339132968a3}" />
+                            <SelectElement Type="WZUIContainer" GUID="{b58ba23d-3b65-48a4-8226-5d7e3f233858}" />
+                            <DisableElement Type="WZUIContainer" GUID="{923847dc-b596-4bfe-8b83-0368b6a1a2a8}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="100,100" GUID="{629fe5a2-aafa-4bb5-a2e5-b26ce598822d}" LuaObjectName="" Name="head_SceneRoom" NameCreate="False" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" RelativePosition="0.5,0.645454" Visible="True">
+                        <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{dce1ec01-4f7f-42f8-b601-acbf045247e9}" Name="" Scale="1">
+                            <Stencil Type="WZUIImage" GUID="{ae2d2d5a-01ea-4226-a360-e8c8d70c0ed3}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" Visible="True" ScaleX="1" ScaleY="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{bac5a069-9506-4e26-9d3b-540efaee9813}" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.5" AbsPosition="50,44" />
+                        </WZUIClippingContainer>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{7fec3a82-c10b-44a8-8337-5d19110ce7ae}" Name="btnPlayerFigure_SceneRoom" Tag="2" AbsContentSize="90,90" UseAbsSize="True" RelativePosition="0.5,0.645454" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{ca4ac0e0-0bfd-426e-be78-ed2466fffb58}" />
+                        <SelectElement Type="WZUIContainer" GUID="{22acce52-0c92-444c-841d-dcf7252cdfdc}" />
+                        <DisableElement Type="WZUIContainer" GUID="{0f581b36-7b62-48e7-951a-f82e48310f37}" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{1e3b86df-7d1f-467a-a204-793d16888ad0}" AbsContentSize="302,165" UseAbsSize="True" RelativePosition="0.828426,0.983927" Name="conSeat3_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{0009044b-ada3-4bdf-a118-a7204aa0e7dd}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{0cfcd3b0-ccc3-42f3-ba89-0d4a059c9789}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.694793" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{ff0ae911-0110-4b78-aee6-ae601382055b}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{3dad7aaf-3a93-46d8-b86d-8d7e8579db52}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.013165" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{5fef0942-be4f-450d-962e-2c3626b44ff5}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.193415" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{a22b85e6-1bc5-4894-847f-4a6ff36498b9}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.0166715" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.694793" LuaDoneFunctionName="onClickPet" Visible="False" Tag="3" GUID="{4bccdb7d-3ba3-46be-a707-05beca16d496}">
+                        <NormalElement Type="WZUIContainer" GUID="{8c92495b-e375-44fb-93d5-bc7aba1423b4}" />
+                        <SelectElement Type="WZUIContainer" GUID="{f0963b34-184e-4e33-9e87-6750b1abdd12}" />
+                        <DisableElement Type="WZUIContainer" GUID="{5178275b-5be7-45ef-a194-76f4fa5fa68b}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{1c5e7688-c996-4754-b116-ffe656c2d46e}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.801715,0.567846" AbsPosition="41,35.4999" Tag="3" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{0a44e6ee-c7ba-440f-a210-c0d631e9655e}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.500001,1.53334" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{dff0008b-0198-4187-8c64-85f4f84f6a12}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" RelativePosition="0.483333,0.683333" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{12895536-71b0-4207-8d3e-13d1212415b0}" RelativePosition="0.5,0.616667">
+                            <NormalElement Type="WZUIContainer" GUID="{a66d93c9-4cf7-44bd-825c-fd000d7e69cd}" />
+                            <SelectElement Type="WZUIContainer" GUID="{1a3fc231-0d93-4b34-88eb-9d9cbf8f703a}" />
+                            <DisableElement Type="WZUIContainer" GUID="{68c0c1d6-dc46-45d5-99ae-34705ecc47fd}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="100,100" GUID="{4118618e-83e1-47a5-ae3d-c9c2a5baef75}" LuaObjectName="" Name="head_SceneRoom" NameCreate="False" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" RelativePosition="0.5,0.645454" Visible="True">
+                        <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{1679bdf5-08e0-46dd-98e7-5b0bd419dc87}" Name="" Scale="1">
+                            <Stencil Type="WZUIImage" GUID="{951a8336-7e84-4ec9-9a45-23b15d154c71}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" Visible="True" ScaleX="1" ScaleY="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{5093074f-9a92-4724-9256-64efc36d1c7f}" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.5" AbsPosition="50,44" />
+                        </WZUIClippingContainer>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{e87d05c0-a03c-4a17-abbb-6be6bc73d50e}" Name="btnPlayerFigure_SceneRoom" Tag="3" AbsContentSize="90,90" UseAbsSize="True" RelativePosition="0.5,0.645454" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{7b2a0eee-721a-45c1-aa17-93698b33e2fa}" />
+                        <SelectElement Type="WZUIContainer" GUID="{675fd58c-6d65-4e49-83ce-0c8274c32bab}" />
+                        <DisableElement Type="WZUIContainer" GUID="{c34f5796-0767-49fa-90bf-1dbe0864f82a}" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{af11b28b-57ad-458f-8311-ca4d931ede17}" AbsContentSize="302,165" UseAbsSize="True" RelativePosition="0.173218,0.475404" Name="conSeat4_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{357803ea-9059-4dac-9a9f-a779c669a98e}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{3c2c5cc3-863a-4bae-af75-6386c9b9de2c}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.694793" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{34a8c030-1042-4905-bd0e-c29b5c90ce0c}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{474c3a4e-cf65-4aa6-a607-3e544b9b681e}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.013165" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{f694c125-1f02-4941-a543-648bcac671cc}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.193415" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{805ee1b4-853f-4652-b367-e82d3a6133e2}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.0166715" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.694793" LuaDoneFunctionName="onClickPet" Visible="False" Tag="4" GUID="{a4fae486-56a1-4233-a0cd-521a437e5c75}">
+                        <NormalElement Type="WZUIContainer" GUID="{12e38814-bd87-4eee-926f-2a07a50e28e6}" />
+                        <SelectElement Type="WZUIContainer" GUID="{4d619bcc-a86b-4849-b9a8-a6f7f94db84c}" />
+                        <DisableElement Type="WZUIContainer" GUID="{9e4c19ce-7eda-4c29-b80b-b416c3e247be}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{301d5a77-d36b-4951-843b-eac709e31169}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.801715,0.567846" AbsPosition="41,35.4999" Tag="4" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{1a8a5c2d-8d67-4275-93ad-0e77ce3b76ea}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.500001,1.53334" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{b427ff81-fe35-477a-8e3c-05671e08fe4e}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" RelativePosition="0.483333,0.683333" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{187c3f10-9590-43e0-a798-5e3188975dfe}" RelativePosition="0.5,0.616667">
+                            <NormalElement Type="WZUIContainer" GUID="{5f6d3b5a-41bc-4067-98ae-48260edef092}" />
+                            <SelectElement Type="WZUIContainer" GUID="{e16bb50e-36be-42de-ba3c-968eee302065}" />
+                            <DisableElement Type="WZUIContainer" GUID="{d1ae6907-4c63-4ec3-9891-74aa2ea2202e}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="100,100" GUID="{7affdd7e-9a7e-45c4-b312-2265196dc416}" LuaObjectName="" Name="head_SceneRoom" NameCreate="False" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" RelativePosition="0.5,0.645454" Visible="True">
+                        <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{337da6a7-b506-4cc6-91a9-27b9a2c9f0ee}" Name="" Scale="1">
+                            <Stencil Type="WZUIImage" GUID="{956ed649-0554-4ff4-b934-55359a25a62d}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" Visible="True" ScaleX="1" ScaleY="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{1f11e7f2-ef56-480c-8367-72dee77830e2}" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.5" AbsPosition="50,44" />
+                        </WZUIClippingContainer>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{b28309f6-0306-4d52-98fc-093687847336}" Name="btnPlayerFigure_SceneRoom" Tag="4" AbsContentSize="90,90" UseAbsSize="True" RelativePosition="0.5,0.645454" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{16177e6e-5a94-4e71-8e62-6ae6b4f0b80e}" />
+                        <SelectElement Type="WZUIContainer" GUID="{53aaed72-615e-4db4-af0e-2ab9506d4c19}" />
+                        <DisableElement Type="WZUIContainer" GUID="{dd8399d8-635d-4097-bb89-3f05e994ad87}" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{fd0b3709-1017-4684-893f-764be000298b}" AbsContentSize="302,165" UseAbsSize="True" RelativePosition="0.501343,0.475404" Name="conSeat5_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{b70f1a53-a932-438e-8f4f-e4ca4f8664a8}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{660dd435-626a-4561-97b2-e749616c7b08}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.694793" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{ec987559-89de-4e7d-8540-e847ee38253d}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{dca31890-1edc-4bdf-8863-8352f93c35ec}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.013165" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{d825ac57-a246-4989-9916-4b0a1c407575}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.193415" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{2e369f48-3bf3-47e9-ba7d-c395144565aa}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.0166715" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.694793" LuaDoneFunctionName="onClickPet" Visible="False" Tag="5" GUID="{dccbfdcc-898a-488d-ad7a-0baa88ae581a}">
+                        <NormalElement Type="WZUIContainer" GUID="{cd782295-dc5b-4ac9-902e-26da1f943cf0}" />
+                        <SelectElement Type="WZUIContainer" GUID="{3a232b40-d75d-4148-851c-07c77f26440e}" />
+                        <DisableElement Type="WZUIContainer" GUID="{b39ae430-1d9d-4f1b-ac9c-f70ee151d9ea}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{2f65ba86-a9ea-40e4-86cf-28ecfadcb8e2}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.801715,0.567846" AbsPosition="41,35.4999" Tag="5" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{4c042a8c-4172-473d-b10a-f03e454aef3f}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.500001,1.53334" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{583f4e73-4b40-49d4-862a-37377fc20ed3}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" RelativePosition="0.483333,0.683333" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{bb396a7c-3b0c-4dcb-8a50-b87d7d8d811a}" RelativePosition="0.5,0.616667">
+                            <NormalElement Type="WZUIContainer" GUID="{f7d58a1e-9eb8-4542-ae1f-5dea4b949407}" />
+                            <SelectElement Type="WZUIContainer" GUID="{827d5698-c795-4a6a-aec3-a66dda7c3af9}" />
+                            <DisableElement Type="WZUIContainer" GUID="{4274c636-ec1f-44e9-94e2-30aa826ca92e}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="100,100" GUID="{e61099b1-6c75-47f0-ab1f-e26154a6a898}" LuaObjectName="" Name="head_SceneRoom" NameCreate="False" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" RelativePosition="0.5,0.645454" Visible="True">
+                        <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{53898e82-d1ee-43ed-8eaf-5f0ec816ad28}" Name="" Scale="1">
+                            <Stencil Type="WZUIImage" GUID="{180be0a2-5cc5-4675-bf1a-0b149e7f0d6c}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" Visible="True" ScaleX="1" ScaleY="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{21beb413-2358-4871-a172-9758c41d86a0}" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.5" AbsPosition="50,44" />
+                        </WZUIClippingContainer>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{29e56b57-13ca-4f33-a543-11e015a9f3a6}" Name="btnPlayerFigure_SceneRoom" Tag="5" AbsContentSize="90,90" UseAbsSize="True" RelativePosition="0.5,0.645454" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{45bd0d20-667a-425b-b633-25cd09958404}" />
+                        <SelectElement Type="WZUIContainer" GUID="{b779dd7d-d001-405c-80ef-479c80425a90}" />
+                        <DisableElement Type="WZUIContainer" GUID="{22c42ff1-1277-484c-9aae-cf13de90e12e}" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{68b71bbc-9b67-44f8-ab1e-3c4621940330}" AbsContentSize="302,165" UseAbsSize="True" RelativePosition="0.828426,0.475404" Name="conSeat6_SceneRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{731cb411-5208-4591-a991-47d5e733e619}" Name="conSeatInfo_SceneRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{7666fda3-c26b-4bd3-9b8d-e912fe6a2959}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.694793" Name="conPet_SceneRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{e92ff257-5f5f-4bce-83b4-9b427dd20f00}" Name="conFigureVoice_SceneRoom" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{c59b2bb7-5b7a-447a-a557-67256c0edcfa}" Name="imgFigureVoice_SceneRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.013165" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{2eb3779d-3434-46d7-8a09-e1b2c7b2e31c}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.193415" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneRoom" Scale="0.6" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{3cc0ed0a-ba89-440f-a020-f7d7854b1af1}" Name="imgPlayerStatus_SceneRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.0166715" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.694793" LuaDoneFunctionName="onClickPet" Visible="False" Tag="6" GUID="{867c82d9-8cd4-43ee-bac8-523712c9fcf7}">
+                        <NormalElement Type="WZUIContainer" GUID="{315cce07-a1e7-4462-be3e-01889252232b}" />
+                        <SelectElement Type="WZUIContainer" GUID="{ab8020bd-3a73-4549-9ac7-18e6a05401ef}" />
+                        <DisableElement Type="WZUIContainer" GUID="{ac57a1eb-76ef-48ce-866f-efdada917ff6}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{434fa228-a999-4808-af99-6c9200ba318f}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneRoom" RelativePosition="0.801715,0.567846" AbsPosition="41,35.4999" Tag="6" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{96f75011-c565-4621-a458-d1c449a22560}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.500001,1.53334" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneRoom" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{92c306fb-d028-4127-9469-08bb804f78b8}" Name="imgWeaponIcon_SceneRoom" UseOriginSize="False" File="" TouchEnable="False" RelativePosition="0.483333,0.683333" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{4aae4aa4-97e8-4fa6-842a-2baa4659182f}" RelativePosition="0.5,0.616667">
+                            <NormalElement Type="WZUIContainer" GUID="{dfc4fc67-4ad5-4237-b212-6f1af543c1e8}" />
+                            <SelectElement Type="WZUIContainer" GUID="{2f029754-a242-4bf6-850c-9b43610a399b}" />
+                            <DisableElement Type="WZUIContainer" GUID="{3cd5c573-68f1-438e-8ed2-ff9ab62dca33}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="100,100" GUID="{ea3d5f4f-f865-4ac1-9c0a-370b320e82f1}" LuaObjectName="" Name="head_SceneRoom" NameCreate="False" Type="WZUIContainer" UseAbsSize="True" TouchEnable="False" RelativePosition="0.5,0.645454" Visible="True">
+                        <WZUIClippingContainer Type="WZUIClippingContainer" GUID="{96ce8eb9-cab2-4eb0-9d75-9e95592ea643}" Name="" Scale="1">
+                            <Stencil Type="WZUIImage" GUID="{ba76d4fd-dd6b-4e35-84d1-1b015196d643}" File="ui/city/newUI/common_shade_touxiang.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" Visible="True" ScaleX="1" ScaleY="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{2843c75b-c51d-4199-9b12-31cda3686d4d}" Name="conPlayer_SceneRoom" RelativePosition="0.5,0.5" AbsPosition="50,44" />
+                        </WZUIClippingContainer>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{c4b91f93-8897-41af-b205-2da22c290f69}" Name="btnPlayerFigure_SceneRoom" Tag="6" AbsContentSize="90,90" UseAbsSize="True" RelativePosition="0.5,0.645454" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{c5360d84-9b63-4e27-9a93-65ac834386d9}" />
+                        <SelectElement Type="WZUIContainer" GUID="{f4028a98-3e20-4864-9d4f-6524eae46e37}" />
+                        <DisableElement Type="WZUIContainer" GUID="{6d7778e4-0ec6-4714-ba1c-883b26fb05ab}" />
+                    </WZUIButton>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{b2f24b51-80dd-4b6d-96d1-f83cc2599dcb}" Name="conSelPlayerInfo_SceneRoom" AbsContentSize="250,80" UseAbsSize="True" AnchorPoint="0,1" RelativePosition="-0.0145833,0.85" Visible="False" ShowAll="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{bf0e04f6-dec8-4fd5-8fc7-e73b5e7aa1df}" File="ui/common/common_scale9_di29.png" />
+                <WZUIContainer Type="WZUIContainer" GUID="{fa089e6b-68ce-4df5-883f-96292a29d0d7}" Name="conSelHead_SceneRoom" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.196,0.5">
+                    <WZUIImage Type="WZUIImage" GUID="{17d5ba14-128c-49bf-b20f-af583f3c8293}" File="ui/common/common_icon_tx.png" UseOriginSize="True" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e998d623-3bdc-4e6f-8686-c9d249e30921}" Name="txtSelName_SceneRoom" AnchorPoint="0,0.5" LabelStyleKey="C1_F20" Text="玩家的好名字" RelativePosition="0.35,0.75" />
+                <Button Type="WZUIButton" GUID="{0224411a-ff46-446a-9471-3d2dab06d93a}" AbsContentSize="116,58" UseAbsSize="True" Scale="0.6" RelativePosition="0.5,0.3375" LuaDoneFunctionName="onClickOutSel" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{8a9a816e-6ca4-4cfa-a7f4-5e75e38abce8}">
+                        <WZUIImage Type="WZUIImage" GUID="{799230cc-71e5-43e8-932b-c49bd0a5f2aa}" AbsPosition="" UseOriginSize="True" File="ui/common/common_btn_anniu10_0.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{8c9be584-0eee-40e7-b685-800233fb4703}">
+                        <WZUIImage Type="WZUIImage" GUID="{e6123b13-fc7a-4909-8034-592534ad854e}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{dadb1c8a-d6a1-48ab-8b2d-691889f6c754}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{1d8c77e5-dfa1-42a1-a3c7-ee9f714ec6c9}" LabelStyleKey="SMALL_GREEN_BTN" TextKey="POPUPMENUSTRING12" Name="txtKickOut_SceneRoom" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{ac17318f-44ec-4d40-b867-643c7f6b7ee2}" AbsContentSize="116,58" UseAbsSize="True" Scale="0.6" RelativePosition="0.804,0.3375" LuaActionName="Normal" LocalInterval="300" LuaDoneFunctionName="onCheckSel">
+                    <NormalElement Type="WZUIContainer" GUID="{161c89c6-38f9-420c-825a-7a62e4957947}">
+                        <WZUIImage Type="WZUIImage" GUID="{dce7fbe6-4d0d-4866-9613-b4f7da3b5c10}" AbsPosition="" UseOriginSize="True" File="ui/common/common_btn_anniu3_0.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{7bf573f4-556c-42d5-b58c-ed40df9e0cd4}">
+                        <WZUIImage Type="WZUIImage" GUID="{5ae014f4-ee70-41da-a614-90ff8db503ef}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{80f5bc9b-661b-4c70-9257-2bf6f199489c}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{ea10ed32-0c98-4063-8e6f-c54d22bb734d}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="PETLOOK" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{0f57a0b4-6344-48ba-aff9-589e26cfa33f}" AbsContentSize="1136,100" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" Name="conBottom_SceneRoom" ShowAll="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{898eb934-8fb3-41f4-9fe7-f7ea8ec205ab}" AnchorPoint="1,0.5" RelativePosition="1,0.5" ShowAll="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{2616f14a-5907-468e-ae94-0de0dd412c26}" AbsContentSize="212,76" UseAbsSize="True" RelativePosition="0.885416,0.5" ShowAll="False" Visible="True">
+                        <WZUIButton Type="WZUIButton" AbsContentSize="0,0" UseAbsSize="False" RelativePosition="0.5,0.5" GUID="{94b0edac-a5b1-4b4e-bd6c-792f7f2df5d0}" LuaDoneFunctionName="onStartGameC" Name="btnReadyGame_SceneRoom" TouchEnable="True" UseAbsCoordinate="False" LuaActionName="">
+                            <NormalElement Type="WZUIContainer" GUID="{73a7ce4e-6a14-4c75-af4c-7a754f72a895}">
+                                <WZUIImage Type="WZUIImage" GUID="{93bf4490-1ebc-4b99-aef7-cb6dd271bd97}" File="ui/common/common_btn_anniu8.png" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{cd76b08e-da01-4d2d-b085-02353c0a7ac5}" Scale="1.05">
+                                <WZUIImage Type="WZUIImage" GUID="{fa12d28d-7d87-42d3-929b-4787726285a7}" File="ui/common/common_btn_anniu8_sel.png" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{2c316ef9-ab52-41ca-bf57-2935cd621bfd}">
+                                <WZUIImage Type="WZUIImage" GUID="{bf99c658-a724-4e9b-bcd8-201ef3a26983}" File="ui/common/common_btn_anniu8_sel.png" />
+                            </DisableElement>
+                        </WZUIButton>
+                        <WZArmature Type="WZArmature" GUID="{b798ab90-df73-44f9-8e83-3c70d5318467}" ArmatureFile="ui/ui_tongyong_anniu.xml" ArmatureName="ui_tongyong_anniu" UseOriginSize="True" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Name="armBtn_SceneRoom" TouchEnable="False" UseBasePoint="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{357cef22-ac5d-4ae3-bab3-712c58923fc9}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{a3237405-13bf-4c56-b607-2f7065afc976}" File="ui/common/common_icon_ksyx.png" UseOriginSize="True" Name="imgStartGame_SceneRoom" TouchEnable="False" GrayRender="False" RelativePosition="0.5,0.552632" Visible="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{b099da3a-0fb1-4a8a-88e1-a3dc72ac49ce}" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.715625,0.5" Name="conSkill_SceneRoom" ShowAll="False">
+                        <Button Type="WZUIButton" GUID="{34446475-0863-41c3-9750-3a60c0d4fb16}" LuaDoneFunctionName="onClickSkill" LuaActionName="Normal">
+                            <NormalElement Type="WZUIContainer" GUID="{eb020915-bb7d-424f-bbf6-69661fd1e8a7}">
+                                <WZUIImage Type="WZUIImage" GUID="{df656f2d-e4c0-44f2-9bfd-ec3f17fc0dcb}" File="ui/Hall/battle_icon_jinengdaoju.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{a981d942-3d98-49e5-a20d-68c94f4a6eda}">
+                                <WZUIImage Type="WZUIImage" GUID="{9e37d09e-e727-406c-a814-1c17b9de275c}" File="ui/Hall/battle_icon_jinengdaoju.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{7a99a888-60fe-4fc4-a7b5-873a7e9b2d13}" />
+                        </Button>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{35f86f5e-134c-4fc8-a29a-ceb07046335e}" FontSize="18" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" RelativePosition="0.5,1.07143" Name="txtSkillSuitName_SceneRoom" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{0b09b373-9c6a-4db1-bc54-d0a9038cd128}" TouchEnable="False" Visible="True">
+            <WZUIParticle Type="WZUIParticle" GUID="{03d7f417-665b-4154-99c0-83b01444b728}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0" TouchSwallow="True" TouchEnable="False" AnchorPoint="0.5,0" />
+        </WZUIContainer>
+        <WZUIButton AbsContentSize="36,88" AnchorPoint="1,0.5" LuaDoneFunctionName="onClickShowInvite" Name="btnShowInvite_SceneRoom" Order="0" RelativePosition="1,0.5" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{b42703f0-a575-4e0f-a8c2-dee71513ba47}" Scale="1" UseAbsCoordinate="False" AbsPosition="19,66" Visible="False" LocalInterval="300">
+            <NormalElement Type="WZUIContainer" GUID="{69dc5e85-17fc-4a68-a0c6-b27c55176a39}" />
+            <SelectElement Type="WZUIContainer" GUID="{b318b4d6-72e6-49cc-8b7b-8321d53ff77a}" />
+            <DisableElement Type="WZUIContainer" GUID="{9d13e4c8-9eed-4877-9d79-1aaa26f948c7}" />
+            <WZUIImage File="ui/common/common_btn_liebiao_01.png" Type="WZUIImage" UseOriginSize="True" GUID="{c4f789ed-fe1e-45d7-a4e8-ffc68f313971}" Visible="True" Scale="1" Name="" GrayRender="False" ScaleX="1" ScaleY="1" ShowAll="False" />
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" GUID="{f97d5b5b-13fa-470f-8e57-6ac98a295457}" Name="conForRoomInvite_SceneRoom" AbsContentSize="404,640" AnchorPoint="1,0.5" UseAbsSize="True" RelativePosition="1,0.5" Visible="False" ShowAll="True" />
+        <WZUIButton AbsContentSize="35,35" AnchorPoint="0,0" LuaDoneFunctionName="onClickMic" Name="btnMic_SceneRoom" Order="0" RelativePosition="" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{82d9bb7e-b1fb-4a99-9218-9ec22e8cae57}" Scale="0.9" UseAbsCoordinate="True" AbsPosition="19,66">
+            <NormalElement Type="WZUIContainer" GUID="{a52c06f7-3738-4734-86bd-4dd858d2a5fc}">
+                <WZUIImage File="ui/common/common_icon_yuying02.png" Type="WZUIImage" UseOriginSize="True" GUID="{cea7556b-26e7-4424-a487-b9b6b599a01f}" Visible="True" Scale="0.7" Name="imgMic1_SceneRoom" GrayRender="True" ScaleX="0.7" ScaleY="0.7" ShowAll="False" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{fe0a46e5-c27c-4c45-9ea8-b192d5aaa6ed}">
+                <WZUIImage File="ui/common/common_icon_yuying02.png" Type="WZUIImage" UseOriginSize="True" Scale="0.7" GUID="{789c454e-3910-488f-9ac8-7966f49d9495}" Name="imgMic2_SceneRoom" ScaleX="0.7" ScaleY="0.7" GrayRender="True" ShowAll="False" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{b42537c8-a842-4c84-8bea-907bd5756a02}" />
+        </WZUIButton>
+        <WZUIButton AbsContentSize="35,35" AnchorPoint="0,0" LuaDoneFunctionName="onClickSpeaker" Name="btnSpeaker_SceneRoom" Order="0" RelativePosition="" ShowAll="True" Type="WZUIButton" UseAbsSize="True" GUID="{23f42888-1ea2-4e63-8332-1cee07beeeb8}" Scale="0.9" Visible="True" UseAbsCoordinate="True" AbsPosition="19,33.0057">
+            <NormalElement Type="WZUIContainer" GUID="{94431418-320b-405e-a108-797fac48f0c3}">
+                <WZUIImage File="ui/common/common_icon_yuying_02.png" Type="WZUIImage" UseOriginSize="True" GUID="{85f97748-be99-48e1-a752-6cffc64880ce}" Visible="True" Scale="0.7" Name="imgSpeaker1_SceneRoom" GrayRender="True" ScaleX="0.7" ScaleY="0.7" ShowAll="False" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{cf7d2113-69c9-4ff9-b536-75521c2b4edd}">
+                <WZUIImage File="ui/common/common_icon_yuying_02.png" Type="WZUIImage" UseOriginSize="True" Scale="0.8" GUID="{6201d25e-0c13-4e41-bf7e-9fe2a11864df}" Name="imgSpeaker2_SceneRoom" ScaleY="0.8" ScaleX="0.8" GrayRender="True" ShowAll="False" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{c326f0f7-2a0b-4387-95d7-abbc3bb8c308}" />
+        </WZUIButton>
+        <WZUIContainer Type="WZUIContainer" GUID="{4a919021-66a3-4e79-9114-3970a63c373a}" Name="conMark_SceneRoom" Visible="False" ShowAll="False" Order="10" RelativePosition="0.5,0.5">
+            <WZUIImage Type="WZUIImage" GUID="{841d9c03-95cd-4b51-b168-7e8bfb91d337}" File="ui/common/common_black_bg.png" Visible="True" Scale="3" Opacity="150" />
+            <WZUIContainer Type="WZUIContainer" GUID="{94a8bdff-cc8a-4a7d-bdd8-6f5455ff55c7}" Name="" Order="600" Visible="True" TouchContainerEnable="True" AbsContentSize="355,405" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{a2428faa-1787-49d3-addc-6b3a6ff3a4c4}" AbsContentSize="355,405" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{b211a21d-0c35-40da-81a2-491695e3b8d2}" File="ui/common/common_scale9_di19.png" CapInsets="60,110,10,10" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{df1bd1d7-40d1-4bb0-baf4-47ac344175c4}" TextKey="HALL_DESC1" LabelStyleKey="C1_F24_S4_C3" RelativePosition="0.5,0.956543" AbsPosition="177.5,387.4" Dimensions="0,0" Alignment="Center" AnchorPoint="0.5,1" Text="" Name="" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{1d401453-a792-4ee1-a93b-b316786d2de2}" Name="" Visible="True" ShowAll="False" Order="0" RelativePosition="0.5,0.5">
+                    <WZUILabelAtlasFont CharMapFileName="ui/common_num/battle_num_timeshuzi2.png" Color="255,255,255" GUID="{dcc95d57-a457-45a3-9bb8-2419d5fc58c2}" Height="116" Name="lafTime_SceneRoom" Order="501" RelativePosition="0.5,0.639753" Text="1" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="85.6" GrayRender="False" IsOpacityModifyRGB="False" Scale="1" StartChar="48" AbsPosition="177.5,259.1" ScaleX="1" ScaleY="1" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{b1e34794-3069-4071-ae01-702e9ebd6f10}" AbsContentSize="345,95" UseAbsSize="True" RelativePosition="0.5,0.32">
+                        <WZUI9Image Type="WZUI9Image" GUID="{ce11564c-1a62-4916-985a-cbc418c53bc0}" File="ui/common/common_scale9_di20.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{6b43b20a-2557-433d-b26e-e6de0d4a3aa1}" TextKey="" LabelStyleKey="C2_F22" RelativePosition="0.0393478,0.955789" AbsPosition="13.575,90.8" Dimensions="315,0" Alignment="Left" AnchorPoint="0,1" Text="" Name="txtTimeDownTip_SceneRoom" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{42b2dca7-c46c-4cc0-82d8-dc5b1c558473}" RelativePosition="0.5,0.105864" LuaDoneFunctionName="onStartGameHangup" Name="btnHangup_SceneRoom" AbsContentSize="110,60" UseAbsSize="True" AbsPosition="177.5,42.8749" Visible="True">
+                    <NormalElement Type="WZUIContainer" GUID="{ced6a67b-918e-4a3b-b21c-195d23faf27f}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{08e43e4b-1aca-4b30-b738-7c5771b11f92}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{8bafd0a9-e186-4758-a5c9-bb20360809cc}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{2d1e6feb-26e0-4305-be99-1b675ecab27b}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{843a94b1-8601-4fe4-be78-73a42dbccf2b}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{de1fea3e-84f2-4bb6-b593-dd885a99d67f}" TextKey="MATCHING_TEXT2" LabelStyleKey="SMALL_ORANGE_BTN" RelativePosition="0.5,0.5" AbsPosition="480,223" Name="txtHangup_SceneRoom" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{410bc7ea-a941-4437-94d1-3f947ad0fe19}" RelativePosition="0.5,0.105864" LuaDoneFunctionName="onStartGameC" Name="btnCancel" AbsContentSize="110,60" UseAbsSize="True" AbsPosition="177.5,42.8749" Visible="True">
+                    <NormalElement Type="WZUIContainer" GUID="{e05ed129-de94-4dc5-b60f-71a76359be5b}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{74487094-b2c6-4f9a-91f8-15ac330ebe1d}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{a743b9b0-47b6-4485-9850-c8f540caac45}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{a3056507-271a-46ad-ab99-7446d6d8207c}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{47d0de93-605a-499c-99e7-3a968cad823d}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{08a47906-6434-4669-ae9b-946a6922c88c}" TextKey="CANCEL" LabelStyleKey="SMALL_ORANGE_BTN" RelativePosition="0.5,0.5" AbsPosition="480,223" Name="txtCancel_SceneRoom" />
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fd10ff28-52f7-4e95-842a-34037e8d129c}" FontSize="20" Color="127,70,26" Text="" RelativePosition="0.5,0.816" AbsPosition="148.5,-16" Name="txtMatchTimeOut_SceneRoom" TextKey="MATCHES_TIMEOUT2" Visible="False" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIFrame>
+</SceneRoom>

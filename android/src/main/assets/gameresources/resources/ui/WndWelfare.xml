@@ -1,0 +1,12 @@
+﻿<WndWelfare GUID="{7e5afd20-0b0b-4854-bce5-97eda5eadbac}">
+    <WZUIWindow Type="WZUIWindow" GUID="{7d3db8c6-f042-4d0d-91ae-59da1519335b}" AbsContentSize="775,535" LuaObjectName="WndWelfare" Name="WndWelfare" NameCreate="True" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" ShowAll="False" UseAbsCoordinate="True" AbsPosition="400,280">
+        <WZUIContainer Type="WZUIContainer" GUID="{68341ef3-6a04-4e97-9795-6ee266172143}" AbsContentSize="778,538" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False" Visible="True" Name="rootContainer">
+            <WZUIContainer Type="WZUIContainer" GUID="{a62579a0-f263-4841-8a1c-5764ce38eb32}" AbsContentSize="640,476" UseAbsSize="True" RelativePosition="0.651953,0.451564" UseAbsCoordinate="True" AbsPosition="550,240">
+                <WZUIContainer AbsContentSize="640,476" GUID="{97210c6c-f13e-4819-b223-95bd771d812e}" Name="conContext_WndWelfare" RelativePosition="0.5,0.5" Type="WZUIContainer" UseAbsSize="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{cf5aa199-7957-4e41-b219-d9d6554a9bc2}" AbsContentSize="231,453" UseAbsSize="True" RelativePosition="0.171772,0.438" Order="-1">
+                <WZUIFreeListContainer AbsContentSize="231,470" EnableMoveHorizontal="False" GUID="{5e0e2ffe-1b7e-480a-bd6c-23cd49dbcafa}" Name="flListItem_WndWelfare" RelativePosition="0.407407,0.511139" Type="WZUIFreeListContainer" UseAbsSize="True" Visible="True" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndWelfare>

@@ -1,0 +1,115 @@
+﻿<WndHeroTower GUID="{6d5f9509-37bf-4df8-9736-96a4f482decb}">
+    <WZUIWindow Type="WZUIWindow" GUID="{549061fa-ec4a-4e3f-b35f-163970847a29}" LuaObjectName="WndHeroTower" Name="WndHeroTower" NameCreate="True" AbsContentSize="1136,640" UseAbsSize="True" LuaTouchBeganFunction="onTouchBegan" LuaTouchEndedFunction="onTouchEnd" LuaTouchMovedFunction="onTouchMove">
+        <WZUIContainer Type="WZUIContainer" GUID="{35f583f4-e2e8-44e9-8be9-82b95a441b2a}" ShowAll="False">
+            <WZUIImage Type="WZUIImage" GUID="{fd91bbaa-c04f-4d8f-9573-4bee5aee622b}" File="ui/common_bg/yxt_bg_001.png" Scale="1" UseOriginSize="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{d2328557-ee0d-4bf9-87e7-a3a9dcf9c1a3}" AbsContentSize="1280,187" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" ShowAll="True">
+            <WZUIImage Type="WZUIImage" GUID="{cd22fc9f-9e0d-4bb2-96a5-c1ad3273cc3c}" File="ui/copy/yxt_frame_001.png" UseOriginSize="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{c71a9e9a-5d0b-47b7-ae64-850ce3f66083}" Name="" AbsContentSize="1600,720" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" UseAbsSize="True" Order="0" Visible="True" ShowAll="False" NoBorder="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{35abc1d8-21a2-40bc-acf0-357bf02bc041}" RelativeSize="1,1" AbsContentSize="1004,450" UseAbsSize="False" RelativePosition="0.5,0.5" ShowAll="False">
+                <WZUIScissorContainer Type="WZUIScissorContainer" GUID="{f6577651-a877-4df6-886d-7ac639dc3233}" Visible="True" Name="conScissor_WndHeroTower" ShowAll="True" AbsContentSize="1004,450" UseAbsSize="True" RelativePosition="0.5,0.538" Scale="1" />
+            </WZUIContainer>
+            <WZUIRenderTextureContainer AbsContentSize="0,0" ClearColor="0,0,0,0" GUID="{b2f62c98-9b41-4c1d-a514-3aae2207799a}" Name="RenderCon_WndHeroTower" ShowAll="False" Type="WZUIRenderTextureContainer" UseAbsSize="False" TouchEnable="False">
+                <WZUIImage File="ui/common/common_black_bg.png" GUID="{2e5d3d63-29ea-4aab-a314-161a49041762}" Opacity="100" TouchEnable="False" Type="WZUIImage" Name="imgBlack_WndHeroTower" Scale="1" Visible="True" />
+                <WZUIScissorContainer Type="WZUIScissorContainer" GUID="{01eb4c1b-4207-4d61-a37e-da59f9e383ca}" AbsContentSize="1004,720" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="True" Scale="1" Visible="True">
+                    <WZUITouchClippingContainer GUID="{da8e401c-b65d-4963-96b5-163f794b8843}" Name="clipCon_WndHeroTower" Type="WZUITouchClippingContainer" AbsContentSize="220,450" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False" Scale="1">
+                        <WZUIImage BlendFuncSrc="0" File="ui/teach/66.png" GUID="{e0413df1-0f2d-4f0e-b155-8f1490ad8bb0}" Name="ImgTeachClip_WndHeroTower" NameCreate="False" ShowAll="True" TouchEnable="False" Type="WZUIImage" UseOriginSizeProportion="False" UseOriginSize="False" RelativeSize="1,1" ScaleY="2" ScaleX="0.9" />
+                    </WZUITouchClippingContainer>
+                </WZUIScissorContainer>
+            </WZUIRenderTextureContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{3e84fd4b-372a-4df7-b8bf-f7a853413910}" AbsContentSize="960,187" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" ShowAll="True" Visible="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{58fa4456-3dcd-4bd9-9b96-6e5a0e0fdad2}" Name="conReward_WndHeroTower" AbsContentSize="580,120" UseAbsSize="True" RelativePosition="0.35,0.39">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{ee64f460-0a7b-437f-b19a-0a66db41ba27}" TextKey="ATH_REWARD_CHECK" LabelStyleKey="C1_F22_S4_C5" Dimensions="30,0" RelativePosition="0,0.5" Name="txtReward_WndHeroTower" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{b9c2af06-d04e-43ed-b1b2-2986282b8ab5}" AbsContentSize="560,120" EnableMoveVertical="False" IsVerticalMode="False" CellElementHeight="0.17" Name="tableReward_WndHeroTower" UseAbsSize="True" RelativePosition="0.52069,0.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{1fdc02a1-399f-4802-9d7f-551705c06af5}" AbsContentSize="300,100" RelativePosition="0.83,0.33" UseAbsSize="True">
+                <Button Type="WZUIButton" GUID="{960d1efe-d884-4c26-8c1b-dab6dbfb886e}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.25,0.5" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickUpdateEnemy">
+                    <NormalElement Type="WZUIContainer" GUID="{32842e36-4e79-4b6b-ab39-2369f120cd05}">
+                        <WZUIImage Type="WZUIImage" GUID="{797a3284-a648-4e3c-873c-cddfa5dbba62}" File="ui/common/common_btn_anniu3_0.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{88e01da0-2dce-4636-b05a-978b7040478f}">
+                        <WZUIImage Type="WZUIImage" GUID="{cc29d3f2-85f8-432f-8ca9-459ad46ce0d0}" File="ui/common/common_btn_anniu3_0_sel.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{a7cf2bf6-a316-4c3f-9f67-a23bfb32a88f}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3c49c8fe-7e29-4ad5-91d7-3283542f2c6c}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="HEROTOWER_TEXT2" Scale="0.95" Name="txtRefresh_WndheroTower" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{c44bbca7-d979-4c07-ae6d-024048ee6d3e}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.75,0.5" LuaDoneFunctionName="onClickChallenge" LuaActionName="Normal" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{2389e6a5-8c92-47d9-a1e7-228d12e0c6d3}">
+                        <WZUIImage Type="WZUIImage" GUID="{3928a6bd-1a80-422f-b5eb-ade3c4c72888}" File="ui/common/common_btn_anniu10_0.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{64848c9a-fed9-42e9-b8a3-66eb25485044}">
+                        <WZUIImage Type="WZUIImage" GUID="{77355520-e4dd-416c-b09d-3c9a8c87d33b}" File="ui/common/common_btn_anniu10_0_sel.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{aee96cc5-99e7-448b-8da3-7c9efd24efcf}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5887688c-279d-4375-8fad-bd5b0cf4d82a}" LabelStyleKey="SMALL_GREEN_BTN" TextKey="CHALLENGEENTRANCE_TITLE" Scale="0.95" />
+                </Button>
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{5c02a35e-f5eb-4512-b42a-8b8fbceae65f}" Name="ftxtUpdateCost_WndHeroTower" RelativePosition="0.25,1" MaxWidth="200" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{9bbae005-5936-42a3-a6a1-f6633ee94d41}" AbsContentSize="100,100" UseAbsSize="True" RelativePosition="0.089,0.825" AbsPosition="38.178,514.22" ShowAll="True" AnchorPoint="0.5,0.5" Name="conRank_WndHeroTower">
+            <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onBtnRank" GUID="{4561c097-bbb9-4c28-9a74-6d6f36393963}" LuaActionName="Normal" LocalInterval="300">
+                <NormalElement Type="WZUIContainer" GUID="{b6d88d99-46d3-41d8-b9a6-c4b8d0144264}" />
+                <SelectElement Type="WZUIContainer" GUID="{259f19c0-09e9-4daf-8bad-4ead0023a01f}" />
+                <DisableElement Type="WZUIContainer" GUID="{f03426a4-24d8-41f3-9763-c86a4755b830}" />
+                <WZUIImage Type="WZUIImage" GUID="{e3709950-bd13-4294-bf13-1532760d1946}" File="ui/copy/common_icon_phztt.png" UseOriginSize="True" RelativePosition="0.5,0.5" TouchEnable="False" />
+            </WZUIButton>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{5afbff39-be83-487d-bafd-e2c3fe2d8969}" Name="conMyInfo_WndHeroTower" AbsContentSize="287,67" UseAbsSize="True" RelativePosition="1,0.825" AnchorPoint="1,0.5" ShowAll="True">
+            <WZUIImage Type="WZUIImage" GUID="{965e7eae-715d-4691-a2ac-749eaf8bde70}" File="ui/copy/yxt_frame_002.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{7d138084-9daa-4087-89ec-0bd5d1c84471}" Text="PH：" LabelStyleKey="C8_F22" AnchorPoint="0,0.5" RelativePosition="0.17,0.7" TextKey="HEROTOWER_TEXT3">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{09df7ef9-deff-436d-a7ed-2a44d51e0265}" Text="" LabelStyleKey="C1_F22" AnchorPoint="0,0.5" RelativePosition="1.1,0.5" Name="txtMyPH_WndHeroTower" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{763c7981-1548-49fe-9701-5c8045dd8e69}" Text="怒气：" LabelStyleKey="C8_F22" AnchorPoint="0,0.5" RelativePosition="0.17,0.3" TextKey="HEROTOWER_TEXT4">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{ec179c6e-40be-4015-b4a2-05febf33c9b8}" Text="" LabelStyleKey="C1_F22" AnchorPoint="0,0.5" RelativePosition="1.1,0.5" Name="txtMyPF_WndHeroTower" />
+            </WZUILabelTTF>
+            <WZUISpine Type="WZUISpine" GUID="{fed56435-a9ee-49db-abfd-10b33eecdf7e}" FileAtlas="ui/ui_icon_nuqi.atlas" FileJson="ui/ui_icon_nuqi.json" AnimationName="wait" Loop="False" RelativePosition="0.339721,0.559702" Name="spineReset_WndHeroTower" Visible="False" TouchEnable="False" />
+            <WZUIContainer Type="WZUIContainer" GUID="{40a91955-b3e0-4ebb-b26f-e4fe4821278b}" Name="conHead_WndHeroTower" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0,0.5">
+                <WZUIImage Type="WZUIImage" GUID="{3aa2b337-afff-4f96-a91a-a69eceada920}" File="ui/common/common_icon_tx.png" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{fe7f098f-9a88-4102-9c47-c117c8846a8f}" AbsContentSize="70,40" UseAbsSize="True" Scale="0.9" RelativePosition="0.844948,0.5" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickReset">
+                <NormalElement Type="WZUIContainer" GUID="{eb3660fa-eed5-4777-9a35-b98a5e26419d}">
+                    <WZUIImage Type="WZUIImage" GUID="{5d8df727-ec7a-4309-b66e-d1e163f91ef8}" File="ui/common/common_btn_anniu5.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{48668a62-fe83-4828-b18f-7dc1dff75c36}">
+                    <WZUIImage Type="WZUIImage" GUID="{df2ba6a5-107d-4879-94d1-cebf77eeec73}" File="ui/common/common_btn_anniu5_sel.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{363639a7-ee12-4ebf-af7f-7e19e27eb5e1}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8ad6d8a4-c0d6-4fc7-a064-513b875efa97}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="RESET" Scale="0.8" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{fdc57bee-da4c-4251-a336-fba32d08641d}" Name="conForBuff_WndHeroTower" AbsContentSize="80,80" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.71" ShowAll="True">
+            <Button Type="WZUIButton" GUID="{a27ec9a5-c88a-4e9b-bef7-5302aad4429a}" LuaDoneFunctionName="onCLickBuff" LuaActionName="Normal" LocalInterval="300">
+                <NormalElement Type="WZUIContainer" GUID="{7a623af6-dd74-4c7b-8c51-b676847a2a97}" />
+                <SelectElement Type="WZUIContainer" GUID="{972ba33e-12b2-4844-bd82-b7b870297784}" />
+                <DisableElement Type="WZUIContainer" GUID="{43e34732-59a6-4de2-ab18-54aa25507f7c}" />
+                <WZUIImage Type="WZUIImage" GUID="{90461e8b-6dc6-4511-a2c1-015c2e792935}" File="ui/copy/herotower_icon_frame.png" Name="" />
+                <WZUIImage Type="WZUIImage" GUID="{5cd758c7-8275-4ea7-8595-482a97832f11}" File="" Name="imgBuffIcon_WndHeroTower" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{c08204e1-b8c9-43ea-aab7-2fbe9ec55901}" Name="conBtnRule_WndHeroTower" AbsContentSize="60,60" UseAbsSize="True" AnchorPoint="0,0" RelativePosition="0,0" ShowAll="True">
+            <Button Type="WZUIButton" GUID="{91b9c1ca-98a3-477c-8996-0cf6de2dc9f9}" LuaDoneFunctionName="onCLickRule" LuaActionName="Normal" LocalInterval="300">
+                <NormalElement Type="WZUIContainer" GUID="{eab16c2d-fc95-435e-9e6e-fa9078b62913}" />
+                <SelectElement Type="WZUIContainer" GUID="{3dd2d3f1-cdd0-47d0-9ef3-1cb87d163ed2}" />
+                <DisableElement Type="WZUIContainer" GUID="{09842b9f-96ed-4f09-acbe-0c4625c19e53}" />
+                <WZUIImage Type="WZUIImage" GUID="{67040491-7a51-4776-ac25-0703a6751cc8}" File="ui/common/common_icon_gth.png" Name="" UseOriginSize="True" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{50a099c8-82a4-4654-9de6-4998fea182bf}" Name="CellBuffShow_WndHeroTower" Visible="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{1956b340-2ec7-4f4e-8443-6891aab0b8eb}" Name="img9OpacityBg_WndHeroTower" File="ui/common/common_black_bg.png" Opacity="80" />
+            <WZUIContainer Type="WZUIContainer" GUID="{ae53b0c7-e6c1-4e75-83ae-10d055b475ae}" Name="conBuffIcon_WndHeroTower" ShowAll="True">
+                <WZUIImage Type="WZUIImage" GUID="{b0612f33-ae1d-41a1-873a-fef8c26112c4}" File="ui/copy/herotower_icon_pattern.png" UseOriginSize="True" Scale="1.2" RelativePosition="0.479167,0.5" />
+                <WZUIImage Type="WZUIImage" GUID="{2468f9d0-3a24-40a2-affe-679d5d4f3b54}" File="ui/copy/herotower_icon_frame.png" UseOriginSize="True" Scale="1.5" />
+                <WZUIImage Type="WZUIImage" GUID="{ec2158ed-2fdf-4596-8d6a-76179d3ca854}" Name="imgBuffIcon2_WndHeroTower" UseOriginSize="True" File="" Scale="2.2" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c606d8e2-5e04-4250-a0b2-3f6809c27b73}" Name="txtBuffName_WndHeroTower" LabelStyleKey="C1_F32_S4_C3" Text="和空间撒回复" RelativePosition="0.5,0.368056" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{fbfd0ddb-d9fd-4cd0-84bb-9caf1b3cc107}" TextKey="CLICKCONTINUE" LabelStyleKey="C1_F22" RelativePosition="0.5,0.15" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{ca70fb4b-c284-4970-9987-5c38981a37a0}" LuaDoneFunctionName="onClickContinue">
+                <NormalElement Type="WZUIContainer" GUID="{cd536258-5a73-467a-b75e-bb170a990871}" />
+                <SelectElement Type="WZUIContainer" GUID="{1d8cd160-295a-4858-a5aa-e752c1fae544}" />
+                <DisableElement Type="WZUIContainer" GUID="{218224eb-c1fc-4876-80a8-30ac718e1d09}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndHeroTower>

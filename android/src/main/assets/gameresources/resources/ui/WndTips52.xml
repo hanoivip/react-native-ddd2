@@ -1,0 +1,62 @@
+﻿<WndTips52 GUID="{fcaadc80-0ed0-4014-8ed5-4746a8831fe5}">
+    <WZUIWindow AbsContentSize="450,250" AbsPosition="0,0" AnchorPoint="0.5,0.5" GUID="{4436cb31-1f70-4b59-a71d-f476ec1cebf6}" LuaObjectName="WndTips52" Name="WndTips52" NameCreate="True" RelativePosition="0.5,0.5" RelativeSize="1,1" ShowAll="False" TouchContainerEnable="True" TouchEnable="True" TouchSwallow="True" Type="WZUIWindow" UseAbsCoordinate="False" UseAbsSize="True" Visible="True" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{9e4009b2-46a6-4c1a-9189-703c6b9da6fc}" AbsContentSize="450,250" UseAbsSize="True" Name="conType49_WndTips" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{eb6d8181-d31c-42d8-bc99-392b737254b8}" File="ui/common/common_scale9_di24.png" />
+            <WZUIContainer Type="WZUIContainer" GUID="{bb97bc07-f25a-4b75-8d17-1d9e4b1946eb}" AbsContentSize="450,250" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+                <WZUIContainer Type="WZUIContainer" GUID="{4986dcc6-7303-4dce-a85d-57b152aff2ad}" Name="conRank1_WndTips52" RelativeSize="0.5,0.8" AnchorPoint="0,0.5" RelativePosition="0,0.5" Visible="True" AbsContentSize="150,250" UseAbsSize="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{8f575e47-4b7f-49c2-a306-b039060d78d4}" Name="conContent1_WndTips52" Visible="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{db7d8159-d8d8-46d6-8ac8-8f008757c2d7}" Name="conHead1_WndTips52" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.5,0.82">
+                            <WZUIImage Type="WZUIImage" GUID="{45dbc4ed-4ee7-4216-a671-28c58f0305f9}" File="ui/common/common_icon_tx.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" ScaleX="1" ScaleY="1" AbsPosition="42.592,263.892" />
+                            <Button Type="WZUIButton" GUID="{9134de1e-bbf5-456d-9212-345bfce6791b}" Order="1" LuaDoneFunctionName="onClickHead52" Tag="1">
+                                <NormalElement Type="WZUIContainer" GUID="{3d0bc0f4-7e2d-4c05-87f8-6fc3dc3782a3}" />
+                                <SelectElement Type="WZUIContainer" GUID="{2a55cc62-c764-4d87-bed4-8002e9524c7b}" />
+                                <DisableElement Type="WZUIContainer" GUID="{2959274f-26f7-4e12-a36c-3fc4b111ff1a}" />
+                            </Button>
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{37b9cd87-a10a-44a6-94f5-65807f0f27cc}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.62" Name="txtName1_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{94fe8468-8b5c-4262-8f36-d03819b4509a}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.5" Name="txtLevel1_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{cae2cc04-addc-4ee1-9df6-39bdd68f3374}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.4" Name="txtTitle1_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{93d8eb18-a334-4445-9abc-06fa62587766}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.3" Name="txtNum1_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{9fde5b0e-6aee-4a96-998c-dbbee5d72c25}" FontSize="20" Color="138,122,106" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.5" Name="txtNoWords1_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" TextKey="NEWACTIVITY_TEXT6" />
+                    <WZUIImage Type="WZUIImage" GUID="{3d10b11e-8870-4054-bdd3-7fda291d6e97}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" RelativePosition="1,0.5" ScaleX="1.5" Scale="1.1" AbsPosition="121,222.4" ScaleY="1" AnchorPoint="0.5,0.5" Rotation="90" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{d26eefa8-82a8-4507-983b-30c91cd7017f}" Name="conRank2_WndTips52" RelativeSize="0.5,0.8" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" Visible="True" AbsContentSize="150,250" UseAbsSize="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{76e79367-3454-4196-96eb-d3e0c2faf4b7}" Name="conContent2_WndTips52" Visible="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{e7ea1563-e93a-43a3-9096-0321ab3a7890}" Name="conHead2_WndTips52" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.5,0.82">
+                            <WZUIImage Type="WZUIImage" GUID="{f59510f6-3aa6-4f1e-ba20-a87ebddb9e26}" File="ui/common/common_icon_tx.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" ScaleX="1" ScaleY="1" AbsPosition="42.592,263.892" />
+                            <Button Type="WZUIButton" GUID="{f714f9ad-a546-4cec-a8ea-7f93b8667b78}" Order="1" LuaDoneFunctionName="onClickHead52" Tag="2">
+                                <NormalElement Type="WZUIContainer" GUID="{224f2143-54f0-46bc-90c5-271f001bb394}" />
+                                <SelectElement Type="WZUIContainer" GUID="{55c14bbc-775f-41ea-b70e-cff2b4023099}" />
+                                <DisableElement Type="WZUIContainer" GUID="{eac2ce35-64d2-4210-be43-50ded99ded40}" />
+                            </Button>
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{bdb73b7d-4ee5-43ea-92d5-e1e6ea948cfa}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.62" Name="txtName2_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{dfe296da-1e40-4516-a2ae-f760f7f8e964}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.5" Name="txtLevel2_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{0821b9a7-f6fa-4966-8c4d-06285dd5a299}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.4" Name="txtTitle2_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c949b9e7-ce39-4433-afb4-62b91f45c774}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.3" Name="txtNum2_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{90e6c644-3bfb-472b-9bfa-2ed24af212c4}" FontSize="20" Color="138,122,106" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.5" Name="txtNoWords2_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" TextKey="NEWACTIVITY_TEXT6" />
+                    <WZUIImage Type="WZUIImage" GUID="{98892edb-b891-416f-b41d-5e2d29e18266}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" RelativePosition="1,0.5" ScaleX="1.5" Scale="1.1" AbsPosition="121,222.4" ScaleY="1" AnchorPoint="0.5,0.5" Rotation="90" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{055375e5-eb90-46c6-97af-c1ff5b8d3476}" Name="conRank3_WndTips52" RelativeSize="0.5,0.8" AnchorPoint="1,0.5" RelativePosition="1,0.5" Visible="True" AbsContentSize="150,250" UseAbsSize="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{6e0bc2e9-dec4-443a-b40b-6b85e4c36b15}" Name="conContent3_WndTips52" Visible="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{043f6f7d-ec38-4a59-8ad3-daad3e65a47e}" Name="conHead3_WndTips52" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.5,0.82">
+                            <WZUIImage Type="WZUIImage" GUID="{8a26becc-6ea9-4c2d-b3f7-ad73aa2746af}" File="ui/common/common_icon_tx.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="1" Name="" ScaleX="1" ScaleY="1" AbsPosition="42.592,263.892" />
+                            <Button Type="WZUIButton" GUID="{e9504070-999a-4969-8535-4f8efe14ffc7}" Order="1" LuaDoneFunctionName="onClickHead52" Tag="3">
+                                <NormalElement Type="WZUIContainer" GUID="{f9efb7df-f869-4161-a49e-01957341f596}" />
+                                <SelectElement Type="WZUIContainer" GUID="{f0b06857-dd5a-4b5b-bd03-2b4ee1e28ff4}" />
+                                <DisableElement Type="WZUIContainer" GUID="{c32e5841-3a45-45e0-bf79-b22051cd69b5}" />
+                            </Button>
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{cd3d2b61-b6b8-4e1b-aabc-710fe14c3042}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.62" Name="txtName3_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9e4c1656-8c66-4881-aef3-2d2a6e07d594}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.5" Name="txtLevel3_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{535f8eda-3d73-4200-a592-f4f40d0a1b2d}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.4" Name="txtTitle3_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a4086b1f-d947-4b7e-943f-3513eaafd793}" FontSize="20" Color="255,236,193" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.3" Name="txtNum3_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{258d1740-2ec6-4462-a500-38e3f512e845}" FontSize="20" Color="138,122,106" Text="六个字的名字" BoldFont="False" RelativePosition="0.5,0.5" Name="txtNoWords3_WndTips52" Alignment="Left" AnchorPoint="0.5,0.5" AbsPosition="96.8,274.952" Visible="True" TextKey="NEWACTIVITY_TEXT6" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndTips52>

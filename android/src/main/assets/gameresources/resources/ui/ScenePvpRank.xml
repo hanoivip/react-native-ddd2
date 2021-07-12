@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" ?>
+<ScenePvpRank GUID="{5FACBA6A-E6BC-4845-BAFD-A99DE90F6FD3}">
+    <WZUIFrame AbsContentSize="0,0" GUID="{147236B4-5BD5-4363-AE92-0304B203EF51}" LuaObjectName="ScenePvpRank" LuaTouchBeganFunction="onTouchBegan" Name="ScenePvpRank" NameCreate="True" RelativePosition="0.5,0.5" Scale="1" ShowAll="False" Type="WZUIFrame" UseAbsSize="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{63F892BA-02C5-4878-8DE9-3A1E2B663A65}" Visible="True" UseAbsSize="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{066e38f7-c4dc-44ba-bdb3-468d4daed6cf}" File="ui/common_bg/common_bg_02.png" Visible="True" Name="imgBg1_WndBag" UseOriginSize="True" Scale="1" />
+            <WZUISpine Type="WZUISpine" GUID="{a2f02cd5-79b3-48af-94a6-06549129d27f}" FileAtlas="ui/ui_paiweisai_hl.atlas" FileJson="ui/ui_paiweisai_hl.json" AnimationName="size_1" Loop="True" RelativePosition="0.79,0.289" />
+            <WZUIParticle Type="WZUIParticle" GUID="{c9c353d8-8b7d-4220-a9d6-88de1fd742a9}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{9c0a2cc6-0db8-475c-9bf6-0808de9e0078}" ShowAll="False" Name="conMain_ScenePvpRank" UseAbsSize="False">
+            <WZUIContainer Type="WZUIContainer" GUID="{62a99bc5-8883-4442-be17-b876cd29aa9f}" AbsContentSize="316,509" UseAbsSize="True" RelativePosition="0.791934,1" AnchorPoint="0.5,1" Name="conPvpInfo_ScenePvpRank" ShowAll="True">
+                <WZUIImage Type="WZUIImage" GUID="{a3ff9cb6-5e9f-4269-b561-1a9454a80e1b}" File="ui/common/common_pic_02.png" UseOriginSize="True" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{87b5c0b4-58de-4cb9-8940-af67be49cfc1}" Name="ftxtSeason_ScenePvpRank" AnchorPoint="0.5,0.5" RelativePosition="0.226472,0.926035" MaxWidth="540" ShowText="" Scale="0.75" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{f88636ce-f2fa-49e2-90f3-fbb6b561f1c9}" AnchorPoint="0,0.5" RelativePosition="0.37,0.945" Text="" FontSize="20" Color="255,255,255" TextKey="TIME_OF_THE_SEASON" Name="txtTopTitle_ScenePvpRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{4eb74d5b-7ee2-4ce3-8757-8f98942ee9eb}" AbsContentSize="" UseAbsSize="False" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" Name="conForStar_ScenePvpRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{649bfb98-c73c-4946-9f16-f63008475fc3}" Name="conIcon_ScenePvpRank" AbsContentSize="210,210" UseAbsSize="True" RelativePosition="0.5,0.62" Scale="0.85" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{6e852caf-dcff-4e61-afbb-03e5960e228f}" FontSize="22" EnableStroke="True" Color="255,255,255" StrokeSize="4" StrokeColor="127,70,26" Text="" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.47" Name="txtPvpLevelName_ScenePvpRank" Visible="True" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{7058bc85-4093-453d-99d4-7028eb6ed608}" Name="ftxtPvpIntegral_ScenePvpRank" MaxWidth="400" AnchorPoint="0,0.5" RelativePosition="0.158,0.41" ShowText="" Scale="0.89" />
+                <WZUIContainer Type="WZUIContainer" GUID="{dab214ef-9bbb-4cd0-a249-465acc36bdce}" AbsContentSize="228,18" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.336656">
+                    <WZUI9Image Type="WZUI9Image" GUID="{31232e4f-389c-4373-8457-bf8463c6c4c7}" File="ui/common/progress_jjc_01.png" />
+                    <WZUIProgress Type="WZUIProgress" GUID="{96fb6dcd-64df-49f5-a2fe-36ff37db0fdb}" BgPicture="ui/common/progress_jjc_02.png" UseOriginSize="True" RelativePosition="0.5,0.5" Name="prgCurExp_ScenePvpRank" Percentage="0" ScaleX="1" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b146e4c9-7f6a-4fa9-b1c9-646c46fdf947}" Color="255,255,255" EnableStroke="True" FontSize="16" StrokeColor="127,70,26" StrokeSize="4" Name="txtPvpLevelExp_ScenePvpRank" Text="" />
+                    <WZUIImage Type="WZUIImage" GUID="{ae40505a-e1f3-4535-8828-f8a6abd680d3}" File="ui/common/common_btn_jiant_02.png" UseOriginSize="True" RelativePosition="0.204348,0.105556" Name="imgProtectedIcon_ScenePvpRank" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c55c657d-24cb-4848-bd79-c159bca72f91}" FontSize="18" Color="127,70,26" RelativePosition="0.0293031,-0.943399" Name="txtProtectedText_ScenePvpRank" Visible="False" Text="" AnchorPoint="0,0.5" Scale="0.9" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{abeae329-7700-4488-9ffd-7eacbfef3c7c}" RelativePosition="0.288,0.265" Text="" Color="255,255,255" FontSize="18" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" TextKey="TODAY_GET" Name="txtTodayGet_ScenePvpRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{f5207897-8c53-4c64-a97b-8f8db272067f}" UseAbsSize="True" AbsContentSize="120,30" RelativePosition="0.663,0.267" Name="conRankCoin_ScenePvpRank">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d2ce5995-2cfb-4e17-82bd-fa34de503fa2}" File="ui/common/frame_05.png" />
+                    <WZUIImage Type="WZUIImage" GUID="{7364ab2e-7e41-4a74-8380-340dc4fb6fdf}" File="shopitems/qualifying_002.png" UseOriginSize="True" Scale="0.45" RelativePosition="0.02,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{ea3e782e-0819-4f70-a22d-0f52aac899c4}" Name="txtDropCoin_ScenePvpRank" Text="" LabelStyleKey="" AnchorPoint="0,0.5" RelativePosition="0.2026,0.5" FontSize="18" Color="255,255,255" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" />
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{aeda5e3e-33f3-4cdb-aaae-a33567e4e7f6}" AbsContentSize="150,40" UseAbsSize="True" RelativePosition="0.663,0.267" LuaDoneFunctionName="onClickRankCoin">
+                    <NormalElement Type="WZUIContainer" GUID="{c148ba1b-51a3-4d14-9734-37912c9a3c2e}" />
+                    <SelectElement Type="WZUIContainer" GUID="{13579c4e-53c8-4d11-b074-33b3ef4a5d2d}" />
+                    <DisableElement Type="WZUIContainer" GUID="{eaa6702b-021d-45c5-8c6b-b94e168930e0}" />
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9a02be19-3557-406b-80e8-f334778af5ce}" Name="txtPlayerProtectTimesCout" Text="" LabelStyleKey="" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.216" FontSize="18" Color="255,255,255" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" Scale="0.8" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{826fe64d-0a51-426a-8d65-98daac94a6e9}" FontSize="18" Color="255,255,255" Name="txtDate_ScenePvpRank" StrokeColor="79,60,48" StrokeSize="4" Text="" EnableStroke="False" RelativePosition="0.37,0.905" AnchorPoint="0,0.5" Order="0" />
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="340,510" GUID="{458e99a2-bc32-467f-9dee-f9770f3aa0a4}" NoBorder="False" RelativePosition="0.179288,0.802234" ShowAll="True" Type="WZUIContainer" UseAbsSize="True" Visible="True" Name="conPlayerInfo_ScenePvpRank" NameCreate="True" AbsPosition="261.838,296.278" AnchorPoint="0,1">
+                <WZUIContainer Type="WZUIContainer" GUID="{4cb913d2-6c60-40c6-94a3-4bf2a4849354}" RelativeSize="0.66,0.72" RelativePosition="0.5,0.896078" AnchorPoint="0.5,1" AbsPosition="200,457">
+                    <WZUIContainer AbsContentSize="150,150" AnchorPoint="0.5,0" GUID="{304e15c7-dfc9-4578-8452-22f7df099d8c}" Name="conPlayer_ScenePvpRank" RelativePosition="0.551025,0.0361892" Type="WZUIContainer" UseAbsSize="True" RelativeSize="0.8,0.56">
+                        <WZUIImage Type="WZUIImage" GUID="{f3df6350-abd0-4b02-b1f1-f0e06ac624d4}" File="ui/common/common_icon_yy.png" UseOriginSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,-0.04" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{d684d70a-3d70-476c-a299-17e574b764e3}">
+                        <Button Type="WZUIButton" LuaDoneFunctionName="onRole" GUID="{c57bd655-0508-4f02-95fe-4446ddf11e30}">
+                            <NormalElement Type="WZUIContainer" GUID="{198be9b7-32f5-4437-8f15-592110614340}" />
+                            <SelectElement Type="WZUIContainer" GUID="{f91a6441-c902-4b48-83f4-dab6a5f33564}" />
+                            <DisableElement Type="WZUIContainer" GUID="{181efe98-7409-44ac-a640-9532466a636e}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{56161d00-74cc-42da-900a-267be3a708fe}" AbsContentSize="100,100" UseAbsSize="True" RelativePosition="0.0733303,0.659484" Name="">
+                        <WZUIContainer Type="WZUIContainer" GUID="{037da6f8-ae87-4bb0-9741-9d39787ceef8}" AbsContentSize="100,100" UseAbsSize="True" RelativePosition="0.5,0.5" Name="conPet_ScenePvpRank" />
+                        <Button Type="WZUIButton" LuaDoneFunctionName="OnPet" GUID="{ae98f08c-1b1c-4bc3-b50b-9f81a6ed1e34}">
+                            <NormalElement Type="WZUIContainer" GUID="{07e13ddf-30bf-4c0c-a770-cae67dffe1d2}" />
+                            <SelectElement Type="WZUIContainer" GUID="{c4bde3cf-a506-448d-baa3-e64a6d2fe129}" />
+                            <DisableElement Type="WZUIContainer" GUID="{8c5a0f8a-8e31-45b6-a7eb-5de879defe18}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{92937337-5174-434f-abae-c5826a4769ed}" RelativeSize="1,1" TouchEnable="False" AbsContentSize="200,60" UseAbsSize="True" RelativePosition="0.5,0.883986" AbsPosition="132,324.599" Visible="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{1fc27b2b-3884-417e-b591-54976140b5f0}" RelativeSize="1,0.5" Name="conTitle_ScenePvpRank" NameCreate="True" Visible="True" RelativePosition="0.5,1" UseAbsSize="False" AnchorPoint="0.5,1">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{cafa7760-4bd6-48da-afe6-70ff4dbf1a7b}" Text="" FontSize="22" Name="txtPlayerTitle_ScenePvpRank" NameCreate="True" Color="255,121,31" TextKey="" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.53" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{c11d86e0-7e57-442b-b45d-632819b55d07}" RelativeSize="1,0.5" RelativePosition="0.5,0" AnchorPoint="0.5,0">
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{e10d29dd-96bc-4d45-9937-15ecc967794d}" Name="txtPlayerLevel_ScenePvpRank" MaxWidth="200" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{a88c422b-a893-4dad-b867-5b66281b9fce}" AbsContentSize="100,100" UseAbsSize="True" RelativePosition="0.0607347,0.240171" AbsPosition="16.034,88.1908" Name="conWeapon_ScenePvpRank" Visible="False">
+                        <WZUISpine Type="WZUISpine" GUID="{d3b2f0f4-e819-45e3-9313-0bfeae331a34}" FileAtlas="ui/ui_jjc_weapon.atlas" FileJson="ui/ui_jjc_weapon.json" Loop="True" AnimationName="8" TouchEnable="False" TouchSwallow="False" UseOriginSizeProportion="False" RelativePosition="0.466666,1.11333" AbsPosition="46.6666,111.333" UseOriginSize="True" ScaleAnimation="1" Name="spineWeapon_ScenePvpRank" Visible="False" />
+                        <WZUIImage Type="WZUIImage" GUID="{4ff97462-681c-432c-97f0-58026ae83a8a}" Name="imgWeapon_ScenePvpRank" Scale="1" UseOriginSize="True" />
+                        <Button Type="WZUIButton" LuaDoneFunctionName="onWeapon" GUID="{86342c2a-e044-4eae-a175-b32d33557460}">
+                            <NormalElement Type="WZUIContainer" GUID="{4cce4f19-e069-47fd-8b93-44074310c2d8}" />
+                            <SelectElement Type="WZUIContainer" GUID="{1d0ffb6d-6ef8-4653-a6e6-a5e8eca1fbb8}" />
+                            <DisableElement Type="WZUIContainer" GUID="{630f9714-f0fa-498b-b4e6-0639782fa6ae}" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{b596dbc9-b52a-42e4-ae73-00f549a65a67}" RelativeSize="1,0.08" RelativePosition="0.5,0.0627386" AbsContentSize="370,78" UseAbsSize="True" Visible="False" AbsPosition="200,31.9967">
+                    <WZUIImage Type="WZUIImage" GUID="{4b18ddb8-234e-46c2-b214-40a1693f400f}" File="ui/bag/common_icon_zhandoulidi.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a45db4da-1198-4841-8c98-ea1e89b8eb5d}" Name="ftbFight_ScenePvpRank" MaxWidth="500" Visible="True" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{48e7be81-27e3-43ac-9e9e-c772202a7109}" Name="txtStartTime_ScenePvpRank" Color="255,255,255" EnableStroke="False" FontSize="22" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.79,0.16" Text="" AnchorPoint="0.5,0.5" Visible="False" ShowAll="True" />
+            <Button Type="WZUIButton" GUID="{41ba2ae1-d30a-476f-958a-1e430fc13f1b}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.72,0.07" LuaActionName="Normal" LuaDoneFunctionName="onStartMatch" Tag="1" Name="btnCreatingRooms_ScenePvpRank" ShowAll="True">
+                <NormalElement Type="WZUIContainer" GUID="{b8152d65-b15e-4f9d-9fbf-1e935d913451}">
+                    <WZUIImage Type="WZUIImage" GUID="{e84db9c3-60de-4262-b3c4-7b5fa2c7a155}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{ccab09c9-ddbb-4ccc-aff8-fd2e3ffb2efe}">
+                    <WZUIImage Type="WZUIImage" GUID="{cbfacf6b-35bd-44b3-810f-666eccb60509}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{ef8a5d8f-ccb9-484d-aa4f-70f9cb4a2412}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e0249d16-8163-49d0-9c7c-23b3af960987}" FontSize="26" EnableStroke="True" Color="255,250,236" StrokeSize="4" StrokeColor="163,74,20" Text="" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" Name="txtPvpIntegral1_ScenePvpRank" TextKey="CREATE_ROOM" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{f3aa43e9-2a39-41e7-9778-d90d172b3b01}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.86,0.07" LuaActionName="Normal" Tag="2" LuaDoneFunctionName="onStartMatch" Name="btnFastMatching_ScenePvpRank" ShowAll="True">
+                <NormalElement Type="WZUIContainer" GUID="{9cf56cdb-ef74-46b5-a5aa-3d36c92ce64b}">
+                    <WZUIImage Type="WZUIImage" GUID="{cd58a5da-caa0-4466-9237-9a86c84484b2}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{b707c01a-d8f1-45af-aad5-dc38d98938a0}">
+                    <WZUIImage Type="WZUIImage" GUID="{9e0d13f0-881e-4747-a3b3-02e79a77c8fd}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{f051f015-2a42-44f1-917a-0434db78c8e5}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{59dab878-1854-40d6-a78d-1a25d0fe0fc8}" FontSize="26" EnableStroke="True" Color="255,250,236" StrokeSize="4" StrokeColor="0,109,4" Text="" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" Name="txtPvpIntegral2_ScenePvpRank" TextKey="QUICK_MATCH" />
+            </Button>
+            <WZUIButton Type="WZUIButton" AbsContentSize="65,65" UseAbsSize="True" LuaDoneFunctionName="onMatchShop" GUID="{b20db3e6-5746-48b7-a396-0b18a76c1443}" RelativePosition="0.61,0.845" AnchorPoint="0.5,0.5" ShowAll="True" LuaActionName="Normal" AbsPosition="60,133" Tag="2" Name="btnStore_ScenePvpRank">
+                <NormalElement Type="WZUIContainer" GUID="{9e9bfa74-f616-4254-be58-ad861942f320}">
+                    <WZUIImage Type="WZUIImage" GUID="{0cef7660-5fe8-4f17-9e15-4a5b216967dc}" File="ui/common/icon_common_sd.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{f35b549d-7a62-4edc-b047-ff78c2804362}">
+                    <WZUIImage Type="WZUIImage" GUID="{0a1cee95-db14-4387-a919-223b0352fd34}" File="ui/common/icon_common_sd.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{085a2ad9-ac74-4f48-827a-c06a285a6737}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{96149c3c-9282-4a24-a61a-f2a5b5c664e9}" LabelStyleKey="" TextKey="ATH_SHOP" RelativePosition="0.5,0.5" EnableStroke="True" FontSize="26" Color="255,255,255" StrokeSize="4" StrokeColor="128,54,13" Name="txtShop_ScenePvpRank" Visible="False" />
+            </WZUIButton>
+            <WZUIButton Type="WZUIButton" AbsContentSize="65,65" UseAbsSize="True" LuaDoneFunctionName="onCheckInfo" GUID="{8d615bad-6246-45d6-bfee-3af643a7f6d5}" RelativePosition="0.61,0.715" AnchorPoint="0.5,0.5" ShowAll="True" LuaActionName="Normal" Name="btnPro_ScenePvpRank">
+                <NormalElement Type="WZUIContainer" GUID="{dbfdf57c-d7b9-49b2-8440-ae3703fdc392}">
+                    <WZUIImage Type="WZUIImage" GUID="{2a7b7d6f-1cee-43b0-ae91-b47f735095f0}" File="ui/common/icon_common_sx.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{1b790779-01c2-4ba0-ba46-baaa186d7f6b}">
+                    <WZUIImage Type="WZUIImage" GUID="{feda568b-292a-4900-8a9a-6d23ebb1e364}" File="ui/common/icon_common_sx.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{c553033c-7b2a-4b98-b85e-e7a3e5511fab}" />
+            </WZUIButton>
+            <WZUIButton Type="WZUIButton" AbsContentSize="65,65" UseAbsSize="True" LuaDoneFunctionName="onMatchReward" GUID="{6e27f13e-5d56-4ca7-9230-97a2bf868bad}" RelativePosition="0.61,0.585" AnchorPoint="0.5,0.5" ShowAll="True" LuaActionName="Normal" AbsPosition="60,133" Tag="2" Name="btnReward_ScenePvpRank">
+                <NormalElement Type="WZUIContainer" GUID="{b88dba0f-17b4-4044-b315-ac87fcd7b11b}">
+                    <WZUIImage Type="WZUIImage" GUID="{406baed6-51bf-4f93-a55c-76a7a65c7967}" File="ui/common/icon_common_bx.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{dfdff66f-a746-4fd6-b760-2070e60ef871}">
+                    <WZUIImage Type="WZUIImage" GUID="{a575b40b-627d-4024-9dd6-c2447312275e}" File="ui/common/icon_common_bx.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{25c220cd-5fcc-4fba-84e0-9b2df82ab119}" />
+                <WZUIImage Type="WZUIImage" GUID="{5aa8fbf6-3c9c-4147-8c04-1f900ebdc324}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.939528,0.867949" Name="imgRed2_ScenePvpRank" Visible="False" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{acb7f30a-8a9a-48e0-a661-1ae276bf8e97}" LabelStyleKey="" TextKey="ATH_REWARD_CHECK" RelativePosition="0.5,0.5" EnableStroke="True" FontSize="26" Color="255,255,255" StrokeSize="4" StrokeColor="128,54,13" Name="txtReward_ScenePvpRank" Visible="False" />
+            </WZUIButton>
+            <Button Type="WZUIButton" GUID="{3f5f733d-07bf-4212-843b-84ab9640a723}" RelativePosition="0.61,0.455" RelativeSize="1,1" LuaDoneFunctionName="onArenaAddInfoClick" LuaActionName="Normal" Name="btnArenaAddInfo_ScenePvpRank" AbsContentSize="65,65" UseAbsSize="True" Visible="True" ShowAll="True">
+                <NormalElement Type="WZUIContainer" GUID="{9f554481-76bc-412e-8d71-93e19d636900}">
+                    <WZUIImage Type="WZUIImage" GUID="{bd275ab7-1d09-4d89-b753-71e67b639e3d}" File="ui/common/common_icon_jfjcxinxi.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{46ebf7f9-ff7f-400f-a500-d34aedd4ed97}">
+                    <WZUIImage Type="WZUIImage" GUID="{5b45aa16-78a7-494f-be16-6ae02ef4860c}" File="ui/common/common_icon_jfjcxinxi.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{16ea0470-6d91-4540-ba1d-97dfcdf476dc}" />
+                <WZUIImage Type="WZUIImage" GUID="{32497835-70aa-420f-ad54-8b94e7a5e149}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgARedDot_ScenePvpRank" Scale="0.7" RelativePosition="0.71495,0.888524" Visible="False" />
+            </Button>
+            <WZUIButton Type="WZUIButton" AbsContentSize="80,80" UseAbsSize="True" LuaDoneFunctionName="onRuleClick" GUID="{4ee6ded3-18ce-42a3-a39b-0726ac54761c}" RelativePosition="0.972,0.048" AnchorPoint="0.5,0.5" ShowAll="True" AbsPosition="60,364" Name="btnTips_ScenePvpRank" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{1cac8ed8-9a56-4f7c-9d84-9ee24ac81502}" />
+                <SelectElement Type="WZUIContainer" GUID="{49520c20-1d5c-4332-bb65-54c8e1a7cabd}" />
+                <DisableElement Type="WZUIContainer" GUID="{6065df72-3f4e-41da-b47c-98cd246a52f4}" />
+                <WZUIImage Type="WZUIImage" GUID="{126d411b-bb75-4084-9e50-92a39d3c26a9}" File="ui/common/common_icon_bz.png" UseOriginSize="True" />
+            </WZUIButton>
+            <WZUIContainer Type="WZUIContainer" GUID="{0d0f0a1a-de6c-4e26-afe2-00d9cf3df403}" UseAbsSize="True" AbsContentSize="100,480" RelativePosition="0.042,0.5" Name="conRankInfo_ScenePvpRank" ShowAll="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{cc333ea1-aa8e-4b45-bd68-ab0447be2c71}" File="ui/common/frame_04.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{68cb067b-8bea-4740-b3a4-b9f508cc9c3d}" RelativePosition="0.5,0.939924" Color="255,255,255" TextKey="RANKLIST_TITLE" Text="" FontSize="22" Name="txtRankInfo_ScenePvpRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{4f7f5259-1143-4b97-be62-785e15161154}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.5,0.82" Name="conHead1_ScenePvpRank">
+                    <WZUIImage Type="WZUIImage" GUID="{7c3d7e40-179f-42f8-b9b9-c51250eed61c}" File="ui/common/commom_icon_bg.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{f8e72dd9-e957-4c5f-b1d6-7c3a79429a75}" Order="1" Name="conRank1_ScenePvpRank" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{5436de75-70ec-4804-b5c4-07f296d1224a}" File="ui/digGem/common_icon_1st_1.png" UseOriginSize="True" RelativePosition="0.5,0.14" Scale="0.5" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{efc80adb-1552-48d3-9857-9671e46ad00f}" Order="1" LuaDoneFunctionName="onClickHead" Tag="1">
+                        <NormalElement Type="WZUIContainer" GUID="{86d66d2c-aaf2-49b9-9371-6a787db82b5a}" />
+                        <SelectElement Type="WZUIContainer" GUID="{55ab5339-09eb-4e18-be0b-1c44c075e4a7}" />
+                        <DisableElement Type="WZUIContainer" GUID="{3c376517-ce13-4738-ba2c-e580867df4b7}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{bbf9286b-f56d-43d7-b19e-1f66cfdac706}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.5,0.66" Name="conHead2_ScenePvpRank">
+                    <WZUIImage Type="WZUIImage" GUID="{2da4987b-d716-4ece-ba46-6c22c3c08ad2}" File="ui/common/commom_icon_bg.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{9ec4d01b-5cff-4a30-b563-6ca72b09225c}" Order="1" Name="conRank2_ScenePvpRank" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{17b2d449-16bb-4bda-a9c1-6e3b55858120}" File="ui/digGem/common_icon_2nd_1.png" UseOriginSize="True" RelativePosition="0.5,0.14" Scale="0.5" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{3afe70ae-df7c-4de1-8cea-71f03ad58d9d}" Order="1" LuaDoneFunctionName="onClickHead" Tag="2">
+                        <NormalElement Type="WZUIContainer" GUID="{2e1ad068-c595-44bf-821f-364d038d8cc3}" />
+                        <SelectElement Type="WZUIContainer" GUID="{2610d439-cf10-4faa-8b02-dd588014fc68}" />
+                        <DisableElement Type="WZUIContainer" GUID="{137dcef6-d384-40f9-b8e5-3ff1b4ad9915}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{2ebba9b2-858f-402c-b0ab-8cf441935112}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.5,0.5" Name="conHead3_ScenePvpRank">
+                    <WZUIImage Type="WZUIImage" GUID="{73abb69e-5123-4de6-9000-547eea8256a2}" File="ui/common/commom_icon_bg.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{69f43e7f-2a23-4785-8154-b4f1ab379d17}" Order="1" Name="conRank3_ScenePvpRank" Visible="False">
+                        <WZUIImage Type="WZUIImage" GUID="{27525467-b423-41e9-8f52-616f24a9cc27}" File="ui/digGem/common_icon_3rd_1.png" UseOriginSize="True" RelativePosition="0.5,0.14" Scale="0.5" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{d39144c6-3602-49bd-9352-693c550f702b}" Order="1" LuaDoneFunctionName="onClickHead" Tag="3">
+                        <NormalElement Type="WZUIContainer" GUID="{657ebafb-8a6c-486f-967e-292743cebbd0}" />
+                        <SelectElement Type="WZUIContainer" GUID="{7ee6dea3-a3e6-4017-80ee-e1053fe55313}" />
+                        <DisableElement Type="WZUIContainer" GUID="{8ce7be9d-7cf6-4585-a4e2-af99450503a0}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{b613d2eb-6e1d-4b17-bc2f-eb65a7b66def}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.5,0.34" Name="conHead4_ScenePvpRank">
+                    <WZUIImage Type="WZUIImage" GUID="{1c747c54-14f0-4b47-86b4-8f24b2a6bdb2}" File="ui/common/commom_icon_bg.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{57890fca-2f4d-4079-958f-fbe29504a752}" Order="1" Name="conRank4_ScenePvpRank" Visible="False">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b7c9f587-d5f2-4b38-9f94-fbe768b2d6db}" RelativePosition="0.5,0.14" Color="255,236,193" Text="4" FontSize="22" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{c5adf027-8800-4eec-a67e-089ea2cf0c74}" Order="1" LuaDoneFunctionName="onClickHead" Tag="4">
+                        <NormalElement Type="WZUIContainer" GUID="{586e5908-6575-4074-8727-64ec9bd7d3eb}" />
+                        <SelectElement Type="WZUIContainer" GUID="{e1c6a8db-c637-431b-87fc-c09b782c8adb}" />
+                        <DisableElement Type="WZUIContainer" GUID="{21cbdcdc-d434-4102-88b5-69afd180b809}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{63d29c5d-6dea-452d-8f1d-0246ddda3141}" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.5,0.18" Name="conHead5_ScenePvpRank">
+                    <WZUIImage Type="WZUIImage" GUID="{25ecb0e7-2877-4d71-bf34-ac84ac85b710}" File="ui/common/commom_icon_bg.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{d4ce4605-92a3-4af8-964f-167079d69ef8}" Order="1" Name="conRank5_ScenePvpRank" Visible="False">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{0030215f-7a16-44b6-a0dd-5fd0bb2c76d9}" RelativePosition="0.5,0.14" Color="255,236,193" Text="5" FontSize="22" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{5dbd6793-e1a6-41fe-909f-f520aad8f9ab}" Order="1" LuaDoneFunctionName="onClickHead" Tag="5">
+                        <NormalElement Type="WZUIContainer" GUID="{ac6bd471-4f73-4b1b-b6c1-073ff2ad7e3a}" />
+                        <SelectElement Type="WZUIContainer" GUID="{063373a6-792a-4f49-8a47-ce2e8756b31e}" />
+                        <DisableElement Type="WZUIContainer" GUID="{f528ba37-17e9-44f4-b149-9805fdc92b58}" />
+                    </Button>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{24155eeb-153f-4210-ad04-79324b18c898}" UseAbsSize="True" AbsContentSize="100,40" RelativePosition="0.5,0.05" LuaDoneFunctionName="onMatchReward" Tag="1">
+                    <NormalElement Type="WZUIContainer" GUID="{c5fafaad-9c1e-4a29-8837-1235e646ac3a}">
+                        <WZUIImage Type="WZUIImage" GUID="{4538042d-53ff-475e-aa55-91f854e12673}" File="ui/common/common_btn_jiant_01.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{e35494fa-afd3-4c7f-b998-10f89d289e20}">
+                        <WZUIImage Type="WZUIImage" GUID="{4292f3f7-a2f2-454c-a4cc-5df6418546aa}" File="ui/common/common_btn_jiant_01.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{6695e78c-0835-4497-9dd4-d64ef904fb0b}" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{acf82cf4-6e1b-4a0a-b963-c15ad90e246a}" Name="conMark_ScenePvpRank" Visible="False" ShowAll="False" Order="0" RelativePosition="0.5,0.5">
+            <WZUIImage Type="WZUIImage" GUID="{c49996ff-c48a-4adc-a660-5ee809b23267}" File="ui/common/common_black_bg.png" Visible="True" Scale="3" Opacity="150" />
+            <WZUIContainer Type="WZUIContainer" GUID="{06424ff5-c2b4-4320-9d04-2809d305afe2}" Name="" Order="600" Visible="True" TouchContainerEnable="True" AbsContentSize="355,405" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{fcb475fa-b270-48cd-9b4c-1952eebe4fe1}" AbsContentSize="355,405" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{f1b47324-a45e-4ad0-9efb-f32cebea4676}" File="ui/common/common_scale9_di19.png" CapInsets="60,110,10,10" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{8ece5aea-2416-420d-bc57-bd16caade03a}" TextKey="HALL_DESC1" LabelStyleKey="C1_F24_S4_C3" RelativePosition="0.5,0.956543" AbsPosition="177.5,387.4" Dimensions="0,0" Alignment="Center" AnchorPoint="0.5,1" Text="" Name="" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{18ae85d3-3367-4db1-991e-f8e150df9d45}" Name="" Visible="True" ShowAll="False" Order="0" RelativePosition="0.5,0.5">
+                    <WZUILabelAtlasFont CharMapFileName="ui/common_num/battle_num_timeshuzi2.png" Color="255,255,255" GUID="{c883548d-5d37-4a67-a51e-d9b3c97a5162}" Height="116" Name="lafTime_ScenePvpRank" Order="501" RelativePosition="0.5,0.639753" Text="1" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="85.6" GrayRender="False" IsOpacityModifyRGB="False" Scale="1" StartChar="48" AbsPosition="177.5,259.1" ScaleX="1" ScaleY="1" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{179db50b-c68f-4e7f-9ee1-afd1ad462c8c}" AbsContentSize="345,95" UseAbsSize="True" RelativePosition="0.5,0.32">
+                        <WZUI9Image Type="WZUI9Image" GUID="{a5e037d1-14aa-4c35-913f-adf8df200006}" File="ui/common/common_scale9_di20.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ffbb9bc4-5664-4914-a46c-a4dcacb65bae}" TextKey="" LabelStyleKey="C2_F22" RelativePosition="0.0393478,0.955789" AbsPosition="13.575,90.8" Dimensions="315,0" Alignment="Left" AnchorPoint="0,1" Text="" Name="txtTimeDownTip_ScenePvpRank" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{33b38a09-d676-4e46-9964-9ce0b4881805}" RelativePosition="0.5,0.105864" LuaDoneFunctionName="onCancelMatch" Name="btnCancel" AbsContentSize="110,60" UseAbsSize="True" AbsPosition="177.5,42.8749">
+                    <NormalElement Type="WZUIContainer" GUID="{69e288bc-0e0a-4a99-a26e-f217db0f4708}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{09ee2068-82b0-429a-9763-bd933f60ec3f}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{4869b0bb-357e-4e88-bf60-5a78db1abbd3}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{b6402ac4-8717-4f0c-b3ed-3a7423738e2b}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{df999cf7-1be2-4f7a-915c-923060c86062}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b30f7d59-0461-41df-b5c7-817a98dab1c0}" TextKey="CANCEL" LabelStyleKey="SMALL_ORANGE_BTN" RelativePosition="0.5,0.5" AbsPosition="480,223" Name="txtCancel_ScenePvpRank" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{1319b8e1-f1b5-4758-8150-406e4e2df092}" Name="conTips_ScenePvpRank" ShowAll="True" Order="3" />
+    </WZUIFrame>
+</ScenePvpRank>

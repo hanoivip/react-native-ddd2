@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<CellLoginActivityPanel GUID="{34FF3E5C-0525-4a7f-B028-21CF0E021024}">
+    <WZUIContainer AbsContentSize="640,476" GUID="{B7B77930-019F-4d03-BFB9-87191B8BB51E}" Name="CellLoginActivityPanel" NameCreate="True" Type="WZUIContainer" UseAbsSize="True" LuaObjectName="CellLoginActivityPanel">
+        <WZUIContainer AbsContentSize="630,374" GUID="{EE07971D-D343-457f-86BF-AD4631F3F4DF}" RelativePosition="0.5,0.87" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0.5,1" Name="conUI_CellLoginActivityPanel">
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{48EE4553-65C6-4df3-92DC-DF4337561FAF}" AbsContentSize="630,374" UseAbsSize="True" EnableMoveVertical="True" ListOrient="Vertical" Name="confl_listview_loginpanel" RelativePosition="0.5,1" EnableMoveHorizontal="False" ListItemInterval="6" AnchorPoint="0.5,1" />
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{791d0a1a-c629-4826-a966-23fe1cca642e}" AbsContentSize="620,304" UseAbsSize="True" EnableMoveVertical="True" ListOrient="Vertical" Name="flconReturnee_CellLoginActivityPanel" RelativePosition="0.5,0.495" EnableMoveHorizontal="False" ListItemInterval="-20" AnchorPoint="0.5,0.5" Visible="False" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{CEDF4F49-9BDA-4067-84D0-EAB26E775474}" AbsContentSize="500,45" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.498052,-0.0117182">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{625EDF0E-6499-4478-A745-2D00CF534A15}" FontSize="22" Color="105,65,46" Text="" Name="txtMsgInfo_CellLoginActivityPanel" TextKey="ACTIVITY_REWARD_ATT" />
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="480,30" AnchorPoint="0.5,0.5" GUID="{3EE6F060-7512-4dca-9D17-2859B80A2FC8}" RelativePosition="0.386992,0.924761" Type="WZUIContainer" UseAbsSize="True">
+            <WZUILabelTTF AnchorPoint="0,0.5" Color="255,236,193" FontSize="22" GUID="{49789769-F90F-469c-BE6A-B3FCE88AF57C}" Name="txt_activityTime_key" RelativePosition="0.025,0.5" Text="活动时间" Type="WZUILabelTTF" LabelStyleKey="" EnableStroke="True" StrokeColor="127,70,26" StrokeSize="4" />
+            <WZUILabelTTF AnchorPoint="0,0.5" Color="255,227,116" FontSize="22" GUID="{ADD0A175-3243-4da6-AA6F-6F49A1ECA731}" Name="txt_activityTime_value" RelativePosition="0.26,0.5" Text="2" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="127,70,26" />
+        </WZUIContainer>
+        <WZUI9Image Type="WZUI9Image" GUID="{cbd778b9-04fd-4fb9-8aa9-0086283ae476}" File="ui/common/frame_dadi_01.png" Order="-1" Name="img9Bg_CellLoginActivityPanel" />
+    </WZUIContainer>
+</CellLoginActivityPanel>

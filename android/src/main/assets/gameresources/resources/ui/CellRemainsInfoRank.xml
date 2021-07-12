@@ -1,0 +1,24 @@
+﻿<CellRemainsInfoRank GUID="{58714138-a6a0-4fb5-88c9-99f584bee8ef}">
+    <WZUIContainer Type="WZUIContainer" GUID="{c3b481cc-9058-4bb1-bf36-e93cd5251d62}" Name="CellRemainsInfoRank" LuaObjectName="CellRemainsInfoRank" NameCreate="True" ShowAll="False" UseAbsSize="True" AbsContentSize="358,96" RelativePosition="0.5,0.5">
+        <WZUIContainer Type="WZUIContainer" GUID="{1bd5e79b-e2cf-418c-b5cd-2fa7a52a36cb}" UseAbsSize="False" AbsContentSize="">
+            <WZUI9Image Type="WZUI9Image" GUID="{1aaaa334-de30-4036-91b6-e2b9d4d7b33a}" File="ui/common/common_scale9_di112.png" />
+            <WZUIImage Type="WZUIImage" GUID="{906e21b1-2ac5-42e1-842d-48e06a8792c0}" UseOriginSize="True" RelativePosition="0.108333,0.728" Name="imgNumRank_CellRemainsInfoRank" File="ui/digGem/common_icon_1st_1.png" Scale="0.8" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{148e26c3-688d-4d52-8b11-f6617cdb9437}" Name="txtNumRank_CellRemainsInfoRank" RelativePosition="0.108333,0.728" Color="255,227,116" FontSize="20" Text="" Visible="False" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{6dc07523-f4fa-45fc-bd7b-1439e99d39ac}" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4" FontSize="20" Text="" Color="255,227,116" RelativePosition="0.113865,0.325073" TextKey="ATH_REWARD_CHECK" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{573cfb89-3a4d-4165-a7ac-190cda78c266}" Name="txtPlayerName_CellRemainsInfoRank" Color="255,236,193" FontSize="18" Text="暖茶喝钙电的" RelativePosition="0.217,0.76" AnchorPoint="0,0.5">
+                <WZUIImage Type="WZUIImage" GUID="{aa5bab40-0c34-4577-9abe-68733531cc6f}" UseOriginSize="True" File="ui/city/beta/common_icon_vip2.png" RelativePosition="1,0.5" Scale="0.7" AnchorPoint="0,0.5" Name="imgVip_CellRemainsInfoRank" Visible="False">
+                    <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{d62e27a2-e666-42d3-b663-71005d826295}" AnchorPoint="0,0.5" RelativePosition="0.882353,0.5" CharMapFileName="ui/city/beta/common_icon_vip_num.png" Height="17" UseOriginSize="True" Width="14" Text="1" Name="lafVipNum_CellRemainsInfoRank" />
+                </WZUIImage>
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{133db8d1-c804-4417-8eac-c4ceda5d6e8e}" RelativePosition="0.76,0.76" Color="255,236,193" Text="988888" FontSize="18" Name="txtHurtNum_CellRemainsInfoRank" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{de2705f3-d4a0-4de0-81e1-f1cf6d1a2e10}" RelativePosition="0.925,0.76" Color="255,236,193" Text="98%" FontSize="18" Name="txtHurtRatio_CellRemainsInfoRank" />
+            <WZUIContainer Type="WZUIContainer" GUID="{b6188dcc-dd1b-4642-8b17-c47bb4b53178}" AbsContentSize="260,60" UseAbsSize="True" RelativePosition="0.623,0.31">
+                <WZUIContainer Type="WZUIContainer" GUID="{1500fd43-6beb-449b-8241-485f125991ff}" AbsContentSize="50,50" UseAbsSize="True" RelativePosition="0.1,0.5" Name="conRewardItem1_CellRemainsInfoRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{9a7ecd18-7f77-4882-8a07-884422f991dc}" AbsContentSize="50,50" UseAbsSize="True" RelativePosition="0.3,0.5" Name="conRewardItem2_CellRemainsInfoRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{5acaf086-24ef-4888-b0e2-11694522e971}" AbsContentSize="50,50" UseAbsSize="True" RelativePosition="0.5,0.5" Name="conRewardItem3_CellRemainsInfoRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{72acac0b-2ee1-4901-ad7d-953c52051f50}" AbsContentSize="50,50" UseAbsSize="True" RelativePosition="0.7,0.5" Name="conRewardItem4_CellRemainsInfoRank" />
+                <WZUIContainer Type="WZUIContainer" GUID="{35c6132a-89ce-4079-b74c-f1da8c696031}" AbsContentSize="50,50" UseAbsSize="True" RelativePosition="0.9,0.5" Name="conRewardItem5_CellRemainsInfoRank" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellRemainsInfoRank>

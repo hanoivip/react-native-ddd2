@@ -1,0 +1,36 @@
+﻿<CellBreakEggsPanel GUID="{50072008-3d33-4173-9f3e-cb7f323b372f}">
+    <WZUIContainer Type="WZUIContainer" GUID="{a753ef77-0a3b-4f5e-9105-18b326844c7b}" AbsContentSize="640,476" UseAbsSize="True" LuaObjectName="CellBreakEggsPanel" Name="CellBreakEggsPanel" NameCreate="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{41aa0b13-5351-431d-ae90-f448326665ed}" File="ui/common/frame_dadi_01.png" Visible="True" />
+        <WZUIContainer Type="WZUIContainer" GUID="{2b524d5d-30bd-41af-a8b7-1c15f3230ab7}">
+            <WZUIContainer Type="WZUIContainer" GUID="{ac50e60f-0a07-4726-9973-5962fedaa100}" AnchorPoint="0.5,1" RelativePosition="0.5,1" AbsContentSize="640,114" UseAbsSize="True">
+                <WZUIImage Type="WZUIImage" GUID="{2fdd71a9-008b-48d9-a89e-2dfe8defa4bb}" Name="imgBK_CellBreakEggsPanel" UseOriginSize="False" File="ui/gameActivity/activity_pic_sxshf.png" />
+                <WZUIContainer Type="WZUIContainer" GUID="{7890cfbc-142d-4965-abb5-c12778dd8e21}">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{7044df5c-2579-413a-977f-af2c7d8c40cd}" FontSize="18" Color="255,227,116" EnableStroke="True" StrokeColor="105,65,46" StrokeSize="4" TextKey="" Name="txtCurWord_CellBreakEggsPanel" AnchorPoint="1,0.5" RelativePosition="0.28,0.28" />
+                    <WZUIImage Type="WZUIImage" GUID="{da7e6760-d42d-401a-96b9-e921b2c95895}" File="ui/common/common_progress_exp2_bg.png" UseOriginSize="True" RelativePosition="0.52,0.28" />
+                    <WZUIProgress Type="WZUIProgress" GUID="{6f72155c-cff6-4938-b795-eb3ce6bbfbd9}" BgPicture="ui/common/common_progress_exp2_fore.png" UseOriginSize="True" RelativePosition="0.518008,0.283" Name="prgCurRecharge_CellBreakEggsPanel" />
+                    <WZUIImage Type="WZUIImage" GUID="{7a03223b-a4c5-4af9-bb8e-8c94b7adf647}" File="ui/common/common_icon_zuanshi.png" UseOriginSize="True" Scale="0.8" RelativePosition="0.732,0.303" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{2edf8f7c-0b0e-4eff-b1e7-1e34c3b6f823}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="105,65,46" StrokeSize="4" Name="txtCurValue_CellBreakEggsPanel" RelativePosition="0.5,0.285" />
+                </WZUIContainer>
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{c3bc5885-a37f-4a3d-b87c-9633f58e3bfa}" RelativePosition="0.43,0.08" MaxWidth="400" Name="ftxtInfo_CellBreakEggsPanel" />
+                <Button Type="WZUIButton" GUID="{da0131c7-3ed8-4c1e-8ad4-da76de18d749}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.922274,0.191206" LuaActionName="Normal" LuaDoneFunctionName="onClickReward">
+                    <NormalElement Type="WZUIContainer" GUID="{1da63b88-516b-418f-b213-a2a78ebba56d}" />
+                    <SelectElement Type="WZUIContainer" GUID="{1e2d0690-9284-433e-92d6-00978e7093fe}" />
+                    <DisableElement Type="WZUIContainer" GUID="{081f513c-f90b-43d1-8ec4-699e63862b0c}" />
+                    <WZUIImage Type="WZUIImage" GUID="{7ce25d61-8b4c-41ff-ab6c-1a45594a1f9b}" File="ui/Hall/battle_icon_jiangli.png" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{2a3b5ba1-1dd9-41aa-a173-552ada9c4c30}" AbsContentSize="636,30" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1.00221">
+                <WZUI9Image Type="WZUI9Image" GUID="{58a75e6d-0f23-4d11-8bd2-0a963e0eeb07}" File="ui/common/frame_02_1.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{40c482a3-80cb-4f99-9f54-65bbc776023e}" TextKey="" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="132,66,29" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" Text="ACTIVE_TIME" Name="txtTimeWord_CellBreakEggsPanel" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{aeefbccc-7ed6-44cb-a3da-8a5c49cd5371}" FontSize="18" EnableStroke="True" Color="255,89,74" StrokeColor="132,66,29" StrokeSize="4" Text="" AnchorPoint="0,0.5" RelativePosition="0.27,0.5" Name="txtTime_CellBreakEggsPanel" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{54a7e0a0-e64e-4273-af83-a8276c4f85e6}" AbsContentSize="520,350" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0">
+                <WZUIContainer Type="WZUIContainer" GUID="{cdba0a89-58eb-4f8b-9d8e-0bc4cec4c37e}" AbsContentSize="530,290" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{09e822a1-b832-4691-a66a-37be4c0b8355}" EnableMoveVertical="False" EnableMoveHorizontal="False" ColumnCount="3" Name="tableEggsList_CellBreakEggsPanel" CellElementHeight="0.48" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{95a619d9-080a-4ab2-8e15-b0c662a7c4ab}" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeColor="128,54,13" StrokeSize="4" RelativePosition="0.5,0.16" Name="txtBreakAtt_CellBreakEggsPanel" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a73daafa-6e39-4df7-b714-aebc100d6adc}" Name="ftxtHammerNum_CellBreakEggsPanel" MaxWidth="500" RelativePosition="0.5,0.07" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellBreakEggsPanel>

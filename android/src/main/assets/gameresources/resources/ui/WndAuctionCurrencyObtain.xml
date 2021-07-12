@@ -1,0 +1,37 @@
+﻿<WndAuctionCurrencyObtain GUID="{e55ad4c4-a30c-41f0-aa49-ca755c9677bd}">
+    <WZUIWindow Type="WZUIWindow" GUID="{6741498d-9c45-4d1b-984a-33ef0af3a48e}" Name="WndAuctionCurrencyObtain" LuaObjectName="WndAuctionCurrencyObtain" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{f2d1fdd6-73fa-40d0-8600-fe8b89d416cc}" AbsContentSize="688,460" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{8b52ecb7-1f10-4aa1-b10e-9d2604010e80}" File="ui/common/frame_tc_xiao.png" CapInsets="" UseOriginSize="False" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ea1336f7-d3a4-4e13-8ade-82f3754ef788}" Color="255,236,193" FontSize="26" Text="" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.937" Name="txtTitle_WndAuctionCurrencyObtain" />
+            <Button Type="WZUIButton" GUID="{a7b49f4b-8b9b-46fc-9b52-bc0708dcaba8}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.955809,0.941606" LuaDoneFunctionName="onCloseClick">
+                <NormalElement Type="WZUIContainer" GUID="{e48d94ab-2c9a-4b33-9363-bf9f6fb7cb02}">
+                    <WZUIImage Type="WZUIImage" GUID="{9eb3359c-7365-45d2-9bdc-928826903409}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{4634fbd5-665b-4a9a-91b3-c4778985f64e}">
+                    <WZUIImage Type="WZUIImage" GUID="{1baa53bd-a5d6-43be-98da-bcb2f693bbc4}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{7342054a-fa48-44a3-997c-3d845b4777a8}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{c5a9005b-7313-4b37-81b0-f45e119cd4c2}" Name="con1_WndAuctionCurrencyObtain" Visible="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{b854a31a-00a2-4dbb-ae7c-5167a4cca2ef}" AbsContentSize="616,142" UseAbsSize="True" RelativePosition="0.5,0.658695" Name="conAuctionCurrency_WndAuctionCurrencyObtain">
+                    <WZUI9Image Type="WZUI9Image" GUID="{ad84458e-fd70-4a6d-b446-bccde336ba03}" File="ui/common/frame_lieb.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{a27e801f-2407-47c0-8e9e-7a39ffbe8b09}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.12,0.5" Name="conItem_WndAuctionCurrencyObtain" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{20819238-169d-4438-90e1-ea724cdb2f6f}" Color="255,236,193" FontSize="22" Text="" StrokeColor="127,70,26" StrokeSize="4" EnableStroke="True" RelativePosition="0.213,0.63" AnchorPoint="0,0.5" Name="txtItemName_WndAuctionCurrencyObtain" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c8f46e5b-268b-4e92-9d57-6cdf97dbc6e2}" Color="127,70,26" FontSize="22" Text="" RelativePosition="0.212932,0.361014" AnchorPoint="0,0.5" Name="txtNum1_WndAuctionCurrencyObtain">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{09c6a7a2-23db-46a1-97bc-0e95ce1adb78}" Text="" AnchorPoint="0,0.5" RelativePosition="1.25,0.5" FontSize="22" Name="txtNum2_WndAuctionCurrencyObtain" Color="255,89,74" />
+                    </WZUILabelTTF>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a48588ad-22c0-4f7f-9019-e89f28ac00e4}" Name="txtDesc_WndAuctionCurrencyObtain" Color="127,70,26" FontSize="22" Text="" RelativePosition="0.5,0.346" TextKey="AUCTION_HOUSE_TEXT9" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{1ec27686-5ab3-4c96-8879-57dab98d5cba}" Name="con2_WndAuctionCurrencyObtain" Visible="False">
+                <WZUIContainer AnchorPoint="0.5,1" GUID="{ada04df2-1ac6-4ddf-84b6-2f196b2941bb}" RelativePosition="0.5,0.862" RelativeSize="1,1" Type="WZUIContainer" Name="conRuleDetail_WndAuctionCurrencyObtain" AbsContentSize="660,380" UseAbsSize="True">
+                    <WZUIScrollContainer EnableHorizontalScroll="False" EnableMoveHorizontal="False" EnableVerticalScroll="True" GUID="{46264ed4-0d3f-4930-a500-5a3ecdfd4af3}" Name="rollconExplanation_WndAuctionCurrencyObtain" ScrollPictureDown="" ScrollPictureMid="" ScrollPictureTop="" Type="WZUIScrollContainer">
+                        <MoveElement GUID="{a37802e5-c277-45b2-be82-c0c7d191b2a4}" Type="WZUIContainer" Visible="True" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{cdd9d018-e54b-4230-8f8a-54546a90164b}" Name="ftbDesc_WndAuctionCurrencyObtain" MaxWidth="600" ShowText="" AnchorPoint="0.5,1" RelativePosition="0.5,0" />
+                        </MoveElement>
+                    </WZUIScrollContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndAuctionCurrencyObtain>

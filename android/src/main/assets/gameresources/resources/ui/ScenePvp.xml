@@ -1,0 +1,153 @@
+﻿<ScenePvp GUID="{1361e64e-53fa-4003-b32b-8d59162a9d3b}">
+    <WZUIFrame Type="WZUIFrame" GUID="{867add1b-d680-4365-a3d9-3b45f77d24bf}" Name="ScenePvp" LuaObjectName="ScenePvp" LuaTouchBeganFunction="onTouchBegin">
+        <WZUI9Image Type="WZUI9Image" GUID="{e6f9f8cc-7294-48f8-9bc4-509c47756209}" File="ui/common_bg/common_bg.png" Visible="True" Name="" UseOriginSize="True" Scale="1" />
+        <WZUIParticle Type="WZUIParticle" GUID="{5603530d-636e-47b4-8c5f-d495bed83687}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+        <WZUIContainer Type="WZUIContainer" GUID="{1606149d-6b25-44b8-a7be-b98c0a5f50bc}" ShowAll="True" Name="conList_ScenePvp">
+            <WZUIContainer Type="WZUIContainer" GUID="{dafbe327-4485-4e4b-9823-c27574c3248f}" RelativeSize="1,0.8" AbsContentSize="910,470" UseAbsSize="True" RelativePosition="0.50088,0.517187" ShowAll="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{2627f7b1-756f-458c-ad9d-acc2510ca450}" AbsContentSize="254,468" RelativePosition="0.02,0.5" UseAbsSize="True" AnchorPoint="0,0.5" Name="" Visible="True">
+                    <Button Type="WZUIButton" GUID="{889ca0be-5930-43a2-a405-373268bfeaa8}" AbsContentSize="254,468" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="True" LuaDoneFunctionName="onSelectMatch" Tag="1" Name="btn1_ScenePvp">
+                        <NormalElement Type="WZUIContainer" GUID="{ed8707e5-e6c1-4a22-87b1-61e2a0303d1c}">
+                            <WZUIImage Type="WZUIImage" GUID="{4f3919d3-5705-4de4-b321-5b1167e0d669}" File="ui/pvp/common_pic_jjct1.png" UseOriginSize="True" Visible="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{eba7a73a-0234-4a06-b044-0ccefa8c0954}">
+                            <WZUIImage Type="WZUIImage" GUID="{ac3bf5e3-5193-47b6-8bf2-7cf90261e127}" File="ui/pvp/common_pic_jjct1.png" UseOriginSize="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{31ce4b7a-5e1f-410d-b25f-d84adddbbc8b}" AbsContentSize="254,468" UseAbsSize="True" ScaleX="0.98" ScaleY="0.98" RelativePosition="0.5,0.504">
+                                <WZUI9Image Type="WZUI9Image" GUID="{275e49ab-2942-4df2-b7c9-7a4c0d970d8e}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                            </WZUIContainer>
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{bf872254-db19-4215-b3ad-9ff5f403937d}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{dad08f05-b4a3-43cc-8b41-8c8cc7326ca5}" AnchorPoint="0.5,0" RelativePosition="0.5,0" RelativeSize="1,0.18">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9e4bde0f-0092-49b1-b2bc-9322358d021e}" LabelStyleKey="C1_F22_S4_C13" TextKey="PVP_HALL_4" RelativePosition="0.5,0.7" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4c3e8211-16f7-47ba-b0e5-749188b8197a}" LabelStyleKey="C7_F18" TextKey="PVP_HALL_6" RelativePosition="0.5,0.38" Name="txtE1_ScenePvp" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{3e45619e-c3ae-4035-a321-9dd02e724b0a}" Visible="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{db616337-8a69-440c-a96d-7458ad94dffc}" Scale="0.99" ScaleY="0.97" RelativePosition="0.5,0.510684" ScaleX="0.98" Visible="False" Name="conStateClose1_ScenePvp">
+                            <WZUI9Image Type="WZUI9Image" GUID="{613b83b7-6e31-4815-b35e-02c8d6f8e778}" File="ui/common/common_shade_chushouheidi.png" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{a2482cb9-d69c-4e01-b3f7-8f880d451412}" File="ui/common/common_icon_suo.png" UseOriginSize="True" RelativePosition="0.5,0.619659" Scale="0.82" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{f9a7bcb6-e565-4ce0-b942-860a60770be4}" Name="ftbOpenTime1_ScenePvp" MaxWidth="300" TouchEnable="False" TouchSwallow="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{5a887a4d-5e43-4525-ae5f-f97435696ed3}" Name="conStateOpen1_ScenePvp" Visible="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{cded7240-3b88-4b1e-a523-1660d244b5f3}" AbsContentSize="90,30" UseAbsSize="True" RelativePosition="0.19,0.91" Visible="True">
+                                <WZUIImage Type="WZUIImage" GUID="{aaac81e2-d797-46b7-961b-4cba60f7a75c}" File="ui/common/common_02.png" UseOriginSize="True" RelativePosition="0,0.5" Name="imgStateOpen1_ScenePvp" AnchorPoint="0,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3b7e921d-e80b-4f3c-bc59-20dfb55b0732}" LabelStyleKey="C1_F18" TextKey="PVP_HALL_36" Name="txtStateOpen1_ScenePvp" RelativePosition="0.05,0.5" Alignment="Left" AnchorPoint="0,0.5" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{ba3069ad-eeaf-4a7a-9976-05684ce8206b}" TouchEnable="False" Name="con1_ScenePvp" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{8abd28c1-f759-4ad3-848b-ed473cfe34bc}" File="ui/common/common_shade_chushouheidi.png" ScaleY="0.98" ScaleX="0.99" RelativePosition="0.5,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{ceb9e6ff-1cfd-487f-a807-e76bb6aa3bcd}" File="ui/common/common_icon_suo.png" UseOriginSize="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{0440e11c-3ee6-4008-84c1-ddd462d61dba}" AbsContentSize="216,275" RelativePosition="0.43,0.7" UseAbsSize="True" Name="" Visible="True">
+                    <Button Type="WZUIButton" GUID="{e0d72700-1b2e-4afb-b846-50711e89058b}" AbsContentSize="216,275" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="True" LuaDoneFunctionName="onSelectMatch" Tag="2">
+                        <NormalElement Type="WZUIContainer" GUID="{734f487d-90b7-430e-8c3e-3ee800edf8be}">
+                            <WZUIImage Type="WZUIImage" GUID="{287b6e0c-0a52-4a9f-bb95-1e5bd1170be1}" File="ui/pvp/common_pic_jjct_02.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{0d43f8a6-cb58-4ab7-8c0d-78150c996cde}">
+                            <WZUIImage Type="WZUIImage" GUID="{7fe7122b-ea20-402c-b5c7-2e6abc78baec}" File="ui/pvp/common_pic_jjct_02.png" UseOriginSize="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{3e660ba5-ed24-48a8-b163-452f9427bc2c}" AbsContentSize="216,275" UseAbsSize="True" ScaleX="0.98" ScaleY="0.98" RelativePosition="0.5,0.504">
+                                <WZUI9Image Type="WZUI9Image" GUID="{6a376bea-1a1c-45a9-822f-d823c8666ae2}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                            </WZUIContainer>
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{67028f6d-08eb-4d07-9be5-4b76ec36e446}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{a44c4f1a-f22f-4ff3-a7db-12dc2a4008f9}" AnchorPoint="0.5,0" RelativePosition="0.5,0" RelativeSize="1,0.18" UseAbsSize="True" AbsContentSize="216,80">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{dd79d07d-e99e-4b54-8211-847a9e5389c4}" LabelStyleKey="C1_F22_S4_C13" TextKey="WELFARE_COMPETE1" RelativePosition="0.5,0.7" Text="" Name="txtET_ScenePvp" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{d2130d5d-159f-4ee7-90ce-b0732b0ffd88}" LabelStyleKey="C7_F18" TextKey="PVP_HALL_37" RelativePosition="0.5,0.38" Name="txtE2_ScenePvp" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{66459040-33d5-4864-a8ff-4fa31388fbf9}" Visible="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{bc3bdf45-f3ac-4efa-a456-0273424e2625}" Scale="0.99" ScaleY="0.97" RelativePosition="0.5,0.510684" ScaleX="0.98" Visible="False" Name="conStateClose2_ScenePvp">
+                            <WZUI9Image Type="WZUI9Image" GUID="{0faf3734-b27c-47be-a5a0-cddd0fbc54c2}" File="ui/common/common_shade_chushouheidi.png" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{8562edd8-7cc6-4ea7-bc0d-93ca3b171dde}" File="ui/common/common_icon_suo.png" UseOriginSize="True" RelativePosition="0.5,0.619659" Scale="0.82" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{f65fc967-14b2-42fc-a4f3-23c1707add0f}" Name="ftbOpenTime2_ScenePvp" MaxWidth="300" TouchEnable="False" TouchSwallow="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{b8dcab7f-6a38-4fb3-b8ef-02d915409b6c}" Name="conStateOpen2_ScenePvp" Visible="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{a841890e-44a4-411a-ba92-33d3b8f4f57d}" AbsContentSize="90,30" UseAbsSize="True" RelativePosition="0.213148,0.86">
+                                <WZUIImage Type="WZUIImage" GUID="{e342ab2d-6c7f-4494-a68b-53d1e214d13e}" File="ui/common/common_02.png" UseOriginSize="True" RelativePosition="0,0.5" ScaleX="1" AnchorPoint="0,0.5" Name="imgopen2_ScenePvp" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{32e6627b-fd98-42cd-a8af-0e9a5597b7de}" LabelStyleKey="C1_F18" TextKey="" Name="open2_ScenePvp" Text="" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{7d061166-0034-4661-9def-961b0c321b38}" Name="time21" MaxWidth="220" AnchorPoint="0,1" RelativePosition="0.05,0.865" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{0b696a67-0cc9-4e01-95ce-495cf6bd08e6}" TouchEnable="False" Name="con2_ScenePvp" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{194d9889-cdef-4eab-9679-107c7f48fbf9}" File="ui/common/common_shade_chushouheidi.png" ScaleY="0.98" ScaleX="0.99" RelativePosition="0.5,0.5" Visible="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{e3f744eb-db88-4335-9ab0-40811e9a5f46}" File="ui/common/common_icon_suo.png" UseOriginSize="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{926306cc-7e4a-467f-97c4-1f8605a64fec}" AbsContentSize="216,183" RelativePosition="0.43,0.2" UseAbsSize="True" Name="" Visible="True">
+                    <Button Type="WZUIButton" GUID="{8edffe4b-0404-4b2c-b2ed-6cb5c394b201}" AbsContentSize="216,183" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="True" LuaDoneFunctionName="onSelectMatch" Tag="4">
+                        <NormalElement Type="WZUIContainer" GUID="{fcc5e502-78ed-4da0-bf9a-a4301149baff}">
+                            <WZUIImage Type="WZUIImage" GUID="{e03d8165-f421-4c9a-bfe5-80f4f9c10809}" File="ui/pvp/common_pic_jjct_03.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{1f5b50e7-247e-4722-baf1-a6073fd011f4}">
+                            <WZUIImage Type="WZUIImage" GUID="{91eef5cf-a886-47ef-b867-493084f4228a}" File="ui/pvp/common_pic_jjct_03.png" UseOriginSize="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{69f32341-f9d6-46ac-ab3f-4b1086038913}" AbsContentSize="216,183" UseAbsSize="True" ScaleX="0.98" ScaleY="0.98" RelativePosition="0.5,0.504">
+                                <WZUI9Image Type="WZUI9Image" GUID="{535de99f-49ac-4328-93dd-8fd14dbb401d}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                            </WZUIContainer>
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{7b248b1c-a789-465a-b5ea-d145443248ef}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{edd3f8f7-bccc-4f9d-a26c-4c788dfa7dfb}" AnchorPoint="0.5,0" RelativePosition="0.5,0" RelativeSize="1,0.18" UseAbsSize="True" AbsContentSize="216,80">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{35c1be1e-0624-4934-b822-95e06618acdb}" LabelStyleKey="C1_F22_S4_C13" TextKey="SETTLMENT_GANGFIGHT" RelativePosition="0.5,0.7" Text="" Name="" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ee94491d-b8d8-4281-b99b-f73a33cdb4f3}" LabelStyleKey="C7_F18" TextKey="PVP_HALL_COMMUNITY" RelativePosition="0.5,0.38" Name="txtGuildWar_ScenePvp" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{053e137a-fc6e-4648-8115-f6ac04d5419b}" Visible="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{f70a0b05-8a5e-4ae2-917c-efa6b07ddb42}" Scale="0.99" ScaleY="0.97" RelativePosition="0.5,0.510684" ScaleX="0.98" Visible="False" Name="conStateClose4_ScenePvp">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a3bdf7c4-524d-4bec-b2b9-b183a92ee734}" File="ui/common/common_shade_chushouheidi.png" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{6c02e1ee-2160-4c89-8eb3-ccb6906a5c5c}" File="ui/common/common_icon_suo.png" UseOriginSize="True" RelativePosition="0.5,0.619659" Scale="0.82" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{4e18586c-ef68-4eb2-98fe-c7c6c957048c}" Name="ftbOpenTime4_ScenePvp" MaxWidth="300" TouchEnable="False" TouchSwallow="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{99023288-4b57-46a5-8f2a-e22474ffae0a}" Name="conStateOpen4_ScenePvp" Visible="False">
+                            <WZUIContainer Type="WZUIContainer" GUID="{21210d5f-ce9e-4112-b388-7c1b9f31bdbc}" AbsContentSize="90,30" UseAbsSize="True" RelativePosition="0.213148,0.789781">
+                                <WZUIImage Type="WZUIImage" GUID="{3bd66148-d072-4791-8b95-d731aab30729}" File="ui/common/common_02.png" UseOriginSize="True" RelativePosition="0,0.5" ScaleX="1" AnchorPoint="0,0.5" Name="imgopen4_ScenePvp" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{913c0d52-a257-4faf-9111-043de62c3bea}" LabelStyleKey="C1_F18" TextKey="" Name="open4_ScenePvp" Text="" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{35425b57-6a03-408a-8a5e-72594282edc1}" TouchEnable="False" Name="con4_ScenePvp" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{f84395c9-a5f6-4f63-8555-93806d60e534}" File="ui/common/common_shade_chushouheidi.png" ScaleY="0.98" ScaleX="0.99" RelativePosition="0.5,0.5" Visible="True" />
+                        <WZUIImage Type="WZUIImage" GUID="{dcb99e08-b4f7-406c-bfd7-56a3fb298f2f}" File="ui/common/common_icon_suo.png" UseOriginSize="True" RelativePosition="0.5,0.7" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{3c9f8619-a0fd-4bf3-a8d1-305bf44f9dea}" AbsContentSize="378,468" UseAbsSize="True" RelativePosition="0.98,0.5" AnchorPoint="1,0.5" Name="" Visible="True">
+                    <Button Type="WZUIButton" GUID="{00339b9b-324f-4c9b-a2bc-784df7226441}" AbsContentSize="380,468" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="True" LuaDoneFunctionName="onSelectMatch" Tag="3" TouchEnable="True" Name="btn3_ScenePvp">
+                        <NormalElement Type="WZUIContainer" GUID="{84dd1bca-4d83-42a1-a776-b17d9dea581d}">
+                            <WZUIImage Type="WZUIImage" GUID="{9146343d-a087-4ccd-a396-2d41a7bf5edc}" File="ui/pvp/common_pic_jjct3.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{4cbad86a-1d1b-45d9-a035-44e62f484d30}">
+                            <WZUIImage Type="WZUIImage" GUID="{cb7af2ff-5c48-46be-aebf-e93b6b9e9f9d}" File="ui/pvp/common_pic_jjct3.png" UseOriginSize="True" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{b36c4834-29ef-4b6a-9d0c-e0821e0785ba}" AbsContentSize="378,468" UseAbsSize="True" ScaleX="0.985" ScaleY="0.98" RelativePosition="0.5,0.504">
+                                <WZUI9Image Type="WZUI9Image" GUID="{8a81d44e-7121-46e8-ab7a-431b1c74a8b6}" File="ui/common/common_shade_chushouheidi.png" Opacity="200" Scale="1" ScaleX="1" ScaleY="1" RelativePosition="0.5,0.5" />
+                            </WZUIContainer>
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{ab5c625e-474a-4830-a429-cf978dd9347d}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{b4bea5b2-fbcc-4aec-ab42-664bcf003dae}" AnchorPoint="0.5,0" RelativePosition="0.5,0" RelativeSize="1,0.18" Visible="True">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3b65d0cb-fd26-4d65-9d23-590b2b9f0e10}" LabelStyleKey="C1_F22_S4_C13" TextKey="BATTLE_MODEL_RANK" RelativePosition="0.5,0.7" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4eb80216-b5d6-493a-921b-356e523113b5}" LabelStyleKey="C7_F18" TextKey="PVP_HALL_8" RelativePosition="0.5,0.38" Name="txtE3_ScenePvp" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{5837089e-b409-46c0-a8f9-75600368003c}" Visible="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{53e4cb7a-9de1-4075-9ca0-a8e3e7dfdab6}" Scale="0.99" ScaleY="0.97" RelativePosition="0.497355,0.508547" ScaleX="0.99" Visible="False" Name="conStateClose3_ScenePvp" Order="1" TouchContainerEnable="False">
+                            <WZUI9Image Type="WZUI9Image" GUID="{098a3070-fa2b-4500-87b8-964aab50311c}" File="ui/common/common_shade_chushouheidi.png" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{71fbc55c-b586-4167-a06a-4364e5832bce}" File="ui/common/common_icon_suo.png" UseOriginSize="True" RelativePosition="0.5,0.5" Scale="0.82" TouchEnable="False" TouchSwallow="False" />
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{1892f445-a922-434f-8dd2-5059e34b4c75}" Name="ftbOpenTime3_ScenePvp" MaxWidth="300" TouchEnable="False" TouchSwallow="False" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{b378bf5c-a49f-4fe8-9648-9c620da5794d}" Name="conStateOpen3_ScenePvp" Visible="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{d57d1d09-00a0-4efa-8de3-d6cac448cf88}" AbsContentSize="90,30" UseAbsSize="True" RelativePosition="0.125,0.91">
+                                <WZUIImage Type="WZUIImage" GUID="{77f7a278-7424-4d7e-ad98-c73e590c3725}" File="ui/common/common_02.png" UseOriginSize="True" RelativePosition="0,0.5" Name="imgStateOpen3_ScenePvp" AnchorPoint="0,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{bde729ca-8a03-4439-ae33-a4aed9596c7a}" LabelStyleKey="C1_F18" TextKey="PVP_HALL_38" Name="txtStateOpen3_ScenePvp" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8519c9f4-ac0c-4e38-83ea-1039bc8bbc3a}" Name="time31" LabelStyleKey="C18_F20_S4_C5" Text="" RelativePosition="0.034127,0.84" Alignment="Left" AnchorPoint="0,0.5" TextKey="ASCENDING33" Visible="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4fd8285a-07d3-4388-86a3-d9107a279dd7}" Name="time32" LabelStyleKey="C18_F20_S4_C5" Text="" RelativePosition="0.034127,0.78" Alignment="Left" AnchorPoint="0,0.5" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{a7dcd513-0ccf-4f8c-acbf-0b30a36d2940}" TouchEnable="False" Name="con3_ScenePvp" Visible="True">
+                        <WZUI9Image Type="WZUI9Image" GUID="{a307a60b-5f17-4bcf-9a0a-4b93d2c7c1cd}" File="ui/common/common_shade_chushouheidi.png" ScaleY="0.98" ScaleX="0.99" RelativePosition="0.5,0.5" />
+                        <WZUIImage Type="WZUIImage" GUID="{378ca1ed-12d7-4c3d-b957-beaa5f0831f8}" File="ui/common/common_icon_suo.png" UseOriginSize="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIFrame>
+</ScenePvp>

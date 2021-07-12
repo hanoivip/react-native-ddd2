@@ -1,0 +1,9 @@
+<WZAsyncLoader>
+    <!-- <dir input="resources/ui" prefix="resources/ui/"/> -->
+    <dir input="resources/image/battle/map" />
+    <dir input="resources/armatures/battle/skill" />
+    <dir input="resources/armatures/player" />
+    <dir input="resources/armatures/pet" />
+    <dir input="resources/armatures/city" />
+    <dir input="resources/armatures/ui" />
+</WZAsyncLoader>

@@ -1,0 +1,39 @@
+﻿<CellManyCollectItem GUID="{bdc73bb8-e846-41ad-99a8-a84914dfde32}">
+    <WZUIContainer AbsContentSize="626,142" GUID="{7e046697-2c55-45fc-815d-9bcd26a291d5}" LuaObjectName="" Name="CellManyCollectItem" NameCreate="False" Type="WZUIContainer" UseAbsSize="True">
+        <WZUIContainer GUID="{38d6ad60-d8e7-4929-b5d4-1f2fcf8d0fae}" Type="WZUIContainer" AbsContentSize="626,142" UseAbsSize="True" RelativePosition="0.5,0.5" Order="-1">
+            <WZUI9Image File="ui/common/frame_lieb.png" GUID="{92c0cf05-99b2-4ab7-8f84-f49acfe01d12}" Type="WZUI9Image" Order="-1" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{e5034bc7-db11-4dc2-8fb3-45d7377081bf}" AbsContentSize="630,82" AnchorPoint="0.5,0" RelativePosition="0.5,0.189189" UseAbsSize="True">
+            <WZUIContainer AbsContentSize="80,80" GUID="{be906e5d-e4db-4378-9115-712a185a608d}" Name="con1_CellManyCollectItem" RelativePosition="0.08,0.377129" TouchContainerEnable="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{51387bf8-6c77-4471-b4f5-f9d1ed628bb9}" Color="127,70,26" EnableStroke="False" FontSize="16" StrokeSize="4" StrokeColor="105,65,46" TextKey="MANYCOLLECT_TEXT8" AnchorPoint="0.5,1" RelativePosition="0.531486,0.0" Name="txt1_CellManyCollectItem" />
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="80,80" GUID="{fb74e0aa-07c6-4e00-8898-b3d96144acc3}" Name="con2_CellManyCollectItem" RelativePosition="0.215,0.377129" TouchContainerEnable="True" TouchEnable="True" Type="WZUIContainer" UseAbsSize="True">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{26df6031-dc3f-492b-972c-572952d3313a}" Color="127,70,26" EnableStroke="False" FontSize="16" StrokeSize="4" StrokeColor="105,65,46" TextKey="MANYCOLLECT_TEXT9" AnchorPoint="0.5,1" RelativePosition="0.515742,0.0" Name="txt2_CellManyCollectItem" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="116,148" GUID="{4a386e0e-0c45-45b9-bdfc-6dd735af072b}" RelativePosition="0.861942,0.5" Scale="1" ScaleX="1" Type="WZUIContainer" UseAbsSize="True" ScaleY="1" Name="conBtn_CellManyCollectItem">
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{f862e48c-8280-4bfc-8dd2-37e515c2582d}" Name="ftxtPrice_CellManyCollectItem" AnchorPoint="0,0.5" RelativePosition="0.303998,0.834471" MaxWidth="300" />
+            <Button Type="WZUIButton" GUID="{9cb330e2-d49e-4e24-8e94-4abd3bc9a2bc}" AbsContentSize="124,54" UseAbsSize="True" RelativePosition="0.5,0.389249" LuaActionName="Normal" LuaDoneFunctionName="onClickJoin">
+                <NormalElement Type="WZUIContainer" GUID="{1bc2eeb0-6ce3-4c70-b492-c4db47790ce3}">
+                    <WZUIImage Type="WZUIImage" GUID="{8bb019c2-aee6-4410-ba23-12a74b3a7027}" File="ui/common/common_btn_05.png" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{56ab58c6-c23e-48f5-a04d-142e718def5b}">
+                    <WZUIImage Type="WZUIImage" GUID="{8415980f-3065-4d97-801b-8a8bf016ffc6}" File="ui/common/common_btn_05.png" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{92d9bd3f-3df8-4547-b747-f3687e5e0f34}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{79cf643c-c6fd-4c91-8363-8aceb0300801}" RelativePosition="0.5,0.5" TextKey="MANYCOLLECT_TEXT4" FontSize="22" Color="255,250,236" AnchorPoint="0.5,0.5" LabelStyleKey="" Name="txtBtn_CellManyCollectItem" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer AbsContentSize="630,40" AnchorPoint="0.5,0.5" GUID="{5b93623f-8893-418d-b92a-27d5d144b4ee}" RelativePosition="0.5,0.853522" Type="WZUIContainer" UseAbsSize="True" Name="conMsgInfo_CellTodayRechargeItem">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{119b882b-54e0-4b23-9224-d1dd9326badf}" RelativePosition="0.0240119,0.45" TextKey="MANYCOLLECT_TEXT5" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" EnableStroke="True" StrokeSize="4" StrokeColor="127,70,26" Name="txtMsgInfoName_CellManyCollectItem" />
+            <WZUIContainer Type="WZUIContainer" GUID="{02199e09-a82c-480b-a29d-b1a814f745e1}" AbsContentSize="380,18" UseAbsSize="True" RelativePosition="0.48,0.5">
+                <WZUIImage Type="WZUIImage" GUID="{a0ea6f18-2087-4c35-9ebd-d46ce8b8db1e}" UseOriginSize="True" RelativePosition="0.5,0.5" File="ui/newActivity/progress_hd_03.png" Scale="1" AnchorPoint="0.5,0.5" ScaleX="0.8" />
+                <WZUIProgress Type="WZUIProgress" GUID="{650de093-458a-4615-9d0f-0232404376c8}" BgPicture="ui/newActivity/progress_hd_04.png" UseOriginSize="True" Percentage="50" Name="prgCollect_CellManyCollectItem" ScaleX="0.8" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{90eaf5a0-10d4-45c1-a4b0-88fea78df052}" RelativePosition="0.5,0.360063" Name="txtNum_CellManyCollectItem" Font="" FontSize="18" Color="255,255,255" StrokeSize="4" StrokeColor="132,66,29" EnableStroke="True" AnchorPoint="0.5,0.5" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{a456fc96-6dcc-4b0f-92d9-0543a8049748}" UseAbsSize="True" AbsContentSize="624,42" AnchorPoint="0.5,1" Order="-1" RelativePosition="0.5,1">
+            <WZUI9Image Type="WZUI9Image" GUID="{0ff210d6-661a-4097-9cdc-3fa4bdf18143}" File="ui/common/title_frame_02.png" AnchorPoint="0.5,0.5" Order="-1" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellManyCollectItem>

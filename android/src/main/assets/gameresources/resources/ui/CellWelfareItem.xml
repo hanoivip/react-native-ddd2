@@ -1,0 +1,18 @@
+﻿<CellWelfareItem GUID="{209a25d2-6844-4591-b40d-a3356cbd8027}">
+    <WZUIContainer AbsContentSize="212,59" GUID="{ca4f1ef6-bd16-4f6a-8627-dcbc717868f9}" LuaObjectName="" Name="CellWelfareItem" NameCreate="True" RelativePosition="0.5,0.5" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{bdfdd716-52b4-41ac-8077-da8bb2645aa7}" Name="conTop_CellWelfareItem">
+            <Button AbsContentSize="212,59" GUID="{c4f2ac2f-b690-43b0-8d47-5cf234c62eeb}" LuaDoneFunctionName="onClickCellItem" Type="WZUIButton" UseAbsSize="True" Name="btnLeft_CellWelfareItem">
+                <NormalElement GUID="{28a3984f-8b64-4675-b634-569966ed9612}" Type="WZUIContainer" />
+                <SelectElement GUID="{7bee327e-b0b9-477c-9bbc-c378047f7cef}" Type="WZUIContainer" />
+                <DisableElement GUID="{55337e3f-22e5-4365-a8ce-4192e8db2ef2}" Type="WZUIContainer">
+                    <WZUI9Image Type="WZUI9Image" GUID="{2e7f5241-3aa4-458b-9678-042f15c49553}" File="ui/common/common_btn_04.png" />
+                </DisableElement>
+                <WZUIImage File="ui/common/common_icon_xiaodianzhui.png" GUID="{301ff882-3611-49d1-a47e-771f8498c50a}" Name="imgRedDot_CellWelfareItem" RelativePosition="0.94,0.84" Type="WZUIImage" UseOriginSize="True" AbsPosition="180.575,40.7994" Scale="1" ScaleX="1" ScaleY="1" Visible="False" />
+                <WZUI9Image Type="WZUI9Image" GUID="{62e42e46-8432-46ca-8956-d661c2813d12}" Name="img_itemState" File="ui/common/common_btn_03.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{44e9d18d-43d5-4198-ba4c-8675cf31dc1b}" Text="label" FontSize="22" Color="255,236,193" Name="txtItemName_CellWelfareItem" StrokeColor="128,54,33" StrokeSize="4" Tag="2" EnableStroke="True" RelativePosition="0.5,0.485714" />
+                <WZUI9Image Type="WZUI9Image" GUID="{e99110cb-a82a-4570-af13-02efb7e9241b}" Name="normal" File="ui/common/common_btn_04_1.png" Order="-1" />
+                <WZUI9Image Type="WZUI9Image" GUID="{ee6a2b53-9b20-4510-8d48-02bd23e62628}" Name="select" File="ui/common/common_btn_03_1.png" Order="-1" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellWelfareItem>

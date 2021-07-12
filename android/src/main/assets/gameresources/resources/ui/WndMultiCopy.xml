@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" ?>
+<WndMultiCopy GUID="{7CA145D5-ADE1-4557-B32F-76B9FC567DC2}">
+    <WZUIFrame Type="WZUIFrame" GUID="{63DF7508-0D0C-4b63-9E39-A1777FF8DE34}">
+        <WZUIWindow Type="WZUIWindow" GUID="{24797cab-f591-4588-bd29-0321bc442cf9}" Name="WndMultiCopy" LuaObjectName="WndMultiCopy" UseAbsSize="False" AbsContentSize="" NameCreate="True" LuaTouchBeganFunction="onTouchBegan">
+            <WZUIContainer Type="WZUIContainer" GUID="{C9488AE9-9A43-4827-9F4F-747E5AD41E44}" Visible="True" Name="conBg_WndMultiCopy" NameCreate="True">
+                <WZUIImage Type="WZUIImage" GUID="{7B750A46-A3BC-45bc-A283-1E79621E0BC4}" File="ui/common_bg/common_bg.png" Visible="True" />
+                <WZUIParticle Type="WZUIParticle" GUID="{aa2ae391-e409-4a13-b9fb-bc6f17191bed}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0.1" Visible="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{d6b33319-a9ec-4dab-994d-0f98b3fa9949}" ShowAll="True">
+                <WZUITableContainer Type="WZUITableContainer" GUID="{d4b5593b-e919-4f5c-819a-3803986181e9}" Name="tbconCopy_WndMultiCopy" EnableMoveVertical="True" IsVerticalMode="True" RelativeSize="1,1" CellElementHeight="0.245" VerticalInterval="0.027" HorizontalInterval="0" ScissorHeight="1" UseAbsSize="True" AbsContentSize="340,534" ScissorWidth="1" EnableHideUnvisible="False" EnableMoveoutContainer="False" RelativePosition="0.156,0.46" EnableMoveHorizontal="False" />
+                <WZUIContainer Type="WZUIContainer" GUID="{37908284-f6d4-461b-81dc-e0503f8b305a}" AbsContentSize="770,536" UseAbsSize="True" Visible="True" RelativePosition="0.645468,0.458297" ShowAll="False" Name="conLeft_WndMultiCopy" NameCreate="True" AnchorPoint="0.5,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{da9beb19-aaeb-411e-90ea-c27e3156825e}" File="ui/common/frame_dadi.png" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{f375f637-07de-4272-aeac-6a8228d88a74}" RelativeSize="1,1" RelativePosition="0.5,0.5" AbsPosition="" AbsContentSize="" UseAbsSize="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{e45caa58-1ceb-4bc2-b4de-0267314d749b}" AbsContentSize="450,55" UseAbsSize="True" RelativePosition="0.33217,0.921099" AbsPosition="201.15,455.728" Order="0" Visible="True">
+                            <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{4be66f55-dcbb-4013-8640-1e8359f9c0a8}" RelativePosition="0.5,0.5" AbsPosition="180,28.5">
+                                <CheckBox Type="WZUICheckBox" GUID="{58a04089-adb8-4ccf-9ac1-5505f2e4a893}" RelativeSize="1,1" SelectedIndex="0" RelativePosition="0.166,0.5" Tag="0" LuaCheckedFunctionName="onCheck" AnchorPoint="0.5,0.5" UseAbsSize="True" AbsContentSize="146,52">
+                                    <CheckElement Type="WZUIContainer" GUID="{2637528f-93fc-40e2-ae04-dd6ef0af7578}" RelativePosition="0.513699,0.5">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{9571d5a9-d29c-43fc-9f62-5804f6d142eb}" File="ui/common/common_btn_08.png" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c19622d7-7a0c-4edf-92e7-0bd790ab8001}" Color="127,70,26" EnableStroke="False" FontSize="22" StrokeColor="79,60,48" StrokeSize="4" Text="" Name="txtCheck1_WndMultiCopy" NameCreate="True" TextKey="ROOM1" RelativePosition="0.5,0.5" />
+                                    </CheckElement>
+                                    <CheckElement Type="WZUIContainer" GUID="{d8b7161f-0e32-450e-a868-dfe1ef23ba4b}">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{8e214493-44ca-4334-97c8-3d2590da9948}" File="ui/common/common_btn_07.png" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3dc271cb-2080-4998-8547-4fd4ed32b4db}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="132,66,29" StrokeSize="4" Text="" Name="txtCheckSel1_WndMultiCopy" NameCreate="True" TextKey="ROOM1" />
+                                    </CheckElement>
+                                </CheckBox>
+                                <CheckBox Type="WZUICheckBox" GUID="{13695001-93b7-4968-acb4-74404585eda2}" RelativeSize="1,1" SelectedIndex="1" RelativePosition="0.5,0.5" Tag="1" LuaCheckedFunctionName="onCheck" AbsContentSize="146,52" UseAbsSize="True">
+                                    <CheckElement Type="WZUIContainer" GUID="{ca68b2b6-377f-4ab4-9fac-d8a9f30685ae}" RelativePosition="0.5,0.5">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{b897b7ca-ac2e-4205-9ce0-ccaffb44086f}" File="ui/common/common_btn_08.png" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b3cf763e-0596-4af7-b018-f9b3b0cf5e54}" Color="127,70,26" EnableStroke="False" FontSize="22" StrokeColor="79,60,48" StrokeSize="4" Text="" Name="txtCheck2_WndMultiCopy" NameCreate="True" TextKey="INFO" />
+                                    </CheckElement>
+                                    <CheckElement Type="WZUIContainer" GUID="{e4511551-8831-4e07-94c4-77d7c6f88ad5}" RelativePosition="0.5,0.5">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{0ce2cf07-c339-47c8-bfe2-6623c31be243}" File="ui/common/common_btn_07.png" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{20b4246f-6e25-45d0-abd0-60ff567530de}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="132,66,29" StrokeSize="4" Text="" Name="txtCheckSel2_WndMultiCopy" NameCreate="True" TextKey="INFO" RelativePosition="0.5,0.5" />
+                                    </CheckElement>
+                                </CheckBox>
+                                <CheckBox Type="WZUICheckBox" GUID="{e128b82f-cdfe-4c71-917a-24f1eb24abea}" RelativeSize="1,1" SelectedIndex="0" RelativePosition="0.834,0.5" Tag="2" LuaCheckedFunctionName="onCheck" AnchorPoint="0.5,0.5" AbsContentSize="146,52" UseAbsSize="True">
+                                    <CheckElement Type="WZUIContainer" GUID="{cf7147d3-d5b9-412d-b322-c8996b9be2be}" RelativePosition="0.5,0.5">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{aebf36cd-345a-410d-9d19-33f635330d0f}" File="ui/common/common_btn_08.png" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4388676d-6270-4327-8aac-59b6c9cfdcd2}" Color="127,70,26" EnableStroke="False" FontSize="22" StrokeColor="79,60,48" StrokeSize="4" Text="" Name="" NameCreate="True" TextKey="FIGHT_VIDEO" />
+                                    </CheckElement>
+                                    <CheckElement Type="WZUIContainer" GUID="{39c72fac-0af7-4c4f-9008-c0d0e668308b}" RelativePosition="0.5,0.5">
+                                        <WZUI9Image Type="WZUI9Image" GUID="{ccc80f6f-1c69-4903-a4db-568d9a3473da}" File="ui/common/common_btn_07.png" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ba2e74d6-5bfd-48aa-9dd8-2c4db7b67bc4}" Color="255,236,193" EnableStroke="True" FontSize="22" StrokeColor="132,66,29" StrokeSize="4" Text="" Name="" NameCreate="True" TextKey="FIGHT_VIDEO" />
+                                    </CheckElement>
+                                </CheckBox>
+                            </WZUICheckBoxGroup>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{60b23bc0-b132-40e0-96d0-862594396c64}" RelativeSize="1,1" RelativePosition="0.5,0.449627" Order="1" AbsContentSize="740,454" UseAbsSize="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{01477978-3c72-4682-bbde-8bb120df0d5c}" Name="conRoom_WndMultiCopy" Visible="True" UseAbsSize="False">
+                                <WZUIContainer Type="WZUIContainer" GUID="{b41f07ba-d442-451a-8fe8-254996245894}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{f3637e32-3b00-440d-bebc-abc628495744}" File="ui/common/frame_dadi_01.png" RelativeSize="1,1" RelativePosition="0.5,0.5" AbsPosition="" AnchorPoint="0.5,0.5" Visible="True" Opacity="255" />
+                                </WZUIContainer>
+                                <WZUITableContainer Type="WZUITableContainer" GUID="{3217cde4-5b0b-4a59-9a43-b2d34983d37c}" Name="tbconRoom_WndMultiCopy" UseAbsSize="False" AbsContentSize="" RelativePosition="0.5,0.589189" CellElementHeight="0.26" EnableMoveHorizontal="False" VerticalInterval="0.02" ScissorHeight="1" ScissorWidth="1" RelativeSize="1,0.8" AnchorPoint="0.5,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0365870d-c6d6-4013-b187-9bb78f4a00f5}" Color="158,139,121" Name="txtRoomDesc_WndMultiCopy" Text="mei you fnag jain" FontSize="30" TextKey="HAVE_NOT_ROOM" Visible="True" LabelStyleKey="C8_F26" RelativePosition="0.5,0.55" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{2a6ec78a-f681-4912-9cf2-1827a213482f}" Name="conInfo_WndMultiCopy" Visible="True">
+                                <WZUIContainer Type="WZUIContainer" GUID="{f1200c7a-bd0c-4dee-9f6c-5fb5692f23db}" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{5bf02da4-ced2-4fe9-b101-15aa793ad060}" File="ui/common/frame_dadi_01.png" RelativeSize="1,1" RelativePosition="0.5,0.5" AbsPosition="201.15,4.00002" AnchorPoint="0.5,0.5" Visible="True" Opacity="255" />
+                                </WZUIContainer>
+                                <WZUIImage Type="WZUIImage" GUID="{03af2cf6-4132-4250-bc20-378f16bb752f}" File="ui/copy/common_pic_fb02_boss1.png" UseOriginSize="True" Name="imgBossHead_WndMultiCopy" RelativePosition="0.751067,0.835794" Scale="1" FlipX="False" ScaleX="-1.2" TouchEnable="False" ScaleY="1.2" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{99b8633f-51e2-4121-ac57-024ac5fe62c0}" RelativeSize="1,0.25" AnchorPoint="0,1" RelativePosition="0,1" AbsPosition="201.15,324.6" Visible="True" AbsContentSize="400,210" UseAbsSize="True">
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{aa642b3c-8b4f-4585-b6e4-5306852885a5}" Name="txtInfo1_WndMultiCopy" Alignment="Left" AnchorPoint="0,1" Dimensions="340" Text="" FontSize="22" RelativePosition="0.07,0.84" AbsPosition="13.5923,62.0305" Color="127,70,26" LabelStyleKey="" />
+                                    <WZUIContainer Type="WZUIContainer" GUID="{1a738342-0e03-4994-a56c-f7a2fd3f77f5}" RelativeSize="1,0.38" RelativePosition="0.5,0" AnchorPoint="0.5,0" AbsContentSize="400,90" UseAbsSize="True">
+                                        <WZUIImage Type="WZUIImage" GUID="{1c903da2-de2b-4f37-9640-f3e019a26a87}" File="ui/common/common_fuben_fenge.png" UseOriginSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{31b098c1-68a2-4c58-b5ab-6860d146d3d9}" TextKey="COPY_VIGOUR_COST" FontSize="22" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="0.07,0.5" AbsPosition="13.052,61.0852" Color="127,70,26" EnableStroke="False" StrokeColor="128,54,13" StrokeSize="2" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4d363dab-0fc7-43a2-8bf5-b1fbc9758b05}" Color="230,105,23" Text="" FontSize="22" RelativePosition="0.43,0.5" AbsPosition="130.046,59.2475" Name="txtSubPower_WndMultiCppy" />
+                                        <WZUIImage Type="WZUIImage" GUID="{2926005a-6a4e-48b1-a3f5-128a60d33f43}" File="ui/common/common_icon_huoli.png" UseOriginSize="True" RelativePosition="0.392852,0.5" AbsPosition="158.044,60.6664" Scale="0.7" Name="imgPower_WndMultiCopy" Visible="False" />
+                                        <WZUIButton Type="WZUIButton" GUID="{0b7c2b52-a1d0-42eb-a07e-b3a7349afa89}" LuaDoneFunctionName="onCopySweep" AbsContentSize="130,60" UseAbsSize="True" RelativePosition="0.727429,0.522222" LuaActionName="Normal" AbsPosition="324.679,42.12" Visible="True" Name="btnSweep_WndMultiCopy">
+                                            <NormalElement Type="WZUIContainer" GUID="{54f0209d-b4d2-43e8-8262-faf4240c462c}">
+                                                <WZUIImage Type="WZUIImage" GUID="{cb64e0de-dd38-4741-ba92-583d69c3b935}" File="ui/common/common_btn_06.png" UseOriginSize="True" />
+                                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3e6ac722-ed6c-4a2c-a65a-a19ab06cf794}" Color="255,255,255" Text="" FontSize="22" BoldFont="True" Name="txtSweep1_WndMultiCopy" TextKey="COPY_SWEEP" EnableStroke="True" StrokeColor="0,107,3" StrokeSize="4" LabelStyleKey="" />
+                                            </NormalElement>
+                                            <SelectElement Type="WZUIContainer" GUID="{4610e0f1-d718-4e56-8d07-ffdbcc45f6fd}">
+                                                <WZUIImage Type="WZUIImage" GUID="{ba9f5022-5fcd-4cc7-926b-b206f1ba5655}" File="ui/common/common_btn_06.png" UseOriginSize="True" />
+                                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0947e794-c222-48b2-8978-22de19013fd1}" Color="255,255,255" Text="" FontSize="22" BoldFont="True" Name="txtSweep2_WndMultiCopy" TextKey="COPY_SWEEP" EnableStroke="True" StrokeColor="0,107,3" StrokeSize="4" LabelStyleKey="" />
+                                            </SelectElement>
+                                            <DisableElement Type="WZUIContainer" GUID="{c9764d93-eb1f-4db8-b44c-969d4abafe47}" />
+                                        </WZUIButton>
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5a3e6b8b-3317-4f60-852a-df5c8189baa0}" LabelStyleKey="C8_F20" Text="" RelativePosition="0.952398,0.291028" Name="txtNotSweepTip_WndMultiCopy" TouchEnable="False" Visible="False" AnchorPoint="1,0.5" TextKey="MUTLIP_COPY_SWEEP_TIP" />
+                                    </WZUIContainer>
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{3e111742-9ba2-4e10-a9ec-12a2b44ff07b}" RelativeSize="1,0.43" RelativePosition="0.5,0.368396" AbsPosition="201.15,76.7999" AbsContentSize="722,154" UseAbsSize="True">
+                                    <WZUI9Image Type="WZUI9Image" GUID="{6cf7595a-9cf8-4af7-88d8-ee52d26edd99}" File="ui/common/frame_lieb.png" Opacity="255" Visible="True" />
+                                    <WZUIContainer Type="WZUIContainer" GUID="{f2d472a7-dc54-4f09-a173-ceae9b76e7ca}" AbsContentSize="540,40" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+                                        <WZUIImage Type="WZUIImage" GUID="{6934a1ff-0825-4d15-ab9e-803f72d9eb9b}" File="ui/common/title_frame_04.png" UseOriginSize="True" RelativePosition="0.36,0.4" />
+                                        <WZUIImage Type="WZUIImage" GUID="{212b640f-6ad3-42cc-9f70-82de3bb6a504}" File="ui/common/title_frame_04.png" UseOriginSize="True" RelativePosition="0.64,0.4" FlipX="True" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{99bd6db3-6d02-4403-b912-e08866f0839d}" TextKey="REWARD_CARTON" LabelStyleKey="" RelativePosition="0.5,0.4" Color="255,236,193" EnableStroke="True" StrokeColor="127,70,26" StrokeSize="4" FontSize="22" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{e32ec9e0-2c55-4471-a171-63cdb80b6b4d}" RelativeSize="0.94,0.75" RelativePosition="0.5,0.386401" AbsPosition="201.15,82.5849">
+                                        <WZUITableContainer Type="WZUITableContainer" GUID="{3b97cd90-75ae-4b5b-a83b-a8d7d74a0e20}" ColumnCount="7" CellElementHeight="0.84" EnableMoveHorizontal="False" Name="tabReward_WndMultiCopy" RelativeSize="1,0.95" RelativePosition="0.5,0.5" AbsPosition="189.081,76.1731" />
+                                    </WZUIContainer>
+                                </WZUIContainer>
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{8c3d191d-0c94-4ac3-90b4-efb2a1e2c00b}" RelativeSize="1,1" RelativePosition="0.5,0.11" AbsPosition="201.15,47.0001" Order="1" AnchorPoint="0.5,0.5" UseAbsSize="True" AbsContentSize="740,90">
+                            <WZUIButton Type="WZUIButton" GUID="{c914388d-df43-4b01-91f3-2fc0012330f4}" LuaDoneFunctionName="onFindRoom" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.27,0.49" LuaActionName="Normal" AbsPosition="74.621,42.12">
+                                <NormalElement Type="WZUIContainer" GUID="{fbf0d426-9415-433d-8c3b-29f8a27504f4}">
+                                    <WZUIImage Type="WZUIImage" GUID="{64bf015e-f942-4c05-b0c0-66bcb494495f}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{7b4569d8-ba8d-4657-8143-aba66df80ddb}" Color="255,250,236" Text="" FontSize="26" BoldFont="True" Name="txtSearch1_WndMultiCopy" TextKey="FIND_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{73c37890-0a75-4a78-aaab-5dd1fea1a5e6}">
+                                    <WZUIImage Type="WZUIImage" GUID="{ab76348c-d89f-47e5-8a3d-5e38066313c2}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d29e4fa8-90c1-4d56-8aa7-44db64946c29}" Color="255,250,236" Text="" FontSize="26" BoldFont="True" Name="txtSearch2_WndMultiCopy" TextKey="FIND_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{8754b246-5c35-4d9a-a29e-5b3db9eeda8d}" />
+                            </WZUIButton>
+                            <WZUIButton Type="WZUIButton" GUID="{f2a272f9-5147-4f13-b69d-33ad0c8675b6}" LuaDoneFunctionName="onCreateRoom" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.5,0.49" LuaActionName="Normal" AbsPosition="199.621,42.12">
+                                <NormalElement Type="WZUIContainer" GUID="{ca054569-9e38-4f76-9cd2-f23443b16952}">
+                                    <WZUIImage Type="WZUIImage" GUID="{6c6104d8-7d1b-4904-b097-c59b7f45921c}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3a4c35bd-c89e-4674-b605-6e5d23fff3d9}" Color="255,250,236" Text="" FontSize="26" BoldFont="True" Name="txtCreateR1_WndMultiCopy" TextKey="CREATE_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{cf7527f3-e7e6-4b2b-a3bc-16ddd4ba7a65}">
+                                    <WZUIImage Type="WZUIImage" GUID="{ce7ea849-7802-483b-8f0c-d8ef93b3219f}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{99902fd4-d945-4eef-9a17-546010b42ccc}" Color="255,250,236" Text="" FontSize="26" BoldFont="True" Name="txtCreateR2_WndMultiCopy" TextKey="CREATE_ROOM" EnableStroke="True" StrokeColor="163,74,20" StrokeSize="4" LabelStyleKey="" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{7c83b28b-15f8-4e2b-9bf5-98867fce5672}" />
+                            </WZUIButton>
+                            <WZUIButton Type="WZUIButton" GUID="{ef811606-f3a5-4fb7-a41e-271767532fbc}" LuaDoneFunctionName="onQuickJoin" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.73,0.49" LuaActionName="Normal" AbsPosition="324.679,42.12" Name="btnQuickJoin_WndMultiCopy">
+                                <NormalElement Type="WZUIContainer" GUID="{637acb7f-1b82-434f-b865-48b6f9484aad}">
+                                    <WZUIImage Type="WZUIImage" GUID="{0d4b613c-b5c2-4e59-835d-961e4f6cb62b}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{25be0b02-b5d0-49c0-b9d8-bea1da2a400d}" Color="255,250,236" Text="" FontSize="26" BoldFont="True" Name="txtFastJion1_WndMultiCopy" TextKey="QUICK_JOIN" EnableStroke="True" StrokeColor="0,108,3" StrokeSize="4" LabelStyleKey="" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{6a73b3dd-02c1-4885-96ff-da728785023e}">
+                                    <WZUIImage Type="WZUIImage" GUID="{b9c56f72-0679-43fc-98fe-2579c6826adf}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{b19df988-c38e-48a9-8818-d18ec5777031}" Color="255,250,236" Text="" FontSize="26" BoldFont="True" Name="txtFastJion2_WndMultiCopy" TextKey="QUICK_JOIN" EnableStroke="True" StrokeColor="0,108,3" StrokeSize="4" LabelStyleKey="" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{ab26b3c0-965f-4749-a0b9-f6ea81bc2beb}" />
+                            </WZUIButton>
+                        </WZUIContainer>
+                        <Button Type="WZUIButton" GUID="{1eb3c7dd-0975-4037-8433-d1e2ae5a9d67}" AbsContentSize="84,84" UseAbsSize="True" Scale="0.7" RelativePosition="0.893223,0.111126" LuaActionName="Normal" LuaDoneFunctionName="onClickHelpIcon" Order="1">
+                            <NormalElement Type="WZUIContainer" GUID="{19f4aa37-66ba-4259-9eec-93c399b8bf48}" />
+                            <SelectElement Type="WZUIContainer" GUID="{1506ec2f-5941-4d4f-b981-37171f24535e}" />
+                            <DisableElement Type="WZUIContainer" GUID="{07b074cb-c9a4-4f20-b711-3cfe4ce5421d}" />
+                            <WZUIImage Type="WZUIImage" GUID="{b6ca6ae0-4295-4327-aa5d-86e7d14fa274}" File="ui/copy/common_xiezhu_02.png" UseOriginSize="True" />
+                        </Button>
+                        <WZUIContainer Type="WZUIContainer" GUID="{24c7dfe5-4615-4702-a94f-b65100cbac97}" Name="conVideo_WndMultiCopy" Visible="False" UseAbsSize="True" RelativeSize="1,0.88" RelativePosition="0.5,0.451852" AnchorPoint="0.5,0.5" Order="1" AbsContentSize="740,454">
+                            <WZUIContainer Type="WZUIContainer" GUID="{3ac30ee2-e506-4c40-96aa-aaa3b8c65260}" RelativeSize="1,1" RelativePosition="0.5,0.5" AbsPosition="201.15,198.928">
+                                <WZUI9Image Type="WZUI9Image" GUID="{1db11b4e-d9a3-4fc5-a560-f510186e86c7}" File="ui/common/frame_dadi_01.png" RelativeSize="1,1" RelativePosition="0.5,0.5" AbsPosition="201.15,4.00002" AnchorPoint="0.5,0.5" Visible="True" Opacity="255" />
+                                <WZUITableContainer Type="WZUITableContainer" GUID="{78220cd8-7d90-44ad-af2c-e8f60cfd5956}" Name="tabVideo_WndMultiCopy" UseAbsSize="False" AbsContentSize="" RelativePosition="0.5,0.456199" CellElementHeight="0.33" EnableMoveHorizontal="False" VerticalInterval="0.02" ScissorHeight="1" ScissorWidth="1" RelativeSize="1,0.88" AnchorPoint="0.5,0.5" EnableMoveVertical="False" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{2a726340-8e18-47cb-a5b2-cb3fb8962b7e}" RelativeSize="1,0.1" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5c68b61c-c525-40b1-a657-7094a64fdafb}" LabelStyleKey="" TextKey="BEST_VIDEO" Color="127,70,26" Text="" FontSize="22" RelativePosition="0.5,0.386" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIWindow>
+    </WZUIFrame>
+</WndMultiCopy>

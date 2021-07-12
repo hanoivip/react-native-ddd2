@@ -1,0 +1,41 @@
+﻿<WndCastSoulUpgrade GUID="{1f2e7873-fbb0-4890-80e8-c1c966aec904}">
+    <WZUIWindow Type="WZUIWindow" GUID="{6fa2500e-e974-4be9-8ecb-b308242f276a}" LuaObjectName="WndCastSoulUpgrade" Name="WndCastSoulUpgrade" NameCreate="True" AbsContentSize="420,400" UseAbsSize="False" ShowAll="False">
+        <Button Type="WZUIButton" GUID="{3d2babf6-7e81-45dd-9a7a-214dd78b1e07}" LuaActionName="Normal" AbsContentSize="80,80" UseAbsSize="False" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickClose">
+            <NormalElement Type="WZUIContainer" GUID="{a6010a29-7723-4c66-9d7a-2cbaf29abf8e}" />
+            <SelectElement Type="WZUIContainer" GUID="{e6a2d8f6-1a08-45f2-93fe-0fa51663e413}" />
+            <DisableElement Type="WZUIContainer" GUID="{7d1a0673-6906-4baa-aaf9-de90695ef3b6}" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{e65de4fd-8da0-4cdf-8a3d-f6a00d86bde2}" ShowAll="True" AbsContentSize="330,260" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{2a297664-3dd7-407c-b565-fb63760316d6}" File="ui/common/common_scale9_di24.png" />
+            <WZUIContainer Type="WZUIContainer" GUID="{18b755e6-29c4-4913-9714-4a3c2bdea32a}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.182588,0.782864" Name="conIcon_WndCastSoulUpgrade">
+                <WZUI9Image Type="WZUI9Image" GUID="{519c29ac-5462-413f-9ace-59b383c32196}" File="ui/common/common_scale9_beibaodi.png" />
+                <WZUIImage Type="WZUIImage" GUID="{f6e58911-a233-4ef6-b290-31590e1b61ac}" File="ui/common/frame_green.png" Name="imgIcon_WndCastSoulUpgrade" />
+                <WZUIImage Type="WZUIImage" GUID="{90586c54-cf53-4ad6-86f2-597b8defdfab}" File="ui/common/frame_green.png" Name="imgQualityRect_WndCastSoulUpgrade" />
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{a6c0fdd0-16e0-4633-b820-d79c248a1ec4}" FontSize="20" Color="99,255,95" RelativePosition="0.328468,0.885602" Name="txtName_WndCastSoulUpgrade" TextKey="" AnchorPoint="0,0.5" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{115098b3-2c4c-4490-86f6-24fb8b220604}" FontSize="20" Color="195,171,148" RelativePosition="0.328468,0.831756" Name="txtDesc_WndCastSoulUpgrade" TextKey="" AnchorPoint="0,1" Alignment="Left" Text="" Dimensions="210,0" />
+            <WZUI9Image Type="WZUI9Image" GUID="{45660b76-bdd1-4046-a55b-d28a397e9332}" File="ui/common/common_scale9_fengexian.png" Opacity="255" UseOriginSize="True" ScaleX="1.5" RelativePosition="0.5,0.565385" />
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{b4d4afea-a1b0-41fe-b79c-25c9b038692a}" Name="ftxtProperty_WndCastSoulUpgrade" MaxWidth="400" AnchorPoint="0,0.5" RelativePosition="0.07,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{82d6c0a4-049a-4544-a16a-884f910fc91c}" AbsContentSize="320,35" UseAbsSize="True" RelativePosition="0.5,0.362116">
+                <WZUI9Image Type="WZUI9Image" GUID="{e17bc939-3a61-4500-9367-eb22f31f944a}" File="ui/common/common_scale9_fengexian.png" Opacity="255" UseOriginSize="True" ScaleX="1.5" RelativePosition="0.5,1" />
+                <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{86e96ed3-7c1e-4f99-880d-2c174f25e88c}" Name="ftxtCost_WndCastSoulUpgrade" MaxWidth="400" AnchorPoint="0,0.5" RelativePosition="0.07,0.3" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{8f8fd8f7-4443-4943-86f7-e85913741452}" AbsContentSize="420,70" UseAbsSize="True" RelativePosition="0.5,0.125">
+                <Button Type="WZUIButton" GUID="{91bc7f7c-d96c-4045-83a9-641fe8a89c56}" AbsContentSize="116,58" UseAbsSize="True" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickUpgrade" LuaActionName="Normal" LocalInterval="300" Name="btnUpgrade_WndCastSoulUpgrade">
+                    <NormalElement Type="WZUIContainer" GUID="{16e15d4e-dd7f-476d-bce0-7c4032071e63}">
+                        <WZUIImage Type="WZUIImage" GUID="{07240e52-7041-4fb8-ab36-3c5b0fb80119}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b239ad87-fcee-404d-9c18-6fc6537c78eb}" FontSize="24" Color="255,239,193" RelativePosition="0.5,0.5" Name="txtUpgrade1_WndCastSoulUpgrade" EnableStroke="True" StrokeSize="4" StrokeColor="0,72,3" TextKey="STAR_SOUL_BUTTON_UPDATE" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{242c13f8-7a76-4ab0-a941-9ee34d4bdd82}">
+                        <WZUIImage Type="WZUIImage" GUID="{8776fbb2-1267-4078-8643-7e11085318bc}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{705647d1-88cd-437e-b710-91b8c412714e}" FontSize="24" Color="255,239,193" RelativePosition="0.5,0.5" Name="txtUpgrade2_WndCastSoulUpgrade" EnableStroke="True" StrokeSize="4" StrokeColor="0,72,3" TextKey="STAR_SOUL_BUTTON_UPDATE" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{baf6ee54-27c6-4265-b38a-01ac405bd936}">
+                        <WZUIImage Type="WZUIImage" GUID="{05fec018-b22f-42f3-8932-89a0ef2bb276}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" GrayRender="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5ec98c2f-816c-4254-a942-dad3551ffce1}" FontSize="24" Color="255,239,193" RelativePosition="0.5,0.5" Name="txtUpgrade3_WndCastSoulUpgrade" EnableStroke="True" StrokeSize="4" StrokeColor="0,72,3" TextKey="STAR_SOUL_BUTTON_UPDATE" LabelStyleKey="SMALL_GRAY_BTN" />
+                    </DisableElement>
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndCastSoulUpgrade>

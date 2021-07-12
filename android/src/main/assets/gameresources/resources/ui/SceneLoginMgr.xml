@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<SceneLoginMgr GUID="{5C6AAFF7-F187-4f9b-BE52-9E09A8E6367E}">
+    <WZUIFrame Type="WZUIFrame" GUID="{477D96DB-B361-4d93-B0D8-9AAE1C0E5CDA}" LuaTouchBeganFunction="" LuaObjectName="SceneLoginMgr" Name="SceneLoginMgr" AbsContentSize="1136,768">
+        <WZUIContainer Type="WZUIContainer" GUID="{AA225745-C22B-4ec5-AC58-594F91D32155}" ShowAll="False">
+            <WZUIImage Type="WZUIImage" GUID="{10dbcefa-d386-49c6-80eb-d4bfea4fa10c}" Name="imgBG_SceneLoginMgr" File="ui/login/login_new_bg_four.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{80e312b1-7e35-46a3-bfa7-3d6fb5e96d53}" ShowAll="True" AnchorPoint="0.5,0" RelativePosition="0.5,0">
+                <WZUISpine Type="WZUISpine" GUID="{bb4ead4d-7ae4-46df-b284-a8218baa5ebc}" FileAtlas="role/splashnew/login_pic_4zhounian.atlas" FileJson="role/splashnew/login_pic_4zhounian.json" AnimationName="wait" Loop="True" RelativePosition="0.5,0.967188" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{eb757e3c-b092-4a31-aaee-b56be1b3801c}" AbsContentSize="1136,640" UseAbsSize="True" Name="conBGPicture_SceneLoginMgr" Visible="False">
+                <WZUIImage Type="WZUIImage" GUID="{243a49fd-28b0-4289-83ba-322cfe29d32a}" File="ui/login/login_pic_bg1.png" Name="imgBGPicture_SceneLoginMgr" Visible="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{21bbe4ce-861e-4c75-b6f5-3b29e06ccddd}" AbsContentSize="300,168" UseAbsSize="True" RelativePosition="-0.00624997,1.02657" AnchorPoint="0,1" Visible="True" AbsPosition="-2,640" ShowAll="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{2ccfe47d-5681-4b4e-b8ff-95f2eb5d1f78}" AbsContentSize="300,168" UseAbsSize="True" RelativePosition="0.5,1" ShowAll="True" AbsPosition="121,99.3599" Visible="True" Scale="1" AnchorPoint="0.5,1" Name="conLogo_SceneLoginMgr">
+                    <WZUIImage Type="WZUIImage" GUID="{65159183-1cd8-4406-b773-3af1f4329677}" File="ui/login/login_icon_logo.png" UseOriginSize="True" RelativePosition="0.5,0.5" AbsPosition="140,82" Scale="1" ScaleX="1" ScaleY="1" Visible="True" />
+                </WZUIContainer>
+                <WZUIImage Type="WZUIImage" GUID="{4bac8ed2-2f14-4f0a-9652-001f656f0602}" File="" UseOriginSize="True" Name="imgVN_SceneLoginMgr" Scale="0.34999999403953552" ScaleX="0.34999999403953552" ScaleY="0.34999999403953552" RelativePosition="0.44,-0.166666" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIFrame>
+</SceneLoginMgr>

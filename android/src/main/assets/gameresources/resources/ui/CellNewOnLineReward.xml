@@ -1,0 +1,19 @@
+﻿<CellNewOnLineReward GUID="{148d6cc3-d1df-4ff5-8733-4e8fb4b7dc7d}">
+    <WZUIContainer AbsContentSize="502,453" GUID="{9f777d79-b579-460b-843e-1684158eb0a1}" LuaObjectName="CellNewOnLineReward" Name="CellNewOnLineReward" NameCreate="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUIContainer AbsContentSize="642,478" GUID="{a481c6f9-e2cd-4f84-ba28-5c79227a0afd}" RelativePosition="0.5,1" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0.5,1" Visible="True" AbsPosition="0,0">
+            <WZUIContainer Type="WZUIContainer" GUID="{903a574f-4e49-4fb6-8791-36cafa57eb28}" AbsContentSize="502,31" UseAbsSize="True" RelativePosition="0,0.070" AnchorPoint="0,1" Name="conLeftTime_CellOnLineReward" Visible="True">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8f23cf62-d570-4a62-863a-f185322e297a}" Color="127,70,26" FontSize="20" EnableStroke="False" StrokeColor="0,0,0" StrokeSize="2" RelativePosition="0.02,0.5" Name="txt1_CellOnLineReward" Text="22222" AnchorPoint="0,0.5">
+                    <WZUILabelTTF Color="229,105,22" FontSize="20" GUID="{2e12ef90-3ad7-4f3e-a169-002b9e5c3bde}" Name="txtTime_CellOnLineReward" RelativePosition="1.1,0.5" StrokeSize="2" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" EnableStroke="False" StrokeColor="79,60,48" TextKey="">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4fa1c816-db1c-4d62-90fa-f7a10ee8b3ec}" Color="127,70,26" EnableStroke="False" FontSize="20" StrokeColor="79,60,48" StrokeSize="2" Name="txt_CellOnLineReward" RelativePosition="1.1,0.5" AnchorPoint="0,0.5" TextKey="CAN_BE_GET_REWARD" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{dc98d6f4-9a53-40dd-8bcd-bc716145f6fd}" Color="127,70,26" EnableStroke="False" FontSize="20" StrokeColor="79,60,48" StrokeSize="2" Name="txt2_CellOnLineReward" RelativePosition="1.1,0.5" AnchorPoint="0,0.5" TextKey="" Text="" />
+                    </WZUILabelTTF>
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="630,310" GUID="{a29a4b25-9c27-450b-901e-934c515bc482}" RelativePosition="0.502022,0.419828" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0.5,0.5" Visible="True">
+                <WZUITableContainer AbsContentSize="630,310" AnchorPoint="0.5,0.5" CellElementHeight="0" ColumnCount="1" EnableMoveHorizontal="False" EnableMoveVertical="True" GUID="{ec7879c4-3618-4e9f-8d63-85a14ab8af53}" Name="tab_CellOnLineReward" RelativePosition="0.5,0.49727" RelativeSize="1,1" ShowAll="False" Type="WZUITableContainer" UseAbsSize="True" VisibleHeight="20" VerticalInterval="0" VerticalAbsInterval="8" />
+            </WZUIContainer>
+            <WZUIImage Type="WZUIImage" GUID="{7300dc56-92d2-4ed5-b373-317fc4343b15}" File="ui/newActivity/activity_pic_hd_08.png" UseOriginSizeProportion="True" RelativePosition="0.5,1.0" AnchorPoint="0.5,1" UseOriginSize="True" />
+            <WZUI9Image Type="WZUI9Image" GUID="{3a149dba-e960-4f7e-9c84-b6862b545b8b}" File="ui/common/frame_dadi_01.png" Order="-1" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellNewOnLineReward>

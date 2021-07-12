@@ -1,0 +1,66 @@
+<CellAnswerSurvey GUID="{c639d87b-9ec0-4d30-a978-457da3bd689f}">
+    <WZUIContainer Type="WZUIContainer" GUID="{12e34852-9b86-4524-86e7-2e0c833fce0e}" Name="CellAnswerSurvey" LuaObjectName="" AbsContentSize="730,100" UseAbsSize="True" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{d2e41d5c-f3fe-4eee-befc-ef0dda424967}">
+            <WZUI9Image Type="WZUI9Image" GUID="{bf0610b6-c920-43dc-963c-c5d54436177d}" File="ui/common/common_scale9_di52.png" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{eca4af2f-16f8-4488-9a34-4edf57c97156}" Name="txtQuestion_CellAnswerSurvey" AnchorPoint="0,0.5" RelativePosition="0.03,0.8" Text="1.紫色品质的宠物最高资质可达多少？" LabelStyleKey="C1_F20" />
+            <WZUIContainer Type="WZUIContainer" GUID="{7b9f81aa-49a9-430e-b9f5-c58dea1f31d3}" Name="conCheckGroup_CellAnswerSurvey" AbsContentSize="730,70" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0" Visible="True">
+                <Button Type="WZUIButton" GUID="{6adfe3e6-4b14-4a28-9ca6-5c253a498cda}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox1_CellAnswerSurvey" RelativePosition="0.05,0.72" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="1" Visible="True" LuaActionName="" LuaObjectName="">
+                    <NormalElement Type="WZUIContainer" GUID="{3a98daf1-6751-42ab-8a3e-7328fa159ae5}" />
+                    <SelectElement Type="WZUIContainer" GUID="{eb65d437-8740-4b8b-937e-ac24c104c35f}" />
+                    <DisableElement Type="WZUIContainer" GUID="{7ba417e8-5dec-4f61-8026-44fb8a87b1c5}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{6ab1a441-5e21-463d-a261-c357c787b575}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel1_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{2ba0b430-8dcf-48ee-943f-14836ce34722}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer1_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{5bd440bb-e096-4e2b-8bab-1fd41b9546cf}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox2_CellAnswerSurvey" RelativePosition="0.28,0.72" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="2" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{7cb0b4bb-9d95-4051-8b1e-cae60bb3f57c}" />
+                    <SelectElement Type="WZUIContainer" GUID="{e45fc75e-5d0e-40d0-86e5-aec6a5a2c476}" />
+                    <DisableElement Type="WZUIContainer" GUID="{96ee5b47-4da6-4cee-81cf-9d8e369d74df}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{dd3c560f-53f3-440a-8726-4c3dd79f4b16}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel2_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{7772f880-8cdf-41c1-a2a9-99668c0ebd36}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer2_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{036e500e-313d-432c-ab20-c7675324a5cf}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox3_CellAnswerSurvey" RelativePosition="0.51,0.72" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="3" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{93ff89c2-e073-4eb9-8cee-f62cec94504a}" />
+                    <SelectElement Type="WZUIContainer" GUID="{6829401f-53fc-4e3e-b746-3a8ff00bb91e}" />
+                    <DisableElement Type="WZUIContainer" GUID="{46446ae0-d59a-40fe-bb0b-c5ad163e7dac}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{3a329e77-eb89-40c8-bb51-f761f8836f2f}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel3_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{424a24fb-735b-4451-9602-af8eb219415d}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer3_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{1b53cc36-3316-4cee-91d2-7f13856bb6ab}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox4_CellAnswerSurvey" RelativePosition="0.74,0.72" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="4" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{9b5376b6-a9be-42c5-a127-cc93209e672f}" />
+                    <SelectElement Type="WZUIContainer" GUID="{c7092e27-d197-430c-858c-33ac2261c191}" />
+                    <DisableElement Type="WZUIContainer" GUID="{9aa6fa74-0cbb-406b-aa67-16ff074fae39}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{51e6af3c-2c2a-4d41-abbc-2ab980d81b7a}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel4_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{79d92d7e-7ce9-4796-9f4c-5acef9905fde}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer4_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{03197e75-8281-4591-b186-d5b29cf630d2}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox5_CellAnswerSurvey" RelativePosition="0.05,0.28" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="5" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{60e33d47-42fb-4ec4-a8e2-282c4318673e}" />
+                    <SelectElement Type="WZUIContainer" GUID="{56bde3de-2659-478c-b612-e7aa19a4fa5c}" />
+                    <DisableElement Type="WZUIContainer" GUID="{5a342885-925c-4e0e-8a08-0af4773cdf9d}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{a020e46c-c5af-437d-8968-2c328f32a642}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel5_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{54503794-1195-4e99-badc-abe8fbb1abae}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer5_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{9eaa9520-97ee-4969-a554-74ff98014178}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox6_CellAnswerSurvey" RelativePosition="0.28,0.28" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="6" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{8f88c785-366f-4faf-ac0b-dbf5ea924b84}" />
+                    <SelectElement Type="WZUIContainer" GUID="{6b692a75-bc0a-4867-ae57-999e8b636e61}" />
+                    <DisableElement Type="WZUIContainer" GUID="{e1674c02-14a6-46c2-9efa-62488f13f25e}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{11a34a1e-7801-4053-a29f-1b3033f9b291}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel6_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{33d781c4-9dae-401f-b4f4-cf4952d868be}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer6_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{ab559036-a0d7-45b5-8f50-20b16dadda5d}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox7_CellAnswerSurvey" RelativePosition="0.51,0.28" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="7" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{c96b9a58-e715-47df-8e39-22daaf6b78b4}" />
+                    <SelectElement Type="WZUIContainer" GUID="{afa562e7-1c68-4a63-b0b2-92ede5e55735}" />
+                    <DisableElement Type="WZUIContainer" GUID="{18a27273-74ba-4537-8862-5b1964d83a13}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{d79a91ea-ea20-4ef5-931d-399b7fd99952}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel7_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{8775534a-a15e-4ff5-9b7a-f110901b31b8}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer7_CellAnswerSurvey" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{46fc9c11-7bce-48d7-aa57-aeb16c6bd49a}" AbsContentSize="160,30" UseAbsSize="True" Name="checkBox8_CellAnswerSurvey" RelativePosition="0.74,0.28" AnchorPoint="0,0.5" LuaDoneFunctionName="onClickCheck" Tag="8" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{71fceaae-64eb-40b8-bcaa-f5c459ab65e5}" />
+                    <SelectElement Type="WZUIContainer" GUID="{c158f45c-6d12-4d2f-ae26-efffdd4525c9}" />
+                    <DisableElement Type="WZUIContainer" GUID="{c1ca8b05-1982-447d-b9c9-378c93ddd39d}" />
+                    <WZUI9Image Type="WZUI9Image" GUID="{0b91814c-3ecf-4837-a25d-1c044d6ddf64}" File="ui/common/common_scale9_wbbsxz.png" Name="imgSel8_CellAnswerSurvey" Visible="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c7ed088b-0861-42ed-baba-a29c0f05168c}" AnchorPoint="0,0.5" RelativePosition="0.05,0.5" LabelStyleKey="C1_F20" Text="A妓房动乱事件" Name="txtAnswer8_CellAnswerSurvey" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellAnswerSurvey>

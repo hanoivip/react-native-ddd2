@@ -1,0 +1,94 @@
+﻿<WndOneRechargeActivity GUID="{fd01a426-836e-4fde-808a-5f60ed594272}">
+    <WZUIWindow Type="WZUIWindow" GUID="{733e5002-4d6a-41dd-8322-5eef45cc9558}" Name="WndOneRechargeActivity" NameCreate="True" LuaObjectName="WndOneRechargeActivity" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{e35d43c8-242f-470e-9c5d-ffcc9e6c4591}" AbsContentSize="910,576" UseAbsSize="True">
+            <WZUIImage Type="WZUIImage" GUID="{bbd22d62-b5e4-4bb5-b68e-fd35fd97ba7e}" File="ui/gameActivity/hd_pic_di1.png" />
+            <WZUIImage Type="WZUIImage" GUID="{f43c6d53-4b9e-477a-a558-1355536c253f}" File="ui/gameActivity/huodong_yyl_rw.png" UseOriginSize="True" RelativePosition="0.217088,0.41591" />
+            <Button Type="WZUIButton" GUID="{a81249ae-f491-4481-b5fc-b429322df6d1}" UseAbsSize="True" AbsContentSize="60,60" RelativePosition="0.966293,0.873703" LuaActionName="Normal" LuaDoneFunctionName="onCloseClick">
+                <NormalElement Type="WZUIContainer" GUID="{e1049070-b33b-44bf-9c11-793b4d4e5570}">
+                    <WZUIImage Type="WZUIImage" GUID="{e0d10f62-da8c-4778-816f-a3a1e319cf12}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" Scale="0.9" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{a16e12ec-903b-4286-9000-5f9d05098a5f}">
+                    <WZUIImage Type="WZUIImage" GUID="{aed1378e-d67f-44da-ba5e-0b465984a23e}" File="ui/common/common_icon_guanbi_sel.png" UseOriginSize="True" Scale="0.9" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{da86515f-ae61-4dc7-8fd0-79bf36e63a95}" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{f65d7629-4e83-42fb-81fd-4aa39cf5e339}" RelativePosition="0.366,0.82" UseAbsSize="True" AbsContentSize="50,50" LuaDoneFunctionName="onRuleClick">
+                <NormalElement Type="WZUIContainer" GUID="{8f8d3c0a-f694-491f-8531-27262ef32fdc}">
+                    <WZUIImage Type="WZUIImage" GUID="{45a655de-a9d6-4099-8daf-b9674410240f}" UseOriginSize="True" File="ui/common/common_icon_gth1.png" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{a62029ec-a3b3-4345-aeeb-167e541e9ad0}">
+                    <WZUIImage Type="WZUIImage" GUID="{a8610f99-9746-4373-b100-7f206a64f638}" UseOriginSize="True" File="ui/common/common_icon_gth1.png" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{ce601c28-2826-43c5-abd4-f34cc6b698e2}" />
+            </Button>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{fee7ae3a-dd02-46e1-8bc7-947ff16646b7}" Color="249,236,208" AnchorPoint="0,0.5" Text="" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" FontSize="16" RelativePosition="0.405,0.82" TextKey="ACTIVITY_TEXT_DESC_3" />
+            <WZUIContainer Type="WZUIContainer" GUID="{9f7b9911-2a69-45b5-91f0-9e2a621645d1}" AbsContentSize="570,224" UseAbsSize="True" RelativePosition="0.581319,0.576389">
+                <WZUI9Image Type="WZUI9Image" GUID="{25b0e809-1454-4804-b65c-38679dd57c11}" File="ui/gameActivity/common_scale9_di114.png" CapInsets="40,60,1,1" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0b4eb4c7-ef46-4923-bb23-55bd56498eb8}" Color="255,227,116" EnableStroke="True" FontSize="28" Text="" StrokeColor="128,54,13" StrokeSize="4" RelativePosition="0.1,0.87" Name="txtPhaseNum_WndOneRechargeActivity" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{147190fc-c0a6-4e18-baf1-a5c4e85bae51}" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" FontSize="22" EnableStroke="True" Text="" RelativePosition="0.19,0.87" AnchorPoint="0,0.5" Name="txtPhaseReward_WndOneRechargeActivity" />
+                <WZUIContainer Type="WZUIContainer" GUID="{9ccca806-cd01-4a26-b4b7-416c0ab7058e}" Name="conPhaseReward_WndOneRechargeActivity" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.124223,0.527454" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9b7fb6d5-f5cc-4bea-bb75-9f9f3fd4ffed}" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" FontSize="20" EnableStroke="True" Text="" RelativePosition="0.255,0.615" AnchorPoint="0,0.5" Name="txtPhasePeople_WndOneRechargeActivity" />
+                <WZUIContainer Type="WZUIContainer" GUID="{0176011c-d816-4572-bc1a-7714e7e82d0a}" AbsContentSize="394,20" UseAbsSize="True" RelativePosition="0.6,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d17ae900-97fb-41ef-a7a4-88caf59027c9}" File="ui/common/common_progress_hd_di.png" Visible="True" UseOriginSize="True" />
+                    <WZUIProgress Type="WZUIProgress" GUID="{c39079e5-7668-4771-86b5-d8a09b9e3e11}" BgPicture="ui/common/common_progress_hd_h.png" UseOriginSize="True" Percentage="0" Name="progPeople_WndOneRechargeActivity" />
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{9c84f8d3-c3c7-46b7-9a41-1930acdc65ba}" RelativePosition="0.485,0.215" AbsContentSize="124,60" UseAbsSize="True" LuaDoneFunctionName="onJoinDraw">
+                    <NormalElement Type="WZUIContainer" GUID="{067e4f9e-6e3c-4eaa-9ea6-43b8b0453897}">
+                        <WZUIImage Type="WZUIImage" GUID="{f1f89349-cb46-486b-8f11-03dc77697629}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{1a592ded-fb1a-4f5f-971c-b3687a99fe0a}" Text="" FontSize="26" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="ACTIVITY_TEXT_DESC_6" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{5d0259b0-2083-489d-9610-3f168d5cc508}">
+                        <WZUIImage Type="WZUIImage" GUID="{c2fbeee4-f140-4362-811c-cc574c570421}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{353c504a-8ea2-4a58-91c2-3d0fab2a6965}" Text="" FontSize="26" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="ACTIVITY_TEXT_DESC_6" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{eae74146-5069-4965-90f3-999d0cb73c72}" />
+                </Button>
+            </WZUIContainer>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{467dea5d-06e9-4d0f-a18b-df307d5d2611}" Color="255,227,116" EnableStroke="True" FontSize="22" Text="" StrokeColor="128,54,13" StrokeSize="4" RelativePosition="0.314281,0.290493" Name="txtCumulativeRecharge_WndOneRechargeActivity" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{160aec61-147f-4652-8e0c-b70bc17702ea}" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" FontSize="16" EnableStroke="True" Text="" RelativePosition="0.506,0.31" AnchorPoint="0.5,0.5" Name="txtDesc1_WndOneRechargeActivity" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{9552992e-d871-48ff-8368-cadb6df735ba}" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" FontSize="16" EnableStroke="True" Text="" RelativePosition="0.506,0.26" AnchorPoint="0.5,0.5" Name="txtDesc2_WndOneRechargeActivity" />
+            <Button Type="WZUIButton" GUID="{bd460757-2b08-4775-ad63-c8aeeede2f84}" RelativePosition="0.693901,0.29" AbsContentSize="124,60" UseAbsSize="True" Name="btn1_WndOneRechargeActivity" LuaDoneFunctionName="onReceive" TouchEnable="False">
+                <NormalElement Type="WZUIContainer" GUID="{5ef2aa20-8ee1-4c51-8f05-b8c1b9a3b1f6}">
+                    <WZUIImage Type="WZUIImage" GUID="{0f364460-f8cc-4baf-83ff-da2a373b13e3}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{a7c972fc-3329-4c52-938d-b8c059fea1dd}" Text="" FontSize="26" Color="255,236,193" StrokeColor="0,72,3" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="INVITE_RECEIVE" />
+                    <WZUIImage Type="WZUIImage" GUID="{0efda8b9-fcb7-4308-940d-84e0321d1114}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgBtn1RedDot_WndOneRechargeActivity" RelativePosition="0.923595,0.843307" Visible="False" TouchSwallow="False" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{2c135f0d-ff0a-488f-938a-66deccfb719b}">
+                    <WZUIImage Type="WZUIImage" GUID="{3ea256df-395e-4c79-acaa-d3727e373ba3}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{226ba688-a33d-4214-aa96-3eacb9038926}" Text="" FontSize="26" Color="255,236,193" StrokeColor="0,72,3" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="INVITE_RECEIVE" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{a197374c-6325-48f9-8e23-d1b036ec70ef}">
+                    <WZUIImage Type="WZUIImage" GUID="{2073d647-ee98-4b85-9851-f26807a84423}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="False" GrayRender="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{66353340-48a3-41a9-8900-e9615e7987e8}" Text="" FontSize="26" Color="255,255,255" StrokeColor="79,60,48" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="INVITE_RECEIVE" />
+                </DisableElement>
+            </Button>
+            <Button Type="WZUIButton" GUID="{15ac1239-0232-4a9c-887d-72db27dc181f}" RelativePosition="0.85,0.29" AbsContentSize="124,60" UseAbsSize="True" Name="btn2_WndOneRechargeActivity" LuaDoneFunctionName="onLuckyCode">
+                <NormalElement Type="WZUIContainer" GUID="{5324da34-dae4-4c36-bbc3-053e8ac949b9}">
+                    <WZUIImage Type="WZUIImage" GUID="{e6ac465d-7851-47ed-8522-a11855d15080}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{ab5e4142-f168-45a7-b537-b140ae8e41df}" Text="" FontSize="26" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="ACTIVITY_TEXT_DESC_9" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{5ede5aec-1804-4d22-975e-c9a34411216c}">
+                    <WZUIImage Type="WZUIImage" GUID="{e9a6eb4a-c6a1-4299-bcd5-83387c97a5c1}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{3cc6e6d8-334c-4ea8-b843-f635c747843f}" Text="" FontSize="26" Color="249,236,208" StrokeColor="128,54,13" StrokeSize="4" EnableStroke="True" RelativePosition="0.5,0.5" TextKey="ACTIVITY_TEXT_DESC_9" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{3cff001d-4d45-42b8-8fd5-641d09e4250d}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{fa7b3479-f830-4925-bbc0-a46a08b271dd}" RelativePosition="0.572528,0" AnchorPoint="0.5,0" AbsContentSize="635,112" UseAbsSize="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{221b5536-eb4c-48a5-929e-982470222067}" File="ui/gameActivity/common_scale9_di115.png" RelativePosition="0.5,0.5" />
+                <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{76992e0f-dc86-47cb-9cde-27b61ffe19c5}" UseAbsSize="True" AbsContentSize="620,96" Name="flconReceiveLog_WndOneRechargeActivity" EnableMoveHorizontal="False" />
+                <Button Type="WZUIButton" GUID="{c19dfc33-4335-44f6-909c-add090df449d}" UseAbsSize="True" AbsContentSize="120,40" RelativePosition="0.806637,0.766943" LuaDoneFunctionName="onClickHistoricalReview">
+                    <NormalElement Type="WZUIContainer" GUID="{a27b0c10-d98c-4859-99e9-be60e4e759a9}">
+                        <WZUIImage Type="WZUIImage" GUID="{489d0124-ceaf-4a9e-b4ec-5f72b3aa2d48}" File="ui/gameActivity/common_icon_wqhg.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{6abcda5b-b190-43fd-8163-d9c0abc682cb}">
+                        <WZUIImage Type="WZUIImage" GUID="{eaa67e78-2f24-4fdc-9669-d16998df3833}" File="ui/gameActivity/common_icon_wqhg.png" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{61144a60-856b-49db-87c9-669286fb3521}" />
+                </Button>
+                <WZUIContainer Type="WZUIContainer" GUID="{6d3d9be2-093b-428b-8556-d00f566c0977}" AbsContentSize="620,24" UseAbsSize="True" RelativePosition="0.5,0.56" Visible="False">
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{67face1f-6cfc-4d7c-9546-55c940f4196c}" ShowText="" MaxWidth="600" RelativePosition="0.037,0.5" AnchorPoint="0,0.5" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndOneRechargeActivity>

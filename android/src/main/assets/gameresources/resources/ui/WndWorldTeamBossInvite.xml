@@ -1,0 +1,76 @@
+﻿<WndWorldTeamBossInvite GUID="{2109d23d-9e84-4edf-b281-c3314002156a}">
+    <WZUIWindow Type="WZUIWindow" GUID="{ff6fc44f-e3c7-478c-bf7d-f1ce462573dd}" LuaObjectName="WndWorldTeamBossInvite" Name="WndWorldTeamBossInvite" AbsContentSize="1136,640" UseAbsSize="False" NameCreate="True" LuaTouchBeganFunction="onBeginTouch" ShowAll="False">
+        <Button Type="WZUIButton" GUID="{3fe5d033-d58b-4443-8dc1-abd3b08730d9}" LuaDoneFunctionName="onBackClick">
+            <NormalElement Type="WZUIContainer" GUID="{2c803768-2739-45fa-8510-a94e7421a43a}" />
+            <SelectElement Type="WZUIContainer" GUID="{c223c575-e121-4720-9b58-d16c118acc4a}" />
+            <DisableElement Type="WZUIContainer" GUID="{d49d1473-b491-4adc-bc38-560adf52c92a}" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{68a5652b-a84a-4250-9481-e2d8023c75d9}" AbsContentSize="490,518" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="True" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{21d5f094-bbbd-42ce-9f32-9a640e0d368f}" AbsContentSize="490,518" UseAbsSize="True" ShowAll="False">
+                <WZUI9Image Type="WZUI9Image" GUID="{ef398761-abdd-4598-beae-a99c032271b3}" File="ui/common/common_scale9_di24.png" Opacity="225" />
+                <WZUIContainer Type="WZUIContainer" GUID="{3259d87a-fc38-4ea6-9025-b43abc97f6ce}" AbsContentSize="482,67" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.992278">
+                    <WZUI9Image Type="WZUI9Image" GUID="{daa1a86f-fa94-4346-84ae-f3edfd006970}" File="ui/common/common_biaotidi_01.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{edd85632-08f0-4a30-abe2-5265bf38d186}" AbsContentSize="480,428" UseAbsSize="True" RelativePosition="0.5,0.434363" Name="conInvitedMsg_WndWorldTeamBossInvite">
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{2ade52e3-20f7-4290-9bde-7141e957a700}" EnableMoveHorizontal="False" CellElementHeight="0.18" Name="tbcon_WndWorldTeamBossInvite" RelativeSize="1,0.99" RelativePosition="0.5,0.5" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{cc8f0756-bcf9-4584-a73b-97a562c968ab}" Text="胜多负少的" Name="txtAssetInTip_WndWorldTeamBossInvite" LabelStyleKey="FONT_LABEL_8" RelativePosition="0.5,-0.0485823" TextKey="SUSPENSION_TIP3" Visible="False" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{979b0c47-dc81-4bc1-b95a-5836d4d87b15}" AbsContentSize="460,52" UseAbsSize="True" RelativePosition="0.5,0.915058">
+                <Button Type="WZUIButton" AbsContentSize="106,52" UseAbsSize="True" GUID="{508460f0-0fda-467d-987a-68e4c6632be1}" Name="btnTheme1_WndWorldTeamBossInvite" RelativePosition="0.125,0.5" LuaDoneFunctionName="onHall" Order="-1" Visible="True">
+                    <NormalElement Type="WZUIContainer" GUID="{d636f470-d8c9-4811-ad02-8870f29b9155}">
+                        <WZUIImage Type="WZUIImage" GUID="{c52ac7b1-1ece-4a14-9034-38f02f43db4f}" File="ui/common/common_btn_biaoqian2.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{f0c8cc8c-1895-47a5-9a92-d2ef04bfca5e}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{cb2f9e4d-f1a5-44ae-940b-34a501e1cf8f}" File="ui/common/common_btn_biaoqian2.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{1295e745-b527-4a43-9a05-dd9da4846c3c}" />
+                </Button>
+                <WZUIButton Type="WZUIButton" AbsContentSize="106,52" UseAbsSize="True" GUID="{bfa32517-7019-4dc2-860d-5f506318237e}" Name="btnTheme2_WndWorldTeamBossInvite" RelativePosition="0.375,0.5" LuaDoneFunctionName="onFriend" Order="-1">
+                    <NormalElement Type="WZUIContainer" GUID="{0659ae9d-5ccd-4345-ac58-bd54e89b0f2d}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{9bac8a40-02d1-4dfe-863e-3a7b8f391fd1}" File="ui/common/common_btn_biaoqian2.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{1cd54619-531f-4c18-ae61-3c9949501ed3}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{23a37f0a-58d6-4423-965e-448a492a7b3e}" File="ui/common/common_btn_biaoqian2.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{f74d99b1-239c-440d-aefc-5181a98f438e}" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="106,52" UseAbsSize="True" GUID="{71757854-04f4-44cc-987a-c1643a988df8}" Name="btnTheme3_WndWorldTeamBossInvite" RelativePosition="0.625,0.5" LuaDoneFunctionName="onGuild" Order="-1">
+                    <NormalElement Type="WZUIContainer" GUID="{25ab913d-f749-42bc-a2e4-1ab432cb7248}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{4e90013d-24f9-4d0c-9b88-b0c6c021380f}" File="ui/common/common_btn_biaoqian2.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{e7780b3f-a8ff-489a-be97-42e3e6255724}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{7d9e4f38-b668-4bae-8c3e-2c2233e4ced7}" File="ui/common/common_btn_biaoqian2.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{33bcca67-c1bb-4dc9-8350-83ec6942da31}" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="106,52" UseAbsSize="True" GUID="{ad2d1540-b40e-46ad-b342-63e2b1097d74}" Name="btnTheme5_WndWorldTeamBossInvite" RelativePosition="0.875,0.5" LuaDoneFunctionName="onAssistInFighting" Order="-1" Visible="True" TouchEnable="True">
+                    <NormalElement Type="WZUIContainer" GUID="{b3ca9e58-1657-4dee-b0f5-aab2706bd729}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{2931d9dd-c8c0-4f41-8343-a23602401339}" File="ui/common/common_btn_biaoqian2.png" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{7a09c63a-388d-487a-8895-c985caf9e551}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{de8251ef-25d2-4cfe-be50-b60087303a0f}" File="ui/common/common_btn_biaoqian2.png" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{475f6431-0c49-4d55-8462-1b7382fa84a0}" />
+                </WZUIButton>
+                <WZUIContainer Type="WZUIContainer" GUID="{301d5895-76f2-4177-9bca-56e109557205}" AbsContentSize="106,52" UseAbsSize="True" RelativePosition="0.125,0.5" Name="conImgTheme_WndWorldTeamBossInvite" Visible="True" AbsPosition="814.275,447.25">
+                    <WZUIImage Type="WZUIImage" GUID="{875dcc7a-abab-4cd7-b769-708a7abe280d}" File="ui/common/common_btn_biaoqian2_sel.png" TouchSwallow="True" isValid="True" Visible="True" RelativePosition="0.5,0.5" AbsPosition="43.988,32" />
+                </WZUIContainer>
+                <WZUIContainer GUID="{153036a8-45c7-4319-8a79-9541d59a072f}" TouchEnable="False" Type="WZUIContainer" RelativeSize="1,1" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5" AbsContentSize="460,52" UseAbsSize="True" Order="2">
+                    <WZUIContainer AbsContentSize="106,52" AnchorPoint="0.5,0.5" GUID="{7e3a27c9-c4a0-4d2f-b379-a9d2b49dea17}" Name="conCheck3_WndWorldTeamBossInvite" RelativePosition="0.625,0.5" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" AbsPosition="55,218">
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" FontSize="24" GUID="{4367cf64-882a-45bc-8145-40f1ce538b88}" Name="txtCheck3_WndWorldTeamBossInvite" StrokeColor="128,54,13" StrokeSize="4" Type="WZUILabelTTF" Text="" />
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="106,52" AnchorPoint="0.5,0.5" GUID="{21ca5105-4422-43d8-a5c8-ba6dcb7a0a0a}" Name="conCheck1_WndWorldTeamBossInvite" RelativePosition="0.125,0.5" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True">
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" FontSize="24" GUID="{11ba4f76-eba3-4e33-ac04-2b3e88c2297c}" Name="txtCheck1_WndWorldTeamBossInvite" StrokeColor="105,65,46" StrokeSize="4" Type="WZUILabelTTF" Text="" />
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="106,52" AnchorPoint="0.5,0.5" GUID="{61a69b0e-d477-4e62-9d14-e6984163cfc5}" Name="conCheck2_WndWorldTeamBossInvite" RelativePosition="0.375,0.5" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True">
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" FontSize="24" GUID="{85c4e40b-e07e-4d2f-9144-b680cd01b084}" Name="txtCheck2_WndWorldTeamBossInvite" StrokeColor="105,65,46" StrokeSize="4" Type="WZUILabelTTF" Text="" />
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="106,52" AnchorPoint="0.5,0.5" GUID="{464ac4b1-fb5f-4b43-a28f-166da1f31a92}" Name="conCheck5_WndWorldTeamBossInvite" RelativePosition="0.875,0.5" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" Visible="True">
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" FontSize="24" GUID="{ff780324-49d4-4058-9906-94eaee98b0c4}" Name="txtCheck5_WndWorldTeamBossInvite" StrokeColor="105,65,46" StrokeSize="4" Type="WZUILabelTTF" Text="助战" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndWorldTeamBossInvite>

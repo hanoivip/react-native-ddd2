@@ -1,0 +1,55 @@
+﻿<CellMagicStoneTask GUID="{f2c2b17e-50e6-481d-8ace-2dda26988969}">
+    <WZUIContainer Type="WZUIContainer" GUID="{85c2e7ea-5ba4-46c5-ba52-2ead4775eca3}" AbsContentSize="724,114" UseAbsSize="True" LuaObjectName="" Name="CellMagicStoneTask" NameCreate="True" RelativePosition="0.5,0.5" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{57420e2f-105e-4a0f-81a2-0e7d32284dcf}" AbsContentSize="724,114" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="False" Visible="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{050d22bb-9f80-4962-b8a6-c34f2618a1a4}" RelativePosition="0.5,0.5">
+                <WZUI9Image Type="WZUI9Image" GUID="{1381dbd4-e7e5-4e56-9c3c-d717e30b4b6a}" File="ui/common/common_scale9_di18_2.png" />
+                <WZUIImage Type="WZUIImage" GUID="{27345809-088d-40a4-bdf6-8cfb39810a46}" File="ui/common/common_pic_diwen7.png" UseOriginSize="True" RelativePosition="1,0.5" AnchorPoint="1,0.5" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{499aa988-62ef-4d42-9769-e4b463216ae4}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.080873,0.495556" NameCreate="True" Name="conItemIcon_CellMagicStoneTask" Visible="True">
+                <WZUIImage Type="WZUIImage" GUID="{234a246f-41bb-49c7-8516-a075a47891eb}" File="ui/common/common_scale9_beibaodi2.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{05b70c3b-3d1f-44fc-a269-be09cdac84a8}" Name="TaskDescContainer_CellMagicStoneTask">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{ca4636f1-4926-4291-b4f0-0ea2a85db255}" Text="等级提升" FontSize="20" Color="79,60,48" RelativePosition="0.16,0.7" Name="txtTaskTitle_CellMagicStoneTask" EnableStroke="False" StrokeColor="" StrokeSize="" Font="" Alignment="Left" AnchorPoint="0,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{bbf51cae-c4ac-4eed-9606-c9d181a6e4d7}" Text="但很快就撒谎" FontSize="20" Color="128,54,13" RelativePosition="0.16,0.485" Name="txtTaskAchieTime_CellMagicStoneTask" EnableStroke="False" StrokeColor="" StrokeSize="" Font="" Alignment="Left" AnchorPoint="0,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0a70f031-53ea-4b70-90aa-9e267a03abeb}" Text="和电费卡回复杜蕾斯卡行房贷地方" FontSize="20" Color="128,54,13" RelativePosition="0.16,0.35" Alignment="Left" AnchorPoint="0,1" Name="txtTaskDesc_CellMagicStoneTask" Font="" EnableStroke="False" StrokeColor="" StrokeSize="" Dimensions="450,0" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{d7ece9c4-4c67-4d30-b056-6f1a7ac40f1c}" AbsContentSize="160,120" UseAbsSize="True" RelativePosition="0.882587,0.490701">
+                <WZUIContainer Type="WZUIContainer" GUID="{df02727a-fa0a-4c6f-ac7a-da7d07332e05}" AbsContentSize="120,60" UseAbsSize="True" Visible="False" Name="conBtnTaskState_CellMagicStoneTask" RelativePosition="0.5,0.35">
+                    <Button Type="WZUIButton" GUID="{ffe2c1c0-0fa7-41d4-b6a5-75623adf4531}" Name="btnCommit_CellMagicStoneTask" Visible="True" LuaDoneFunctionName="onCommitEvent" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal" LocalInterval="400">
+                        <NormalElement Type="WZUIContainer" GUID="{a740023b-642a-47e5-b6ba-1201f7b136d7}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{3548e104-0c12-4b5e-8cb3-e5b0d0b5d565}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" Scale="1" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{2632f159-5270-4942-b65c-2c9e8e9c1c8a}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtCommit_1_CellMagicStoneTask" EnableStroke="True" StrokeColor="34,138,14" StrokeSize="4" Font="" LabelStyleKey="SMALL_GREEN_BTN" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{ec251c7d-9450-4c07-9700-1c224c7ee6f1}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{08011e12-0006-483d-a9af-137f52f3df81}" File="ui/common/common_btn_anniu10_0_sel.png" Scale="1" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{32b6f0dd-ca34-4fc4-97df-dfa9c4c3c02a}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtCommit_2_CellMagicStoneTask" Font="" EnableStroke="True" StrokeColor="34,138,14" StrokeSize="4" LabelStyleKey="SMALL_GREEN_BTN" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{6c60897c-208d-4c73-9e0a-e8b5075294bc}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a7d0d676-439f-40bd-a612-e340d7a586bd}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" UseOriginSize="True" Scale="1" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{36d3c6c5-5532-46a8-9413-b4b30c75f5cb}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtCommit_3_CellMagicStoneTask" Font="" EnableStroke="True" StrokeColor="34,138,14" StrokeSize="4" LabelStyleKey="SMALL_GRAY_BTN" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{ce784cf0-d6a7-457b-aaaa-7f2ac9afc1e7}" FontSize="22" Text="0/1" Name="txtTaskTarget_CellMagicStoneTask" Color="128,54,13" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="1" RelativePosition="0.5,0.765" />
+                <WZUIContainer Type="WZUIContainer" GUID="{cc17765c-9c4c-4cba-b136-686aeada8af1}" AbsContentSize="120,60" UseAbsSize="True" Visible="True" Name="conUITaskBtn_CellMagicStoneTask" RelativePosition="0.5,0.35">
+                    <Button Type="WZUIButton" GUID="{6cff800f-a8c4-41bc-b1e6-6d600bc52604}" Name="btnUISwitch_CellMagicStoneTask" Visible="True" LuaDoneFunctionName="onCommitEvent" Tag="1" AbsContentSize="120,60" UseAbsSize="True" LuaActionName="Normal" LocalInterval="300">
+                        <NormalElement Type="WZUIContainer" GUID="{a5b660bb-c8c6-4a9b-b840-d9c6788f2929}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{cbd42c2d-40c4-4277-b3a2-ce92d7725878}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" Scale="1" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d701b8e9-9023-4a25-8412-3d6594c9478d}" Color="255,255,255" FontSize="24" NameCreate="True" Text="未完成" Name="txtUISwitch_1_CellMagicStoneTask" EnableStroke="True" StrokeColor="164,73,33" StrokeSize="4" Font="" LabelStyleKey="SMALL_ORANGE_BTN" RelativePosition="0.5,0.5" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{19ede7f8-c475-4f00-8b85-7e003904368f}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{d686e588-a366-44f9-ac5e-2ea3f88b4c53}" File="ui/common/common_btn_anniu3_0_sel.png" Scale="1" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4740f4f7-b635-4c30-8423-03203f021e36}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_2_CellMagicStoneTask" Font="" EnableStroke="True" StrokeColor="164,73,33" StrokeSize="4" LabelStyleKey="SMALL_ORANGE_BTN" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{1fac33fe-d390-45ef-bde4-831981eeac69}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{677c0f7b-e732-40ed-a0ae-0708dd092606}" File="ui/common/common_btn_anniu3_0.png" GrayRender="True" UseOriginSize="True" Scale="1" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{b3b7c008-1817-4be8-8d1c-e2d08cbf76d8}" Color="255,255,255" FontSize="24" NameCreate="True" Text="" Name="txtUISwitch_3_CellMagicStoneTask" Font="" EnableStroke="True" StrokeColor="164,73,33" StrokeSize="4" LabelStyleKey="SMALL_GRAY_BTN" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{aff3e6bf-f526-49a8-bea7-55323d8ce225}" FontSize="26" Text="" Name="txtTaskFinish_CellMagicStoneTask" Color="138,122,106" EnableStroke="False" StrokeColor="158,0,0" StrokeSize="4" RelativePosition="0.5,0.5" Visible="False" />
+                <WZUIImage Type="WZUIImage" GUID="{d5f67f4f-99f6-4c49-b68a-b1ff90e0ab56}" Name="imgTaskFinish_CellMagicStoneTask" File="ui/common/text10_008.png" UseOriginSize="True" Visible="False" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellMagicStoneTask>

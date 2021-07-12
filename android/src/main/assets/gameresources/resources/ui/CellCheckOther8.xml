@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" ?>
+<CellCheckOther8 GUID="{C29FC553-C8DF-49d5-BB59-5C054DD42D20}">
+    <WZUIContainer Type="WZUIContainer" GUID="{414B6B99-8126-4d75-8B86-5E56D5CB3E0D}" AbsContentSize="63,70" UseAbsSize="True" Name="CellCheckOther8" LuaObjectName="CellCheckOther8" RelativePosition="0.5,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{142f2aef-3b1e-4652-ab29-afd1fc991c41}" AbsContentSize="63,70" UseAbsSize="True" RelativePosition="0.5,1" Name="conTitle_CellCheckOther8" AnchorPoint="0.5,1">
+            <WZUI9Image Type="WZUI9Image" GUID="{588ff630-7e95-44ba-b4dd-eac420d17a9a}" File="ui/common/common_wanjia_caidanlan.png" />
+            <WZUILabelTTF Alignment="Left" AnchorPoint="0.5,0.5" BoldFont="True" Color="233,166,62" FontSize="22" GUID="{7f04a120-a2a6-4de6-a099-565fdf721ca3}" Name="txtTitle_CellCheckOther8" RelativePosition="0.35,0.5" Text="卡牌" Type="WZUILabelTTF" EnableStroke="False" StrokeSize="3" StrokeColor="87,47,21" Order="0" Dimensions="30,0" />
+        </WZUIContainer>
+    </WZUIContainer>
+</CellCheckOther8>

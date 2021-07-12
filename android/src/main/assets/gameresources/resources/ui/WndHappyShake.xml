@@ -1,0 +1,252 @@
+﻿<WndHappyShake GUID="{0d0e00db-f415-4e78-a813-82591d923f11}">
+    <WZUIContainer Type="WZUIContainer" GUID="{726278a6-5bbb-4aaf-b96b-3525f541c083}" LuaObjectName="WndHappyShake" Name="WndHappyShake" NameCreate="True" AbsContentSize="960,490" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{4d9dba15-ca3e-4b7f-80c0-92660a32ec0b}" Name="" AbsContentSize="960,490" UseAbsSize="True" LuaObjectName="" Visible="True">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{589d44ed-8c55-4afd-bb27-2557647f36e4}" Text="" LabelStyleKey="C1_F22_S4_C13" Name="txtTimeWords_WndHappyShake" AnchorPoint="0,0.5" RelativePosition="0.13,0.965">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4b078a3d-568b-4e1a-b25c-80728d750c5e}" Text="" LabelStyleKey="" Name="txtTimeValue_WndHappyShake" AnchorPoint="0,0.5" RelativePosition="1,0.5" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" NoBorder="False" />
+            </WZUILabelTTF>
+            <WZUIContainer AbsContentSize="0,0" GUID="{23eb411e-a760-48d7-b750-0a8ee7f1d714}" RelativePosition="0.5,0.5" Type="WZUIContainer" UseAbsSize="False" ShowAll="False" Name="conAll_WndHappyShake">
+                <WZUIImage Type="WZUIImage" GUID="{6fa441da-a3c7-44a1-a41d-2058959ebf54}" File="ui/gameActivity/huodong_yyl_rw.png" UseOriginSize="True" RelativePosition="0.237514,0.494374" Visible="True" />
+                <WZUIContainer Type="WZUIContainer" GUID="{dad54e24-2d1b-4b5e-b3f9-5f0ed18b674a}" AbsContentSize="618,300" UseAbsSize="True" RelativePosition="0.572,0.60846">
+                    <WZUIContainer Type="WZUIContainer" GUID="{c1320edf-3337-48d2-b754-c5947369ca7d}" AbsContentSize="618,300" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="True">
+                        <WZUIImage Type="WZUIImage" GUID="{bdb6fbab-020d-4dc6-99f8-53c529c9fb1c}" File="ui/gameActivity/huodong_yyl_di_1.png" UseOriginSize="True" Visible="True" RelativePosition="0.5,0.5" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{053be882-cdc2-4cf7-9b96-c371a5e6b161}" AbsContentSize="540,230" UseAbsSize="True" RelativePosition="0.5,0.5633" TouchEnable="False">
+                            <WZUIMoveContainer Type="WZUIMoveContainer" GUID="{8636c524-dd4a-4a07-baed-e42063a2999e}">
+                                <MoveElement Type="WZUIContainer" GUID="{0b1e3bb2-e634-40a6-b556-c59114b5c73f}">
+                                    <WZUIContainer Type="WZUIContainer" GUID="{2d37d3dd-d9b0-4b27-9d4f-05a6b1987440}" AbsContentSize="100,1340" UseAbsSize="True" RelativePosition="0.138889,2.85216" AnchorPoint="0.5,1" AbsPosition="75,708" Name="conList1_WndHappyShake" UseAbsCoordinate="True">
+                                        <WZUIImage Type="WZUIImage" GUID="{44156912-ac95-4814-85ce-f8e8a4c9560b}" File="ui/gameActivity/pukepai/pkp_2_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" UseOriginSize="True" />
+                                        <WZUIImage Type="WZUIImage" GUID="{d2979117-3d44-413e-adc4-01d8653af495}" File="ui/gameActivity/pukepai/pkp_3_1.png" UseOriginSizeProportion="True" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.9" UseOriginSize="True" Name="imgPoker1_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{ae56450b-f8f2-4ddc-a8b1-c4160a35faee}" File="ui/gameActivity/pukepai/pkp_4_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.8" UseOriginSize="True" Name="imgPoker2_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{a9c22292-45cf-4122-a380-4e8696b9de6a}" File="ui/gameActivity/pukepai/pkp_5_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.7" UseOriginSize="True" Name="imgPoker3_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{a1989abb-6ace-4439-b266-07f151ed351d}" File="ui/gameActivity/pukepai/pkp_6_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.6" UseOriginSize="True" Name="imgPoker4_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{8e02a87b-fef1-42ac-ae45-a2f8065c8955}" File="ui/gameActivity/pukepai/pkp_7_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.5" UseOriginSize="True" Name="imgPoker5_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{5325d474-bb68-446d-936f-50b7e1693a7a}" File="ui/gameActivity/pukepai/pkp_8_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.4" UseOriginSize="True" Name="imgPoker6_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{d80efe7d-db35-4c65-a734-cbe0cb6e285e}" File="ui/gameActivity/pukepai/pkp_9_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.3" UseOriginSize="True" Name="imgPoker7_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{6fe63000-560a-43f5-8ecb-1e76e123dd46}" File="ui/gameActivity/pukepai/pkp_10_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.2" UseOriginSize="True" Name="imgPoker8_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{3e46b0d1-f49e-4e68-b724-18f1258a2433}" File="ui/gameActivity/pukepai/pkp_1_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.1" UseOriginSize="True" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{48b113f7-e5e9-442b-85e8-1f855558c3a7}" AbsContentSize="100,1340" UseAbsSize="True" RelativePosition="0.314815,3.08" AnchorPoint="0.5,1" AbsPosition="75,708" Name="conList2_WndHappyShake" UseAbsCoordinate="False">
+                                        <WZUIImage Type="WZUIImage" GUID="{49dd9880-d661-4e3d-98c0-d876f8527038}" File="ui/gameActivity/pukepai/pkp_2_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" UseOriginSize="True" />
+                                        <WZUIImage Type="WZUIImage" GUID="{54ad439f-f971-42ab-ad79-6949678612a1}" File="ui/gameActivity/pukepai/pkp_3_3.png" UseOriginSizeProportion="True" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.9" UseOriginSize="True" Name="imgPoker1_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{22022df0-fa25-45bb-9363-4ad6b8b48a9d}" File="ui/gameActivity/pukepai/pkp_1_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.8" UseOriginSize="True" Name="imgPoker2_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{301bfed5-27f0-486a-bc91-e369673be39c}" File="ui/gameActivity/pukepai/pkp_10_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.7" UseOriginSize="True" Name="imgPoker3_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{4f1ccf3f-36b0-4145-802e-992be344f596}" File="ui/gameActivity/pukepai/pkp_10_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.6" UseOriginSize="True" Name="imgPoker4_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{65a2bed2-0dfa-43c3-a1ff-447ac82e798b}" File="ui/gameActivity/pukepai/pkp_13_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.5" UseOriginSize="True" Name="imgPoker5_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{1d9e56b9-3e49-40a3-a461-804a30d3568b}" File="ui/gameActivity/pukepai/pkp_12_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.4" UseOriginSize="True" Name="imgPoker6_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{562f912d-3630-436e-8779-be8b3edde2de}" File="ui/gameActivity/pukepai/pkp_13_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.3" UseOriginSize="True" Name="imgPoker7_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{b94dfe7c-8dfb-4ee3-a6a2-83a3a1b11dba}" File="ui/gameActivity/pukepai/pkp_8_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.2" UseOriginSize="True" Name="imgPoker8_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{b1f8dda4-7834-458e-a7a9-04b462544bca}" File="ui/gameActivity/pukepai/pkp_5_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.1" UseOriginSize="True" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{bab3f2bc-529d-4ee4-86ef-d15deafdfdff}" AbsContentSize="100,1340" UseAbsSize="True" RelativePosition="0.492593,3.08" AnchorPoint="0.5,1" AbsPosition="" Name="conList3_WndHappyShake">
+                                        <WZUIImage Type="WZUIImage" GUID="{f193afed-eb71-4a99-9310-9462571bdc2e}" File="ui/gameActivity/pukepai/pkp_7_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" UseOriginSize="True" />
+                                        <WZUIImage Type="WZUIImage" GUID="{da83d0c1-4b36-4c3e-93ca-e1d8a045d6d9}" File="ui/gameActivity/pukepai/pkp_6_3.png" UseOriginSizeProportion="True" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.9" UseOriginSize="True" Name="imgPoker1_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{481293fa-bd06-461b-84e0-f2370a8fe472}" File="ui/gameActivity/pukepai/pkp_9_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.8" UseOriginSize="True" Name="imgPoker2_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{decf7fd5-e6a1-49f4-9f4d-9ca7e2f8eea1}" File="ui/gameActivity/pukepai/pkp_8_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.7" UseOriginSize="True" Name="imgPoker3_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{739c06c9-8bd2-4e90-9d6b-d7a94b2ed901}" File="ui/gameActivity/pukepai/pkp_7_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.6" UseOriginSize="True" Name="imgPoker4_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{d873d46e-e9f2-406d-8766-7a1515e0544d}" File="ui/gameActivity/pukepai/pkp_10_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.5" UseOriginSize="True" Name="imgPoker5_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{2ea3940e-5a51-4554-b4e5-3745a1903564}" File="ui/gameActivity/pukepai/pkp_12_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.4" UseOriginSize="True" Name="imgPoker6_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{bdff4694-9b6b-43d4-baea-1504f3d664b0}" File="ui/gameActivity/pukepai/pkp_11_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.3" UseOriginSize="True" Name="imgPoker7_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{51817c4f-b4ad-4f33-b4d9-77fff87a4294}" File="ui/gameActivity/pukepai/pkp_2_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.2" UseOriginSize="True" Name="imgPoker8_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{72bb607e-2990-41db-9aa8-f555aacef685}" File="ui/gameActivity/pukepai/pkp_4_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.1" UseOriginSize="True" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{880fe7c0-3601-438c-9031-10fc7c98b168}" AbsContentSize="100,1340" UseAbsSize="True" RelativePosition="0.67037,3.08" AnchorPoint="0.5,1" AbsPosition="" Name="conList4_WndHappyShake">
+                                        <WZUIImage Type="WZUIImage" GUID="{2d9996f9-3168-44fb-85eb-b28288afa186}" File="ui/gameActivity/pukepai/pkp_13_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" UseOriginSize="True" />
+                                        <WZUIImage Type="WZUIImage" GUID="{ccd3e767-0b6b-46cf-b43b-52798d4db174}" File="ui/gameActivity/pukepai/pkp_1_3.png" UseOriginSizeProportion="True" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.9" UseOriginSize="True" Name="imgPoker1_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{dfb20c4c-e18f-487b-9d68-53763d2191aa}" File="ui/gameActivity/pukepai/pkp_6_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.8" UseOriginSize="True" Name="imgPoker2_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{c54b8204-e9d6-4624-a039-b4d93cdc5043}" File="ui/gameActivity/pukepai/pkp_4_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.7" UseOriginSize="True" Name="imgPoker3_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{c226d09f-4b8d-4489-8966-aa06e1969e4f}" File="ui/gameActivity/pukepai/pkp_2_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.6" UseOriginSize="True" Name="imgPoker4_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{7925c9a9-e4d8-45b7-83c8-99c1853e0edc}" File="ui/gameActivity/pukepai/pkp_5_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.5" UseOriginSize="True" Name="imgPoker5_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{9586a6a5-18b4-41bb-924d-d14879e84704}" File="ui/gameActivity/pukepai/pkp_10_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.4" UseOriginSize="True" Name="imgPoker6_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{76055c81-2733-4725-b120-8ab9f57995ac}" File="ui/gameActivity/pukepai/pkp_10_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.3" UseOriginSize="True" Name="imgPoker7_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{6b3a5fef-dbb8-4c8d-8277-150c17ff9051}" File="ui/gameActivity/pukepai/pkp_9_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.2" UseOriginSize="True" Name="imgPoker8_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{872018bc-9134-4b1a-875f-b2d2822a6a19}" File="ui/gameActivity/pukepai/pkp_2_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.1" UseOriginSize="True" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{9d50de6e-e935-4735-b3f7-745424fb4fb2}" AbsContentSize="100,1340" UseAbsSize="True" RelativePosition="0.848148,3.08" AnchorPoint="0.5,1" AbsPosition="" Name="conList5_WndHappyShake">
+                                        <WZUIImage Type="WZUIImage" GUID="{02315d1f-6688-4a4f-badd-e1ea552a84a1}" File="ui/gameActivity/pukepai/pkp_7_1.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" UseOriginSize="True" />
+                                        <WZUIImage Type="WZUIImage" GUID="{78df4581-e61c-497a-a469-b1de03d3964f}" File="ui/gameActivity/pukepai/pkp_10_3.png" UseOriginSizeProportion="True" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.9" UseOriginSize="True" Name="imgPoker1_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{eab6f383-ad7d-4d1d-a1d6-384038d4f18f}" File="ui/gameActivity/pukepai/pkp_4_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.8" UseOriginSize="True" Name="imgPoker2_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{722e6f3d-d615-468b-8437-9d3750f02962}" File="ui/gameActivity/pukepai/pkp_5_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.7" UseOriginSize="True" Name="imgPoker3_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{283bf961-ab70-4148-9c23-2af8b2e581d3}" File="ui/gameActivity/pukepai/pkp_5_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.6" UseOriginSize="True" Name="imgPoker4_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{94d518fa-11cd-4c72-86ec-7ff93515ca31}" File="ui/gameActivity/pukepai/pkp_6_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.5" UseOriginSize="True" Name="imgPoker5_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{659cd287-fde8-4477-8cb5-e0907262cc9b}" File="ui/gameActivity/pukepai/pkp_10_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.4" UseOriginSize="True" Name="imgPoker6_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{7ce514d5-7142-4a52-b89a-2a126b367fa7}" File="ui/gameActivity/pukepai/pkp_3_3.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.3" UseOriginSize="True" Name="imgPoker7_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{5d939c2a-e7ce-4134-b8bf-839af8210a0b}" File="ui/gameActivity/pukepai/pkp_3_2.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.2" UseOriginSize="True" Name="imgPoker8_WndHappyShake" />
+                                        <WZUIImage Type="WZUIImage" GUID="{749ca8dd-a44a-4192-ada2-7ccd3694ccc8}" File="ui/gameActivity/pukepai/pkp_9_4.png" UseOriginSizeProportion="False" Visible="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.1" UseOriginSize="True" />
+                                    </WZUIContainer>
+                                </MoveElement>
+                            </WZUIMoveContainer>
+                        </WZUIContainer>
+                        <WZUIImage Type="WZUIImage" GUID="{8b0f9866-6fbc-4067-b3d0-f0442725f305}" File="ui/gameActivity/huodong_yyl_di_2.png" UseOriginSize="True" RelativePosition="0.5,0.563333" Visible="True" ScaleY="1.024" />
+                        <WZUIImage Type="WZUIImage" GUID="{c1cb0fb0-d2e2-4341-b9f1-af3146f7427c}" File="ui/gameActivity/huodong_yyl_di_3.png" UseOriginSize="True" RelativePosition="0.5,0.563333" Visible="True" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{373d2ec7-d76a-42b1-89d2-d12de4529b74}" AbsContentSize="92,42" UseAbsSize="True" RelativePosition="0.183,0.795" Name="conRefresh1_WndHappyShake" Visible="False">
+                            <Button Type="WZUIButton" GUID="{5bf83c4c-6f13-4c85-850e-5ceec62a7d7c}" LuaDoneFunctionName="onClickRefresh" Tag="1" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{b7c9527c-0f2b-4114-ab87-ef314ec054b0}">
+                                    <WZUIImage Type="WZUIImage" GUID="{0a51eb7a-9fc6-4ce9-8f8a-ab63524ccd3b}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{027d12c3-09f3-4187-978a-fb62014d171e}">
+                                    <WZUIImage Type="WZUIImage" GUID="{cb06229c-52d6-4942-91fa-3b13c42f0c5f}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{710fe7a0-58fc-4dd5-834d-b70ae9cb88b7}" />
+                            </Button>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e1d8b7ca-9bd5-4555-96aa-d2f2f5cf0f35}" LabelStyleKey="C1_F18_S4_C2" RelativePosition="0.119565,0.5" AnchorPoint="0,0.5" Name="txtStatus_WndHappyShake" Visible="False" TouchEnable="False" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" TextKey="PETFREE2" />
+                            <WZUIImage Type="WZUIImage" GUID="{6a89ddee-c8ef-4772-812e-aff5ab00ed2c}" File="ui/practice/common_icon_xbxuanzhuan.png" UseOriginSize="True" RelativePosition="0.760869,0.5" TouchEnable="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{798ba289-266a-4d2c-810b-d20f9d3665ac}" File="shopitems/lizuan.png" UseOriginSize="True" Scale="0.5" ScaleX="0.5" ScaleY="0.5" RelativePosition="0.228261,0.5" Name="imgLizhuan_WndHappyShake" TouchEnable="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{590cb089-51a5-45e5-99f8-9ff1e0ad6a06}" LabelStyleKey="C1_F18_S4_C2" Text="" RelativePosition="0.391304,0.5" AnchorPoint="0,0.5" Name="txtCostCount_WndHappyShake" TouchEnable="False" Color="255,236,193" EnableStroke="True" FontSize="18" StrokeColor="128,54,13" StrokeSize="4" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{7692149b-b75c-4267-9faf-0302d5713f0e}" AbsContentSize="92,42" UseAbsSize="True" RelativePosition="0.337597,0.795" Name="conRefresh2_WndHappyShake" Visible="False">
+                            <Button Type="WZUIButton" GUID="{7deaa70b-0b95-466c-8761-7341120048c7}" LuaDoneFunctionName="onClickRefresh" Tag="2" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{0cef42fd-5dbd-4e72-9ffe-431bf618e048}">
+                                    <WZUIImage Type="WZUIImage" GUID="{ee76b006-83fa-4900-b5af-4da870cf16c9}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{88c92041-ac6e-4e7e-a86f-e38dc2d2988e}">
+                                    <WZUIImage Type="WZUIImage" GUID="{73f5a3cd-e1fd-4e53-a6f7-e182a984b8e9}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{8c686390-437e-4628-832a-a1e0f1bfcaff}" />
+                            </Button>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{60d3840c-f9c4-4a75-a28e-9c5960348cae}" LabelStyleKey="C1_F18_S4_C2" RelativePosition="0.119565,0.5" AnchorPoint="0,0.5" Name="txtStatus_WndHappyShake" Visible="False" TouchEnable="False" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" FontSize="18" TextKey="PETFREE2" />
+                            <WZUIImage Type="WZUIImage" GUID="{2aa0fb72-3030-46e8-adc2-dab0e8b1f5c1}" File="ui/practice/common_icon_xbxuanzhuan.png" UseOriginSize="True" RelativePosition="0.760869,0.5" TouchEnable="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{1d0e1fe5-7c79-42af-b2de-2f893833eaf9}" File="shopitems/lizuan.png" UseOriginSize="True" Scale="0.5" ScaleX="0.5" ScaleY="0.5" RelativePosition="0.228261,0.5" Name="imgLizhuan_WndHappyShake" TouchEnable="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ecf6bf83-d335-4726-b8c2-7123fcb0d0f5}" LabelStyleKey="C1_F18_S4_C2" Text="10" RelativePosition="0.391304,0.5" AnchorPoint="0,0.5" Name="txtCostCount_WndHappyShake" TouchEnable="False" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" FontSize="18" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{9fad0afd-aeda-4c2c-a059-27542c43a07c}" AbsContentSize="92,42" UseAbsSize="True" RelativePosition="0.492743,0.795" Name="conRefresh3_WndHappyShake" Visible="False">
+                            <Button Type="WZUIButton" GUID="{f29ee2ed-c895-4a17-881e-96218da23635}" LuaDoneFunctionName="onClickRefresh" Tag="3" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{67853fd7-05e1-49da-b477-2d54f69328b6}">
+                                    <WZUIImage Type="WZUIImage" GUID="{f870054f-c6b9-4c2a-9615-bbd810a4252e}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{499b479d-4564-4457-b6aa-363a95d57446}">
+                                    <WZUIImage Type="WZUIImage" GUID="{03a8ade0-752d-40bd-9df4-24f194ced648}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{1d99bb78-609f-4f7e-b3b0-db3a466844e4}" />
+                            </Button>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{9ca25444-51f3-4e48-b6e9-19ab99e017ce}" LabelStyleKey="C1_F18_S4_C2" RelativePosition="0.119565,0.5" AnchorPoint="0,0.5" Name="txtStatus_WndHappyShake" Visible="False" TouchEnable="False" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" FontSize="18" TextKey="PETFREE2" />
+                            <WZUIImage Type="WZUIImage" GUID="{0f9f503d-5a53-4732-ad65-4527220045a7}" File="ui/practice/common_icon_xbxuanzhuan.png" UseOriginSize="True" RelativePosition="0.760869,0.5" TouchEnable="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{b39bbf01-dd2a-4d52-a2f9-09d8e87cf283}" File="shopitems/lizuan.png" UseOriginSize="True" Scale="0.5" ScaleX="0.5" ScaleY="0.5" RelativePosition="0.228261,0.5" Name="imgLizhuan_WndHappyShake" TouchEnable="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{f306d671-ed30-4f47-a771-b9ff3510adf7}" LabelStyleKey="C1_F18_S4_C2" Text="10" RelativePosition="0.391304,0.5" AnchorPoint="0,0.5" Name="txtCostCount_WndHappyShake" TouchEnable="False" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{b1675689-8902-44d7-8d86-f6fa6096d056}" AbsContentSize="92,42" UseAbsSize="True" RelativePosition="0.647841,0.795" Name="conRefresh4_WndHappyShake" Visible="False">
+                            <Button Type="WZUIButton" GUID="{fafd2c22-3dae-4564-990f-39ff9ec279e5}" LuaDoneFunctionName="onClickRefresh" Tag="4" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{043b04d5-8b4a-469f-8c52-df512c295f66}">
+                                    <WZUIImage Type="WZUIImage" GUID="{69c1963e-fe61-4b40-a7d5-b2919f6df65e}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{c621a900-95ab-45b6-abb3-9ec27e3aaadd}">
+                                    <WZUIImage Type="WZUIImage" GUID="{720b7e33-952f-45e8-be1a-cb52045a23ab}" File="ui/common/common_btn_anniu3.png" UseOriginSize="True" Scale="0.65" ScaleX="0.65" ScaleY="0.65" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{2d59b5a6-51ed-4873-8019-f2d7a31674c8}" />
+                            </Button>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0578d106-357c-40d1-976f-860c0e76b188}" LabelStyleKey="C1_F18_S4_C2" RelativePosition="0.119565,0.5" AnchorPoint="0,0.5" Name="txtStatus_WndHappyShake" Visible="False" TouchEnable="False" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" TextKey="PETFREE2" />
+                            <WZUIImage Type="WZUIImage" GUID="{3e612b25-e082-4650-b551-3e0e436920e0}" File="ui/practice/common_icon_xbxuanzhuan.png" UseOriginSize="True" RelativePosition="0.760869,0.5" TouchEnable="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{f971845d-e849-4c2a-8769-a164b152e1fe}" File="shopitems/lizuan.png" UseOriginSize="True" Scale="0.5" ScaleX="0.5" ScaleY="0.5" RelativePosition="0.228261,0.5" Name="imgLizhuan_WndHappyShake" TouchEnable="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{1ccd214c-61ca-4b13-958e-53e5d7bf943d}" LabelStyleKey="C1_F18_S4_C2" Text="10" RelativePosition="0.391304,0.5" AnchorPoint="0,0.5" Name="txtCostCount_WndHappyShake" Color="255,236,193" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="128,54,13" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{a9e80d8b-d167-42f0-a57a-d9fe54cabdd5}" AbsContentSize="92,42" UseAbsSize="True" RelativePosition="0.802938,0.795" Name="conRefresh5_WndHappyShake" Visible="False">
+                            <Button Type="WZUIButton" GUID="{06ed8073-99af-46ac-942b-ab77f17ee2e1}" LuaDoneFunctionName="onClickRefresh" Tag="5" LuaActionName="Normal">
+                                <NormalElement Type="WZUIContainer" GUID="{18fde390-9e91-4747-95bd-99f9e98fde0e}">
+                                    <WZUIImage Type="WZUIImage" GUID="{5ee0db8f-54f5-4170-b4c5-4b5d73471800}" File="ui/common/common_btn_anniu3.png" Scale="0.65" ScaleX="0.65" ScaleY="0.65" UseOriginSize="True" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{953615da-1f16-42f6-801a-4c77c8b09b82}">
+                                    <WZUIImage Type="WZUIImage" GUID="{e8d6f2ff-a5a8-440d-8283-740fae0826c2}" File="ui/common/common_btn_anniu3.png" Scale="0.65" ScaleX="0.65" ScaleY="0.65" UseOriginSize="True" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{0abbdec6-2d30-46bd-8723-aeb4cb74b6a7}" />
+                            </Button>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bbb1fec5-daba-450f-beb3-ef919ea1ee6f}" LabelStyleKey="C1_F18_S4_C2" RelativePosition="0.119565,0.5" AnchorPoint="0,0.5" Name="txtStatus_WndHappyShake" Visible="False" TouchEnable="False" Color="255,236,193" EnableStroke="True" FontSize="18" StrokeColor="128,54,13" StrokeSize="4" TextKey="PETFREE2" />
+                            <WZUIImage Type="WZUIImage" GUID="{605c3724-3c30-4ca7-921e-be2fcb088b62}" File="ui/practice/common_icon_xbxuanzhuan.png" UseOriginSize="True" RelativePosition="0.760869,0.5" TouchEnable="False" />
+                            <WZUIImage Type="WZUIImage" GUID="{307f299c-40ae-4919-93bf-f0be8633772e}" File="shopitems/lizuan.png" UseOriginSize="True" Scale="0.5" ScaleX="0.5" ScaleY="0.5" RelativePosition="0.228261,0.5" Name="imgLizhuan_WndHappyShake" TouchEnable="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c166b4d7-b7fa-4731-ad8f-cfe061bba083}" LabelStyleKey="C1_F18_S4_C2" Text="10" RelativePosition="0.391304,0.5" AnchorPoint="0,0.5" Name="txtCostCount_WndHappyShake" TouchEnable="False" Color="255,236,193" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="128,54,13" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{180f569d-1350-4a02-b4a3-b974245cd067}" AbsContentSize="160,40" UseAbsSize="True" RelativePosition="0.910083,0.28244" Visible="False">
+                        <Button Type="WZUIButton" GUID="{82870b14-3a08-4890-b5de-509352576150}" AbsContentSize="35,35" UseAbsSize="True" LocalInterval="0" RelativePosition="0.14375,0.5" LuaDoneFunctionName="onClickQuick">
+                            <NormalElement Type="WZUIContainer" GUID="{3c113bb4-633e-4920-9cd4-0d08c8d380fa}">
+                                <WZUIImage Type="WZUIImage" GUID="{dd9a6ad7-7972-4560-a652-16698dbaa343}" File="ui/common/common_scale9_di13.png" Name="imgBtn1_CellPetChoiceList" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{ec2536c1-d315-4b19-9b7b-159ec1f4c82a}">
+                                <WZUIImage Type="WZUIImage" GUID="{da252292-ca2e-48cc-84e4-b536232241ca}" File="ui/common/common_scale9_di13.png" Name="imgBtn1_CellPetChoiceList" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{b5434ea7-943d-44d6-b5fd-def739fe914e}" />
+                        </Button>
+                        <WZUIContainer Type="WZUIContainer" GUID="{941b5716-3f78-452a-bc04-b398281817a2}" AbsContentSize="35,35" UseAbsSize="True" RelativePosition="0.14375,0.5" TouchEnable="False" Name="conGou_WndHappyShake" Visible="False">
+                            <WZUIImage Type="WZUIImage" GUID="{8fc4f3c6-d283-4536-a753-6fed78964ea6}" File="ui/common/common_scale9_beibaodi_sel.png" Scale="1.02" />
+                            <WZUIImage Type="WZUIImage" GUID="{6d7c0659-fda7-464d-b406-63822c0cb038}" File="ui/common/common_icon_gou.png" Visible="True" UseOriginSize="True" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9fcf12f1-3114-4231-b11c-2a6579bd2050}" Text="" FontSize="24" Color="79,60,48" AnchorPoint="0,0.5" RelativePosition="-0.50625,0.5" TextKey="PRACTICE_QUICK" LabelStyleKey="C11_F20" />
+                    </WZUIContainer>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d096682e-de15-4c73-a192-35e8443c26f4}" AnchorPoint="0,0.5" TextKey="FOURYEAR_TEXT7" RelativePosition="0.04,0.1" Text="摇摇乐牌型" LabelStyleKey="C1_F18_S4_C2">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3f8f6432-7112-4d93-a4e0-b446ddc509cd}" AnchorPoint="0,0.5" TextKey="" RelativePosition="1,0.5" Text="" LabelStyleKey="" FontSize="18" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" Name="txtPokerType_WndHappyShake" />
+                    </WZUILabelTTF>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{e8c0fe90-5de0-46ca-afb8-8a64462cb6e0}" AnchorPoint="1,0.5" TextKey="" RelativePosition="0.96,0.1" Text="" LabelStyleKey="" Name="txtActualTimes_WndHappyShake" FontSize="18" Color="99,255,95" EnableStroke="True" StrokeColor="128,54,13" StrokeSize="4">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2c976c39-eeda-416c-8df8-0bb90b72fe9b}" AnchorPoint="1,0.5" TextKey="FOURYEAR_TEXT9" RelativePosition="0,0.5" Text="" LabelStyleKey="" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" Name="" />
+                    </WZUILabelTTF>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{2beabcc4-5c3c-4b1e-b613-acf174290f0c}" AbsContentSize="618,120" UseAbsSize="True" RelativePosition="0.572,0.155601">
+                    <WZUI9Image Type="WZUI9Image" GUID="{5238f195-7911-4e12-9dfd-1607184a6eaf}" File="ui/gameActivity/common_hd_dikuang.png" />
+                    <WZUIImage Type="WZUIImage" GUID="{55378521-70d5-4448-9b7c-f02f8863fbce}" File="ui/gameActivity/common_hd_biaoti.png" UseOriginSize="True" AnchorPoint="0,1" RelativePosition="0.00485437,0.983333" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4ac2f06a-857e-4829-9e82-ff444cf1073c}" Text="活动时间" LabelStyleKey="C1_F20_S4_C13" Name="txtTips_WndHappyShake" AnchorPoint="0,0.5" RelativePosition="0.03,0.85" TextKey="FOURYEAR_TEXT8" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{ed5351fb-8d44-4bb8-b83b-9ca048fa2213}" AbsContentSize="180,30" UseAbsSize="True" RelativePosition="0.459582,0.863588">
+                        <WZUI9Image Type="WZUI9Image" GUID="{8620d9fd-f491-42e5-8b8b-b9be17d92b07}" File="ui/common/common_scale9_di8.png" Opacity="180" />
+                        <WZUICheckBoxGroup Type="WZUICheckBoxGroup" GUID="{ff3904fb-9f58-4da5-b5e6-5218f5de0d3a}" Name="checkgroupMul_WndHappyShake">
+                            <CheckBox Type="WZUICheckBox" GUID="{879a1f0d-0f10-43ae-b20e-6222147d1ea9}" AbsContentSize="60,30" UseAbsSize="True" SelectedIndex="1" RelativePosition="0.161111,0.5" Tag="1" LuaCheckedFunctionName="onCkeckTimes">
+                                <CheckElement Type="WZUIContainer" GUID="{6cfc7323-43cd-472d-ab13-76bc7ce18899}">
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{72d000ae-00ad-4525-a81e-e16623c416c3}" Name="txtCheckNor1_WndHappyShake" Text="" LabelStyleKey="C1_F18_S4_C3" TouchEnable="True" TouchSwallow="True" />
+                                </CheckElement>
+                                <CheckElement Type="WZUIContainer" GUID="{7dedfc48-5ff4-4615-82dc-23df82200243}">
+                                    <WZUIImage Type="WZUIImage" GUID="{b67f54a1-2718-46fb-95dd-e31cb6a03ddc}" File="ui/common/common_btn_hd_xz.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{8ef3d25c-862c-427b-992a-f455d246753d}" Name="txtCheckSel1_WndHappyShake" Text="" LabelStyleKey="C1_F18_S4_C3" />
+                                </CheckElement>
+                            </CheckBox>
+                            <CheckBox Type="WZUICheckBox" GUID="{404aaea4-99f7-4ac6-aa07-7864efe82cfc}" AbsContentSize="60,30" UseAbsSize="True" SelectedIndex="0" Tag="2" LuaCheckedFunctionName="onCkeckTimes">
+                                <CheckElement Type="WZUIContainer" GUID="{b2cc53d5-b3d6-47da-8126-e964268c3e56}">
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0560304-81e7-4e57-a7d8-3947d3f6a7c0}" Name="txtCheckNor2_WndHappyShake" Text="" LabelStyleKey="C1_F18_S4_C3" TouchSwallow="True" />
+                                </CheckElement>
+                                <CheckElement Type="WZUIContainer" GUID="{f218e8cc-cb6a-471c-8dbd-14f2b8f6d322}">
+                                    <WZUIImage Type="WZUIImage" GUID="{0838fc71-d3a5-4f38-add8-1ad6611dd55a}" File="ui/common/common_btn_hd_xz.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{69251be2-67fe-4834-9c08-4873f3e5c53c}" Name="txtCheckSel2_WndHappyShake" Text="" LabelStyleKey="C1_F18_S4_C3" />
+                                </CheckElement>
+                            </CheckBox>
+                            <CheckBox Type="WZUICheckBox" GUID="{1e7f602b-f74b-499c-8d3e-292efd00e5be}" AbsContentSize="60,30" UseAbsSize="True" SelectedIndex="0" RelativePosition="0.844445,0.5" Tag="3" LuaCheckedFunctionName="onCkeckTimes">
+                                <CheckElement Type="WZUIContainer" GUID="{ffe3f714-81cd-4662-8d87-df277299da6d}">
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{82446527-67a9-467d-81ee-859094e70137}" Name="txtCheckNor3_WndHappyShake" Text="" LabelStyleKey="C1_F18_S4_C3" TouchEnable="True" TouchSwallow="True" />
+                                </CheckElement>
+                                <CheckElement Type="WZUIContainer" GUID="{c1ba7625-0811-4094-8f98-e40f3eb471d1}">
+                                    <WZUIImage Type="WZUIImage" GUID="{39363de1-88cd-408f-a1b9-d1486c50606f}" File="ui/common/common_btn_hd_xz.png" UseOriginSize="True" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{405cfc22-115a-4c3f-8f66-9d17d7ab3c24}" Name="txtCheckSel3_WndHappyShake" Text="" LabelStyleKey="C1_F18_S4_C3" />
+                                </CheckElement>
+                            </CheckBox>
+                        </WZUICheckBoxGroup>
+                    </WZUIContainer>
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{1306fad7-6135-4ae1-b363-9a3f0f1cd88c}" IsVerticalMode="False" CellElementHeight="0.19" EnableMoveVertical="False" Name="tableRewardList_WndHappyShake" AbsContentSize="430,80" UseAbsSize="True" RelativePosition="0.371496,0.36817" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{87d12c44-463c-4049-a48a-780a08486d33}" AbsContentSize="136,62" UseAbsSize="True" RelativePosition="0.858333,0.294216" Visible="True" Name="conSure_WndHappyShake" TouchEnable="True">
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{5b1725fe-5991-4190-bf24-d0bef54df815}" Name="ftxtCost_WndHappyShake" MaxWidth="200" ShowText="" RelativePosition="0.5,1.2" />
+                        <Button Type="WZUIButton" GUID="{84333df4-b616-4b8c-8f4b-a67db8eba838}" RelativePosition="0.5,0.483333" LuaDoneFunctionName="onClickSure" TouchEnable="True" Name="btnSure_WndHappyShake" LuaActionName="Normal" LocalInterval="300">
+                            <NormalElement Type="WZUIContainer" GUID="{8aa3305b-224b-4518-911d-9f2eac6cb115}">
+                                <WZUIImage Type="WZUIImage" GUID="{1bb475c5-4561-45b6-9eac-e02147811b9e}" File="ui/common/common_btn_anniu3_1.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{8ef99818-7e41-44d7-9c9e-f9e740f99f42}" LabelStyleKey="NORMAL_ORANGE_BTN" TextKey="CONFIRM" RelativePosition="0.5,0.5" Name="txtBtnSureNor_WndHappyShake" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{414cfd9a-656a-4c7b-b83d-58db4f252f7a}">
+                                <WZUIImage Type="WZUIImage" GUID="{f1bca95e-ce95-4931-984c-1374c90e7ca5}" File="ui/common/common_btn_anniu3_1_sel.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a28ae4b6-9dc4-4a20-9f56-e79d039d1fbf}" LabelStyleKey="NORMAL_ORANGE_BTN" TextKey="CONFIRM" RelativePosition="0.5,0.5" Name="txtBtnSureSel_WndHappyShake" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{ca871ac0-d20b-4a6e-b550-5999d6a7830c}">
+                                <WZUIImage Type="WZUIImage" GUID="{c586630d-9e9c-4db4-85f2-59430a9edf63}" File="ui/common/common_btn_anniu3_1.png" UseOriginSize="True" GrayRender="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{80e9e055-9b7e-49f9-bf95-1f039b2bed7e}" LabelStyleKey="NORMAL_GRAY_BTN" TextKey="CONFIRM" RelativePosition="0.5,0.5" Name="txtBtnSureGray_WndHappyShake" />
+                            </DisableElement>
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIButton Type="WZUIButton" AbsContentSize="50,50" UseAbsSize="True" LuaDoneFunctionName="onRuleClick" GUID="{b096c5f0-9e59-4f56-bdac-a17da420a608}" RelativePosition="0.658448,0.865542" AnchorPoint="0.5,0.5" AbsPosition="797.973,21.0118" Name="btnTip_WndHappyShake" Visible="True" Scale="1" LuaActionName="Normal" LocalInterval="300">
+                        <NormalElement Type="WZUIContainer" GUID="{d074331e-4911-4eed-bb4a-e2af99d77c74}" />
+                        <SelectElement Type="WZUIContainer" GUID="{a4caaff1-5cd8-4f5a-bb50-392b9348116a}" />
+                        <DisableElement Type="WZUIContainer" GUID="{32c07e3f-36da-4d37-8811-284db60a75ab}" />
+                        <WZUIImage Type="WZUIImage" GUID="{7ab4f72e-44dd-4163-a2f7-4370037dc9cf}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{15da752c-f528-4808-85ea-ee742235ecd7}" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.864267,0.96898" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickTask">
+                    <NormalElement Type="WZUIContainer" GUID="{f18b7a24-079c-4de0-b7ed-8699914a6f8f}" />
+                    <SelectElement Type="WZUIContainer" GUID="{4e325b85-4141-4a41-9c20-f36cf32758f6}" />
+                    <DisableElement Type="WZUIContainer" GUID="{b4c067e7-a79b-4ddf-b723-b6d743329351}" />
+                    <WZUIImage Type="WZUIImage" GUID="{377d16f2-5541-452d-8b64-e725be5432b6}" File="ui/city/beta/main_icon_di01_2.png" UseOriginSize="True" />
+                    <WZUIImage Type="WZUIImage" GUID="{67877567-91fc-4b30-8448-0ca9a6be2216}" File="ui/city/beta/common_icon_renwu02.png" UseOriginSize="True" />
+                    <WZUIImage Type="WZUIImage" GUID="{a715a2f9-4e08-441e-a2c3-f49038d20ca5}" File="ui/city/beta/commom_icon_wz_renwu_2.png" UseOriginSize="True" RelativePosition="0.5,0.269231" />
+                    <WZUIImage Type="WZUIImage" GUID="{8a32551f-1602-4afb-a663-7d3c08615015}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Visible="False" Scale="0.8" Name="imgRedDot_WndHappyShake" RelativePosition="0.81,0.81" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndHappyShake>

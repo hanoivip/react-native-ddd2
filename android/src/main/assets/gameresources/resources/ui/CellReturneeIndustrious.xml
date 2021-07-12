@@ -1,0 +1,17 @@
+﻿<CellReturneeIndustrious GUID="{85ddc964-b5ca-4c3c-b5c3-508b0d260982}">
+    <WZUIContainer Type="WZUIContainer" GUID="{a1f06351-ccab-4b1c-bae7-0da776a7a898}" Name="CellReturneeIndustrious" AbsContentSize="620,390" UseAbsSize="True" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{2b02d22f-b238-496e-bcca-55f79ec9f2b7}">
+            <WZUIImage Type="WZUIImage" GUID="{ad0e5742-7edd-4446-b611-e625ba0caf1c}" File="ui/gameActivity/returnee/activity_pic_xiarigg_1.png" UseOriginSize="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ba9c5a22-3e37-455a-b344-63bea0281443}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.027,0.93" AnchorPoint="0,0.5" Name="txtTime_CellReturneeIndustrious">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2689f3da-81f4-469b-ba6f-e16d5f38c565}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtTimeValue_CellReturneeIndustrious" />
+            </WZUILabelTTF>
+            <WZUITableContainer Type="WZUITableContainer" GUID="{7228f0e2-e01a-4f93-8c05-3774d27cec4f}" UseAbsSize="True" AbsContentSize="600,296" RelativePosition="0.5,0.5" Name="tconItem_CellReturneeIndustrious" EnableMoveHorizontal="False" CellElementHeight="0.34" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c03c4ded-ab2c-4a5c-ba54-2830b082335b}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.027,0.055" AnchorPoint="0,0.5" Name="txtRefresh_CellReturneeIndustrious">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{33c82a47-6598-4df5-acc7-2d30f9604bee}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtRefreshValue_CellReturneeIndustrious" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d3c8c4d3-9d85-4dde-832d-1c79ef4f2405}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.69,0.055" AnchorPoint="0,0.5" Name="txtIntegral_CellReturneeIndustrious">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{61edff9b-6140-4b8c-b3b4-adbab5626828}" AnchorPoint="0,0.5" Color="247,219,110" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtIntegralValue_CellReturneeIndustrious" />
+            </WZUILabelTTF>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeIndustrious>

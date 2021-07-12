@@ -1,0 +1,166 @@
+﻿<WndDoubleTowerRoom GUID="{ec6bf298-bcee-47d6-82bd-4b9d4b1f8597}">
+    <WZUIWindow Type="WZUIWindow" GUID="{78502792-65ad-48be-9d90-8bbfeb728716}" NameCreate="True" Name="WndDoubleTowerRoom" LuaObjectName="WndDoubleTowerRoom" LuaTouchBeganFunction="onTouchBegan">
+        <WZUIContainer Type="WZUIContainer" GUID="{17514141-dd49-4a08-a037-70d01447f594}">
+            <WZUIContainer Type="WZUIContainer" GUID="{09d368ee-325f-4f3a-9ba0-f636fc36fa1e}" Name="conBeforeChoose_WndDoubleTowerRoom">
+                <WZUIContainer Type="WZUIContainer" GUID="{8998c09b-3a22-4c23-867c-05180f7bc7cb}" ShowAll="False" AbsContentSize="1136,526" UseAbsSize="True" RelativePosition="0.5,0.45" Name="conContent_WndDoubleTowerRoom">
+                    <WZUIContainer Type="WZUIContainer" GUID="{72085d46-0ba0-4d4c-866b-a3f32596be3f}" AbsContentSize="960,526" UseAbsSize="False">
+                        <WZUI9Image Type="WZUI9Image" GUID="{82a3d376-fd22-482f-9ada-91dd28ad336e}" File="ui/common/common_scale9_dadi.png" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{371c2555-e31d-4268-806e-a2155eefccf7}" AbsContentSize="960,520" UseAbsSize="True" RelativePosition="0.5,0.5" ShowAll="True">
+                        <WZUIContainer Type="WZUIContainer" GUID="{7c907e46-afdd-4c55-bbef-887e585cd672}" AbsContentSize="376,476" UseAbsSize="True" RelativePosition="0.225,0.5" Name="conLeft_WndDoubleTowerRoom" Order="1">
+                            <WZUI9Image Type="WZUI9Image" GUID="{0a5ae6ec-e922-40c6-887b-896d39c00489}" File="ui/common/common_scale9_di112.png" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{a3d22c57-d793-4c59-9f2c-e8679a0bdd10}" AbsContentSize="280,50" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1">
+                                <WZUI9Image Type="WZUI9Image" GUID="{1995a51e-7152-4e34-8936-fad4ef56286b}" File="ui/common/common_scale9_di11_1.png" UseOriginSize="True" Scale="1" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{2aa69ebe-59ab-44d5-afbe-2487f983d961}" LabelStyleKey="C1_F22_S4_C5" Text="展示" RelativePosition="0.5,0.5" Name="txtFloorName_WndDoubleTowerRoom" Dimensions="0,0" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{f6d03614-e396-4a0b-b4cb-2f81e73ff965}" AbsContentSize="376,100" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.886555" Visible="False">
+                                <WZUIContainer Type="WZUIContainer" GUID="{760aeee4-517b-4551-8450-ca3ee368cbb1}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.14,0.5">
+                                    <WZUIImage Type="WZUIImage" GUID="{bee58c26-acae-438c-96bb-ab423ee19be7}" File="ui/common/common_scale9_beibaodi1.png" UseOriginSize="True" />
+                                    <WZUIImage Type="WZUIImage" GUID="{8748068a-11cd-4b11-bbfd-a8a31d5d83be}" Name="imgMonsterHead_WndDoubleTowerRoom" File="battle/head/monster_0018.png" UseOriginSize="True" Scale="0.9" />
+                                </WZUIContainer>
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{765953a3-ceef-4abe-8580-d9ddb41dd7b5}" LabelStyleKey="C1_F20" Text="展示" RelativePosition="0.27,0.75" Name="txtMonsterName_WndDoubleTowerRoom" Dimensions="0,0" AnchorPoint="0,0.5" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4974ae32-a07a-464a-b732-52999cecc122}" LabelStyleKey="C7_F20" Text="老大撒卡机；了的空间阿斯；法律肯定静安寺；老地方可" RelativePosition="0.27,0.6" Name="txtMonsterDesc_WndDoubleTowerRoom" Dimensions="260,0" AnchorPoint="0,1" Alignment="Left" />
+                                <WZUIImage Type="WZUIImage" GUID="{bb195147-8c60-4916-ba4a-66cd58a8b6b1}" File="ui/common/common_scale9_fengexian.png" UseOriginSize="True" ScaleX="1.8" RelativePosition="0.5,0" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{4f97ffa7-fd55-48ce-896e-19b12d97e09c}" AbsContentSize="376,190" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.89" Name="conCondition_WndDoubleTowerRoom">
+                                <WZUIContainer Type="WZUIContainer" GUID="{3e2bea1b-3138-4b76-aff7-42582c065ce9}" AbsContentSize="370,40" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                                    <WZUIImage Type="WZUIImage" GUID="{24437338-684c-4b22-b0d5-5f363da3ca17}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" RelativePosition="0.15,0.5" />
+                                    <WZUIImage Type="WZUIImage" GUID="{f9735365-26a8-48d3-8b4a-d8bcd312c0a4}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" FlipY="False" FlipX="True" RelativePosition="0.85,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{c4de8041-2f8c-4ec3-9d34-a334679ac7cb}" LabelStyleKey="C12_F20" Text="展示" RelativePosition="0.5,0.5" Name="txtConditionTitle_WndDoubleTowerRoom" Dimensions="0,0" AnchorPoint="0.5,0.5" TextKey="DOUBLETOWER_TEXT2" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{a2552ab6-2019-44e2-bcfb-fd37c363b274}" AbsContentSize="376,150" AnchorPoint="0.5,0" RelativePosition="0.5,0" UseAbsSize="True">
+                                    <WZUIContainer Type="WZUIContainer" GUID="{95883b8d-5ad3-4b19-9b57-d2c7bdc2083f}" AbsContentSize="350,50" UseAbsSize="True" Name="conCondition1_WndDoubleTowerRoom" RelativePosition="0.5,0.78" Visible="False">
+                                        <WZUIImage Type="WZUIImage" GUID="{77393da1-4190-466b-acdf-69c066b9eb2c}" File="ui/common/common_icon_xingxing5.png" UseOriginSize="True" Scale="0.4" RelativePosition="0.08,0.5" Name="imgStar1_WndDoubleTowerRoom" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c71fcbc8-e035-44a0-8b6e-4945e299e572}" LabelStyleKey="C11_F20" Text="老大撒卡机；了" RelativePosition="0.14,0.5" Name="txtCondition1_WndDoubleTowerRoom" Dimensions="280,0" AnchorPoint="0,0.5" Alignment="Left" />
+                                        <WZUIImage Type="WZUIImage" GUID="{f2ff8738-b554-48c9-b797-406bb991a7d1}" Name="imgState1_WndDoubleTowerRoom" File="ui/common/common_icon_dacheng.png" UseOriginSize="True" Scale="0.8" RelativePosition="0.88,0.5" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{c8acc51d-0ac5-4c6f-9a61-f0cfaec7ea09}" AbsContentSize="350,50" UseAbsSize="True" Name="conCondition2_WndDoubleTowerRoom" Visible="False">
+                                        <WZUIImage Type="WZUIImage" GUID="{b47d81d5-5af6-469a-ae66-792e1f2df022}" File="ui/common/common_icon_xingxing5.png" UseOriginSize="True" Scale="0.4" RelativePosition="0.08,0.5" Name="imgStar2_WndDoubleTowerRoom" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{4135f775-b3ba-4d82-a77b-c00e298af840}" LabelStyleKey="C11_F20" Text="老大撒卡机；了" RelativePosition="0.14,0.5" Name="txtCondition2_WndDoubleTowerRoom" Dimensions="280,0" AnchorPoint="0,0.5" Alignment="Left" />
+                                        <WZUIImage Type="WZUIImage" GUID="{5e173eca-9336-4a04-b709-29c18869f8c2}" Name="imgState2_WndDoubleTowerRoom" File="ui/common/common_icon_dacheng.png" UseOriginSize="True" Scale="0.8" RelativePosition="0.88,0.5" />
+                                    </WZUIContainer>
+                                    <WZUIContainer Type="WZUIContainer" GUID="{68a39cb0-96b3-4dd6-8337-690885e725d0}" AbsContentSize="350,50" UseAbsSize="True" Name="conCondition3_WndDoubleTowerRoom" RelativePosition="0.5,0.22" Visible="False">
+                                        <WZUIImage Type="WZUIImage" GUID="{b0f5131b-7ca4-4a06-9974-2f6475a30563}" File="ui/common/common_icon_xingxing5.png" UseOriginSize="True" Scale="0.4" RelativePosition="0.08,0.5" Name="imgStar3_WndDoubleTowerRoom" />
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c5d90ee9-7525-405f-8bbe-2bfad6e4dc65}" LabelStyleKey="C11_F20" Text="老大撒卡机；了" RelativePosition="0.14,0.5" Name="txtCondition3_WndDoubleTowerRoom" Dimensions="280,0" AnchorPoint="0,0.5" Alignment="Left" />
+                                        <WZUIImage Type="WZUIImage" GUID="{b0b8a4fd-241f-4646-9f7f-2144db8058c0}" Name="imgState3_WndDoubleTowerRoom" File="ui/common/common_icon_dacheng.png" UseOriginSize="True" Scale="0.8" RelativePosition="0.88,0.5" />
+                                    </WZUIContainer>
+                                </WZUIContainer>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{16a9a067-0839-4b29-856f-659c5fd28072}" AbsContentSize="376,120" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.5" Name="conFirstReward_WndDoubleTowerRoom">
+                                <WZUIContainer Type="WZUIContainer" GUID="{c5eea0d5-cdbc-473b-9a48-5b0073092733}" AbsContentSize="370,40" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                                    <WZUIImage Type="WZUIImage" GUID="{b8f32cc8-e2a9-4164-b683-649c0b7ff230}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" RelativePosition="0.15,0.5" />
+                                    <WZUIImage Type="WZUIImage" GUID="{8230d65a-332d-42c4-8d8a-795827d66e60}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" FlipY="False" FlipX="True" RelativePosition="0.85,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{838d0339-3cf7-447a-bda3-21d8a5ec19f5}" LabelStyleKey="C12_F20" Text="展示" RelativePosition="0.5,0.5" Name="txtRewardTitle1_WndProfession" Dimensions="0,0" AnchorPoint="0.5,0.5" TextKey="DOUBLETOWER_TEXT3" />
+                                </WZUIContainer>
+                                <WZUITableContainer Type="WZUITableContainer" GUID="{f7c09ace-33aa-4325-9b0f-6c450253493a}" EnableMoveVertical="False" IsVerticalMode="False" CellElementHeight="0.25" AbsContentSize="350,80" UseAbsSize="True" RelativePosition="0.5,0.35" Name="tbReward1_WndDoubleTowerRoom" />
+                                <WZUIImage Type="WZUIImage" GUID="{da5f4b73-6128-4cf2-95cc-e2ebd8574e9c}" File="ui/common/commom_icon_yhd.png" UseOriginSize="True" RelativePosition="0.877449,0.353673" Name="imgRewardState1_WndDoubleTowerRoom" Visible="False" TouchEnable="False" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{0d55b39d-fa63-42cc-9525-c31949c522ea}" AbsContentSize="376,120" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,0.268908" Name="conSecondReward_WndDoubleTowerRoom">
+                                <WZUIContainer Type="WZUIContainer" GUID="{3393d9d6-a06f-429e-ab8f-fdbfd1552d2d}" AbsContentSize="370,40" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1">
+                                    <WZUIImage Type="WZUIImage" GUID="{5d662f81-9406-4675-ab14-43497df01fc4}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" RelativePosition="0.15,0.5" />
+                                    <WZUIImage Type="WZUIImage" GUID="{f4ca7b81-9465-4636-92ca-45f1f907f0c2}" File="ui/common/common_pic_jiantou4.png" UseOriginSize="True" FlipY="False" FlipX="True" RelativePosition="0.85,0.5" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{99f3ac05-357c-4e8f-83dd-01f1bd3a2e35}" LabelStyleKey="C12_F20" Text="展示" RelativePosition="0.5,0.5" Name="txtRewardTitle2_WndProfession" Dimensions="0,0" AnchorPoint="0.5,0.5" TextKey="DOUBLETOWER_TEXT7" />
+                                </WZUIContainer>
+                                <WZUITableContainer Type="WZUITableContainer" GUID="{0302a773-c533-4bde-9194-5a073f203d41}" EnableMoveVertical="False" IsVerticalMode="False" CellElementHeight="0.25" AbsContentSize="350,80" UseAbsSize="True" RelativePosition="0.5,0.35" Name="tbReward2_WndDoubleTowerRoom" />
+                                <WZUIImage Type="WZUIImage" GUID="{0e172461-302c-44a1-bd99-8f5383c0e09d}" File="ui/common/commom_icon_yhd.png" UseOriginSize="True" RelativePosition="0.877449,0.353673" Name="imgRewardState2_WndDoubleTowerRoom" TouchEnable="False" Visible="False" />
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{9c2d2c32-f28f-46ee-8ba6-a15c6c1a89b5}" Name="conRight_WndDoubleTowerRoom" AbsContentSize="510,480" UseAbsSize="True" RelativePosition="0.72,0.5">
+                            <WZUI9Image Type="WZUI9Image" GUID="{1ff5f542-2d2f-498e-af47-37956ee1dbed}" File="ui/common/common_scale9_di96.png" Visible="False" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5eac5b05-1ecd-4570-8638-4cd046eacbcd}" TextKey="SINGLE_MAP_CHALLENGE" LabelStyleKey="C1_F22_S4_C3" RelativePosition="0.111831,0.0574388" Name="txtChallengeWord_WndDoubleTowerRoom">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4739ccec-4056-454b-9546-c547d5f11295}" TextKey="" LabelStyleKey="C18_F22_S4_C5" Name="txtChallengeTimes_WndDoubleTowerRoom" AnchorPoint="0,0.5" RelativePosition="1,0.5" Text="3/3" />
+                            </WZUILabelTTF>
+                            <Button Type="WZUIButton" GUID="{8fd62a92-21c8-4158-a3c5-461992ededc9}" LuaActionName="Normal" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.06" UseAbsSize="True" AbsContentSize="200,72" ShowAll="False" LuaDoneFunctionName="onClickChallenge" Visible="True" LocalInterval="300" Name="btnStartGame_WndDoubleTowerRoom">
+                                <NormalElement Type="WZUIContainer" GUID="{c9ef5dd4-34dd-43dd-9cc8-a70e775f1791}">
+                                    <WZUIImage Type="WZUIImage" GUID="{a3b3f26b-e209-4bbf-91a1-58f82f81a427}" File="ui/common/common_btn_anniu8.png" UseOriginSize="False" />
+                                </NormalElement>
+                                <SelectElement Type="WZUIContainer" GUID="{91e6f57e-72b7-40d2-9ef3-3c0ee3b695d8}">
+                                    <WZUIImage Type="WZUIImage" GUID="{c94016a0-f8d5-4dc1-a60b-8c8c70d49fd5}" File="ui/common/common_btn_anniu8_sel.png" UseOriginSize="False" />
+                                </SelectElement>
+                                <DisableElement Type="WZUIContainer" GUID="{f528722c-10e3-4b7d-8252-a038bedb8318}" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{cb6439fa-70a2-4fdf-8548-573a83140cb8}" LabelStyleKey="" TextKey="DOUBLETOWER_TEXT4" Color="255,236,193" FontSize="30" EnableStroke="True" StrokeSize="4" StrokeColor="0,72,3" Name="txtBtnChallenge_WndDoubleTowerRoom" />
+                            </Button>
+                            <WZUIContainer Type="WZUIContainer" GUID="{ae5cc728-b642-4894-8d24-9bb47a61ed6a}" AbsContentSize="250,320" UseAbsSize="True" RelativePosition="0.25,0.93" Name="conSeat1_WndDoubleTowerRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                                <WZUIContainer Type="WZUIContainer" GUID="{0a9ca825-9933-4567-a5bd-d3e76b79b93d}" Name="conSeatInfo_WndDoubleTowerRoom" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{7bfdcb10-bf65-4a74-bd77-7ef1f7493ea7}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_WndDoubleTowerRoom" RelativePosition="0.5,0.18" TouchEnable="False" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{9ef8c241-a112-42e6-9a0d-30ddf5fd3498}" Name="conForNameAndTitle_WndDoubleTowerRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.68" TouchEnable="False">
+                                    <WZUIContainer Type="WZUIContainer" GUID="{cab902a6-e1f6-44f7-a2fd-ac79f7edb25e}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_WndDoubleTowerRoom" TouchEnable="False">
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{02f10655-7461-4b42-908a-1aab3fe5c8d8}" Name="txtPlayerTitle_WndDoubleTowerRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                                    </WZUIContainer>
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5b13e809-3656-415f-ae0f-99cae8bab6a2}" Name="txtPlayerLv_WndDoubleTowerRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{679670b4-eb09-40d1-8b51-b6a0e3de36bb}" Name="txtPlayerName_WndDoubleTowerRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{e2f8e373-4f01-4ef1-9364-30c5ef15ae0d}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.59" Name="conPet_WndDoubleTowerRoom" TouchEnable="False" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{d908d232-40fb-42a5-bf82-9167cc8c7415}" Name="conFigureVoice_WndDoubleTowerRoom" Visible="False">
+                                    <WZUIImage Type="WZUIImage" GUID="{2f440f9d-9914-470b-a1a8-65a1587f3fa7}" Name="imgFigureVoice_WndDoubleTowerRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                                    <WZUISpine Type="WZUISpine" GUID="{6e15676e-e488-4868-8a98-0954e7df8bdd}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.2177" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_WndDoubleTowerRoom" Scale="0.6" />
+                                </WZUIContainer>
+                                <WZUIImage Type="WZUIImage" GUID="{b0f80e9e-5de1-459c-b0a3-3dc9551a0be7}" Name="imgPlayerStatus_WndDoubleTowerRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.01" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                                <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{e2b605a5-c3aa-4a2d-8117-4fe43fba38cd}" Name="btnPlayerFigure_WndDoubleTowerRoom" Tag="1" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.5,0.32" Visible="False">
+                                    <NormalElement Type="WZUIContainer" GUID="{78a006d0-66bf-4b25-9d29-2a30eb52364e}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{b3b5877a-fba6-4dda-b4b6-0acebc19f683}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{1b8f163d-78f2-48fc-8d94-ef0fcc63e228}" />
+                                </WZUIButton>
+                                <Button Type="WZUIButton" Name="btnPlayerPet_WndDoubleTowerRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="1" GUID="{e392bcb5-cefd-48ee-b585-244a2e088d9b}">
+                                    <NormalElement Type="WZUIContainer" GUID="{d59b0f37-1805-4760-82e1-00ad1c3e4718}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{cedf56ec-5040-4c1e-aafc-121722792521}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{9cc63b8b-468e-405e-9103-f20c5bc6fb15}" />
+                                </Button>
+                                <WZUIContainer Type="WZUIContainer" GUID="{7b78c1e9-1520-466f-b3f5-51121c499a1f}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_WndDoubleTowerRoom" RelativePosition="0.122908,0.08" AbsPosition="41,35.4999" Tag="1">
+                                    <WZUISpine Type="WZUISpine" GUID="{fec19ad4-df67-4d3a-9bde-99d8513aee3f}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_WndDoubleTowerRoom" Scale="1.2" />
+                                    <WZUIImage Type="WZUIImage" GUID="{f75c78d0-07d9-428e-8a4e-21295e49cba3}" Name="imgWeaponIcon_WndDoubleTowerRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                                    <Button Type="WZUIButton" Name="btnWeapon_WndDoubleTowerRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{1b41e9cb-2fe0-48fb-af3c-819cfb64e7aa}">
+                                        <NormalElement Type="WZUIContainer" GUID="{c51eb866-f2d2-485d-b0f5-dcf9ceef7b4f}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{16dcdab4-56c7-45c5-beea-ae5de6e90109}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{05de6123-60ed-4fed-8688-e9073a75e8b0}" />
+                                    </Button>
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{ad0a1100-a85a-478a-8512-b253e517fc8f}" Name="conForDressSuit_WndDoubleTowerRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.72,1.03" />
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{6c8f96d8-f641-4a6a-b774-3d0723778d49}" AbsContentSize="250,320" UseAbsSize="True" RelativePosition="0.75,0.93" Name="conSeat2_WndDoubleTowerRoom" AnchorPoint="0.5,1" AbsPosition="125.29,548.189" Tag="-1">
+                                <WZUIContainer Type="WZUIContainer" GUID="{b346fb2c-1fe7-4f08-88cb-dbec03995118}" Name="conSeatInfo_WndDoubleTowerRoom" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{7f504e60-e34d-4f12-b528-6bb59dd33a09}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_WndDoubleTowerRoom" RelativePosition="0.5,0.18" TouchEnable="False" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{b296bfe3-d159-4d69-a17c-a5cd1b24ba30}" Name="conForNameAndTitle_WndDoubleTowerRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.68" TouchEnable="False">
+                                    <WZUIContainer Type="WZUIContainer" GUID="{56d8c1c1-f01a-46f7-8523-66c80f7ec31a}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_WndDoubleTowerRoom" TouchEnable="False">
+                                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5c19509a-16b1-4926-b251-95632965cb29}" Name="txtPlayerTitle_WndDoubleTowerRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                                    </WZUIContainer>
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{ccb700be-d03f-4e17-99ec-fd6aaddcce7b}" Name="txtPlayerLv_WndDoubleTowerRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{9b414616-47fb-40f0-b5b4-8a4e49b2a6d1}" Name="txtPlayerName_WndDoubleTowerRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{1351c039-5655-4127-9f37-df29f0552e96}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.59" Name="conPet_WndDoubleTowerRoom" TouchEnable="False" />
+                                <WZUIContainer Type="WZUIContainer" GUID="{d5f7341a-6093-4f1d-8666-5a6a9bf0e9b8}" Name="conFigureVoice_WndDoubleTowerRoom" Visible="False">
+                                    <WZUIImage Type="WZUIImage" GUID="{72cfe681-5a30-45d1-bb61-19d5dc41f029}" Name="imgFigureVoice_WndDoubleTowerRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                                    <WZUISpine Type="WZUISpine" GUID="{74af829d-f3d4-49ed-ba02-b8c08b8f82a3}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.2177" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_WndDoubleTowerRoom" Scale="0.6" />
+                                </WZUIContainer>
+                                <WZUIImage Type="WZUIImage" GUID="{531b55d4-8c8c-4c71-bb1e-ceb233e5d4c2}" Name="imgPlayerStatus_WndDoubleTowerRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.01" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                                <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{56d14bbf-8cb2-47d4-89a6-5a349a642a4a}" Name="btnPlayerFigure_WndDoubleTowerRoom" Tag="1" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.5,0.32" Visible="False">
+                                    <NormalElement Type="WZUIContainer" GUID="{4187b64e-4183-4f43-bace-5ee1ad73340e}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{67dc908c-08a6-494b-953c-60573298d692}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{23c3d820-bc39-4409-9f6f-47ac0908381a}" />
+                                </WZUIButton>
+                                <Button Type="WZUIButton" Name="btnPlayerPet_WndDoubleTowerRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="1" GUID="{356d70bb-24b3-49bb-9afc-837f4760c09f}">
+                                    <NormalElement Type="WZUIContainer" GUID="{3067a10f-5f5b-4ddb-904e-fed72b4b01e0}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{5d33df95-75cb-4975-8959-b84f268a5186}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{dceee003-92c4-4878-8bea-8d30a8c03727}" />
+                                </Button>
+                                <WZUIContainer Type="WZUIContainer" GUID="{419abe61-4011-4c1e-861b-66c3cf49cec1}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_WndDoubleTowerRoom" RelativePosition="0.122908,0.08" AbsPosition="41,35.4999" Tag="1">
+                                    <WZUISpine Type="WZUISpine" GUID="{bb77bc9c-4e7f-4bb8-ad8a-01b95edc114f}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_WndDoubleTowerRoom" Scale="1.2" />
+                                    <WZUIImage Type="WZUIImage" GUID="{684b460d-14a0-4fb9-a697-772e354497ae}" Name="imgWeaponIcon_WndDoubleTowerRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                                    <Button Type="WZUIButton" Name="btnWeapon_WndDoubleTowerRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{71361075-f26c-48ca-bdc2-709b5370532c}">
+                                        <NormalElement Type="WZUIContainer" GUID="{c315ad5e-dc9f-42ec-b974-e7e2117f94d1}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{c05d8fa0-7bd8-4b86-9960-430efe1bd57e}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{25d13b53-a2dd-4b86-8a7e-3bac3fa47c9b}" />
+                                    </Button>
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{6d4df214-9ec4-4bbc-bfeb-72a06f7902ac}" Name="conForDressSuit_WndDoubleTowerRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.72,1.03" />
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{64d8d584-e7f2-402d-9692-0f4f29e8a587}" Text="等待队友响应..." LabelStyleKey="C1_F20_S4_C5" Name="txtWaitWord_WndDoubleTowerRoom" RelativePosition="0.5,0.2" TextKey="DOUBLETOWER_TEXT12" Visible="False" />
+                        </WZUIContainer>
+                        <WZUILabelAtlasFont CharMapFileName="image/common/num/count_down_number.png" Color="255,0,0" GUID="{4eefc7f8-cba8-4f78-9a7e-b9f5eae3b019}" Height="150" Name="txtMakePairTime_WndDoubleTowerRoom" Order="501" RelativePosition="0.5,0.5" ShowAll="False" Text="1" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="102" TouchEnable="True" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{a97d0ebe-64de-419f-9bac-78026fdbd6f3}" Name="conTop_WndDoubleTowerRoom" AbsContentSize="960,80" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndDoubleTowerRoom>

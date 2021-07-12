@@ -1,0 +1,24 @@
+﻿<CellPhantomList2 GUID="{10613b63-97b3-4e0c-b8e6-92b29452d19a}">
+    <WZUIContainer AbsContentSize="398,245" GUID="{e7be1061-976c-4d54-beae-7b5877af81c6}" LuaObjectName="CellPhantomList2" Name="CellPhantomList2" NameCreate="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{31806358-e427-4a2f-8967-881cdfe0a648}" Name="constatus1" Visible="True">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{43e5d96c-8094-484f-92cc-07863885ddd9}" Text="羁绊名字" LabelStyleKey="C13_F18" RelativePosition="0.12,0.668006" Name="txtName" Scale="1" ScaleX="1" ScaleY="1" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8c6211d7-b76e-4504-97ae-abc6f597a74b}" Text="生命" LabelStyleKey="C13_F18" RelativePosition="0.025,0.57" Name="txtAttrWord1_CellPhantomList2" Scale="1" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{9f2866c7-bbb9-47b5-b003-5498595f47fa}" Text="100" LabelStyleKey="" RelativePosition="1,0.5" Name="txtAttr1" Scale="1" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5" FontSize="18" Color="229,105,22" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c5c41672-b409-47c2-ada1-4143e8076579}" Text="" LabelStyleKey="C13_F18" RelativePosition="0.025,0.48" Name="txtAttrWord2_CellPhantomList2" Scale="1" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{57e47824-c5d4-4e70-8768-45923ffa8fa1}" Text="" LabelStyleKey="" RelativePosition="1,0.5" Name="txtAttr2" Scale="1" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5" FontSize="18" Color="229,105,22" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8a97efd2-ceb2-41ff-9c02-8c5302af5a82}" Text="" LabelStyleKey="C13_F18" RelativePosition="0.025,0.39" Name="txtAttrWord3_CellPhantomList2" Scale="1" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{56d39ae3-720a-4bdb-9766-0249c3a16b5e}" Text="" LabelStyleKey="" RelativePosition="1,0.5" Name="txtAttr3" Scale="1" ScaleX="1" ScaleY="1" Alignment="Left" AnchorPoint="0,0.5" FontSize="18" Color="229,105,22" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c723e133-8ce4-4580-b903-9e2843a86dce}" Text="（已激活）" LabelStyleKey="" RelativePosition="0.115,0.297423" Name="txtStatus" FontSize="18" Color="5,180,0" BoldFont="True" EnableStroke="False" StrokeSize="4" StrokeColor="79,60,48" Scale="0.9" ScaleX="0.9" ScaleY="0.9" />
+            <WZUIContainer Type="WZUIContainer" GUID="{647f3a4a-aedd-49c5-95d5-29027341073f}" AbsContentSize="85,100" UseAbsSize="True" Name="con1_status1" RelativePosition="0.39,0.745" />
+            <WZUIContainer Type="WZUIContainer" GUID="{c33dfe48-a8cd-4484-a94a-ece931ca1194}" AbsContentSize="85,100" UseAbsSize="True" Name="con2_status1" RelativePosition="0.63,0.745" />
+            <WZUIContainer Type="WZUIContainer" GUID="{93c0f19b-231c-4ae6-af67-724a22919d54}" AbsContentSize="85,100" UseAbsSize="True" Name="con3_status1" RelativePosition="0.87,0.745" />
+            <WZUIContainer Type="WZUIContainer" GUID="{0df51709-b8aa-468b-9e02-2386866133c6}" AbsContentSize="85,100" UseAbsSize="True" Name="con4_status1" RelativePosition="0.39,0.255" />
+            <WZUIContainer Type="WZUIContainer" GUID="{017985c8-1ff0-464f-b519-b06815b7e056}" AbsContentSize="85,100" UseAbsSize="True" Name="con5_status1" RelativePosition="0.63,0.255" />
+            <WZUIContainer Type="WZUIContainer" GUID="{c546014a-137b-45fb-bac5-62a6fc5e9261}" AbsContentSize="85,100" UseAbsSize="True" Name="con6_status1" RelativePosition="0.87,0.255" />
+        </WZUIContainer>
+        <WZUIImage Type="WZUIImage" GUID="{df312cfd-6683-417d-8be1-90d2add80f0f}" File="ui/common/frame_fengexian_01.png" UseOriginSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0" ScaleX="12.5" />
+    </WZUIContainer>
+</CellPhantomList2>

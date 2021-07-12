@@ -1,0 +1,57 @@
+﻿<WndActivityIntegrate GUID="{0302aeda-9252-41a3-92fb-8ecb7f209791}">
+    <WZUIContainer Type="WZUIContainer" GUID="{39a454b0-8cf1-46c4-9c7f-fc3da15e6439}" Name="WndActivityIntegrate" LuaObjectName="WndActivityIntegrate">
+        <WZUIImage Type="WZUIImage" GUID="{037791db-3de0-4178-95fb-4655f228f522}" File="ui/common_bg/common_bg.png" Name="common_bg" isValid="True" Visible="True" />
+        <Button Type="WZUIButton" GUID="{54734456-7b70-48d9-9780-506511e8205d}" Name="btnClose" RelativePosition="0.921633,0.929056" UseAbsSize="True" AbsContentSize="70,70" LuaDoneFunctionName="btnCloseClick" ShowAll="True">
+            <NormalElement Type="WZUIContainer" GUID="{857e95d2-dd4a-4b9f-a1a6-96e75f4dbe53}">
+                <WZUIImage Type="WZUIImage" GUID="{9a89c819-0997-43a7-8c36-173920b975e2}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{703b5aa7-2932-490e-aa13-052c6513905a}">
+                <WZUIImage Type="WZUIImage" GUID="{4e0bf063-00e3-4871-97a2-5fc9404790cd}" File="ui/common/common_top_btn_guanbi.png" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{5c5c88a8-e683-46b7-851f-d41773577db6}" />
+        </Button>
+        <WZUIContainer Type="WZUIContainer" GUID="{7168c7fb-8578-4b7e-96f0-ec07515c5f00}" AbsContentSize="1136,640" UseAbsSize="True" ShowAll="True">
+            <WZUIContainer Type="WZUIContainer" GUID="{fda74e49-4f8e-466b-ba8f-6ecd0b2a2760}" UseAbsSize="True" AbsContentSize="893,506" RelativePosition="0.545254,0.5" Name="secondTitleContainer">
+                <WZUI9Image Type="WZUI9Image" GUID="{3e0b6165-5a99-4d81-aaf2-8dcfab1b5161}" File="ui/common/frame_dadi.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{e1797afd-7516-4bf9-b633-350bd15b86c4}" UseAbsSize="True" AbsContentSize="6,559" RelativePosition="0.142384,0.501959">
+                <WZUI9Image Type="WZUI9Image" GUID="{c1f8e5f7-bd65-4056-b274-05a29f8cd318}" File="ui/common/frame_fengexian.png" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{26a690e5-6371-4f29-ad0f-d39100bc9716}" Name="fristTitleContainer">
+                <Button Type="WZUIButton" GUID="{13744a3e-45bb-493e-bada-ad10edbc481f}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.093267,0.827181" Name="tabTitleBtn_1" LuaDoneFunctionName="onTabTitleClick" Tag="1">
+                    <NormalElement Type="WZUIContainer" GUID="{e5af1d1a-89ae-420a-96d1-ce7bb2577b64}">
+                        <WZUIImage Type="WZUIImage" GUID="{c029f7ee-c20e-49a0-afb7-c80ca8bee832}" Name="select_1" File="ui/common/common_btn_caidan.png" UseOriginSize="True" UseOriginSizeProportion="False" RelativePosition="0.525077,0.464175" isValid="True" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b6a54fe2-e5ae-4852-8084-33fa0409210d}" Name="name_1" FontSize="22" Text="福利" RelativePosition="0.43,0.38" Dimensions="120,0" />
+                    </NormalElement>
+                    <WZUIImage Type="WZUIImage" GUID="{eaaf1899-dd2f-48d5-8818-cb3cb9a585e0}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgRedDot1_WndActivityIntegrate" RelativePosition="0.8,0.8" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{408497d1-9592-4ed9-86a5-cd00b8728128}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.093267,0.725304" Name="tabTitleBtn_2" LuaDoneFunctionName="onTabTitleClick" Tag="2">
+                    <NormalElement Type="WZUIContainer" GUID="{e9a7d409-0d63-4b7b-bcd2-5a05cd67b188}">
+                        <WZUIImage Type="WZUIImage" GUID="{7d973498-d43b-47c6-bd63-812e2d76fbc4}" Name="select_2" File="ui/common/common_btn_caidan.png" UseOriginSize="True" UseOriginSizeProportion="False" RelativePosition="0.537616,0.41402" isValid="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{c4ecedf2-c912-441a-bc98-ca400d58994f}" Name="name_2" FontSize="22" Text="福利" RelativePosition="0.43,0.38" Dimensions="120,0" />
+                    </NormalElement>
+                    <WZUIImage Type="WZUIImage" GUID="{cc40a048-66af-486c-872e-62f262cd1336}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgRedDot2_WndActivityIntegrate" RelativePosition="0.8,0.8" Visible="False" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{29f9ae53-814a-4a2d-bd53-c49266630607}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.093267,0.615591" Name="tabTitleBtn_3" LuaDoneFunctionName="onTabTitleClick" Tag="3">
+                    <NormalElement Type="WZUIContainer" GUID="{3f7dae81-0a99-4ca8-b507-e6817837bd70}">
+                        <WZUIImage Type="WZUIImage" GUID="{09cd6e93-d91c-4b97-aa98-d7eb30c8394d}" Name="select_3" File="ui/common/common_btn_caidan.png" UseOriginSize="True" UseOriginSizeProportion="False" RelativePosition="0.525077,0.464175" isValid="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{55aad465-0adb-4074-a3bc-3caea5322c6a}" Name="name_3" FontSize="22" Text="福利" RelativePosition="0.43,0.38" Dimensions="120,0" />
+                    </NormalElement>
+                </Button>
+                <Button Type="WZUIButton" GUID="{696fbae6-0ba1-4a67-894b-ca77335b8bdb}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.093267,0.511755" Name="tabTitleBtn_4" LuaDoneFunctionName="onTabTitleClick" Tag="4">
+                    <NormalElement Type="WZUIContainer" GUID="{8a53eed7-0b21-4c0f-b9c5-2fc8a2b99f8b}">
+                        <WZUIImage Type="WZUIImage" GUID="{27065742-f665-4400-9d96-f3619e1d87d2}" Name="select_4" File="ui/common/common_btn_caidan.png" UseOriginSize="True" UseOriginSizeProportion="False" RelativePosition="0.525077,0.464175" isValid="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{350d1c29-b663-4858-8e2f-88c039eb1c8b}" Name="name_4" FontSize="22" Text="福利" RelativePosition="0.43,0.38" Dimensions="120,0" />
+                    </NormalElement>
+                </Button>
+                <Button Type="WZUIButton" GUID="{8ed8c34c-c3ee-41e1-b200-a1ce494c1bd2}" UseAbsSize="True" AbsContentSize="100,50" RelativePosition="0.093267,0.411838" Name="tabTitleBtn_5" LuaDoneFunctionName="onTabTitleClick" Tag="5">
+                    <NormalElement Type="WZUIContainer" GUID="{63a19c5c-492f-484c-8f14-7afb61d36555}">
+                        <WZUIImage Type="WZUIImage" GUID="{0e77f343-12d4-4aa7-9e38-1fd8691a5d34}" Name="select_5" File="ui/common/common_btn_caidan.png" UseOriginSize="True" UseOriginSizeProportion="False" RelativePosition="0.525077,0.464175" isValid="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{460caaa7-c887-4ea3-ba51-64f997d785c9}" Name="name_5" FontSize="22" Text="福利" RelativePosition="0.43,0.38" Dimensions="120,0" />
+                    </NormalElement>
+                    <WZUIImage Type="WZUIImage" GUID="{ac8825cb-c79b-494d-b279-23379502905c}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" Name="imgRedDot5_WndActivityIntegrate" RelativePosition="0.8,0.8" Visible="False" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndActivityIntegrate>

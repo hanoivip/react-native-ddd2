@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" ?>
+<WndCheckOther GUID="{21764A10-482A-474a-9648-1EEF4C764174}">
+    <WZUIWindow AbsContentSize="1136,640" AnchorPoint="0.5,0.5" GUID="{B775F6D3-56ED-437d-8407-6099AABE10BD}" LuaObjectName="WndCheckOther" Name="WndCheckOther" NameCreate="True" Type="WZUIWindow" UseAbsSize="True" RelativePosition="0.5,0.5" LuaTouchBeganFunction="onTouchBegan" ShowAll="False">
+        <WZUIContainer Type="WZUIContainer" GUID="{2465E85D-1DC9-4897-B02B-6C63E057676A}" Name="conBg_WndCheckOther" AbsContentSize="1136,640" UseAbsSize="True">
+            <WZUIImage Type="WZUIImage" GUID="{75885796-52cd-4bad-bf62-a1721afa4bf8}" File="ui/common_bg/common_pic_commonbg.png" UseOriginSize="False" RelativePosition="0.5,0.5" Opacity="255" TouchEnable="False" Name="imgSetBg_WndCheckOther" Visible="True" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{cf598564-c60c-432f-aee4-59215f49cc9c}" Name="conTop_WndCheckOther" AbsContentSize="1136,80" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,1" Order="1000" />
+        <WZUIContainer Type="WZUIContainer" GUID="{8bf0685b-2d52-4af6-adeb-fdad360eb092}" ShowAll="False" Name="conAllContent_WndCheckOther">
+            <WZUIContainer Type="WZUIContainer" GUID="{cb46628e-a105-4b86-935a-e535d5248624}" AbsContentSize="460,640" UseAbsSize="True" RelativePosition="0.236,0.5" Name="conLeft_WndCheckOther">
+                <WZUIContainer AbsContentSize="330,405" AbsPosition="198.979,297.314" AnchorPoint="0.5,0.5" GUID="{8162f86b-5700-4f48-ba5e-a4ae306233ad}" Name="conRole_WndCheckOther" Order="0" RelativePosition="0.507391,0.53" RelativeSize="1,1" Type="WZUIContainer" UseAbsSize="True" ShowAll="True">
+                    <WZUIImage Type="WZUIImage" GUID="{b1c20618-5aab-492a-b580-59addcadaa2f}" File="ui/common/common_pic_diwen5.png" UseOriginSize="True" RelativePosition="0.5,0.48" Opacity="100" TouchEnable="False" Name="imgCircle_WndCheckOther" />
+                    <WZUIContainer GUID="{3b2a34a5-217a-4c59-b257-ef84ede3e902}" Name="conLevelInfo" RelativePosition="0.5,1" Type="WZUIContainer" AbsContentSize="300,60" UseAbsSize="True" AnchorPoint="0.5,1" Visible="True" AbsPosition="165.946,363.854" Order="1">
+                        <WZUILabelTTF Alignment="Left" AnchorPoint="0,0.5" BoldFont="True" Color="255,255,255" FontSize="22" GUID="{ea654dcd-2504-4f34-b03f-359e78a141f1}" Name="name_WndCheckOther" RelativePosition="0.386667,0.31" Text="" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" />
+                        <WZUILabelTTF Alignment="Left" AnchorPoint="0.5,0.5" BoldFont="True" Color="247,137,24" FontSize="22" GUID="{e8227821-44fe-4bc5-8257-98fd411cb354}" Name="title_WndCheckOther" RelativePosition="0.5,0.81" Text="" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" AbsPosition="150,42" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{985041e0-7701-4985-8813-a8e1d8b19b5d}" Name="lv_WndCheckOther" FontSize="22" Color="255,227,116" Text="" Order="1" RelativePosition="0.3,0.31" BoldFont="True" StrokeColor="79,60,48" StrokeSize="4" EnableStroke="True" AbsPosition="90,18" />
+                        <WZUIImage Type="WZUIImage" GUID="{9acf41c4-dc58-4ea2-8097-2e15a28ac94e}" Name="imgProfessionIcon_WndCheckOther" UseOriginSize="True" File="" Scale="0.4" RelativePosition="0.0582867,-0.059039" Order="1" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{86ec6332-1a82-423e-8b99-d0524864bd0a}" Name="conVip" AbsContentSize="65,55" UseAbsSize="True" RelativePosition="0.09,0.6" Visible="True" AbsPosition="33.5,38">
+                            <WZUIImage Type="WZUIImage" GUID="{34e52d91-2083-4259-82db-61f48424d779}" File="ui/common/common_icon_hgg.png" UseOriginSize="True" RelativePosition="0.5,0.572727" AbsPosition="32.5,31.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{aea05225-e811-4724-900b-114deb3ed541}" File="ui/common/commom_icon_v.png" UseOriginSize="True" RelativePosition="0.36,0.28" Name="imgVip_WndCheckOther" AbsPosition="23.4,5.5" Scale="0.42" />
+                            <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{a87abb3d-1799-4713-94a8-14448497d96d}" Name="labelVip_WndCheckOther" CharMapFileName="ui/common_num/common_num_vip.png" Height="40" Width="22" Text="0" RelativePosition="0.611538,0.27" Alignment="Left" AnchorPoint="0,0.5" UseOriginSize="True" ScaleX="1" Scale="0.48" AbsPosition="39.75,3.5" />
+                            <Button Type="WZUIButton" LuaDoneFunctionName="onVIP" GUID="{15ac6e37-4966-49ae-a036-51e037566cab}">
+                                <NormalElement Type="WZUIContainer" TouchContainerEnable="True" GUID="{a4cec639-ce50-4f38-aa17-50a741067894}" />
+                                <SelectElement Type="WZUIContainer" TouchContainerEnable="True" GUID="{5fe413dd-6c93-49af-8d80-76d8d53ccf5a}" />
+                                <DisableElement Type="WZUIContainer" TouchContainerEnable="True" GUID="{54a7b423-9af4-4557-a26f-0e56804dbe78}" />
+                            </Button>
+                        </WZUIContainer>
+                        <WZUIContainer GUID="{e61fc84b-9e10-4086-844b-3aae3020efa4}" Name="conExp" RelativePosition="0.5,-0.1" Type="WZUIContainer" AbsContentSize="300,30" UseAbsSize="True" AnchorPoint="0.5,0.5" Visible="False">
+                            <WZUIImage File="ui/common/common_progress_exp_bg.png" GUID="{2d537f77-57f5-4367-b95e-61308102a935}" Name="progressBg_WndCheckOther" RelativePosition="0.5,0.56" RelativeSize="1,1" Scale="1" Type="WZUIImage" UseOriginSize="True" Visible="True" ScaleX="0.8" ScaleY="1" Opacity="150" />
+                            <WZUIProgress AbsPosition="0,0" BgPicture="ui/common/common_progress_exp_fore.png" GUID="{eb3f8b24-d013-4702-8dc7-d27eee3f5faf}" Name="progrExpProgress_WndCheckOther" Order="2" Percentage="50" RelativePosition="0.5,0.56" RelativeSize="1,1" Scale="1" Type="WZUIProgress" UseOriginSize="True" UseOriginSizeProportion="False" Visible="True" ScaleX="0.8" ScaleY="1" />
+                            <WZUILabelTTF Color="255,255,255" FontSize="20" GUID="{5c807aff-601c-4815-a15b-486d489b5af0}" Name="expPer_WndCheckOther" Order="5" RelativePosition="0.5,0.56" Text="500" Type="WZUILabelTTF" Visible="True" BoldFont="True" EnableStroke="True" StrokeColor="105,65,46" LabelStyleKey="NORMAL_EXP_PROGRESS" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Alignment="Left" AnchorPoint="0,0.5" BoldFont="True" Color="255,255,255" FontSize="22" GUID="{be8fcbdc-def9-46a8-a51b-eae1f9908acb}" Name="txtRemarkName_WndCheckOther" RelativePosition="0.5,-0.1" Text="" Type="WZUILabelTTF" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" Visible="False" />
+                        <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onDianZan" RelativePosition="-0.12,0.6" GUID="{c350ba25-19c9-4b80-9448-625d5740bda6}" LuaActionName="Normal" AbsContentSize="60,60" UseAbsSize="True" AbsPosition="316.318,389.847" Name="btnDianZan_WndCheckOther" Order="1" Scale="0.9">
+                            <NormalElement Type="WZUIContainer" GUID="{9c037e0b-3df6-4567-8544-adccef59cc9d}">
+                                <WZUIImage Type="WZUIImage" GUID="{f49b2838-52cf-42cb-8e2d-c7dccf1427e2}" File="ui/common/common_icon_pvpdz.png" UseOriginSize="True" Scale="0.75" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{54f8f605-f83d-4904-a1db-bedd85bb525c}">
+                                <WZUIImage Type="WZUIImage" GUID="{9537e293-f1a7-415b-894b-47f7a1a31198}" File="ui/common/common_icon_pvpdz.png" UseOriginSize="True" Scale="0.75" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{0835827d-94e5-4fc2-8420-ae5391d0b71d}" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{6a0d7810-603f-4c2b-af69-bce97dd309e1}" AnchorPoint="0.5,0.5" FontSize="18" Color="255,236,193" EnableStroke="True" StrokeSize="4" StrokeColor="127,70,26" Text="" TouchEnable="False" RelativePosition="0.5,0" Name="txtZanNum_WndCheckOther" />
+                        </WZUIButton>
+                        <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onChangeName" RelativePosition="0.93,0.6" GUID="{9e95bb10-3116-4231-83f0-3de8e9ff6f62}" LuaActionName="Normal" AbsContentSize="60,60" UseAbsSize="True" AbsPosition="316.318,389.847" Name="btnChangeName_WndCheckOther" Order="1" Scale="0.9" Visible="True">
+                            <NormalElement Type="WZUIContainer" GUID="{6b6c86a3-2d28-4f31-9d55-88ab57628c0b}">
+                                <WZUIImage Type="WZUIImage" GUID="{99d40f25-bfde-4068-8e14-89c952e91016}" File="shopitems/renamedpen.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{8d19ec24-1a34-4164-a6c4-71853e5e2552}">
+                                <WZUIImage Type="WZUIImage" GUID="{e566d7d0-501b-427b-bade-0dee428b17d1}" File="shopitems/renamedpen.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{6bfbba28-f6d6-48fe-9566-1291f05d229c}" />
+                        </WZUIButton>
+                        <Button Type="WZUIButton" GUID="{6a757f05-68be-49b2-9a55-1a512eaa330e}" AbsContentSize="60,60" UseAbsSize="True" LuaActionName="Normal" LuaDoneFunctionName="setChat" Name="btnBlacklist_WndCheckOther" RelativePosition="0.93,0.6" Visible="True" Scale="1">
+                            <NormalElement Type="WZUIContainer" GUID="{763df1ce-227b-4fae-88e6-53bdf70942a7}">
+                                <WZUIImage Type="WZUIImage" GUID="{e57d163c-f0f6-44b3-938c-d87df282373f}" File="ui/checkother/common_icon_lahei.png" UseOriginSize="True" Scale="1" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{7367d87e-dc7b-43cf-81eb-a4dff847ced9}">
+                                <WZUIImage Type="WZUIImage" GUID="{b2bc6b74-d348-4355-89eb-da0244964be4}" File="ui/checkother/common_icon_lahei.png" UseOriginSize="True" Scale="1" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{ff3036ce-5b34-4403-894f-43839aea44ae}" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{24f36ea9-2e67-4895-b712-bd35b320af29}" LabelStyleKey="C1_F18_S4_C3" Name="txtBlacklist_WndCheckOther" RelativePosition="0.5,0.15" Text="" Visible="False" />
+                        </Button>
+                        <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onFlowerTitle" RelativePosition="-0.12,-0.3" GUID="{de969bd8-a075-464c-9efc-addd29dc0b9a}" LuaActionName="Normal" AbsContentSize="60,60" UseAbsSize="True" AbsPosition="316.318,389.847" Name="btnFlowerTitle_WndCheckOther" Order="1" Scale="0.9" Visible="False">
+                            <NormalElement Type="WZUIContainer" GUID="{a2dddc44-f8c0-407e-aea2-be8916d9232b}" />
+                            <SelectElement Type="WZUIContainer" GUID="{1d883e01-d79c-475a-a2c0-5dbc856a86b3}" />
+                            <DisableElement Type="WZUIContainer" GUID="{4cb22964-746e-4f62-990a-3d7e927dcf75}" />
+                            <WZUIImage Type="WZUIImage" GUID="{f0169611-22c7-4558-8a46-63b85197f85e}" File="ui/checkother/common_icon_d_sh.png" UseOriginSize="True" Scale="0.75" Name="imgFlowerTitle_WndCheckOther" />
+                        </WZUIButton>
+                        <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onFootTitle" RelativePosition="-0.12,-1.2" GUID="{297e30b5-3da0-4d0f-97d7-620c01e23b35}" LuaActionName="Normal" AbsContentSize="60,60" UseAbsSize="True" AbsPosition="316.318,389.847" Name="btnFootTitle_WndCheckOther" Order="1" Scale="0.9" Visible="False">
+                            <NormalElement Type="WZUIContainer" GUID="{20ff5b6e-f24b-4a2d-a1f8-5e8487dd0c28}" />
+                            <SelectElement Type="WZUIContainer" GUID="{2b9860a6-9571-411b-8adb-99a48cef37d9}" />
+                            <DisableElement Type="WZUIContainer" GUID="{59857ad8-e7be-454e-a4d5-ba357d24b45a}" />
+                            <WZUIImage Type="WZUIImage" GUID="{b99d325d-ccf5-430e-9659-ccd703ae6815}" File="ui/checkother/common_icon_d_cyc.png" UseOriginSize="True" Scale="0.75" Name="imgFootTitle_WndCheckOther" />
+                        </WZUIButton>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="320,340" AbsPosition="0,1" AnchorPoint="0.5,0.5" GUID="{569e006d-1876-49c6-be00-f98e8324de70}" Name="conRoleEquip_WndCheckOther" RelativePosition="0.5,0.4" RelativeSize="1,1" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" Visible="True">
+                        <WZUIContainer AbsContentSize="330,210" AnchorPoint="0.5,0" GUID="{80c5703a-981b-48c8-ade9-3dd925c4dd1f}" Name="conPlayerAni_WndCheckOther" Order="2" RelativePosition="0.45,0.02" RelativeSize="1,1" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True">
+                            <WZUIContainer Type="WZUIContainer" GUID="{15fe2094-1f43-4724-a3d2-e55b198037fe}" Name="conForBoy_WndCheckOther" RelativeSize="0.5,1" RelativePosition="0.22,0.5" Visible="False" Order="1" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{7f2247d4-ee50-4887-8e06-8c27dc5f0ac7}" Name="conForGirl_WndCheckOther" RelativeSize="0.5,1" RelativePosition="0.8,0.5" Visible="False" Order="1" />
+                            <Button Type="WZUIButton" GUID="{f8bb2fef-4b51-469f-95ee-28394a72da5f}" Order="6" LuaDoneFunctionName="onCheckMateInfo" Name="btnBoy_WndCheckOther" RelativePosition="0.22,0.5" RelativeSize="0.5,1">
+                                <NormalElement Type="WZUIContainer" GUID="{705305d9-da02-4458-ab4a-4be5ce0625d6}" />
+                                <SelectElement Type="WZUIContainer" GUID="{62447d05-ff64-4645-b018-278fd7aaf766}" />
+                                <DisableElement Type="WZUIContainer" GUID="{f5be0723-2844-4956-9059-7c4edb8b8b64}" />
+                            </Button>
+                            <Button Type="WZUIButton" GUID="{6c40c0a1-90b6-42ed-8292-34c788b04a11}" Order="6" LuaDoneFunctionName="onCheckMateInfo" Name="btnGirl_WndCheckOther" RelativeSize="0.5,1" RelativePosition="0.8,0.5">
+                                <NormalElement Type="WZUIContainer" GUID="{804e1595-2bb8-464a-b797-1eade1194761}" />
+                                <SelectElement Type="WZUIContainer" GUID="{f724daaf-5170-4d86-955f-8605d08e968b}" />
+                                <DisableElement Type="WZUIContainer" GUID="{f90b4613-e8e4-49e6-b293-bce057e392e1}" />
+                            </Button>
+                            <WZUISpine Type="WZUISpine" GUID="{1bd80391-446f-4a5b-831c-e09332d44538}" FileAtlas="city/ui_main_teleport.atlas" FileJson="city/ui_main_teleport.json" AnimationName="2" Loop="False" RelativePosition="0.294442,0.829007" Name="changeAni" TouchEnable="False" Visible="True" />
+                            <WZUIImage Type="WZUIImage" GUID="{ab9686ff-7d3d-4e85-b854-2599a3fa3cc8}" File="ui/common/common_icon_yy.png" UseOriginSize="True" RelativePosition="0.55,0.12" Name="imgYY" ScaleX="2" ScaleY="1.5" TouchEnable="False" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{bc4c4b7f-de29-4c48-aa9e-e35e473a88f8}" Name="conKid1_WndCheckOther" AbsContentSize="70,80" UseAbsSize="True" RelativePosition="0.5,0.25" Order="6" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{576b17fa-9136-4c7f-bd95-fbd47987d811}" Name="conKid2_WndCheckOther" AbsContentSize="70,80" UseAbsSize="True" RelativePosition="0.5,0.25" Order="6" />
+                        </WZUIContainer>
+                        <WZUIContainer AbsContentSize="120,120" AnchorPoint="0,0" GUID="{9dd73f31-859c-4ce6-ba5f-d56e8fcea22e}" Order="4" RelativePosition="0,0.45" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True" Name="conPet1_WndCheckOther">
+                            <WZUIWindow AbsContentSize="90,100" AnchorPoint="0,0" GUID="{579321f0-b087-4ce4-a057-413e0df08443}" LuaTouchBeganFunction="" LuaTouchEndedFunction="" LuaTouchMovedFunction="" Name="conPet_WndCheckOther" Order="4" RelativePosition="0,0" TouchContainerEnable="True" TouchEnable="False" Type="WZUIWindow" UseAbsSize="True" />
+                            <Button GUID="{37ecb960-8ebe-4b45-a7ec-be6dfc8b6927}" LuaDoneFunctionName="onPetEnd" RelativePosition="0.5,0.5" Scale="1" Type="WZUIButton" AbsContentSize="120,120" UseAbsSize="True" ScaleX="1" ScaleY="1" Name="btnOwnPet_WndCheckOther" AnchorPoint="0.5,0.5" Order="5">
+                                <NormalElement GUID="{74a8793c-e3f5-4748-8ca3-c289a71523e3}" TouchContainerEnable="True" Type="WZUIContainer" />
+                                <SelectElement GUID="{b789c460-6ff3-4beb-aaa3-790975633346}" TouchContainerEnable="True" Type="WZUIContainer" />
+                                <DisableElement GUID="{9410e4ca-d780-453d-a388-ed69d3ac4d04}" Type="WZUIContainer" />
+                            </Button>
+                        </WZUIContainer>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{da288edf-802e-4b57-af71-52ee18aa13f1}" AbsContentSize="330,60" UseAbsSize="True" AnchorPoint="0.5,1" RelativePosition="0.5,-0.01" Name="conFight_WndCheckOther">
+                        <WZUIImage Type="WZUIImage" GUID="{3d3b5eb7-1589-4ef0-b1a5-2ed414043e3c}" File="ui/bag/common_icon_zhandoulidi.png" UseOriginSize="True" RelativePosition="0.5,0.5" ScaleX="0.9" Scale="1" AnchorPoint="0.5,0.5" />
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{7064a853-3529-4ffa-9877-8f47d66a64a7}" RelativePosition="0.5,0.5" Name="fight_WndCheckOther" MaxWidth="500" />
+                        <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onAttr" RelativePosition="-0.05,0.5" GUID="{e5b04980-95ec-421a-bc17-ff1dcfd36ac4}" LuaActionName="Normal" AbsContentSize="60,60" UseAbsSize="True" AbsPosition="316.318,389.847" Name="btnAttr_WndCheckOther" Order="1">
+                            <NormalElement Type="WZUIContainer" GUID="{deda2f90-efd7-41db-854c-4a34b8bdaa64}">
+                                <WZUIImage Type="WZUIImage" GUID="{f37ff8ad-38b1-46f4-a4c1-0b45fbaee1ea}" File="ui/common/common_icon_shuxingtb.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{b5f5bfa0-bbe2-44c1-ae26-0be4e6223c73}">
+                                <WZUIImage Type="WZUIImage" GUID="{32cfae54-54a0-417b-9a05-a560d06d1d2e}" File="ui/common/common_icon_shuxingtb.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{e74e0033-3347-4e35-80a4-a268c89b9875}" />
+                        </WZUIButton>
+                        <WZUIButton Type="WZUIButton" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="1.04,0.5" Name="Btn7_WndCheckOther" GUID="{b8189465-7d58-442c-bc11-376cd405f785}" LuaDoneFunctionName="onClickSetBg" LuaActionName="Normal" Visible="True">
+                            <NormalElement Type="WZUIContainer" GUID="{12188dd7-d446-4c6e-9db6-12ebbf46ba28}" />
+                            <SelectElement Type="WZUIContainer" GUID="{3542e60f-c399-490d-9421-00ae8a16f33f}" />
+                            <DisableElement Type="WZUIContainer" GUID="{9dfbf401-6f4b-4dbf-bf2e-0fac8a35ed36}" />
+                            <WZUIImage Type="WZUIImage" GUID="{c5a64291-6e55-41d9-b47a-c8dcf1cdc20c}" File="shopitems/weapon105.png" UseOriginSize="True" Scale="0.75" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{405b5d29-2da8-4c67-a6d8-65fd1e24008e}" Name="ttfBtn7_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="132,66,29" Text="" RelativePosition="0.5,0.15" LabelStyleKey="C1_F18_S4_C3" TextKey="CHECKOTHER_TEXT3" AbsPosition="58,28" />
+                        </WZUIButton>
+                        <Button Type="WZUIButton" GUID="{02757573-d16d-475b-85fe-b71d1f287f80}" LuaDoneFunctionName="onBtnClickHonor" Name="btnClickHonor" RelativePosition="1.22,0.5" AbsContentSize="60,60" UseAbsSize="True">
+                            <NormalElement Type="WZUIContainer" GUID="{42cca7f7-13ee-4ed6-9334-027912a69b51}">
+                                <WZUIImage Type="WZUIImage" GUID="{4fe22ed4-601b-439e-bfb8-775b6fd031be}" File="ui/space/commom_text_xy.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{bd355766-4f07-4957-9f39-f56d12da4bea}" Scale="1.05">
+                                <WZUIImage Type="WZUIImage" GUID="{1819db73-7936-4f1f-b6a3-0923cfe2fb0d}" File="ui/space/commom_text_xy.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{f06c24bc-62c9-4661-bada-c9330ce0d1ab}" />
+                        </Button>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{85912546-f9b8-44b9-addf-2598b9eb0a7c}" Name="curHonorPoint_WndCheckOther" Color="255,236,193" AnchorPoint="0,0.5" EnableStroke="True" FontSize="22" StrokeColor="132,66,29" StrokeSize="4" RelativePosition="1.29853,0.45" Text="" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{71569221-72af-4889-b342-79debd33ba97}" AbsContentSize="420,50" UseAbsSize="True" RelativePosition="0.494974,0.0637854" AbsPosition="305,250" Name="conSpaceGift_WndCheckOther" ShowAll="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{9fb24b5a-2f31-4418-85d7-e5bdc4e1731b}" AbsContentSize="116,35" UseAbsSize="True" RelativePosition="0.15,0.5">
+                        <WZUI9Image Type="WZUI9Image" GUID="{7ff13dba-732c-47d8-9c44-825c7a58d298}" File="ui/common/common_scale9_di9.png" Opacity="125" />
+                        <Button Type="WZUIButton" GUID="{c2fa3e05-df8a-47fb-89e7-b04fbff35aeb}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.0344828,0.5" AbsPosition="159.75,22.5" LuaDoneFunctionName="onBtn1" Name="topBtn1" LuaActionName="" Scale="0.85" TouchEnable="True" TouchContainerEnable="True">
+                            <NormalElement Type="WZUIContainer" GUID="{49205767-1194-4835-bc55-db166182eaa6}" RelativePosition="0.5,0.5">
+                                <WZUIImage Type="WZUIImage" GUID="{7fad0c01-51f4-43d2-9208-12734c735dbb}" File="ui/space/common_icon_songlw.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" AbsPosition="13.0813,30.9456" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{d25facd7-0331-479c-a4f2-a8fd494af889}">
+                                <WZUIImage Type="WZUIImage" GUID="{2b81b738-ece3-4c1f-8df3-298ab6aaae11}" File="ui/space/common_icon_songlw.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{764f86fd-f992-4e34-88d6-89bc7d56af0d}" />
+                        </Button>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{f62e3297-5b35-4448-b064-be1303c3644c}" LabelStyleKey="" Text="125" RelativePosition="0.9,0.5" Name="ttf1_WndCheckOther" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" AnchorPoint="1,0.5" />
+                        <Button Type="WZUIButton" GUID="{d817566e-d233-482f-ba57-a7abe52ea706}" AbsContentSize="50,50" UseAbsSize="True" Scale="0.85" RelativePosition="1,0.5" Name="btnAddGift_WndCheckOther" Visible="False" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onBtn1">
+                            <NormalElement Type="WZUIContainer" GUID="{e31a5f04-4b48-4d83-acfe-b3dd81082c33}" />
+                            <SelectElement Type="WZUIContainer" GUID="{a0f9131e-9315-4de6-8356-154d5d5e7d34}" />
+                            <DisableElement Type="WZUIContainer" GUID="{15d987f1-8c11-4e7e-aed0-551bf2b647b5}" />
+                            <WZUIImage Type="WZUIImage" GUID="{ec6375f3-f39b-4eaa-8752-419664bc8337}" File="ui/common/common_btn_zj.png" UseOriginSize="True" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{d9ad6cb4-5241-4c84-a9d8-dd24029dd9d2}" AbsContentSize="116,35" UseAbsSize="True" RelativePosition="0.52,0.5">
+                        <WZUI9Image Type="WZUI9Image" GUID="{c44871e4-c21d-45f4-b538-d82c82118ed8}" File="ui/common/common_scale9_di9.png" Opacity="125" />
+                        <Button Type="WZUIButton" GUID="{37cff638-68a0-40e7-aacb-2cf6594afd2f}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.0948276,0.5" AbsPosition="159.75,22.5" LuaDoneFunctionName="onBtn2" Name="topBtn2" LuaActionName="Normal" Scale="0.85">
+                            <NormalElement Type="WZUIContainer" GUID="{da301237-83f4-4c88-a21a-caa9f9eaa02a}">
+                                <WZUIImage Type="WZUIImage" GUID="{b200df71-4557-48af-93e2-98d4b73fbc4d}" File="ui/space/common_icon_caiyc.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{f6d79c7a-2561-45d6-a54c-681edaf9fd32}">
+                                <WZUIImage Type="WZUIImage" GUID="{4227b3fe-20c8-44f3-a5e5-75a2663667e9}" File="ui/space/common_icon_caiyc.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{b53a95ba-ccd7-42ab-bdbd-eb0242f43ffe}" />
+                        </Button>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{876c6333-6f80-4ad8-8eda-d2ddd3b086b3}" LabelStyleKey="" Text="" RelativePosition="0.9,0.5" Name="ttf2_WndCheckOther" FontSize="22" Color="255,255,255" StrokeColor="105,65,46" StrokeSize="4" EnableStroke="True" AnchorPoint="1,0.5" />
+                        <Button Type="WZUIButton" GUID="{5ccd0371-b16a-4c4f-9745-fb2eb9683ab7}" AbsContentSize="50,50" UseAbsSize="True" Scale="0.85" RelativePosition="1,0.5" Name="btnFoot_WndCheckOther" Visible="False" LuaDoneFunctionName="onLeft1" LuaActionName="Normal" LocalInterval="300">
+                            <NormalElement Type="WZUIContainer" GUID="{5a956ed7-9479-448c-9aff-2dcd3c35b142}" />
+                            <SelectElement Type="WZUIContainer" GUID="{bb800238-27da-4924-a4cb-8b8fe61f04ca}" />
+                            <DisableElement Type="WZUIContainer" GUID="{14f8cbeb-1004-41e5-8d3b-4bc41e465d8c}" />
+                            <WZUIImage Type="WZUIImage" GUID="{35fdfaf0-6774-474a-ad30-04d57e644651}" File="ui/checkother/common_btn_wj_cai.png" UseOriginSize="True" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{052d9e71-75ed-433f-91c1-15c78cc0dba0}" AbsContentSize="116,35" UseAbsSize="True" RelativePosition="0.87,0.5">
+                        <WZUI9Image Type="WZUI9Image" GUID="{1745d608-6a09-4efc-be85-abca3aa02a8d}" File="ui/common/common_scale9_di9.png" Opacity="125" />
+                        <Button Type="WZUIButton" GUID="{a95127fc-26cb-4efb-8b63-fb55e1ead219}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.0775862,0.5" AbsPosition="159.75,22.5" LuaDoneFunctionName="onBtn3" Name="topBtn3" LuaActionName="Normal" Scale="0.8">
+                            <NormalElement Type="WZUIContainer" GUID="{86ff69d8-a3ba-42fa-a767-bb68fa36f943}">
+                                <WZUIImage Type="WZUIImage" GUID="{905d6fae-3ed5-4e96-a10c-b8de15c8c15d}" File="ui/space/common_icon_songh.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" AbsPosition="19.0372,29.0401" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{9a736aee-bca6-4f95-84cb-f14dfa49e5c3}">
+                                <WZUIImage Type="WZUIImage" GUID="{1c89de28-2894-4a7b-b00e-58e0babd8371}" File="ui/space/common_icon_songh.png" UseOriginSize="True" Scale="1" RelativePosition="0.5,0.5" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{7035d7e0-1288-41a9-9e61-e08733b5d9d1}" />
+                        </Button>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{aa432fa9-c46b-4281-b9a2-4c16c19c072d}" LabelStyleKey="" Text="" RelativePosition="0.9,0.5" Name="ttf3_WndCheckOther" Color="255,255,255" EnableStroke="True" FontSize="22" StrokeColor="105,65,46" StrokeSize="4" AnchorPoint="1,0.5" />
+                        <Button Type="WZUIButton" GUID="{797d642e-1ce3-4842-a516-5a4afa976edb}" AbsContentSize="50,50" UseAbsSize="True" Scale="0.85" RelativePosition="1,0.5" Name="btnFlower_WndCheckOther" Visible="False" LuaActionName="Normal" LocalInterval="300" LuaDoneFunctionName="onLeft2">
+                            <NormalElement Type="WZUIContainer" GUID="{5fdee333-ea3c-422b-9014-258518bd94d8}" />
+                            <SelectElement Type="WZUIContainer" GUID="{0ed8479c-1325-44e7-b986-58718a23b8ab}" />
+                            <DisableElement Type="WZUIContainer" GUID="{1a739af0-6994-4054-8b91-11e0ece2755c}" />
+                            <WZUIImage Type="WZUIImage" GUID="{65cd98a6-9431-4318-9669-205a60ae6d6d}" File="ui/checkother/common_btn_wj_hua.png" UseOriginSize="True" />
+                        </Button>
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{276b6d88-e58e-4b50-b7aa-942c6cf11a6d}" AbsContentSize="504,640" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" ShowAll="True" Name="conInfo_WndCheckOther">
+                <WZUI9Image Type="WZUI9Image" GUID="{6382f932-5426-4eb2-82f6-863f24dd9739}" File="ui/common/common_liebiao_di.png" Opacity="220" Visible="True" RelativeSize="1.2,1.3" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{a61870a9-1cfd-478c-9425-4eb1414fc96a}" AbsContentSize="490,530" UseAbsSize="True" Name="freeCon_WndCheckOther" EnableMoveHorizontal="False" RelativePosition="0.501328,0.568312" AnchorPoint="0.5,0.5" />
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.799762,0.08" Name="Btn1_WndCheckOther" GUID="{3a846c58-0011-474e-8ce4-7d10e3c1daba}" LuaDoneFunctionName="onFriend" LuaActionName="Normal" Visible="False" Order="1" ShowAll="False">
+                    <NormalElement Type="WZUIContainer" GUID="{d509073b-8c61-499c-b2bb-2f348f29564d}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{0997de40-5f17-4b10-a280-f1bde2a0ac72}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{cec3396d-be6a-4419-a27e-fb0881c7d26f}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{1ec0d334-20b9-4eda-9073-956cf9456b93}" File="ui/common/common_btn_anniu10_0_sel.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{da8cd3bb-537b-4800-a55f-c0eca6aa7d7e}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{7f7c1aa2-bb6d-4de9-8222-bdd214700f53}" Name="ttfBtn1_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="68,128,1" Text="" RelativePosition="0.5,0.5" LabelStyleKey="SMALL_GREEN_BTN" TextKey="" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.218968,0.08" Name="Btn2_WndCheckOther" GUID="{b3315d66-0192-4bf7-aba0-de9a125f0113}" LuaDoneFunctionName="onChat" LuaActionName="Normal" Visible="False" Order="1" ShowAll="False">
+                    <NormalElement Type="WZUIContainer" GUID="{ef5d6e2a-834f-4e13-880d-1f26e13f981f}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{1f34d6c3-2298-4501-8cbb-79e33d581992}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{ce7f57f4-7219-42d1-bfb7-af1fbcf2d869}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{fd2cf184-a423-433c-8aff-3d994c261e30}" File="ui/common/common_btn_anniu10_0_sel.png" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{908db6ce-f3bd-46bf-af72-3c26fc5bf265}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4ea4a022-c6ec-43fc-a282-86577598d658}" Name="ttfBtn2_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="132,66,29" Text="" RelativePosition="0.5,0.5" LabelStyleKey="SMALL_GREEN_BTN" TextKey="SIXIN" AbsPosition="58,28" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.508873,0.08" Name="Btn3_WndCheckOther" GUID="{f8662731-d3e0-424c-bd87-ea664f704013}" LuaDoneFunctionName="onClickMsg" LuaActionName="Normal" Visible="True" Order="1" ShowAll="False">
+                    <NormalElement Type="WZUIContainer" GUID="{ab714832-b150-4616-bb38-90d2d53d2111}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{358f4c0d-908e-4df7-a156-0b56449455b7}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{d519779c-019f-4fc3-9038-a292d865e323}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{6d6c0ce4-09dd-497d-8bac-26871923ef55}" File="ui/common/common_btn_anniu10_0_sel.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{e02b07dc-f741-48a5-8682-f7e26cf1aecc}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{1091773d-8c39-473f-b025-6f15d24e5a95}" Name="ttfBtn3_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="0,72,3" Text="" RelativePosition="0.5,0.5" LabelStyleKey="" TextKey="SPACE66" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.799762,0.08" Name="Btn4_WndCheckOther" GUID="{41c6b209-6078-4c8c-b815-cb92cc20c0ea}" LuaDoneFunctionName="deleteMiFriend" LuaActionName="Normal" Visible="True" Order="1" ShowAll="False">
+                    <NormalElement Type="WZUIContainer" GUID="{a9e1458c-9834-496f-b3a3-d923b220da3a}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{4fbd9831-3971-4f13-96f0-c4f7542938c3}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{db0e66cc-a2ed-42af-8e64-0c248d9e20c9}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{47a7aa5e-75e5-4b56-ab09-690bf5790a07}" File="ui/common/common_btn_anniu10_0_sel.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{ea95ca36-35e9-4355-88f6-c6d22030fb78}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{e4c570c6-8c41-4e7b-ba25-af76c3b5bd4f}" Name="ttfBtn4_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="68,128,1" Text="" RelativePosition="0.5,0.5" LabelStyleKey="SMALL_GREEN_BTN" TextKey="BAG3" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="136,62" UseAbsSize="True" RelativePosition="0.219,0.08" Name="Btn5_WndCheckOther" GUID="{5f6242e9-bf79-4c11-ad8c-e4ae45b0b96a}" LuaDoneFunctionName="onHero" LuaActionName="Normal" Visible="False" Order="1">
+                    <NormalElement Type="WZUIContainer" GUID="{c8b600bf-6d4f-4e47-9abf-ffa8e42e3e08}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{588d9c4f-e8a7-4265-8990-4730ea28bdad}" File="ui/common/common_btn_anniu3_1.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{080dce1e-6b13-4543-850b-5d0cd66b3f8f}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{85fb38b2-63d1-4185-8d3c-096f11dbf17d}" File="ui/common/common_btn_anniu3_1_sel.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{2557b861-c88a-4251-9cf5-4c11cf77a2ac}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4c4c56fd-3682-4717-8f14-e82a6b6dd9e6}" Name="ttfBtn5_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="68,128,1" Text="" RelativePosition="0.5,0.5" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="HEROBLOC" />
+                    <WZUIImage Type="WZUIImage" GUID="{09d5383c-5bc5-4a02-826f-7c03ca83b087}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.955,0.88" Name="red5_WndCheckOther" Visible="False" AbsPosition="53.9,55.7" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.219,0.08" Name="Btn6_WndCheckOther" GUID="{a9ea1533-9383-4e2c-949c-23bcc39e9b84}" LuaDoneFunctionName="onClickCode" LuaActionName="Normal" Visible="False" Order="1">
+                    <NormalElement Type="WZUIContainer" GUID="{0dd8b1ce-22e1-40e1-a481-6d7414d00f0f}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{bc319182-3679-4b6f-9b46-f667bcaf851d}" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{d073a558-9e7d-4e94-8bd7-75c33d34fff4}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{95655a8f-f16c-47e6-9840-f231795bd48b}" File="ui/common/common_btn_anniu3_0_sel.png" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{42ed6d05-68a7-487f-9bba-5fa734bce574}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{136062d7-6439-4d93-a590-8c175ae4d4ba}" Name="ttfBtn6_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="132,66,29" Text="" RelativePosition="0.5,0.5" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="SETTING_EXCHANGEWORD" AbsPosition="58,28" />
+                </WZUIButton>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.8,0.08" Name="btnVisitor_WndCheckOther" GUID="{19235ad1-6efa-4741-bd58-c9b984b9b529}" LuaDoneFunctionName="onClickVisitor" LuaActionName="Normal" Visible="True" Order="1">
+                    <NormalElement Type="WZUIContainer" GUID="{dce20dcb-5469-4d2f-ae2a-9a1c44eb2597}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{e79aecc0-1b0a-44fc-b720-9633ce2e6ce8}" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{39582cfa-58a8-4416-bbcd-a392578f5be1}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{c503726d-f764-4d2d-94f2-6d258d09948f}" File="ui/common/common_btn_anniu10_0_sel.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{647d6aa8-2b98-4eee-ba3b-8cacedb9387a}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{036db989-e430-4a70-a775-c3974b290d7d}" Name="txtBtnVisitor_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="0,72,3" Text="" RelativePosition="0.5,0.5" LabelStyleKey="" TextKey="CHECKOTHER_NEWTEXT1" />
+                </WZUIButton>
+                <WZUIContainer Type="WZUIContainer" GUID="{7fa959e2-7cb7-4b38-917a-a2f82b146616}" AbsContentSize="134,264" UseAbsSize="True" Order="1" Name="conOtherBtn_WndCheckOther" RelativePosition="0.218968,0.03" AnchorPoint="0.5,0" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{94bb2111-de76-480f-98a8-7f2103ddf26e}" File="ui/common/common_scale9_di45.png" />
+                    <WZUIButton Type="WZUIButton" AbsContentSize="120,62" UseAbsSize="True" RelativePosition="0.5,0.844" Name="Btn5_2_WndCheckOther" GUID="{a8cb46f4-d956-4524-b8e7-00e91aa84275}" LuaDoneFunctionName="onHero" LuaActionName="Normal" Visible="False" Order="1">
+                        <NormalElement Type="WZUIContainer" GUID="{211d3fe2-b394-44f3-8576-1770a0a8185e}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{c51f8813-954b-4ffc-aee8-e077037bc094}" File="ui/shop/common_btn_shop.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{7205770c-90eb-476a-94ef-073cb96c5872}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{a9e0dcca-886f-4a9f-af3d-46a38fca5765}" File="ui/shop/common_btn_shop.png" RelativePosition="0.5,0.5" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{e1f84521-e4ef-4f31-a722-bb65f14fdf24}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{0338d53d-d1ad-4307-9fa4-5f6844f7831d}" Name="ttfBtn5_2_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="79,60,48" Text="" RelativePosition="0.5,0.5" LabelStyleKey="" TextKey="HEROBLOC" Scale="0.8" />
+                        <WZUIImage Type="WZUIImage" GUID="{d552d13a-134a-4f25-9930-dfa6c41e9ede}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.913333,0.863871" Name="red5_2_WndCheckOther" Visible="False" AbsPosition="53.9,55.7" />
+                    </WZUIButton>
+                    <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.5,0.606" Name="Btn6_2_WndCheckOther" GUID="{4dc31f56-6b26-43fd-b106-b5cbdd8ba73d}" LuaDoneFunctionName="onClickCode" LuaActionName="Normal" Visible="False" Order="1">
+                        <NormalElement Type="WZUIContainer" GUID="{6abe4620-7a9b-46bc-88ea-2b86c260034c}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{3771558b-8d39-43a2-8d50-573ffb66564a}" File="ui/shop/common_btn_shop.png" UseOriginSize="True" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{d08dde2f-7398-4235-9074-fe826e177c35}">
+                            <WZUI9Image Type="WZUI9Image" GUID="{e925610c-65ca-4260-b7d7-1871ae71b02c}" File="ui/shop/common_btn_shop.png" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{f0d249cd-27a8-402b-a6a7-8562cad7eba6}" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{74b23993-c8c0-471c-8a41-77207bad3ac0}" Name="ttfBtn6_2_WndCheckOther" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="79,60,48" Text="" RelativePosition="0.5,0.5" LabelStyleKey="" TextKey="SETTING_EXCHANGEWORD" AbsPosition="58,28" Scale="0.8" />
+                    </WZUIButton>
+                    <WZUIContainer Type="WZUIContainer" GUID="{0a8a63a4-fffb-4571-ba0f-85af741e3dca}" Name="conForShare_WndCheckOther" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.5,0.368" Visible="False" />
+                </WZUIContainer>
+                <WZUIButton Type="WZUIButton" AbsContentSize="116,56" UseAbsSize="True" RelativePosition="0.219,0.08" Name="btnOther_WndCheckOther" GUID="{2785dd4c-1359-4c52-abf5-44533d4352bb}" LuaDoneFunctionName="onClickOther" LuaActionName="Normal" Visible="False" Order="1">
+                    <NormalElement Type="WZUIContainer" GUID="{79866a91-4e90-4b5a-8665-8b1e16679cc1}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{34db0e66-8693-4e6f-b7ad-caa3bf59d7ce}" File="ui/common/common_btn_anniu7.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{5bfcc3dd-9846-4713-8830-07af623e107f}">
+                        <WZUI9Image Type="WZUI9Image" GUID="{2c82f690-f22d-4e53-9b54-f4f363fc6918}" File="ui/common/common_btn_anniu7_sel.png" Scale="1" ScaleX="1" ScaleY="1" UseOriginSize="True" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{2e1d83d8-b077-443a-8d73-dcb1a1853cc1}" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{e4e3e545-db49-4cfd-8e9a-499af828f5b6}" Name="" FontSize="24" BoldFont="True" EnableStroke="True" StrokeSize="4" Color="255,236,193" StrokeColor="132,66,29" Text="" RelativePosition="0.5,0.5" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="OTHERS" AbsPosition="58,28" />
+                </WZUIButton>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{736bbfc4-cd74-48b6-8c81-06530eef9c29}" AbsContentSize="480,440" UseAbsSize="True" Name="conForBg_WndCHeckOther" RelativePosition="0.419093,0.348391" Order="999" Visible="False" ShowAll="True">
+            <Button Type="WZUIButton" GUID="{7bc59382-b69d-424e-af8e-83dd8bcb95e2}" Scale="5" LuaDoneFunctionName="onCloseBgSet">
+                <NormalElement Type="WZUIContainer" GUID="{ea965fb2-a960-43af-9208-4d0fd30d4b09}" />
+                <SelectElement Type="WZUIContainer" GUID="{4f48a716-ee63-4c32-8619-e6c94111afbb}" />
+                <DisableElement Type="WZUIContainer" GUID="{1707f604-3fb4-4901-8a37-db854c65b22e}" />
+            </Button>
+            <WZUI9Image Type="WZUI9Image" GUID="{f7ed4d1e-3e0c-47a3-9b3d-7eeb06dadc24}" File="ui/common/common_scale9_di110.png" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{cd64b86a-c361-4266-b4ee-08e6df9625cc}" RelativePosition="0.03,0.96" AnchorPoint="0,0.5" Text="" Name="txtTimeKey_WndCheckOther" FontSize="22" Color="255,236,193" Visible="False" TextKey="DISCOUNT_END_COUNTDOWN">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{db93bcf5-dae0-4a96-83c8-e3673569460f}" AnchorPoint="0,0.5" RelativePosition="1.02,0.5" Text="" FontSize="22" Name="txtTimeValue_WndCheckOther" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{9ade9602-7e9b-4169-952c-9afa71643b6a}" AbsContentSize="480,420" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0">
+                <WZUITableContainer Type="WZUITableContainer" GUID="{803565a9-59b0-4ffb-b3c6-4e49f7b9d775}" Name="tbForBg_WndCheckOther" RelativeSize="0.95,0.76" AnchorPoint="0.5,1" RelativePosition="0.5,0.969048" EnableMoveHorizontal="False" ColumnCount="3" CellElementHeight="0.25" />
+                <WZUIContainer Type="WZUIContainer" GUID="{958d5dd9-1525-4953-a918-5ac82aeb2646}" AnchorPoint="0.5,0" RelativePosition="0.5,0" RelativeSize="1,0.18">
+                    <WZUICheckBox Type="WZUICheckBox" GUID="{430c46ba-9b2b-475c-9ab1-8d64420f71f2}" AbsContentSize="130,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.05,0.88" SelectedIndex="0" LuaCheckedFunctionName="onClickWing" Name="checkBoxWing_WndCheckOther">
+                        <CheckElement Type="WZUIContainer" GUID="{5b2719ef-7169-4beb-bca0-eb98acd53345}">
+                            <WZUIImage Type="WZUIImage" GUID="{c6f432fd-edff-4881-8016-be09989bf1a8}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{25b96662-f464-4c8b-8aba-554e71ee78f7}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT4" Name="txtWing1_WndCheckOther" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{262123c9-a52b-4a4b-a527-ccbec0ec7d36}">
+                            <WZUIImage Type="WZUIImage" GUID="{d46f3359-53e9-4fd0-97e5-622936524511}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{76dabe00-c3d4-4ef6-9646-40802df77e99}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4ff04726-63ab-4c69-a00e-9d158bd3f6d4}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT4" Name="txtWing2_WndCheckOther" />
+                        </CheckElement>
+                    </WZUICheckBox>
+                    <WZUICheckBox Type="WZUICheckBox" GUID="{656442af-5fcd-4305-9699-a2a52f9f5e84}" AbsContentSize="130,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.36,0.88" SelectedIndex="0" LuaCheckedFunctionName="onClickMate" Name="checkBoxMate_WndCheckOther">
+                        <CheckElement Type="WZUIContainer" GUID="{ce28e24a-b65a-4443-af3f-6e077cb042d7}">
+                            <WZUIImage Type="WZUIImage" GUID="{c4c60f30-720d-4879-a57b-55e4f1a1f492}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c0ae0df1-f833-475f-8d30-1464313f9ae4}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT5" Name="txtMate1_WndCheckOther" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{5b6e9935-4dea-4a0c-9b55-8a21a3d1e457}">
+                            <WZUIImage Type="WZUIImage" GUID="{7cc5d58a-5f60-4b7e-93b3-be2fdb23af1c}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{27a4061f-34ae-4cec-8747-7544a55cfd46}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5c5cfec3-ffcf-4e4c-897a-4b8cb5aad262}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT5" Name="txtMate2_WndCheckOther" />
+                        </CheckElement>
+                    </WZUICheckBox>
+                    <WZUICheckBox Type="WZUICheckBox" GUID="{70124da0-836c-4baf-833e-f2c8f0ce2549}" AbsContentSize="130,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.05,0.35" SelectedIndex="0" LuaCheckedFunctionName="onClickShowPet" Name="checkBoxPet_WndCheckOther">
+                        <CheckElement Type="WZUIContainer" GUID="{3bbcef58-cc09-4025-a960-3a47f7cc60b1}">
+                            <WZUIImage Type="WZUIImage" GUID="{57c533f0-0580-456c-bcd0-ccc106b7df4f}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{8ba1ed1d-3b66-40b0-bd65-c1c76da42629}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT6" Name="txtPet1_WndCheckOther" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{1110c63d-d7b3-445a-af48-aa121ab49174}">
+                            <WZUIImage Type="WZUIImage" GUID="{e3aec84a-a828-413e-899f-99be54c76dc9}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{79c854c5-868c-4d02-810e-d24ca2f20544}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{96539912-d391-4795-8d30-a41eed2260cc}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT6" Name="txtPet2_WndCheckOther" />
+                        </CheckElement>
+                    </WZUICheckBox>
+                    <WZUICheckBox Type="WZUICheckBox" GUID="{c0b24471-3661-42c7-a586-bc3294560847}" AbsContentSize="130,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.36,0.35" SelectedIndex="0" LuaCheckedFunctionName="onClickShowKid" Name="checkBoxKid_WndCheckOther" Visible="True">
+                        <CheckElement Type="WZUIContainer" GUID="{75c86d6a-2334-4c83-b907-3b3884274a02}">
+                            <WZUIImage Type="WZUIImage" GUID="{d9ef25ba-bc3a-435d-a118-82635867ea5e}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5e852a58-13b1-4d13-acf4-0548d53a9ca2}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT7" Name="txtKid1_WndCheckOther" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{ac799dbd-c47d-4765-a3f3-3a8de65aa716}">
+                            <WZUIImage Type="WZUIImage" GUID="{822a5027-b320-4edf-930a-864704b682fa}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{95a625b6-dafa-4485-9c09-6a23760f53d2}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bcd57f09-787d-47a7-93ca-b2596d0eaf98}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_TEXT7" Name="txtKid2_WndCheckOther" />
+                        </CheckElement>
+                    </WZUICheckBox>
+                    <WZUICheckBox Type="WZUICheckBox" GUID="{69980243-51d8-4e52-98ef-b7126456097e}" AbsContentSize="130,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.67,0.88" SelectedIndex="0" LuaCheckedFunctionName="onClickShowMount" Name="checkBoxMount_WndCheckOther" Visible="True">
+                        <CheckElement Type="WZUIContainer" GUID="{436b260b-8b79-4f11-8bd9-c0f123b31ba6}">
+                            <WZUIImage Type="WZUIImage" GUID="{03b0d9d0-f212-4abe-9406-07dfa058041c}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5d0a7993-f065-46ae-ae35-5ec13cb40acf}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_MOUNT" Name="txtMount1_WndCheckOther" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{055775b9-2ddc-4135-9a3c-8242deee81a8}">
+                            <WZUIImage Type="WZUIImage" GUID="{bfc62958-def6-4f2b-8483-4875ecb5f4cb}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{e63c293b-6a8f-46a1-b389-f39200a816a2}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{19abf3eb-6c39-4499-9076-72a7ed13e64e}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="CHECKOTHER_MOUNT" Name="txtMount2_WndCheckOther" />
+                        </CheckElement>
+                    </WZUICheckBox>
+                    <WZUICheckBox Type="WZUICheckBox" GUID="{c65a66d8-ed80-486d-bb16-8506285d565a}" AbsContentSize="130,30" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.67,0.35" SelectedIndex="0" LuaCheckedFunctionName="onClickShowSkin" Name="checkBoxSkin_WndCheckOther" Visible="True">
+                        <CheckElement Type="WZUIContainer" GUID="{8e065d3b-ee47-4014-8cd2-1d07a0713180}">
+                            <WZUIImage Type="WZUIImage" GUID="{379acb3c-9f3d-429e-b46a-2f62cea8f050}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{770f3fc9-e27f-47b3-a7ab-262b3e7f67b0}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="PHANTOM30" Name="txtSkin1_WndCheckOther" />
+                        </CheckElement>
+                        <CheckElement Type="WZUIContainer" GUID="{f853b461-f51d-4950-b350-3b262d497d11}">
+                            <WZUIImage Type="WZUIImage" GUID="{043d2405-159a-453b-a1f5-0cd9cd210085}" File="ui/common/common_scale9_di68.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUIImage Type="WZUIImage" GUID="{f69f6543-7625-4f80-b93b-9c4ad9b67be9}" File="ui/common/common_icon_gou.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{1a26a6b0-15c1-4e55-b1dd-355bb7c6e3b3}" FontSize="22" Color="255,236,193" AnchorPoint="0,0.5" RelativePosition="0.32,0.5" TextKey="PHANTOM30" Name="txtSkin2_WndCheckOther" />
+                        </CheckElement>
+                    </WZUICheckBox>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{c1cc1c5c-87ef-43c9-b6c4-cae7c0b8a2af}" ShowAll="False" Name="conMessage_WndCheckOther" RelativeSize="1,0.25" RelativePosition="0.5,0.76" TouchEnable="False" Order="999" />
+    </WZUIWindow>
+</WndCheckOther>

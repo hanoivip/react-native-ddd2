@@ -1,0 +1,86 @@
+﻿<WndDoubleSevenRank GUID="{0913eddc-8898-4dcb-a7e4-874aca3f2ee3}">
+    <WZUIWindow Type="WZUIWindow" GUID="{121795b2-73d9-4742-bc07-a94e4e7990cc}" Name="WndDoubleSevenRank" LuaObjectName="WndDoubleSevenRank" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{5ba9bfd3-bd3f-4349-9a1d-9f7c7baa25e6}" UseAbsSize="True" AbsContentSize="874,534" Order="0" Visible="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{50661759-9746-4444-a4c0-8e2b88ffc269}" File="ui/common/frame_dadi.png" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{d7693277-aa53-46cd-82d0-84e7e8e619be}" UseAbsSize="True" AbsContentSize="854,514">
+            <WZUI9Image Type="WZUI9Image" GUID="{5729533b-32ee-4992-9061-0915f4e40dea}" File="ui/common/frame_tc_xiao.png" />
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{a3051a30-6978-422d-9b86-789771e2114b}" Name="btnClose" LuaDoneFunctionName="onClickClose" UseAbsSize="True" AbsContentSize="70,70" RelativePosition="0.84941,0.859892">
+            <NormalElement Type="WZUIContainer" GUID="{e3c5bf31-0d11-49c0-819d-9c04dc3974c4}">
+                <WZUIImage Type="WZUIImage" GUID="{93f74aa2-aad0-4472-b27b-739e8a2cf9c0}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" UseOriginSizeProportion="False" />
+            </NormalElement>
+            <SelectElement Type="WZUIContainer" GUID="{69aa810b-d1bb-41a7-8139-77f9f398716d}">
+                <WZUIImage Type="WZUIImage" GUID="{5d578f48-93ee-483a-9543-f0bcfd2ce0b0}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="False" />
+            </SelectElement>
+            <DisableElement Type="WZUIContainer" GUID="{65c57c45-f14c-457d-928c-bda0848bf56a}" />
+        </Button>
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{26d6f778-78ba-420c-9fe1-eeb8358acc65}" FontSize="26" Name="title_name" Text="" Color="255,236,193" EnableStroke="True" StrokeColor="127,70,26" StrokeSize="4" RelativePosition="0.500,0.85465" />
+        <WZUIContainer Type="WZUIContainer" GUID="{7560b6ab-2348-49a8-be1e-ea3f0d3df04b}" Name="titleCon" AbsContentSize="120,200" UseAbsSize="True" RelativePosition="0.878,0.672957" AnchorPoint="0,0.5" Order="-1">
+            <Button Type="WZUIButton" GUID="{f6119e54-e9b3-46e4-a8b2-05e2aa6f5d09}" UseAbsSize="True" AbsContentSize="115,59" AbsPosition="0.5,0.5" RelativePosition="0.500,0.824252" Name="btn_1" LuaDoneFunctionName="onClickChangeTitle" Tag="1" Order="1">
+                <NormalElement Type="WZUIContainer" GUID="{b536cb46-57b9-4c94-86ba-5b67155536e5}" />
+                <SelectElement Type="WZUIContainer" GUID="{4c2eb3e1-bc93-4458-97b5-c7fb6f06bc9c}" />
+                <DisableElement Type="WZUIContainer" GUID="{da2e3904-ad4c-47a4-813f-2ca8d58cace0}" />
+                <WZUIImage Type="WZUIImage" GUID="{08cc70c2-15ad-443a-ade9-40c79c233780}" File="ui/common/common_btn_21.png" UseOriginSize="True" Name="normal_1" Order="0" />
+                <WZUIImage Type="WZUIImage" GUID="{1bc72f35-cfbd-4ce5-9e42-e52a74da78f0}" File="ui/common/common_btn_20.png" UseOriginSize="True" Name="select_1" Order="0" Visible="True" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{4861febf-93e1-4d3e-8e05-b48374d325ff}" FontSize="22" Name="name_1" Text="" Color="255,236,193" EnableStroke="True" StrokeColor="127,70,26" StrokeSize="4" RelativePosition="0.5,0.5" />
+            </Button>
+            <Button Type="WZUIButton" GUID="{a4d85ccc-c006-4505-9be1-b3e24e23fcc8}" UseAbsSize="True" AbsContentSize="115,59" AbsPosition="0.5,0.5" RelativePosition="0.5,0.421732" Name="btn_2" LuaDoneFunctionName="onClickChangeTitle" Tag="2">
+                <NormalElement Type="WZUIContainer" GUID="{6252ae70-b87d-4d25-9b77-eb820f4a4b8b}" />
+                <SelectElement Type="WZUIContainer" GUID="{fa3a5f2e-c9ab-46e2-9bd5-ff6f82e871bf}" />
+                <DisableElement Type="WZUIContainer" GUID="{da96073b-b42f-4d0a-96a0-1b0a1215d86f}" />
+                <WZUIImage Type="WZUIImage" GUID="{a2cac364-0116-47c5-92a5-205333919b1a}" File="ui/common/common_btn_21.png" UseOriginSize="True" Name="normal_2" />
+                <WZUIImage Type="WZUIImage" GUID="{301b9c79-33de-46cd-b0da-17c8e4a8077b}" File="ui/common/common_btn_20.png" UseOriginSize="True" Name="select_2" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{da4b7e66-e011-4f06-b08a-f9f2e202464a}" FontSize="22" Name="name_2" Text="" Color="255,236,193" EnableStroke="True" StrokeColor="127,70,26" StrokeSize="4" RelativePosition="0.5,0.5" />
+            </Button>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{4b59cda5-ba8d-4a21-9d44-f054362bc3ef}" Name="reward_container" UseAbsSize="True" AbsContentSize="850,460" RelativePosition="0.499016,0.458071" Visible="False">
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{7bce2141-cc5f-44e1-9690-b7d8543d7b66}" EnableMoveHorizontal="False" UseAbsSize="True" AbsContentSize="830,445" RelativePosition="0.50,0.504861" Name="reward_freeList" ListItemInterval="6" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{73cc2830-a2b7-422d-bd25-53a29e2f2389}" Name="rank_container" UseAbsSize="True" AbsContentSize="850,460" RelativePosition="0.499016,0.458071" Visible="True">
+            <WZUIFreeListContainer Type="WZUIFreeListContainer" GUID="{b6fa778b-814b-456d-9ae0-2d7fb3d36d1a}" EnableMoveHorizontal="False" UseAbsSize="True" AbsContentSize="830,370" RelativePosition="0.5,0.105" Name="rank_freeList" AnchorPoint="0.5,0" ListItemInterval="6" />
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{55e04ccb-416e-479b-9c7b-befe872cbe9d}" MaxWidth="400" UseAbsSize="True" ShowText="" RelativePosition="0.0422325,0.055" AnchorPoint="0,0.5" Name="score_freetext" />
+            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{775d6817-87f7-4912-b7e4-12e411d132f3}" MaxWidth="400" UseAbsSize="True" ShowText="" RelativePosition="0.956452,0.055" AnchorPoint="1,0.5" Name="value_freetext" />
+            <WZUIContainer Type="WZUIContainer" GUID="{d9931d7b-08bb-49a5-84a9-53454c97ddf3}" UseAbsSize="True" AbsContentSize="822,32" RelativePosition="0.5,0.950">
+                <WZUI9Image Type="WZUI9Image" GUID="{1a6bf5b8-0aa0-4c39-b05b-65c98b613640}" File="ui/common/frame_12.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{358dcd17-5bbf-466f-b377-305d6ab4ce0b}" FontSize="20" Text="排名" Color="255,255,255" RelativePosition="0.0824089,0.47" Name="rank_label" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{feb2bafd-8204-4e38-a53a-fb936be62f7e}" FontSize="20" Text="情侣" Color="255,255,255" RelativePosition="0.495919,0.47" Name="love_label" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{7a3d5927-3837-4fc2-a38d-488993ba0db7}" FontSize="20" Text="告白情侣值" Color="255,255,255" RelativePosition="0.903988,0.47" Name="love_value_label" />
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{15bf84ef-add5-40a0-8606-c99a458c14db}" Name="reward_item" UseAbsSize="True" AbsContentSize="822,82" Visible="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{3c258b2a-1818-46b6-9db2-bcd65c8dcb27}" File="ui/common/frame_lieb.png" />
+            <WZUIImage Type="WZUIImage" GUID="{a40d6ea5-369a-49b8-bbc4-6e02806252fe}" Name="rank_img" UseOriginSize="True" File="ui/common/common_icon_1st_1.png" RelativePosition="0.0579248,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{1c367ff0-b47f-4f72-b97c-34b3a6d2eb50}" Name="good_con_reward" UseAbsSize="True" AbsContentSize="600,80" RelativePosition="0.999205,0.5" AnchorPoint="1,0.5" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{4c52cb8a-62a9-41c6-9f66-b35705b71b57}" FontSize="30" Text="" Color="127,70,26" RelativePosition="0.0574238,0.5" Name="rank_label" />
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{30e1635e-73c1-406a-8837-a82bbd6cd869}" Name="rank_item" UseAbsSize="True" AbsContentSize="822,92" Visible="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{c9b53997-5e7a-462d-9c3e-8716e8767d80}" File="ui/common/frame_lieb.png" />
+            <WZUIImage Type="WZUIImage" GUID="{f36eb790-11f1-4233-8da2-50d4ce5adc9b}" File="ui/common/common_icon_1st_1.png" UseOriginSize="True" RelativePosition="0.0715271,0.5" Name="rank_vlaue_img" />
+            <WZUIContainer Type="WZUIContainer" GUID="{296effa0-573e-47e8-bc3e-1ba9989d6769}" UseAbsSize="True" AbsContentSize="90,90" RelativePosition="0.22,0.487847" Name="my_head">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{3507a2b5-c717-469c-ac57-98e1901cebb4}" Name="my_name" AnchorPoint="0,0.5" FontSize="22" Text="" RelativePosition="0.95,0.624234" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{39c61c25-28a8-429d-bad5-30c7b9efff81}" FontSize="20" Text="Lv." AnchorPoint="0,0.5" RelativePosition="0.95,0.288801" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{bfbff1a5-9d47-4e2f-95a1-13738c28d238}" AnchorPoint="0,0.5" Name="lv_label" FontSize="20" Color="229,105,22" Text="" RelativePosition="1.3,0.288801" />
+                <Button Type="WZUIButton" GUID="{4b5ba52e-a6c0-4773-ae5f-9b3cc5b3018d}" LuaDoneFunctionName="onClickMyHead">
+                    <NormalElement Type="WZUIContainer" GUID="{7d52df9c-eb7e-431a-ba21-9274b75fce95}" />
+                    <SelectElement Type="WZUIContainer" GUID="{d67e4a18-9ae6-4ae9-9409-67eb84f325e1}" />
+                    <DisableElement Type="WZUIContainer" GUID="{880e6f6d-5d83-46bd-9720-eb372c526719}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIImage Type="WZUIImage" GUID="{02f319ac-9fee-460b-8830-51ea6748679a}" File="ui/common/common_05.png" UseOriginSize="True" RelativePosition="0.470075,0.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{516727b0-e7d2-43a1-a62c-e652a3a52574}" UseAbsSize="True" AbsContentSize="90,90" RelativePosition="0.570733,0.5" Name="other_head">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{996af9eb-67be-4e25-9292-da8f620a6cac}" Name="other_name" AnchorPoint="0,0.5" FontSize="22" Text="" RelativePosition="0.95,0.624234" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{dae5186a-5323-4dd7-a451-0f839aba19e6}" FontSize="20" Text="Lv." AnchorPoint="0,0.5" RelativePosition="0.95,0.288801" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{dca61b32-d9db-46f8-b4ff-a157a52513ac}" AnchorPoint="0,0.5" Name="other_lv_label" FontSize="20" Color="229,105,22" Text="" RelativePosition="1.3,0.288801" />
+                <Button Type="WZUIButton" GUID="{be3fc4a7-b01d-44d5-81cd-62f1ce6a4938}" LuaDoneFunctionName="onClickOtherHead">
+                    <NormalElement Type="WZUIContainer" GUID="{5b553135-5e1c-45d4-92c8-ce27640fe9c0}" />
+                    <SelectElement Type="WZUIContainer" GUID="{c18c693f-f247-4548-ab94-64258cde1a02}" />
+                    <DisableElement Type="WZUIContainer" GUID="{3c30db26-80a7-45d8-8b14-7bd5a9d20bf7}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIImage Type="WZUIImage" GUID="{593911d0-17c6-42d3-84f9-bb467b0d1411}" Name="love_item" File="ui/doubleSeven/cj_xin.png" UseOriginSize="True" RelativePosition="0.869983,0.5" Scale="0.8" ScaleX="0.8" ScaleY="0.8" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ac75a6b4-234c-4c71-a5ca-60e78773be89}" AnchorPoint="0,0.5" Color="229,105,22" FontSize="20" Text="" RelativePosition="0.92,0.5" Name="love_count" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{c06e6922-c53e-4500-84dd-089167b9fc0e}" Color="127,70,26" FontSize="36" Text="100" RelativePosition="0.06,0.5" Name="rankValueLabel" />
+        </WZUIContainer>
+    </WZUIWindow>
+</WndDoubleSevenRank>

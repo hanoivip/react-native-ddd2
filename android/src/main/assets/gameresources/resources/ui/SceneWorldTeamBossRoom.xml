@@ -1,0 +1,345 @@
+﻿<SceneWorldTeamBossRoom GUID="{0d677092-54c8-4782-bd5b-2cefa1138088}">
+    <WZUIFrame GUID="{4bde9b9d-e506-4414-8d10-7e3b6c2e1793}" LuaObjectName="SceneWorldTeamBossRoom" LuaTouchBeganFunction="onTouchBegan" Name="SceneWorldTeamBossRoom" NameCreate="True" NoBorder="False" ShowAll="False" Tag="-1" Type="WZUIFrame">
+        <WZUIContainer Type="WZUIContainer" GUID="{175c9a5b-e3ec-439d-8088-b41d0c83abce}" Name="conBg_SceneWorldTeamBossRoom" TouchEnable="False" Order="-1" Visible="True">
+            <WZUIImage Type="WZUIImage" GUID="{e66b6289-b7f0-48a8-9f64-274a3551f0b8}" File="ui/common_bg/common_pic_xebl_02.png" isValid="True" Visible="True" Scale="1" />
+        </WZUIContainer>
+        <WZUILabelAtlasFont CharMapFileName="image/common/num/count_down_number.png" Color="255,0,0" GUID="{eb42240f-dcc7-4866-a6c0-586b81d61dbc}" Height="150" Name="txtMakePairTime_SceneWorldTeamBossRoom" Order="501" RelativePosition="0.5,0.5" ShowAll="True" Text="1" Type="WZUILabelAtlasFont" UseOriginSize="True" Visible="True" Width="102" />
+        <WZUIContainer Type="WZUIContainer" GUID="{83aadc93-8705-4e4b-89a3-49b2dcf2de06}" RelativePosition="0.5,0" AbsPosition="480,76" AbsContentSize="1136,578" UseAbsSize="True" AnchorPoint="0.5,0" Visible="True" ShowAll="False" Order="0">
+            <WZUIContainer Type="WZUIContainer" GUID="{c97737bc-7174-4b46-b10e-4a0cc0ccd930}" Name="conCenter_SceneWorldTeamBossRoom" RelativePosition="0.32,0.55" UseAbsSize="True" AbsContentSize="502,456" Visible="True" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{e11f7495-fe22-4855-924c-c9a2ee15724a}" AbsContentSize="286,426" UseAbsSize="True" RelativePosition="0.22,0.5" Name="conSeat1_SceneWorldTeamBossRoom" AnchorPoint="0.5,0.5" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUI9Image Type="WZUI9Image" GUID="{ef2a4c52-8e15-4cf2-b2d7-1a7b17cc84e5}" File="ui/copy/common_cj_dizuo.png" Visible="True" UseOriginSize="True" RelativePosition="0.5,0.06" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{c2a2f43a-09b1-42f3-9dfb-a5697cde1308}" Name="conSeatInfo_SceneWorldTeamBossRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{e226e21f-72d5-4f67-b46d-a46dbe6059c6}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_SceneWorldTeamBossRoom" RelativePosition="0.5,0.2" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{0d113914-1289-483a-b225-3b087554d7cb}" Name="conForNameAndTitle_SceneWorldTeamBossRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.64" TouchEnable="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{022e57a3-cfbf-41bf-b783-4638349d3607}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_SceneWorldTeamBossRoom" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{50639656-618f-48cc-8cab-d867ff92c377}" Name="txtPlayerTitle_SceneWorldTeamBossRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{a26da640-1cba-42cc-9419-93388f0e8b9c}" Name="txtPlayerLv_SceneWorldTeamBossRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b2471692-ecd6-48b5-91f8-a7c0bbf437e4}" Name="txtPlayerName_SceneWorldTeamBossRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{d917f9e8-3ab3-458e-bfc6-092a2c583a17}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.59" Name="conPet_SceneWorldTeamBossRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{c8ddcb35-0397-4d72-bbc6-392db4964fba}" Name="conFigureVoice_SceneWorldTeamBossRoom" Visible="False" TouchEnable="False">
+                        <WZUIImage Type="WZUIImage" GUID="{506c3e34-c322-42f3-ba09-b025a15ec86c}" Name="imgFigureVoice_SceneWorldTeamBossRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{f0561989-72ed-4a9c-824b-4a7523812505}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.2177" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneWorldTeamBossRoom" Scale="0.6" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{8ae53cb1-e318-4190-a0fd-e1f3a36ee044}" Name="imgPlayerStatus_SceneWorldTeamBossRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.09" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{e0af8af7-9354-4f61-8d19-03a5759ce331}" Name="btnPlayerFigure_SceneWorldTeamBossRoom" Tag="1" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.45,0.32" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{f65585cd-b23b-4bac-8b62-9ff1dd88b372}" />
+                        <SelectElement Type="WZUIContainer" GUID="{1206a755-09f7-40d0-9cd7-609fc0e13798}" />
+                        <DisableElement Type="WZUIContainer" GUID="{f81d804d-417f-488e-8612-bb8c5b383b96}" />
+                    </WZUIButton>
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneWorldTeamBossRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="1" GUID="{e838d4fb-74b0-4713-98c8-6bbac7b47a57}">
+                        <NormalElement Type="WZUIContainer" GUID="{70b75778-5139-4ec5-a945-f73963842b1c}" />
+                        <SelectElement Type="WZUIContainer" GUID="{3624309f-aa52-4ec7-99c0-59b13ea09501}" />
+                        <DisableElement Type="WZUIContainer" GUID="{ff912c35-83bf-4548-90d8-dc852d9750a8}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{2cdeaf04-1665-4826-99d3-cf0e23c7fb0f}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneWorldTeamBossRoom" RelativePosition="0.122908,0.15" AbsPosition="41,35.4999" Tag="1">
+                        <WZUISpine Type="WZUISpine" GUID="{0a26868d-32bc-4cc8-966f-ae2152c7fbb7}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneWorldTeamBossRoom" Scale="1.2" />
+                        <WZUIImage Type="WZUIImage" GUID="{a8f7d71b-a121-4533-ac62-8466ea64dc6d}" Name="imgWeaponIcon_SceneWorldTeamBossRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneWorldTeamBossRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{e0646e54-c10d-41d8-8050-1779c810e411}">
+                            <NormalElement Type="WZUIContainer" GUID="{f696df5b-eeb0-4077-881c-11a0e8d45615}" />
+                            <SelectElement Type="WZUIContainer" GUID="{82c9d73b-4d47-4918-aef3-2ce9ddd66175}" />
+                            <DisableElement Type="WZUIContainer" GUID="{7de97a4c-2448-477d-93f8-830764e1e548}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{c55c8bbe-531c-44cf-a7c4-9302168b16f1}" Name="ftxtInspire_SceneWorldTeamBossRoom" RelativePosition="0.5,0.05" MaxWidth="280" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{a99b4b40-f418-4bc4-b620-729643ffb636}" Name="conForDressSuit_SceneWorldTeamBossRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.777,0.95139" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{47b90718-9c0a-4c1f-b320-bb6c3339b423}" AbsContentSize="286,426" UseAbsSize="True" RelativePosition="0.7,0.5" Name="conSeat2_SceneWorldTeamBossRoom" AnchorPoint="0.5,0.5" AbsPosition="125.29,548.189" Tag="-1">
+                    <WZUI9Image Type="WZUI9Image" GUID="{93ad1776-d906-4a44-a055-264a0a804e30}" File="ui/copy/common_cj_dizuo.png" Visible="True" UseOriginSize="True" RelativePosition="0.5,0.06" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{17dcecfe-5cee-4be1-b3e6-db19ac131e52}" Name="conSeatInfo_SceneWorldTeamBossRoom" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{9276724d-04b4-416b-ac84-193b1fd87da9}" AbsContentSize="105,105" UseAbsSize="True" Name="conPlayer_SceneWorldTeamBossRoom" RelativePosition="0.5,0.2" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{af84898f-eae9-4cd0-9a19-52d04fef6c49}" Name="conForNameAndTitle_SceneWorldTeamBossRoom" AbsContentSize="306,100" UseAbsSize="True" RelativePosition="0.5,0.64" TouchEnable="False">
+                        <WZUIContainer Type="WZUIContainer" GUID="{04c2fd7f-1eeb-43a8-93d4-29b58c113213}" AnchorPoint="0.5,1" RelativePosition="0.5,1" RelativeSize="1,0.5" Name="conTitle_SceneWorldTeamBossRoom" TouchEnable="False">
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{0d071c8f-c729-4f70-ad15-171ac750fe9f}" Name="txtPlayerTitle_SceneWorldTeamBossRoom" Color="247,137,24" FontSize="18" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" RelativePosition="0.5,0.88" TouchEnable="False" AnchorPoint="0.5,0" />
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5694f61d-cc6c-43ed-b593-f761607561f9}" Name="txtPlayerLv_SceneWorldTeamBossRoom" RelativePosition="0.425676,0.742424" AnchorPoint="1,0.5" Color="255,227,116" FontSize="18" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" TouchEnable="False" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3f7b937a-b78e-4866-8d4b-bee019153273}" Name="txtPlayerName_SceneWorldTeamBossRoom" RelativePosition="0.425676,0.742424" AnchorPoint="0,0.5" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" Text="" StrokeColor="79,60,48" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{71ce5f5b-abdc-4f25-bdde-2142c488ac06}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.206772,0.59" Name="conPet_SceneWorldTeamBossRoom" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{aa0daf5b-8fb5-48e9-8f14-13603a7d6650}" Name="conFigureVoice_SceneWorldTeamBossRoom" Visible="False" TouchEnable="False">
+                        <WZUIImage Type="WZUIImage" GUID="{cade472f-6124-4fb9-b387-bb15a8532817}" Name="imgFigureVoice_SceneWorldTeamBossRoom" File="ui/common/common_icon_yuying_02.png" UseOriginSize="True" RelativePosition="0.97773,0.1" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="0" NameCreate="False" ScaleX="0.6" ScaleY="0.6" GrayRender="True" Visible="True" />
+                        <WZUISpine Type="WZUISpine" GUID="{a2376202-7abd-4601-a28b-34c8c5adafb0}" FileAtlas="ui/voice_speaking.atlas" FileJson="ui/voice_speaking.json" Loop="True" AnimationName="voice_speaking" RelativePosition="0.865,0.2177" ScaleX="0.6" ScaleY="0.6" Visible="False" Name="animFigureVoice_SceneWorldTeamBossRoom" Scale="0.6" TouchEnable="False" />
+                    </WZUIContainer>
+                    <WZUIImage Type="WZUIImage" GUID="{fab94df0-71a6-44ba-9f2c-44815480f581}" Name="imgPlayerStatus_SceneWorldTeamBossRoom" File="" UseOriginSize="True" RelativePosition="0.953053,0.09" Scale="0.78" AnchorPoint="1,0" TouchEnable="False" AbsPosition="190.545,9.22543" Rotation="7" NameCreate="False" />
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="onClickCellRoomSeat" GUID="{0a97e3a2-3ef2-41b6-9e16-38dd7d19a494}" Name="btnPlayerFigure_SceneWorldTeamBossRoom" Tag="2" AbsContentSize="110,200" UseAbsSize="True" RelativePosition="0.45,0.32" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{5754b57d-1744-4c5d-9b10-48fc25757467}" />
+                        <SelectElement Type="WZUIContainer" GUID="{6cdd43b0-7bad-4be7-aac5-1b0db44a7d69}" />
+                        <DisableElement Type="WZUIContainer" GUID="{229baaea-3a27-4b70-8c03-b2289816d8e6}" />
+                    </WZUIButton>
+                    <Button Type="WZUIButton" Name="btnPlayerPet_SceneWorldTeamBossRoom" AbsContentSize="60,60" TouchEnable="True" UseAbsSize="True" RelativePosition="0.206772,0.59" LuaDoneFunctionName="onClickPet" Visible="False" Tag="2" GUID="{705d8af1-7a07-4b72-9597-48051ab832af}">
+                        <NormalElement Type="WZUIContainer" GUID="{43977c04-8c7f-4647-a631-ac2c19cf3d2b}" />
+                        <SelectElement Type="WZUIContainer" GUID="{37c0a60b-6538-4683-9cd1-48d742a04c16}" />
+                        <DisableElement Type="WZUIContainer" GUID="{9ccef03c-4048-4277-a366-5d34ef94c607}" />
+                    </Button>
+                    <WZUIContainer Type="WZUIContainer" GUID="{5a26c68b-2524-4ac5-88c2-9b45e9bd5622}" AbsContentSize="60,60" UseAbsSize="True" Name="conWeapon_SceneWorldTeamBossRoom" RelativePosition="0.122908,0.15" AbsPosition="41,35.4999" Tag="2">
+                        <WZUISpine Type="WZUISpine" GUID="{7c2d05db-0678-40ee-8f32-b3f26f531c58}" FileJson="ui/ui_jjc_weapon.json" FileAtlas="ui/ui_jjc_weapon.atlas" AnimationName="" Loop="True" RelativePosition="0.466668,1.75" AbsPosition="30,105" TouchEnable="False" Visible="False" Name="spWeapon_SceneWorldTeamBossRoom" Scale="1.2" />
+                        <WZUIImage Type="WZUIImage" GUID="{dc9e6d13-b272-41c3-8c8e-06b57c812ffb}" Name="imgWeaponIcon_SceneWorldTeamBossRoom" UseOriginSize="False" File="" TouchEnable="False" />
+                        <Button Type="WZUIButton" Name="btnWeapon_SceneWorldTeamBossRoom" LuaDoneFunctionName="onClickWeapon" Tag="1" GUID="{accfd42f-aa6b-4f79-8c06-3541c5888363}">
+                            <NormalElement Type="WZUIContainer" GUID="{bf837648-1cf2-43cf-8fe8-584838db6035}" />
+                            <SelectElement Type="WZUIContainer" GUID="{0ea67255-1060-47c0-be2b-3057f85868c3}" />
+                            <DisableElement Type="WZUIContainer" GUID="{a8c9ad43-c5f9-44a2-b2ff-44419c26fe96}" />
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a1866b51-d858-44f1-a6f4-6f347df45c4d}" Name="ftxtInspire_SceneWorldTeamBossRoom" RelativePosition="0.5,0.05" MaxWidth="280" TouchEnable="False" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{57c5abd8-4735-465e-8c6d-4619503b210d}" Name="conForDressSuit_SceneWorldTeamBossRoom" AbsContentSize="122,34" UseAbsSize="True" RelativePosition="0.777,0.95139" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{9c1e9598-dc9f-4c99-b3b2-6a726719192f}" AbsContentSize="306,456" UseAbsSize="True" RelativePosition="0.93,0.584" Name="conBossInfo_SceneWorldTeamBossRoom" AnchorPoint="1,0.5" AbsPosition="125.29,548.189" Tag="-1" ShowAll="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{c9a07a6a-4b52-46d4-9d9a-90bcf2ac1f4e}" AbsContentSize="306,400" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,0">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{6c701ebd-db8a-455f-aa0e-560b7bad55ac}" Color="233,166,62" FontSize="22" Name="txtMonsterName_SceneWorldTeamBossRoom" Text="邪恶明朗" RelativePosition="0.5,1.07" Alignment="Left" AnchorPoint="0.5,0.5" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Order="1" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{9d25da44-3bc5-4f2e-9e3c-f08cff656598}" Name="txtLeftTimes_SceneWorldTeamBossRoom" FontSize="20" Color="255,236,193" StrokeSize="4" StrokeColor="105,65,46" AnchorPoint="0.5,0.5" RelativePosition="0.5,1.005" Text="" EnableStroke="True" Order="1" />
+                    <WZUIContainer AbsContentSize="" GUID="{d4812f5d-9a7a-42ab-9a90-a5121f8a2def}" RelativePosition="0.5,0.0585" Type="WZUIContainer" UseAbsSize="False" Visible="True" RelativeSize="1,0.12" AnchorPoint="0.5,1">
+                        <WZUIContainer AbsContentSize="226,20" AnchorPoint="0,0" GUID="{99d67096-3906-4663-b7e6-6c43bd3f7d50}" RelativePosition="0.216962,0.553" RelativeSize="1,0.5" Type="WZUIContainer" UseAbsSize="True">
+                            <WZUI9Image File="ui/common/common_progress_boss1_bg.png" GUID="{ff095fb2-86e3-48c5-9111-7cd01cfd204e}" RelativePosition="0.5,0.5" Type="WZUI9Image" UseOriginSize="True" />
+                            <WZUIProgress BgPicture="ui/common/common_progress_boss1_fore.png" GUID="{084974be-6e7b-4ba4-b408-9e8d4ff6ddb5}" Name="progBossBlood_SceneWorldTeamBossRoom" Percentage="" RelativePosition="0.5,0.5" Type="WZUIProgress" UseOriginSize="False" RelativeSize="1,0.9" Rotation="" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{5031ae58-6b49-4344-bbfc-8e9054587ee2}" Color="255,255,255" FontSize="18" Text="" Name="txtBossBlood_SceneWorldTeamBossRoom" NameCreate="True" EnableStroke="True" LabelStyleKey="NORMAL_EXP_PROGRESS" StrokeSize="4" StrokeColor="105,65,46" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{70478a82-09ea-47ac-ad56-1831d106fccb}">
+                                <WZUIContainer Type="WZUIContainer" GUID="{ab73c361-1d90-4ba8-aa19-2bc8befc6f4d}" Name="conRewardBox1_SceneWorldTeamBossRoom" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.3,1.9" Scale="0.55" ScaleX="0.55" ScaleY="0.55">
+                                    <Button Type="WZUIButton" GUID="{44192d03-a222-4652-9fa1-fc9763c393fe}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="1" Name="">
+                                        <NormalElement Type="WZUIContainer" GUID="{ee428ff2-728d-431f-8e9f-eec2ad0dcd44}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{927221a1-5730-4009-8218-cc928c201d69}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{1cd406de-2859-44fc-afdd-70bc8bf5214a}" />
+                                    </Button>
+                                    <WZUIImage Type="WZUIImage" GUID="{e0415660-1539-421c-b51f-23a0357fd5a5}" File="ui/common/common_icon_lan1.png" UseOriginSize="True" Name="imgNormal_SceneWorldTeamBossRoom" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{ef652927-a7d4-45a6-95cc-6512d5965ff9}" File="ui/common/common_icon_lan3.png" UseOriginSize="True" Name="imgGet_SceneWorldTeamBossRoom" Visible="False" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{81df4eed-c65c-4ae2-83b7-dbdd6bc2dc39}" File="ui/common/common_icon_dw.png" UseOriginSize="True" RelativePosition="0.5,-0.4125" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{17105fb4-0c19-4dcc-bd81-3eaa1775823a}" Name="conRewardBox2_SceneWorldTeamBossRoom" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.6,1.9" Scale="0.55" ScaleX="0.55" ScaleY="0.55">
+                                    <Button Type="WZUIButton" GUID="{cde6c1b4-d100-4e62-847b-0035da6d555b}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="2" Name="">
+                                        <NormalElement Type="WZUIContainer" GUID="{fcb3a417-9f25-491a-b33a-67212bac7df9}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{4d15ca64-806e-41d2-9c26-832aaa530f94}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{951684f2-5d9c-440f-b1ba-fb52bc724b61}" />
+                                    </Button>
+                                    <WZUIImage Type="WZUIImage" GUID="{64cc41db-be24-433b-b181-6a992930d3cb}" File="ui/common/common_icon_zi1.png" UseOriginSize="True" Name="imgNormal_SceneWorldTeamBossRoom" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{7884fb1d-78b9-46c2-bafb-99973517d2a0}" File="ui/common/common_icon_zi3.png" UseOriginSize="True" Name="imgGet_SceneWorldTeamBossRoom" Visible="False" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{3274e6b5-b3f8-4b8f-a067-1371096c3e91}" File="ui/common/common_icon_dw.png" UseOriginSize="True" RelativePosition="0.5,-0.4125" />
+                                </WZUIContainer>
+                                <WZUIContainer Type="WZUIContainer" GUID="{53fac0f3-67dd-4512-a7eb-768c444391ee}" Name="conRewardBox3_SceneWorldTeamBossRoom" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.9,1.9" Scale="0.55" ScaleX="0.55" ScaleY="0.55">
+                                    <Button Type="WZUIButton" GUID="{d4b9209d-3622-486d-8fd5-5ced5ca574b7}" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickRewardBox" Tag="3" Name="">
+                                        <NormalElement Type="WZUIContainer" GUID="{c0a56d0f-2496-4598-aa99-37a2d5547862}" />
+                                        <SelectElement Type="WZUIContainer" GUID="{72680001-c365-46f9-a693-feef6a0482b9}" />
+                                        <DisableElement Type="WZUIContainer" GUID="{23d0e070-8eff-4cc3-b5ab-d7f732e65c50}" />
+                                    </Button>
+                                    <WZUIImage Type="WZUIImage" GUID="{8e1205b6-b3a9-4ba4-a2f7-be8da3225812}" File="ui/common/common_icon_huang1.png" UseOriginSize="True" Name="imgNormal_SceneWorldTeamBossRoom" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{84654f30-c00c-477b-a5d1-313e7bcecf55}" File="ui/common/common_icon_huang3.png" UseOriginSize="True" Name="imgGet_SceneWorldTeamBossRoom" Visible="False" TouchEnable="False" />
+                                    <WZUIImage Type="WZUIImage" GUID="{13d89dd1-ef2f-4aa9-8af5-e352f53aaba1}" File="ui/common/common_icon_dw.png" UseOriginSize="True" RelativePosition="0.5,-0.4125" />
+                                </WZUIContainer>
+                            </WZUIContainer>
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{bc61e83d-5194-44fc-871f-16d57b7a295b}" Color="255,236,193" FontSize="20" Name="txtLv_SceneWorldTeamBossRoom" Text="" RelativePosition="0.0428172,0.678" Alignment="Left" AnchorPoint="0,0.5" EnableStroke="True" StrokeColor="105,65,46" StrokeSize="4" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{e03b169a-c091-442f-88ae-ce360f3f60c5}" AnchorPoint="0.5,1" RelativePosition="0.5,0.88" RelativeSize="1,0.73" Name="conMonster_SceneWorldTeamBossRoom" TouchEnable="False" Order="-10">
+                        <WZUIImage Type="WZUIImage" GUID="{be7bcb72-d947-4d27-8130-f689061e6261}" File="ui/common/common_icon_yy.png" UseOriginSize="True" RelativePosition="0.5,0.05" />
+                    </WZUIContainer>
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{eba35257-749c-43c7-aa87-638c7151ef8c}" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onClickRule" AbsContentSize="65,65" UseAbsSize="True" RelativePosition="0.895105,0.895726">
+                    <NormalElement Type="WZUIContainer" GUID="{1ed900d1-be4f-473c-8ce7-40980f950cc2}" />
+                    <SelectElement Type="WZUIContainer" GUID="{1453e4f3-e4ae-42de-86fa-04aa2af4ba90}" />
+                    <DisableElement Type="WZUIContainer" GUID="{3b1ddd01-4cc0-42e0-9900-538ba34fb62e}" />
+                    <WZUIImage Type="WZUIImage" GUID="{60fd36a1-6dad-49ae-9ee1-7450ca1d28f8}" File="ui/common/common_icon_gth.png" UseOriginSize="True" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{2daae4d7-2e74-455b-ad9d-fe871ea1cd65}" AbsContentSize="1136,100" UseAbsSize="True" AnchorPoint="0.5,0" RelativePosition="0.5,-0.00692042" Name="conBottom_SceneWorldTeamBossRoom" ShowAll="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{816f51d2-c6fa-4a5d-a767-da37b6494817}" AbsContentSize="80,100" UseAbsSize="True" RelativePosition="0.051,0.5" ShowAll="True">
+                    <WZUIButton AbsContentSize="35,35" AnchorPoint="0.5,0" LuaDoneFunctionName="onClickMic" Name="btnMic_SceneWorldTeamBossRoom" Order="0" RelativePosition="0.5,0.693467" ShowAll="False" Type="WZUIButton" UseAbsSize="True" GUID="{7e30e15d-25d0-48e8-9eb8-fe04b86b30f7}" Scale="1" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{d32f5e30-0066-447c-8dd6-36cd196492f1}">
+                            <WZUIImage File="ui/common/common_icon_yuying02.png" Type="WZUIImage" UseOriginSize="True" GUID="{2671fa13-8562-4708-882d-29f4fb05f3a8}" Visible="True" Scale="0.7" Name="imgMic1_SceneBossRoom" GrayRender="True" ScaleX="0.7" ScaleY="0.7" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{5f73fc56-6f7b-49be-a359-3bad39049ce7}">
+                            <WZUIImage File="ui/common/common_icon_yuying02.png" Type="WZUIImage" UseOriginSize="True" Scale="0.7" GUID="{ccc9a444-5a12-47d1-9440-0756c632301d}" Name="imgMic2_SceneBossRoom" ScaleX="0.7" ScaleY="0.7" GrayRender="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{1edeb139-9d8a-4a7a-9eee-06e2453adefa}" />
+                    </WZUIButton>
+                    <WZUIButton AbsContentSize="35,35" AnchorPoint="0.5,0" LuaDoneFunctionName="onClickSpeaker" Name="btnSpeaker_SceneWorldTeamBossRoom" Order="0" RelativePosition="0.5,0.383791" ShowAll="False" Type="WZUIButton" UseAbsSize="True" GUID="{2aba3ce1-c925-425d-af5c-0d20f877242a}" Scale="1" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{04e0a2f4-ba14-46fa-98d5-0b8f452e9880}">
+                            <WZUIImage File="ui/common/common_icon_yuying_02.png" Type="WZUIImage" UseOriginSize="True" GUID="{de4fb45b-beab-4fa5-9992-45e34c23eaf6}" Visible="True" Scale="0.7" Name="imgSpeaker1_SceneBossRoom" GrayRender="True" ScaleX="0.7" ScaleY="0.7" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{a6d350ca-08ba-437c-b4c4-06e0b1a4e628}">
+                            <WZUIImage File="ui/common/common_icon_yuying_02.png" Type="WZUIImage" UseOriginSize="True" Scale="0.8" GUID="{34046df5-8457-4404-8dcd-6e1e5bd1cd33}" Name="imgSpeaker2_SceneBossRoom" ScaleY="0.8" ScaleX="0.8" GrayRender="True" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{8d1eba6d-b479-49f5-a142-f3f1a2e37157}" />
+                    </WZUIButton>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{06629532-c0d6-44a7-a63d-3d69a9a8e9e3}" AbsContentSize="400,100" UseAbsSize="True" RelativePosition="0.32,0.5" ShowAll="True">
+                    <Button Type="WZUIButton" GUID="{367802a0-1219-47f3-99d4-e4d3bfa85234}" AbsContentSize="116,58" UseAbsSize="True" TouchEnable="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onSearchButtonClick" RelativePosition="0.14,0.5">
+                        <NormalElement Type="WZUIContainer" GUID="{f591ce37-bb35-4f3d-b266-8f378ba7e777}">
+                            <WZUIImage Type="WZUIImage" GUID="{ffeb54c2-6270-470d-ae74-19ee7fb1149a}" AbsPosition="" File="ui/common/common_btn_anniu3_0.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{adb9a56e-3781-4001-87f4-b058bc53da8c}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="FIND_ROOM" Name="txtWorldTeamBoss1" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{c0c2d528-6e92-4437-ba86-d2271bf2842b}">
+                            <WZUIImage Type="WZUIImage" GUID="{1db25b22-cff2-46c5-a229-0b6b87cd4d42}" File="ui/common/common_btn_anniu3_0_sel.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{47c7b9aa-2ce6-4b24-8f26-40c98dfd9df5}" LabelStyleKey="SMALL_ORANGE_BTN" TextKey="FIND_ROOM" Name="txtWorldTeamBoss2" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{cd8efed3-8438-4f6e-8191-29deb0019ac8}">
+                            <WZUIImage Type="WZUIImage" GUID="{3b56a41b-e187-466c-a083-0136678d68b5}" File="ui/common/common_btn_anniu3_0.png" GrayRender="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{96ffba7b-a2fd-4d6d-b280-5eb3b8a42606}" LabelStyleKey="SMALL_GRAY_BTN" TextKey="FIND_ROOM" Name="txtWorldTeamBoss3" />
+                        </DisableElement>
+                    </Button>
+                    <Button Type="WZUIButton" GUID="{300083e9-ce15-4108-88fe-5065dfdb3d7c}" AbsContentSize="116,58" UseAbsSize="True" TouchEnable="True" LocalInterval="300" LuaActionName="Normal" LuaDoneFunctionName="onFastGameButtonClick" RelativePosition="0.75,0.5">
+                        <NormalElement Type="WZUIContainer" GUID="{14e6159f-b327-41c8-9daf-915b10c82ae5}">
+                            <WZUIImage Type="WZUIImage" GUID="{62bb7cb8-4c31-4b76-9276-6e3e659319a9}" AbsPosition="" File="ui/common/common_btn_anniu10_0.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{721d4919-ce54-4004-b421-96f7d437e7b2}" LabelStyleKey="SMALL_GREEN_BTN" TextKey="QUICK_JOIN" Name="txtWorldTeamBoss1_1" />
+                        </NormalElement>
+                        <SelectElement Type="WZUIContainer" GUID="{119f218a-5449-431b-8b3e-8a85ec45dfc0}">
+                            <WZUIImage Type="WZUIImage" GUID="{3af4e499-0fdc-41f5-8281-3a9b21483cc8}" File="ui/common/common_btn_anniu10_0_sel.png" UseOriginSize="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{1f94230e-40f8-48b2-885b-860e247f22e9}" LabelStyleKey="SMALL_GREEN_BTN" TextKey="QUICK_JOIN" Name="txtWorldTeamBoss1_2" />
+                        </SelectElement>
+                        <DisableElement Type="WZUIContainer" GUID="{dcc912de-274c-47d3-86ab-7042e3dd596d}">
+                            <WZUIImage Type="WZUIImage" GUID="{58f6631b-3c0b-4b3a-9289-633414e3c24e}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{bf6e38c0-c0e0-4da0-a3e3-84d14e8c343f}" LabelStyleKey="SMALL_GRAY_BTN" TextKey="QUICK_JOIN" Name="txtWorldTeamBoss1_3" />
+                        </DisableElement>
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{27c26705-1cfb-4b40-aa79-7a16e810ba8f}" AbsContentSize="320,100" UseAbsSize="True" RelativePosition="0.93,0.5" AnchorPoint="1,0.5" ShowAll="True">
+                    <WZUIContainer Type="WZUIContainer" GUID="{01cbb904-7913-4022-97f2-76599cd1e03b}" AbsContentSize="212,76" UseAbsSize="True" RelativePosition="0.66,0.5" ShowAll="False" Visible="True">
+                        <WZUIButton Type="WZUIButton" AbsContentSize="0,0" UseAbsSize="False" RelativePosition="0.5,0.5" GUID="{08838346-62dd-4e22-8ba9-ccfe9d156337}" LuaDoneFunctionName="onStartGameButtonClick" Name="btnReadyGame_SceneWorldTeamBossRoom" TouchEnable="True" UseAbsCoordinate="False" LuaActionName="">
+                            <NormalElement Type="WZUIContainer" GUID="{bbd240c7-89ad-45a1-a7f6-007a9f4736be}">
+                                <WZUIImage Type="WZUIImage" GUID="{c3e8348d-33f7-4ee3-8571-5fc49829e179}" File="ui/common/common_btn_anniu8.png" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{119b6a12-d2f5-412a-88d0-f755b68bdef8}" Scale="1.05">
+                                <WZUIImage Type="WZUIImage" GUID="{52dd2b43-6f9d-4375-b387-8a6db5d34d9b}" File="ui/common/common_btn_anniu8_sel.png" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{a124387b-570e-4a22-a76c-eceb7f380922}">
+                                <WZUIImage Type="WZUIImage" GUID="{109cc0cb-977d-49fc-abd4-e654997de71f}" File="ui/common/common_btn_anniu8_sel.png" />
+                            </DisableElement>
+                        </WZUIButton>
+                        <WZArmature Type="WZArmature" GUID="{17c37b7a-08bb-48a8-97f0-867a8f02be76}" ArmatureFile="ui/ui_tongyong_anniu.xml" ArmatureName="ui_tongyong_anniu" UseOriginSize="True" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5" Name="armBtn_SceneWorldTeamBossRoom" TouchEnable="False" UseBasePoint="False">
+                            <Action Type="WZUIArmatureAnimationById" GUID="{0585da32-d304-407a-978b-c4459f6f7685}" AnimationId="0" />
+                        </WZArmature>
+                        <WZUIImage Type="WZUIImage" GUID="{9222c98b-e762-44f4-9382-d3c80bce77e6}" File="ui/common/common_icon_ksyx.png" UseOriginSize="True" Name="imgStartGame_SceneWorldTeamBossRoom" TouchEnable="False" GrayRender="False" RelativePosition="0.5,0.552632" Visible="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{ad5539cb-c2db-44c0-9731-6ea7e9b3f62a}" AbsContentSize="70,70" UseAbsSize="True" RelativePosition="0.15,0.5" Name="conSkill_SceneWorldTeamBossRoom">
+                        <Button Type="WZUIButton" GUID="{98d95736-b640-4d4a-8416-a0c5f23fe84b}" LuaDoneFunctionName="onClickSkill" LuaActionName="Normal">
+                            <NormalElement Type="WZUIContainer" GUID="{a4339f0b-e8cd-4004-a740-2fbfc7eb52bc}">
+                                <WZUIImage Type="WZUIImage" GUID="{a01c30aa-1640-49d8-a84e-f2f6e44ad187}" File="ui/Hall/battle_icon_jinengdaoju.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{65755629-6637-4f7a-b399-e1e0889d865e}">
+                                <WZUIImage Type="WZUIImage" GUID="{3202b26d-f0e3-4ade-b8ce-7338a05ff9ca}" File="ui/Hall/battle_icon_jinengdaoju.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{e23003cc-47fe-4ca5-8285-35f7827f0573}" />
+                        </Button>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9dbb1092-8332-4f5d-84e1-0279f7276480}" FontSize="18" Color="255,227,116" EnableStroke="True" StrokeSize="4" StrokeColor="105,65,46" Text="" RelativePosition="0.5,1.07143" Name="txtSkillSuitName_SceneWorldTeamBossRoom" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{b2d583df-c677-4933-9777-7432f8f7302e}" AbsContentSize="190,60" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.91" ShowAll="True">
+                <WZUIImage Type="WZUIImage" GUID="{e590041b-a017-4efb-b99c-b3da06c3a0fc}" File="ui/common/common_icon_di2.png" UseOriginSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{36873ff0-ace2-444d-8aa5-7446e38efa6f}" FontSize="20" EnableStroke="True" Name="txtMyHurtAdd_SceneWorldTeamBossRoom" Text="伤害加成：" AnchorPoint="0,0.5" RelativePosition="0.02,0.58" Color="255,236,193" StrokeSize="4" StrokeColor="79,60,48" />
+                <WZUIContainer AbsContentSize="180,70" GUID="{b9cef8ca-20f6-4ff8-92ec-4ca4bb9a9ea8}" RelativePosition="1.05,0.065375" Type="WZUIContainer" UseAbsSize="True" Visible="True" RelativeSize="1,0.18" AnchorPoint="0,0" AbsPosition="152.1,18" Scale="1">
+                    <WZUIContainer Type="WZUIContainer" GUID="{704db962-b391-4784-8aff-25aca74e3e91}" RelativeSize="0.5,1" AnchorPoint="0,0.5" RelativePosition="0,0.5" AbsContentSize="" UseAbsSize="False">
+                        <WZUIButton AbsContentSize="140,65" AnchorPoint="0.5,0.5" GUID="{661e70ed-ab47-4591-a515-3ba7b6d8b795}" LuaDoneFunctionName="onGoldInspire" RelativePosition="0.467127,0.34" Type="WZUIButton" UseAbsSize="True" Name="btnGold_SceneWorldTeamBossRoom" RelativeSize="1,1" LuaActionName="Normal" LocalInterval="300">
+                            <NormalElement GUID="{f5a6b223-1a1a-44a9-940a-b42738d71b61}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{a5c8ac7c-a4c8-4a34-b95b-2b74d5cac569}" File="ui/copy/guwu_001.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement GUID="{28ff7fc5-b567-4112-ba30-8f09bb97641d}" Type="WZUIContainer" Scale="1">
+                                <WZUIImage Type="WZUIImage" GUID="{5cd9e77a-d5a8-4955-9390-2a7a7aa776a9}" File="ui/copy/guwu_001.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement GUID="{d774c8ad-c5d0-44a4-b095-9c0a6c0012f3}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{aa92330e-d57d-4a6a-8eae-ba94afc7cc93}" File="ui/copy/guwu_001.png" UseOriginSize="True" GrayRender="True" />
+                            </DisableElement>
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{cc0f641b-abff-4f23-906d-14c0997ae913}" Name="ftxtGoldCost_SceneWorldTeamBossRoom" RelativeSize="1,1" RelativePosition="0.5,-0.25" MaxWidth="400" AnchorPoint="0.5,0.5" ShowText="" />
+                        </WZUIButton>
+                        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{ff069534-fbd8-4419-a2f3-0da97191bd33}" Name="ftbCDGold_SceneWorldTeamBossRoom" RelativeSize="1,1" RelativePosition="0.5,0.00142854" MaxWidth="400" ShowText="" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{b08ff6cc-8ce0-4049-acb7-a5e0a3c81744}" Text="00:30" Color="255,236,193" FontSize="18" Alignment="Center" AnchorPoint="0.5,0.5" RelativePosition="0.5,-0.02" Name="txtCDGold_SceneWorldTeamBossRoom" TextKey="MAYBE_SUCCESS_SCENEWORLDBOSS" StrokeColor="79,60,48" StrokeSize="4" EnableStroke="True" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{06236340-b271-4d62-a85b-d1d313a9a95f}" RelativeSize="0.5,1" AnchorPoint="1,0.5" RelativePosition="1,0.5" AbsContentSize="" UseAbsSize="False">
+                        <WZUIButton AbsContentSize="140,65" AnchorPoint="0.5,0.5" GUID="{106aaaca-856e-4d40-ab5a-0d6f0a386591}" LuaDoneFunctionName="onDiamondInspire" RelativePosition="0.526299,0.34" Type="WZUIButton" UseAbsSize="True" Name="btnDiamond_SceneWorldTeamBossRoom" RelativeSize="1,1" TouchEnable="True" LuaActionName="Normal" LocalInterval="300">
+                            <NormalElement GUID="{003ff49c-b16f-4793-ac76-da0f007c45ff}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{001cfe96-d491-4adc-a2cb-ec8a06e9cbfd}" File="ui/copy/guwu_002.png" UseOriginSize="True" />
+                            </NormalElement>
+                            <SelectElement GUID="{c85008d4-94ff-4a13-beb1-452ff56f4c7d}" Type="WZUIContainer" Scale="1">
+                                <WZUIImage Type="WZUIImage" GUID="{27cbd187-3173-4424-9604-2b16351a5260}" File="ui/copy/guwu_002.png" UseOriginSize="True" />
+                            </SelectElement>
+                            <DisableElement GUID="{46c0d767-6d8a-4cd9-9163-f82818bbe156}" Type="WZUIContainer">
+                                <WZUIImage Type="WZUIImage" GUID="{e05eba8f-6b29-4a0f-b57f-0ef55ab2cf64}" File="ui/copy/guwu_002.png" UseOriginSize="True" GrayRender="True" />
+                            </DisableElement>
+                            <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{0ebfe4db-3905-425a-b2ba-cfc63c7c91bb}" Name="ftxtDiaCost_SceneWorldTeamBossRoom" RelativeSize="1,1" RelativePosition="0.5,-0.25" MaxWidth="400" AnchorPoint="0.5,0.5" />
+                        </WZUIButton>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{2681b00c-c887-451e-aa24-79f87d5bd90b}" Text="00:30" Color="255,236,193" FontSize="18" Alignment="Center" AnchorPoint="0.5,0.5" RelativePosition="0.5,-0.02" Name="txtCDDiamond_SceneWorldTeamBossRoom" TextKey="MUST_SUCCESS_SCENEWORLDBOSS" EnableStroke="True" StrokeColor="79,60,48" StrokeSize="4" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{89dd4cf1-9ffc-4ec3-8844-1bbe2daec8e4}" Name="conTop_SceneWorldTeamBossRoom" AbsContentSize="1136,76" UseAbsSize="True" RelativePosition="0.5,1" AnchorPoint="0.5,1" ShowAll="False" Order="0">
+            <WZUI9Image Type="WZUI9Image" GUID="{c3a10247-85cc-4c27-a708-c0b246a4615a}" File="ui/common/common_fuben_dingbu.png" UseOriginSize="False" ScaleX="1.5" />
+            <WZUIContainer Type="WZUIContainer" GUID="{b3d8b2be-9c6d-4204-a322-025cbc7829b1}" AbsContentSize="128,76" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" ShowAll="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{89070c1e-fe3b-4f57-9f82-f7a9399ca2a0}" File="ui/common/common_scale9_di1_new.png" UseOriginSize="True" ScaleX="1" Scale="1" />
+                <WZUIContainer Type="WZUIContainer" GUID="{5493fb1d-e43b-473f-95b3-822de029a58e}" AbsContentSize="830,76" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="1,0.5" ShowAll="False">
+                    <WZUIContainer Type="WZUIContainer" GUID="{a2a49658-4b2b-4ccc-8f84-ec3784028a4a}" AbsContentSize="135,60" UseAbsSize="True" RelativePosition="0.08,0.495361" Name="conMap_SceneWorldTeamBossRoom" Visible="True" Tag="-1" Order="1" AnchorPoint="0.5,0.5" Scale="1" ShowAll="False">
+                        <WZUIImage Type="WZUIImage" GUID="{af656cfb-f682-4d00-91a6-259ffd007c39}" Name="imgMapBg_SceneWorldTeamBossRoom" File="map/map68_bg.png" UseOriginSize="True" RelativePosition="0.5,0.507707" Visible="True" Scale="0.35" ScaleY="0.35" ScaleX="0.35" />
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" FontSize="18" GUID="{7df48eb6-b4b4-427d-9189-3e636c7874ce}" RelativePosition="-0.0118904,0.783334" StrokeColor="105,65,46" Text="ID:" Type="WZUILabelTTF" Name="txtRID_SceneWorldTeamBossRoom" AnchorPoint="0,0.5" TextKey="TEAMBOSS_TEXT3" StrokeSize="4">
+                            <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" Font="" FontSize="18" GUID="{ecb25871-f1db-4e09-b720-e468266e5019}" Name="txtRIdNum_SceneWorldTeamBossRoom" RelativePosition="1,0.5" ShadowColor="0,0,0" StrokeColor="105,65,46" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                        </WZUILabelTTF>
+                        <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" FontSize="18" GUID="{cdaf0e42-d7b9-4ec2-b726-6f28ebe9d857}" RelativePosition="-0.0118904,0.416667" StrokeColor="105,65,46" Text="ID:" Type="WZUILabelTTF" Name="txtRMM_SceneWorldTeamBossRoom" AnchorPoint="0,0.5" TextKey="ROOM_PASSWORD" StrokeSize="4">
+                            <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="True" Font="" FontSize="18" GUID="{896225c2-da94-4851-878c-031980677b38}" Name="txtRMMValue_SceneWorldTeamBossRoom" RelativePosition="1,0.5" ShadowColor="0,0,0" StrokeColor="105,65,46" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                        </WZUILabelTTF>
+                        <WZUIButton Type="WZUIButton" AbsContentSize="0,0" UseAbsSize="False" LuaDoneFunctionName="onChangeInfo" GUID="{a9c6293f-c37e-49d6-97a5-1a5600e06c76}" Scale="1" ScaleY="1" Name="btnMap_SceneWorldTeamBossRoom" Visible="True">
+                            <NormalElement Type="WZUIContainer" GUID="{b25b431d-f2cb-4bf9-84f3-231ebc3eb299}" />
+                            <SelectElement Type="WZUIContainer" GUID="{908c0a11-72d5-4825-b250-ffad53599b6b}" />
+                            <DisableElement Type="WZUIContainer" GUID="{93a85911-7bf4-41a0-a209-64fd252b9997}" />
+                            <WZUIImage Type="WZUIImage" GUID="{90b3dc07-6f98-4363-b95f-9e994d36b4fd}" AbsPosition="0,0" UseOriginSize="True" File="ui/city/beta/main_icon_shezhi_2.png" RelativePosition="0.892592,0.783334" Scale="0.8" />
+                        </WZUIButton>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="220,25" GUID="{46ed4bd9-d856-46f8-bf97-188af1b7e55b}" RelativePosition="0.16,0.7" Scale="1" ScaleX="1" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0,0.5" Name="conRoom_SceneWorldTeamBossRoom" Visible="True">
+                        <WZUILabelTTF BoldFont="False" Color="255,227,116" EnableStroke="False" Font="" FontSize="18" GUID="{bacb6db8-44c3-457e-9f46-8ff7029bc700}" Name="txtRoomNameD_SceneWorldTeamBossRoom" RelativePosition="0.032554,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="ID：" Type="WZUILabelTTF" AnchorPoint="0,0.5" TextKey="PLAYER_RANK_SCENEWORLDBOSS">
+                            <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="False" Font="" FontSize="18" GUID="{f013598a-25ec-4cd0-8ab5-0c94a9bf752a}" Name="txtRoomName_SceneWorldTeamBossRoom" RelativePosition="1,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                        </WZUILabelTTF>
+                    </WZUIContainer>
+                    <WZUIContainer AbsContentSize="220,25" GUID="{d0c6ef2f-02a0-445c-85c6-a96bbe1e1159}" RelativePosition="0.16,0.3" ShowAll="False" Type="WZUIContainer" UseAbsSize="True" AnchorPoint="0,0.5" Name="conID_SceneWorldTeamBossRoom">
+                        <WZUILabelTTF BoldFont="False" Color="255,227,116" EnableStroke="False" FontSize="18" GUID="{e3e151ee-1c1e-4261-89ba-60ebd8595027}" RelativePosition="0.032554,0.5" StrokeColor="91,49,24" Text="ID:" Type="WZUILabelTTF" Name="txtRoomIDD_SceneWorldTeamBossRoom" AnchorPoint="0,0.5" TextKey="TEAMBOSS_TEXT16">
+                            <WZUILabelTTF BoldFont="False" Color="255,236,193" EnableStroke="False" Font="" FontSize="18" GUID="{7f11577f-306f-44d4-bd7f-58f9b44d343a}" Name="txtRoomId_SceneWorldTeamBossRoom" RelativePosition="1,0.5" ShadowColor="0,0,0" StrokeColor="91,49,24" StrokeSize="4" Text="" Type="WZUILabelTTF" AnchorPoint="0,0.5" />
+                        </WZUILabelTTF>
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{461c33d6-5498-40b5-8c48-428c3cadeb45}" AbsContentSize="400,70" UseAbsSize="True" Name="conRank_SceneWorldTeamBossRoom" RelativePosition="0.57,0.5">
+                        <WZUI9Image Type="WZUI9Image" GUID="{c2f6be5e-9f2f-485a-b2c8-4e39e2dda98c}" File="ui/common/common_cw_dikuang.png" RelativePosition="0.5,0.5" />
+                        <WZUIContainer Type="WZUIContainer" GUID="{e4705b18-f11b-42cd-b032-d0fd8ba3787c}" Name="conFirstRank_SceneWorldTeamBossRoom" UseAbsSize="False" Visible="False">
+                            <WZUIImage Type="WZUIImage" GUID="{8a89a570-7149-4ac8-b525-d344aa33d1f3}" File="ui/common/common_icon_1st.png" UseOriginSize="True" Scale="0.7" RelativePosition="0.08,0.5" />
+                            <WZUIContainer Type="WZUIContainer" GUID="{f9fdfe78-2217-4a58-b3ad-97dc6578f833}" Name="conHead1_SceneWorldTeamBossRoom" AbsContentSize="70,70" UseAbsSize="True" Scale="0.9" RelativePosition="0.22,0.5" Visible="False">
+                                <WZUIImage Type="WZUIImage" GUID="{8f616a57-d036-467c-bed8-34dfd2b387e4}" File="ui/common/common_icon_tx.png" UseOriginSize="True" />
+                                <Button Type="WZUIButton" GUID="{5dbc3e2e-c8c5-4ee6-9919-882fc7d126bb}" LuaDoneFunctionName="onCheckHead" Tag="1">
+                                    <NormalElement Type="WZUIContainer" GUID="{da95c05a-d03d-4373-963c-024dd7c6da0d}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{cf631787-e628-448a-95f0-36f49f343fbb}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{ee2c1ed6-e1a7-412d-9bce-beed72a18c9b}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUIContainer Type="WZUIContainer" GUID="{57f45b61-9efb-455a-8d2c-5ec70539f6c4}" Name="conHead2_SceneWorldTeamBossRoom" AbsContentSize="70,70" UseAbsSize="True" Scale="0.9" RelativePosition="0.385,0.5" Visible="False">
+                                <WZUIImage Type="WZUIImage" GUID="{02a912b7-8900-4300-8099-a6647c139048}" File="ui/common/common_icon_tx.png" UseOriginSize="True" />
+                                <Button Type="WZUIButton" GUID="{89279934-8aa5-49f1-ae52-144eb26ff777}" LuaDoneFunctionName="onCheckHead" Tag="2">
+                                    <NormalElement Type="WZUIContainer" GUID="{620097d3-f38f-458d-a8b5-a68de5503ee7}" />
+                                    <SelectElement Type="WZUIContainer" GUID="{87fe9ad9-a3cb-4cda-b5bf-f440307b6ad6}" />
+                                    <DisableElement Type="WZUIContainer" GUID="{e82cec75-6541-4294-80f5-3ac14bb5a92e}" />
+                                </Button>
+                            </WZUIContainer>
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{69e471d3-fe70-457b-9f15-f2bdf7682e12}" Color="255,227,116" FontSize="16" AnchorPoint="0,0.5" RelativePosition="0.475,0.65" Name="txtPlayerNames_SceneWorldTeamBossRoom" Text="" />
+                            <WZUILabelTTF Type="WZUILabelTTF" GUID="{df83468a-51c4-4848-b14a-caa3fb10935c}" Color="255,227,116" FontSize="16" AnchorPoint="0,0.5" RelativePosition="0.475,0.35" Name="" Text="六个字的名字&amp;六个字的名字" TextKey="HURT">
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{a67d5186-827a-464f-8e32-3715b2f2c61d}" Color="255,236,193" FontSize="16" AnchorPoint="0,0.5" RelativePosition="1,0.5" Name="txtPlayerHurts_SceneWorldTeamBossRoom" Text="" TextKey="" />
+                            </WZUILabelTTF>
+                        </WZUIContainer>
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{ac5997c9-776a-44df-9586-e39bb9e7927f}" TextKey="NEWACTIVITY_TEXT6" Name="txtNoRank_SceneWorldTeamBossRoom" LabelStyleKey="SMALL_TIP_BTN" Visible="False" />
+                    </WZUIContainer>
+                    <Button Type="WZUIButton" GUID="{08dd0b1c-8282-4d04-b4f1-3082fa2e6ce2}" RelativePosition="0.57,0.0131579" AbsContentSize="88,36" UseAbsSize="True" AnchorPoint="0.5,1" Name="btnShowRank_SceneWorldTeamBossRoom" LocalInterval="300" LuaDoneFunctionName="onCheckRank">
+                        <NormalElement Type="WZUIContainer" GUID="{1b7828f7-3545-4519-9ed0-ffe7087a0fad}" />
+                        <SelectElement Type="WZUIContainer" GUID="{fd8abc68-68e7-4126-ade9-cb201f8b8319}" />
+                        <DisableElement Type="WZUIContainer" GUID="{4e252d13-d34e-4d62-beb8-5891b801142d}" />
+                        <WZUIImage Type="WZUIImage" GUID="{2e702fc6-79cf-4275-bd47-2a881951fdca}" File="ui/common/common_btn_liebiao_01.png" UseOriginSize="True" Rotation="-90" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{763f61cf-a7b8-4ec6-bd1d-00f181f3f047}" AbsContentSize="830,76" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="0.995,0.5" ShowAll="True">
+                <Button Type="WZUIButton" GUID="{b455d1d8-69ac-4780-a9a8-b0c9b2419c36}" RelativePosition="0.855,0.496621" RelativeSize="1,1" LuaDoneFunctionName="onClickRewardView" LuaActionName="Normal" Name="btnRewardView_SceneWorldTeamBossRoom" AbsContentSize="65,65" UseAbsSize="True" Visible="True" LocalInterval="300">
+                    <NormalElement Type="WZUIContainer" GUID="{6c088e15-1edd-40c7-9224-9016438dfb25}">
+                        <WZUIImage Type="WZUIImage" GUID="{7f88db2a-5538-4cf7-bbcc-dc33db20f803}" File="ui/Hall/battle_icon_jiangli.png" UseOriginSize="True" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{d6313e5a-56a0-4e22-ac59-6eb56548f21e}">
+                        <WZUIImage Type="WZUIImage" GUID="{50dc89ae-4d1b-4142-bea8-5fe494fa1ce8}" File="ui/Hall/battle_icon_jiangli.png" UseOriginSize="True" RelativePosition="0.5,0.5" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{1e84a0a8-b1e0-472d-baa5-fe008111ad5f}" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+        <WZUIContainer Type="WZUIContainer" GUID="{cfcc87c3-5bfe-4a52-9c50-b6eb5ee1ee12}" TouchEnable="False" Visible="True">
+            <WZUIParticle Type="WZUIParticle" GUID="{82a6c872-00fe-44c4-ba06-dfc308d28153}" PlistFile="particle/particle_tongyonglizi.plist" RelativePosition="0.5,0" TouchSwallow="True" TouchEnable="False" AnchorPoint="0.5,0" />
+        </WZUIContainer>
+    </WZUIFrame>
+</SceneWorldTeamBossRoom>

@@ -1,0 +1,80 @@
+﻿<WndSpaceDynamic GUID="{1b2e3d3b-cc2a-4e03-bad5-975846558e76}">
+    <WZUIContainer Type="WZUIContainer" GUID="{8a37d048-61b1-4f47-9b7a-dbea81d7c501}" AbsContentSize="480,160" UseAbsSize="True" Name="WndSpaceDynamic" LuaObjectName="WndSpaceDynamic" LuaTouchBeganFunction="onTouchBegan" RelativePosition="0.5,0.5" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{8b3c95d8-6565-4cc1-95ad-bef311eaca4d}" Name="con1_WndSpaceDynamic" AbsContentSize="480,160" UseAbsSize="True" AnchorPoint="0.5,0.5" RelativePosition="0.5,0.5">
+            <Button Type="WZUIButton" GUID="{53aca8bd-d24d-4ad9-8325-24a59e85ecd1}" LuaDoneFunctionName="onClickOther">
+                <NormalElement Type="WZUIContainer" GUID="{537a06bd-90b3-43ed-8118-7efde24fb06f}" />
+                <SelectElement Type="WZUIContainer" GUID="{eac0aab0-5377-46d7-9dda-6159a24d8460}" />
+                <DisableElement Type="WZUIContainer" GUID="{7e43486c-f3f0-4a5b-887d-3b4098cbdd43}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{3e6edee4-a917-446c-970d-e6ce1847d525}" AbsContentSize="50,80" Name="conForTitle_WndSpaceDynamic" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.00595443,0.725114" TouchEnable="False" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{af5763f3-8aa2-48ff-9357-07083380a8ee}" Name="txtTime_WndSpaceDynamic" AnchorPoint="1,1" Alignment="Center" RelativePosition="0.98,0.95" LabelStyleKey="C1_F20" Text="12-12" Dimensions="0,0" TouchEnable="False" TouchSwallow="True" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{ed1aeaea-c7bb-4476-98b3-d1a8a61de016}" Name="txtDetail_WndSpaceDynamic" AnchorPoint="0,1" Alignment="Left" RelativePosition="0.09,0.8" LabelStyleKey="C1_F20" Text="家进口量的打家拉斯开放家的啦空间发呆；绿卡放假的拉咖啡店；阿飞康达疯狂的骄傲是否骄傲是否" Dimensions="430,0" TouchEnable="False" TouchSwallow="True" MaxLength="40" />
+            <WZUIContainer Type="WZUIContainer" GUID="{07dd6fc0-eb40-4a1c-8b45-716c9b7c7a3f}" AbsContentSize="260,80" UseAbsSize="True" RelativePosition="0.36,0" Name="conPicture_WndSpaceDynamic" AnchorPoint="0.5,0">
+                <WZUIContainer Type="WZUIContainer" GUID="{47b14b3d-7c80-43b1-bcf8-7adac8cbdd03}" Name="conPhoto1_WndSpaceDynamic" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.166,0.5" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{4ca7014b-9c5a-4ff0-b8e9-323922b9e00c}" File="ui/common/common_scale9_di6.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a0641250-20df-46e3-b069-46f9dc27f986}" Name="conPhoto2_WndSpaceDynamic" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.5,0.5" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{58d6fc22-c066-45ae-9758-43e6fb2045ff}" File="ui/common/common_scale9_di6.png" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{f249d29b-cfcf-47de-bb83-85c9641bae85}" Name="conPhoto3_WndSpaceDynamic" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.833,0.5" Visible="False">
+                    <WZUI9Image Type="WZUI9Image" GUID="{7a66d393-bb25-4269-8ec3-773bc887a6b5}" File="ui/common/common_scale9_di6.png" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{3973684e-d8b5-422e-a98c-426598cc9fd1}" AbsContentSize="100,84" UseAbsSize="True" RelativePosition="0.88,0" Name="conData_WndSpaceDynamic" AnchorPoint="0.5,0">
+                <WZUIContainer Type="WZUIContainer" GUID="{cd1d3625-d3f3-4ce5-b093-52d04e5f5677}" Name="conGood_WndSpaceDynamic" AbsContentSize="100,40" UseAbsSize="True" RelativePosition="0,0.75" AnchorPoint="0,0.5">
+                    <WZUI9Image Type="WZUI9Image" GUID="{29ac16b6-b987-40a7-b7aa-519f60847a0e}" File="ui/common/frame_14.png" TouchEnable="False" />
+                    <WZUIImage Type="WZUIImage" GUID="{6517f59b-1709-4386-86c6-4310f8cfbece}" File="ui/common/common_hy_btn_001.png" UseOriginSize="True" RelativePosition="0.22,0.5" TouchEnable="False" Name="imgHeart_WndSpaceDynamic" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{07304060-8a37-4703-a19a-6eb36f6e0abd}" Name="txtGoodNum_WndSpaceDynamic" LabelStyleKey="C1_F20" Text="100" AnchorPoint="0,0.5" RelativePosition="0.35,0.5" TouchSwallow="True" TouchEnable="False" />
+                    <Button Type="WZUIButton" GUID="{b135deb1-ce10-46ad-85e0-b8b6df7173a3}" LuaDoneFunctionName="onClickHeart">
+                        <NormalElement Type="WZUIContainer" GUID="{1a98e19e-f9bc-443b-bc52-458f6246693f}" />
+                        <SelectElement Type="WZUIContainer" GUID="{841d6c8f-d1ba-4a79-bd1b-4c18f468696e}" />
+                        <DisableElement Type="WZUIContainer" GUID="{034e0fb2-f208-4ae6-8af6-3b9d58ab7b75}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{72c72778-d771-427b-bef0-1b2b2d556f8f}" Name="conComment_WndSpaceDynamic" AbsContentSize="100,40" UseAbsSize="True" RelativePosition="0,0.25" AnchorPoint="0,0.5" TouchEnable="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{d17730c6-a4b7-48e1-b2f9-c0faa3de682e}" File="ui/common/frame_14.png" TouchEnable="False" />
+                    <WZUIImage Type="WZUIImage" GUID="{b2f16ce6-42cf-40b6-a844-2058edb86a39}" File="ui/common/common_hy_btn_002.png" UseOriginSize="True" RelativePosition="0.22,0.5" TouchEnable="False" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5f6310ef-95d7-4c62-9f8d-422a858fadb6}" Name="txtCommentNum_WndSpaceDynamic" LabelStyleKey="C1_F20" Text="100" AnchorPoint="0,0.5" RelativePosition="0.35,0.5" TouchSwallow="True" TouchEnable="False" />
+                    <Button Type="WZUIButton" GUID="{96b11426-872f-457d-bc57-0638c684cbf1}" LuaDoneFunctionName="onClickComment">
+                        <NormalElement Type="WZUIContainer" GUID="{9c632423-1a38-4c4d-a772-d430f48036e6}" />
+                        <SelectElement Type="WZUIContainer" GUID="{cbbbda01-d45b-49da-bf9e-8641ff0d4162}" />
+                        <DisableElement Type="WZUIContainer" GUID="{3d5c33cd-fb66-4e05-8349-e6264f1d5da8}" />
+                    </Button>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{992f3d5a-7ccd-43b9-a1ff-b49372f5708e}" AbsContentSize="60,45" Name="conAddCirclre_WndSpaceDynamic" RelativePosition="-0.36,0.238096" UseAbsSize="True">
+                    <Button Type="WZUIButton" GUID="{5c6fc81e-23f5-4020-a226-666d30b10c72}" AbsContentSize="60,45" UseAbsSize="True" Name="btnAddCircle_WndSpaceDynamic" RelativePosition="0.5,0.5" LuaDoneFunctionName="onClickAddCircle" LocalInterval="300" LuaActionName="Normal" Visible="False">
+                        <NormalElement Type="WZUIContainer" GUID="{4f2a6cee-6a3d-4f68-b484-798f8d7d5ced}" />
+                        <SelectElement Type="WZUIContainer" GUID="{48de3fc7-b5a7-430e-97ab-c6ff5b701897}" />
+                        <DisableElement Type="WZUIContainer" GUID="{c1fded44-3110-42d1-bfd4-8e94733d52a2}" />
+                        <WZUIImage Type="WZUIImage" GUID="{dd0413e3-d724-4cfc-b2eb-58819fcb72cc}" File="ui/common/common_btn_13.png" UseOriginSize="True" />
+                    </Button>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{9668efe7-988e-44c9-8719-dceb9fb4c4af}" Name="conCommentSel_WndSpaceDynamic" Visible="False" AbsContentSize="460,45" UseAbsSize="True" RelativePosition="0.5,0.13125">
+                <Button Type="WZUIButton" GUID="{9ff09a51-4634-4037-918c-45b9fd02dd57}" LocalInterval="300" LuaDoneFunctionName="onClickCommentBack" AbsContentSize="40,40" UseAbsSize="True" Name="btnBack_WndSpaceDynamic" RelativePosition="0.25,0.5" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{4c2e8e0d-0657-44ff-90bc-2797a582ad10}" />
+                    <SelectElement Type="WZUIContainer" GUID="{d09ca4c2-d444-4c33-9a9c-4b323917bbd1}" />
+                    <DisableElement Type="WZUIContainer" GUID="{d0163d61-af89-428a-a5da-866355d9c55f}" />
+                    <WZUIImage Type="WZUIImage" GUID="{9168e0da-c700-48be-9f21-b4dd59bfd3c5}" File="ui/common/common_btn_jiant_04.png" UseOriginSize="True" Name="" RelativePosition="0.5,0.5" />
+                </Button>
+                <WZUIContainer Type="WZUIContainer" GUID="{313c3664-5e26-4ffc-9c02-0bbbb5d41c14}" AbsContentSize="250,36" UseAbsSize="True" AnchorPoint="0,0.5" RelativePosition="0.3,0.5" Name="conEdit_WndSpaceDynamic">
+                    <WZUI9Image Type="WZUI9Image" GUID="{ea1f442d-e60c-49f7-9c03-c283a57ef9ef}" File="ui/common/frame_13.png" />
+                    <WZUIEditBox Type="WZUIEditBox" GUID="{f9837a20-defb-4c88-b4e0-f4a7dec0bdf4}" FontSize="20" TextFieldPadding="0" Text="1122" PlaceHolder="" BgHidden="False" InputMode="ModeAny" BgPicture="ui/common/transparent_bg.png" Name="editComment_WndSpaceDynamic" MaxLength="30" Color="79,60,48" PlaceHolderAlignment="0" FontColor="255,255,255" PlaceholderFontColor="195,171,148" Alignment="0" ChinesePlaceholderNum="2" RelativeSize="1,1" AnchorPoint="1,0.5" RelativePosition="1,0.5" />
+                </WZUIContainer>
+                <Button Type="WZUIButton" GUID="{bcbce926-a7c0-46a9-b83e-690f42d9b936}" LocalInterval="300" LuaDoneFunctionName="onClickFace" AbsContentSize="40,40" UseAbsSize="True" Name="btnFace_WndSpaceDynamic" RelativePosition="0.93,0.5" LuaActionName="Normal" Visible="False">
+                    <NormalElement Type="WZUIContainer" GUID="{7570e6f3-0a7d-45a9-883d-4de24b77324d}" />
+                    <SelectElement Type="WZUIContainer" GUID="{25ea74e3-300a-41ee-9c2b-159e3db10dff}" />
+                    <DisableElement Type="WZUIContainer" GUID="{8eccbc87-9ab7-440c-90aa-27d0e44ca380}" />
+                    <WZUIImage Type="WZUIImage" GUID="{b129eecb-6137-4c4d-bbf4-0e4eeb5c89ed}" File="ui/common/common_icon_bq.png" UseOriginSize="True" Name="" RelativePosition="0.5,0.5" />
+                </Button>
+                <Button Type="WZUIButton" GUID="{394f82ae-f9d1-4f07-af15-174e9c1099e4}" LocalInterval="300" LuaDoneFunctionName="onClickSubmitComment" AbsContentSize="65,45" UseAbsSize="True" RelativePosition="0.934348,0.5" Name="btnComment_WndSpaceDynamic" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{19e2d80f-5879-40d6-b500-a2418eb9aefa}" />
+                    <SelectElement Type="WZUIContainer" GUID="{fa8cdb33-4e5a-4e5e-af4d-85442e9f2149}" />
+                    <DisableElement Type="WZUIContainer" GUID="{15d7b4cb-1753-42b3-9855-0da48041daf8}" />
+                    <WZUIImage Type="WZUIImage" GUID="{8c9e707f-d308-4675-bf99-b147f940af8f}" File="ui/common/common_btn_xiao.png" UseOriginSize="True" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{2439c254-bdc0-43a5-beb5-cb5210b3d9a9}" Text="评论" Color="255,255,255" EnableStroke="True" FontSize="18" StrokeSize="4" StrokeColor="127,70,26" TextKey="FRIENDCIRCLE_TEXT15" />
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndSpaceDynamic>

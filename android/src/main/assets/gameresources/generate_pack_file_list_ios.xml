@@ -1,0 +1,3 @@
+<WZAsyncLoader>
+    <dir input="resources/image/ui/common" pack="common/pack_common_{n}"/>
+</WZAsyncLoader>

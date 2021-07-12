@@ -1,0 +1,79 @@
+﻿<CellReturneeFriend GUID="{51ede3b7-fed4-41c9-8745-8e9b930f08df}">
+    <WZUIContainer Type="WZUIContainer" GUID="{38c4cee4-a59f-4c38-ba07-aa98a3f10733}" AbsContentSize="770,390" UseAbsSize="True" Name="CellReturneeFriend" NameCreate="True" RelativePosition="0.5,0.5" AnchorPoint="0.5,0.5">
+        <WZUIContainer Type="WZUIContainer" GUID="{35f8535f-65ca-4eff-908c-c2f235a3a08e}" Name="" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5" Visible="True">
+            <WZUIImage Type="WZUIImage" GUID="{7cd7eebb-cec7-4749-9526-2b3f8563de9f}" File="ui/gameActivity/returnee/activity_pic_xiarigg_2.png" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{d19034be-9689-4452-8df9-d27cd33fb338}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.03,0.93" AnchorPoint="0,0.5" Name="txtTime_CellReturneeFriend" TextKey="REMAIN_TIME">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{26b9350f-ffdf-4852-a7ea-569abd3809d6}" AnchorPoint="0,0.5" Color="99,255,96" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtTimeValue_CellReturneeFriend" />
+            </WZUILabelTTF>
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{e2d0aa65-8ed2-401d-ad12-e2779701e465}" Color="255,255,255" FontSize="22" EnableStroke="True" StrokeColor="40,60,140" StrokeSize="4" Text="" RelativePosition="0.566584,0.93" AnchorPoint="0,0.5" Name="txtCode_CellReturneeFriend" TextKey="MY_INVITE_CODE">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5e5d9ee1-2ef5-473d-bef8-fe0a65ce9b0b}" AnchorPoint="0,0.5" Color="247,219,110" FontSize="22" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="1.1,0.5" Text="" EnableStroke="True" Name="txtIntegralValue_CellReturneeFriend" />
+            </WZUILabelTTF>
+            <Button Type="WZUIButton" RelativePosition="0.929569,0.93265" AbsContentSize="54,32" UseAbsSize="True" GUID="{9a3101b1-8eed-4b08-ad5e-b8feec454268}" LuaDoneFunctionName="onClickShare" LuaActionName="Normal">
+                <NormalElement Type="WZUIContainer" GUID="{008bef6c-6cd3-45d3-acf6-50aa6077785e}">
+                    <WZUI9Image Type="WZUI9Image" GUID="{5d998341-c2c4-409e-81be-a41aa9d8d678}" File="ui/common/common_btn_anniu5.png" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{22655550-cf66-4aa4-9532-680b0c0da737}">
+                    <WZUI9Image Type="WZUI9Image" GUID="{61af61ed-7941-4a27-a244-049dd22fc35c}" File="ui/common/common_btn_anniu5.png" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{7add37f6-0d72-4054-8795-49b4633ce445}" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{1318f4b9-77f1-410f-8eb3-c5a7e4bfd2de}" LabelStyleKey="C1_F20_S4_C3" TextKey="SHARE" Scale="0.9" ScaleX="0.9" ScaleY="0.9" Name="txtShare_CellReturneeFriend" Text="" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{8a683c6e-07df-4cee-b9b5-25722c54ca3c}" UseAbsSize="True" AbsContentSize="366,336" RelativePosition="0.258,0.445" Name="conFriendList1_CellReturneeFriend">
+                <WZUI9Image Type="WZUI9Image" GUID="{3fbc1ddf-88ec-461a-b1ed-37608ece6934}" File="ui/gameActivity/returnee/daozhu_di.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{b509c6b4-29b1-4227-9379-e10459a7c3d4}" Text="" StrokeColor="40,60,140" StrokeSize="4" Color="255,255,255" EnableStroke="True" FontSize="20" RelativePosition="0.04,0.94" AnchorPoint="0,0.5" TextKey="RETURNEE_TEXT18" Name="tips1_CellReturneeFriend" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{b83c049b-72f1-4e66-b4e6-5b85ff6bab15}" UseAbsSize="True" AbsContentSize="350,244" RelativePosition="0.5,0.54" Name="tconFriend1_CellReturneeFriend" CellElementHeight="0.32" EnableMoveHorizontal="False" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{7242b8b5-fd3f-4d0c-974a-1b71c9e46dc5}" Text="" StrokeColor="40,60,140" StrokeSize="4" Color="255,255,255" EnableStroke="True" FontSize="20" RelativePosition="0.04,0.1" AnchorPoint="0,0.5" TextKey="" Name="txtInviteDesc1_CellReturneeFriend" />
+                <Button Type="WZUIButton" GUID="{3f50bf2f-e53e-4109-84a3-24233828124d}" AbsContentSize="40,40" AnchorPoint="0.5,0.5" RelativePosition="0.55,0.1" UseAbsSize="True" LuaDoneFunctionName="onClickGift" Tag="1" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{a31d23db-716d-4a60-95fd-55011ec8b9aa}" />
+                    <SelectElement Type="WZUIContainer" GUID="{665debfe-e2ae-41bf-93af-cbf55715b69a}" />
+                    <DisableElement Type="WZUIContainer" GUID="{62216c85-6830-4f20-aaf9-b69186fdbfdc}" />
+                    <WZUIImage Type="WZUIImage" GUID="{e6676c48-1765-45fb-b493-0cb7604bebd7}" File="" RelativePosition="0.5,0.5" UseOriginSize="False" AnchorPoint="0.5,0.5" Scale="1" Name="imgGift1_CellReturneeFriend" />
+                    <WZUIImage Type="WZUIImage" GUID="{55bf56c4-630d-4ea0-9716-c302da3d0219}" File="ui/common/common_scale9_wuse.png" />
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{38171555-dad1-40e3-9b03-b50eec188b8a}" AnchorPoint="1,0.5" Color="247,219,110" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="0.74,0.1" Text="" EnableStroke="True" Name="txtInviteNum1_CellReturneeFriend" />
+                <Button Type="WZUIButton" GUID="{e3d02667-9d81-4352-849b-7f4b7ca66a0b}" UseAbsSize="True" AbsContentSize="80,40" RelativePosition="0.857592,0.0987554" Name="btnGet1_CellReturneeFriend" LuaDoneFunctionName="onGetReward" Tag="1">
+                    <NormalElement Type="WZUIContainer" GUID="{79ef6dad-55ee-4c73-a676-0c8129aec28a}">
+                        <WZUIImage Type="WZUIImage" GUID="{e3a12251-2177-42b2-96a9-b9a2e3756fb9}" File="ui/common/common_btn_anniu10_0.png" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{780c89f2-ec87-487c-8e55-70b2282c5e7b}" TextKey="ACTIVE_BTN_GET" LabelStyleKey="SMALL_GREEN_BTN" Text="" Scale="0.9" Name="txtBtnGet1_1_CellReturneeFriend" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{5dec090d-a4f1-47e1-8571-dc6ef9b013a0}">
+                        <WZUIImage Type="WZUIImage" GUID="{7556eabf-1f23-4c34-b030-c312fbefae7d}" File="ui/common/common_btn_anniu10_0_sel.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{97c50cfa-f32b-4b3c-a235-8296c8ea9fc5}" TextKey="ACTIVE_BTN_GET" LabelStyleKey="SMALL_GREEN_BTN" Text="" Scale="0.9" Name="txtBtnGet1_2_CellReturneeFriend" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{ddc0c464-65ab-4b05-85eb-3abe86f4ca6a}">
+                        <WZUIImage Type="WZUIImage" GUID="{de34099d-6276-4762-a2e5-ee1e539a1216}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{3ac8011b-c14d-40d6-a5cd-0a222b34b6f7}" TextKey="" LabelStyleKey="SMALL_GRAY_BTN" Text="" Scale="0.9" Name="txtBtnGet1_3_CellReturneeFriend" />
+                    </DisableElement>
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{91b37ba3-a053-4437-8504-f21c1af6185f}" UseAbsSize="True" AbsContentSize="366,336" RelativePosition="0.742,0.445" Name="conFriendList2_CellReturneeFriend">
+                <WZUI9Image Type="WZUI9Image" GUID="{91b22bfb-1bb7-4f04-a8e9-23bfe90c5554}" File="ui/gameActivity/returnee/daozhu_di.png" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{c74523bf-3ad1-4f07-8ca9-edee5fa68409}" Text="" StrokeColor="40,60,140" StrokeSize="4" Color="255,255,255" EnableStroke="True" FontSize="20" RelativePosition="0.04,0.94" AnchorPoint="0,0.5" TextKey="RETURNEE_TEXT19" Name="tips2_CellReturneeFriend" />
+                <WZUITableContainer Type="WZUITableContainer" GUID="{7b23b524-ec8d-41b7-9b9f-0cf1af842809}" UseAbsSize="True" AbsContentSize="350,244" RelativePosition="0.5,0.54" Name="tconFriend2_CellReturneeFriend" EnableMoveHorizontal="False" CellElementHeight="0.32" />
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{afc6e3a9-0543-4744-8066-15e924f3df48}" Text="" StrokeColor="40,60,140" StrokeSize="4" Color="255,255,255" EnableStroke="True" FontSize="20" RelativePosition="0.04,0.1" AnchorPoint="0,0.5" TextKey="" Name="txtInviteDesc2_CellReturneeFriend" />
+                <Button Type="WZUIButton" GUID="{f1140474-226c-4e53-901b-9c5571e6c532}" AbsContentSize="40,40" AnchorPoint="0.5,0.5" RelativePosition="0.55,0.1" UseAbsSize="True" LuaDoneFunctionName="onClickGift" Tag="2" LuaActionName="Normal">
+                    <NormalElement Type="WZUIContainer" GUID="{c4bb8a22-ced6-4813-b068-370cc4ae1ff2}" />
+                    <SelectElement Type="WZUIContainer" GUID="{f79e8efa-7311-4671-8fdd-84ea86a5eb37}" />
+                    <DisableElement Type="WZUIContainer" GUID="{822c19d3-ee28-4ba6-987d-7d0942d4d10c}" />
+                    <WZUIImage Type="WZUIImage" GUID="{36253c0e-ac78-49d3-bc0a-1ce01852c7d6}" File="" RelativePosition="0.5,0.5" UseOriginSize="False" AnchorPoint="0.5,0.5" Scale="1" Name="imgGift2_CellReturneeFriend" />
+                    <WZUIImage Type="WZUIImage" GUID="{592522e5-ec2d-4927-92fe-aec269eb21d1}" File="ui/common/common_scale9_wuse.png" />
+                </Button>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0d36e67a-e3e2-4e8f-8641-a2a1855cd7f8}" AnchorPoint="1,0.5" Color="247,219,110" FontSize="20" StrokeColor="40,60,140" StrokeSize="4" RelativePosition="0.74,0.1" Text="" EnableStroke="True" Name="txtInviteNum2_CellReturneeFriend" />
+                <Button Type="WZUIButton" GUID="{75f64d16-0050-4902-968c-e0e4e6ef9dba}" UseAbsSize="True" AbsContentSize="80,40" RelativePosition="0.857592,0.0987554" Name="btnGet2_CellReturneeFriend" LuaDoneFunctionName="onGetReward" Tag="2">
+                    <NormalElement Type="WZUIContainer" GUID="{48438d19-ddb2-4c0b-861e-b554f44928e6}">
+                        <WZUIImage Type="WZUIImage" GUID="{6f4edd31-61c1-4e97-acac-df2ae3157834}" File="ui/common/common_btn_anniu10_0.png" Visible="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{703f6f96-f9fd-4786-beb8-af060cc4db84}" TextKey="ACTIVE_BTN_GET" LabelStyleKey="SMALL_GREEN_BTN" Text="" Scale="0.9" Name="txtBtnGet2_1_CellReturneeFriend" />
+                    </NormalElement>
+                    <SelectElement Type="WZUIContainer" GUID="{fc0e85ea-4307-4121-8129-73921c579a9b}">
+                        <WZUIImage Type="WZUIImage" GUID="{3646ee79-bb56-4d83-ad84-c96f464477a9}" File="ui/common/common_btn_anniu10_0_sel.png" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{30bd9592-24bd-47db-96ca-f23f70cfd9fa}" TextKey="ACTIVE_BTN_GET" LabelStyleKey="SMALL_GREEN_BTN" Text="" Scale="0.9" Name="txtBtnGet2_2_CellReturneeFriend" />
+                    </SelectElement>
+                    <DisableElement Type="WZUIContainer" GUID="{7bfe1ee8-9566-422d-815c-3e81a70da071}">
+                        <WZUIImage Type="WZUIImage" GUID="{b8946d5f-d5c3-4d1a-9d8d-90ae3771de1a}" File="ui/common/common_btn_anniu10_0.png" GrayRender="True" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{8624fce0-354a-469e-9793-f6b1a4eeef02}" TextKey="" LabelStyleKey="SMALL_GRAY_BTN" Text="" Scale="0.9" Name="txtBtnGet2_3_CellReturneeFriend" />
+                    </DisableElement>
+                </Button>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeFriend>

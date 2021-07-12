@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "P8RYd9RmMZnuk4rmd0vZf/FqBgg", "spine": "2.1.27", "width": 958, "height": 278 },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "shanping_chunjie_3", "bone": "root", "attachment": "shanping_chunjie_3" }
+],
+"skins": {
+	"default": {
+		"shanping_chunjie_3": {
+			"shanping_chunjie_3": { "x": 1.89, "y": 139, "width": 958, "height": 278 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

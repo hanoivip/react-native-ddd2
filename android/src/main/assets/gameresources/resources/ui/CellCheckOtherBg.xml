@@ -1,0 +1,17 @@
+﻿<CellCheckOtherBg GUID="{8d7dbdcd-e5ff-40e2-9fe8-ffc984efa941}">
+    <WZUIContainer Type="WZUIContainer" GUID="{e0335259-6f92-49a0-b76b-e5c16d562ee9}" AbsContentSize="142,72" UseAbsSize="True" Name="CellCheckOtherBg" NameCreate="True">
+        <WZUIImage Type="WZUIImage" GUID="{6611e9ea-0a82-441c-883c-e0918f00e8cd}" Name="imgBg_CellCheckOtherBg" File="ui/checkother/player_bg2_000.png" UseOriginSize="True" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{9128e612-082f-4ede-a529-97062688b957}" FontSize="20" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="79,60,48" Name="txtDefault_CellCheckOtherBg" TextKey="DEFAULT" Visible="False" />
+        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{64fa5f46-6fa8-4120-a9be-0ac2bb875f07}" MaxWidth="150" Name="ftxtPrice_CellCheckOtherBg" RelativePosition="0.5,0.2" />
+        <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{a27d34af-ced6-4025-b589-d3ddd3e9e32f}" MaxWidth="150" Name="ftxtDiscount_CellCheckOtherBg" RelativePosition="0.5,0.5" />
+        <WZUIImage Type="WZUIImage" GUID="{ae703cf1-0eb4-40b2-a068-73471e408ab0}" File="ui/gameActivity/common_icon_xiexian3.png" UseOriginSize="True" RelativePosition="0.5,0.2" Scale="0.6" Name="imgDiscount_CellCheckOtherBg" />
+        <WZUIContainer Type="WZUIContainer" GUID="{770eb912-0c79-4ac4-993a-fb95531864c5}" Name="conSel_CellCheckOtherBg" RelativeSize="1.05,1.11" Visible="False">
+            <WZUI9Image Type="WZUI9Image" GUID="{724383dc-82e8-495d-b75d-181518bd1d40}" File="ui/common/common_scale9_beibaodi_sel.png" Scale="1" />
+        </WZUIContainer>
+        <Button Type="WZUIButton" GUID="{f8a5685b-1d69-41fc-96d6-f86123c7a1be}" LuaDoneFunctionName="onClickCell">
+            <NormalElement Type="WZUIContainer" GUID="{2e6ea91d-c608-4554-92eb-913cd1d3100a}" />
+            <SelectElement Type="WZUIContainer" GUID="{0d526d6c-3d94-4c44-b8ce-de71dec3130c}" />
+            <DisableElement Type="WZUIContainer" GUID="{357a2cee-ed72-47f0-b9da-0a5eb1d1ef9c}" />
+        </Button>
+    </WZUIContainer>
+</CellCheckOtherBg>

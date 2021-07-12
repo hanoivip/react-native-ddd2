@@ -1,0 +1,40 @@
+﻿<CellWorldTeamBossInvite GUID="{b9a0b5e9-e15c-427c-b971-41c7a7448c9f}">
+    <WZUIContainer Type="WZUIContainer" GUID="{056a7e90-d672-46bc-8fa4-f25ac44fec81}" LuaObjectName="" Name="CellWorldTeamBossInvite" NameCreate="True" AbsContentSize="470,80" UseAbsSize="True">
+        <WZUI9Image Type="WZUI9Image" GUID="{29469af5-2fea-439c-878a-8549245924e0}" File="ui/common/common_scale9_fengexian.png" ShowRect="False" CapInsets="0,0,0,0" Name="imgRankBg_CellWorldTeamBossList" UseOriginSize="True" ScaleX="2.2" AnchorPoint="0.5,0.5" RelativePosition="0.5,0" />
+        <WZUIContainer Type="WZUIContainer" GUID="{864c1e62-0a37-4c4d-903a-76a1a1261d1c}" AbsContentSize="470,80" UseAbsSize="True" Visible="True">
+            <WZUIContainer GUID="{c9af450a-6360-4edb-95f5-e6de8c2d5e20}" RelativePosition="1,0.5" Type="WZUIContainer" AbsContentSize="470,80" UseAbsSize="True" AnchorPoint="1,0.5">
+                <Button GUID="{d4341a08-236f-46a4-b207-6f1e0573af5c}" LuaDoneFunctionName="onBackClick" Type="WZUIButton" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.897872,0.5" LuaActionName="Normal" LocalInterval="300" Name="btnInvite_CellWorldTeamBossInvite">
+                    <NormalElement GUID="{ba678d8d-f050-4683-8328-41c5d286151b}" Type="WZUIContainer" />
+                    <SelectElement GUID="{513008f9-666b-4113-a33f-495c7ac5eab9}" Type="WZUIContainer" />
+                    <DisableElement GUID="{0a3276ff-257c-4c2b-b994-4832664e7539}" Type="WZUIContainer" />
+                    <WZUIImage Type="WZUIImage" GUID="{393997aa-718e-4c92-8892-2df52f801678}" File="ui/common/common_icon_hytjtb.png" UseOriginSize="True" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{1c9c95b4-fe77-43f4-8037-431539eab6c3}" AbsContentSize="74,75" UseAbsSize="True" RelativePosition="0.102352,0.5" Scale="0.8">
+                <WZUIImage Type="WZUIImage" GUID="{f1f2ea29-35d6-4387-b859-4e4467591099}" File="ui/common/common_icon_tx.png" UseOriginSize="False" Visible="True" />
+                <WZUIContainer AnchorPoint="0.5,0.5" GUID="{fd5e64d1-e26f-452b-b417-e739599f8819}" RelativePosition="0.5,0.5" RelativeSize="1,1" TouchEnable="True" Type="WZUIContainer" Name="conHead_CellWorldTeamBossInvite">
+                    <WZUIButton Type="WZUIButton" LuaDoneFunctionName="event_ClickHead" GUID="{0711b384-bbfe-4414-853b-3f2af5c02d7e}">
+                        <NormalElement Type="WZUIContainer" GUID="{d26daffc-f70b-4249-88b4-013d3e6423a0}" />
+                        <SelectElement Type="WZUIContainer" GUID="{2ffc2598-2a1d-47a5-82c1-814215f8f6a5}" />
+                        <DisableElement Type="WZUIContainer" GUID="{fda8bdf6-e85a-46c6-a67b-62b31abece00}" />
+                    </WZUIButton>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer AbsContentSize="660,61" GUID="{ef3a67aa-6028-418a-a57d-aa69ba0e796a}" Type="WZUIContainer" TouchEnable="True" RelativePosition="0.5,0.5">
+                <WZUIContainer AnchorPoint="0.5,0.5" GUID="{a3361a5d-0c56-48f5-82c7-b1266ef60665}" RelativePosition="0.5,0.5" RelativeSize="1,1" TouchEnable="False" Type="WZUIContainer" Name="conInfo_CellWorldTeamBossInvite">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{2106ccc6-8563-4894-b798-ed0e3dd8bc53}" FontSize="22" Color="158,0,0" Text="45." AnchorPoint="0,0.5" Name="txtLevel1_CellWorldTeamBossInvite" RelativePosition="0.18,0.7" EnableStroke="False" StrokeColor="255,89,74" StrokeSize="1" LabelStyleKey="C11_F22">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{98896227-f8c3-40de-822f-9de4f322d1d4}" FontSize="22" Text="六个字六个字" Alignment="Left" AnchorPoint="0,0.5" RelativePosition="1,0.5" Name="txtName_CellWorldTeamBossInvite" Color="195,171,148" BoldFont="False" EnableStroke="False" StrokeColor="105,65,46" StrokeSize="1" />
+                    </WZUILabelTTF>
+                    <WZUIImage Type="WZUIImage" GUID="{21fc37a8-ed27-43b1-9cd5-bc917041a821}" File="ui/common/common_icon_zhanlih.png" UseOriginSize="True" Scale="1.1" RelativePosition="0.18,0.35" AnchorPoint="0,0.5">
+                        <WZUILabelAtlasFont Type="WZUILabelAtlasFont" GUID="{4d099011-5d28-4d35-ab9a-76558b77d0c1}" CharMapFileName="ui/common_num/common_num_zhandouli.png" Width="16" Height="26" Name="txtFight_CellWorldTeamBossInvite" Text="" Scale="1" RelativePosition="1.1,0.5" UseOriginSize="True" ScaleX="1" ScaleY="1" Visible="True" AnchorPoint="0,0.5" />
+                    </WZUIImage>
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{063e4ab6-09a7-4e06-b6a4-412562cd05ca}" FontSize="22" Name="txtQuitTeamTimes_CellWorldTeamBossInvite" Visible="True" Color="105,65,46" RelativePosition="0.52,0.5" Text="" />
+                </WZUIContainer>
+                <WZUIImage Type="WZUIImage" GUID="{5a474a36-a470-48e3-a6bf-b2e3707028e6}" File="ui/common/common_icon_tudi.png" UseOriginSize="True" RelativePosition="0.65,0.5" Name="imgMaster_CellWorldTeamBossInvite" Visible="False" TouchEnable="False" TouchSwallow="False" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{91dae01d-ebce-4cdb-92a1-e2594ee3d091}" AbsContentSize="80,80" UseAbsSize="True" RelativePosition="0.924203,0.5" Name="conImgInVitation_CellWorldTeamBossInvite" Visible="False">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{e191c3a9-6af1-4139-a03c-844f20556142}" Text="已邀请" FontSize="22" Color="158,139,121" TextKey="HAVED_INVITED" Name="txtInvited_CellWorldTeamBossInvite" />
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellWorldTeamBossInvite>

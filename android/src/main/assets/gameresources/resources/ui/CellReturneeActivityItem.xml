@@ -1,0 +1,16 @@
+﻿<CellReturneeActivityItem GUID="{0b9051a7-5da9-4a1a-a988-5f64350f8fdf}">
+    <WZUIContainer Type="WZUIContainer" GUID="{0bcd6d87-43f6-4e3c-ad6c-46705ec19cb8}" Name="CellReturneeActivityItem" AbsContentSize="150,68" UseAbsSize="True" TouchContainerEnable="True" NameCreate="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{f2ee3ea3-077c-46f2-8f3d-699d3f27255f}" AbsContentSize="150,68" UseAbsSize="True" RelativePosition="0.5,0.5" Name="conActivity_CellReturneeActivityItem" Visible="True">
+            <WZUIImage Type="WZUIImage" GUID="{9afa6669-a018-46fd-86ab-1714230489be}" File="ui/gameActivity/holiday_anniu1.png" UseOriginSize="True" Name="imgBtnNormal_CellReturneeActivityItem" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{ded05c0c-5273-48bd-915a-62fcfd634441}" File="ui/gameActivity/holiday_anniu2.png" UseOriginSize="True" Name="imgBtnSelected_CellReturneeActivityItem" Visible="False" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{01b12314-ebc4-42a3-9a24-f348662ba58f}" Text="" FontSize="26" Color="255,255,255" Name="txtBtnTitle_CellReturneeActivityItem" StrokeColor="128,54,33" StrokeSize="4" Tag="2" EnableStroke="False" RelativePosition="0.5,0.485714" Dimensions="130" />
+            <WZUIImage Type="WZUIImage" GUID="{2bef99ec-7a54-4ff7-a9c8-07d1de566f52}" File="" UseOriginSize="True" Name="imgBtnTitle_CellReturneeActivityItem" Visible="True" />
+            <WZUIImage Type="WZUIImage" GUID="{c34d6125-e1d9-44cf-a172-947f17f28f94}" File="ui/common/common_icon_xiaodianzhui.png" UseOriginSize="True" RelativePosition="0.934903,0.880243" Scale="0.7" ScaleX="0.7" ScaleY="0.7" Name="imgActRed_CellReturneeActivityItem" Visible="False" TouchEnable="False" isValid="True" />
+            <Button Type="WZUIButton" GUID="{fa1bc81a-4942-4b6e-8399-8ab466afa644}" Name="btn_CellReturneeActivityItem" LuaDoneFunctionName="onClickCellItem" Tag="1" TouchEnable="True" Visible="True" TouchSwallow="True">
+                <NormalElement Type="WZUIContainer" GUID="{ffde97e8-3f40-41ac-a0ab-4e31cf863de6}" />
+                <SelectElement Type="WZUIContainer" GUID="{40bf25fa-527b-4d61-bc67-a9763b547840}" />
+                <DisableElement Type="WZUIContainer" GUID="{7947d577-0eff-4ab4-b9b4-f61ae28af50d}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIContainer>
+</CellReturneeActivityItem>

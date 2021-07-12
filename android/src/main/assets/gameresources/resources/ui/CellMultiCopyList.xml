@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" ?>
+<CellMultiCopyList GUID="{DAA07940-9D5B-4d51-B92F-D5A4AF5077EA}">
+    <WZUIFrame Type="WZUIFrame" GUID="{49722D1C-873E-440c-ABBE-95A7F0411E0F}">
+        <CellElement Type="WZUIContainer" GUID="{1c892f77-14ea-425b-a510-e468c5913954}" UseAbsSize="True" AbsContentSize="322,142" Tag="0" Name="CellMultiCopyList" NameCreate="True" ShowAll="False" RelativePosition="0.5,0.5">
+            <WZUIContainer Type="WZUIContainer" GUID="{7D9C5F17-A851-4459-8844-013EF0CCDA70}" Visible="True" Name="conFrame_CellMultiCopyList" NameCreate="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{48e819d6-7d4d-486a-94e0-b90bcf8377f4}" File="ui/common/frame_ditu_kuang.png" RelativePosition="0.5,0.492" />
+                <WZUIImage Type="WZUIImage" GUID="{9f2377f2-d010-451b-9b23-d2956069e71d}" File="ui/copy/map_new/map0_bg1.png" Visible="True" Scale="1" ScaleX="1" ScaleY="1" Name="imgIcon_CellMultiCopyList" NameCreate="True" UseOriginSize="True" />
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{65EC8DF6-6423-4e70-A439-ACE938DBDDAD}" Name="conLevel_CellMultiCopyList" NameCreate="True" Visible="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{E1A1AAB6-5304-4e6c-9475-9F92C7D03705}" RelativeSize="1,0.27" RelativePosition="0.5,0.98882" AnchorPoint="0.5,1" Visible="True">
+                    <WZUIImage Type="WZUIImage" GUID="{9D0CAC54-5D45-4a03-8B12-FFE0E3579876}" File="ui/common/common_fuben_biaoti.png" Scale="1" FlipX="True" FlipY="False" RelativePosition="0.51246,0.5" AbsPosition="205.64,18.4" Opacity="255" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5E293E4B-6FA8-4ad1-B423-37A2D67CE3DD}" Color="255,227,116" Alignment="Left" AnchorPoint="0,0.5" Text="八爪海盗王" FontSize="20" RelativePosition="0.054,0.474" Name="txtName_CellMultiCopyList" BoldFont="True" EnableStroke="True" StrokeSize="4" StrokeColor="127,70,26" />
+                    <WZUIContainer Type="WZUIContainer" GUID="{36b08b71-0593-4689-a062-f5e0a50bf155}" RelativeSize="0.36,1" AnchorPoint="1,0.5" RelativePosition="1.025,0.5" AbsPosition="145.46,21.4">
+                        <WZUIContainer Type="WZUIContainer" GUID="{7d3e649c-9375-4dc3-8f17-7fd94b7f940e}" AbsContentSize="28,28" UseAbsSize="True" RelativePosition="0.221404,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{9d9b9072-df83-4cb8-ae5f-99aae877e458}" File="ui/common/common_icon_xingxing2.png" RelativePosition="0.5,0.5" Name="imgStar1_CellMultiCopyList" NameCreate="True" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{08462a2b-9e29-4808-a330-febf019f0ee8}" AbsContentSize="28,28" UseAbsSize="True" RelativePosition="0.458571,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{a035dfc0-1758-4455-b23e-1c289103f971}" File="ui/common/common_icon_xingxing2.png" RelativePosition="0.5,0.5" Name="imgStar2_CellMultiCopyList" NameCreate="True" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{3d76e23f-41bf-42d4-a52a-015f471e4a39}" AbsContentSize="28,28" UseAbsSize="True" RelativePosition="0.687112,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{86d40287-f7c8-4ed6-9ba6-010e5e03acb6}" File="ui/common/common_icon_xingxing2.png" RelativePosition="0.5,0.5" Name="imgStar3_CellMultiCopyList" NameCreate="True" />
+                        </WZUIContainer>
+                    </WZUIContainer>
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{4F099FE8-A858-4975-9A4D-E16418182386}" RelativeSize="0.97,0.2" AnchorPoint="0.5,0" RelativePosition="0.5,0.0271739">
+                    <WZUIContainer Type="WZUIContainer" GUID="{86ED781C-15B1-46a3-BF90-5B0D71F1DC04}" RelativeSize="0.5,1" AnchorPoint="0,0.5" RelativePosition="-0.00960492,0.711267" Visible="True" Name="conAwakeOpen_CellMultiCopyList">
+                        <WZUI9Image Type="WZUI9Image" GUID="{08b9f09b-dfa4-4ad2-ae96-61195049662e}" File="ui/common/common_bq_zdqz.png" UseOriginSize="True" AnchorPoint="0,0.5" RelativePosition="0,0.5" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{79b97fe8-2439-4aa2-9d17-a55f23645e0a}" Color="255,236,193" TextKey="MULCOPY_TEXT1" FontSize="18" RelativePosition="0.02,0.5" FlipX="False" EnableStroke="True" StrokeColor="132,70,29" StrokeSize="2" AnchorPoint="0,0.5" Name="txtDesc_CellMultiCopyList" />
+                    </WZUIContainer>
+                    <WZUIContainer Type="WZUIContainer" GUID="{b818b665-cc22-41de-9f1f-2c9eeacc9afa}" RelativeSize="0.5,1" AnchorPoint="1,0.5" RelativePosition="1.02741,0.5" AbsPosition="412.28,18.4" Name="conLeftCnt_CellMultiCopyList">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{42ed38c0-2028-4eaa-97d2-72ef80bb2ae9}" Color="255,236,193" TextKey="KING_REST_TIMES" FontSize="20" RelativePosition="0.386548,0.472826" Name="txtLeftCntT_CellMultiCopyList" EnableStroke="True" StrokeSize="2" StrokeColor="79,60,48" />
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{5687a5bc-94fd-4e85-acee-41692740094e}" Color="255,236,193" Text="5 / 6" FontSize="20" RelativePosition="0.8,0.5" Name="txtLeftCnt_CellMultiCopyList" NameCreate="True" EnableStroke="True" StrokeSize="2" StrokeColor="79,60,48" />
+                    </WZUIContainer>
+                </WZUIContainer>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{A295BEAC-79D9-4994-9E21-14D099C2E180}" Name="ConSel_CellMlultiCopyList" NameCreate="True" Visible="True" AbsContentSize="328,148" UseAbsSize="True">
+                <WZUI9Image Type="WZUI9Image" GUID="{4E6CF832-FBFE-4a51-80A5-E9CC6FE8E21D}" File="ui/profession/jineng_tf_di_xuanzhong.png" RelativeSize="1,1" Name="imgSel_CellMultiCopyList" Visible="False" Scale="1" />
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{3ec1b00a-ee16-416d-89ab-1850dbcfec52}" UseAbsCoordinate="False" LuaDoneFunctionName="onClickCell">
+                <SelectElement Type="WZUIContainer" GUID="{e7aba941-4f74-4c0f-957a-0900a1b49e82}" TouchContainerEnable="True" />
+                <DisableElement Type="WZUIContainer" GUID="{918e466a-ddb6-4897-9bcf-4a84ea0a184c}" />
+            </Button>
+            <WZUIContainer Type="WZUIContainer" GUID="{938b83a4-7eae-4f50-9f31-ba9dff149712}" Name="conAwakeHead_CellMultiCopyList" AbsContentSize="75,75" UseAbsSize="True" RelativePosition="0.11337,0.487271" Scale="0.8" Visible="False">
+                <WZUIImage Type="WZUIImage" GUID="{9750c9ec-766b-4383-be25-44e0906820ee}" File="ui/common/common_icon_txd.png" UseOriginSize="True" />
+                <Button Type="WZUIButton" GUID="{3cdb2831-69c3-495e-8a15-3d93ace153bf}" Order="1" LuaDoneFunctionName="onCheckMirror">
+                    <NormalElement Type="WZUIContainer" GUID="{43063e61-f715-488c-93c5-2e9d2d9ecf9b}" />
+                    <SelectElement Type="WZUIContainer" GUID="{a67bc583-afea-470b-a5bf-b2b1f5f38676}" />
+                    <DisableElement Type="WZUIContainer" GUID="{6c675822-9d50-4295-8a82-6838136fc978}" />
+                </Button>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{44b0b14e-dcda-48b1-9497-168423379be5}" Name="conNotOpen_CellMultiCopyList" RelativeSize="1,1" Visible="True" AbsContentSize="" UseAbsSize="False" RelativePosition="0.5,0.5">
+                <WZUIContainer Type="WZUIContainer" GUID="{b6f78778-62d0-4489-845b-010c71f3b77b}" AbsContentSize="316,136" UseAbsSize="True">
+                    <WZUI9Image Type="WZUI9Image" GUID="{66c854be-c5df-4e62-980f-91ae394adfab}" File="ui/common/common_fuben_zhezhao.png" Visible="True" TouchEnable="False" UseOriginSizeProportion="False" />
+                </WZUIContainer>
+                <WZUIImage Type="WZUIImage" GUID="{86717e8b-edea-4143-b19b-812778c26c40}" File="ui/common/common_icon_suo.png" UseOriginSize="True" Scale="0.7" />
+            </WZUIContainer>
+        </CellElement>
+    </WZUIFrame>
+</CellMultiCopyList>

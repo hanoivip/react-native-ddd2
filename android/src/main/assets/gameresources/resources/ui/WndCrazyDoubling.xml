@@ -1,0 +1,67 @@
+﻿<WndCrazyDoubling GUID="{5a9d0be0-b97e-44ca-a9d9-b9e15ae2ff16}">
+    <WZUIContainer Type="WZUIContainer" GUID="{93929654-4442-40c9-9724-27e0589393ac}" AbsContentSize="960,490" UseAbsSize="True" LuaObjectName="WndCrazyDoubling" Name="WndCrazyDoubling">
+        <WZUIContainer Type="WZUIContainer" GUID="{dc742c45-1f6f-4f0f-ae79-a6814ea5595a}" Visible="True">
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{710976ce-4155-4782-91e1-acb480df3145}" Text="" LabelStyleKey="C1_F20_S4_C13" Name="txtTimeWords_WndCrazyDoubling" AnchorPoint="0,0.5" RelativePosition="0.13,0.965">
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{43fdb8d7-5bf3-48df-af18-bb99bfe7d358}" Text="" LabelStyleKey="" Name="txtTimeValue_WndCrazyDoubling" AnchorPoint="0,0.5" RelativePosition="1,0.5" FontSize="20" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" NoBorder="False" />
+            </WZUILabelTTF>
+            <WZUIContainer Type="WZUIContainer" GUID="{c2f70924-b43d-4d38-8105-74a286a0a8c5}" Name="conInvest_WndCrazyDoubling" AbsContentSize="960,450" UseAbsSize="True">
+                <WZUIContainer Type="WZUIContainer" GUID="{a602d3ce-e5f4-4713-a87e-047e80f30b70}" AbsContentSize="760,300" UseAbsSize="True" RelativePosition="0.5,0.63">
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{79b36abd-fc61-4fed-b1a5-95910e7a3689}" Name="tabconTask_WndCrazyDoubling" RelativePosition="0.5,0.5" EnableMoveVertical="False" IsVerticalMode="False" CellElementHeight="0.28" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{a6f79ea9-15da-4da2-9918-ab7717bcd1ea}" AbsContentSize="754,120" UseAbsSize="True" RelativePosition="0.5,0.131111">
+                    <WZUI9Image Type="WZUI9Image" GUID="{212a9f50-eb70-46fc-bec8-cd7ee958040f}" File="ui/gameActivity/common_hd_dikuang.png" RelativePosition="0.5,0.5" />
+                    <WZUIImage Type="WZUIImage" GUID="{ee671d57-dc63-491e-86ec-a7987a7affdd}" File="ui/gameActivity/common_hd_biaoti.png" UseOriginSize="True" AnchorPoint="0,1" RelativePosition="0.00265252,0.991667" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{d1cc7c8e-e157-4549-b979-1d0eb64de66c}" Text="活动时间" LabelStyleKey="C1_F22_S4_C13" Name="" AnchorPoint="0,0.5" RelativePosition="0.03,0.85" TextKey="CRAZY_DOUBLING_TEXT2">
+                        <WZUILabelTTF Type="WZUILabelTTF" GUID="{66af92ae-36a2-477b-a6ee-ef4ab86ddcbb}" Text="" LabelStyleKey="" Name="txtBuyTimes_WndCrazyDoubling" AnchorPoint="0,0.5" RelativePosition="1,0.5" FontSize="22" Color="255,255,255" EnableStroke="True" StrokeSize="4" StrokeColor="128,54,13" />
+                    </WZUILabelTTF>
+                    <WZUIContainer Type="WZUIContainer" GUID="{3613d182-c7d9-40b4-8d6f-027a04d1c2e1}" AbsContentSize="754,90" UseAbsSize="True" RelativePosition="0.5,0.375" Name="conDice_WndCrazyDoubling">
+                        <WZUIContainer Type="WZUIContainer" GUID="{c9fd0c6e-aa81-4119-86ba-774e1ba8f82e}" AbsContentSize="66,66" UseAbsSize="True" RelativePosition="0.072,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{4c9da435-5cfa-45f5-97da-3818639b0949}" File="ui/gameActivity/common_hd_dikuang0.png" UseOriginSize="True" />
+                            <WZUISpine Type="WZUISpine" GUID="{5afd992e-a374-4caf-8f6a-f88a8929f8f2}" Name="spineDice1_SceneTabooBattle" FileAtlas="ui/saizi.atlas" FileJson="ui/saizi.json" AnimationName="roll" Visible="False" UseOriginSizeProportion="False" Loop="True" Scale="0.4" RelativePosition="0.5,0.59" />
+                            <WZUIImage Type="WZUIImage" GUID="{12156ac7-6acb-4ea4-8b4b-5ac7e7e63e9f}" Name="imgDice1_WndCrazyDoubling" File="ui/taboo/common_icon_shaizi01.png" UseOriginSize="False" Scale="0.85" Visible="True" RelativePosition="0.5,0.5" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{bbcf8669-1bea-41be-896d-143e79332360}" AbsContentSize="66,66" UseAbsSize="True" RelativePosition="0.177,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{d36a5950-96f7-4e34-b88b-c918686976bf}" File="ui/gameActivity/common_hd_dikuang0.png" UseOriginSize="True" />
+                            <WZUISpine Type="WZUISpine" GUID="{34840bf0-04e7-4000-96e6-75336cfb7b29}" Name="spineDice2_SceneTabooBattle" FileAtlas="ui/saizi.atlas" FileJson="ui/saizi.json" AnimationName="roll" Visible="False" UseOriginSizeProportion="False" RelativePosition="0.5,0.59" Scale="0.4" Loop="True" />
+                            <WZUIImage Type="WZUIImage" GUID="{b9c30af2-2504-467c-a031-2b8d965e155d}" Name="imgDice2_WndCrazyDoubling" Scale="0.85" File="ui/taboo/common_icon_shaizi01.png" />
+                        </WZUIContainer>
+                        <WZUIContainer Type="WZUIContainer" GUID="{5bd8a309-3422-4d13-99ce-c2027921fd08}" AbsContentSize="66,66" UseAbsSize="True" RelativePosition="0.282,0.5">
+                            <WZUIImage Type="WZUIImage" GUID="{b29cd2c4-2c2c-410c-8848-3d38c677d8c4}" File="ui/gameActivity/common_hd_dikuang0.png" UseOriginSize="True" />
+                            <WZUISpine Type="WZUISpine" GUID="{e7f21924-3c64-4381-af2b-b7335da0e085}" Name="spineDice3_SceneTabooBattle" FileAtlas="ui/saizi.atlas" FileJson="ui/saizi.json" AnimationName="roll" Visible="False" UseOriginSizeProportion="False" Scale="0.4" RelativePosition="0.5,0.59" Loop="True" />
+                            <WZUIImage Type="WZUIImage" GUID="{0e95d9f1-4ec9-4791-bd44-8e690b10a212}" Name="imgDice3_WndCrazyDoubling" Scale="0.85" File="ui/taboo/common_icon_shaizi01.png" />
+                        </WZUIContainer>
+                        <Button Type="WZUIButton" GUID="{cdd16fb6-10d0-49ce-8b0d-c2a2fffd780f}" UseAbsSize="True" AbsContentSize="152,68" RelativePosition="0.66,0.5" LuaDoneFunctionName="onClickReceive" Visible="True" Name="btnReceive_WndCrazyDoubling">
+                            <NormalElement Type="WZUIContainer" GUID="{6af033d6-a9b6-4e70-b88c-4212d29f03e2}">
+                                <WZUIImage Type="WZUIImage" GUID="{329b49de-e6f1-4357-95e0-89ccf5fc415d}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{aaf8d19c-3a6d-4629-ae5f-5dbf5f718288}" Color="255,250,236" StrokeColor="163,74,20" StrokeSize="4" FontSize="26" Text="" EnableStroke="True" TextKey="ACTIVE_BTN_GET" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{bf4a515f-3a07-4838-b242-fb40635d3d3f}">
+                                <WZUIImage Type="WZUIImage" GUID="{d066f119-c3b2-45e9-8781-0e8fdd06c313}" File="ui/common/common_btn_01.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{5a3c7ffd-23d9-4257-bf53-dc809abc9b57}" Color="255,250,236" StrokeColor="163,74,20" StrokeSize="4" FontSize="26" Text="" EnableStroke="True" TextKey="ACTIVE_BTN_GET" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{19d82d03-cdd7-4b5f-95d0-d38978bf582f}">
+                                <WZUIImage Type="WZUIImage" GUID="{56585760-a599-4a7c-ba79-0b3b743fe89c}" File="ui/common/common_btn_01.png" UseOriginSize="True" GrayRender="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{0429015a-8b57-474a-a3a7-04853bdcebc0}" Color="255,250,236" StrokeColor="163,74,20" StrokeSize="4" FontSize="26" Text="" EnableStroke="True" TextKey="ACTIVE_BTN_GET" LabelStyleKey="NORMAL_GRAY_BTN" />
+                            </DisableElement>
+                        </Button>
+                        <Button Type="WZUIButton" GUID="{a158b724-0d4b-40e8-9677-3b86e206125e}" AbsContentSize="152,68" UseAbsSize="True" RelativePosition="0.88,0.5" LuaDoneFunctionName="onClickDoubling" Visible="True" Name="btnDoubling_WndCrazyDoubling">
+                            <NormalElement Type="WZUIContainer" GUID="{595a6b4e-877c-4f39-a7d5-58f36418b6f3}">
+                                <WZUIImage Type="WZUIImage" GUID="{b28207f5-65f3-46d6-ae0e-ccb21182c2cc}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{07fe2b1e-398c-4e4c-a618-d7a93f2ab8ad}" Color="255,250,236" StrokeColor="0,109,4" StrokeSize="4" EnableStroke="True" Text="" FontSize="26" TextKey="CRAZY_DOUBLING_TEXT3" />
+                            </NormalElement>
+                            <SelectElement Type="WZUIContainer" GUID="{c5c50120-fad6-4dd6-9367-dfd845ed81d9}">
+                                <WZUIImage Type="WZUIImage" GUID="{f6981a9f-e1d9-4963-94b1-a4bb8174149a}" File="ui/common/common_btn_02.png" UseOriginSize="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{290a6ba0-7fa8-42c1-9eec-ad6f3d5f4667}" Color="255,250,236" StrokeColor="0,109,4" StrokeSize="4" EnableStroke="True" Text="" FontSize="26" TextKey="CRAZY_DOUBLING_TEXT3" />
+                            </SelectElement>
+                            <DisableElement Type="WZUIContainer" GUID="{96409bba-54f1-4200-9f38-be7ec2a070e7}">
+                                <WZUIImage Type="WZUIImage" GUID="{05abfc7b-4a79-4974-bd1e-750f5da3330c}" File="ui/common/common_btn_02.png" UseOriginSize="True" GrayRender="True" />
+                                <WZUILabelTTF Type="WZUILabelTTF" GUID="{46b4f27b-5fe5-4565-bebb-fd578a45267c}" Color="255,250,236" StrokeColor="0,109,4" StrokeSize="4" EnableStroke="True" Text="" FontSize="26" TextKey="CRAZY_DOUBLING_TEXT3" LabelStyleKey="NORMAL_GRAY_BTN" />
+                            </DisableElement>
+                        </Button>
+                    </WZUIContainer>
+                    <WZUIFreeTextBox Type="WZUIFreeTextBox" GUID="{2c164189-176c-4de9-af61-86c4de1b7c57}" MaxWidth="600" ShowText="" RelativePosition="0.635,0.85" Name="ftbDesc_WndCrazyDoubling" />
+                </WZUIContainer>
+            </WZUIContainer>
+        </WZUIContainer>
+    </WZUIContainer>
+</WndCrazyDoubling>

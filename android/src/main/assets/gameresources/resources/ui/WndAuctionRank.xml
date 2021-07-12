@@ -1,0 +1,40 @@
+﻿<WndAuctionRank GUID="{e153b9dd-06b7-4443-8909-e19f1d5b4749}">
+    <WZUIWindow Type="WZUIWindow" GUID="{bc3de965-a1cb-4e56-91d2-9f94c8f6ffaf}" Name="WndAuctionRank" LuaObjectName="WndAuctionRank" NameCreate="True" ShowAll="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{9fd44e77-f3c1-476e-baed-e29cf0f998eb}" AbsContentSize="854,514" UseAbsSize="True">
+            <WZUI9Image Type="WZUI9Image" GUID="{3c63bccf-b69f-4ad9-967d-2db18a231c31}" File="ui/doubleSeven/frame_tc_xiao.png" />
+            <WZUILabelTTF Type="WZUILabelTTF" GUID="{cf9e10c6-4bcd-46e9-8ac6-3a99f5d24514}" FontSize="26" Text="" RelativePosition="0.5,0.943" Color="255,236,193" EnableStroke="True" StrokeColor="127,70,26" StrokeSize="4" Name="txtTitle_WndAuctionRank" />
+            <WZUIContainer Type="WZUIContainer" GUID="{9104cf0e-7770-4221-ae0e-948239360d34}" Name="con1_WndAuctionRank" Visible="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{81d4baa9-149f-4a79-96cd-8275f0a65791}" AbsContentSize="822,32" UseAbsSize="True" RelativePosition="0.5,0.844358">
+                    <WZUI9Image Type="WZUI9Image" GUID="{58da483b-3b78-4637-a8ef-67591cdf6006}" File="ui/common/frame_12.png" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{fb02bb5f-932f-45a5-be0c-07a17d5082c3}" FontSize="20" Color="255,255,255" RelativePosition="0.088,0.44" Text="" TextKey="RANK" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{9573171f-bf63-4e22-804c-57206e2c2209}" FontSize="20" Color="255,255,255" RelativePosition="0.27,0.44" Text="" TextKey="AUCTION_HOUSE_TEXT12" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{4a6fdbfd-5aa3-416c-9f4b-898bd91c8a30}" FontSize="20" Color="255,255,255" RelativePosition="0.45,0.44" Text="" TextKey="AUCTION_HOUSE_TEXT13" Name="txtRankTitle3_WndAuctionRank" />
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{20970dd7-fce4-4ced-9361-5f94828759a9}" FontSize="20" Color="255,255,255" RelativePosition="0.765,0.44" Text="" TextKey="ATH_REWARD_CHECK" />
+                </WZUIContainer>
+                <WZUIContainer Type="WZUIContainer" GUID="{1a898f6f-c8cd-4f72-869b-71541d29ba15}" AbsContentSize="840,360" UseAbsSize="True" RelativePosition="0.5,0.45">
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{8806e739-c557-451c-a395-1bbb640ccc76}" Name="tconPlayer_WndAuctionRank" EnableMoveHorizontal="False" CellElementHeight="0.25" />
+                </WZUIContainer>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{671c433f-e280-4206-a5fe-760be0ed5e01}" Text="" AnchorPoint="0,0.5" FontSize="20" RelativePosition="0.04,0.06" Color="127,70,26" TextKey="AUCTION_HOUSE_TEXT14">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{5d9886e3-7b45-437a-bc8d-ec679730e172}" AnchorPoint="0,0.5" Color="229,105,22" FontSize="20" RelativePosition="1.1,0.5" Text="" Name="txtMyAuctionPoints_WndAuctionRank" />
+                </WZUILabelTTF>
+                <WZUILabelTTF Type="WZUILabelTTF" GUID="{84e0fe55-aff0-4c28-9c78-4d88dae96a15}" AnchorPoint="1,0.5" Color="229,105,22" FontSize="20" RelativePosition="0.963973,0.06" Text="" Name="txtMyRanking_WndAuctionRank">
+                    <WZUILabelTTF Type="WZUILabelTTF" GUID="{36773e39-2397-4f26-8746-6d2499524c9a}" Text="" AnchorPoint="1,0.5" FontSize="20" RelativePosition="-0.1,0.5" Color="127,70,26" TextKey="KING_RANK_MY_RANK" />
+                </WZUILabelTTF>
+            </WZUIContainer>
+            <WZUIContainer Type="WZUIContainer" GUID="{f8b25e51-b47e-4c74-882d-b2dbdd7c60f1}" Name="con2_WndAuctionRank" Visible="False">
+                <WZUIContainer Type="WZUIContainer" GUID="{88be6402-1123-4b2b-95c8-d041bc186df5}" UseAbsSize="True" AbsContentSize="800,410" RelativePosition="0.5,0.455">
+                    <WZUITableContainer Type="WZUITableContainer" GUID="{5d6b2923-b4a2-422e-99e3-c45b4bea8b18}" Name="tconAuctionItem_WndAuctionRank" ColumnCount="5" CellElementHeight="0.5" EnableMoveHorizontal="False" />
+                </WZUIContainer>
+            </WZUIContainer>
+            <Button Type="WZUIButton" GUID="{61390874-3523-4427-aa87-53808e2bb81a}" AbsContentSize="60,60" UseAbsSize="True" RelativePosition="0.964188,0.946984" LuaDoneFunctionName="onCloseClick">
+                <NormalElement Type="WZUIContainer" GUID="{03df0df2-8d4b-4adb-b62c-bde1f1ed655b}">
+                    <WZUIImage Type="WZUIImage" GUID="{53bd24f7-4f3d-41eb-8f56-11b77d35cc6d}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+                </NormalElement>
+                <SelectElement Type="WZUIContainer" GUID="{b9836913-db11-4c4f-bb51-77ff4254cac4}">
+                    <WZUIImage Type="WZUIImage" GUID="{25ff46a5-d1fb-45fb-8709-776a4db3400a}" File="ui/common/common_top_btn_guanbi.png" UseOriginSize="True" />
+                </SelectElement>
+                <DisableElement Type="WZUIContainer" GUID="{3a705e2a-9b5f-42ce-a324-4d2249b742ec}" />
+            </Button>
+        </WZUIContainer>
+    </WZUIWindow>
+</WndAuctionRank>

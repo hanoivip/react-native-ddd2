@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<CellGuestNumList GUID="{A20595BF-C439-4ffb-A273-E932144B8DD2}">
+    <WZUIContainer AbsContentSize="440,75" GUID="{4861C23D-68EC-418b-9C06-9223004AB484}" LuaObjectName="" Name="CellGuestNumList" NameCreate="True" TouchContainerEnable="True" Type="WZUIContainer" UseAbsSize="True">
+        <WZUIContainer Type="WZUIContainer" GUID="{B13BE9ED-E3DD-4ac7-8CA9-57FC0989B482}" AbsContentSize="415,75" UseAbsSize="True" AnchorPoint="1,0.5" RelativePosition="1,0.5">
+            <WZUI9Image Type="WZUI9Image" GUID="{3F88FEFC-C01D-40e4-A0DC-17BAA025C4E8}" Name="imgOnLine_CellGuestNumList" File="ui/common/common_scale9_di18.png" RelativeSize="1,1" />
+        </WZUIContainer>
+        <WZUIImage Type="WZUIImage" GUID="{c2e2e5d7-0ffd-4dc8-a0f3-25dfaffc9e66}" File="ui/common/common_icon_kuafu.png" UseOriginSize="True" AnchorPoint="0,0.5" Name="imgKuafuIcon_CellGuestNumList" Visible="False" />
+        <WZUILabelTTF Color="62,34,8" FontSize="24" GUID="{b377f323-ffc2-42a6-8c24-f91416427711}" Name="txtName_CellGuestNumList" RelativePosition="0.467,0.5" Text="孤独求败" Type="WZUILabelTTF" AnchorPoint="0,0.5" LabelStyleKey="C13_F24" />
+        <WZUILabelTTF Type="WZUILabelTTF" GUID="{fd69b84c-64f3-413e-b8e9-9edfd2778a4c}" FontSize="24" Name="txtLevel_CellGuestNumList" Color="132,66,29" Text="Lv.30" RelativePosition="0.453938,0.5" AnchorPoint="1,0.5" LabelStyleKey="" />
+        <WZUIContainer GUID="{ab68948f-4e46-4f0c-9799-ef0f62661ce5}" Name="conLevel_CellGuestNumList" RelativePosition="0.0827799,0.5" RelativeSize="1,1" TouchEnable="False" TouchSwallow="False" Type="WZUIContainer" UseAbsCoordinate="False" UseAbsSize="True" AbsContentSize="85,85">
+            <WZUIImage Type="WZUIImage" GUID="{43de702f-fa31-44b2-b507-297fdb93fe90}" File="ui/common/common_icon_tx.png" UseOriginSize="False" RelativePosition="0.5,0.5" />
+        </WZUIContainer>
+        <WZUIButton GUID="{dabdfd9e-4e11-4aa9-9873-a5cc5ae9929a}" LuaDoneFunctionName="onClickButtonCell" RelativePosition="0.5,0.5" Type="WZUIButton">
+            <NormalElement GUID="{d13fd853-d378-480f-97ba-9879489ea625}" Type="WZUIContainer" />
+            <SelectElement GUID="{26fe0eac-140b-4f89-9030-1ef9ea3a56e3}" Type="WZUIContainer" />
+            <DisableElement GUID="{49dae2ed-3e65-435d-9d8b-afc6f6e0f657}" Type="WZUIContainer" />
+        </WZUIButton>
+    </WZUIContainer>
+</CellGuestNumList>
